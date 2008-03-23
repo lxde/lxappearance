@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-23 10:50+0800\n"
+"PO-Revision-Date: 2008-03-23 12:22+0800\n"
+"Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
+"Language-Team: zh_TW <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+#: src/main-dlg-ui.c:124
+msgid "Appearance Settings"
+msgstr "外觀設定"
+
+#: src/main-dlg-ui.c:142
+msgid "Available Window Themes"
+msgstr "可用的視窗佈景主題"
+
+#: src/main-dlg-ui.c:155
+msgid "Window"
+msgstr "視窗"
+
+#: src/main-dlg-ui.c:163
+msgid "Available Icon Themes"
+msgstr "可用的圖示佈景主題"
+
+#: src/main-dlg-ui.c:177
+msgid "Icon"
+msgstr "圖示"
+
+#: src/main-dlg-ui.c:185
+msgid "Available Fonts"
+msgstr "可用的字型"
+
+#: src/main-dlg-ui.c:203
+msgid "Font Size:"
+msgstr ""
+
+#: src/main-dlg-ui.c:216
+msgid "Style:"
+msgstr ""
+
+#: src/main-dlg-ui.c:229
+msgid "Font"
+msgstr ""
+
+#: src/main-dlg-ui.c:237
+msgid "Other"
+msgstr "其他"
+
+#: src/main-dlg-ui.c:245
+msgid "<b>Preview</b>"
+msgstr "<b>預覽</b>"
+
+#: src/main-dlg-ui.c:268
+msgid "_File"
+msgstr "檔案(_F)"
+
+#: src/main-dlg-ui.c:300
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+#: src/main-dlg-ui.c:323
+msgid "_Help"
+msgstr "說明(_H)"
+
+#: src/main-dlg-ui.c:344
+msgid "Back"
+msgstr "上一頁"
+
+#: src/main-dlg-ui.c:349
+msgid "Forward"
+msgstr "下一頁"
+
+#: src/main-dlg-ui.c:354
+msgid "Stop"
+msgstr "停止"
+
+#: src/main-dlg-ui.c:370
+msgid "Tab1"
+msgstr "分頁1"
+
+#: src/main-dlg-ui.c:392
+#: src/main-dlg-ui.c:398
+msgid "Radio Button"
+msgstr ""
+
+#: src/main-dlg-ui.c:408
+msgid "Check Button"
+msgstr ""
+
+#: src/main-dlg-ui.c:417
+msgid "Demo"
+msgstr ""
+
+#: src/main-dlg-ui.c:446
+msgid "button1"
+msgstr ""
+
+#: src/main-dlg-ui.c:453
+msgid "Test Item 1"
+msgstr "測試項目1"
+
+#: src/main-dlg-ui.c:454
+msgid "Test Item 2"
+msgstr "測試項目2"
+
+#: src/main-dlg-ui.c:455
+msgid "Test Item 3"
+msgstr "測試項目3"
+
+#: src/main-dlg-ui.c:457
+msgid "Tab2"
+msgstr "分頁2"
+
+#: src/main-dlg-ui.c:465
+msgid "Tab3"
+msgstr "分頁3"
+
+#: src/glade-support.c:90
+#: src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
