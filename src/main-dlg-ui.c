@@ -85,7 +85,7 @@ create_dlg (void)
   GtkWidget *toolbutton3;
   GtkWidget *notebook2;
   GtkWidget *scrolledwindow4;
-  GtkWidget *iconview1;
+  GtkWidget *icon_view;
   GtkWidget *label12;
   GtkWidget *hbox2;
   GtkWidget *frame2;
@@ -108,6 +108,8 @@ create_dlg (void)
   GtkWidget *button1;
   GtkWidget *combobox2;
   GtkWidget *label13;
+  GtkWidget *scrolledwindow5;
+  GtkWidget *text_view;
   GtkWidget *label14;
   GtkWidget *statusbar1;
   GtkWidget *dialog_action_area1;
@@ -151,6 +153,7 @@ create_dlg (void)
   gtk_theme_view = gtk_tree_view_new ();
   gtk_widget_show (gtk_theme_view);
   gtk_container_add (GTK_CONTAINER (scrolledwindow1), gtk_theme_view);
+  gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (gtk_theme_view), FALSE);
 
   label2 = gtk_label_new (_("Window"));
   gtk_widget_show (label2);
@@ -173,6 +176,7 @@ create_dlg (void)
   icon_theme_view = gtk_tree_view_new ();
   gtk_widget_show (icon_theme_view);
   gtk_container_add (GTK_CONTAINER (scrolledwindow2), icon_theme_view);
+  gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (icon_theme_view), FALSE);
 
   label3 = gtk_label_new (_("Icon"));
   gtk_widget_show (label3);
@@ -195,6 +199,7 @@ create_dlg (void)
   font_view = gtk_tree_view_new ();
   gtk_widget_show (font_view);
   gtk_container_add (GTK_CONTAINER (scrolledwindow3), font_view);
+  gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (font_view), FALSE);
 
   table1 = gtk_table_new (2, 2, FALSE);
   gtk_widget_show (table1);
@@ -363,9 +368,9 @@ create_dlg (void)
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolledwindow4), GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
   gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scrolledwindow4), GTK_SHADOW_IN);
 
-  iconview1 = gtk_icon_view_new ();
-  gtk_widget_show (iconview1);
-  gtk_container_add (GTK_CONTAINER (scrolledwindow4), iconview1);
+  icon_view = gtk_icon_view_new ();
+  gtk_widget_show (icon_view);
+  gtk_container_add (GTK_CONTAINER (scrolledwindow4), icon_view);
 
   label12 = gtk_label_new (_("Tab1"));
   gtk_widget_show (label12);
@@ -458,9 +463,15 @@ create_dlg (void)
   gtk_widget_show (label13);
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook2), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook2), 1), label13);
 
-  empty_notebook_page = gtk_vbox_new (FALSE, 0);
-  gtk_widget_show (empty_notebook_page);
-  gtk_container_add (GTK_CONTAINER (notebook2), empty_notebook_page);
+  scrolledwindow5 = gtk_scrolled_window_new (NULL, NULL);
+  gtk_widget_show (scrolledwindow5);
+  gtk_container_add (GTK_CONTAINER (notebook2), scrolledwindow5);
+  gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolledwindow5), GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
+  gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scrolledwindow5), GTK_SHADOW_IN);
+
+  text_view = gtk_text_view_new ();
+  gtk_widget_show (text_view);
+  gtk_container_add (GTK_CONTAINER (scrolledwindow5), text_view);
 
   label14 = gtk_label_new (_("Tab3"));
   gtk_widget_show (label14);
@@ -549,7 +560,7 @@ create_dlg (void)
   GLADE_HOOKUP_OBJECT (dlg, toolbutton3, "toolbutton3");
   GLADE_HOOKUP_OBJECT (dlg, notebook2, "notebook2");
   GLADE_HOOKUP_OBJECT (dlg, scrolledwindow4, "scrolledwindow4");
-  GLADE_HOOKUP_OBJECT (dlg, iconview1, "iconview1");
+  GLADE_HOOKUP_OBJECT (dlg, icon_view, "icon_view");
   GLADE_HOOKUP_OBJECT (dlg, label12, "label12");
   GLADE_HOOKUP_OBJECT (dlg, hbox2, "hbox2");
   GLADE_HOOKUP_OBJECT (dlg, frame2, "frame2");
@@ -569,6 +580,8 @@ create_dlg (void)
   GLADE_HOOKUP_OBJECT (dlg, button1, "button1");
   GLADE_HOOKUP_OBJECT (dlg, combobox2, "combobox2");
   GLADE_HOOKUP_OBJECT (dlg, label13, "label13");
+  GLADE_HOOKUP_OBJECT (dlg, scrolledwindow5, "scrolledwindow5");
+  GLADE_HOOKUP_OBJECT (dlg, text_view, "text_view");
   GLADE_HOOKUP_OBJECT (dlg, label14, "label14");
   GLADE_HOOKUP_OBJECT (dlg, statusbar1, "statusbar1");
   GLADE_HOOKUP_OBJECT_NO_REF (dlg, dialog_action_area1, "dialog_action_area1");

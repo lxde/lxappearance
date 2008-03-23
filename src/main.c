@@ -26,14 +26,8 @@ main (int argc, char *argv[])
   gtk_set_locale ();
   gtk_init (&argc, &argv);
 
-  add_pixmap_directory (PACKAGE_DATA_DIR "/" PACKAGE "/pixmaps");
-
-  /*
-   * The following code was added by Glade to create one of each component
-   * (except popup menus), just so that you see something after building
-   * the project. Delete any components that you don't want shown initially.
-   */
   dlg = create_dlg ();
+  main_dlg_init( dlg );
   gtk_widget_show (dlg);
 
   gtk_main ();

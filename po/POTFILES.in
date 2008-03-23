@@ -3,4 +3,3 @@
 src/main.c
 src/main-dlg-ui.c
 src/main-dlg.c
-src/glade-support.c
