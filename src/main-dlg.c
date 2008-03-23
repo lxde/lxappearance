@@ -15,15 +15,55 @@
     load_##name##s( name##_list );
 
 static GtkTreeView* gtk_theme_view = NULL;
-GtkListStore* gtk_theme_list = NULL;
+static GtkListStore* gtk_theme_list = NULL;
 
 static GtkTreeView* icon_theme_view = NULL;
-GtkListStore* icon_theme_list = NULL;
+static GtkListStore* icon_theme_list = NULL;
 
 static GtkTreeView* font_view = NULL;
-GtkListStore* font_list = NULL;
+static GtkListStore* font_list = NULL;
 
-static on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
+static GtkIconView* icon_view = NULL;
+
+static void reload_demo_icons()
+{
+    static const char** icon_names[]={
+        "gnome-fs-home",
+        "gnome-fs-desktop",
+        "gnome-fs-directory",
+        "gnome-fs-trash-empty",
+        "gnome-fs-regular",
+        "gnome-fs-executable",
+        "gnome-mime-image",
+        "gnome-mime-text"
+    };
+
+    int i;
+    GtkIconTheme* theme = gtk_icon_theme_get_default();
+    GtkListStore* demo_icon_list;
+
+    demo_icon_list = gtk_list_store_new( 2, GDK_TYPE_PIXBUF, G_TYPE_STRING );
+
+    for( i = 0; i < G_N_ELEMENTS(icon_names); ++i )
+    {
+        GtkTreeIter it;
+        GdkPixbuf* icon = gtk_icon_theme_load_icon( theme, icon_names[i], 32, 0, NULL );
+        gtk_list_store_append( demo_icon_list, &it );
+        gtk_list_store_set( demo_icon_list, &it, 0, icon, 1, icon_names[i], -1 );
+        if( icon )
+            g_object_unref( icon );
+    }
+    gtk_icon_view_set_model( icon_view, demo_icon_list );
+    g_object_unref( demo_icon_list );
+}
+
+static void reload_theme()
+{
+
+    gtk_rc_reparse_all();
+}
+
+static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
 {
     GtkTreeIter it;
     GtkTreeModel* model;
@@ -37,6 +77,9 @@ static on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
         }
         g_object_set( gtk_settings_get_default(), prop, name, NULL );
         g_free( name );
+
+        if( model == icon_theme_list ) /* icon theme is changed */
+            reload_demo_icons();
     }
 }
 
@@ -120,6 +163,13 @@ void main_dlg_init( GtkWidget* dlg )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
     INIT_LIST( font, "gtk-font-name" )
 
+    GET_WIDGET( icon_view );
+    gtk_icon_view_set_pixbuf_column( icon_view, 0 );
+    gtk_icon_view_set_text_column( icon_view, 1 );
+    gtk_icon_view_set_item_width( icon_view, 64 );
+    gtk_icon_view_set_column_spacing( icon_view, 8 );
+    gtk_icon_view_set_row_spacing( icon_view, 8 );
+    reload_demo_icons();
 }
 
 void
