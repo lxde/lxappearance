@@ -11,7 +11,9 @@ lxappearance_SOURCES = \
 	main.c \
 	glade-support.c glade-support.h \
 	main-dlg-ui.c main-dlg-ui.h \
-	main-dlg.c main-dlg.h
+	main-dlg.c main-dlg.h \
+	demo-ui.c demo-ui.h \
+	demo.c demo.h
 
 lxappearance_LDADD = @PACKAGE_LIBS@ $(INTLLIBS)
 

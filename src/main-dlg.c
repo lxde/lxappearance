@@ -3,10 +3,18 @@
 #endif
 
 #include <gtk/gtk.h>
+#include <gdk/gdkx.h>
+
+#include <stdio.h>
 
 #include "main-dlg.h"
 #include "main-dlg-ui.h"
 #include "glade-support.h"
+
+/* for kill & waitpid */
+#include <sys/types.h>
+#include <signal.h>
+#include <sys/wait.h>
 
 #define GET_WIDGET( name )  name = lookup_widget( dlg, #name )
 #define INIT_LIST(name, prop) \
@@ -20,41 +28,34 @@ static GtkListStore* gtk_theme_list = NULL;
 static GtkTreeView* icon_theme_view = NULL;
 static GtkListStore* icon_theme_list = NULL;
 
+static char* gtk_theme_name = NULL;
+static char* icon_theme_name = NULL;
+static char* font_name = NULL;
+
+static char* tmp_file = "/tmp/gtkrc";
+
+/*
 static GtkTreeView* font_view = NULL;
 static GtkListStore* font_list = NULL;
+*/
+static GtkWidget* demo_socket = NULL;
+static GPid demo_pid = 0;
 
-static GtkIconView* icon_view = NULL;
-
-static void reload_demo_icons()
+static void write_rc_file( const char* path )
 {
-    static const char** icon_names[]={
-        "gnome-fs-home",
-        "gnome-fs-desktop",
-        "gnome-fs-directory",
-        "gnome-fs-trash-empty",
-        "gnome-fs-regular",
-        "gnome-fs-executable",
-        "gnome-mime-image",
-        "gnome-mime-text"
-    };
-
-    int i;
-    GtkIconTheme* theme = gtk_icon_theme_get_default();
-    GtkListStore* demo_icon_list;
-
-    demo_icon_list = gtk_list_store_new( 2, GDK_TYPE_PIXBUF, G_TYPE_STRING );
-
-    for( i = 0; i < G_N_ELEMENTS(icon_names); ++i )
+    FILE* f;
+    if( f = fopen( path, "w" ) )
     {
-        GtkTreeIter it;
-        GdkPixbuf* icon = gtk_icon_theme_load_icon( theme, icon_names[i], 32, 0, NULL );
-        gtk_list_store_append( demo_icon_list, &it );
-        gtk_list_store_set( demo_icon_list, &it, 0, icon, 1, icon_names[i], -1 );
-        if( icon )
-            g_object_unref( icon );
+        fputs( "# DO NOT EDIT!  This file will be overwritten by LXAppearance.\n"
+                 "# Any customization should be done in ~/.gtkrc-2.0.mine\n", f );
+
+        fprintf( f, "gtk-theme-name=\"%s\"\n", gtk_theme_name );
+        fprintf( f, "gtk-icon-theme-name=\"%s\"\n", icon_theme_name );
+        fprintf( f, "gtk-font-name=\"%s\"\n", font_name );
+        fprintf( f, "include \"%s/.gtkrc-2.0.mine\"\n", g_get_home_dir() );
+
+        fclose( f );
     }
-    gtk_icon_view_set_model( icon_view, demo_icon_list );
-    g_object_unref( demo_icon_list );
 }
 
 static void reload_theme()
@@ -71,15 +72,27 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
     {
         char* name;
         gtk_tree_model_get( model, &it, 0, &name, -1 );
-        if( model == font_list )    /* this is a font */
+
+        if( model == gtk_theme_list )   /* gtk+ theme */
         {
-
+            if( name && gtk_theme_name && 0 == strcmp( name, gtk_theme_name ) )
+                goto out;
+            g_free( gtk_theme_name );
+            gtk_theme_name = name;
+        g_debug("HERE: %s", gtk_theme_name);
         }
-        g_object_set( gtk_settings_get_default(), prop, name, NULL );
+        else if( model == icon_theme_list )   /* icon theme */
+        {
+            if( name && icon_theme_name && 0 == strcmp( name, icon_theme_name ) )
+                goto out;
+            g_free( icon_theme_name );
+            icon_theme_name = name;
+        }
+        write_rc_file( tmp_file );
+        gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
+        return;
+    out:
         g_free( name );
-
-        if( model == icon_theme_list ) /* icon theme is changed */
-            reload_demo_icons();
     }
 }
 
@@ -87,9 +100,11 @@ static GtkListStore* init_tree_view( GtkTreeView* view, GCallback on_sel_changed
 {
     GtkTreeViewColumn* col;
     GtkListStore* list;
+    GtkTreeSelection* sel;
     col = gtk_tree_view_column_new_with_attributes( NULL, gtk_cell_renderer_text_new(), "text", 0, NULL );
     gtk_tree_view_append_column( view, col );
-    g_signal_connect( gtk_tree_view_get_selection(view), "changed", on_sel_changed, prop );
+    sel = gtk_tree_view_get_selection(view);
+    g_signal_connect( sel, "changed", on_sel_changed, prop );
 
     list = gtk_list_store_new( 1, G_TYPE_STRING );
     gtk_tree_view_set_model( view, (GtkTreeModel*)list );
@@ -99,7 +114,9 @@ static GtkListStore* init_tree_view( GtkTreeView* view, GCallback on_sel_changed
 
 static void load_themes_from_dir( GtkListStore* list,
                                                     const char* dir_path,
-                                                    const char* lookup )
+                                                    const char* lookup,
+                                                    GtkTreeSelection* sel,
+                                                    const char* init_sel )
 {
     GDir* dir;
     if( dir = g_dir_open( dir_path, 0, NULL ) )
@@ -113,6 +130,16 @@ static void load_themes_from_dir( GtkListStore* list,
                 GtkTreeIter it;
                 gtk_list_store_append( list, &it );
                 gtk_list_store_set( list, &it, 0, name, -1 );
+                if( 0 == strcmp( name, init_sel ) )
+                {
+                    GtkTreeView* view;
+                    GtkTreePath* tp;
+                    gtk_tree_selection_select_iter( sel, &it );
+                    view = gtk_tree_selection_get_tree_view( sel );
+                    tp = gtk_tree_model_get_path( (GtkTreeModel*)list, &it );
+                    gtk_tree_view_scroll_to_cell( view, tp, NULL, FALSE, 0, 0 );
+                    gtk_tree_path_free( tp );
+                }
             }
             g_free( file );
         }
@@ -122,7 +149,9 @@ static void load_themes_from_dir( GtkListStore* list,
 
 static void load_from_data_dirs( GtkListStore* list,
                                                 const char* relative_path,
-                                                const char* lookup )
+                                                const char* lookup,
+                                                GtkTreeSelection* sel,
+                                                const char* init_sel  )
 {
     const char* const *dirs = g_get_system_data_dirs();
     const char* const *dir;
@@ -130,46 +159,79 @@ static void load_from_data_dirs( GtkListStore* list,
     for( dir = dirs; *dir; ++dir )
     {
         dir_path = g_build_filename( *dir, relative_path, NULL );
-        load_themes_from_dir( list, dir_path, lookup );
+        load_themes_from_dir( list, dir_path, lookup, sel, init_sel );
         g_free( dir_path );
     }
     dir_path = g_build_filename( g_get_user_data_dir(), relative_path, NULL );
-    load_themes_from_dir( list, dir_path, lookup );
+    load_themes_from_dir( list, dir_path, lookup, sel, init_sel );
     g_free( dir_path );
 }
 
 static void load_gtk_themes( GtkListStore* list )
 {
-    load_from_data_dirs( list, "themes", "gtk-2.0" );
+    GtkTreeSelection* sel = gtk_tree_view_get_selection( gtk_theme_view );
+    load_from_data_dirs( list, "themes", "gtk-2.0", sel, gtk_theme_name );
 }
 
 static void load_icon_themes( GtkListStore* list )
 {
     char* path;
-    load_from_data_dirs( list, "icons", "index.theme" );
+    GtkTreeSelection* sel = gtk_tree_view_get_selection( icon_theme_view );
+    load_from_data_dirs( list, "icons", "index.theme", sel, icon_theme_name );
     path = g_build_filename( g_get_home_dir(), ".icons", NULL );
-    load_themes_from_dir( list, path, "index.theme" );
+    load_themes_from_dir( list, path, "index.theme", sel, icon_theme_name );
     g_free( path );
 }
 
+/*
 static void load_fonts( GtkListStore* list )
 {
 
 }
+*/
+
+static void load_demo_process()
+{
+    char* argv[]={ NULL, "demo", NULL, NULL };
+    char wid[16];
+
+    if( demo_pid > 0 ) /* kill old demo */
+    {
+
+    }
+    g_snprintf( wid, 16, "%ld", gtk_socket_get_id(demo_socket) );
+
+    argv[0] = g_get_prgname();
+    argv[2] = wid;
+    g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, &demo_pid, NULL );
+}
 
 void main_dlg_init( GtkWidget* dlg )
 {
+    GtkWidget* demo_box;
+    char* files[] = { tmp_file, NULL };
+
+    g_object_get( gtk_settings_get_default(), "gtk-theme-name", &gtk_theme_name, NULL );
+    g_object_get( gtk_settings_get_default(), "gtk-icon-theme-name", &icon_theme_name, NULL );
+    g_object_get( gtk_settings_get_default(), "gtk-font-name", &font_name, NULL );
+
+    gtk_rc_set_default_files( files );
+    write_rc_file( tmp_file );
+    gtk_rc_reparse_all();
+
     INIT_LIST( gtk_theme, "gtk-theme-name" )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
-    INIT_LIST( font, "gtk-font-name" )
-
-    GET_WIDGET( icon_view );
-    gtk_icon_view_set_pixbuf_column( icon_view, 0 );
-    gtk_icon_view_set_text_column( icon_view, 1 );
-    gtk_icon_view_set_item_width( icon_view, 64 );
-    gtk_icon_view_set_column_spacing( icon_view, 8 );
-    gtk_icon_view_set_row_spacing( icon_view, 8 );
-    reload_demo_icons();
+    /* INIT_LIST( font, "gtk-font-name" ) */
+/*
+    GET_WIDGET( demo_box );
+    demo_socket = gtk_socket_new();
+    gtk_widget_show( demo_socket );
+    gtk_widget_show( demo_box );
+    gtk_widget_set_app_paintable( demo_socket, TRUE );
+    gtk_container_add( (GtkContainer*)demo_box, demo_socket );
+    gtk_widget_realize( dlg );
+    load_demo_process();
+*/
 }
 
 void
@@ -177,5 +239,19 @@ on_apply_clicked                       (GtkButton       *button,
                                         gpointer         user_data)
 {
 
+}
+
+
+void
+on_font_changed                        (GtkFontButton   *fontbutton,
+                                        gpointer         user_data)
+{
+    const char* name = gtk_font_button_get_font_name(fontbutton);
+    if( name && font_name && 0 == strcmp( font_name ) )
+        return;
+    g_free( font_name );
+    font_name = g_strdup( name );
+    write_rc_file( tmp_file );
+    gtk_rc_reparse_all_for_settings( gtk_settings_get_default(), TRUE );
 }
 

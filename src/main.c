@@ -8,29 +8,53 @@
 #endif
 
 #include <gtk/gtk.h>
+#include <string.h>
 
 #include "main-dlg-ui.h"
+#include "demo.h"
 #include "glade-support.h"
 
-int
-main (int argc, char *argv[])
+static void reload_all_programs( gboolean icon_only )
 {
-  GtkWidget *dlg;
+    GdkEventClient event;
+    event.type = GDK_CLIENT_EVENT;
+    event.send_event = TRUE;
+    event.window = NULL;
+
+    if( icon_only )
+        event.message_type = gdk_atom_intern("_GTK_LOAD_ICONTHEMES", FALSE);
+    else
+        event.message_type = gdk_atom_intern("_GTK_READ_RCFILES", FALSE);
+
+    event.data_format = 8;
+    gdk_event_send_clientmessage_toall((GdkEvent *)&event);
+}
+
+int main (int argc, char *argv[])
+{
+    GtkWidget *dlg;
 
 #ifdef ENABLE_NLS
-  bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
-  bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-  textdomain (GETTEXT_PACKAGE);
+    bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
+    bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+    textdomain (GETTEXT_PACKAGE);
 #endif
 
-  gtk_set_locale ();
-  gtk_init (&argc, &argv);
+    gtk_set_locale ();
+    gtk_init (&argc, &argv);
 
-  dlg = create_dlg ();
-  main_dlg_init( dlg );
-  gtk_widget_show (dlg);
+    if( argc >= 3 && strcmp( argv[1], "demo" ) == 0 )
+    {
+        show_demo( (GdkNativeWindow)atoi( argv[2] ) );
+        gtk_main();
+        return 0;
+    }
 
-  gtk_main ();
-  return 0;
+    dlg = create_dlg ();
+    main_dlg_init( dlg );
+    gtk_widget_show (dlg);
+
+    gtk_main ();
+    return 0;
 }
 
