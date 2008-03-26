@@ -14,22 +14,6 @@
 #include "demo.h"
 #include "glade-support.h"
 
-static void reload_all_programs( gboolean icon_only )
-{
-    GdkEventClient event;
-    event.type = GDK_CLIENT_EVENT;
-    event.send_event = TRUE;
-    event.window = NULL;
-
-    if( icon_only )
-        event.message_type = gdk_atom_intern("_GTK_LOAD_ICONTHEMES", FALSE);
-    else
-        event.message_type = gdk_atom_intern("_GTK_READ_RCFILES", FALSE);
-
-    event.data_format = 8;
-    gdk_event_send_clientmessage_toall((GdkEvent *)&event);
-}
-
 int main (int argc, char *argv[])
 {
     GtkWidget *dlg;

@@ -34,7 +34,8 @@ static char* gtk_theme_name = NULL;
 static char* icon_theme_name = NULL;
 static char* font_name = NULL;
 
-static char tmp_file[] = "/tmp/gtkrc-2.0-XXXXXX";
+static char tmp_rc_file[] = "/tmp/gtkrc-2.0-XXXXXX";
+static char* rc_file = NULL;
 
 /*
 static GtkTreeView* font_view = NULL;
@@ -89,7 +90,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             g_free( icon_theme_name );
             icon_theme_name = name;
         }
-        write_rc_file( tmp_file );
+        write_rc_file( tmp_rc_file );
         gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
         return;
     out:
@@ -210,10 +211,21 @@ static void load_demo_process()
 void main_dlg_init( GtkWidget* dlg )
 {
     GtkWidget* demo_box;
-    char* files[] = { tmp_file, NULL };
+    char* files[] = { tmp_rc_file, NULL };
+    char** def_files = gtk_rc_get_default_files();
+    char** file;
 
-    mkstemp( tmp_file );
-g_debug(tmp_file);
+    for( file = def_files; *file; ++file )
+    {
+        if( 0 == access( *file, W_OK ) )
+            rc_file = *file;
+    }
+    if( rc_file )
+        rc_file = g_strdup( rc_file );
+    else
+        rc_file = g_build_filename( g_get_home_dir(), ".gtkrc-2.0", NULL );
+    mkstemp( tmp_rc_file );
+
     g_object_get( gtk_settings_get_default(), "gtk-theme-name", &gtk_theme_name, NULL );
     if(  ! gtk_theme_name )
         gtk_theme_name = g_strdup( "Raleigh" );
@@ -225,7 +237,7 @@ g_debug(tmp_file);
         font_name = g_strdup( "Sans 10" );
 
     gtk_rc_set_default_files( files );
-    write_rc_file( tmp_file );
+    write_rc_file( tmp_rc_file );
     gtk_rc_reparse_all();
 
     INIT_LIST( gtk_theme, "gtk-theme-name" )
@@ -245,11 +257,28 @@ g_debug(tmp_file);
 */
 }
 
+static void reload_all_programs( gboolean icon_only )
+{
+    GdkEventClient event;
+    event.type = GDK_CLIENT_EVENT;
+    event.send_event = TRUE;
+    event.window = NULL;
+
+    if( icon_only )
+        event.message_type = gdk_atom_intern("_GTK_LOAD_ICONTHEMES", FALSE);
+    else
+        event.message_type = gdk_atom_intern("_GTK_READ_RCFILES", FALSE);
+
+    event.data_format = 8;
+    gdk_event_send_clientmessage_toall((GdkEvent *)&event);
+}
+
 void
 on_apply_clicked                       (GtkButton       *button,
                                         gpointer         user_data)
 {
-
+    write_rc_file( rc_file );
+    reload_all_programs( FALSE );
 }
 
 
@@ -262,7 +291,7 @@ on_font_changed                        (GtkFontButton   *fontbutton,
         return;
     g_free( font_name );
     font_name = g_strdup( name );
-    write_rc_file( tmp_file );
+    write_rc_file( tmp_rc_file );
     gtk_rc_reparse_all_for_settings( gtk_settings_get_default(), TRUE );
 }
 
