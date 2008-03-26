@@ -6,6 +6,8 @@
 #include <gdk/gdkx.h>
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 #include "main-dlg.h"
 #include "main-dlg-ui.h"
@@ -32,7 +34,7 @@ static char* gtk_theme_name = NULL;
 static char* icon_theme_name = NULL;
 static char* font_name = NULL;
 
-static char* tmp_file = "/tmp/gtkrc";
+static char tmp_file[] = "/tmp/gtkrc-2.0-XXXXXX";
 
 /*
 static GtkTreeView* font_view = NULL;
@@ -47,7 +49,7 @@ static void write_rc_file( const char* path )
     if( f = fopen( path, "w" ) )
     {
         fputs( "# DO NOT EDIT!  This file will be overwritten by LXAppearance.\n"
-                 "# Any customization should be done in ~/.gtkrc-2.0.mine\n", f );
+                 "# Any customization should be done in ~/.gtkrc-2.0.mine\n\n", f );
 
         fprintf( f, "gtk-theme-name=\"%s\"\n", gtk_theme_name );
         fprintf( f, "gtk-icon-theme-name=\"%s\"\n", icon_theme_name );
@@ -79,7 +81,6 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
                 goto out;
             g_free( gtk_theme_name );
             gtk_theme_name = name;
-        g_debug("HERE: %s", gtk_theme_name);
         }
         else if( model == icon_theme_list )   /* icon theme */
         {
@@ -211,9 +212,17 @@ void main_dlg_init( GtkWidget* dlg )
     GtkWidget* demo_box;
     char* files[] = { tmp_file, NULL };
 
+    mkstemp( tmp_file );
+g_debug(tmp_file);
     g_object_get( gtk_settings_get_default(), "gtk-theme-name", &gtk_theme_name, NULL );
+    if(  ! gtk_theme_name )
+        gtk_theme_name = g_strdup( "Raleigh" );
     g_object_get( gtk_settings_get_default(), "gtk-icon-theme-name", &icon_theme_name, NULL );
+    if(  ! icon_theme_name )
+        gtk_theme_name = g_strdup( "hicolor" );
     g_object_get( gtk_settings_get_default(), "gtk-font-name", &font_name, NULL );
+    if( ! font_name )
+        font_name = g_strdup( "Sans 10" );
 
     gtk_rc_set_default_files( files );
     write_rc_file( tmp_file );
@@ -221,6 +230,8 @@ void main_dlg_init( GtkWidget* dlg )
 
     INIT_LIST( gtk_theme, "gtk-theme-name" )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
+    gtk_font_button_set_font_name( (GtkFontButton*)lookup_widget(dlg, "font"), font_name );
+
     /* INIT_LIST( font, "gtk-font-name" ) */
 /*
     GET_WIDGET( demo_box );
