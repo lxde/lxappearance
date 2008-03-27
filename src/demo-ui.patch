@@ -1,0 +1,59 @@
+--- demo-ui.c.orig	2008-03-27 23:13:31.000000000 +0800
++++ demo-ui.c	2008-03-27 23:14:23.000000000 +0800
+@@ -92,14 +92,18 @@
+   tooltips = gtk_tooltips_new ();
+ 
+   accel_group = gtk_accel_group_new ();
+-
++/*
+   demo_window = gtk_window_new (GTK_WINDOW_POPUP);
+   gtk_widget_set_events (demo_window, GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK);
+   gtk_window_set_decorated (GTK_WINDOW (demo_window), FALSE);
+-
++*/
+   top_vbox = gtk_vbox_new (FALSE, 0);
+   gtk_widget_show (top_vbox);
++  demo_window = top_vbox;
++
++/*
+   gtk_container_add (GTK_CONTAINER (demo_window), top_vbox);
++*/
+ 
+   menubar1 = gtk_menu_bar_new ();
+   gtk_widget_show (menubar1);
+@@ -340,6 +344,8 @@
+                     NULL);
+ 
+   /* Store pointers to all widgets, for use by lookup_widget(). */
++
++/*
+   GLADE_HOOKUP_OBJECT_NO_REF (demo_window, demo_window, "demo_window");
+   GLADE_HOOKUP_OBJECT (demo_window, top_vbox, "top_vbox");
+   GLADE_HOOKUP_OBJECT (demo_window, menubar1, "menubar1");
+@@ -367,7 +373,9 @@
+   GLADE_HOOKUP_OBJECT (demo_window, toolbutton3, "toolbutton3");
+   GLADE_HOOKUP_OBJECT (demo_window, notebook2, "notebook2");
+   GLADE_HOOKUP_OBJECT (demo_window, scrolledwindow4, "scrolledwindow4");
++*/
+   GLADE_HOOKUP_OBJECT (demo_window, icon_view, "icon_view");
++/*
+   GLADE_HOOKUP_OBJECT (demo_window, label12, "label12");
+   GLADE_HOOKUP_OBJECT (demo_window, hbox2, "hbox2");
+   GLADE_HOOKUP_OBJECT (demo_window, frame2, "frame2");
+@@ -391,13 +399,15 @@
+   GLADE_HOOKUP_OBJECT (demo_window, text_view, "text_view");
+   GLADE_HOOKUP_OBJECT (demo_window, label14, "label14");
+   GLADE_HOOKUP_OBJECT (demo_window, scrolledwindow6, "scrolledwindow6");
++*/
+   GLADE_HOOKUP_OBJECT (demo_window, demo_treeview, "demo_treeview");
++/*
+   GLADE_HOOKUP_OBJECT (demo_window, label17, "label17");
+   GLADE_HOOKUP_OBJECT (demo_window, statusbar1, "statusbar1");
+   GLADE_HOOKUP_OBJECT_NO_REF (demo_window, tooltips, "tooltips");
+ 
+   gtk_window_add_accel_group (GTK_WINDOW (demo_window), accel_group);
+-
++*/
+   return demo_window;
+ }
+ 

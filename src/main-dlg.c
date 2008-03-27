@@ -41,8 +41,42 @@ static char* rc_file = NULL;
 static GtkTreeView* font_view = NULL;
 static GtkListStore* font_list = NULL;
 */
+static GtkWidget* demo_box = NULL;
 static GtkWidget* demo_socket = NULL;
 static GPid demo_pid = 0;
+
+static void load_demo_process()
+{
+    char* argv[5];
+    char wid[16];
+
+    if( demo_pid > 0 ) /* kill old demo */
+    {
+        int stat;
+//        if( demo_socket )
+//            gtk_widget_destroy( demo_socket );
+        kill( demo_pid, SIGTERM );
+        waitpid( demo_pid, &stat, 0 );
+        demo_pid = 0;
+    }
+
+    if( !demo_socket )
+    {
+        demo_socket = gtk_socket_new();
+        g_signal_connect( demo_socket, "plug-removed", G_CALLBACK(gtk_true), NULL );
+        gtk_widget_show( demo_socket );
+        gtk_container_add( (GtkContainer*)demo_box, demo_socket );
+    }
+
+    g_snprintf( wid, 16, "%ld", gtk_socket_get_id(demo_socket) );
+
+    argv[0] = g_get_prgname();
+    argv[1] = "demo";
+    argv[2] = wid;
+    argv[3] = tmp_rc_file;
+    argv[4] = NULL;
+    g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, &demo_pid, NULL );
+}
 
 static void write_rc_file( const char* path )
 {
@@ -91,7 +125,8 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             icon_theme_name = name;
         }
         write_rc_file( tmp_rc_file );
-        gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
+        //gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
+        load_demo_process();
         return;
     out:
         g_free( name );
@@ -192,25 +227,8 @@ static void load_fonts( GtkListStore* list )
 }
 */
 
-static void load_demo_process()
-{
-    char* argv[]={ NULL, "demo", NULL, NULL };
-    char wid[16];
-
-    if( demo_pid > 0 ) /* kill old demo */
-    {
-
-    }
-    g_snprintf( wid, 16, "%ld", gtk_socket_get_id(demo_socket) );
-
-    argv[0] = g_get_prgname();
-    argv[2] = wid;
-    g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, &demo_pid, NULL );
-}
-
 void main_dlg_init( GtkWidget* dlg )
 {
-    GtkWidget* demo_box;
     char* files[] = { tmp_rc_file, NULL };
     char** def_files = gtk_rc_get_default_files();
     char** file;
@@ -236,25 +254,20 @@ void main_dlg_init( GtkWidget* dlg )
     if( ! font_name )
         font_name = g_strdup( "Sans 10" );
 
-    gtk_rc_set_default_files( files );
     write_rc_file( tmp_rc_file );
-    gtk_rc_reparse_all();
 
     INIT_LIST( gtk_theme, "gtk-theme-name" )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
     gtk_font_button_set_font_name( (GtkFontButton*)lookup_widget(dlg, "font"), font_name );
 
     /* INIT_LIST( font, "gtk-font-name" ) */
-/*
+
     GET_WIDGET( demo_box );
-    demo_socket = gtk_socket_new();
-    gtk_widget_show( demo_socket );
+
     gtk_widget_show( demo_box );
-    gtk_widget_set_app_paintable( demo_socket, TRUE );
-    gtk_container_add( (GtkContainer*)demo_box, demo_socket );
+//    gtk_widget_set_app_paintable( demo_socket, TRUE );
     gtk_widget_realize( dlg );
     load_demo_process();
-*/
 }
 
 static void reload_all_programs( gboolean icon_only )
@@ -292,6 +305,6 @@ on_font_changed                        (GtkFontButton   *fontbutton,
     g_free( font_name );
     font_name = g_strdup( name );
     write_rc_file( tmp_rc_file );
-    gtk_rc_reparse_all_for_settings( gtk_settings_get_default(), TRUE );
+    load_demo_process();
 }
 

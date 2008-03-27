@@ -24,15 +24,20 @@ int main (int argc, char *argv[])
     textdomain (GETTEXT_PACKAGE);
 #endif
 
-    gtk_set_locale ();
-    gtk_init (&argc, &argv);
-
     if( argc >= 3 && strcmp( argv[1], "demo" ) == 0 )
     {
+        char* files[] = { argv[3], NULL };
+        gtk_rc_set_default_files(files);
+
+        gtk_set_locale ();
+        gtk_init (&argc, &argv);
         show_demo( (GdkNativeWindow)atoi( argv[2] ) );
         gtk_main();
         return 0;
     }
+
+    gtk_set_locale ();
+    gtk_init (&argc, &argv);
 
     dlg = create_dlg ();
     main_dlg_init( dlg );
