@@ -45,6 +45,13 @@ create_dlg (void)
   GtkWidget *label7;
   GtkWidget *scrolledwindow2;
   GtkWidget *icon_theme_view;
+  GtkWidget *hbox5;
+  GtkWidget *install_theme;
+  GtkWidget *alignment1;
+  GtkWidget *hbox6;
+  GtkWidget *image1;
+  GtkWidget *label18;
+  GtkWidget *remove_theme;
   GtkWidget *label3;
   GtkWidget *empty_notebook_page;
   GtkWidget *label5;
@@ -128,6 +135,34 @@ create_dlg (void)
   gtk_container_add (GTK_CONTAINER (scrolledwindow2), icon_theme_view);
   gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (icon_theme_view), FALSE);
 
+  hbox5 = gtk_hbox_new (FALSE, 4);
+  gtk_widget_show (hbox5);
+  gtk_box_pack_start (GTK_BOX (vbox3), hbox5, FALSE, TRUE, 2);
+  gtk_container_set_border_width (GTK_CONTAINER (hbox5), 2);
+
+  install_theme = gtk_button_new ();
+  gtk_widget_show (install_theme);
+  gtk_box_pack_start (GTK_BOX (hbox5), install_theme, TRUE, TRUE, 0);
+
+  alignment1 = gtk_alignment_new (0.5, 0.5, 0, 0);
+  gtk_widget_show (alignment1);
+  gtk_container_add (GTK_CONTAINER (install_theme), alignment1);
+
+  hbox6 = gtk_hbox_new (FALSE, 2);
+  gtk_widget_show (hbox6);
+  gtk_container_add (GTK_CONTAINER (alignment1), hbox6);
+
+  image1 = gtk_image_new_from_stock ("gtk-add", GTK_ICON_SIZE_BUTTON);
+  gtk_widget_show (image1);
+  gtk_box_pack_start (GTK_BOX (hbox6), image1, FALSE, FALSE, 0);
+
+  label18 = gtk_label_new_with_mnemonic (_("_Install"));
+  gtk_widget_show (label18);
+  gtk_box_pack_start (GTK_BOX (hbox6), label18, FALSE, FALSE, 0);
+
+  remove_theme = gtk_button_new_from_stock ("gtk-remove");
+  gtk_box_pack_start (GTK_BOX (hbox5), remove_theme, TRUE, TRUE, 0);
+
   label3 = gtk_label_new (_("Icon"));
   gtk_widget_show (label3);
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 1), label3);
@@ -179,6 +214,12 @@ create_dlg (void)
   g_signal_connect ((gpointer) font, "font_set",
                     G_CALLBACK (on_font_changed),
                     NULL);
+  g_signal_connect ((gpointer) install_theme, "clicked",
+                    G_CALLBACK (on_install_theme_clicked),
+                    NULL);
+  g_signal_connect ((gpointer) remove_theme, "clicked",
+                    G_CALLBACK (on_remove_theme_clicked),
+                    NULL);
   g_signal_connect ((gpointer) apply, "clicked",
                     G_CALLBACK (on_apply_clicked),
                     NULL);
@@ -205,6 +246,13 @@ create_dlg (void)
   GLADE_HOOKUP_OBJECT (dlg, label7, "label7");
   GLADE_HOOKUP_OBJECT (dlg, scrolledwindow2, "scrolledwindow2");
   GLADE_HOOKUP_OBJECT (dlg, icon_theme_view, "icon_theme_view");
+  GLADE_HOOKUP_OBJECT (dlg, hbox5, "hbox5");
+  GLADE_HOOKUP_OBJECT (dlg, install_theme, "install_theme");
+  GLADE_HOOKUP_OBJECT (dlg, alignment1, "alignment1");
+  GLADE_HOOKUP_OBJECT (dlg, hbox6, "hbox6");
+  GLADE_HOOKUP_OBJECT (dlg, image1, "image1");
+  GLADE_HOOKUP_OBJECT (dlg, label18, "label18");
+  GLADE_HOOKUP_OBJECT (dlg, remove_theme, "remove_theme");
   GLADE_HOOKUP_OBJECT (dlg, label3, "label3");
   GLADE_HOOKUP_OBJECT (dlg, label5, "label5");
   GLADE_HOOKUP_OBJECT (dlg, vbox1, "vbox1");

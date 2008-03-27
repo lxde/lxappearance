@@ -53,8 +53,6 @@ static void reload_demo_process()
     if( demo_pid > 0 ) /* kill old demo */
     {
         int stat;
-//        if( demo_socket )
-//            gtk_widget_destroy( demo_socket );
         kill( demo_pid, SIGTERM );
         waitpid( demo_pid, &stat, 0 );
         demo_pid = 0;
@@ -310,5 +308,21 @@ on_font_changed                        (GtkFontButton   *fontbutton,
     font_name = g_strdup( name );
     write_rc_file( tmp_rc_file );
     reload_demo_process();
+}
+
+
+void
+on_install_theme_clicked               (GtkButton       *button,
+                                        gpointer         user_data)
+{
+
+}
+
+
+void
+on_remove_theme_clicked                (GtkButton       *button,
+                                        gpointer         user_data)
+{
+
 }
 
