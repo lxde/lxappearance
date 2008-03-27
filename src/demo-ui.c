@@ -77,6 +77,10 @@ create_demo_window (void)
   GtkObject *spinbutton1_adj;
   GtkWidget *spinbutton1;
   GtkWidget *button1;
+  GtkWidget *alignment3;
+  GtkWidget *hbox4;
+  GtkWidget *image1;
+  GtkWidget *label18;
   GtkWidget *combobox2;
   GtkWidget *label13;
   GtkWidget *scrolledwindow5;
@@ -278,7 +282,7 @@ create_demo_window (void)
   gtk_progress_bar_set_fraction (GTK_PROGRESS_BAR (progressbar1), 0.6);
   gtk_progress_bar_set_text (GTK_PROGRESS_BAR (progressbar1), "60 %");
 
-  hscale1 = gtk_hscale_new (GTK_ADJUSTMENT (gtk_adjustment_new (0, 0, 0, 0, 0, 0)));
+  hscale1 = gtk_hscale_new (GTK_ADJUSTMENT (gtk_adjustment_new (0, 0, 100, 10, 0, 0)));
   gtk_widget_show (hscale1);
   gtk_box_pack_start (GTK_BOX (vbox7), hscale1, FALSE, TRUE, 0);
 
@@ -291,9 +295,25 @@ create_demo_window (void)
   gtk_widget_show (spinbutton1);
   gtk_box_pack_start (GTK_BOX (hbox3), spinbutton1, TRUE, TRUE, 0);
 
-  button1 = gtk_button_new_with_mnemonic (_("button1"));
+  button1 = gtk_button_new ();
   gtk_widget_show (button1);
   gtk_box_pack_start (GTK_BOX (hbox3), button1, FALSE, FALSE, 0);
+
+  alignment3 = gtk_alignment_new (0.5, 0.5, 0, 0);
+  gtk_widget_show (alignment3);
+  gtk_container_add (GTK_CONTAINER (button1), alignment3);
+
+  hbox4 = gtk_hbox_new (FALSE, 2);
+  gtk_widget_show (hbox4);
+  gtk_container_add (GTK_CONTAINER (alignment3), hbox4);
+
+  image1 = gtk_image_new_from_stock ("gtk-find", GTK_ICON_SIZE_BUTTON);
+  gtk_widget_show (image1);
+  gtk_box_pack_start (GTK_BOX (hbox4), image1, FALSE, FALSE, 0);
+
+  label18 = gtk_label_new_with_mnemonic (_("button"));
+  gtk_widget_show (label18);
+  gtk_box_pack_start (GTK_BOX (hbox4), label18, FALSE, FALSE, 0);
 
   combobox2 = gtk_combo_box_new_text ();
   gtk_widget_show (combobox2);
@@ -324,6 +344,7 @@ create_demo_window (void)
   scrolledwindow6 = gtk_scrolled_window_new (NULL, NULL);
   gtk_widget_show (scrolledwindow6);
   gtk_container_add (GTK_CONTAINER (notebook2), scrolledwindow6);
+  gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolledwindow6), GTK_POLICY_NEVER, GTK_POLICY_ALWAYS);
   gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scrolledwindow6), GTK_SHADOW_IN);
 
   demo_treeview = gtk_tree_view_new ();
@@ -393,6 +414,10 @@ create_demo_window (void)
   GLADE_HOOKUP_OBJECT (demo_window, hbox3, "hbox3");
   GLADE_HOOKUP_OBJECT (demo_window, spinbutton1, "spinbutton1");
   GLADE_HOOKUP_OBJECT (demo_window, button1, "button1");
+  GLADE_HOOKUP_OBJECT (demo_window, alignment3, "alignment3");
+  GLADE_HOOKUP_OBJECT (demo_window, hbox4, "hbox4");
+  GLADE_HOOKUP_OBJECT (demo_window, image1, "image1");
+  GLADE_HOOKUP_OBJECT (demo_window, label18, "label18");
   GLADE_HOOKUP_OBJECT (demo_window, combobox2, "combobox2");
   GLADE_HOOKUP_OBJECT (demo_window, label13, "label13");
   GLADE_HOOKUP_OBJECT (demo_window, scrolledwindow5, "scrolledwindow5");

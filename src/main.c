@@ -41,7 +41,6 @@ int main (int argc, char *argv[])
 
     dlg = create_dlg ();
     main_dlg_init( dlg );
-    gtk_widget_show (dlg);
 
     gtk_main ();
     return 0;

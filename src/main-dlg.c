@@ -45,7 +45,7 @@ static GtkWidget* demo_box = NULL;
 static GtkWidget* demo_socket = NULL;
 static GPid demo_pid = 0;
 
-static void load_demo_process()
+static void reload_demo_process()
 {
     char* argv[5];
     char wid[16];
@@ -58,14 +58,6 @@ static void load_demo_process()
         kill( demo_pid, SIGTERM );
         waitpid( demo_pid, &stat, 0 );
         demo_pid = 0;
-    }
-
-    if( !demo_socket )
-    {
-        demo_socket = gtk_socket_new();
-        g_signal_connect( demo_socket, "plug-removed", G_CALLBACK(gtk_true), NULL );
-        gtk_widget_show( demo_socket );
-        gtk_container_add( (GtkContainer*)demo_box, demo_socket );
     }
 
     g_snprintf( wid, 16, "%ld", gtk_socket_get_id(demo_socket) );
@@ -126,7 +118,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
         }
         write_rc_file( tmp_rc_file );
         //gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
-        load_demo_process();
+        reload_demo_process();
         return;
     out:
         g_free( name );
@@ -227,6 +219,13 @@ static void load_fonts( GtkListStore* list )
 }
 */
 
+static void on_demo_loaded( GtkSocket* socket, GtkWidget* dlg )
+{
+    gtk_window_set_position( (GtkWindow*)dlg, GTK_WIN_POS_CENTER );
+    gtk_widget_show( dlg );
+    g_signal_handlers_disconnect_by_func( socket, on_demo_loaded, dlg );
+}
+
 void main_dlg_init( GtkWidget* dlg )
 {
     char* files[] = { tmp_rc_file, NULL };
@@ -263,11 +262,16 @@ void main_dlg_init( GtkWidget* dlg )
     /* INIT_LIST( font, "gtk-font-name" ) */
 
     GET_WIDGET( demo_box );
-
     gtk_widget_show( demo_box );
-//    gtk_widget_set_app_paintable( demo_socket, TRUE );
+
+    demo_socket = gtk_socket_new();
+    g_signal_connect( demo_socket, "plug-added", G_CALLBACK(on_demo_loaded), dlg );
+    g_signal_connect( demo_socket, "plug-removed", G_CALLBACK(gtk_true), NULL );
+    gtk_widget_show( demo_socket );
+    gtk_container_add( (GtkContainer*)demo_box, demo_socket );
+
     gtk_widget_realize( dlg );
-    load_demo_process();
+    reload_demo_process();
 }
 
 static void reload_all_programs( gboolean icon_only )
@@ -305,6 +309,6 @@ on_font_changed                        (GtkFontButton   *fontbutton,
     g_free( font_name );
     font_name = g_strdup( name );
     write_rc_file( tmp_rc_file );
-    load_demo_process();
+    reload_demo_process();
 }
 
