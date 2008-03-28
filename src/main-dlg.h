@@ -17,3 +17,7 @@ on_install_theme_clicked               (GtkButton       *button,
 void
 on_remove_theme_clicked                (GtkButton       *button,
                                         gpointer         user_data);
+
+void
+on_tb_style_changed                    (GtkComboBox     *combobox,
+                                        gpointer         user_data);

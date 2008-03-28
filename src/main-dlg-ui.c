@@ -53,7 +53,10 @@ create_dlg (void)
   GtkWidget *label18;
   GtkWidget *remove_theme;
   GtkWidget *label3;
-  GtkWidget *empty_notebook_page;
+  GtkWidget *vbox5;
+  GtkWidget *vbox6;
+  GtkWidget *label19;
+  GtkWidget *tb_style;
   GtkWidget *label5;
   GtkWidget *vbox1;
   GtkWidget *label15;
@@ -167,9 +170,27 @@ create_dlg (void)
   gtk_widget_show (label3);
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 1), label3);
 
-  empty_notebook_page = gtk_vbox_new (FALSE, 0);
-  gtk_widget_show (empty_notebook_page);
-  gtk_container_add (GTK_CONTAINER (notebook1), empty_notebook_page);
+  vbox5 = gtk_vbox_new (FALSE, 4);
+  gtk_widget_show (vbox5);
+  gtk_container_add (GTK_CONTAINER (notebook1), vbox5);
+
+  vbox6 = gtk_vbox_new (FALSE, 0);
+  gtk_widget_show (vbox6);
+  gtk_box_pack_start (GTK_BOX (vbox5), vbox6, FALSE, TRUE, 0);
+  gtk_container_set_border_width (GTK_CONTAINER (vbox6), 4);
+
+  label19 = gtk_label_new (_("Toolbar Style: "));
+  gtk_widget_show (label19);
+  gtk_box_pack_start (GTK_BOX (vbox6), label19, FALSE, FALSE, 0);
+  gtk_misc_set_alignment (GTK_MISC (label19), 0, 0.5);
+
+  tb_style = gtk_combo_box_new_text ();
+  gtk_widget_show (tb_style);
+  gtk_box_pack_start (GTK_BOX (vbox6), tb_style, TRUE, TRUE, 0);
+  gtk_combo_box_append_text (GTK_COMBO_BOX (tb_style), _("Icons only"));
+  gtk_combo_box_append_text (GTK_COMBO_BOX (tb_style), _("Text only"));
+  gtk_combo_box_append_text (GTK_COMBO_BOX (tb_style), _("Text below icons"));
+  gtk_combo_box_append_text (GTK_COMBO_BOX (tb_style), _("Text beside icons"));
 
   label5 = gtk_label_new (_("Other"));
   gtk_widget_show (label5);
@@ -220,6 +241,9 @@ create_dlg (void)
   g_signal_connect ((gpointer) remove_theme, "clicked",
                     G_CALLBACK (on_remove_theme_clicked),
                     NULL);
+  g_signal_connect ((gpointer) tb_style, "changed",
+                    G_CALLBACK (on_tb_style_changed),
+                    NULL);
   g_signal_connect ((gpointer) apply, "clicked",
                     G_CALLBACK (on_apply_clicked),
                     NULL);
@@ -254,6 +278,10 @@ create_dlg (void)
   GLADE_HOOKUP_OBJECT (dlg, label18, "label18");
   GLADE_HOOKUP_OBJECT (dlg, remove_theme, "remove_theme");
   GLADE_HOOKUP_OBJECT (dlg, label3, "label3");
+  GLADE_HOOKUP_OBJECT (dlg, vbox5, "vbox5");
+  GLADE_HOOKUP_OBJECT (dlg, vbox6, "vbox6");
+  GLADE_HOOKUP_OBJECT (dlg, label19, "label19");
+  GLADE_HOOKUP_OBJECT (dlg, tb_style, "tb_style");
   GLADE_HOOKUP_OBJECT (dlg, label5, "label5");
   GLADE_HOOKUP_OBJECT (dlg, vbox1, "vbox1");
   GLADE_HOOKUP_OBJECT (dlg, label15, "label15");

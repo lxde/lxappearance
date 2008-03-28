@@ -33,6 +33,7 @@ static GtkListStore* icon_theme_list = NULL;
 static char* gtk_theme_name = NULL;
 static char* icon_theme_name = NULL;
 static char* font_name = NULL;
+static GtkToolbarStyle tb_style = GTK_TOOLBAR_BOTH_HORIZ;
 
 static char tmp_rc_file[] = "/tmp/gtkrc-2.0-XXXXXX";
 static char* rc_file = NULL;
@@ -71,6 +72,13 @@ static void reload_demo_process()
 static void write_rc_file( const char* path )
 {
     FILE* f;
+    static char* tb_styles[] = {
+        "GTK_TOOLBAR_ICONS",
+        "GTK_TOOLBAR_TEXT",
+        "GTK_TOOLBAR_BOTH",
+        "GTK_TOOLBAR_BOTH_HORIZ"
+    };
+
     if( f = fopen( path, "w" ) )
     {
         fputs( "# DO NOT EDIT!  This file will be overwritten by LXAppearance.\n"
@@ -79,6 +87,8 @@ static void write_rc_file( const char* path )
         fprintf( f, "gtk-theme-name=\"%s\"\n", gtk_theme_name );
         fprintf( f, "gtk-icon-theme-name=\"%s\"\n", icon_theme_name );
         fprintf( f, "gtk-font-name=\"%s\"\n", font_name );
+        fprintf( f, "gtk-toolbar-style=%d\n", tb_style );
+
         fprintf( f, "include \"%s/.gtkrc-2.0.mine\"\n", g_get_home_dir() );
 
         fclose( f );
@@ -196,8 +206,12 @@ static void load_from_data_dirs( GtkListStore* list,
 
 static void load_gtk_themes( GtkListStore* list )
 {
+    char* path;
     GtkTreeSelection* sel = gtk_tree_view_get_selection( gtk_theme_view );
     load_from_data_dirs( list, "themes", "gtk-2.0", sel, gtk_theme_name );
+    path = g_build_filename( g_get_home_dir(), ".themes", NULL );
+    load_themes_from_dir( list, path, "gtk-2.0", sel, icon_theme_name );
+    g_free( path );
 }
 
 static void load_icon_themes( GtkListStore* list )
@@ -239,15 +253,20 @@ void main_dlg_init( GtkWidget* dlg )
         rc_file = g_strdup( rc_file );
     else
         rc_file = g_build_filename( g_get_home_dir(), ".gtkrc-2.0", NULL );
+
     mkstemp( tmp_rc_file );
 
-    g_object_get( gtk_settings_get_default(), "gtk-theme-name", &gtk_theme_name, NULL );
+    g_object_get( gtk_settings_get_default(),
+                        "gtk-theme-name", &gtk_theme_name,
+                        "gtk-icon-theme-name", &icon_theme_name,
+                        "gtk-font-name", &font_name,
+                        "gtk-toolbar-style", &tb_style,
+                        NULL );
+
     if(  ! gtk_theme_name )
         gtk_theme_name = g_strdup( "Raleigh" );
-    g_object_get( gtk_settings_get_default(), "gtk-icon-theme-name", &icon_theme_name, NULL );
     if(  ! icon_theme_name )
         gtk_theme_name = g_strdup( "hicolor" );
-    g_object_get( gtk_settings_get_default(), "gtk-font-name", &font_name, NULL );
     if( ! font_name )
         font_name = g_strdup( "Sans 10" );
 
@@ -257,7 +276,7 @@ void main_dlg_init( GtkWidget* dlg )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
     gtk_font_button_set_font_name( (GtkFontButton*)lookup_widget(dlg, "font"), font_name );
 
-    /* INIT_LIST( font, "gtk-font-name" ) */
+    gtk_combo_box_set_active( (GtkComboBox*)lookup_widget(dlg, "tb_style"), tb_style < 4 ? tb_style : 3 );
 
     GET_WIDGET( demo_box );
     gtk_widget_show( demo_box );
@@ -315,7 +334,25 @@ void
 on_install_theme_clicked               (GtkButton       *button,
                                         gpointer         user_data)
 {
+    GtkFileFilter* filter = gtk_file_filter_new();
+    GtkWidget* fc = gtk_file_chooser_dialog_new( _("Select an icon theme"), NULL,
+                                        GTK_FILE_CHOOSER_ACTION_OPEN,
+                                        GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL,
+                                        GTK_STOCK_OPEN, GTK_RESPONSE_OK, NULL );
 
+    gtk_file_filter_add_pattern( filter, "*.tar.gz" );
+    gtk_file_filter_add_pattern( filter, "*.tar.bz2" );
+    gtk_file_filter_set_name( filter, _("*.tar.gz, *.tar.bz2 (Icon Theme)") );
+
+    gtk_file_chooser_add_filter( fc, filter );
+    gtk_file_chooser_set_filter( (GtkFileChooser*)fc, filter );
+
+    if( gtk_dialog_run( (GtkDialog*)fc ) == GTK_RESPONSE_OK )
+    {
+
+    }
+
+    gtk_widget_destroy( fc );
 }
 
 
@@ -324,5 +361,18 @@ on_remove_theme_clicked                (GtkButton       *button,
                                         gpointer         user_data)
 {
 
+}
+
+
+void
+on_tb_style_changed                    (GtkComboBox     *combobox,
+                                        gpointer         user_data)
+{
+    int sel = gtk_combo_box_get_active( combobox );
+    if( sel == tb_style || sel < 0 )
+        return;
+    tb_style = sel;
+    write_rc_file( tmp_rc_file );
+    reload_demo_process();
 }
 

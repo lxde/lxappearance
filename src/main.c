@@ -39,6 +39,9 @@ int main (int argc, char *argv[])
     gtk_set_locale ();
     gtk_init (&argc, &argv);
 
+    /* Dirty hack: "gtk-toolbar-style" is installed in class_init of GtkToolbar */
+    gtk_widget_destroy( gtk_toolbar_new() );
+
     dlg = create_dlg ();
     main_dlg_init( dlg );
 

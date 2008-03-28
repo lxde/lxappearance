@@ -47,6 +47,10 @@ void show_demo( GdkNativeWindow wid )
     GtkWidget* demo = create_demo_window();
     GtkWidget* plug = gtk_plug_new( wid );
     GtkWidget* top_vbox;
+    GtkToolbarStyle tb_style;
+
+    g_object_get( gtk_settings_get_default(), "gtk-toolbar-style", &tb_style, NULL );
+    gtk_toolbar_set_style (GTK_TOOLBAR (lookup_widget(demo, "toolbar")), tb_style );
 
     icon_view = lookup_widget( demo, "icon_view" );
     gtk_widget_show_all( demo );

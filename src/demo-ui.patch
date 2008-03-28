@@ -1,6 +1,6 @@
---- demo-ui.c.orig	2008-03-27 23:13:31.000000000 +0800
-+++ demo-ui.c	2008-03-27 23:14:23.000000000 +0800
-@@ -92,14 +92,18 @@
+--- demo-ui.c.orig	2008-03-27 23:59:03.000000000 +0800
++++ demo-ui.c	2008-03-29 07:30:57.000000000 +0800
+@@ -96,14 +96,18 @@
    tooltips = gtk_tooltips_new ();
  
    accel_group = gtk_accel_group_new ();
@@ -21,7 +21,7 @@
  
    menubar1 = gtk_menu_bar_new ();
    gtk_widget_show (menubar1);
-@@ -340,6 +344,8 @@
+@@ -361,6 +365,8 @@
                      NULL);
  
    /* Store pointers to all widgets, for use by lookup_widget(). */
@@ -30,7 +30,15 @@
    GLADE_HOOKUP_OBJECT_NO_REF (demo_window, demo_window, "demo_window");
    GLADE_HOOKUP_OBJECT (demo_window, top_vbox, "top_vbox");
    GLADE_HOOKUP_OBJECT (demo_window, menubar1, "menubar1");
-@@ -367,7 +373,9 @@
+@@ -382,13 +388,17 @@
+   GLADE_HOOKUP_OBJECT (demo_window, menuitem4_menu, "menuitem4_menu");
+   GLADE_HOOKUP_OBJECT (demo_window, about1, "about1");
+   GLADE_HOOKUP_OBJECT (demo_window, handlebox1, "handlebox1");
++*/
+   GLADE_HOOKUP_OBJECT (demo_window, toolbar, "toolbar");
++/*
+   GLADE_HOOKUP_OBJECT (demo_window, toolbutton1, "toolbutton1");
+   GLADE_HOOKUP_OBJECT (demo_window, toolbutton2, "toolbutton2");
    GLADE_HOOKUP_OBJECT (demo_window, toolbutton3, "toolbutton3");
    GLADE_HOOKUP_OBJECT (demo_window, notebook2, "notebook2");
    GLADE_HOOKUP_OBJECT (demo_window, scrolledwindow4, "scrolledwindow4");
@@ -40,7 +48,7 @@
    GLADE_HOOKUP_OBJECT (demo_window, label12, "label12");
    GLADE_HOOKUP_OBJECT (demo_window, hbox2, "hbox2");
    GLADE_HOOKUP_OBJECT (demo_window, frame2, "frame2");
-@@ -391,13 +399,15 @@
+@@ -416,13 +426,15 @@
    GLADE_HOOKUP_OBJECT (demo_window, text_view, "text_view");
    GLADE_HOOKUP_OBJECT (demo_window, label14, "label14");
    GLADE_HOOKUP_OBJECT (demo_window, scrolledwindow6, "scrolledwindow6");

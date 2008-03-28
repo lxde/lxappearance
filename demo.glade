@@ -172,7 +172,7 @@
 	  <property name="snap_edge">GTK_POS_TOP</property>
 
 	  <child>
-	    <widget class="GtkToolbar" id="toolbar1">
+	    <widget class="GtkToolbar" id="toolbar">
 	      <property name="visible">True</property>
 	      <property name="orientation">GTK_ORIENTATION_HORIZONTAL</property>
 	      <property name="toolbar_style">GTK_TOOLBAR_BOTH</property>
@@ -186,7 +186,7 @@
 		  <property name="stock_id">gtk-go-back</property>
 		  <property name="visible_horizontal">True</property>
 		  <property name="visible_vertical">True</property>
-		  <property name="is_important">False</property>
+		  <property name="is_important">True</property>
 		</widget>
 		<packing>
 		  <property name="expand">False</property>
@@ -216,7 +216,7 @@
 		  <property name="stock_id">gtk-stop</property>
 		  <property name="visible_horizontal">True</property>
 		  <property name="visible_vertical">True</property>
-		  <property name="is_important">False</property>
+		  <property name="is_important">True</property>
 		</widget>
 		<packing>
 		  <property name="expand">False</property>

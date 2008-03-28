@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-27 23:59+0800\n"
-"PO-Revision-Date: 2008-03-28 00:00+0800\n"
+"POT-Creation-Date: 2008-03-28 23:41+0800\n"
+"PO-Revision-Date: 2008-03-28 23:43+0800\n"
 "Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,37 +18,69 @@ msgstr ""
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
-#: src/main-dlg-ui.c:60
+#: src/main-dlg-ui.c:70
 msgid "Appearance Settings"
 msgstr "外觀設定"
 
-#: src/main-dlg-ui.c:78
+#: src/main-dlg-ui.c:88
 msgid "Available Window Themes"
 msgstr "可用的視窗佈景主題"
 
-#: src/main-dlg-ui.c:96
+#: src/main-dlg-ui.c:106
 msgid "_Font:"
 msgstr "字型"
 
-#: src/main-dlg-ui.c:108
+#: src/main-dlg-ui.c:118
 msgid "Window"
 msgstr "視窗"
 
-#: src/main-dlg-ui.c:116
+#: src/main-dlg-ui.c:126
 msgid "Available Icon Themes"
 msgstr "可用的圖示佈景主題"
 
-#: src/main-dlg-ui.c:131
+#: src/main-dlg-ui.c:162
+msgid "_Install"
+msgstr "安裝(_I)"
+
+#: src/main-dlg-ui.c:169
 msgid "Icon"
 msgstr "圖示"
 
-#: src/main-dlg-ui.c:139
+#: src/main-dlg-ui.c:182
+msgid "Toolbar Style: "
+msgstr "工具列樣式："
+
+#: src/main-dlg-ui.c:190
+msgid "Icons only"
+msgstr "只顯示圖示"
+
+#: src/main-dlg-ui.c:191
+msgid "Text only"
+msgstr "只顯示文字"
+
+#: src/main-dlg-ui.c:192
+msgid "Text below icons"
+msgstr "文字在圖示下方"
+
+#: src/main-dlg-ui.c:193
+msgid "Text beside icons"
+msgstr "文字在圖示旁"
+
+#: src/main-dlg-ui.c:195
 msgid "Other"
 msgstr "其他"
 
-#: src/main-dlg-ui.c:147
+#: src/main-dlg-ui.c:203
 msgid "<b>Preview</b>"
 msgstr "<b>預覽</b>"
+
+#: src/main-dlg.c:324
+msgid "Select an icon theme"
+msgstr "選擇一個圖示佈景主題"
+
+#: src/main-dlg.c:331
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
 
 #: src/demo-ui.c:116
 msgid "_File"

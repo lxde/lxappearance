@@ -50,7 +50,7 @@ create_demo_window (void)
   GtkWidget *menuitem4_menu;
   GtkWidget *about1;
   GtkWidget *handlebox1;
-  GtkWidget *toolbar1;
+  GtkWidget *toolbar;
   GtkIconSize tmp_toolbar_icon_size;
   GtkWidget *toolbutton1;
   GtkWidget *toolbutton2;
@@ -183,27 +183,29 @@ create_demo_window (void)
   gtk_widget_show (handlebox1);
   gtk_box_pack_start (GTK_BOX (top_vbox), handlebox1, FALSE, FALSE, 0);
 
-  toolbar1 = gtk_toolbar_new ();
-  gtk_widget_show (toolbar1);
-  gtk_container_add (GTK_CONTAINER (handlebox1), toolbar1);
-  gtk_toolbar_set_style (GTK_TOOLBAR (toolbar1), GTK_TOOLBAR_BOTH);
-  gtk_toolbar_set_show_arrow (GTK_TOOLBAR (toolbar1), FALSE);
-  tmp_toolbar_icon_size = gtk_toolbar_get_icon_size (GTK_TOOLBAR (toolbar1));
+  toolbar = gtk_toolbar_new ();
+  gtk_widget_show (toolbar);
+  gtk_container_add (GTK_CONTAINER (handlebox1), toolbar);
+  gtk_toolbar_set_style (GTK_TOOLBAR (toolbar), GTK_TOOLBAR_BOTH);
+  gtk_toolbar_set_show_arrow (GTK_TOOLBAR (toolbar), FALSE);
+  tmp_toolbar_icon_size = gtk_toolbar_get_icon_size (GTK_TOOLBAR (toolbar));
 
   toolbutton1 = (GtkWidget*) gtk_tool_button_new_from_stock ("gtk-go-back");
   gtk_widget_show (toolbutton1);
-  gtk_container_add (GTK_CONTAINER (toolbar1), toolbutton1);
+  gtk_container_add (GTK_CONTAINER (toolbar), toolbutton1);
   gtk_tool_item_set_tooltip (GTK_TOOL_ITEM (toolbutton1), tooltips, _("Back"), NULL);
+  gtk_tool_item_set_is_important (GTK_TOOL_ITEM (toolbutton1), TRUE);
 
   toolbutton2 = (GtkWidget*) gtk_tool_button_new_from_stock ("gtk-go-forward");
   gtk_widget_show (toolbutton2);
-  gtk_container_add (GTK_CONTAINER (toolbar1), toolbutton2);
+  gtk_container_add (GTK_CONTAINER (toolbar), toolbutton2);
   gtk_tool_item_set_tooltip (GTK_TOOL_ITEM (toolbutton2), tooltips, _("Forward"), NULL);
 
   toolbutton3 = (GtkWidget*) gtk_tool_button_new_from_stock ("gtk-stop");
   gtk_widget_show (toolbutton3);
-  gtk_container_add (GTK_CONTAINER (toolbar1), toolbutton3);
+  gtk_container_add (GTK_CONTAINER (toolbar), toolbutton3);
   gtk_tool_item_set_tooltip (GTK_TOOL_ITEM (toolbutton3), tooltips, _("Stop"), NULL);
+  gtk_tool_item_set_is_important (GTK_TOOL_ITEM (toolbutton3), TRUE);
 
   notebook2 = gtk_notebook_new ();
   gtk_widget_show (notebook2);
@@ -388,7 +390,9 @@ create_demo_window (void)
   GLADE_HOOKUP_OBJECT (demo_window, menuitem4_menu, "menuitem4_menu");
   GLADE_HOOKUP_OBJECT (demo_window, about1, "about1");
   GLADE_HOOKUP_OBJECT (demo_window, handlebox1, "handlebox1");
-  GLADE_HOOKUP_OBJECT (demo_window, toolbar1, "toolbar1");
+*/
+  GLADE_HOOKUP_OBJECT (demo_window, toolbar, "toolbar");
+/*
   GLADE_HOOKUP_OBJECT (demo_window, toolbutton1, "toolbutton1");
   GLADE_HOOKUP_OBJECT (demo_window, toolbutton2, "toolbutton2");
   GLADE_HOOKUP_OBJECT (demo_window, toolbutton3, "toolbutton3");
