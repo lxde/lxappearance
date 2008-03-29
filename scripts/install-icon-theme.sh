@@ -1,6 +1,6 @@
 #!/bin/sh
 # Script used to install new icon theme.
-# Copyright (C) 2008 pauliu, pcman
+# Copyright (C) 2008 paulliu, pcman
 # License: GNU GPL
 
 # test argc

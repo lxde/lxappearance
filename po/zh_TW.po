@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-29 09:37+0800\n"
+"POT-Creation-Date: 2008-03-29 10:09+0800\n"
 "PO-Revision-Date: 2008-03-29 09:37+0800\n"
 "Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
@@ -26,51 +26,51 @@ msgstr "外觀設定"
 msgid "Available Window Themes"
 msgstr "可用的視窗佈景主題"
 
-#: src/main-dlg-ui.c:108
+#: src/main-dlg-ui.c:110
 msgid "_Font:"
 msgstr "字型"
 
-#: src/main-dlg-ui.c:120
+#: src/main-dlg-ui.c:122
 msgid "Window"
 msgstr "視窗"
 
-#: src/main-dlg-ui.c:128
+#: src/main-dlg-ui.c:130
 msgid "Available Icon Themes"
 msgstr "可用的圖示佈景主題"
 
-#: src/main-dlg-ui.c:164
+#: src/main-dlg-ui.c:167
 msgid "_Install"
 msgstr "安裝(_I)"
 
-#: src/main-dlg-ui.c:171
+#: src/main-dlg-ui.c:174
 msgid "Icon"
 msgstr "圖示"
 
-#: src/main-dlg-ui.c:184
+#: src/main-dlg-ui.c:187
 msgid "Toolbar Style: "
 msgstr "工具列樣式："
 
-#: src/main-dlg-ui.c:192
+#: src/main-dlg-ui.c:195
 msgid "Icons only"
 msgstr "只顯示圖示"
 
-#: src/main-dlg-ui.c:193
+#: src/main-dlg-ui.c:196
 msgid "Text only"
 msgstr "只顯示文字"
 
-#: src/main-dlg-ui.c:194
+#: src/main-dlg-ui.c:197
 msgid "Text below icons"
 msgstr "文字在圖示下方"
 
-#: src/main-dlg-ui.c:195
+#: src/main-dlg-ui.c:198
 msgid "Text beside icons"
 msgstr "文字在圖示旁"
 
-#: src/main-dlg-ui.c:197
+#: src/main-dlg-ui.c:200
 msgid "Other"
 msgstr "其他"
 
-#: src/main-dlg-ui.c:205
+#: src/main-dlg-ui.c:208
 msgid "<b>Preview</b>"
 msgstr "<b>預覽</b>"
 

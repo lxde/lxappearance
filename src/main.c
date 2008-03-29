@@ -48,6 +48,7 @@ int main (int argc, char *argv[])
 
     main_dlg = create_dlg ();
     main_dlg_init( main_dlg );
+    gtk_window_set_icon_name( (GtkWindow*)main_dlg, GTK_STOCK_PREFERENCES );
 
     gtk_main ();
 

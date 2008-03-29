@@ -69,7 +69,7 @@ create_dlg (void)
   dlg = gtk_dialog_new ();
   gtk_window_set_title (GTK_WINDOW (dlg), _("Appearance Settings"));
   gtk_window_set_position (GTK_WINDOW (dlg), GTK_WIN_POS_CENTER);
-  gtk_window_set_default_size (GTK_WINDOW (dlg), -1, 450);
+  gtk_window_set_default_size (GTK_WINDOW (dlg), 640, 450);
   gtk_window_set_type_hint (GTK_WINDOW (dlg), GDK_WINDOW_TYPE_HINT_DIALOG);
 
   dialog_vbox1 = GTK_DIALOG (dlg)->vbox;
@@ -90,11 +90,13 @@ create_dlg (void)
   label8 = gtk_label_new (_("Available Window Themes"));
   gtk_widget_show (label8);
   gtk_box_pack_start (GTK_BOX (vbox4), label8, FALSE, FALSE, 0);
+  gtk_misc_set_padding (GTK_MISC (label8), 4, 4);
 
   scrolledwindow1 = gtk_scrolled_window_new (NULL, NULL);
   gtk_widget_show (scrolledwindow1);
   gtk_box_pack_start (GTK_BOX (vbox4), scrolledwindow1, TRUE, TRUE, 0);
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolledwindow1), GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
+  gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scrolledwindow1), GTK_SHADOW_IN);
 
   gtk_theme_view = gtk_tree_view_new ();
   gtk_widget_show (gtk_theme_view);
@@ -112,7 +114,7 @@ create_dlg (void)
   font = gtk_font_button_new ();
   gtk_widget_show (font);
   gtk_box_pack_start (GTK_BOX (hbox4), font, TRUE, TRUE, 0);
-  gtk_widget_set_size_request (font, 64, -1);
+  gtk_widget_set_size_request (font, 100, -1);
   gtk_container_set_border_width (GTK_CONTAINER (font), 2);
   gtk_font_button_set_use_font (GTK_FONT_BUTTON (font), TRUE);
   gtk_font_button_set_use_size (GTK_FONT_BUTTON (font), TRUE);
@@ -128,6 +130,7 @@ create_dlg (void)
   label7 = gtk_label_new (_("Available Icon Themes"));
   gtk_widget_show (label7);
   gtk_box_pack_start (GTK_BOX (vbox3), label7, FALSE, FALSE, 0);
+  gtk_misc_set_padding (GTK_MISC (label7), 4, 4);
 
   scrolledwindow2 = gtk_scrolled_window_new (NULL, NULL);
   gtk_widget_show (scrolledwindow2);
