@@ -1,0 +1,23 @@
+Source: lxappearance
+Section: utils
+Priority: optional
+Maintainer: PCMan <pcman.tw@gmail.com>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+
+Package: lxappearance
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Feature-rich GTK+ theme switcher for LXDE
+ LXAppearance is a new GTK+ theme switcher developed for project LXDE (http://lxde.sourceforge.net/).
+ .
+ Please see the screenshot. If you don't use gnome or xfce, this is a must-have for you.
+ .
+ With this handy tool, the users can:
+ 1. Choose their favorite gtk+ theme
+ 2. Choose their favorite icon theme
+ 3. Install new icon theme
+ 4. Choose their favorite font
+ 5. Choose toolbar style
+ .
+ All changes done by the users can be seen immediately in the preview area. After clicking "Apply" button, the settings will be automatically written to gtkrc, and all existing programs will be asked to reload their themes.
