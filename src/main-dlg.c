@@ -22,7 +22,7 @@
 #define INIT_LIST(name, prop) \
     GET_WIDGET( name##_view ); \
     name##_list = init_tree_view( name##_view, G_CALLBACK(on_list_sel_changed), prop ); \
-    load_##name##s( name##_list );
+    load_##name##s( name##_list, name##_name );
 
 static GtkTreeView* gtk_theme_view = NULL;
 static GtkListStore* gtk_theme_list = NULL;
@@ -33,9 +33,9 @@ static GtkListStore* icon_theme_list = NULL;
 static char* gtk_theme_name = NULL;
 static char* icon_theme_name = NULL;
 static char* font_name = NULL;
-static GtkToolbarStyle tb_style = GTK_TOOLBAR_BOTH_HORIZ;
+static GtkToolbarStyle tb_style = GTK_TOOLBAR_BOTH;
 
-static char tmp_rc_file[] = "/tmp/gtkrc-2.0-XXXXXX";
+extern char tmp_rc_file[];
 static char* rc_file = NULL;
 
 /*
@@ -204,23 +204,23 @@ static void load_from_data_dirs( GtkListStore* list,
     g_free( dir_path );
 }
 
-static void load_gtk_themes( GtkListStore* list )
+static void load_gtk_themes( GtkListStore* list, const char* cur_sel )
 {
     char* path;
     GtkTreeSelection* sel = gtk_tree_view_get_selection( gtk_theme_view );
-    load_from_data_dirs( list, "themes", "gtk-2.0", sel, gtk_theme_name );
+    load_from_data_dirs( list, "themes", "gtk-2.0", sel, cur_sel );
     path = g_build_filename( g_get_home_dir(), ".themes", NULL );
-    load_themes_from_dir( list, path, "gtk-2.0", sel, icon_theme_name );
+    load_themes_from_dir( list, path, "gtk-2.0", sel, cur_sel );
     g_free( path );
 }
 
-static void load_icon_themes( GtkListStore* list )
+static void load_icon_themes( GtkListStore* list, const char* cur_sel )
 {
     char* path;
     GtkTreeSelection* sel = gtk_tree_view_get_selection( icon_theme_view );
-    load_from_data_dirs( list, "icons", "index.theme", sel, icon_theme_name );
+    load_from_data_dirs( list, "icons", "index.theme", sel, cur_sel );
     path = g_build_filename( g_get_home_dir(), ".icons", NULL );
-    load_themes_from_dir( list, path, "index.theme", sel, icon_theme_name );
+    load_themes_from_dir( list, path, "index.theme", sel, cur_sel );
     g_free( path );
 }
 
@@ -231,10 +231,17 @@ static void load_fonts( GtkListStore* list )
 }
 */
 
+gboolean center_win( GtkWindow* dlg )
+{
+    gtk_widget_show( dlg );
+    return FALSE;
+}
+
 static void on_demo_loaded( GtkSocket* socket, GtkWidget* dlg )
 {
-    gtk_window_set_position( (GtkWindow*)dlg, GTK_WIN_POS_CENTER );
-    gtk_widget_show( dlg );
+    /* sleep for 0.8 sec for loading of the demo window */
+    /* FIXME: we need a better way to do this, such as IPC */
+    g_timeout_add_full( G_PRIORITY_LOW, 800, (GSourceFunc)center_win, dlg, NULL );
     g_signal_handlers_disconnect_by_func( socket, on_demo_loaded, dlg );
 }
 
@@ -253,8 +260,6 @@ void main_dlg_init( GtkWidget* dlg )
         rc_file = g_strdup( rc_file );
     else
         rc_file = g_build_filename( g_get_home_dir(), ".gtkrc-2.0", NULL );
-
-    mkstemp( tmp_rc_file );
 
     g_object_get( gtk_settings_get_default(),
                         "gtk-theme-name", &gtk_theme_name,
@@ -329,7 +334,6 @@ on_font_changed                        (GtkFontButton   *fontbutton,
     reload_demo_process();
 }
 
-
 void
 on_install_theme_clicked               (GtkButton       *button,
                                         gpointer         user_data)
@@ -349,7 +353,18 @@ on_install_theme_clicked               (GtkButton       *button,
 
     if( gtk_dialog_run( (GtkDialog*)fc ) == GTK_RESPONSE_OK )
     {
-
+        char* file = gtk_file_chooser_get_filename( fc );
+        char* argv[]={
+            PACKAGE_DATA_DIR"/lxappearance/install-icon-theme.sh",
+            file, NULL };
+        int status = 0;
+        if( g_spawn_sync( NULL, argv, NULL, 0, NULL, NULL, NULL, NULL, &status, NULL ) && 0 == status )
+        {
+            /* reload all icon themes */
+            gtk_list_store_clear( icon_theme_list );
+            load_icon_themes( icon_theme_list, "" );
+        }
+        g_free( file );
     }
 
     gtk_widget_destroy( fc );

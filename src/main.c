@@ -9,10 +9,13 @@
 
 #include <gtk/gtk.h>
 #include <string.h>
+#include <unistd.h>
 
 #include "main-dlg-ui.h"
 #include "demo.h"
 #include "glade-support.h"
+
+char tmp_rc_file[] = "/tmp/gtkrc-2.0-XXXXXX";
 
 int main (int argc, char *argv[])
 {
@@ -36,6 +39,8 @@ int main (int argc, char *argv[])
         return 0;
     }
 
+    mkstemp( tmp_rc_file );
+
     gtk_set_locale ();
     gtk_init (&argc, &argv);
 
@@ -46,6 +51,8 @@ int main (int argc, char *argv[])
     main_dlg_init( dlg );
 
     gtk_main ();
+
+    unlink( tmp_rc_file );
     return 0;
 }
 
