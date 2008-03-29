@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-23 10:50+0800\n"
-"PO-Revision-Date: 2008-03-23 09:06+0100\n"
+"PO-Revision-Date: 2008-03-29 04:12+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -28,19 +28,19 @@ msgstr "Elérhető ablak témák"
 
 #: src/main-dlg-ui.c:155
 msgid "Window"
-msgstr "視窗"
+msgstr "Ablak"
 
 #: src/main-dlg-ui.c:163
 msgid "Available Icon Themes"
-msgstr "可用的圖示佈景主題"
+msgstr "Elérhető ikon témák"
 
 #: src/main-dlg-ui.c:177
 msgid "Icon"
-msgstr "圖示"
+msgstr "Ikon"
 
 #: src/main-dlg-ui.c:185
 msgid "Available Fonts"
-msgstr "可用的字型"
+msgstr "Elérhető betűk"
 
 #: src/main-dlg-ui.c:203
 msgid "Font Size:"
@@ -56,39 +56,39 @@ msgstr "Betű"
 
 #: src/main-dlg-ui.c:237
 msgid "Other"
-msgstr "其他"
+msgstr "Más"
 
 #: src/main-dlg-ui.c:245
 msgid "<b>Preview</b>"
-msgstr "<b>預覽</b>"
+msgstr "<b>Előnézet</b>"
 
 #: src/main-dlg-ui.c:268
 msgid "_File"
-msgstr "檔案(_F)"
+msgstr "_Fájl"
 
 #: src/main-dlg-ui.c:300
 msgid "_Edit"
-msgstr "編輯(_E)"
+msgstr "Sz_erkesztés"
 
 #: src/main-dlg-ui.c:323
 msgid "_Help"
-msgstr "說明(_H)"
+msgstr "_Súgó"
 
 #: src/main-dlg-ui.c:344
 msgid "Back"
-msgstr "上一頁"
+msgstr "Vissza"
 
 #: src/main-dlg-ui.c:349
 msgid "Forward"
-msgstr "下一頁"
+msgstr "Előre"
 
 #: src/main-dlg-ui.c:354
 msgid "Stop"
-msgstr "停止"
+msgstr "Stop"
 
 #: src/main-dlg-ui.c:370
 msgid "Tab1"
-msgstr "分頁1"
+msgstr "Lap1"
 
 #: src/main-dlg-ui.c:392
 #: src/main-dlg-ui.c:398
@@ -109,23 +109,23 @@ msgstr "gomb1"
 
 #: src/main-dlg-ui.c:453
 msgid "Test Item 1"
-msgstr "測試項目1"
+msgstr "Teszt elem 1"
 
 #: src/main-dlg-ui.c:454
 msgid "Test Item 2"
-msgstr "測試項目2"
+msgstr "Teszt elem 2"
 
 #: src/main-dlg-ui.c:455
 msgid "Test Item 3"
-msgstr "測試項目3"
+msgstr "Teszt elem 3"
 
 #: src/main-dlg-ui.c:457
 msgid "Tab2"
-msgstr "分頁2"
+msgstr "Lap2"
 
 #: src/main-dlg-ui.c:465
 msgid "Tab3"
-msgstr "分頁3"
+msgstr "Lap3"
 
 #: src/glade-support.c:90
 #: src/glade-support.c:114
