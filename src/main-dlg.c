@@ -8,21 +8,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
-#include "main-dlg.h"
-#include "main-dlg-ui.h"
-#include "glade-support.h"
+#include <string.h>
 
 /* for kill & waitpid */
 #include <sys/types.h>
 #include <signal.h>
 #include <sys/wait.h>
 
+#include "main-dlg.h"
+#include "main-dlg-ui.h"
+#include "glade-support.h"
+
 #define GET_WIDGET( name )  name = lookup_widget( dlg, #name )
+
 #define INIT_LIST(name, prop) \
     GET_WIDGET( name##_view ); \
     name##_list = init_tree_view( name##_view, G_CALLBACK(on_list_sel_changed), prop ); \
     load_##name##s( name##_list, name##_name );
+
+#define enable_apply()      gtk_dialog_set_response_sensitive( main_dlg, GTK_RESPONSE_APPLY, TRUE )
+#define disable_apply()      gtk_dialog_set_response_sensitive( main_dlg, GTK_RESPONSE_APPLY, FALSE )
+
+extern GtkWidget* main_dlg; /* defined in main.c */
 
 static GtkTreeView* gtk_theme_view = NULL;
 static GtkListStore* gtk_theme_list = NULL;
@@ -67,6 +74,9 @@ static void reload_demo_process()
     argv[3] = tmp_rc_file;
     argv[4] = NULL;
     g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, &demo_pid, NULL );
+
+    /* reloading demo means the current selected theme is changed */
+    enable_apply();
 }
 
 static void write_rc_file( const char* path )
@@ -294,6 +304,7 @@ void main_dlg_init( GtkWidget* dlg )
 
     gtk_widget_realize( dlg );
     reload_demo_process();
+    disable_apply();
 }
 
 static void reload_all_programs( gboolean icon_only )
@@ -318,6 +329,7 @@ on_apply_clicked                       (GtkButton       *button,
 {
     write_rc_file( rc_file );
     reload_all_programs( FALSE );
+    disable_apply();
 }
 
 
@@ -326,7 +338,7 @@ on_font_changed                        (GtkFontButton   *fontbutton,
                                         gpointer         user_data)
 {
     const char* name = gtk_font_button_get_font_name(fontbutton);
-    if( name && font_name && 0 == strcmp( font_name ) )
+    if( name && font_name && 0 == strcmp( name, font_name ) )
         return;
     g_free( font_name );
     font_name = g_strdup( name );
@@ -358,11 +370,16 @@ on_install_theme_clicked               (GtkButton       *button,
             PACKAGE_DATA_DIR"/lxappearance/install-icon-theme.sh",
             file, NULL };
         int status = 0;
-        if( g_spawn_sync( NULL, argv, NULL, 0, NULL, NULL, NULL, NULL, &status, NULL ) && 0 == status )
+        char* stdo = NULL;
+        if( g_spawn_sync( NULL, argv, NULL, 0, NULL, NULL, &stdo, NULL, &status, NULL ) && 0 == status )
         {
+            char* sep = stdo ? strchr( stdo, '\n' ) : NULL;
+            if( sep )
+                *sep = '\0';
+
             /* reload all icon themes */
             gtk_list_store_clear( icon_theme_list );
-            load_icon_themes( icon_theme_list, "" );
+            load_icon_themes( icon_theme_list, stdo ? stdo : "" );
         }
         g_free( file );
     }

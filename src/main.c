@@ -16,11 +16,10 @@
 #include "glade-support.h"
 
 char tmp_rc_file[] = "/tmp/gtkrc-2.0-XXXXXX";
+GtkWidget* main_dlg = NULL;
 
 int main (int argc, char *argv[])
 {
-    GtkWidget *dlg;
-
 #ifdef ENABLE_NLS
     bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
     bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
@@ -47,8 +46,8 @@ int main (int argc, char *argv[])
     /* Dirty hack: "gtk-toolbar-style" is installed in class_init of GtkToolbar */
     gtk_widget_destroy( gtk_toolbar_new() );
 
-    dlg = create_dlg ();
-    main_dlg_init( dlg );
+    main_dlg = create_dlg ();
+    main_dlg_init( main_dlg );
 
     gtk_main ();
 

@@ -42,17 +42,46 @@ static void load_demo_icons()
     g_object_unref( demo_icon_list );
 }
 
+static void load_demo_tree_view( GtkTreeView* view )
+{
+    GtkListStore* list;
+    int i;
+    char str[256];
+
+    for( i = 0; i < 3; ++i )
+    {
+        GtkTreeViewColumn* col;
+        g_snprintf( str, 256, "%s %d", _("Column"), i + 1 );
+        col = gtk_tree_view_column_new_with_attributes( "Column 1", gtk_cell_renderer_text_new(), "text", i, NULL );
+        gtk_tree_view_append_column( view, col );
+    }
+
+    list = gtk_list_store_new( 3, G_TYPE_STRING, G_TYPE_STRING, G_TYPE_STRING );
+    for( i = 0; i < 3; ++i )
+    {
+        GtkTreeIter it;
+        g_snprintf( str, 256, "%s %d", _("Item"), i + 1 );
+        gtk_list_store_append( list, &it );
+        gtk_list_store_set( list, &it, 0, str, 1, str, 2, str, -1 );
+    }
+    gtk_tree_view_set_model( view, (GtkTreeModel*)list );
+    g_object_unref( list );
+}
+
 void show_demo( GdkNativeWindow wid )
 {
     GtkWidget* demo = create_demo_window();
     GtkWidget* plug = gtk_plug_new( wid );
     GtkWidget* top_vbox;
     GtkToolbarStyle tb_style;
+    GtkWidget* tree_view;
 
     g_object_get( gtk_settings_get_default(), "gtk-toolbar-style", &tb_style, NULL );
     gtk_toolbar_set_style (GTK_TOOLBAR (lookup_widget(demo, "toolbar")), tb_style );
 
     icon_view = lookup_widget( demo, "icon_view" );
+    tree_view = lookup_widget( demo, "demo_treeview" );
+
     gtk_widget_show_all( demo );
     gtk_container_add( (GtkContainer*)plug, demo );
 
@@ -64,4 +93,5 @@ void show_demo( GdkNativeWindow wid )
     gtk_icon_view_set_row_spacing( icon_view, 8 );
 
     load_demo_icons();
+    load_demo_tree_view( (GtkTreeView*)tree_view );
 }

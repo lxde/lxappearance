@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-28 23:41+0800\n"
-"PO-Revision-Date: 2008-03-28 23:43+0800\n"
+"POT-Creation-Date: 2008-03-29 09:37+0800\n"
+"PO-Revision-Date: 2008-03-29 09:37+0800\n"
 "Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,65 +22,73 @@ msgstr ""
 msgid "Appearance Settings"
 msgstr "外觀設定"
 
-#: src/main-dlg-ui.c:88
+#: src/main-dlg-ui.c:90
 msgid "Available Window Themes"
 msgstr "可用的視窗佈景主題"
 
-#: src/main-dlg-ui.c:106
+#: src/main-dlg-ui.c:108
 msgid "_Font:"
 msgstr "字型"
 
-#: src/main-dlg-ui.c:118
+#: src/main-dlg-ui.c:120
 msgid "Window"
 msgstr "視窗"
 
-#: src/main-dlg-ui.c:126
+#: src/main-dlg-ui.c:128
 msgid "Available Icon Themes"
 msgstr "可用的圖示佈景主題"
 
-#: src/main-dlg-ui.c:162
+#: src/main-dlg-ui.c:164
 msgid "_Install"
 msgstr "安裝(_I)"
 
-#: src/main-dlg-ui.c:169
+#: src/main-dlg-ui.c:171
 msgid "Icon"
 msgstr "圖示"
 
-#: src/main-dlg-ui.c:182
+#: src/main-dlg-ui.c:184
 msgid "Toolbar Style: "
 msgstr "工具列樣式："
 
-#: src/main-dlg-ui.c:190
+#: src/main-dlg-ui.c:192
 msgid "Icons only"
 msgstr "只顯示圖示"
 
-#: src/main-dlg-ui.c:191
+#: src/main-dlg-ui.c:193
 msgid "Text only"
 msgstr "只顯示文字"
 
-#: src/main-dlg-ui.c:192
+#: src/main-dlg-ui.c:194
 msgid "Text below icons"
 msgstr "文字在圖示下方"
 
-#: src/main-dlg-ui.c:193
+#: src/main-dlg-ui.c:195
 msgid "Text beside icons"
 msgstr "文字在圖示旁"
 
-#: src/main-dlg-ui.c:195
+#: src/main-dlg-ui.c:197
 msgid "Other"
 msgstr "其他"
 
-#: src/main-dlg-ui.c:203
+#: src/main-dlg-ui.c:205
 msgid "<b>Preview</b>"
 msgstr "<b>預覽</b>"
 
-#: src/main-dlg.c:324
+#: src/main-dlg.c:354
 msgid "Select an icon theme"
 msgstr "選擇一個圖示佈景主題"
 
-#: src/main-dlg.c:331
+#: src/main-dlg.c:361
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
+
+#: src/demo.c:54
+msgid "Column"
+msgstr "欄位"
+
+#: src/demo.c:63
+msgid "Item"
+msgstr "項目"
 
 #: src/demo-ui.c:116
 msgid "_File"
@@ -98,63 +106,61 @@ msgstr "說明(_H)"
 msgid "Back"
 msgstr "上一頁"
 
-#: src/demo-ui.c:201
+#: src/demo-ui.c:202
 msgid "Forward"
 msgstr "下一頁"
 
-#: src/demo-ui.c:206
+#: src/demo-ui.c:207
 msgid "Stop"
 msgstr "停止"
 
-#: src/demo-ui.c:222
+#: src/demo-ui.c:224
 msgid "Tab1"
 msgstr "分頁1"
 
-#: src/demo-ui.c:244
-#: src/demo-ui.c:250
+#: src/demo-ui.c:246 src/demo-ui.c:252
 msgid "Radio Button"
 msgstr "Radio Button"
 
-#: src/demo-ui.c:260
+#: src/demo-ui.c:262
 msgid "Check Button"
 msgstr "Check Button"
 
-#: src/demo-ui.c:269
+#: src/demo-ui.c:271
 msgid "Demo"
 msgstr "展示"
 
-#: src/demo-ui.c:314
+#: src/demo-ui.c:316
 msgid "button"
 msgstr "按鈕"
 
-#: src/demo-ui.c:321
+#: src/demo-ui.c:323
 msgid "Test Item 1"
 msgstr "測試項目1"
 
-#: src/demo-ui.c:322
+#: src/demo-ui.c:324
 msgid "Test Item 2"
 msgstr "測試項目2"
 
-#: src/demo-ui.c:323
+#: src/demo-ui.c:325
 msgid "Test Item 3"
 msgstr "測試項目3"
 
-#: src/demo-ui.c:325
+#: src/demo-ui.c:327
 msgid "Tab2"
 msgstr "分頁2"
 
-#: src/demo-ui.c:338
+#: src/demo-ui.c:340
 msgid "Type some characters here to test currently selected font."
 msgstr "在這裡打一些字測試目前選擇的字型"
 
-#: src/demo-ui.c:340
+#: src/demo-ui.c:342
 msgid "Tab3"
 msgstr "分頁3"
 
-#: src/demo-ui.c:355
+#: src/demo-ui.c:357
 msgid "Tab4"
 msgstr "分頁4"
 
 #~ msgid "Available Fonts"
 #~ msgstr "可用的字型"
-
