@@ -101,6 +101,7 @@ void show_demo( GdkNativeWindow wid )
     	/* The demo window and the main dialog are in the same process */
     	GtkWidget* demo_box = (GtkWidget*)wid;
     	gtk_container_add( demo_box, demo );
+    	g_signal_connect( gtk_icon_theme_get_default(), "changed", G_CALLBACK( load_demo_icons ), NULL );
     }
     else
     {

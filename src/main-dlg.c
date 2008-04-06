@@ -55,6 +55,59 @@ static GtkWidget* demo_box = NULL;
 static GtkWidget* demo_socket = NULL;
 static GPid demo_pid = 0;
 
+/* older versions of glib don't provde these API */
+#if ! GLIB_CHECK_VERSION(2, 8, 0)
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <string.h>
+#include <errno.h>
+
+int mkdir_with_parents(const gchar *pathname, int mode)
+{
+    struct stat statbuf;
+    char *dir, *sep;
+    dir = g_strdup( pathname );
+    sep = dir[0] == '/' ? dir + 1 : dir;
+    do {
+        sep = strchr( sep, '/' );
+        if( G_LIKELY( sep ) )
+            *sep = '\0';
+
+        if( stat( dir, &statbuf) == 0 )
+        {
+            if( ! S_ISDIR(statbuf.st_mode) )    /* parent not dir */
+                goto err;
+        }
+        else    /* stat failed */
+        {
+            if( errno == ENOENT )   /* not exists */
+            {
+                if( mkdir( dir, mode ) == -1 )
+                    goto err;
+            }
+            else
+                goto err;   /* unknown error */
+        }
+
+        if( G_LIKELY( sep ) )
+        {
+            *sep = '/';
+            ++sep;
+        }
+        else
+            break;
+    }while( sep );
+    g_free( dir );
+    return 0;
+err:
+    g_free( dir );
+    return -1;
+}
+#endif
+
+
 static void reload_demo_process()
 {
     char* argv[5];
@@ -113,7 +166,7 @@ static void create_lxde_config_dir()
 #if GTK_CHECK_VERSION( 2, 8, 0 )
 	g_mkdir_with_parents( dir, 0755 );
 #else
-	/* FIXME: implement mkdir -p for gtk+ < 2.8 */
+	mkdir_with_parents( dir, 0755 );
 #endif
 	g_free( dir );
 }
@@ -213,6 +266,18 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
     }
 }
 
+static gint sort_func( GtkTreeModel* model, GtkTreeIter* it1, GtkTreeIter* it2, gpointer data )
+{
+	char* str1, *str2;
+	int ret;
+	gtk_tree_model_get( model, it1, 0, &str1, -1 );
+	gtk_tree_model_get( model, it2, 0, &str2, -1 );
+	ret = g_ascii_strcasecmp( str1, str2 );
+	g_free( str1 );
+	g_free( str2 );
+	return ret;
+}
+
 static GtkListStore* init_tree_view( GtkTreeView* view, GCallback on_sel_changed, const char* prop )
 {
     GtkTreeViewColumn* col;
@@ -224,6 +289,7 @@ static GtkListStore* init_tree_view( GtkTreeView* view, GCallback on_sel_changed
     g_signal_connect( sel, "changed", on_sel_changed, prop );
 
     list = gtk_list_store_new( 1, G_TYPE_STRING );
+    gtk_tree_sortable_set_sort_func( (GtkTreeSortable*)list, 0, sort_func, NULL, NULL );
     gtk_tree_view_set_model( view, (GtkTreeModel*)list );
     g_object_unref( list );
     return list;
@@ -292,6 +358,7 @@ static void load_gtk_themes( GtkListStore* list, const char* cur_sel )
     path = g_build_filename( g_get_home_dir(), ".themes", NULL );
     load_themes_from_dir( list, path, "gtk-2.0", sel, cur_sel );
     g_free( path );
+    gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
 }
 
 static void load_icon_themes( GtkListStore* list, const char* cur_sel )
@@ -302,6 +369,7 @@ static void load_icon_themes( GtkListStore* list, const char* cur_sel )
     path = g_build_filename( g_get_home_dir(), ".icons", NULL );
     load_themes_from_dir( list, path, "index.theme", sel, cur_sel );
     g_free( path );
+    gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
 }
 
 /*
