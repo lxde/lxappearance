@@ -8,6 +8,8 @@
 #include "demo-ui.h"
 #include "glade-support.h"
 
+extern gboolean under_lxde;	/* wether lxde-xsettings daemon is active */
+
 static GtkIconView* icon_view = NULL;
 
 static void load_demo_icons()
@@ -71,7 +73,7 @@ static void load_demo_tree_view( GtkTreeView* view )
 void show_demo( GdkNativeWindow wid )
 {
     GtkWidget* demo = create_demo_window();
-    GtkWidget* plug = gtk_plug_new( wid );
+    GtkWidget* plug;
     GtkWidget* top_vbox;
     GtkToolbarStyle tb_style;
     GtkWidget* tree_view;
@@ -82,10 +84,6 @@ void show_demo( GdkNativeWindow wid )
     icon_view = lookup_widget( demo, "icon_view" );
     tree_view = lookup_widget( demo, "demo_treeview" );
 
-    gtk_widget_show_all( demo );
-    gtk_container_add( (GtkContainer*)plug, demo );
-
-    gtk_widget_show( plug );
     gtk_icon_view_set_pixbuf_column( icon_view, 0 );
     gtk_icon_view_set_text_column( icon_view, 1 );
     gtk_icon_view_set_item_width( icon_view, 64 );
@@ -94,4 +92,21 @@ void show_demo( GdkNativeWindow wid )
 
     load_demo_icons();
     load_demo_tree_view( (GtkTreeView*)tree_view );
+
+    gtk_widget_show_all( demo );
+    
+    /* LXDE settings daemon is active and we don't use gtkrc files. */
+    if( under_lxde )
+    {
+    	/* The demo window and the main dialog are in the same process */
+    	GtkWidget* demo_box = (GtkWidget*)wid;
+    	gtk_container_add( demo_box, demo );
+    }
+    else
+    {
+    	/* we are in another process with a different gtkrc file. */
+		plug = gtk_plug_new( wid );	/* plug our demo window into the main process */
+		gtk_container_add( (GtkContainer*)plug, demo );
+		gtk_widget_show( plug );    	
+    }
 }

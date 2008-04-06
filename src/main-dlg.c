@@ -29,6 +29,8 @@
 #define enable_apply()      gtk_dialog_set_response_sensitive( main_dlg, GTK_RESPONSE_APPLY, TRUE )
 #define disable_apply()      gtk_dialog_set_response_sensitive( main_dlg, GTK_RESPONSE_APPLY, FALSE )
 
+extern gboolean under_lxde;	/* wether lxde-xsettings daemon is active */
+
 extern GtkWidget* main_dlg; /* defined in main.c */
 
 static GtkTreeView* gtk_theme_view = NULL;
@@ -105,6 +107,59 @@ static void write_rc_file( const char* path )
     }
 }
 
+static void create_lxde_config_dir()
+{
+	char* dir = g_build_filename( g_get_user_config_dir(), "lxde", NULL );
+#if GTK_CHECK_VERSION( 2, 8, 0 )
+	g_mkdir_with_parents( dir, 0755 );
+#else
+	/* FIXME: implement mkdir -p for gtk+ < 2.8 */
+#endif
+	g_free( dir );
+}
+
+static void write_lxde_config()
+{
+    FILE* f;
+	char* file, *data;
+	gsize len;
+	GKeyFile* kf = g_key_file_new();
+	gboolean ret;
+
+	file = g_build_filename( g_get_user_config_dir(), "lxde/config", NULL );
+	ret = g_key_file_load_from_file( kf, file, G_KEY_FILE_KEEP_COMMENTS, NULL );
+
+	if( ! ret )
+	{
+		const char** dir, **dirs = g_get_system_data_dirs();
+		create_lxde_config_dir();
+		/* load system-wide config file */
+		for( dir = dirs; *dir; ++dir )
+		{
+			char* path = g_build_filename( *dir, "lxde/config", NULL );
+			ret = g_key_file_load_from_file( kf, path, 0, NULL );
+			g_free( path );
+			if( ret )
+				break;
+		}
+	}
+
+	g_key_file_set_string( kf, "GTK", "sNet/ThemeName", gtk_theme_name );
+	g_key_file_set_string( kf, "GTK", "sNet/IconThemeName", icon_theme_name );
+	g_key_file_set_string( kf, "GTK", "sGtk/FontName", font_name );
+	g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", tb_style );
+
+	data = g_key_file_to_data( kf, &len, NULL );
+	g_key_file_free( kf );
+
+    if( f = fopen( file, "w" ) )
+    {
+		fwrite( data, sizeof(char), len, f );
+        fclose( f );
+    }
+    g_free( data );
+}
+
 static void reload_theme()
 {
 
@@ -126,6 +181,9 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
                 goto out;
             g_free( gtk_theme_name );
             gtk_theme_name = name;
+
+            if( under_lxde )
+				g_object_set( gtk_settings_get_default(), "gtk-theme-name", name, NULL );
         }
         else if( model == icon_theme_list )   /* icon theme */
         {
@@ -133,10 +191,22 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
                 goto out;
             g_free( icon_theme_name );
             icon_theme_name = name;
+
+            if( under_lxde )
+				g_object_set( gtk_settings_get_default(), "gtk-icon-theme-name", name, NULL );
         }
-        write_rc_file( tmp_rc_file );
-        //gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
-        reload_demo_process();
+
+		if( under_lxde )
+		{
+			enable_apply();
+		}
+		else
+		{
+			write_rc_file( tmp_rc_file );
+			//gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
+			reload_demo_process();
+		}
+
         return;
     out:
         g_free( name );
@@ -261,15 +331,19 @@ void main_dlg_init( GtkWidget* dlg )
     char** def_files = gtk_rc_get_default_files();
     char** file;
 
-    for( file = def_files; *file; ++file )
-    {
-        if( 0 == access( *file, W_OK ) )
-            rc_file = *file;
-    }
-    if( rc_file )
-        rc_file = g_strdup( rc_file );
-    else
-        rc_file = g_build_filename( g_get_home_dir(), ".gtkrc-2.0", NULL );
+	/* no lxde-settings daemon, use gtkrc-2.0 */
+	if( ! under_lxde )
+	{
+		for( file = def_files; *file; ++file )
+		{
+			if( 0 == access( *file, W_OK ) )
+				rc_file = *file;
+		}
+		if( rc_file )
+			rc_file = g_strdup( rc_file );
+		else
+			rc_file = g_build_filename( g_get_home_dir(), ".gtkrc-2.0", NULL );
+	}
 
     g_object_get( gtk_settings_get_default(),
                         "gtk-theme-name", &gtk_theme_name,
@@ -285,7 +359,9 @@ void main_dlg_init( GtkWidget* dlg )
     if( ! font_name )
         font_name = g_strdup( "Sans 10" );
 
-    write_rc_file( tmp_rc_file );
+	/* no lxde-settings daemon, use gtkrc-2.0 */
+	if( ! under_lxde )
+		write_rc_file( tmp_rc_file );
 
     INIT_LIST( gtk_theme, "gtk-theme-name" )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
@@ -296,14 +372,28 @@ void main_dlg_init( GtkWidget* dlg )
     GET_WIDGET( demo_box );
     gtk_widget_show( demo_box );
 
-    demo_socket = gtk_socket_new();
-    g_signal_connect( demo_socket, "plug-added", G_CALLBACK(on_demo_loaded), dlg );
-    g_signal_connect( demo_socket, "plug-removed", G_CALLBACK(gtk_true), NULL );
-    gtk_widget_show( demo_socket );
-    gtk_container_add( (GtkContainer*)demo_box, demo_socket );
+	if( under_lxde )
+	{
+		/* XSettings daemon of LXDE is running, gtkrc is useless.
+		 * 	We should set properties of GtkSettings object on the fly.
+		 * 	This will cause problems with some themes, but we have no choice.
+		 */
+		show_demo( (GdkNativeWindow)demo_box );
+		gtk_widget_show_all( dlg );
+	}
+	else
+	{
+		/* no lxde-settings daemon, use gtkrc-2.0 and load preview in another process */
+		demo_socket = gtk_socket_new();
+		g_signal_connect( demo_socket, "plug-added", G_CALLBACK(on_demo_loaded), dlg );
+		g_signal_connect( demo_socket, "plug-removed", G_CALLBACK(gtk_true), NULL );
+		gtk_widget_show( demo_socket );
+		gtk_container_add( (GtkContainer*)demo_box, demo_socket );
 
-    gtk_widget_realize( dlg );
-    reload_demo_process();
+		gtk_widget_realize( dlg );
+		reload_demo_process();
+	}
+
     disable_apply();
 }
 
@@ -314,21 +404,32 @@ static void reload_all_programs( gboolean icon_only )
     event.send_event = TRUE;
     event.window = NULL;
 
-    if( icon_only )
-        event.message_type = gdk_atom_intern("_GTK_LOAD_ICONTHEMES", FALSE);
-    else
-        event.message_type = gdk_atom_intern("_GTK_READ_RCFILES", FALSE);
-
-    event.data_format = 8;
-    gdk_event_send_clientmessage_toall((GdkEvent *)&event);
+	if( under_lxde )
+	{
+		event.message_type = gdk_atom_intern("LXDE_SETTINGS", FALSE);
+		event.data.b[0] = 0;	/* LXS_RELOAD */
+	}
+	else
+	{
+		if( icon_only )
+			event.message_type = gdk_atom_intern("_GTK_LOAD_ICONTHEMES", FALSE);
+		else
+			event.message_type = gdk_atom_intern("_GTK_READ_RCFILES", FALSE);
+	}
+	event.data_format = 8;
+	gdk_event_send_clientmessage_toall((GdkEvent *)&event);
 }
 
 void
 on_apply_clicked                       (GtkButton       *button,
                                         gpointer         user_data)
 {
-    write_rc_file( rc_file );
-    reload_all_programs( FALSE );
+	if( under_lxde )
+		write_lxde_config();
+	else
+		write_rc_file( rc_file );
+
+	reload_all_programs( FALSE );
     disable_apply();
 }
 
@@ -342,8 +443,18 @@ on_font_changed                        (GtkFontButton   *fontbutton,
         return;
     g_free( font_name );
     font_name = g_strdup( name );
-    write_rc_file( tmp_rc_file );
-    reload_demo_process();
+
+	if( under_lxde )
+	{
+		g_object_set( gtk_settings_get_default(), "gtk-font-name", font_name, NULL );
+		
+		enable_apply();
+	}
+	else
+	{
+		write_rc_file( tmp_rc_file );
+		reload_demo_process();
+	}
 }
 
 void
@@ -404,7 +515,16 @@ on_tb_style_changed                    (GtkComboBox     *combobox,
     if( sel == tb_style || sel < 0 )
         return;
     tb_style = sel;
-    write_rc_file( tmp_rc_file );
-    reload_demo_process();
+
+	if( under_lxde )
+	{
+		g_object_set( gtk_settings_get_default(), "gtk-toolbar-style", tb_style, NULL );
+		enable_apply();
+	}
+	else
+	{
+		write_rc_file( tmp_rc_file );
+		reload_demo_process();
+	}
 }
 
