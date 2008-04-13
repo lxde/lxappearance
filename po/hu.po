@@ -32,7 +32,7 @@ msgstr "Ablak"
 
 #: src/main-dlg-ui.c:163
 msgid "Available Icon Themes"
-msgstr "Elérhető ikon témák"
+msgstr "Elérhető ikontémák"
 
 #: src/main-dlg-ui.c:177
 msgid "Icon"
@@ -44,7 +44,7 @@ msgstr "Elérhető betűk"
 
 #: src/main-dlg-ui.c:203
 msgid "Font Size:"
-msgstr "Betű méret"
+msgstr "Betűméret"
 
 #: src/main-dlg-ui.c:216
 msgid "Style:"
@@ -56,7 +56,7 @@ msgstr "Betű"
 
 #: src/main-dlg-ui.c:237
 msgid "Other"
-msgstr "Más"
+msgstr "Egyéb"
 
 #: src/main-dlg-ui.c:245
 msgid "<b>Preview</b>"
@@ -131,5 +131,5 @@ msgstr "Lap3"
 #: src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr "Nem lelem e pixmap fájlt: %s"
+msgstr "A(z) %s pixmap fájl nem található"
 
