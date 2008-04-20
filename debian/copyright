@@ -1,17 +1,16 @@
-This package was debianized by PCMan <pcman.tw@gmail.com> on
-Sat, 29 Mar 2008 11:05:08 +0800.
+This package was debianized by Andrew Lee <andrew@linux.org.tw> on
+Sun, 20 Apr 2008 12:31:15 +0800.
 
-It was downloaded from <url://example.com>
+It was downloaded from http://lxde.sourceforge.net
 
-Upstream Author(s): 
+Upstream Author: 
 
-    <put author's name and email here>
-    <likewise for another author>
+    Hong Jen Yee (PCMan)  <pcman.tw@gmail.com>
+    Ying-Chun Liu (PaulLiu) <grandpaul@gmail.com>
 
-Copyright: 
+Copyright Holder: 
 
-    <Copyright (C) YYYY Name OfAuthor>
-    <likewise for another author>
+    Copyright (C) 2008 Hong Jen Yee (PCMan)
 
 License:
 
@@ -27,14 +26,12 @@ License:
  
     You should have received a copy of the GNU General Public License
     along with this package; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  
+    02110-1301 USA.
 
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
 
-The Debian packaging is (C) 2008, PCMan <pcman.tw@gmail.com> and
+The Debian packaging is (C) 2008, Andrew Lee <andrew@linux.org.tw> and
 is licensed under the GPL, see above.
 
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.

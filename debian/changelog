@@ -1,6 +1,12 @@
+lxappearance (0.1+svn20080420-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andrew Lee <andrew@linux.org.tw>  Sun, 20 Apr 2008 12:45:41 +0800
+
 lxappearance (0.1-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- PCMan <pcman.tw@gmail.com>  Sat, 29 Mar 2008 11:05:08 +0800
+ -- Andrew Lee <andrew@linux.org.tw>  Sun, 20 Apr 2008 12:31:15 +0800
 
