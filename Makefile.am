@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-SUBDIRS = src po
+SUBDIRS = src po man
 
 support_scriptdir=$(datadir)/lxappearance
 support_script_DATA= \
