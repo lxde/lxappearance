@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-29 10:09+0800\n"
+"POT-Creation-Date: 2008-04-20 17:35+0800\n"
 "PO-Revision-Date: 2008-03-29 09:37+0800\n"
 "Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
@@ -74,19 +74,19 @@ msgstr "其他"
 msgid "<b>Preview</b>"
 msgstr "<b>預覽</b>"
 
-#: src/main-dlg.c:354
+#: src/main-dlg.c:533
 msgid "Select an icon theme"
 msgstr "選擇一個圖示佈景主題"
 
-#: src/main-dlg.c:361
+#: src/main-dlg.c:540
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
 
-#: src/demo.c:54
+#: src/demo.c:56
 msgid "Column"
 msgstr "欄位"
 
-#: src/demo.c:63
+#: src/demo.c:65
 msgid "Item"
 msgstr "項目"
 
