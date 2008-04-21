@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-23 10:50+0800\n"
-"PO-Revision-Date: 2008-03-29 04:12+0100\n"
+"PO-Revision-Date: 2008-04-21 07:46+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "Ablak"
 
 #: src/main-dlg-ui.c:163
 msgid "Available Icon Themes"
-msgstr "Elérhető ikontémák"
+msgstr "Elérhető ikon-témák"
 
 #: src/main-dlg-ui.c:177
 msgid "Icon"
@@ -44,7 +44,7 @@ msgstr "Elérhető betűk"
 
 #: src/main-dlg-ui.c:203
 msgid "Font Size:"
-msgstr "Betűméret"
+msgstr "Betű-méret:"
 
 #: src/main-dlg-ui.c:216
 msgid "Style:"
@@ -131,5 +131,5 @@ msgstr "Lap3"
 #: src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr "A(z) %s pixmap fájl nem található"
+msgstr "E pixel-térkép fájl nem található: %s"
 
