@@ -92,6 +92,6 @@ Icon=gtk-preferences
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=GTK;Settings;DesktopSettings;
+Categories=Settings;DesktopSettings;X-LXDE-Settings;
 NotShowIn=GNOME;XFCE;
 
