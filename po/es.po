@@ -1,0 +1,165 @@
+# Spanish translation of lxappearance
+# Copyright (C) 2008 THE lxappearance'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lxappearance package.
+#
+# Daniel Pacheco <daniel@tunki.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-09 13:05-0500\n"
+"PO-Revision-Date: 2008-12-09 21:22-0500\n"
+"Last-Translator: Julio Napurí Carlos <julionc@gmail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/main-dlg-ui.c:70
+msgid "Appearance Settings"
+msgstr "Configuración de apariencia"
+
+#: ../src/main-dlg-ui.c:90
+msgid "Available Window Themes"
+msgstr "Temas de ventana disponibles"
+
+#: ../src/main-dlg-ui.c:110
+msgid "_Font:"
+msgstr "_Fuente:"
+
+#: ../src/main-dlg-ui.c:122
+msgid "Window"
+msgstr "Ventana"
+
+#: ../src/main-dlg-ui.c:130
+msgid "Available Icon Themes"
+msgstr "Temas de iconos disponibles"
+
+#: ../src/main-dlg-ui.c:167
+msgid "_Install"
+msgstr "_Instalar"
+
+#: ../src/main-dlg-ui.c:174
+msgid "Icon"
+msgstr "Icono"
+
+#: ../src/main-dlg-ui.c:187
+msgid "Toolbar Style: "
+msgstr "Estilo de barra de herramientas："
+
+#: ../src/main-dlg-ui.c:195
+msgid "Icons only"
+msgstr "Sólo iconos"
+
+#: ../src/main-dlg-ui.c:196
+msgid "Text only"
+msgstr "Sólo texto"
+
+#: ../src/main-dlg-ui.c:197
+msgid "Text below icons"
+msgstr "Texto bajo los iconos"
+
+#: ../src/main-dlg-ui.c:198
+msgid "Text beside icons"
+msgstr "Texto al lado de los iconos"
+
+#: ../src/main-dlg-ui.c:200
+msgid "Other"
+msgstr "Otro"
+
+#: ../src/main-dlg-ui.c:208
+msgid "<b>Preview</b>"
+msgstr "<b>Vista previa</b>"
+
+#: ../src/main-dlg.c:533
+msgid "Select an icon theme"
+msgstr "Seleccione un tema de iconos"
+
+#: ../src/main-dlg.c:540
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema de iconos)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "Columna"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "Elemento"
+
+#: ../src/demo-ui.c:116
+msgid "_File"
+msgstr "_Archivo"
+
+#: ../src/demo-ui.c:148
+msgid "_Edit"
+msgstr "Editar"
+
+#: ../src/demo-ui.c:171
+msgid "_Help"
+msgstr "Ayuda"
+
+#: ../src/demo-ui.c:196
+msgid "Back"
+msgstr "Atrás"
+
+#: ../src/demo-ui.c:202
+msgid "Forward"
+msgstr "Adelante"
+
+#: ../src/demo-ui.c:207
+msgid "Stop"
+msgstr "Detener"
+
+#: ../src/demo-ui.c:224
+msgid "Tab1"
+msgstr "Pestaña1"
+
+#: ../src/demo-ui.c:246
+#: ../src/demo-ui.c:252
+msgid "Radio Button"
+msgstr "Botón de selección"
+
+#: ../src/demo-ui.c:262
+msgid "Check Button"
+msgstr "Caja de selección"
+
+#: ../src/demo-ui.c:271
+msgid "Demo"
+msgstr "Demostración"
+
+#: ../src/demo-ui.c:316
+msgid "button"
+msgstr "botón"
+
+#: ../src/demo-ui.c:323
+msgid "Test Item 1"
+msgstr "Elemento de prueba 1"
+
+#: ../src/demo-ui.c:324
+msgid "Test Item 2"
+msgstr "Elemento de prueba 2"
+
+#: ../src/demo-ui.c:325
+msgid "Test Item 3"
+msgstr "Elemento de prueba 3"
+
+#: ../src/demo-ui.c:327
+msgid "Tab2"
+msgstr "Pestaña2"
+
+#: ../src/demo-ui.c:340
+msgid "Type some characters here to test currently selected font."
+msgstr "Presione algunas teclas para probar la fuente seleccionada."
+
+#: ../src/demo-ui.c:342
+msgid "Tab3"
+msgstr "Pestaña3"
+
+#: ../src/demo-ui.c:357
+msgid "Tab4"
+msgstr "Pestaña4"
+
