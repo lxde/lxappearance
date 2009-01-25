@@ -1,0 +1,216 @@
+# Translation of lxapperance to Swedish
+# Copyright (C) 2009 Martin Bagge <brother@bsnet.se>
+# This file is distributed under the same license as the lxapperance package.
+#
+# Martin Bagge <brother@bsnet.se>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxapperance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-05 01:26+0100\n"
+"PO-Revision-Date: 2009-01-06 20:07+0100\n"
+"Last-Translator: Martin Bagge <brother@bsnet.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+
+#: ../demo.glade.h:1
+#: ../src/demo-ui.c:196
+msgid "Back"
+msgstr "Bakåt"
+
+#: ../demo.glade.h:2
+#: ../src/demo-ui.c:262
+msgid "Check Button"
+msgstr "Kryssruta"
+
+#: ../demo.glade.h:3
+#: ../src/demo-ui.c:271
+msgid "Demo"
+msgstr "Demonstration"
+
+#: ../demo.glade.h:4
+#: ../src/demo-ui.c:202
+msgid "Forward"
+msgstr "Framåt"
+
+#: ../demo.glade.h:5
+#: ../src/demo-ui.c:246
+#: ../src/demo-ui.c:252
+msgid "Radio Button"
+msgstr "Radioknapp"
+
+#: ../demo.glade.h:6
+#: ../src/demo-ui.c:207
+msgid "Stop"
+msgstr "Stopp"
+
+#: ../demo.glade.h:7
+#: ../src/demo-ui.c:224
+msgid "Tab1"
+msgstr "Flik1"
+
+#: ../demo.glade.h:8
+#: ../src/demo-ui.c:327
+msgid "Tab2"
+msgstr "Flik2"
+
+#: ../demo.glade.h:9
+#: ../src/demo-ui.c:342
+msgid "Tab3"
+msgstr "Flik3"
+
+#: ../demo.glade.h:10
+#: ../src/demo-ui.c:357
+msgid "Tab4"
+msgstr "Flik4"
+
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+"Testobjekt 1\n"
+"Testobjekt 2\n"
+"Testobjekt 3"
+
+#: ../demo.glade.h:14
+#: ../src/demo-ui.c:340
+msgid "Type some characters here to test currently selected font."
+msgstr "Skriv här för att testa valt teckensnitt."
+
+#: ../demo.glade.h:15
+#: ../src/demo-ui.c:148
+msgid "_Edit"
+msgstr "_Redigera"
+
+#: ../demo.glade.h:16
+#: ../src/demo-ui.c:116
+msgid "_File"
+msgstr "_Arkiv"
+
+#: ../demo.glade.h:17
+#: ../src/demo-ui.c:171
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../demo.glade.h:18
+#: ../src/demo-ui.c:316
+msgid "button"
+msgstr "knapp"
+
+#: ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:208
+msgid "<b>Preview</b>"
+msgstr "<b>Förhandsgranska</b>"
+
+#: ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:70
+msgid "Appearance Settings"
+msgstr "Inställningar för utseende"
+
+#: ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:130
+msgid "Available Icon Themes"
+msgstr "Tillgängliga ikonteman"
+
+#: ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:90
+msgid "Available Window Themes"
+msgstr "Tillgängliga fönsterteman"
+
+#: ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:174
+msgid "Icon"
+msgstr "Ikon"
+
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+"Endast ikoner\n"
+"Endast text\n"
+"Text under ikoner\n"
+"Text brevid ikoner"
+
+#: ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:200
+msgid "Other"
+msgstr "Annat"
+
+#: ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:187
+msgid "Toolbar Style: "
+msgstr "Verktygsfältsstil:"
+
+#: ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:122
+msgid "Window"
+msgstr "Fönster"
+
+#: ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:110
+msgid "_Font:"
+msgstr "_Teckensnitt:"
+
+#: ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:167
+msgid "_Install"
+msgstr "_Installera"
+
+#: ../src/glade-support.c:90
+#: ../src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Kunde inte hitta pixmap-filen: %s"
+
+#: ../src/main-dlg-ui.c:195
+msgid "Icons only"
+msgstr "Endast ikoner"
+
+#: ../src/main-dlg-ui.c:196
+msgid "Text only"
+msgstr "Endast text"
+
+#: ../src/main-dlg-ui.c:197
+msgid "Text below icons"
+msgstr "Text under ikoner"
+
+#: ../src/main-dlg-ui.c:198
+msgid "Text beside icons"
+msgstr "Text bredvid ikoner"
+
+#: ../src/main-dlg.c:533
+msgid "Select an icon theme"
+msgstr "Välj ikontema"
+
+#: ../src/main-dlg.c:540
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Ikontema)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "Kolumn"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "Objekt"
+
+#: ../src/demo-ui.c:323
+msgid "Test Item 1"
+msgstr "Testobjekt 1"
+
+#: ../src/demo-ui.c:324
+msgid "Test Item 2"
+msgstr "Testobjekt 2"
+
+#: ../src/demo-ui.c:325
+msgid "Test Item 3"
+msgstr "Testobjekt 3"
+
