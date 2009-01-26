@@ -19,6 +19,12 @@
 #include "main-dlg-ui.h"
 #include "glade-support.h"
 
+enum {
+    COL_DISP_NAME,
+    COL_NAME,
+    N_COLS
+};
+
 #define GET_WIDGET( name )  name = lookup_widget( dlg, #name )
 
 #define INIT_LIST(name, prop) \
@@ -226,7 +232,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
     if( gtk_tree_selection_get_selected( sel, &model, &it ) )
     {
         char* name;
-        gtk_tree_model_get( model, &it, 0, &name, -1 );
+        gtk_tree_model_get( model, &it, COL_NAME, &name, -1 );
 
         if( model == gtk_theme_list )   /* gtk+ theme */
         {
@@ -270,9 +276,9 @@ static gint sort_func( GtkTreeModel* model, GtkTreeIter* it1, GtkTreeIter* it2, 
 {
 	char* str1, *str2;
 	int ret;
-	gtk_tree_model_get( model, it1, 0, &str1, -1 );
-	gtk_tree_model_get( model, it2, 0, &str2, -1 );
-	ret = g_ascii_strcasecmp( str1, str2 );
+	gtk_tree_model_get( model, it1, COL_DISP_NAME, &str1, -1 );
+	gtk_tree_model_get( model, it2, COL_DISP_NAME, &str2, -1 );
+	ret = g_utf8_collate( str1, str2 );
 	g_free( str1 );
 	g_free( str2 );
 	return ret;
@@ -283,23 +289,30 @@ static GtkListStore* init_tree_view( GtkTreeView* view, GCallback on_sel_changed
     GtkTreeViewColumn* col;
     GtkListStore* list;
     GtkTreeSelection* sel;
-    col = gtk_tree_view_column_new_with_attributes( NULL, gtk_cell_renderer_text_new(), "text", 0, NULL );
+    int text_col = strcmp(prop, "gtk-theme-name") ? COL_DISP_NAME : COL_NAME;
+
+    col = gtk_tree_view_column_new_with_attributes( NULL, gtk_cell_renderer_text_new(),
+                                                    "text", text_col, NULL );
     gtk_tree_view_append_column( view, col );
+
     sel = gtk_tree_view_get_selection(view);
     g_signal_connect( sel, "changed", on_sel_changed, prop );
 
-    list = gtk_list_store_new( 1, G_TYPE_STRING );
-    gtk_tree_sortable_set_sort_func( (GtkTreeSortable*)list, 0, sort_func, NULL, NULL );
+    list = gtk_list_store_new( N_COLS, G_TYPE_STRING, G_TYPE_STRING );
+    gtk_tree_sortable_set_sort_func( (GtkTreeSortable*)list, text_col, sort_func, NULL, NULL );
     gtk_tree_view_set_model( view, (GtkTreeModel*)list );
     g_object_unref( list );
     return list;
 }
 
+typedef gboolean (*ThemeFunc)(const char* file, const char* dir, const char* name, GtkListStore* list, GtkTreeIter* it);
+
 static void load_themes_from_dir( GtkListStore* list,
-                                                    const char* dir_path,
-                                                    const char* lookup,
-                                                    GtkTreeSelection* sel,
-                                                    const char* init_sel )
+                                  const char* dir_path,
+                                  const char* lookup,
+                                  GtkTreeSelection* sel,
+                                  const char* init_sel,
+                                  ThemeFunc theme_func )
 {
     GDir* dir;
     if( dir = g_dir_open( dir_path, 0, NULL ) )
@@ -310,18 +323,53 @@ static void load_themes_from_dir( GtkListStore* list,
             char* file = g_build_filename( dir_path, name, lookup, NULL );
             if( g_file_test( file, G_FILE_TEST_EXISTS ) )
             {
+                gboolean add = TRUE;
                 GtkTreeIter it;
-                gtk_list_store_append( list, &it );
-                gtk_list_store_set( list, &it, 0, name, -1 );
-                if( 0 == strcmp( name, init_sel ) )
+
+                /* prevent duplication */
+                if( gtk_tree_model_get_iter_first(list, &it ) )
                 {
-                    GtkTreeView* view;
-                    GtkTreePath* tp;
-                    gtk_tree_selection_select_iter( sel, &it );
-                    view = gtk_tree_selection_get_tree_view( sel );
-                    tp = gtk_tree_model_get_path( (GtkTreeModel*)list, &it );
-                    gtk_tree_view_scroll_to_cell( view, tp, NULL, FALSE, 0, 0 );
-                    gtk_tree_path_free( tp );
+                    char* _name;
+                    do {
+                        _name = NULL;
+                        gtk_tree_model_get(list, &it, COL_NAME, &_name, -1);
+                        if( _name && strcmp(_name, name) == 0 )
+                        {
+                            add = FALSE;
+                            g_free(_name);
+                            break;
+                        }
+                        g_free(_name);
+                    }
+                    while( gtk_tree_model_iter_next(list, &it ) );
+                }
+
+                if( add )
+                {
+                    gtk_list_store_append( list, &it );
+                    gtk_list_store_set( list, &it, COL_NAME, name, -1 );
+
+                    if( theme_func )
+                    {
+                        if( ! theme_func(file, dir, name, list, &it) )
+                            add = FALSE;
+                    }
+
+                    if( add )
+                    {
+                        if( 0 == strcmp( name, init_sel ) )
+                        {
+                            GtkTreeView* view;
+                            GtkTreePath* tp;
+                            gtk_tree_selection_select_iter( sel, &it );
+                            view = gtk_tree_selection_get_tree_view( sel );
+                            tp = gtk_tree_model_get_path( (GtkTreeModel*)list, &it );
+                            gtk_tree_view_scroll_to_cell( view, tp, NULL, FALSE, 0, 0 );
+                            gtk_tree_path_free( tp );
+                        }
+                    }
+                    else
+                        gtk_list_store_remove( list, &it );
                 }
             }
             g_free( file );
@@ -331,10 +379,11 @@ static void load_themes_from_dir( GtkListStore* list,
 }
 
 static void load_from_data_dirs( GtkListStore* list,
-                                                const char* relative_path,
-                                                const char* lookup,
-                                                GtkTreeSelection* sel,
-                                                const char* init_sel  )
+                                 const char* relative_path,
+                                 const char* lookup,
+                                 GtkTreeSelection* sel,
+                                 const char* init_sel,
+                                 ThemeFunc theme_func )
 {
     const char* const *dirs = g_get_system_data_dirs();
     const char* const *dir;
@@ -342,21 +391,59 @@ static void load_from_data_dirs( GtkListStore* list,
     for( dir = dirs; *dir; ++dir )
     {
         dir_path = g_build_filename( *dir, relative_path, NULL );
-        load_themes_from_dir( list, dir_path, lookup, sel, init_sel );
+        load_themes_from_dir( list, dir_path, lookup, sel, init_sel, theme_func );
         g_free( dir_path );
     }
     dir_path = g_build_filename( g_get_user_data_dir(), relative_path, NULL );
-    load_themes_from_dir( list, dir_path, lookup, sel, init_sel );
+    load_themes_from_dir( list, dir_path, lookup, sel, init_sel, theme_func );
     g_free( dir_path );
+}
+
+static gboolean icon_theme_func(const char* file, const char* dir, const char* name, GtkListStore* list, GtkTreeIter* it)
+{
+    GKeyFile* kf;
+    char* disp_name = NULL;
+    if( g_str_has_prefix( name, "default." ) )
+        return FALSE;
+
+    kf = g_key_file_new();
+    if( g_key_file_load_from_file(kf, file, 0, NULL) )
+    {
+        if( g_key_file_has_key(kf, "Icon Theme", "Directories", NULL)
+            && ! g_key_file_get_boolean(kf, "Icon Theme", "Hidden", NULL) )
+        {
+            disp_name = g_key_file_get_locale_string(kf, "Icon Theme", "Name", NULL, NULL);
+            gtk_list_store_set( list, it, COL_DISP_NAME, disp_name ? disp_name : name, -1 );
+        }
+    }
+    g_key_file_free(kf);
+    return disp_name != NULL;
+}
+
+static gboolean cursor_theme_func(const char* dir, const char* name, const char* lookup)
+{
+    char* ret = NULL;
+/*
+    GKeyFile* kf = g_key_file_new();
+    if( g_key_file_load_from_file(kf, lookup, 0, NULL) )
+    {
+        if( g_key_file_has_key(kf, "Icon Theme", "Directories", NULL) )
+        {
+            ret = g_key_file_get_locale_string(kf, "Icon Theme", "Name", NULL, NULL);
+        }
+    }
+    g_key_file_free(kf);
+*/
+    return ret != NULL;
 }
 
 static void load_gtk_themes( GtkListStore* list, const char* cur_sel )
 {
     char* path;
     GtkTreeSelection* sel = gtk_tree_view_get_selection( gtk_theme_view );
-    load_from_data_dirs( list, "themes", "gtk-2.0", sel, cur_sel );
+    load_from_data_dirs( list, "themes", "gtk-2.0", sel, cur_sel, NULL );
     path = g_build_filename( g_get_home_dir(), ".themes", NULL );
-    load_themes_from_dir( list, path, "gtk-2.0", sel, cur_sel );
+    load_themes_from_dir( list, path, "gtk-2.0", sel, cur_sel, NULL );
     g_free( path );
     gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
 }
@@ -365,9 +452,9 @@ static void load_icon_themes( GtkListStore* list, const char* cur_sel )
 {
     char* path;
     GtkTreeSelection* sel = gtk_tree_view_get_selection( icon_theme_view );
-    load_from_data_dirs( list, "icons", "index.theme", sel, cur_sel );
+    load_from_data_dirs( list, "icons", "index.theme", sel, cur_sel, icon_theme_func );
     path = g_build_filename( g_get_home_dir(), ".icons", NULL );
-    load_themes_from_dir( list, path, "index.theme", sel, cur_sel );
+    load_themes_from_dir( list, path, "index.theme", sel, cur_sel, icon_theme_func );
     g_free( path );
     gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
 }
