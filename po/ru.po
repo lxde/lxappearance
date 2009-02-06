@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-02 04:42+0100\n"
+"POT-Creation-Date: 2009-02-06 23:29+0100\n"
 "PO-Revision-Date: 2009-01-31 17:43+0300\n"
 "Last-Translator: Vitaly Pashkov <admin@fluda.net>\n"
 "Language-Team: Russian\n"
@@ -20,35 +20,35 @@ msgstr ""
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
-#: ../src/main-dlg-ui.c:70
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Настройки внешнего вида"
 
-#: ../src/main-dlg-ui.c:90
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Доступные темы окон"
 
-#: ../src/main-dlg-ui.c:110
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "_Шрифт:"
 
-#: ../src/main-dlg-ui.c:122
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Окна"
 
-#: ../src/main-dlg-ui.c:130
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Доступные темы значков"
 
-#: ../src/main-dlg-ui.c:167
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "_Установить"
 
-#: ../src/main-dlg-ui.c:174
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Значки"
 
-#: ../src/main-dlg-ui.c:187
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "Стиль панели инструментов:"
 
@@ -68,11 +68,11 @@ msgstr "Текст под значками"
 msgid "Text beside icons"
 msgstr "Текст рядом со значками"
 
-#: ../src/main-dlg-ui.c:200
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Другие"
 
-#: ../src/main-dlg-ui.c:208
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Предпросмотр</b>"
 
@@ -92,47 +92,47 @@ msgstr "Столбец"
 msgid "Item"
 msgstr "Элемент"
 
-#: ../src/demo-ui.c:116
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "_Файл"
 
-#: ../src/demo-ui.c:148
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "_Правка"
 
-#: ../src/demo-ui.c:171
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "_Помощь"
 
-#: ../src/demo-ui.c:196
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Назад"
 
-#: ../src/demo-ui.c:202
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Вперед"
 
-#: ../src/demo-ui.c:207
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Стоп"
 
-#: ../src/demo-ui.c:224
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Вкладка1"
 
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Переключатель"
 
-#: ../src/demo-ui.c:262
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Флажок"
 
-#: ../src/demo-ui.c:271
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Демонстрация"
 
-#: ../src/demo-ui.c:316
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "кнопка"
 
@@ -148,41 +148,45 @@ msgstr "Тестовый элемент 2"
 msgid "Test Item 3"
 msgstr "Тестовый элемент 3"
 
-#: ../src/demo-ui.c:327
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Вкладка2"
 
-#: ../src/demo-ui.c:340
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Введите сюда несколько символов для проверки выбранного шрифта."
 
-#: ../src/demo-ui.c:342
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Вкладка3"
 
-#: ../src/demo-ui.c:357
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Вкладка4"
 
-#~ msgid ""
-#~ "Test Item 1\n"
-#~ "Test Item 2\n"
-#~ "Test Item 3"
-#~ msgstr ""
-#~ "Тестовый элемент 1\n"
-#~ "Тестовый элемент 2\n"
-#~ "Тестовый элемент 3"
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+"Тестовый элемент 1\n"
+"Тестовый элемент 2\n"
+"Тестовый элемент 3"
 
-#~ msgid ""
-#~ "Icons only\n"
-#~ "Text only\n"
-#~ "Text below icons\n"
-#~ "Text beside icons"
-#~ msgstr ""
-#~ "Только значки\n"
-#~ "Только текст\n"
-#~ "Текст под значками\n"
-#~ "Текст рядом со значками"
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+"Только значки\n"
+"Только текст\n"
+"Текст под значками\n"
+"Текст рядом со значками"
 
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "Не могу найти файл изображения: %s"
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Не могу найти файл изображения: %s"

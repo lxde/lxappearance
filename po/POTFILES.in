@@ -5,3 +5,6 @@ src/main-dlg-ui.c
 src/main-dlg.c
 src/demo.c
 src/demo-ui.c
+demo.glade
+lxappearance.glade
+src/glade-support.c

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-23 10:50+0800\n"
+"POT-Creation-Date: 2009-02-06 23:28+0100\n"
 "PO-Revision-Date: 2008-04-21 07:46+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
@@ -18,118 +18,178 @@ msgstr ""
 "X-Poedit-Country: HUNGARY\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
-#: src/main-dlg-ui.c:124
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Megjelenés beállításai"
 
-#: src/main-dlg-ui.c:142
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Elérhető ablak témák"
 
-#: src/main-dlg-ui.c:155
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+#, fuzzy
+msgid "_Font:"
+msgstr "Betű"
+
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Ablak"
 
-#: src/main-dlg-ui.c:163
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Elérhető ikon-témák"
 
-#: src/main-dlg-ui.c:177
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+msgid "_Install"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Ikon"
 
-#: src/main-dlg-ui.c:185
-msgid "Available Fonts"
-msgstr "Elérhető betűk"
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+msgid "Toolbar Style: "
+msgstr ""
 
-#: src/main-dlg-ui.c:203
-msgid "Font Size:"
-msgstr "Betű-méret:"
+#: ../src/main-dlg-ui.c:195
+msgid "Icons only"
+msgstr ""
 
-#: src/main-dlg-ui.c:216
-msgid "Style:"
-msgstr "Stílus"
+#: ../src/main-dlg-ui.c:196
+msgid "Text only"
+msgstr ""
 
-#: src/main-dlg-ui.c:229
-msgid "Font"
-msgstr "Betű"
+#: ../src/main-dlg-ui.c:197
+msgid "Text below icons"
+msgstr ""
 
-#: src/main-dlg-ui.c:237
+#: ../src/main-dlg-ui.c:198
+msgid "Text beside icons"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Egyéb"
 
-#: src/main-dlg-ui.c:245
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Előnézet</b>"
 
-#: src/main-dlg-ui.c:268
+#: ../src/main-dlg.c:620
+msgid "Select an icon theme"
+msgstr ""
+
+#: ../src/main-dlg.c:627
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr ""
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr ""
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr ""
+
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "_Fájl"
 
-#: src/main-dlg-ui.c:300
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "Sz_erkesztés"
 
-#: src/main-dlg-ui.c:323
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "_Súgó"
 
-#: src/main-dlg-ui.c:344
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Vissza"
 
-#: src/main-dlg-ui.c:349
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Előre"
 
-#: src/main-dlg-ui.c:354
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Stop"
 
-#: src/main-dlg-ui.c:370
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Lap1"
 
-#: src/main-dlg-ui.c:392
-#: src/main-dlg-ui.c:398
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Rádió gomb"
 
-#: src/main-dlg-ui.c:408
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Kijelölő gomb"
 
-#: src/main-dlg-ui.c:417
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Demó"
 
-#: src/main-dlg-ui.c:446
-msgid "button1"
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
+#, fuzzy
+msgid "button"
 msgstr "gomb1"
 
-#: src/main-dlg-ui.c:453
+#: ../src/demo-ui.c:323
 msgid "Test Item 1"
 msgstr "Teszt elem 1"
 
-#: src/main-dlg-ui.c:454
+#: ../src/demo-ui.c:324
 msgid "Test Item 2"
 msgstr "Teszt elem 2"
 
-#: src/main-dlg-ui.c:455
+#: ../src/demo-ui.c:325
 msgid "Test Item 3"
 msgstr "Teszt elem 3"
 
-#: src/main-dlg-ui.c:457
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Lap2"
 
-#: src/main-dlg-ui.c:465
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
+msgid "Type some characters here to test currently selected font."
+msgstr ""
+
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Lap3"
 
-#: src/glade-support.c:90
-#: src/glade-support.c:114
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
+#, fuzzy
+msgid "Tab4"
+msgstr "Lap1"
+
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "E pixel-térkép fájl nem található: %s"
 
+#~ msgid "Available Fonts"
+#~ msgstr "Elérhető betűk"
+
+#~ msgid "Font Size:"
+#~ msgstr "Betű-méret:"
+
+#~ msgid "Style:"
+#~ msgstr "Stílus"

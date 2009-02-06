@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance r839\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-06 20:21+0200\n"
+"POT-Creation-Date: 2009-02-06 23:28+0100\n"
 "PO-Revision-Date: 2008-09-05 18:48+0200\n"
 "Last-Translator: Robert-André Mauchin <zebob.m@pengzone.org>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
@@ -18,35 +18,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../src/main-dlg-ui.c:70
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Paramètres de l'apparence"
 
-#: ../src/main-dlg-ui.c:90
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Thèmes de fenêtre disponibles :"
 
-#: ../src/main-dlg-ui.c:110
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "_Police :"
 
-#: ../src/main-dlg-ui.c:122
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Fenêtre"
 
-#: ../src/main-dlg-ui.c:130
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Thèmes d'icônes disponibles :"
 
-#: ../src/main-dlg-ui.c:167
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "_Installer"
 
-#: ../src/main-dlg-ui.c:174
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Icônes"
 
-#: ../src/main-dlg-ui.c:187
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "Style des barres d'outils :"
 
@@ -66,19 +66,19 @@ msgstr "Texte sous les icônes"
 msgid "Text beside icons"
 msgstr "Texte à côté des icônes"
 
-#: ../src/main-dlg-ui.c:200
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Autres"
 
-#: ../src/main-dlg-ui.c:208
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Prévisualisation</b>"
 
-#: ../src/main-dlg.c:533
+#: ../src/main-dlg.c:620
 msgid "Select an icon theme"
 msgstr "Sélectionnez un thème d'icônes"
 
-#: ../src/main-dlg.c:540
+#: ../src/main-dlg.c:627
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (thème d'icônes)"
 
@@ -90,47 +90,47 @@ msgstr "Colonne"
 msgid "Item"
 msgstr "Élément"
 
-#: ../src/demo-ui.c:116
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "_Fichier"
 
-#: ../src/demo-ui.c:148
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "É_dition"
 
-#: ../src/demo-ui.c:171
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "Aid_e"
 
-#: ../src/demo-ui.c:196
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Précédant"
 
-#: ../src/demo-ui.c:202
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Suivant"
 
-#: ../src/demo-ui.c:207
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Arrêter"
 
-#: ../src/demo-ui.c:224
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Onglet1"
 
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Bouton radio"
 
-#: ../src/demo-ui.c:262
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Case à cocher"
 
-#: ../src/demo-ui.c:271
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Démonstration"
 
-#: ../src/demo-ui.c:316
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "bouton"
 
@@ -146,18 +146,38 @@ msgstr "Élément de test 2"
 msgid "Test Item 3"
 msgstr "Élément de test 3"
 
-#: ../src/demo-ui.c:327
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Onglet2"
 
-#: ../src/demo-ui.c:340
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Saisissez du texte ici pour tester la police sélectionnée."
 
-#: ../src/demo-ui.c:342
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Onglet3"
 
-#: ../src/demo-ui.c:357
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Onglet4"
+
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""

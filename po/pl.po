@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pl_PL\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-20 17:35+0800\n"
+"POT-Creation-Date: 2009-02-06 23:29+0100\n"
 "PO-Revision-Date: 2008-12-23 19:21+0100\n"
 "Last-Translator: Grzegorz Gibas <amigib@gmail.com>\n"
 "Language-Team: Polish\n"
@@ -16,147 +16,166 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: src/main-dlg-ui.c:70
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Ustawienia wyglądu"
 
-#: src/main-dlg-ui.c:90
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Dostępne Motywy"
 
-#: src/main-dlg-ui.c:110
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "_Czcionka:"
 
-#: src/main-dlg-ui.c:122
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Okno"
 
-#: src/main-dlg-ui.c:130
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Dostępne Motywy Ikon"
 
-#: src/main-dlg-ui.c:167
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "_Instaluj"
 
-#: src/main-dlg-ui.c:174
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Ikony"
 
-#: src/main-dlg-ui.c:187
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "Styl paska narzędziowego"
 
-#: src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:195
 msgid "Icons only"
 msgstr "Tylko ikony"
 
-#: src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:196
 msgid "Text only"
 msgstr "Tylko tekst"
 
-#: src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:197
 msgid "Text below icons"
 msgstr "Tekst pod ikonami"
 
-#: src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:198
 msgid "Text beside icons"
 msgstr "Tekst obok ikon"
 
-#: src/main-dlg-ui.c:200
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Inne"
 
-#: src/main-dlg-ui.c:208
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Podgląd</b>"
 
-#: src/main-dlg.c:533
+#: ../src/main-dlg.c:620
 msgid "Select an icon theme"
 msgstr "Wybierz motyw ikon"
 
-#: src/main-dlg.c:540
+#: ../src/main-dlg.c:627
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Motyw Ikon)"
 
-#: src/demo.c:56
+#: ../src/demo.c:56
 msgid "Column"
 msgstr "Kolumna"
 
-#: src/demo.c:65
+#: ../src/demo.c:65
 msgid "Item"
 msgstr "Pozycja"
 
-#: src/demo-ui.c:116
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "P_lik"
 
-#: src/demo-ui.c:148
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "_Edycja"
 
-#: src/demo-ui.c:171
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "_Pomoc"
 
-#: src/demo-ui.c:196
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Powrót"
 
-#: src/demo-ui.c:202
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Do przodu"
 
-#: src/demo-ui.c:207
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Zatrzymaj"
 
-#: src/demo-ui.c:224
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Karta1"
 
-#: src/demo-ui.c:246 src/demo-ui.c:252
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Przycisk Radio"
 
-#: src/demo-ui.c:262
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Przycisk zaznaczania"
 
-#: src/demo-ui.c:271
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Demo"
 
-#: src/demo-ui.c:316
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "przycisk"
 
-#: src/demo-ui.c:323
+#: ../src/demo-ui.c:323
 msgid "Test Item 1"
 msgstr "Testowa pozycja 1"
 
-#: src/demo-ui.c:324
+#: ../src/demo-ui.c:324
 msgid "Test Item 2"
 msgstr "Testowa pozycja 2"
 
-#: src/demo-ui.c:325
+#: ../src/demo-ui.c:325
 msgid "Test Item 3"
 msgstr "Testowa pozycja 3"
 
-#: src/demo-ui.c:327
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Karta2"
 
-#: src/demo-ui.c:340
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Napisz coś tutaj, żeby przetestować wybraną czcionkę."
 
-#: src/demo-ui.c:342
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Karta3"
 
-#: src/demo-ui.c:357
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Karta4"
 
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""

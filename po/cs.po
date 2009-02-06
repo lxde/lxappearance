@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-02 02:34+0100\n"
+"POT-Creation-Date: 2009-02-06 23:28+0100\n"
 "PO-Revision-Date: 2009-01-08 23:57+0100\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech\n"
@@ -16,146 +16,166 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: src/main-dlg-ui.c:70
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Nastavení vzhledu"
 
-#: src/main-dlg-ui.c:90
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Dostupné motivy oken"
 
-#: src/main-dlg-ui.c:110
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "_Písmo:"
 
-#: src/main-dlg-ui.c:122
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Okno"
 
-#: src/main-dlg-ui.c:130
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Dostupné motivy ikon"
 
-#: src/main-dlg-ui.c:167
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "_Nainstalovat"
 
-#: src/main-dlg-ui.c:174
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Ikona"
 
-#: src/main-dlg-ui.c:187
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "Styl panelu nástrojů:"
 
-#: src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:195
 msgid "Icons only"
 msgstr "Pouze ikony"
 
-#: src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:196
 msgid "Text only"
 msgstr "Pouze text"
 
-#: src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:197
 msgid "Text below icons"
 msgstr "Text pod ikonami"
 
-#: src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:198
 msgid "Text beside icons"
 msgstr "Text vedle ikon"
 
-#: src/main-dlg-ui.c:200
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Jiný"
 
-#: src/main-dlg-ui.c:208
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Ukázka</b>"
 
-#: src/main-dlg.c:620
+#: ../src/main-dlg.c:620
 msgid "Select an icon theme"
 msgstr "Vyberte motiv ikon"
 
-#: src/main-dlg.c:627
+#: ../src/main-dlg.c:627
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Motiv ikon)"
 
-#: src/demo.c:56
+#: ../src/demo.c:56
 msgid "Column"
 msgstr "Sloupec"
 
-#: src/demo.c:65
+#: ../src/demo.c:65
 msgid "Item"
 msgstr "Položka"
 
-#: src/demo-ui.c:116
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "_Soubor"
 
-#: src/demo-ui.c:148
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "_Upravit"
 
-#: src/demo-ui.c:171
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "_Nápověda"
 
-#: src/demo-ui.c:196
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Zpět"
 
-#: src/demo-ui.c:202
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Vpřed"
 
-#: src/demo-ui.c:207
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Zastavit"
 
-#: src/demo-ui.c:224
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Karta1"
 
-#: src/demo-ui.c:246 src/demo-ui.c:252
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Přepínač"
 
-#: src/demo-ui.c:262
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Zaškrtávací tlačítko"
 
-#: src/demo-ui.c:271
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Demo"
 
-#: src/demo-ui.c:316
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "tlačítko"
 
-#: src/demo-ui.c:323
+#: ../src/demo-ui.c:323
 msgid "Test Item 1"
 msgstr "Testovací položka 1"
 
-#: src/demo-ui.c:324
+#: ../src/demo-ui.c:324
 msgid "Test Item 2"
 msgstr "Testovací položka 2"
 
-#: src/demo-ui.c:325
+#: ../src/demo-ui.c:325
 msgid "Test Item 3"
 msgstr "Testovací položka 3"
 
-#: src/demo-ui.c:327
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Karta2"
 
-#: src/demo-ui.c:340
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Zde napište několik znaků pro vyzkoušení vybraného písma."
 
-#: src/demo-ui.c:342
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Karta3"
 
-#: src/demo-ui.c:357
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Karta4"
+
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
