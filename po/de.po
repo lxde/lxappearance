@@ -8,12 +8,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-11 00:27+0100\n"
-"PO-Revision-Date: 2008-07-05 21:57+0100\n"
-"Last-Translator: Mario Blättermann <mario.blaettermann@t-online.de>\n"
+"PO-Revision-Date: 2009-02-25 01:07+0100\n"
+"Last-Translator: Christoph Wickert <christoph.wickert@googlemail.com>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
@@ -113,15 +114,15 @@ msgstr "Stop"
 
 #: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
-msgstr "Tab1"
+msgstr "Reiter1"
 
 #: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
-msgstr "Radio-Knopf"
+msgstr "Auswahlknopf"
 
 #: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
-msgstr "Auswahlbox"
+msgstr "Auswahlfeld"
 
 #: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
@@ -145,7 +146,7 @@ msgstr "Testeintrag 3"
 
 #: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
-msgstr "Tab2"
+msgstr "Reiter2"
 
 #: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
@@ -153,11 +154,11 @@ msgstr "Geben Sie hier Text ein, um die Schriftauswahl zu testen. "
 
 #: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
-msgstr "Tab3"
+msgstr "Reiter3"
 
 #: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
-msgstr "Tab4"
+msgstr "Reiter4"
 
 #: ../demo.glade.h:11
 msgid ""
@@ -165,6 +166,9 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
+"Testeintrag 1\n"
+"Testeintrag 2\n"
+"Testeintrag 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -173,8 +177,12 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"Nur Symbole\n"
+"Nur Text\n"
+"Text unter Symbolen\n"
+"Text neben Symbolen"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr ""
+msgstr "Bilddatei %s konnte nicht gefunden werden"
