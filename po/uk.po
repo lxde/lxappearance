@@ -3,162 +3,162 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-11 00:27+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-03-04 20:04+0100\n"
+"Last-Translator: Y P <yupadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr ""
+msgstr "Настройка вигляду"
 
 #: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
-msgstr ""
+msgstr "Доступні теми вікон"
 
 #: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
-msgstr ""
+msgstr "_Фонт:"
 
 #: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
-msgstr ""
+msgstr "Вікно"
 
 #: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
-msgstr ""
+msgstr "Доступні теми іконок"
 
 #: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
-msgstr ""
+msgstr "_Інсталювати"
 
 #: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
-msgstr ""
+msgstr "Іконка"
 
 #: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Стиль панелі інструментів: "
 
 #: ../src/main-dlg-ui.c:195
 msgid "Icons only"
-msgstr ""
+msgstr "Тільки іконки"
 
 #: ../src/main-dlg-ui.c:196
 msgid "Text only"
-msgstr ""
+msgstr "Тільки текст"
 
 #: ../src/main-dlg-ui.c:197
 msgid "Text below icons"
-msgstr ""
+msgstr "Текст під іконками"
 
 #: ../src/main-dlg-ui.c:198
 msgid "Text beside icons"
-msgstr ""
+msgstr "Текст за іконками"
 
 #: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
-msgstr ""
+msgstr "Інше"
 
 #: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr ""
+msgstr "<b>Переглянути</b>"
 
 #: ../src/main-dlg.c:620
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Виберіть тему іконок"
 
 #: ../src/main-dlg.c:627
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Тема іконок)"
 
 #: ../src/demo.c:56
 msgid "Column"
-msgstr ""
+msgstr "Колонка"
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr ""
+msgstr "Пункт"
 
 #: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
-msgstr ""
+msgstr "_Файл"
 
 #: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
-msgstr ""
+msgstr "_Редагувати"
 
 #: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
-msgstr ""
+msgstr "_Допомога"
 
 #: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
-msgstr ""
+msgstr "Вперед"
 
 #: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
-msgstr ""
+msgstr "Стоп"
 
 #: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
-msgstr ""
+msgstr "Таб1"
 
 #: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
-msgstr ""
+msgstr "Кнопка радіо"
 
 #: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
-msgstr ""
+msgstr "Клавіша перевірки"
 
 #: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
-msgstr ""
+msgstr "Демо"
 
 #: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
-msgstr ""
+msgstr "клавіша"
 
 #: ../src/demo-ui.c:323
 msgid "Test Item 1"
-msgstr ""
+msgstr "Тестовий пункт 1"
 
 #: ../src/demo-ui.c:324
 msgid "Test Item 2"
-msgstr ""
+msgstr "Тестовий пункт 2"
 
 #: ../src/demo-ui.c:325
 msgid "Test Item 3"
-msgstr ""
+msgstr "Тестовий пункт 3"
 
 #: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
-msgstr ""
+msgstr "Tаб2"
 
 #: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
-msgstr ""
+msgstr "Надрукуйте тут якісь букви для перевірки щойно вибраного шрифта"
 
 #: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
-msgstr ""
+msgstr "Таб3"
 
 #: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
-msgstr ""
+msgstr "Таб4"
 
 #: ../demo.glade.h:11
 msgid ""
@@ -166,6 +166,9 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
+"Тестовий пункт 1\n"
+"Тестовий пункт 2\n"
+"Тестовий пункт 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -174,8 +177,12 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"Тільки іконки\n"
+"Тільки текст\n"
+"Текст під іконками\n"
+"Текст за іконками"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr ""
+msgstr "Не можу знайти pixmap файл: %s"
