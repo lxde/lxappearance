@@ -9,12 +9,13 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-11 00:27+0100\n"
-"PO-Revision-Date: 2008-12-26 06:18+0100\n"
+"PO-Revision-Date: 2009-03-10 14:47+0100\n"
 "Last-Translator: Vidar Jon Bauge <vidarjb@gmail.com>\n"
 "Language-Team: Danish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
@@ -22,7 +23,7 @@ msgstr "Indstillinger for udseende"
 
 #: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
-msgstr "Tilgængelige Temaer for Vinduer"
+msgstr "TilgÃ¦ngelige Temaer for Vinduer"
 
 #: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
@@ -34,7 +35,7 @@ msgstr "Vindue"
 
 #: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
-msgstr "Tilgængelige Temaer for Ikoner"
+msgstr "TilgÃ¦ngelige Temaer for Ikoner"
 
 #: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
@@ -46,7 +47,7 @@ msgstr "Ikon"
 
 #: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
-msgstr "Udseende til Værktøjslinjen: "
+msgstr "Udseende til VÃ¦rktÃ¸jslinjen: "
 
 #: ../src/main-dlg-ui.c:195
 msgid "Icons only"
@@ -70,11 +71,11 @@ msgstr "Andet"
 
 #: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr "<b>Forhåndsvisning</b>"
+msgstr "<b>ForhÃ¥ndsvisning</b>"
 
 #: ../src/main-dlg.c:620
 msgid "Select an icon theme"
-msgstr "Vælg Ikon Tema"
+msgstr "VÃ¦lg Ikon Tema"
 
 #: ../src/main-dlg.c:627
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
@@ -98,7 +99,7 @@ msgstr "_Rediger"
 
 #: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
-msgstr "_Hjælp"
+msgstr "_HjÃ¦lp"
 
 #: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
@@ -166,6 +167,9 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
+"Test Objekt 1\n"
+"Test Objekt 2\n"
+"Test Objekt 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -174,8 +178,12 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"Kun ikoner\n"
+"Kun tekst\n"
+"Tekst under ikonerne\n"
+"Tekst ved siden af ikonerne"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr ""
+msgstr "Fandt ikke billedfilen: %s"
