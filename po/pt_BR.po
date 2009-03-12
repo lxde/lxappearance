@@ -1,15 +1,16 @@
-# Portuguese translations for lxappearance package.
-# Copyright (C) 2009 THE lxappearance'S COPYRIGHT HOLDER
+# Brasilian Portuguese Translations for lxappearance package.
+# Copyright (C) 2009 The lxappearance'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the lxappearance package.
 # Og Maciel <ogmaciel@gnome.org>, 2009.
+# Henrique P. Machado <zehrique@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-11 00:27+0100\n"
-"PO-Revision-Date: 2009-01-05 19:51-0500\n"
-"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
+"PO-Revision-Date: 2009-03-11 18:28-0300\n"
+"Last-Translator: Henrique P. Machado <zehrique@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -86,7 +87,7 @@ msgstr "Coluna"
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr "Ítem"
+msgstr "Item"
 
 #: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
@@ -134,15 +135,15 @@ msgstr "botão"
 
 #: ../src/demo-ui.c:323
 msgid "Test Item 1"
-msgstr "Testar ítem 1"
+msgstr "Testar item 1"
 
 #: ../src/demo-ui.c:324
 msgid "Test Item 2"
-msgstr "Testar ítem 2"
+msgstr "Testar item 2"
 
 #: ../src/demo-ui.c:325
 msgid "Test Item 3"
-msgstr "Testar ítem 3"
+msgstr "Testar item 3"
 
 #: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
@@ -167,6 +168,9 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
+"Testar item 1\n"
+"Testar item 2\n"
+"Testar item 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -175,8 +179,12 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"Somente ícones\n"
+"Somente texto\n"
+"Texto acima dos ícones"
+"Texto abaixo dos ícones"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr ""
+msgstr "Não foi possível encontrar o arquivo pixmap: %s"
