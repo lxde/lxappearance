@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-11 00:27+0100\n"
-"PO-Revision-Date: 2008-12-09 21:22-0500\n"
-"Last-Translator: Julio Napurí Carlos <julionc@gmail.com>\n"
+"PO-Revision-Date: 2009-03-21 23:00+0100\n"
+"Last-Translator: Guillermo Iguaran <johnnyprez@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.1.0\n"
+"X-Poedit-Language: Spanish\n"
 
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
@@ -96,11 +97,11 @@ msgstr "_Archivo"
 
 #: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
-msgstr "Editar"
+msgstr "_Edición"
 
 #: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
-msgstr "Ayuda"
+msgstr "_Ayuda"
 
 #: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
@@ -168,6 +169,9 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
+"Elemento de prueba 1\r\n"
+"Elemento de prueba 2\r\n"
+"Elemento de prueba 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -176,8 +180,12 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"Sólo iconos\n"
+"Sólo texto\n"
+"Texto debajo de los iconos\n"
+"Texto al lado de los iconos"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr ""
+msgstr "No se encontro el archivo de imagen: %s"
