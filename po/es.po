@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-11 00:27+0100\n"
-"PO-Revision-Date: 2009-03-21 23:00+0100\n"
+"PO-Revision-Date: 2009-03-22 21:58+0100\n"
 "Last-Translator: Guillermo Iguaran <johnnyprez@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -101,7 +101,7 @@ msgstr "_Edición"
 
 #: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
-msgstr "_Ayuda"
+msgstr "A_yuda"
 
 #: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
@@ -153,7 +153,7 @@ msgstr "Pestaña2"
 
 #: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
-msgstr "Presione algunas teclas para probar la fuente seleccionada."
+msgstr "Digite algunos caracteres acá para probar la fuente seleccionada."
 
 #: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
@@ -169,8 +169,8 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
-"Elemento de prueba 1\r\n"
-"Elemento de prueba 2\r\n"
+"Elemento de prueba 1\n"
+"Elemento de prueba 2\n"
 "Elemento de prueba 3"
 
 #: ../lxappearance.glade.h:6
