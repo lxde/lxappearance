@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-06 23:29+0100\n"
+"POT-Creation-Date: 2009-04-15 19:27+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Alain Mendizabal <alainmendi@gmail.com>\n"
 "Language-Team: Basque <alainmendi@gmail.com>\n"
@@ -11,43 +11,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Basque\n"
 
-#: ../src/main-dlg-ui.c:70
-#: ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Itxura ezarpenak"
 
-#: ../src/main-dlg-ui.c:90
-#: ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Leiho kudeatzaile gaiak"
 
-#: ../src/main-dlg-ui.c:110
-#: ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "_Letra tipoa:"
 
-#: ../src/main-dlg-ui.c:122
-#: ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Leihoa"
 
-#: ../src/main-dlg-ui.c:130
-#: ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Ikono gaiak"
 
-#: ../src/main-dlg-ui.c:167
-#: ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "_Instalatu"
 
-#: ../src/main-dlg-ui.c:174
-#: ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Ikonoa"
 
-#: ../src/main-dlg-ui.c:187
-#: ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "Tresna-barraren estiloa:"
 
@@ -67,13 +59,11 @@ msgstr "Testua ikonoen azpian"
 msgid "Text beside icons"
 msgstr "Testua ikonoen alboan"
 
-#: ../src/main-dlg-ui.c:200
-#: ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Bestelakoak"
 
-#: ../src/main-dlg-ui.c:208
-#: ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Aurreikuspena</b>"
 
@@ -93,59 +83,47 @@ msgstr "Zutabea"
 msgid "Item"
 msgstr "Elementua"
 
-#: ../src/demo-ui.c:116
-#: ../demo.glade.h:16
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "_Fitxategia"
 
-#: ../src/demo-ui.c:148
-#: ../demo.glade.h:15
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "_Editatu"
 
-#: ../src/demo-ui.c:171
-#: ../demo.glade.h:17
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "_Laguntza"
 
-#: ../src/demo-ui.c:196
-#: ../demo.glade.h:1
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Atzera"
 
-#: ../src/demo-ui.c:202
-#: ../demo.glade.h:4
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Aurrera"
 
-#: ../src/demo-ui.c:207
-#: ../demo.glade.h:6
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Gelditu"
 
-#: ../src/demo-ui.c:224
-#: ../demo.glade.h:7
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Fitxa1"
 
-#: ../src/demo-ui.c:246
-#: ../src/demo-ui.c:252
-#: ../demo.glade.h:5
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Aukera botoia"
 
-#: ../src/demo-ui.c:262
-#: ../demo.glade.h:2
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Hautapen botoia"
 
-#: ../src/demo-ui.c:271
-#: ../demo.glade.h:3
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Proba"
 
-#: ../src/demo-ui.c:316
-#: ../demo.glade.h:18
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "botoia"
 
@@ -161,23 +139,19 @@ msgstr "Proba-elementua 2"
 msgid "Test Item 3"
 msgstr "Proba-elementua 3"
 
-#: ../src/demo-ui.c:327
-#: ../demo.glade.h:8
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Fitxa2"
 
-#: ../src/demo-ui.c:340
-#: ../demo.glade.h:14
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Idatzi hemen karaktere batzuk aukeratutako letra tipoa probatzeko."
 
-#: ../src/demo-ui.c:342
-#: ../demo.glade.h:9
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Fitxa3"
 
-#: ../src/demo-ui.c:357
-#: ../demo.glade.h:10
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Fitxa4"
 
@@ -203,9 +177,7 @@ msgstr ""
 "Testua ikonoen azpian\n"
 "Testua ikonoen alboan"
 
-#: ../src/glade-support.c:90
-#: ../src/glade-support.c:114
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Ezin izan da %s pixmap fitxategia aurkitu"
-

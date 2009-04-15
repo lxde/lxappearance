@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-11 00:27+0100\n"
+"POT-Creation-Date: 2009-04-15 19:27+0200\n"
 "PO-Revision-Date: 2009-03-22 14:50+0100\n"
 "Last-Translator: Benedikt Klus <b.klus89@web.de>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -16,43 +16,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg-ui.c:70
-#: ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Erscheinungsbild-Einstellungen"
 
-#: ../src/main-dlg-ui.c:90
-#: ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Verfügbare Themen"
 
-#: ../src/main-dlg-ui.c:110
-#: ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "_Schrift:"
 
-#: ../src/main-dlg-ui.c:122
-#: ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Fenster"
 
-#: ../src/main-dlg-ui.c:130
-#: ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Verfügbare Symbolthemen"
 
-#: ../src/main-dlg-ui.c:167
-#: ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "_Installieren"
 
-#: ../src/main-dlg-ui.c:174
-#: ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Symbol"
 
-#: ../src/main-dlg-ui.c:187
-#: ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "Stil der Werkzeugleiste: "
 
@@ -72,13 +64,11 @@ msgstr "Text unter Symbolen"
 msgid "Text beside icons"
 msgstr "Text neben Symbolen"
 
-#: ../src/main-dlg-ui.c:200
-#: ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Andere"
 
-#: ../src/main-dlg-ui.c:208
-#: ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Vorschau</b>"
 
@@ -98,59 +88,47 @@ msgstr "Spalte"
 msgid "Item"
 msgstr "Eintrag"
 
-#: ../src/demo-ui.c:116
-#: ../demo.glade.h:16
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "_Datei"
 
-#: ../src/demo-ui.c:148
-#: ../demo.glade.h:15
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "_Bearbeiten"
 
-#: ../src/demo-ui.c:171
-#: ../demo.glade.h:17
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "_Hilfe"
 
-#: ../src/demo-ui.c:196
-#: ../demo.glade.h:1
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Zurück"
 
-#: ../src/demo-ui.c:202
-#: ../demo.glade.h:4
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Vorwärts"
 
-#: ../src/demo-ui.c:207
-#: ../demo.glade.h:6
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Stop"
 
-#: ../src/demo-ui.c:224
-#: ../demo.glade.h:7
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Reiter1"
 
-#: ../src/demo-ui.c:246
-#: ../src/demo-ui.c:252
-#: ../demo.glade.h:5
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Auswahlknopf"
 
-#: ../src/demo-ui.c:262
-#: ../demo.glade.h:2
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Auswahlfeld"
 
-#: ../src/demo-ui.c:271
-#: ../demo.glade.h:3
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Demo"
 
-#: ../src/demo-ui.c:316
-#: ../demo.glade.h:18
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "Knopf"
 
@@ -166,23 +144,19 @@ msgstr "Testeintrag 2"
 msgid "Test Item 3"
 msgstr "Testeintrag 3"
 
-#: ../src/demo-ui.c:327
-#: ../demo.glade.h:8
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Reiter2"
 
-#: ../src/demo-ui.c:340
-#: ../demo.glade.h:14
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Geben Sie hier Text ein, um die Schriftauswahl zu testen. "
 
-#: ../src/demo-ui.c:342
-#: ../demo.glade.h:9
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Reiter3"
 
-#: ../src/demo-ui.c:357
-#: ../demo.glade.h:10
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Reiter4"
 
@@ -208,11 +182,7 @@ msgstr ""
 "Text unter Symbolen\n"
 "Text neben Symbolen"
 
-#: ../src/glade-support.c:90
-#: ../src/glade-support.c:114
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Konnte Bilddatei nicht finden: %s"
-
-
- 	  	 

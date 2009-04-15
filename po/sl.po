@@ -1,4 +1,4 @@
-﻿# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -6,55 +6,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-11 00:27+0100\n"
+"POT-Creation-Date: 2009-04-15 19:27+0200\n"
 "PO-Revision-Date: 2009-04-10 10:58+0100\n"
 "Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
 "Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 1.1.0\n"
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
 
-#: ../src/main-dlg-ui.c:70
-#: ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Nastavitve izgleda"
 
-#: ../src/main-dlg-ui.c:90
-#: ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "Razpoložljive teme"
 
-#: ../src/main-dlg-ui.c:110
-#: ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "_Pisava:"
 
-#: ../src/main-dlg-ui.c:122
-#: ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "Okno"
 
-#: ../src/main-dlg-ui.c:130
-#: ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "Razpoložljive teme"
 
-#: ../src/main-dlg-ui.c:167
-#: ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "_Namesti"
 
-#: ../src/main-dlg-ui.c:174
-#: ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "Ikone"
 
-#: ../src/main-dlg-ui.c:187
-#: ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "Slog orodne vrstice"
 
@@ -74,13 +67,11 @@ msgstr "Tekst pod ikono"
 msgid "Text beside icons"
 msgstr "Tekst zraven ikone"
 
-#: ../src/main-dlg-ui.c:200
-#: ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "Ostalo"
 
-#: ../src/main-dlg-ui.c:208
-#: ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Predogled</b>"
 
@@ -100,59 +91,47 @@ msgstr "Stolpec"
 msgid "Item"
 msgstr "Element"
 
-#: ../src/demo-ui.c:116
-#: ../demo.glade.h:16
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "_Datoteka"
 
-#: ../src/demo-ui.c:148
-#: ../demo.glade.h:15
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "_Uredi"
 
-#: ../src/demo-ui.c:171
-#: ../demo.glade.h:17
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "_Pomoč"
 
-#: ../src/demo-ui.c:196
-#: ../demo.glade.h:1
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Nazaj"
 
-#: ../src/demo-ui.c:202
-#: ../demo.glade.h:4
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Naprej"
 
-#: ../src/demo-ui.c:207
-#: ../demo.glade.h:6
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Ustavi"
 
-#: ../src/demo-ui.c:224
-#: ../demo.glade.h:7
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Zavihek1"
 
-#: ../src/demo-ui.c:246
-#: ../src/demo-ui.c:252
-#: ../demo.glade.h:5
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Radijski gumb"
 
-#: ../src/demo-ui.c:262
-#: ../demo.glade.h:2
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Potrditveni gumb"
 
-#: ../src/demo-ui.c:271
-#: ../demo.glade.h:3
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Demo"
 
-#: ../src/demo-ui.c:316
-#: ../demo.glade.h:18
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "gumb"
 
@@ -168,23 +147,19 @@ msgstr "Testni element 2"
 msgid "Test Item 3"
 msgstr "Testni element 3"
 
-#: ../src/demo-ui.c:327
-#: ../demo.glade.h:8
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Zavihek2"
 
-#: ../src/demo-ui.c:340
-#: ../demo.glade.h:14
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Za preizkus pisave vtipkajte poljubno besedilo."
 
-#: ../src/demo-ui.c:342
-#: ../demo.glade.h:9
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Zavihek3"
 
-#: ../src/demo-ui.c:357
-#: ../demo.glade.h:10
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Zavihek4"
 
@@ -210,9 +185,7 @@ msgstr ""
 "Samo tekst pod ikonami\n"
 "Samo tekst nad ikonami"
 
-#: ../src/glade-support.c:90
-#: ../src/glade-support.c:114
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, fuzzy, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Pixmap datoteke %s ni bilo mogoče najti"
-

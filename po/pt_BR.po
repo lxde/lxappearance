@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-11 00:27+0100\n"
+"POT-Creation-Date: 2009-04-15 19:27+0200\n"
 "PO-Revision-Date: 2009-03-11 18:28-0300\n"
 "Last-Translator: Henrique P. Machado <zehrique@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
@@ -181,8 +181,7 @@ msgid ""
 msgstr ""
 "Somente ícones\n"
 "Somente texto\n"
-"Texto acima dos ícones"
-"Texto abaixo dos ícones"
+"Texto acima dos íconesTexto abaixo dos ícones"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
