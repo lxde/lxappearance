@@ -10,13 +10,14 @@ msgstr ""
 "Project-Id-Version: lxappearance r839\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-11 00:27+0100\n"
-"PO-Revision-Date: 2008-09-05 18:48+0200\n"
-"Last-Translator: Robert-André Mauchin <zebob.m@pengzone.org>\n"
+"PO-Revision-Date: 2009-04-10 01:28+0200\n"
+"Last-Translator: Cilyan Olowen <gaknar@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
@@ -48,7 +49,7 @@ msgstr "Icônes"
 
 #: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
-msgstr "Style des barres d'outils :"
+msgstr "Style des barres d'outils : "
 
 #: ../src/main-dlg-ui.c:195
 msgid "Icons only"
@@ -168,6 +169,9 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
+"Élément de test 1\r\n"
+"Élément de test 2\r\n"
+"Élément de test 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -176,8 +180,12 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"Icônes seulement\r\n"
+"Texte seulement\r\n"
+"Texte sous les icônes\r\n"
+"Texte à côté des icônes"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr ""
+msgstr "Impossible de trouver le fichier image : %s"
