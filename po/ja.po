@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-02-18 11:46+0900\n"
+"POT-Creation-Date: 2009-05-01 18:11+0900\n"
+"PO-Revision-Date: 2009-03-28 11:19+0900\n"
 "Last-Translator: Hironao Komatsu <hironao@users.sourceforge.net>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -135,15 +135,15 @@ msgstr "ボタン"
 
 #: ../src/demo-ui.c:323
 msgid "Test Item 1"
-msgstr "テストアイテム1"
+msgstr "テストアイテム 1"
 
 #: ../src/demo-ui.c:324
 msgid "Test Item 2"
-msgstr "テストアイテム2"
+msgstr "テストアイテム 2"
 
 #: ../src/demo-ui.c:325
 msgid "Test Item 3"
-msgstr "テストアイテム3"
+msgstr "テストアイテム 3"
 
 #: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
@@ -168,6 +168,9 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
+"テストアイテム 1\n"
+"テストアイテム 2\n"
+"テストアイテム 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -176,8 +179,12 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"アイコンのみ\n"
+"テキストのみ\n"
+"アイコンの下にテキスト\n"
+"アイコンの横にテキスト"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr ""
+msgstr "pixmap ファイルが見つかりません: %s"
