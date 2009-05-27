@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-05-24 06:12+0200\n"
+"PO-Revision-Date: 2009-05-24 19:15+0200\n"
 "Last-Translator: Payne Samad Loh <sploh77@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 # By Phyz
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr "Tetapan Penampilan"
+msgstr "Tetapan Penerampilan"
 
 # by Phyz
 #: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
