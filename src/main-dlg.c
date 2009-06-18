@@ -25,15 +25,15 @@ enum {
     N_COLS
 };
 
-#define GET_WIDGET( name )  name = lookup_widget( dlg, #name )
+#define GET_WIDGET_WITH_TYPE(name, type) name = type( lookup_widget( dlg, #name ))
 
 #define INIT_LIST(name, prop) \
-    GET_WIDGET( name##_view ); \
-    name##_list = init_tree_view( name##_view, G_CALLBACK(on_list_sel_changed), prop ); \
+    GET_WIDGET_WITH_TYPE( name##_view, GTK_TREE_VIEW ); \
+    name##_list = init_tree_view( name##_view, G_CALLBACK(on_list_sel_changed), prop); \
     load_##name##s( name##_list, name##_name );
 
-#define enable_apply()      gtk_dialog_set_response_sensitive( main_dlg, GTK_RESPONSE_APPLY, TRUE )
-#define disable_apply()      gtk_dialog_set_response_sensitive( main_dlg, GTK_RESPONSE_APPLY, FALSE )
+#define enable_apply()      gtk_dialog_set_response_sensitive(GTK_DIALOG (main_dlg), GTK_RESPONSE_APPLY, TRUE )
+#define disable_apply()      gtk_dialog_set_response_sensitive(GTK_DIALOG (main_dlg), GTK_RESPONSE_APPLY, FALSE )
 
 extern gboolean under_lxde;	/* wether lxde-xsettings daemon is active */
 
@@ -127,7 +127,7 @@ static void reload_demo_process()
         demo_pid = 0;
     }
 
-    g_snprintf( wid, 16, "%ld", gtk_socket_get_id(demo_socket) );
+    g_snprintf( wid, 16, "%ld", gtk_socket_get_id(GTK_SOCKET (demo_socket)) );
 
     argv[0] = g_get_prgname();
     argv[1] = "demo";
@@ -190,7 +190,8 @@ static void write_lxde_config()
 
 	if( ! ret )
 	{
-		const char** dir, **dirs = g_get_system_data_dirs();
+		const gchar* const * dir;
+		const gchar* const * dirs = g_get_system_data_dirs();
 		create_lxde_config_dir();
 		/* load system-wide config file */
 		for( dir = dirs; *dir; ++dir )
@@ -234,7 +235,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
         char* name;
         gtk_tree_model_get( model, &it, COL_NAME, &name, -1 );
 
-        if( model == gtk_theme_list )   /* gtk+ theme */
+        if( model == GTK_TREE_MODEL (gtk_theme_list) )   /* gtk+ theme */
         {
             if( name && gtk_theme_name && 0 == strcmp( name, gtk_theme_name ) )
                 goto out;
@@ -244,7 +245,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             if( under_lxde )
 				g_object_set( gtk_settings_get_default(), "gtk-theme-name", name, NULL );
         }
-        else if( model == icon_theme_list )   /* icon theme */
+        else if( model == GTK_TREE_MODEL (icon_theme_list) )   /* icon theme */
         {
             if( name && icon_theme_name && 0 == strcmp( name, icon_theme_name ) )
                 goto out;
@@ -255,17 +256,16 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
 				g_object_set( gtk_settings_get_default(), "gtk-icon-theme-name", name, NULL );
         }
 
-		if( under_lxde )
-		{
-			enable_apply();
-		}
-		else
-		{
-			write_rc_file( tmp_rc_file );
-			//gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
-			reload_demo_process();
-		}
-
+	if( under_lxde )
+	{
+		enable_apply();
+	}
+	else
+	{
+		write_rc_file( tmp_rc_file );
+		//gtk_rc_reparse_all_for_settings(gtk_settings_get_default(), TRUE);
+		reload_demo_process();
+	}
         return;
     out:
         g_free( name );
@@ -296,7 +296,7 @@ static GtkListStore* init_tree_view( GtkTreeView* view, GCallback on_sel_changed
     gtk_tree_view_append_column( view, col );
 
     sel = gtk_tree_view_get_selection(view);
-    g_signal_connect( sel, "changed", on_sel_changed, prop );
+    g_signal_connect( sel, "changed", on_sel_changed, GINT_TO_POINTER(prop) );
 
     list = gtk_list_store_new( N_COLS, G_TYPE_STRING, G_TYPE_STRING );
     gtk_tree_sortable_set_sort_func( (GtkTreeSortable*)list, text_col, sort_func, NULL, NULL );
@@ -317,7 +317,7 @@ static void load_themes_from_dir( GtkListStore* list,
     GDir* dir;
     if( dir = g_dir_open( dir_path, 0, NULL ) )
     {
-        char* name;
+        const char* name;
         while( name = g_dir_read_name( dir ) )
         {
             char* file = g_build_filename( dir_path, name, lookup, NULL );
@@ -327,12 +327,12 @@ static void load_themes_from_dir( GtkListStore* list,
                 GtkTreeIter it;
 
                 /* prevent duplication */
-                if( gtk_tree_model_get_iter_first(list, &it ) )
+                if( gtk_tree_model_get_iter_first(GTK_TREE_MODEL (list), &it ) )
                 {
                     char* _name;
                     do {
                         _name = NULL;
-                        gtk_tree_model_get(list, &it, COL_NAME, &_name, -1);
+                        gtk_tree_model_get(GTK_TREE_MODEL (list), &it, COL_NAME, &_name, -1);
                         if( _name && strcmp(_name, name) == 0 )
                         {
                             add = FALSE;
@@ -341,7 +341,7 @@ static void load_themes_from_dir( GtkListStore* list,
                         }
                         g_free(_name);
                     }
-                    while( gtk_tree_model_iter_next(list, &it ) );
+                    while( gtk_tree_model_iter_next(GTK_TREE_MODEL (list), &it ) );
                 }
 
                 if( add )
@@ -351,7 +351,7 @@ static void load_themes_from_dir( GtkListStore* list,
 
                     if( theme_func )
                     {
-                        if( ! theme_func(file, dir, name, list, &it) )
+                        if( ! theme_func(file, (char *) dir, name, list, &it) )
                             add = FALSE;
                     }
 
@@ -466,7 +466,7 @@ static void load_fonts( GtkListStore* list )
 }
 */
 
-gboolean center_win( GtkWindow* dlg )
+gboolean center_win( GtkWidget* dlg )
 {
     gtk_widget_show( dlg );
     return FALSE;
@@ -524,7 +524,7 @@ void main_dlg_init( GtkWidget* dlg )
 
     gtk_combo_box_set_active( (GtkComboBox*)lookup_widget(dlg, "tb_style"), tb_style < 4 ? tb_style : 3 );
 
-    GET_WIDGET( demo_box );
+    GET_WIDGET_WITH_TYPE( demo_box, GTK_WIDGET );
     gtk_widget_show( demo_box );
 
 	if( under_lxde )
@@ -626,12 +626,12 @@ on_install_theme_clicked               (GtkButton       *button,
     gtk_file_filter_add_pattern( filter, "*.tar.bz2" );
     gtk_file_filter_set_name( filter, _("*.tar.gz, *.tar.bz2 (Icon Theme)") );
 
-    gtk_file_chooser_add_filter( fc, filter );
-    gtk_file_chooser_set_filter( (GtkFileChooser*)fc, filter );
+    gtk_file_chooser_add_filter( GTK_FILE_CHOOSER(fc), filter );
+    gtk_file_chooser_set_filter( GTK_FILE_CHOOSER(fc), filter );
 
     if( gtk_dialog_run( (GtkDialog*)fc ) == GTK_RESPONSE_OK )
     {
-        char* file = gtk_file_chooser_get_filename( fc );
+        char* file = gtk_file_chooser_get_filename( GTK_FILE_CHOOSER(fc) );
         char* argv[]={
             PACKAGE_DATA_DIR"/lxappearance/install-icon-theme.sh",
             file, NULL };

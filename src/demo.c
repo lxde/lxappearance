@@ -14,7 +14,7 @@ static GtkIconView* icon_view = NULL;
 
 static void load_demo_icons()
 {
-    static const char** icon_names[]={
+    static const char* icon_names[]={
         "gnome-fs-home",
         "gnome-fs-desktop",
         "gnome-fs-directory",
@@ -40,7 +40,7 @@ static void load_demo_icons()
         if( icon )
             g_object_unref( icon );
     }
-    gtk_icon_view_set_model( icon_view, demo_icon_list );
+    gtk_icon_view_set_model( icon_view, GTK_TREE_MODEL(demo_icon_list) );
     g_object_unref( demo_icon_list );
 }
 
@@ -81,7 +81,7 @@ void show_demo( GdkNativeWindow wid )
     g_object_get( gtk_settings_get_default(), "gtk-toolbar-style", &tb_style, NULL );
     gtk_toolbar_set_style (GTK_TOOLBAR (lookup_widget(demo, "toolbar")), tb_style );
 
-    icon_view = lookup_widget( demo, "icon_view" );
+    icon_view = GTK_ICON_VIEW( lookup_widget( demo, "icon_view" ) );
     tree_view = lookup_widget( demo, "demo_treeview" );
 
     gtk_icon_view_set_pixbuf_column( icon_view, 0 );
@@ -100,7 +100,7 @@ void show_demo( GdkNativeWindow wid )
     {
     	/* The demo window and the main dialog are in the same process */
     	GtkWidget* demo_box = (GtkWidget*)wid;
-    	gtk_container_add( demo_box, demo );
+    	gtk_container_add( GTK_CONTAINER(demo_box), demo );
     	g_signal_connect( gtk_icon_theme_get_default(), "changed", G_CALLBACK( load_demo_icons ), NULL );
     }
     else
