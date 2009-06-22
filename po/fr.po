@@ -169,8 +169,8 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
-"Élément de test 1\r\n"
-"Élément de test 2\r\n"
+"Élément de test 1\n"
+"Élément de test 2\n"
 "Élément de test 3"
 
 #: ../lxappearance.glade.h:6
@@ -180,9 +180,9 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
-"Icônes seulement\r\n"
-"Texte seulement\r\n"
-"Texte sous les icônes\r\n"
+"Icônes seulement\n"
+"Texte seulement\n"
+"Texte sous les icônes\n"
 "Texte à côté des icônes"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
