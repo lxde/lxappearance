@@ -53,6 +53,16 @@ create_dlg (void)
   GtkWidget *label18;
   GtkWidget *remove_theme;
   GtkWidget *label3;
+  GtkWidget *vbox2;
+  GtkWidget *label4;
+  GtkWidget *scrolledwindow3;
+  GtkWidget *cursor_theme_view;
+  GtkWidget *hbox2;
+  GtkWidget *label6;
+  GtkWidget *label9;
+  GtkWidget *cursor_theme_size;
+  GtkWidget *label10;
+  GtkWidget *label1;
   GtkWidget *vbox5;
   GtkWidget *vbox6;
   GtkWidget *label19;
@@ -68,7 +78,6 @@ create_dlg (void)
 
   dlg = gtk_dialog_new ();
   gtk_window_set_title (GTK_WINDOW (dlg), _("Appearance Settings"));
-  gtk_window_set_position (GTK_WINDOW (dlg), GTK_WIN_POS_CENTER);
   gtk_window_set_default_size (GTK_WINDOW (dlg), 640, 450);
   gtk_window_set_type_hint (GTK_WINDOW (dlg), GDK_WINDOW_TYPE_HINT_DIALOG);
 
@@ -96,7 +105,6 @@ create_dlg (void)
   gtk_widget_show (scrolledwindow1);
   gtk_box_pack_start (GTK_BOX (vbox4), scrolledwindow1, TRUE, TRUE, 0);
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolledwindow1), GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
-  gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scrolledwindow1), GTK_SHADOW_IN);
 
   gtk_theme_view = gtk_tree_view_new ();
   gtk_widget_show (gtk_theme_view);
@@ -136,7 +144,6 @@ create_dlg (void)
   gtk_widget_show (scrolledwindow2);
   gtk_box_pack_start (GTK_BOX (vbox3), scrolledwindow2, TRUE, TRUE, 0);
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolledwindow2), GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
-  gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scrolledwindow2), GTK_SHADOW_IN);
 
   icon_theme_view = gtk_tree_view_new ();
   gtk_widget_show (icon_theme_view);
@@ -175,6 +182,51 @@ create_dlg (void)
   gtk_widget_show (label3);
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 1), label3);
 
+  vbox2 = gtk_vbox_new (FALSE, 0);
+  gtk_widget_show (vbox2);
+  gtk_container_add (GTK_CONTAINER (notebook1), vbox2);
+
+  label4 = gtk_label_new (_("Available Cursor Themes"));
+  gtk_widget_show (label4);
+  gtk_box_pack_start (GTK_BOX (vbox2), label4, FALSE, FALSE, 0);
+  gtk_misc_set_padding (GTK_MISC (label4), 4, 4);
+
+  scrolledwindow3 = gtk_scrolled_window_new (NULL, NULL);
+  gtk_widget_show (scrolledwindow3);
+  gtk_box_pack_start (GTK_BOX (vbox2), scrolledwindow3, TRUE, TRUE, 0);
+  gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolledwindow3), GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
+
+  cursor_theme_view = gtk_tree_view_new ();
+  gtk_widget_show (cursor_theme_view);
+  gtk_container_add (GTK_CONTAINER (scrolledwindow3), cursor_theme_view);
+  gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (cursor_theme_view), FALSE);
+
+  hbox2 = gtk_hbox_new (FALSE, 0);
+  gtk_widget_show (hbox2);
+  gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, TRUE, 8);
+
+  label6 = gtk_label_new (_("Size"));
+  gtk_widget_show (label6);
+  gtk_box_pack_start (GTK_BOX (hbox2), label6, FALSE, FALSE, 4);
+
+  label9 = gtk_label_new (_("Small"));
+  gtk_widget_show (label9);
+  gtk_box_pack_start (GTK_BOX (hbox2), label9, FALSE, FALSE, 4);
+
+  cursor_theme_size = gtk_hscale_new (GTK_ADJUSTMENT (gtk_adjustment_new (0, 16, 64, 1, 0, 0)));
+  gtk_widget_show (cursor_theme_size);
+  gtk_box_pack_start (GTK_BOX (hbox2), cursor_theme_size, TRUE, TRUE, 0);
+  gtk_scale_set_draw_value (GTK_SCALE (cursor_theme_size), FALSE);
+  gtk_scale_set_digits (GTK_SCALE (cursor_theme_size), 0);
+
+  label10 = gtk_label_new (_("Large"));
+  gtk_widget_show (label10);
+  gtk_box_pack_start (GTK_BOX (hbox2), label10, FALSE, FALSE, 4);
+
+  label1 = gtk_label_new (_("Cursor"));
+  gtk_widget_show (label1);
+  gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 2), label1);
+
   vbox5 = gtk_vbox_new (FALSE, 4);
   gtk_widget_show (vbox5);
   gtk_container_add (GTK_CONTAINER (notebook1), vbox5);
@@ -199,7 +251,7 @@ create_dlg (void)
 
   label5 = gtk_label_new (_("Other"));
   gtk_widget_show (label5);
-  gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 2), label5);
+  gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 3), label5);
 
   vbox1 = gtk_vbox_new (FALSE, 0);
   gtk_widget_show (vbox1);
@@ -246,6 +298,9 @@ create_dlg (void)
   g_signal_connect ((gpointer) remove_theme, "clicked",
                     G_CALLBACK (on_remove_theme_clicked),
                     NULL);
+  g_signal_connect ((gpointer) cursor_theme_size, "value_changed",
+                    G_CALLBACK (on_cursor_size_changed),
+                    NULL);
   g_signal_connect ((gpointer) tb_style, "changed",
                     G_CALLBACK (on_tb_style_changed),
                     NULL);
@@ -283,6 +338,16 @@ create_dlg (void)
   GLADE_HOOKUP_OBJECT (dlg, label18, "label18");
   GLADE_HOOKUP_OBJECT (dlg, remove_theme, "remove_theme");
   GLADE_HOOKUP_OBJECT (dlg, label3, "label3");
+  GLADE_HOOKUP_OBJECT (dlg, vbox2, "vbox2");
+  GLADE_HOOKUP_OBJECT (dlg, label4, "label4");
+  GLADE_HOOKUP_OBJECT (dlg, scrolledwindow3, "scrolledwindow3");
+  GLADE_HOOKUP_OBJECT (dlg, cursor_theme_view, "cursor_theme_view");
+  GLADE_HOOKUP_OBJECT (dlg, hbox2, "hbox2");
+  GLADE_HOOKUP_OBJECT (dlg, label6, "label6");
+  GLADE_HOOKUP_OBJECT (dlg, label9, "label9");
+  GLADE_HOOKUP_OBJECT (dlg, cursor_theme_size, "cursor_theme_size");
+  GLADE_HOOKUP_OBJECT (dlg, label10, "label10");
+  GLADE_HOOKUP_OBJECT (dlg, label1, "label1");
   GLADE_HOOKUP_OBJECT (dlg, vbox5, "vbox5");
   GLADE_HOOKUP_OBJECT (dlg, vbox6, "vbox6");
   GLADE_HOOKUP_OBJECT (dlg, label19, "label19");

@@ -19,5 +19,9 @@ on_remove_theme_clicked                (GtkButton       *button,
                                         gpointer         user_data);
 
 void
+on_cursor_size_changed                 (GtkHScale       *cursorsizescale,
+                                        gpointer         user_data);
+
+void
 on_tb_style_changed                    (GtkComboBox     *combobox,
                                         gpointer         user_data);

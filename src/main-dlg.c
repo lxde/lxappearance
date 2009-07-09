@@ -45,9 +45,14 @@ static GtkListStore* gtk_theme_list = NULL;
 static GtkTreeView* icon_theme_view = NULL;
 static GtkListStore* icon_theme_list = NULL;
 
+static GtkTreeView* cursor_theme_view = NULL;
+static GtkListStore* cursor_theme_list = NULL;
+
 static char* gtk_theme_name = NULL;
 static char* icon_theme_name = NULL;
 static char* font_name = NULL;
+static char* cursor_theme_name = NULL;
+static gint cursor_theme_size = 0;
 static GtkToolbarStyle tb_style = GTK_TOOLBAR_BOTH;
 
 extern char tmp_rc_file[];
@@ -159,6 +164,8 @@ static void write_rc_file( const char* path )
         fprintf( f, "gtk-icon-theme-name=\"%s\"\n", icon_theme_name );
         fprintf( f, "gtk-font-name=\"%s\"\n", font_name );
         fprintf( f, "gtk-toolbar-style=%d\n", tb_style );
+        fprintf( f, "gtk-cursor-theme-name=\"%s\"\n", cursor_theme_name );
+        fprintf( f, "gtk-cursor-theme-size=\"%d\"\n", cursor_theme_size );
 
         fprintf( f, "include \"%s/.gtkrc-2.0.mine\"\n", g_get_home_dir() );
 
@@ -180,38 +187,40 @@ static void create_lxde_config_dir()
 static void write_lxde_config()
 {
     FILE* f;
-	char* file, *data;
-	gsize len;
-	GKeyFile* kf = g_key_file_new();
-	gboolean ret;
-
-	file = g_build_filename( g_get_user_config_dir(), "lxde/config", NULL );
-	ret = g_key_file_load_from_file( kf, file, G_KEY_FILE_KEEP_COMMENTS, NULL );
-
-	if( ! ret )
-	{
-		const gchar* const * dir;
-		const gchar* const * dirs = g_get_system_data_dirs();
-		create_lxde_config_dir();
-		/* load system-wide config file */
-		for( dir = dirs; *dir; ++dir )
-		{
-			char* path = g_build_filename( *dir, "lxde/config", NULL );
-			ret = g_key_file_load_from_file( kf, path, 0, NULL );
-			g_free( path );
-			if( ret )
-				break;
-		}
-	}
-
-	g_key_file_set_string( kf, "GTK", "sNet/ThemeName", gtk_theme_name );
-	g_key_file_set_string( kf, "GTK", "sNet/IconThemeName", icon_theme_name );
-	g_key_file_set_string( kf, "GTK", "sGtk/FontName", font_name );
-	g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", tb_style );
-
-	data = g_key_file_to_data( kf, &len, NULL );
-	g_key_file_free( kf );
-
+    char* file, *data;
+    gsize len;
+    GKeyFile* kf = g_key_file_new();
+    gboolean ret;
+    
+    file = g_build_filename( g_get_user_config_dir(), "lxde/config", NULL );
+    ret = g_key_file_load_from_file( kf, file, G_KEY_FILE_KEEP_COMMENTS, NULL );
+    
+    if( ! ret )
+    {
+    	const gchar* const * dir;
+    	const gchar* const * dirs = g_get_system_data_dirs();
+    	create_lxde_config_dir();
+    	/* load system-wide config file */
+    	for( dir = dirs; *dir; ++dir )
+    	{
+    		char* path = g_build_filename( *dir, "lxde/config", NULL );
+    		ret = g_key_file_load_from_file( kf, path, 0, NULL );
+    		g_free( path );
+    		if( ret )
+    			break;
+    	}
+    }
+    
+    g_key_file_set_string( kf, "GTK", "sNet/ThemeName", gtk_theme_name );
+    g_key_file_set_string( kf, "GTK", "sNet/IconThemeName", icon_theme_name );
+    g_key_file_set_string( kf, "GTK", "sGtk/FontName", font_name );
+    g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", tb_style );
+    g_key_file_set_string( kf, "GTK", "sGtk/CursorThemeName", cursor_theme_name );
+    g_key_file_set_integer( kf, "GTK", "iGtk/CursorThemeSize", cursor_theme_size );
+    
+    data = g_key_file_to_data( kf, &len, NULL );
+    g_key_file_free( kf );
+    
     if( f = fopen( file, "w" ) )
     {
 		fwrite( data, sizeof(char), len, f );
@@ -255,6 +264,17 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             if( under_lxde )
 				g_object_set( gtk_settings_get_default(), "gtk-icon-theme-name", name, NULL );
         }
+        else if( model == GTK_TREE_MODEL (cursor_theme_list) )   /* cursor theme */
+        {
+            if( name && cursor_theme_name && 0 == strcmp( name, cursor_theme_name ) )
+                goto out;
+            g_free( cursor_theme_name );
+            cursor_theme_name = g_strdup(name);
+	    //gdk_x11_display_set_cursor_theme ( gdk_display_get_default (), name, cursor_theme_size );
+
+            if( under_lxde )
+				g_object_set( gtk_settings_get_default(), "gtk-cursor-theme-name", name, NULL );
+        }
 
 	if( under_lxde )
 	{
@@ -289,7 +309,7 @@ static GtkListStore* init_tree_view( GtkTreeView* view, GCallback on_sel_changed
     GtkTreeViewColumn* col;
     GtkListStore* list;
     GtkTreeSelection* sel;
-    int text_col = strcmp(prop, "gtk-theme-name") ? COL_DISP_NAME : COL_NAME;
+    int text_col = strcmp(prop, "gtk-theme-name") && strcmp(prop, "gtk-cursor-theme-name") ? COL_DISP_NAME : COL_NAME;
 
     col = gtk_tree_view_column_new_with_attributes( NULL, gtk_cell_renderer_text_new(),
                                                     "text", text_col, NULL );
@@ -459,6 +479,16 @@ static void load_icon_themes( GtkListStore* list, const char* cur_sel )
     gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
 }
 
+static void load_cursor_themes( GtkListStore* list, const char* cur_sel )
+{
+    char* path;
+    GtkTreeSelection* sel = gtk_tree_view_get_selection( cursor_theme_view );
+    load_from_data_dirs( list, "icons", "cursors", sel, cur_sel, NULL );
+    path = g_build_filename( g_get_home_dir(), ".icons", NULL );
+    load_themes_from_dir( list, path, "cursors", sel, cur_sel, NULL );
+    g_free( path );
+    gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
+}
 /*
 static void load_fonts( GtkListStore* list )
 {
@@ -505,14 +535,20 @@ void main_dlg_init( GtkWidget* dlg )
                         "gtk-icon-theme-name", &icon_theme_name,
                         "gtk-font-name", &font_name,
                         "gtk-toolbar-style", &tb_style,
+                        "gtk-cursor-theme-name", &cursor_theme_name,
+                        "gtk-cursor-theme-size", &cursor_theme_size,
                         NULL );
 
     if(  ! gtk_theme_name )
         gtk_theme_name = g_strdup( "Raleigh" );
     if(  ! icon_theme_name )
-        gtk_theme_name = g_strdup( "hicolor" );
+        icon_theme_name = g_strdup( "hicolor" );
+    if(  ! cursor_theme_name )
+        cursor_theme_name = g_strdup( "default" );
     if( ! font_name )
         font_name = g_strdup( "Sans 10" );
+    if(  ! cursor_theme_size )
+        cursor_theme_size = 16;
 
 	/* no lxde-settings daemon, use gtkrc-2.0 */
 	if( ! under_lxde )
@@ -520,7 +556,9 @@ void main_dlg_init( GtkWidget* dlg )
 
     INIT_LIST( gtk_theme, "gtk-theme-name" )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
+    INIT_LIST( cursor_theme, "gtk-cursor-theme-name" )
     gtk_font_button_set_font_name( (GtkFontButton*)lookup_widget(dlg, "font"), font_name );
+    gtk_range_set_value( GTK_RANGE(lookup_widget(dlg, "cursor_theme_size")), cursor_theme_size );
 
     gtk_combo_box_set_active( (GtkComboBox*)lookup_widget(dlg, "tb_style"), tb_style < 4 ? tb_style : 3 );
 
@@ -646,6 +684,10 @@ on_install_theme_clicked               (GtkButton       *button,
             /* reload all icon themes */
             gtk_list_store_clear( icon_theme_list );
             load_icon_themes( icon_theme_list, stdo ? stdo : "" );
+
+            /* reload all cursor themes */
+            gtk_list_store_clear( cursor_theme_list );
+            load_cursor_themes( cursor_theme_list, stdo ? stdo : "" );
         }
         g_free( file );
     }
@@ -661,6 +703,23 @@ on_remove_theme_clicked                (GtkButton       *button,
 
 }
 
+void
+on_cursor_size_changed                 (GtkHScale       *cursorsizescale,
+                                        gpointer         user_data)
+{
+    cursor_theme_size = gtk_range_get_value( GTK_RANGE(cursorsizescale) );
+
+	if( under_lxde )
+	{
+		g_object_set( gtk_settings_get_default(), "gtk-cursor-theme-size", cursor_theme_size, NULL );
+		enable_apply();
+	}
+	else
+	{
+		write_rc_file( tmp_rc_file );
+		reload_demo_process();
+	}
+}
 
 void
 on_tb_style_changed                    (GtkComboBox     *combobox,
