@@ -165,7 +165,7 @@ static void write_rc_file( const char* path )
         fprintf( f, "gtk-font-name=\"%s\"\n", font_name );
         fprintf( f, "gtk-toolbar-style=%d\n", tb_style );
         fprintf( f, "gtk-cursor-theme-name=\"%s\"\n", cursor_theme_name );
-        fprintf( f, "gtk-cursor-theme-size=\"%d\"\n", cursor_theme_size );
+        fprintf( f, "gtk-cursor-theme-size=%d\n", cursor_theme_size );
 
         fprintf( f, "include \"%s/.gtkrc-2.0.mine\"\n", g_get_home_dir() );
 
