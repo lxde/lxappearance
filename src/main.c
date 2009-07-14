@@ -23,16 +23,18 @@
 char tmp_rc_file[] = "/tmp/gtkrc-2.0-XXXXXX";
 GtkWidget* main_dlg = NULL;
 
-gboolean under_lxde = FALSE;	/* wether lxde-xsettings daemon is active */
+gboolean under_lxsession = FALSE;	/* wether lxsession-xsettings daemon is active */
 
-static void check_lxde()
+Atom lxsession_atom = 0;
+
+static void check_lxsession()
 {
-	Atom atom = XInternAtom( GDK_DISPLAY(), "LXDE_SETTINGS", True );
-	if( atom != None )
+	lxsession_atom = XInternAtom( GDK_DISPLAY(), "_LXSESSION", True );
+	if( lxsession_atom != None )
 	{
 		XGrabServer( GDK_DISPLAY() );
-		if( XGetSelectionOwner( GDK_DISPLAY(), atom ) )
-			under_lxde = TRUE;
+		if( XGetSelectionOwner( GDK_DISPLAY(), lxsession_atom ) )
+			under_lxsession = TRUE;
 		XUngrabServer( GDK_DISPLAY() );
 	}
 }
@@ -53,8 +55,8 @@ int main (int argc, char *argv[])
         gtk_set_locale ();
         gtk_init (&argc, &argv);
 
-        check_lxde();
-        if( under_lxde )
+        check_lxsession();
+        if( under_lxsession )
         	return 1;
 
         show_demo( (GdkNativeWindow)atoi( argv[2] ) );
@@ -65,10 +67,10 @@ int main (int argc, char *argv[])
     gtk_set_locale ();
     gtk_init (&argc, &argv);
 
-	/* Dirty hack: check if lxde-xsettings daemon is active */
-	check_lxde();
+	/* Dirty hack: check if we are under lxsession */
+	check_lxsession();
 
-	if( ! under_lxde )
+	if( ! under_lxsession )
 		mkstemp( tmp_rc_file );
 
     /* Dirty hack: "gtk-toolbar-style" is installed in class_init of GtkToolbar */
@@ -80,7 +82,7 @@ int main (int argc, char *argv[])
 
     gtk_main ();
 
-	if( ! under_lxde )
+	if( ! under_lxsession )
 		unlink( tmp_rc_file );
 
     return 0;

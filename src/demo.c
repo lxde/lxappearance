@@ -8,7 +8,7 @@
 #include "demo-ui.h"
 #include "glade-support.h"
 
-extern gboolean under_lxde;	/* wether lxde-xsettings daemon is active */
+extern gboolean under_lxsession;	/* wether lxsession-xsettings daemon is active */
 
 static GtkIconView* icon_view = NULL;
 
@@ -95,8 +95,8 @@ void show_demo( GdkNativeWindow wid )
 
     gtk_widget_show_all( demo );
     
-    /* LXDE settings daemon is active and we don't use gtkrc files. */
-    if( under_lxde )
+    /* lxsession settings daemon is active and we don't use gtkrc files. */
+    if( under_lxsession )
     {
     	/* The demo window and the main dialog are in the same process */
     	GtkWidget* demo_box = (GtkWidget*)wid;

@@ -35,7 +35,7 @@ enum {
 #define enable_apply()      gtk_dialog_set_response_sensitive(GTK_DIALOG (main_dlg), GTK_RESPONSE_APPLY, TRUE )
 #define disable_apply()      gtk_dialog_set_response_sensitive(GTK_DIALOG (main_dlg), GTK_RESPONSE_APPLY, FALSE )
 
-extern gboolean under_lxde;	/* wether lxde-xsettings daemon is active */
+extern gboolean under_lxsession;	/* wether we are under lxsession */
 
 extern GtkWidget* main_dlg; /* defined in main.c */
 
@@ -66,58 +66,9 @@ static GtkWidget* demo_box = NULL;
 static GtkWidget* demo_socket = NULL;
 static GPid demo_pid = 0;
 
-/* older versions of glib don't provde these API */
-#if ! GLIB_CHECK_VERSION(2, 8, 0)
+static const char* session_name = NULL;
 
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <unistd.h>
-#include <string.h>
-#include <errno.h>
-
-int mkdir_with_parents(const gchar *pathname, int mode)
-{
-    struct stat statbuf;
-    char *dir, *sep;
-    dir = g_strdup( pathname );
-    sep = dir[0] == '/' ? dir + 1 : dir;
-    do {
-        sep = strchr( sep, '/' );
-        if( G_LIKELY( sep ) )
-            *sep = '\0';
-
-        if( stat( dir, &statbuf) == 0 )
-        {
-            if( ! S_ISDIR(statbuf.st_mode) )    /* parent not dir */
-                goto err;
-        }
-        else    /* stat failed */
-        {
-            if( errno == ENOENT )   /* not exists */
-            {
-                if( mkdir( dir, mode ) == -1 )
-                    goto err;
-            }
-            else
-                goto err;   /* unknown error */
-        }
-
-        if( G_LIKELY( sep ) )
-        {
-            *sep = '/';
-            ++sep;
-        }
-        else
-            break;
-    }while( sep );
-    g_free( dir );
-    return 0;
-err:
-    g_free( dir );
-    return -1;
-}
-#endif
-
+extern Atom lxsession_atom; /* defined in main.c */
 
 static void reload_demo_process()
 {
@@ -173,54 +124,51 @@ static void write_rc_file( const char* path )
     }
 }
 
-static void create_lxde_config_dir()
+static void create_lxsession_config_dir()
 {
-	char* dir = g_build_filename( g_get_user_config_dir(), "lxde", NULL );
-#if GTK_CHECK_VERSION( 2, 8, 0 )
+	char* dir = g_build_filename( g_get_user_config_dir(), "lxsession", session_name, NULL );
 	g_mkdir_with_parents( dir, 0755 );
-#else
-	mkdir_with_parents( dir, 0755 );
-#endif
 	g_free( dir );
 }
 
-static void write_lxde_config()
+static void write_lxsession_config()
 {
     FILE* f;
     char* file, *data;
     gsize len;
     GKeyFile* kf = g_key_file_new();
     gboolean ret;
-    
-    file = g_build_filename( g_get_user_config_dir(), "lxde/config", NULL );
+
+    file = g_build_filename( g_get_user_config_dir(), "lxsession", session_name, "desktop.conf", NULL );
     ret = g_key_file_load_from_file( kf, file, G_KEY_FILE_KEEP_COMMENTS, NULL );
-    
+
     if( ! ret )
     {
     	const gchar* const * dir;
-    	const gchar* const * dirs = g_get_system_data_dirs();
-    	create_lxde_config_dir();
+    	const gchar* const * dirs = g_get_system_config_dirs();
+    	create_lxsession_config_dir();
+
     	/* load system-wide config file */
     	for( dir = dirs; *dir; ++dir )
     	{
-    		char* path = g_build_filename( *dir, "lxde/config", NULL );
-    		ret = g_key_file_load_from_file( kf, path, 0, NULL );
+    		char* path = g_build_filename( *dir, "lxsession", session_name, "desktop.conf", NULL );
+    		ret = g_key_file_load_from_file( kf, path, G_KEY_FILE_KEEP_COMMENTS, NULL );
     		g_free( path );
     		if( ret )
     			break;
     	}
     }
-    
+
     g_key_file_set_string( kf, "GTK", "sNet/ThemeName", gtk_theme_name );
     g_key_file_set_string( kf, "GTK", "sNet/IconThemeName", icon_theme_name );
     g_key_file_set_string( kf, "GTK", "sGtk/FontName", font_name );
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", tb_style );
     g_key_file_set_string( kf, "GTK", "sGtk/CursorThemeName", cursor_theme_name );
     g_key_file_set_integer( kf, "GTK", "iGtk/CursorThemeSize", cursor_theme_size );
-    
+
     data = g_key_file_to_data( kf, &len, NULL );
     g_key_file_free( kf );
-    
+
     if( f = fopen( file, "w" ) )
     {
 		fwrite( data, sizeof(char), len, f );
@@ -251,7 +199,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             g_free( gtk_theme_name );
             gtk_theme_name = name;
 
-            if( under_lxde )
+            if( under_lxsession )
 				g_object_set( gtk_settings_get_default(), "gtk-theme-name", name, NULL );
         }
         else if( model == GTK_TREE_MODEL (icon_theme_list) )   /* icon theme */
@@ -261,7 +209,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             g_free( icon_theme_name );
             icon_theme_name = name;
 
-            if( under_lxde )
+            if( under_lxsession )
 				g_object_set( gtk_settings_get_default(), "gtk-icon-theme-name", name, NULL );
         }
         else if( model == GTK_TREE_MODEL (cursor_theme_list) )   /* cursor theme */
@@ -272,11 +220,11 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             cursor_theme_name = g_strdup(name);
 	    //gdk_x11_display_set_cursor_theme ( gdk_display_get_default (), name, cursor_theme_size );
 
-            if( under_lxde )
+            if( under_lxsession )
 				g_object_set( gtk_settings_get_default(), "gtk-cursor-theme-name", name, NULL );
         }
 
-	if( under_lxde )
+	if( under_lxsession )
 	{
 		enable_apply();
 	}
@@ -516,9 +464,13 @@ void main_dlg_init( GtkWidget* dlg )
     char** def_files = gtk_rc_get_default_files();
     char** file;
 
-	/* no lxde-settings daemon, use gtkrc-2.0 */
-	if( ! under_lxde )
+	if( under_lxsession )
 	{
+		session_name = g_getenv("DESKTOP_SESSION");
+	}
+	else
+	{
+        /* no lxsession-settings daemon, use gtkrc-2.0 */
 		for( file = def_files; *file; ++file )
 		{
 			if( 0 == access( *file, W_OK ) )
@@ -550,8 +502,8 @@ void main_dlg_init( GtkWidget* dlg )
     if(  ! cursor_theme_size )
         cursor_theme_size = 16;
 
-	/* no lxde-settings daemon, use gtkrc-2.0 */
-	if( ! under_lxde )
+	/* no lxsession-settings daemon, use gtkrc-2.0 */
+	if( ! under_lxsession )
 		write_rc_file( tmp_rc_file );
 
     INIT_LIST( gtk_theme, "gtk-theme-name" )
@@ -565,9 +517,9 @@ void main_dlg_init( GtkWidget* dlg )
     GET_WIDGET_WITH_TYPE( demo_box, GTK_WIDGET );
     gtk_widget_show( demo_box );
 
-	if( under_lxde )
+	if( under_lxsession )
 	{
-		/* XSettings daemon of LXDE is running, gtkrc is useless.
+		/* XSettings daemon of lxsession is running, gtkrc is useless.
 		 * 	We should set properties of GtkSettings object on the fly.
 		 * 	This will cause problems with some themes, but we have no choice.
 		 */
@@ -576,7 +528,7 @@ void main_dlg_init( GtkWidget* dlg )
 	}
 	else
 	{
-		/* no lxde-settings daemon, use gtkrc-2.0 and load preview in another process */
+		/* no lxsession-settings daemon, use gtkrc-2.0 and load preview in another process */
 		demo_socket = gtk_socket_new();
 		g_signal_connect( demo_socket, "plug-added", G_CALLBACK(on_demo_loaded), dlg );
 		g_signal_connect( demo_socket, "plug-removed", G_CALLBACK(gtk_true), NULL );
@@ -597,9 +549,14 @@ static void reload_all_programs( gboolean icon_only )
     event.send_event = TRUE;
     event.window = NULL;
 
-	if( under_lxde )
+	if( under_lxsession )
 	{
-		event.message_type = gdk_atom_intern("LXDE_SETTINGS", FALSE);
+/*
+		char* argv[]={"lxsession", "-r", NULL};
+		g_spawn_sync(NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, NULL, NULL, NULL, NULL);
+		return;
+*/
+		event.message_type = gdk_atom_intern_static_string("_LXSESSION");
 		event.data.b[0] = 0;	/* LXS_RELOAD */
 	}
 	else
@@ -617,8 +574,8 @@ void
 on_apply_clicked                       (GtkButton       *button,
                                         gpointer         user_data)
 {
-	if( under_lxde )
-		write_lxde_config();
+	if( under_lxsession )
+		write_lxsession_config();
 	else
 		write_rc_file( rc_file );
 
@@ -637,7 +594,7 @@ on_font_changed                        (GtkFontButton   *fontbutton,
     g_free( font_name );
     font_name = g_strdup( name );
 
-	if( under_lxde )
+	if( under_lxsession )
 	{
 		g_object_set( gtk_settings_get_default(), "gtk-font-name", font_name, NULL );
 		
@@ -709,7 +666,7 @@ on_cursor_size_changed                 (GtkHScale       *cursorsizescale,
 {
     cursor_theme_size = gtk_range_get_value( GTK_RANGE(cursorsizescale) );
 
-	if( under_lxde )
+	if( under_lxsession )
 	{
 		g_object_set( gtk_settings_get_default(), "gtk-cursor-theme-size", cursor_theme_size, NULL );
 		enable_apply();
@@ -730,7 +687,7 @@ on_tb_style_changed                    (GtkComboBox     *combobox,
         return;
     tb_style = sel;
 
-	if( under_lxde )
+	if( under_lxsession )
 	{
 		g_object_set( gtk_settings_get_default(), "gtk-toolbar-style", tb_style, NULL );
 		enable_apply();
