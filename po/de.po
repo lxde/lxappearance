@@ -1,82 +1,102 @@
 # German description for lxappearance.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the lxappearance package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Mario Blättermann <mariobl@gnome.org>, 2008-2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-03-22 14:50+0100\n"
-"Last-Translator: Benedikt Klus <b.klus89@web.de>\n"
+"POT-Creation-Date: 2009-07-19 13:23+0200\n"
+"PO-Revision-Date: 2009-07-19 13:25+0100\n"
+"Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Erscheinungsbild-Einstellungen"
 
-#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
 msgid "Available Window Themes"
 msgstr "Verfügbare Themen"
 
-#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
 msgid "_Font:"
 msgstr "_Schrift:"
 
-#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
 msgid "Window"
 msgstr "Fenster"
 
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
 msgid "Available Icon Themes"
 msgstr "Verfügbare Symbolthemen"
 
-#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
 msgid "_Install"
 msgstr "_Installieren"
 
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
 msgid "Icon"
 msgstr "Symbol"
 
-#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:189 ../lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Verfügbare Cursorthemen"
+
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:14
+msgid "Size"
+msgstr "Größe"
+
+#: ../src/main-dlg-ui.c:212 ../lxappearance.glade.h:15
+msgid "Small"
+msgstr "Klein"
+
+#: ../src/main-dlg-ui.c:222 ../lxappearance.glade.h:12
+msgid "Large"
+msgstr "Groß"
+
+#: ../src/main-dlg-ui.c:226 ../lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Cursor"
+
+#: ../src/main-dlg-ui.c:239 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
 msgstr "Stil der Werkzeugleiste: "
 
-#: ../src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:247
 msgid "Icons only"
 msgstr "Nur Symbole"
 
-#: ../src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:248
 msgid "Text only"
 msgstr "Nur Text"
 
-#: ../src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:249
 msgid "Text below icons"
 msgstr "Text unter Symbolen"
 
-#: ../src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:250
 msgid "Text beside icons"
 msgstr "Text neben Symbolen"
 
-#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:252 ../lxappearance.glade.h:13
 msgid "Other"
 msgstr "Andere"
 
-#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:260 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Vorschau</b>"
 
-#: ../src/main-dlg.c:620
+#: ../src/main-dlg.c:615
 msgid "Select an icon theme"
 msgstr "Symbolthema auswählen"
 
-#: ../src/main-dlg.c:627
+#: ../src/main-dlg.c:622
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Symbolthema)"
 
@@ -170,7 +190,7 @@ msgstr ""
 "Testeintrag 2\n"
 "Testeintrag 3"
 
-#: ../lxappearance.glade.h:6
+#: ../lxappearance.glade.h:8
 msgid ""
 "Icons only\n"
 "Text only\n"
@@ -185,4 +205,4 @@ msgstr ""
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr "Konnte Bilddatei nicht finden: %s"
+msgstr "Bilddatei konnte nicht gefunden werden: %s"
