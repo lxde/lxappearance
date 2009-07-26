@@ -3,165 +3,162 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-07-26 08:27+0200\n"
-"Last-Translator: 羅廷中 <timloo0710@gmail.com>\n"
-"Language-Team: zh_TW <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
-"X-Poedit-Language: Chinese\n"
-"X-Poedit-Country: TAIWAN\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
 
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr "外觀設定"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
-msgstr "可用的視窗佈景主題"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
-msgstr "字型"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
-msgstr "視窗"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
-msgstr "可用的圖示佈景主題"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
-msgstr "安裝(_I)"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
-msgstr "圖示"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
-msgstr "工具列樣式："
+msgstr ""
 
 #: ../src/main-dlg-ui.c:195
 msgid "Icons only"
-msgstr "只顯示圖示"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:196
 msgid "Text only"
-msgstr "只顯示文字"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:197
 msgid "Text below icons"
-msgstr "文字在圖示下方"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:198
 msgid "Text beside icons"
-msgstr "文字在圖示旁"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
-msgstr "其他"
+msgstr ""
 
 #: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr "<b>預覽</b>"
+msgstr ""
 
 #: ../src/main-dlg.c:620
 msgid "Select an icon theme"
-msgstr "選擇一個圖示佈景主題"
+msgstr ""
 
 #: ../src/main-dlg.c:627
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
+msgstr ""
 
 #: ../src/demo.c:56
 msgid "Column"
-msgstr "欄位"
+msgstr ""
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr "項目"
+msgstr ""
 
 #: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
-msgstr "檔案(_F)"
+msgstr ""
 
 #: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
-msgstr "編輯(_E)"
+msgstr ""
 
 #: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
-msgstr "說明(_H)"
+msgstr ""
 
 #: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
-msgstr "上一頁"
+msgstr ""
 
 #: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
-msgstr "下一頁"
+msgstr ""
 
 #: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
-msgstr "停止"
+msgstr ""
 
 #: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
-msgstr "分頁1"
+msgstr ""
 
 #: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
-msgstr "Radio Button"
+msgstr ""
 
 #: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
-msgstr "Check Button"
+msgstr ""
 
 #: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
-msgstr "展示"
+msgstr ""
 
 #: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
-msgstr "按鈕"
+msgstr ""
 
 #: ../src/demo-ui.c:323
 msgid "Test Item 1"
-msgstr "測試項目1"
+msgstr ""
 
 #: ../src/demo-ui.c:324
 msgid "Test Item 2"
-msgstr "測試項目2"
+msgstr ""
 
 #: ../src/demo-ui.c:325
 msgid "Test Item 3"
-msgstr "測試項目3"
+msgstr ""
 
 #: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
-msgstr "分頁2"
+msgstr ""
 
 #: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
-msgstr "在這裡打一些字測試目前選擇的字型"
+msgstr ""
 
 #: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
-msgstr "分頁3"
+msgstr ""
 
 #: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
-msgstr "分頁4"
+msgstr ""
 
 #: ../demo.glade.h:11
 msgid ""
@@ -169,9 +166,6 @@ msgid ""
 "Test Item 2\n"
 "Test Item 3"
 msgstr ""
-"測試項目 1\n"
-"測試項目 2\n"
-"測試項目 3"
 
 #: ../lxappearance.glade.h:6
 msgid ""
@@ -180,15 +174,8 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
-"只有小圖示\n"
-"只有文字\n"
-"文字在圖示之下\n"
-"文字在圖示中間"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr "沒發現pixmap 檔:%s"
-
-#~ msgid "Available Fonts"
-#~ msgstr "可用的字型"
+msgstr ""
