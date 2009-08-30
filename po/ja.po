@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-17 20:30+0900\n"
+"POT-Creation-Date: 2009-04-15 19:27+0200\n"
 "PO-Revision-Date: 2009-07-17 20:31+0900\n"
 "Last-Translator: Hironao Komatsu <hironao@users.sourceforge.net>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -17,87 +17,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "外観の設定"
 
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
 msgstr "利用可能なウィンドウテーマ"
 
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
 msgid "_Font:"
 msgstr "フォント(_F):"
 
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
 msgid "Window"
 msgstr "ウィンドウ"
 
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
 msgid "Available Icon Themes"
 msgstr "利用可能なアイコンテーマ"
 
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
 msgstr "インストール(_I)"
 
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
 msgstr "アイコン"
 
-#: ../src/main-dlg-ui.c:189 ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "利用可能なカーソルテーマ"
-
-#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "サイズ"
-
-#: ../src/main-dlg-ui.c:212 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "小さい"
-
-#: ../src/main-dlg-ui.c:222 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "大きい"
-
-#: ../src/main-dlg-ui.c:226 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "カーソル"
-
-#: ../src/main-dlg-ui.c:239 ../lxappearance.glade.h:16
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
 msgstr "ツールバーのスタイル: "
 
-#: ../src/main-dlg-ui.c:247
+#: ../src/main-dlg-ui.c:195
 msgid "Icons only"
 msgstr "アイコンのみ"
 
-#: ../src/main-dlg-ui.c:248
+#: ../src/main-dlg-ui.c:196
 msgid "Text only"
 msgstr "テキストのみ"
 
-#: ../src/main-dlg-ui.c:249
+#: ../src/main-dlg-ui.c:197
 msgid "Text below icons"
 msgstr "アイコンの下にテキスト"
 
-#: ../src/main-dlg-ui.c:250
+#: ../src/main-dlg-ui.c:198
 msgid "Text beside icons"
 msgstr "アイコンの横にテキスト"
 
-#: ../src/main-dlg-ui.c:252 ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
 msgid "Other"
 msgstr "その他"
 
-#: ../src/main-dlg-ui.c:260 ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>プレビュー</b>"
 
-#: ../src/main-dlg.c:615
+#: ../src/main-dlg.c:620
 msgid "Select an icon theme"
 msgstr "アイコンテーマの選択"
 
-#: ../src/main-dlg.c:622
+#: ../src/main-dlg.c:627
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (アイコンテーマ)"
 
@@ -192,7 +172,7 @@ msgstr ""
 "テストアイテム 2\n"
 "テストアイテム 3"
 
-#: ../lxappearance.glade.h:8
+#: ../lxappearance.glade.h:6
 msgid ""
 "Icons only\n"
 "Text only\n"
@@ -208,3 +188,18 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "pixmap ファイルが見つかりません: %s"
+
+#~ msgid "Available Cursor Themes"
+#~ msgstr "利用可能なカーソルテーマ"
+
+#~ msgid "Size"
+#~ msgstr "サイズ"
+
+#~ msgid "Small"
+#~ msgstr "小さい"
+
+#~ msgid "Large"
+#~ msgstr "大きい"
+
+#~ msgid "Cursor"
+#~ msgstr "カーソル"
