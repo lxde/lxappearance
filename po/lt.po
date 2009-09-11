@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-04-06 13:00+0200\n"
+"PO-Revision-Date: 2009-09-10 20:51+0200\n"
 "Last-Translator: Julius Vitkauskas <zadintuvas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "Piktogramų temos"
 
 #: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
 msgid "_Install"
-msgstr "D_iegti"
+msgstr "Pr_idėti"
 
 #: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
 msgid "Icon"
