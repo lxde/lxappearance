@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-15 19:27+0200\n"
+"PO-Revision-Date: 2009-09-20 21:36+0200\n"
+"Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
+
+#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "הגדרות המראה"
+
+#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
+msgid "Available Window Themes"
+msgstr "ערכות נושא הזמינות לחלונות"
+
+#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+msgid "_Font:"
+msgstr "_גופן:"
+
+#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
+msgid "Window"
+msgstr "חלון"
+
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
+msgid "Available Icon Themes"
+msgstr "ערכות הנושא הזמינות לסמלים"
+
+#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+msgid "_Install"
+msgstr "ה_תקנה"
+
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
+msgid "Icon"
+msgstr "סמל"
+
+#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+msgid "Toolbar Style: "
+msgstr "סגנון סרגל הכלים:"
+
+#: ../src/main-dlg-ui.c:195
+msgid "Icons only"
+msgstr "סמלים בלבד"
+
+#: ../src/main-dlg-ui.c:196
+msgid "Text only"
+msgstr "טקסט בלבד"
+
+#: ../src/main-dlg-ui.c:197
+msgid "Text below icons"
+msgstr "טקסט מתחת לסמלים"
+
+#: ../src/main-dlg-ui.c:198
+msgid "Text beside icons"
+msgstr "טקסט לצד הסמלים"
+
+#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
+msgid "Other"
+msgstr "אחר"
+
+#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>תצוגה מקדימה</b>"
+
+#: ../src/main-dlg.c:620
+msgid "Select an icon theme"
+msgstr "בחירת ערכת נושא לסמלים"
+
+#: ../src/main-dlg.c:627
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (ערכת נושא לסמלים)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "עמודה"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "פריט"
+
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
+msgid "_File"
+msgstr "_קובץ"
+
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
+msgid "_Edit"
+msgstr "ע_ריכה"
+
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
+msgid "_Help"
+msgstr "ע_זרה"
+
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
+msgid "Back"
+msgstr "אחורה"
+
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
+msgid "Forward"
+msgstr "קדימה"
+
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
+msgid "Stop"
+msgstr "עצירה"
+
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
+msgid "Tab1"
+msgstr "לשונית1"
+
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
+msgid "Radio Button"
+msgstr "לחצן ברירה"
+
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
+msgid "Check Button"
+msgstr "לחצן סימון"
+
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
+msgid "Demo"
+msgstr "הדגמה"
+
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
+msgid "button"
+msgstr "לחצן"
+
+#: ../src/demo-ui.c:323
+msgid "Test Item 1"
+msgstr "פריט לבדיקה 1"
+
+#: ../src/demo-ui.c:324
+msgid "Test Item 2"
+msgstr "פריט לבדיקה 2"
+
+#: ../src/demo-ui.c:325
+msgid "Test Item 3"
+msgstr "פריט לבדיקה 3"
+
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
+msgid "Tab2"
+msgstr "לשונית2"
+
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
+msgid "Type some characters here to test currently selected font."
+msgstr "נא להקליד כמה תווים כדי לבדוק את הגופן הנבחר הנוכחי."
+
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
+msgid "Tab3"
+msgstr "לשונית3"
+
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
+msgid "Tab4"
+msgstr "לשונית4"
+
+#: ../demo.glade.h:11
+msgid ""
+"Test Item 1\n"
+"Test Item 2\n"
+"Test Item 3"
+msgstr ""
+"פריט לבדיקה1\n"
+"פריט לבדיקה 2פריט לבדיקה 3"
+
+#: ../lxappearance.glade.h:6
+msgid ""
+"Icons only\n"
+"Text only\n"
+"Text below icons\n"
+"Text beside icons"
+msgstr ""
+"סמלים בלבד\n"
+"טקסט בלבדטקסט מתחת לסמליםטקסט לצד הסמלים"
+
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "לא ניתן לאתר את קובץ ה־pixmap: %s"
