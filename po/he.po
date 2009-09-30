@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-09-23 09:39+0200\n"
+"PO-Revision-Date: 2009-09-29 19:59+0200\n"
 "Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "סמל"
 
 #: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
 msgid "Toolbar Style: "
-msgstr "סגנון סרגל הכלים:"
+msgstr "סגנון סרגל הכלים: "
 
 #: ../src/main-dlg-ui.c:195
 msgid "Icons only"
