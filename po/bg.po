@@ -8,12 +8,13 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-10-08 11:31+0200\n"
-"Last-Translator: Rossen Karpuzov <gustav cointech net>\n"
+"PO-Revision-Date: 2009-10-09 22:32+0200\n"
+"Last-Translator: Rossen Karpuzov <gustav@cointech.net>\n"
 "Language-Team: Mandriva User Group - Bulgaria <mandriva-bg@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg-ui.c:70
 #: ../lxappearance.glade.h:2
@@ -130,7 +131,7 @@ msgstr "Стоп"
 #: ../src/demo-ui.c:224
 #: ../demo.glade.h:7
 msgid "Tab1"
-msgstr ""
+msgstr "Отм1"
 
 #: ../src/demo-ui.c:246
 #: ../src/demo-ui.c:252
@@ -170,22 +171,22 @@ msgstr "Тест елемент 3"
 #: ../src/demo-ui.c:327
 #: ../demo.glade.h:8
 msgid "Tab2"
-msgstr ""
+msgstr "Отм2"
 
 #: ../src/demo-ui.c:340
 #: ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
-msgstr ""
+msgstr "Напишете някакъв текст тук, за да тествате избрания шрифт."
 
 #: ../src/demo-ui.c:342
 #: ../demo.glade.h:9
 msgid "Tab3"
-msgstr ""
+msgstr "Отм3"
 
 #: ../src/demo-ui.c:357
 #: ../demo.glade.h:10
 msgid "Tab4"
-msgstr ""
+msgstr "Отм4"
 
 #: ../demo.glade.h:11
 msgid ""
@@ -204,6 +205,10 @@ msgid ""
 "Text below icons\n"
 "Text beside icons"
 msgstr ""
+"Само икони\n"
+"Само текст\n"
+"Текст под икони\n"
+"Текст край икони"
 
 #: ../src/glade-support.c:90
 #: ../src/glade-support.c:114
