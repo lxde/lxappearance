@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-15 19:27+0200\n"
-"PO-Revision-Date: 2009-09-11 12:18+0200\n"
+"PO-Revision-Date: 2009-10-26 17:11+0100\n"
 "Last-Translator: Indalecio Freiría Santos <ifreiria@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr "Configuración da Aparencia"
+msgstr "Configuración da aparencia"
 
 #: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
 msgid "Available Window Themes"
@@ -118,11 +118,11 @@ msgstr "Separador1"
 
 #: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
-msgstr "Botón de Selección"
+msgstr "Botón de selección"
 
 #: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
-msgstr "Caixa de Selección"
+msgstr "Caixa de selección"
 
 #: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
