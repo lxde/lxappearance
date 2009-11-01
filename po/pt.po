@@ -216,3 +216,11 @@ msgstr ""
 msgid "Couldn't find pixmap file: %s"
 msgstr "Não foi possível encontrar: %s"
 
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Aparência"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Personalizar a aparência do ambiente de trabalho"

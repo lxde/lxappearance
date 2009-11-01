@@ -179,3 +179,11 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr ""
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Diện mạo"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Tùy chỉnh màn hình nền"

@@ -215,3 +215,11 @@ msgstr ""
 msgid "Couldn't find pixmap file: %s"
 msgstr "Αδύνατη η εύρεση αρχείου pixmap: %s"
 
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Προσαρμόστε την εμφάνιση της επιφάνειας εργασίας σας"

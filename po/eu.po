@@ -181,3 +181,11 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Ezin izan da %s pixmap fitxategia aurkitu"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Itxura"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Pertsonalizatu mahaigainaren itxura"

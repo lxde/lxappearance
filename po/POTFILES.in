@@ -8,3 +8,5 @@ src/demo-ui.c
 demo.glade
 lxappearance.glade
 src/glade-support.c
+# files added by intltool-prepare
+lxappearance.desktop.in

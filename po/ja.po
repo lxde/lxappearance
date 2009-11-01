@@ -203,3 +203,11 @@ msgstr "pixmap ファイルが見つかりません: %s"
 
 #~ msgid "Cursor"
 #~ msgstr "カーソル"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "外観の設定"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "デスクトップの見映えを設定します"

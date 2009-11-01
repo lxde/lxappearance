@@ -186,3 +186,11 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "No s'ha pogut localitzar el fitxer pixmap: %s"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Aparença"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Personalitzeu l'aparença de l'escriptori"

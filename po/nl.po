@@ -213,3 +213,11 @@ msgstr ""
 msgid "Couldn't find pixmap file: %s"
 msgstr "Kan pixmap bestand niet vinden: %s"
 
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "De achtergrond van het bureaublad instellen"

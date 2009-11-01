@@ -186,3 +186,11 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Negalima rasti pixmap failo: %s"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Išvaizda"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Keisti darbo aplinkos išvaizdą"

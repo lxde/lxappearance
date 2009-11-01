@@ -214,3 +214,11 @@ msgstr ""
 msgid "Couldn't find pixmap file: %s"
 msgstr "Pixmap faili ei suudetud leida: %s"
 
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Välimus"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Töölaua välimuse kohandamine"

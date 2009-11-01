@@ -1,0 +1,8 @@
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "தோற்றம்"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "கணிமேசைக்கான காட்சியை தனிப்பயனாக்குக"

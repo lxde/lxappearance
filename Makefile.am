@@ -7,7 +7,9 @@ support_script_DATA= \
         scripts/install-icon-theme.sh
 
 desktopdir=$(datadir)/applications
-desktop_DATA=lxappearance.desktop
+desktop_in_files=lxappearance.desktop.in
+desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
+@INTLTOOL_DESKTOP_RULE@
 
 install-data-hook:
 	for script in $(DESTDIR)$(support_scriptdir)/*.sh; do \

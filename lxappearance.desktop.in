@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+_Name=Appearance
+_Comment=Customize the look of the desktop
+Exec=lxappearance
+Icon=gtk-preferences
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;DesktopSettings;X-LXDE-Settings;Gtk;
+NotShowIn=GNOME;XFCE;
+

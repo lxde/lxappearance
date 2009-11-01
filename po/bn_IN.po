@@ -186,3 +186,11 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "পিক্সম্যাপ ফাইল: %s খুজেঁ পাওয়া যায়নি"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "চেহারা"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "ডেস্কটপের চেহারা পছন্দ অনুসারে নির্ধারণ করুন"

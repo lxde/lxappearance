@@ -223,3 +223,11 @@ msgstr "E pixel-térkép fájl nem található: %s"
 #~ msgid "Style:"
 #~ msgstr "Stílus"
 
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Az asztal megjelenésének testreszabása"

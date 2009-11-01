@@ -201,3 +201,11 @@ msgstr "Bilddatei konnte nicht gefunden werden: %s"
 
 #~ msgid "Cursor"
 #~ msgstr "Cursor"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Aussehen des Desktops anpassen"

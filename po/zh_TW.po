@@ -192,3 +192,11 @@ msgstr "沒發現pixmap 檔:%s"
 
 #~ msgid "Available Fonts"
 #~ msgstr "可用的字型"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "外觀設定"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "自訂桌面外觀"

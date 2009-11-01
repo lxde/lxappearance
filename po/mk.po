@@ -1,0 +1,8 @@
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Изглед"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Прилагодете го изгледот на работната околина"

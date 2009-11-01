@@ -1,0 +1,8 @@
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "འབྱུང་སྣང་"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "ཌེཀསི་ཊོཔ་གི་མཐོང་སྣང་སྲོལ་སྒྲིག་འབད"

@@ -215,3 +215,11 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Не може да се намери pixmap файла: %s"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Външен вид"
+
+#: lxappearance.desktop.in:5
+msgid "Customize the look of the desktop"
+msgstr "Настройване на външния вид на работния плот"

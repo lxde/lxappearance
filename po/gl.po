@@ -213,3 +213,7 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Non se atopou o ficheiro de imaxe: %s"
+
+#: lxappearance.desktop.in:4
+msgid "Appearance"
+msgstr "Aparencia"
