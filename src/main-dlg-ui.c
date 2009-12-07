@@ -182,6 +182,7 @@ create_dlg (void)
   gtk_widget_show (label3);
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 1), label3);
 
+#if CURSOR_THEME
   vbox2 = gtk_vbox_new (FALSE, 0);
   gtk_widget_show (vbox2);
   gtk_container_add (GTK_CONTAINER (notebook1), vbox2);
@@ -226,6 +227,7 @@ create_dlg (void)
   label1 = gtk_label_new (_("Cursor"));
   gtk_widget_show (label1);
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 2), label1);
+#endif
 
   vbox5 = gtk_vbox_new (FALSE, 4);
   gtk_widget_show (vbox5);
@@ -251,7 +253,11 @@ create_dlg (void)
 
   label5 = gtk_label_new (_("Other"));
   gtk_widget_show (label5);
+#if CURSOR_THEME
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 3), label5);
+#else
+  gtk_notebook_set_tab_label (GTK_NOTEBOOK (notebook1), gtk_notebook_get_nth_page (GTK_NOTEBOOK (notebook1), 2), label5);
+#endif
 
   vbox1 = gtk_vbox_new (FALSE, 0);
   gtk_widget_show (vbox1);
@@ -298,9 +304,11 @@ create_dlg (void)
   g_signal_connect ((gpointer) remove_theme, "clicked",
                     G_CALLBACK (on_remove_theme_clicked),
                     NULL);
+#if CURSOR_THEME
   g_signal_connect ((gpointer) cursor_theme_size, "value_changed",
                     G_CALLBACK (on_cursor_size_changed),
                     NULL);
+#endif
   g_signal_connect ((gpointer) tb_style, "changed",
                     G_CALLBACK (on_tb_style_changed),
                     NULL);

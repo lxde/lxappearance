@@ -45,8 +45,10 @@ static GtkListStore* gtk_theme_list = NULL;
 static GtkTreeView* icon_theme_view = NULL;
 static GtkListStore* icon_theme_list = NULL;
 
+#if CURSOR_THEME
 static GtkTreeView* cursor_theme_view = NULL;
 static GtkListStore* cursor_theme_list = NULL;
+#endif
 
 static char* gtk_theme_name = NULL;
 static char* icon_theme_name = NULL;
@@ -212,6 +214,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             if( under_lxsession )
 				g_object_set( gtk_settings_get_default(), "gtk-icon-theme-name", name, NULL );
         }
+#if CURSOR_THEME
         else if( model == GTK_TREE_MODEL (cursor_theme_list) )   /* cursor theme */
         {
             if( name && cursor_theme_name && 0 == strcmp( name, cursor_theme_name ) )
@@ -223,6 +226,7 @@ static void on_list_sel_changed( GtkTreeSelection* sel, const char* prop )
             if( under_lxsession )
 				g_object_set( gtk_settings_get_default(), "gtk-cursor-theme-name", name, NULL );
         }
+#endif
 
 	if( under_lxsession )
 	{
@@ -388,6 +392,7 @@ static gboolean icon_theme_func(const char* file, const char* dir, const char* n
     return disp_name != NULL;
 }
 
+#if CURSOR_THEME
 static gboolean cursor_theme_func(const char* dir, const char* name, const char* lookup)
 {
     char* ret = NULL;
@@ -404,6 +409,7 @@ static gboolean cursor_theme_func(const char* dir, const char* name, const char*
 */
     return ret != NULL;
 }
+#endif
 
 static void load_gtk_themes( GtkListStore* list, const char* cur_sel )
 {
@@ -427,6 +433,7 @@ static void load_icon_themes( GtkListStore* list, const char* cur_sel )
     gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
 }
 
+#if CURSOR_THEME
 static void load_cursor_themes( GtkListStore* list, const char* cur_sel )
 {
     char* path;
@@ -437,6 +444,8 @@ static void load_cursor_themes( GtkListStore* list, const char* cur_sel )
     g_free( path );
     gtk_tree_sortable_set_sort_column_id( (GtkTreeSortable*)list, 0, GTK_SORT_ASCENDING );
 }
+#endif
+
 /*
 static void load_fonts( GtkListStore* list )
 {
@@ -487,16 +496,20 @@ void main_dlg_init( GtkWidget* dlg )
                         "gtk-icon-theme-name", &icon_theme_name,
                         "gtk-font-name", &font_name,
                         "gtk-toolbar-style", &tb_style,
+#if CURSOR_THEME
                         "gtk-cursor-theme-name", &cursor_theme_name,
                         "gtk-cursor-theme-size", &cursor_theme_size,
+#endif
                         NULL );
 
     if(  ! gtk_theme_name )
         gtk_theme_name = g_strdup( "Raleigh" );
     if(  ! icon_theme_name )
         icon_theme_name = g_strdup( "hicolor" );
+#if CURSOR_THEME
     if(  ! cursor_theme_name )
         cursor_theme_name = g_strdup( "default" );
+#endif
     if( ! font_name )
         font_name = g_strdup( "Sans 10" );
     if(  ! cursor_theme_size )
@@ -508,9 +521,16 @@ void main_dlg_init( GtkWidget* dlg )
 
     INIT_LIST( gtk_theme, "gtk-theme-name" )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
+
+#if CURSOR_THEME
     INIT_LIST( cursor_theme, "gtk-cursor-theme-name" )
+#endif
+
     gtk_font_button_set_font_name( (GtkFontButton*)lookup_widget(dlg, "font"), font_name );
+
+#if CURSOR_THEME
     gtk_range_set_value( GTK_RANGE(lookup_widget(dlg, "cursor_theme_size")), cursor_theme_size );
+#endif
 
     gtk_combo_box_set_active( (GtkComboBox*)lookup_widget(dlg, "tb_style"), tb_style < 4 ? tb_style : 3 );
 
@@ -642,9 +662,11 @@ on_install_theme_clicked               (GtkButton       *button,
             gtk_list_store_clear( icon_theme_list );
             load_icon_themes( icon_theme_list, stdo ? stdo : "" );
 
+#if CURSOR_THEME
             /* reload all cursor themes */
             gtk_list_store_clear( cursor_theme_list );
             load_cursor_themes( cursor_theme_list, stdo ? stdo : "" );
+#endif
         }
         g_free( file );
     }
@@ -660,6 +682,7 @@ on_remove_theme_clicked                (GtkButton       *button,
 
 }
 
+#if CURSOR_THEME
 void
 on_cursor_size_changed                 (GtkHScale       *cursorsizescale,
                                         gpointer         user_data)
@@ -677,6 +700,7 @@ on_cursor_size_changed                 (GtkHScale       *cursorsizescale,
 		reload_demo_process();
 	}
 }
+#endif
 
 void
 on_tb_style_changed                    (GtkComboBox     *combobox,
