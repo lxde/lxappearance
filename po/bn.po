@@ -1,8 +1,0 @@
-
-#: lxappearance.desktop.in:4
-msgid "Appearance"
-msgstr "চেহারা"
-
-#: lxappearance.desktop.in:5
-msgid "Customize the look of the desktop"
-msgstr "ডেস্কটপের চেহারা পছন্দ অনুসারে নির্ধারণ করুন"

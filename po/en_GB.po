@@ -1,8 +1,0 @@
-
-#: lxappearance.desktop.in:4
-msgid "Appearance"
-msgstr "Appearance"
-
-#: lxappearance.desktop.in:5
-msgid "Customize the look of the desktop"
-msgstr "Customise the look of the desktop"

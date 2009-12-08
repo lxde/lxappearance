@@ -1,8 +1,0 @@
-
-#: lxappearance.desktop.in:4
-msgid "Appearance"
-msgstr "รูปโฉม"
-
-#: lxappearance.desktop.in:5
-msgid "Customize the look of the desktop"
-msgstr "ปรับแต่งรูปโฉมของพื้นโต๊ะ"

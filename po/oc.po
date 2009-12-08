@@ -1,4 +1,0 @@
-
-#: lxappearance.desktop.in:4
-msgid "Appearance"
-msgstr "Aparéncia"

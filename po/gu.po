@@ -1,8 +1,0 @@
-
-#: lxappearance.desktop.in:4
-msgid "Appearance"
-msgstr "દેખાવ"
-
-#: lxappearance.desktop.in:5
-msgid "Customize the look of the desktop"
-msgstr "ડેસ્કટોપનો દેખાવ વૈવિધ્યપૂર્ણ બનાવો"
