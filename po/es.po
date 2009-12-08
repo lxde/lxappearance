@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-08 15:20+0100\n"
-"PO-Revision-Date: 2009-05-31 16:11+0200\n"
+"PO-Revision-Date: 2009-12-08 17:11+0100\n"
 "Last-Translator: Hugo Florentino <sysadmin@cips.cu>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -48,21 +48,20 @@ msgid "Icon"
 msgstr "Icono"
 
 #: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Temas de iconos disponibles"
+msgstr "Temas de cursores disponibles"
 
 #: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
 msgid "Size"
-msgstr ""
+msgstr "Tamaño"
 
 #: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
 msgid "Small"
-msgstr ""
+msgstr "Pequeño"
 
 #: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
 msgid "Cursor"

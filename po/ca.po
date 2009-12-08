@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-08 15:20+0100\n"
-"PO-Revision-Date: 2009-09-07 17:30 UTC+2\n"
-"Last-Translator: Josep Sànchez Mesegué <josep.sanchez@ubuntu.cat>\n"
+"PO-Revision-Date: 2009-12-08 17:06+0100\n"
+"Last-Translator: Josep Sanchez <papapep@gmail.com>\n"
 "Language-Team: LXDE Catalan translation group\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
@@ -45,25 +45,24 @@ msgid "Icon"
 msgstr "Icona"
 
 #: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Temes d'icones disponibles"
+msgstr "Temes de cursor disponibles"
 
 #: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
 msgid "Size"
-msgstr ""
+msgstr "Mida"
 
 #: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
 msgid "Small"
-msgstr ""
+msgstr "Petit"
 
 #: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
 msgid "Large"
-msgstr ""
+msgstr "Gran"
 
 #: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Cursor"
 
 #: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "

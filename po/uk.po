@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-08 15:20+0100\n"
-"PO-Revision-Date: 2009-03-04 20:04+0100\n"
+"PO-Revision-Date: 2009-12-08 15:45+0100\n"
 "Last-Translator: Y P <yupadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -45,25 +45,24 @@ msgid "Icon"
 msgstr "Іконка"
 
 #: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Доступні теми іконок"
+msgstr "Доступні теми курсора"
 
 #: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
 msgid "Size"
-msgstr ""
+msgstr "Розмір"
 
 #: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
 msgid "Small"
-msgstr ""
+msgstr "Малий"
 
 #: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
 msgid "Large"
-msgstr ""
+msgstr "Великий"
 
 #: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Курсор"
 
 #: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
