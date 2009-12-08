@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance_hr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:27+0200\n"
+"POT-Creation-Date: 2009-12-08 15:20+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Boljsa <asjlob AT vip.hr>\n"
 "Language-Team:  <asjlob AT vip.hr>\n"
@@ -12,67 +12,88 @@ msgstr ""
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-Country: CROATIA\n"
 
-#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Postavke Izgleda"
 
-#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
 msgid "Available Window Themes"
 msgstr "Dostupne Teme Prozora"
 
-#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
 msgid "_Font:"
 msgstr "_Font:"
 
-#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
 msgid "Window"
 msgstr "Prozor"
 
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
 msgid "Available Icon Themes"
 msgstr "Dostupne Teme Ikona"
 
-#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
 msgid "_Install"
 msgstr "_Instaliraj"
 
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
 msgid "Icon"
 msgstr "Ikona"
 
-#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
+#, fuzzy
+msgid "Available Cursor Themes"
+msgstr "Dostupne Teme Ikona"
+
+#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
+msgid "Size"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
+msgid "Small"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
+msgid "Large"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
+msgid "Cursor"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
 msgstr "Stil Alatne Trake:"
 
-#: ../src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:249
 msgid "Icons only"
 msgstr "Samo ikone"
 
-#: ../src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:250
 msgid "Text only"
 msgstr "Samo tekst"
 
-#: ../src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:251
 msgid "Text below icons"
 msgstr "Tekst ispod ikona"
 
-#: ../src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:252
 msgid "Text beside icons"
 msgstr "Tekst iznad ikona"
 
-#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
 msgid "Other"
 msgstr "Ostalo"
 
-#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Pregled</b>"
 
-#: ../src/main-dlg.c:620
+#: ../src/main-dlg.c:635
 msgid "Select an icon theme"
 msgstr "Odaberite temu ikona"
 
-#: ../src/main-dlg.c:627
+#: ../src/main-dlg.c:642
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Tema Ikone)"
 
@@ -167,7 +188,7 @@ msgstr ""
 "Testna Stavka 2\n"
 "Testna Stavka 3"
 
-#: ../lxappearance.glade.h:6
+#: ../lxappearance.glade.h:8
 msgid ""
 "Icons only\n"
 "Text only\n"
@@ -183,3 +204,12 @@ msgstr ""
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Ne mogu pronaæi pixmap datoteku: %s"
+
+#: ../lxappearance.desktop.in.h:1
+#, fuzzy
+msgid "Appearance"
+msgstr "Postavke Izgleda"
+
+#: ../lxappearance.desktop.in.h:2
+msgid "Customize the look of the desktop"
+msgstr ""

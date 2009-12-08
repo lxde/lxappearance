@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:27+0200\n"
+"POT-Creation-Date: 2009-12-08 15:20+0100\n"
 "PO-Revision-Date: 2009-07-26 08:27+0200\n"
 "Last-Translator: 羅廷中 <timloo0710@gmail.com>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
@@ -19,67 +19,88 @@ msgstr ""
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
-#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "外觀設定"
 
-#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
 msgid "Available Window Themes"
 msgstr "可用的視窗佈景主題"
 
-#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
 msgid "_Font:"
 msgstr "字型"
 
-#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
 msgid "Window"
 msgstr "視窗"
 
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
 msgid "Available Icon Themes"
 msgstr "可用的圖示佈景主題"
 
-#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
 msgid "_Install"
 msgstr "安裝(_I)"
 
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
 msgid "Icon"
 msgstr "圖示"
 
-#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
+#, fuzzy
+msgid "Available Cursor Themes"
+msgstr "可用的圖示佈景主題"
+
+#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
+msgid "Size"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
+msgid "Small"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
+msgid "Large"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
+msgid "Cursor"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
 msgstr "工具列樣式："
 
-#: ../src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:249
 msgid "Icons only"
 msgstr "只顯示圖示"
 
-#: ../src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:250
 msgid "Text only"
 msgstr "只顯示文字"
 
-#: ../src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:251
 msgid "Text below icons"
 msgstr "文字在圖示下方"
 
-#: ../src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:252
 msgid "Text beside icons"
 msgstr "文字在圖示旁"
 
-#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
 msgid "Other"
 msgstr "其他"
 
-#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>預覽</b>"
 
-#: ../src/main-dlg.c:620
+#: ../src/main-dlg.c:635
 msgid "Select an icon theme"
 msgstr "選擇一個圖示佈景主題"
 
-#: ../src/main-dlg.c:627
+#: ../src/main-dlg.c:642
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
 
@@ -173,7 +194,7 @@ msgstr ""
 "測試項目 2\n"
 "測試項目 3"
 
-#: ../lxappearance.glade.h:6
+#: ../lxappearance.glade.h:8
 msgid ""
 "Icons only\n"
 "Text only\n"
@@ -190,13 +211,13 @@ msgstr ""
 msgid "Couldn't find pixmap file: %s"
 msgstr "沒發現pixmap 檔:%s"
 
-#~ msgid "Available Fonts"
-#~ msgstr "可用的字型"
-
-#: lxappearance.desktop.in:4
+#: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
 msgstr "外觀設定"
 
-#: lxappearance.desktop.in:5
+#: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "自訂桌面外觀"
+
+#~ msgid "Available Fonts"
+#~ msgstr "可用的字型"

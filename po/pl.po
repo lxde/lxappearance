@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pl_PL\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:27+0200\n"
+"POT-Creation-Date: 2009-12-08 15:20+0100\n"
 "PO-Revision-Date: 2009-02-15 17:39-0000\n"
 "Last-Translator: Artur Kruszewski <mazdac@gmail.com>\n"
 "Language-Team: Polish\n"
@@ -19,67 +19,88 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Ustawienia wyglądu"
 
-#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
 msgid "Available Window Themes"
 msgstr "Dostępne Motywy"
 
-#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
 msgid "_Font:"
 msgstr "_Czcionka:"
 
-#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
 msgid "Window"
 msgstr "Okno"
 
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
 msgid "Available Icon Themes"
 msgstr "Dostępne Motywy Ikon"
 
-#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
 msgid "_Install"
 msgstr "_Instaluj"
 
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
 msgid "Icon"
 msgstr "Ikony"
 
-#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
+#, fuzzy
+msgid "Available Cursor Themes"
+msgstr "Dostępne Motywy Ikon"
+
+#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
+msgid "Size"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
+msgid "Small"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
+msgid "Large"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
+msgid "Cursor"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
 msgstr "Styl paska narzędziowego"
 
-#: ../src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:249
 msgid "Icons only"
 msgstr "Tylko ikony"
 
-#: ../src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:250
 msgid "Text only"
 msgstr "Tylko tekst"
 
-#: ../src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:251
 msgid "Text below icons"
 msgstr "Tekst pod ikonami"
 
-#: ../src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:252
 msgid "Text beside icons"
 msgstr "Tekst obok ikon"
 
-#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
 msgid "Other"
 msgstr "Inne"
 
-#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Podgląd</b>"
 
-#: ../src/main-dlg.c:620
+#: ../src/main-dlg.c:635
 msgid "Select an icon theme"
 msgstr "Wybierz motyw ikon"
 
-#: ../src/main-dlg.c:627
+#: ../src/main-dlg.c:642
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Motyw Ikon)"
 
@@ -173,7 +194,7 @@ msgstr ""
 "Element testowy 2\n"
 "Element testowy 3"
 
-#: ../lxappearance.glade.h:6
+#: ../lxappearance.glade.h:8
 msgid ""
 "Icons only\n"
 "Text only\n"
@@ -190,10 +211,10 @@ msgstr ""
 msgid "Couldn't find pixmap file: %s"
 msgstr "Nie można odnaleźć pliku pixmap: %s"
 
-#: lxappearance.desktop.in:4
+#: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
 msgstr "Wygląd"
 
-#: lxappearance.desktop.in:5
+#: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "Dostosuj wygląd pulpitu"

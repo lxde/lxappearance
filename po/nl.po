@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:27+0200\n"
+"POT-Creation-Date: 2009-12-08 15:20+0100\n"
 "PO-Revision-Date: 2009-05-04 14:56+0100\n"
 "Last-Translator: Sander De Voogdt <celettu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,77 +15,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/main-dlg-ui.c:70
-#: ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "Instellingen voor het Uiterlijk"
 
-#: ../src/main-dlg-ui.c:90
-#: ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
 msgid "Available Window Themes"
 msgstr "Beschikbare Vensterthema's"
 
-#: ../src/main-dlg-ui.c:110
-#: ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
 msgid "_Font:"
 msgstr "Lettertype: "
 
-#: ../src/main-dlg-ui.c:122
-#: ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
 msgid "Window"
 msgstr "Venster"
 
-#: ../src/main-dlg-ui.c:130
-#: ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
 msgid "Available Icon Themes"
 msgstr "Beschikbare Icoonthema's"
 
-#: ../src/main-dlg-ui.c:167
-#: ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
 msgid "_Install"
 msgstr "Installeren"
 
-#: ../src/main-dlg-ui.c:174
-#: ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
 msgid "Icon"
 msgstr "Icoon"
 
-#: ../src/main-dlg-ui.c:187
-#: ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
+#, fuzzy
+msgid "Available Cursor Themes"
+msgstr "Beschikbare Icoonthema's"
+
+#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
+msgid "Size"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
+msgid "Small"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
+msgid "Large"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
+msgid "Cursor"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
 msgstr "Stijl van de werkbalk:"
 
-#: ../src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:249
 msgid "Icons only"
 msgstr "Alleen Iconen"
 
-#: ../src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:250
 msgid "Text only"
 msgstr "Alleen Tekst"
 
-#: ../src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:251
 msgid "Text below icons"
 msgstr "Tekst onder de iconen"
 
-#: ../src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:252
 msgid "Text beside icons"
 msgstr "Tekst naast de iconen"
 
-#: ../src/main-dlg-ui.c:200
-#: ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
 msgid "Other"
 msgstr "Andere"
 
-#: ../src/main-dlg-ui.c:208
-#: ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>Voorbeeld</b>"
 
-#: ../src/main-dlg.c:620
+#: ../src/main-dlg.c:635
 msgid "Select an icon theme"
 msgstr "Kies een icoonthema"
 
-#: ../src/main-dlg.c:627
+#: ../src/main-dlg.c:642
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Icoonthema)"
 
@@ -97,59 +108,47 @@ msgstr "Kolom"
 msgid "Item"
 msgstr "Item"
 
-#: ../src/demo-ui.c:116
-#: ../demo.glade.h:16
+#: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
 msgstr "Bestand"
 
-#: ../src/demo-ui.c:148
-#: ../demo.glade.h:15
+#: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
 msgstr "Bewerken"
 
-#: ../src/demo-ui.c:171
-#: ../demo.glade.h:17
+#: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
 msgstr "Help"
 
-#: ../src/demo-ui.c:196
-#: ../demo.glade.h:1
+#: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
 msgstr "Terug"
 
-#: ../src/demo-ui.c:202
-#: ../demo.glade.h:4
+#: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
 msgstr "Verder"
 
-#: ../src/demo-ui.c:207
-#: ../demo.glade.h:6
+#: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
 msgstr "Stop"
 
-#: ../src/demo-ui.c:224
-#: ../demo.glade.h:7
+#: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
 msgstr "Tab1"
 
-#: ../src/demo-ui.c:246
-#: ../src/demo-ui.c:252
-#: ../demo.glade.h:5
+#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
 msgid "Radio Button"
 msgstr "Radio Knop"
 
-#: ../src/demo-ui.c:262
-#: ../demo.glade.h:2
+#: ../src/demo-ui.c:262 ../demo.glade.h:2
 msgid "Check Button"
 msgstr "Aanvink Knop"
 
-#: ../src/demo-ui.c:271
-#: ../demo.glade.h:3
+#: ../src/demo-ui.c:271 ../demo.glade.h:3
 msgid "Demo"
 msgstr "Demo"
 
-#: ../src/demo-ui.c:316
-#: ../demo.glade.h:18
+#: ../src/demo-ui.c:316 ../demo.glade.h:18
 msgid "button"
 msgstr "knop"
 
@@ -165,23 +164,19 @@ msgstr "Test Item 2"
 msgid "Test Item 3"
 msgstr "Test Item 3"
 
-#: ../src/demo-ui.c:327
-#: ../demo.glade.h:8
+#: ../src/demo-ui.c:327 ../demo.glade.h:8
 msgid "Tab2"
 msgstr "Tab2"
 
-#: ../src/demo-ui.c:340
-#: ../demo.glade.h:14
+#: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
 msgstr "Tiep enkele letters hier om uw geselecteerd font te testen"
 
-#: ../src/demo-ui.c:342
-#: ../demo.glade.h:9
+#: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
 msgstr "Tab3"
 
-#: ../src/demo-ui.c:357
-#: ../demo.glade.h:10
+#: ../src/demo-ui.c:357 ../demo.glade.h:10
 msgid "Tab4"
 msgstr "Tab4"
 
@@ -195,7 +190,7 @@ msgstr ""
 "Test Item 2\n"
 "Test Item 3"
 
-#: ../lxappearance.glade.h:6
+#: ../lxappearance.glade.h:8
 msgid ""
 "Icons only\n"
 "Text only\n"
@@ -207,17 +202,15 @@ msgstr ""
 "Tekst onder iconen\n"
 "Tekst naast iconen"
 
-#: ../src/glade-support.c:90
-#: ../src/glade-support.c:114
+#: ../src/glade-support.c:90 ../src/glade-support.c:114
 #, c-format
 msgid "Couldn't find pixmap file: %s"
 msgstr "Kan pixmap bestand niet vinden: %s"
 
-
-#: lxappearance.desktop.in:4
+#: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
 msgstr "Uiterlijk"
 
-#: lxappearance.desktop.in:5
+#: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "De achtergrond van het bureaublad instellen"

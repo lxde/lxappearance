@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-15 19:27+0200\n"
+"POT-Creation-Date: 2009-12-08 15:20+0100\n"
 "PO-Revision-Date: 2009-07-29 11:08+0200\n"
 "Last-Translator: Sankarshan <sankarshan.mukhopadhyay@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,67 +16,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg-ui.c:70 ../lxappearance.glade.h:2
+#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
 msgstr "চেহারা ছবির বিবিধ বৈশিষ্ট্য"
 
-#: ../src/main-dlg-ui.c:90 ../lxappearance.glade.h:4
+#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
 msgid "Available Window Themes"
 msgstr "উপলব্ধ উইন্ডো থিম"
 
-#: ../src/main-dlg-ui.c:110 ../lxappearance.glade.h:13
+#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
 msgid "_Font:"
 msgstr "ফন্ট(_F):"
 
-#: ../src/main-dlg-ui.c:122 ../lxappearance.glade.h:12
+#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
 msgid "Window"
 msgstr "উইন্ডো"
 
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:3
+#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
 msgid "Available Icon Themes"
 msgstr "উপলব্ধ আইকন থিম"
 
-#: ../src/main-dlg-ui.c:167 ../lxappearance.glade.h:14
+#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
 msgid "_Install"
 msgstr "ইনস্টল করা হবে (_I)"
 
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:5
+#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
 msgid "Icon"
 msgstr "আইকন"
 
-#: ../src/main-dlg-ui.c:187 ../lxappearance.glade.h:11
+#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
+#, fuzzy
+msgid "Available Cursor Themes"
+msgstr "উপলব্ধ আইকন থিম"
+
+#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
+msgid "Size"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
+msgid "Small"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
+msgid "Large"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
+msgid "Cursor"
+msgstr ""
+
+#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
 msgstr "টুলবারের বিন্যাস:"
 
-#: ../src/main-dlg-ui.c:195
+#: ../src/main-dlg-ui.c:249
 msgid "Icons only"
 msgstr "শুধুমাত্র আইকন"
 
-#: ../src/main-dlg-ui.c:196
+#: ../src/main-dlg-ui.c:250
 msgid "Text only"
 msgstr "শুধুমাত্র টেক্সট"
 
-#: ../src/main-dlg-ui.c:197
+#: ../src/main-dlg-ui.c:251
 msgid "Text below icons"
 msgstr "আইকনের নীচে টেক্সট"
 
-#: ../src/main-dlg-ui.c:198
+#: ../src/main-dlg-ui.c:252
 msgid "Text beside icons"
 msgstr "আইকনের পাশে টেক্সট"
 
-#: ../src/main-dlg-ui.c:200 ../lxappearance.glade.h:10
+#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: ../src/main-dlg-ui.c:208 ../lxappearance.glade.h:1
+#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
 msgstr "<b>পূর্বপ্রদর্শন</b>"
 
-#: ../src/main-dlg.c:620
+#: ../src/main-dlg.c:635
 msgid "Select an icon theme"
 msgstr "একটি আইকন থিম নির্বাচন করুন"
 
-#: ../src/main-dlg.c:627
+#: ../src/main-dlg.c:642
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (আইকন থিম)"
 
@@ -170,7 +191,7 @@ msgstr ""
 "Test Item 2\n"
 "Test Item 3"
 
-#: ../lxappearance.glade.h:6
+#: ../lxappearance.glade.h:8
 msgid ""
 "Icons only\n"
 "Text only\n"
@@ -187,10 +208,10 @@ msgstr ""
 msgid "Couldn't find pixmap file: %s"
 msgstr "পিক্সম্যাপ ফাইল: %s খুজেঁ পাওয়া যায়নি"
 
-#: lxappearance.desktop.in:4
+#: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
 msgstr "চেহারা"
 
-#: lxappearance.desktop.in:5
+#: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "ডেস্কটপের চেহারা পছন্দ অনুসারে নির্ধারণ করুন"
