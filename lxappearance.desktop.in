@@ -7,6 +7,6 @@ Icon=gtk-preferences
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Settings;DesktopSettings;X-LXDE-Settings;Gtk;
+Categories=Settings;DesktopSettings;X-LXDE-Settings;GTK;
 NotShowIn=GNOME;XFCE;
 
