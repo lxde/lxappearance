@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-08 15:20+0100\n"
-"PO-Revision-Date: 2009-06-28 16:37+0100\n"
-"Last-Translator: Matej Gačnik <paxmanpwnz@gmail.com>\n"
+"PO-Revision-Date: 2009-12-10 12:10+0100\n"
+"Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
 "Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 1.1.0\n"
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
@@ -48,25 +48,24 @@ msgid "Icon"
 msgstr "Ikone"
 
 #: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Teme"
+msgstr "Kazalčne teme"
 
 #: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
 msgid "Size"
-msgstr ""
+msgstr "Velikost"
 
 #: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
 msgid "Small"
-msgstr ""
+msgstr "Majhna"
 
 #: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
 msgid "Large"
-msgstr ""
+msgstr "Velika"
 
 #: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Kazalec"
 
 #: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
@@ -207,15 +206,14 @@ msgstr ""
 "Samo tekst nad ikonami"
 
 #: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr "Pixmap datoteke %s ni bilo mogoče najti"
+msgstr "Datoteke pixmap %s ni bilo mogoče najti"
 
 #: ../lxappearance.desktop.in.h:1
-#, fuzzy
 msgid "Appearance"
 msgstr "Nastavitve izgleda"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr ""
+msgstr "Prilagajanje videza namizja"

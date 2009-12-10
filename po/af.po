@@ -3,134 +3,134 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-08 15:20+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-12-10 09:29+0100\n"
+"Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr ""
+msgstr "Voorkomsinstellings"
 
 #: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
 msgid "Available Window Themes"
-msgstr ""
+msgstr "Beskikbare venstertemas"
 
 #: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
 msgid "_Font:"
-msgstr ""
+msgstr "_Lettertipe"
 
 #: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
 msgid "Window"
-msgstr ""
+msgstr "Venster"
 
 #: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
 msgid "Available Icon Themes"
-msgstr ""
+msgstr "Beskikbare ikoontemas"
 
 #: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
 msgid "_Install"
-msgstr ""
+msgstr "_Installeer"
 
 #: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
 msgid "Icon"
-msgstr ""
+msgstr "Ikoon"
 
 #: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
 msgid "Available Cursor Themes"
-msgstr ""
+msgstr "Beskikbare muiswysertemas"
 
 #: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
 msgid "Size"
-msgstr ""
+msgstr "Grootte"
 
 #: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
 msgid "Small"
-msgstr ""
+msgstr "Klein"
 
 #: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
 msgid "Large"
-msgstr ""
+msgstr "Groot"
 
 #: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Muiswyser"
 
 #: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Nutsbalkstyl: "
 
 #: ../src/main-dlg-ui.c:249
 msgid "Icons only"
-msgstr ""
+msgstr "Slegs ikone"
 
 #: ../src/main-dlg-ui.c:250
 msgid "Text only"
-msgstr ""
+msgstr "Slegs teks"
 
 #: ../src/main-dlg-ui.c:251
 msgid "Text below icons"
-msgstr ""
+msgstr "Teks onder ikone"
 
 #: ../src/main-dlg-ui.c:252
 msgid "Text beside icons"
-msgstr ""
+msgstr "Teks langs ikone"
 
 #: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
 msgid "Other"
-msgstr ""
+msgstr "Ander"
 
 #: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr ""
+msgstr "<b>Voorskou</b>"
 
 #: ../src/main-dlg.c:635
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Kies 'n ikoontema"
 
 #: ../src/main-dlg.c:642
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (ikoontema)"
 
 #: ../src/demo.c:56
 msgid "Column"
-msgstr ""
+msgstr "Kolom"
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 #: ../src/demo-ui.c:116 ../demo.glade.h:16
 msgid "_File"
-msgstr ""
+msgstr "_Lêer"
 
 #: ../src/demo-ui.c:148 ../demo.glade.h:15
 msgid "_Edit"
-msgstr ""
+msgstr "R_edigeer"
 
 #: ../src/demo-ui.c:171 ../demo.glade.h:17
 msgid "_Help"
-msgstr ""
+msgstr "_Hulp"
 
 #: ../src/demo-ui.c:196 ../demo.glade.h:1
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 #: ../src/demo-ui.c:202 ../demo.glade.h:4
 msgid "Forward"
-msgstr ""
+msgstr "Vorentoe"
 
 #: ../src/demo-ui.c:207 ../demo.glade.h:6
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #: ../src/demo-ui.c:224 ../demo.glade.h:7
 msgid "Tab1"
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../src/demo-ui.c:340 ../demo.glade.h:14
 msgid "Type some characters here to test currently selected font."
-msgstr ""
+msgstr "Tik 'n paar karakters hier om die tans gekose lettertipe te toets."
 
 #: ../src/demo-ui.c:342 ../demo.glade.h:9
 msgid "Tab3"
@@ -202,8 +202,8 @@ msgstr ""
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
-msgstr ""
+msgstr "Voorkoms"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr ""
+msgstr "Pas die voorkoms van die werkskerm aan"
