@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lxappearance r839\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-08 15:20+0100\n"
-"PO-Revision-Date: 2009-04-10 01:28+0200\n"
+"PO-Revision-Date: 2009-12-12 15:13+0100\n"
 "Last-Translator: Cilyan Olowen <gaknar@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -48,25 +48,24 @@ msgid "Icon"
 msgstr "Icônes"
 
 #: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Thèmes d'icônes disponibles :"
+msgstr "Thèmes disponibles pour le pointeur :"
 
 #: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
 msgid "Size"
-msgstr ""
+msgstr "Taille"
 
 #: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
 msgid "Small"
-msgstr ""
+msgstr "Petit"
 
 #: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
 msgid "Large"
-msgstr ""
+msgstr "Grand"
 
 #: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Pointeur"
 
 #: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
 msgid "Toolbar Style: "
