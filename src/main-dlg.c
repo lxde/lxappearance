@@ -555,7 +555,7 @@ GtkWidget* main_dlg_new()
 		 * 	This will cause problems with some themes, but we have no choice.
 		 */
 		show_demo( (GdkNativeWindow)demo_box );
-		gtk_widget_show_all( dlg );
+		gtk_widget_show( dlg );
 	}
 	else
 	{
