@@ -4,6 +4,7 @@
 
 #include <gtk/gtk.h>
 #include <gdk/gdkx.h>
+#include <glib/gi18n.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,8 +17,6 @@
 #include <sys/wait.h>
 
 #include "main-dlg.h"
-#include "main-dlg-ui.h"
-#include "glade-support.h"
 
 enum {
     COL_DISP_NAME,
@@ -25,7 +24,8 @@ enum {
     N_COLS
 };
 
-#define GET_WIDGET_WITH_TYPE(name, type) name = type( lookup_widget( dlg, #name ))
+#define LOOKUP(name)    gtk_builder_get_object( builder, #name )
+#define GET_WIDGET_WITH_TYPE(name, type) name = type(LOOKUP(name))
 
 #define INIT_LIST(name, prop) \
     GET_WIDGET_WITH_TYPE( name##_view, GTK_TREE_VIEW ); \
@@ -467,8 +467,10 @@ static void on_demo_loaded( GtkSocket* socket, GtkWidget* dlg )
     g_signal_handlers_disconnect_by_func( socket, on_demo_loaded, dlg );
 }
 
-void main_dlg_init( GtkWidget* dlg )
+GtkWidget* main_dlg_new()
 {
+    GtkBuilder* builder = gtk_builder_new();
+    GtkWidget* dlg;
     char* files[] = { tmp_rc_file, NULL };
     char** def_files = gtk_rc_get_default_files();
     char** file;
@@ -490,7 +492,6 @@ void main_dlg_init( GtkWidget* dlg )
 		else
 			rc_file = g_build_filename( g_get_home_dir(), ".gtkrc-2.0", NULL );
 	}
-
     g_object_get( gtk_settings_get_default(),
                         "gtk-theme-name", &gtk_theme_name,
                         "gtk-icon-theme-name", &icon_theme_name,
@@ -519,6 +520,12 @@ void main_dlg_init( GtkWidget* dlg )
 	if( ! under_lxsession )
 		write_rc_file( tmp_rc_file );
 
+    gtk_builder_add_from_file(builder, PACKAGE_DATA_DIR "/lxappearance/lxappearance.ui", NULL);
+    gtk_builder_connect_signals(builder, NULL);
+
+    GET_WIDGET_WITH_TYPE(dlg, GTK_WIDGET);
+    main_dlg = dlg;
+
     INIT_LIST( gtk_theme, "gtk-theme-name" )
     INIT_LIST( icon_theme, "gtk-icon-theme-name" )
 
@@ -526,13 +533,13 @@ void main_dlg_init( GtkWidget* dlg )
     INIT_LIST( cursor_theme, "gtk-cursor-theme-name" )
 #endif
 
-    gtk_font_button_set_font_name( (GtkFontButton*)lookup_widget(dlg, "font"), font_name );
+    gtk_font_button_set_font_name( (GtkFontButton*)LOOKUP(font), font_name );
 
 #if CURSOR_THEME
-    gtk_range_set_value( GTK_RANGE(lookup_widget(dlg, "cursor_theme_size")), cursor_theme_size );
+    gtk_range_set_value( GTK_RANGE(LOOKUP(cursor_theme_size)), cursor_theme_size );
 #endif
 
-    gtk_combo_box_set_active( (GtkComboBox*)lookup_widget(dlg, "tb_style"), tb_style < 4 ? tb_style : 3 );
+    gtk_combo_box_set_active( GTK_COMBO_BOX(LOOKUP(tb_style)), tb_style < 4 ? tb_style : 3 );
 
     GET_WIDGET_WITH_TYPE( demo_box, GTK_WIDGET );
     gtk_widget_show( demo_box );
@@ -560,6 +567,7 @@ void main_dlg_init( GtkWidget* dlg )
 	}
 
     disable_apply();
+    return dlg;
 }
 
 static void reload_all_programs( gboolean icon_only )

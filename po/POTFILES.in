@@ -1,12 +1,9 @@
 # List of source files containing translatable strings.
 
 src/main.c
-src/main-dlg-ui.c
 src/main-dlg.c
 src/demo.c
-src/demo-ui.c
-demo.glade
-lxappearance.glade
-src/glade-support.c
+data/demo.glade
+data/lxappearance.glade
 # files added by intltool-prepare
 lxappearance.desktop.in

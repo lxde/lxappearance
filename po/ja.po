@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
 "PO-Revision-Date: 2009-07-17 20:31+0900\n"
 "Last-Translator: Hironao Komatsu <hironao@users.sourceforge.net>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -17,87 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "外観の設定"
-
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "利用可能なウィンドウテーマ"
-
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "フォント(_F):"
-
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "ウィンドウ"
-
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "利用可能なアイコンテーマ"
-
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "インストール(_I)"
-
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "アイコン"
-
-#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "利用可能なカーソルテーマ"
-
-#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "サイズ"
-
-#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "小さい"
-
-#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "大きい"
-
-#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "カーソル"
-
-#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "ツールバーのスタイル: "
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "アイコンのみ"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "テキストのみ"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "アイコンの下にテキスト"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "アイコンの横にテキスト"
-
-#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "その他"
-
-#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>プレビュー</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:643
 msgid "Select an icon theme"
 msgstr "アイコンテーマの選択"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:650
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (アイコンテーマ)"
 
@@ -109,105 +33,142 @@ msgstr "列"
 msgid "Item"
 msgstr "アイテム"
 
-#: ../src/demo-ui.c:116 ../demo.glade.h:16
-msgid "_File"
-msgstr "ファイル(_F)"
-
-#: ../src/demo-ui.c:148 ../demo.glade.h:15
-msgid "_Edit"
-msgstr "編集(_E)"
-
-#: ../src/demo-ui.c:171 ../demo.glade.h:17
-msgid "_Help"
-msgstr "ヘルプ(_H)"
-
-#: ../src/demo-ui.c:196 ../demo.glade.h:1
-msgid "Back"
-msgstr "戻る"
-
-#: ../src/demo-ui.c:202 ../demo.glade.h:4
-msgid "Forward"
-msgstr "進む"
-
-#: ../src/demo-ui.c:207 ../demo.glade.h:6
-msgid "Stop"
-msgstr "停止"
-
-#: ../src/demo-ui.c:224 ../demo.glade.h:7
-msgid "Tab1"
-msgstr "タブ1"
-
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "ラジオボタン"
-
-#: ../src/demo-ui.c:262 ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "チェックボタン"
 
-#: ../src/demo-ui.c:271 ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "デモ"
 
-#: ../src/demo-ui.c:316 ../demo.glade.h:18
-msgid "button"
-msgstr "ボタン"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "ラジオボタン"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "テストアイテム 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "タブ1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "テストアイテム 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "テストアイテム 3"
-
-#: ../src/demo-ui.c:327 ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "タブ2"
 
-#: ../src/demo-ui.c:340 ../demo.glade.h:14
+#: ../data/demo.glade.h:6
+msgid "Tab3"
+msgstr "タブ3"
+
+#: ../data/demo.glade.h:7
+msgid "Tab4"
+msgstr "タブ4"
+
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "テストアイテム 1"
+
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "テストアイテム 2"
+
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "テストアイテム 3"
+
+#: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
 msgstr ""
 "現在選択しているフォントを試すために, ここに文字を入力してみてください."
 
-#: ../src/demo-ui.c:342 ../demo.glade.h:9
-msgid "Tab3"
-msgstr "タブ3"
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "編集(_E)"
 
-#: ../src/demo-ui.c:357 ../demo.glade.h:10
-msgid "Tab4"
-msgstr "タブ4"
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "ファイル(_F)"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"テストアイテム 1\n"
-"テストアイテム 2\n"
-"テストアイテム 3"
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "ヘルプ(_H)"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"アイコンのみ\n"
-"テキストのみ\n"
-"アイコンの下にテキスト\n"
-"アイコンの横にテキスト"
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "ボタン"
 
-#: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "pixmap ファイルが見つかりません: %s"
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>プレビュー</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "外観の設定"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "利用可能なカーソルテーマ"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "利用可能なアイコンテーマ"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "利用可能なウィンドウテーマ"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "カーソル"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "アイコン"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "アイコンのみ"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "大きい"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "その他"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "サイズ"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "小さい"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "アイコンの下にテキスト"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "アイコンの横にテキスト"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "テキストのみ"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "ツールバーのスタイル: "
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "ウィンドウ"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "フォント(_F):"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "インストール(_I)"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -216,3 +177,35 @@ msgstr "外観の設定"
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "デスクトップの見映えを設定します"
+
+#~ msgid "Back"
+#~ msgstr "戻る"
+
+#~ msgid "Forward"
+#~ msgstr "進む"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "テストアイテム 1\n"
+#~ "テストアイテム 2\n"
+#~ "テストアイテム 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "pixmap ファイルが見つかりません: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "アイコンのみ\n"
+#~ "テキストのみ\n"
+#~ "アイコンの下にテキスト\n"
+#~ "アイコンの横にテキスト"

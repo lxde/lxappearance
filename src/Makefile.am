@@ -1,19 +1,20 @@
-## Process this file with automake to produce Makefile.in
+NULL=
 
 INCLUDES = \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
-	@PACKAGE_CFLAGS@
+	$(PACKAGE_CFLAGS) \
+	$(NULL)
 
 bin_PROGRAMS = lxappearance
 
 lxappearance_SOURCES = \
 	main.c \
-	glade-support.c glade-support.h \
-	main-dlg-ui.c main-dlg-ui.h \
 	main-dlg.c main-dlg.h \
-	demo-ui.c demo-ui.h \
-	demo.c demo.h
+	demo.c demo.h \
+	$(NULL)
 
-lxappearance_LDADD = @PACKAGE_LIBS@ $(INTLLIBS)
+lxappearance_CFLAGS = -Wl,--export-dynamic
+
+lxappearance_LDADD = $(PACKAGE_LIBS) $(INTLLIBS)
 

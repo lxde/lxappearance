@@ -1,6 +1,6 @@
 #include <gtk/gtk.h>
 
-void main_dlg_init( GtkWidget* dlg );
+GtkWidget* main_dlg_new();
 
 void
 on_apply_clicked                       (GtkButton       *button,

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
 "PO-Revision-Date: 2009-12-08 20:25+0100\n"
 "Last-Translator: Julius Vitkauskas <zadintuvas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,87 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "Išvaizdos nustatymai"
-
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "Langų temos"
-
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "_Šriftas:"
-
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "Langas"
-
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "Piktogramų temos"
-
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "Pr_idėti"
-
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "Piktograma"
-
-#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "Žymeklių temos"
-
-#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "Dydis"
-
-#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "Mažas"
-
-#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "Didelis"
-
-#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "Žymeklis"
-
-#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "Įrankių juostos stilius: "
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "Tik piktogramos"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "Tik tekstas"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "Tekstas po piktogramomis"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "Tekstas su piktogramomis"
-
-#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "Kita"
-
-#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>Peržiūra</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:643
 msgid "Select an icon theme"
 msgstr "Pasirinkti piktogramų temą"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:650
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (piktogramų tema)"
 
@@ -108,104 +32,141 @@ msgstr "Stulpelis"
 msgid "Item"
 msgstr "Elementas"
 
-#: ../src/demo-ui.c:116 ../demo.glade.h:16
-msgid "_File"
-msgstr "_Failas"
-
-#: ../src/demo-ui.c:148 ../demo.glade.h:15
-msgid "_Edit"
-msgstr "_Keisti"
-
-#: ../src/demo-ui.c:171 ../demo.glade.h:17
-msgid "_Help"
-msgstr "_Pagalba"
-
-#: ../src/demo-ui.c:196 ../demo.glade.h:1
-msgid "Back"
-msgstr "Atgal"
-
-#: ../src/demo-ui.c:202 ../demo.glade.h:4
-msgid "Forward"
-msgstr "Pirmyn"
-
-#: ../src/demo-ui.c:207 ../demo.glade.h:6
-msgid "Stop"
-msgstr "Stop"
-
-#: ../src/demo-ui.c:224 ../demo.glade.h:7
-msgid "Tab1"
-msgstr "Kortelė1"
-
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "Radio mygtukas"
-
-#: ../src/demo-ui.c:262 ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "Pažymėjimas"
 
-#: ../src/demo-ui.c:271 ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "Demonstracija"
 
-#: ../src/demo-ui.c:316 ../demo.glade.h:18
-msgid "button"
-msgstr "mygtukas"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Radio mygtukas"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "Bandomasis pasirinkimas 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Kortelė1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "Bandomasis pasirinkimas 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "Bandomasis pasirinkimas 3"
-
-#: ../src/demo-ui.c:327 ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "Kortelė2"
 
-#: ../src/demo-ui.c:340 ../demo.glade.h:14
-msgid "Type some characters here to test currently selected font."
-msgstr "Įveskite ką nors pasirinktam šriftui išbandyti."
-
-#: ../src/demo-ui.c:342 ../demo.glade.h:9
+#: ../data/demo.glade.h:6
 msgid "Tab3"
 msgstr "Kortelė3"
 
-#: ../src/demo-ui.c:357 ../demo.glade.h:10
+#: ../data/demo.glade.h:7
 msgid "Tab4"
 msgstr "Kortelė4"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"Bandomasis pasirinkimas 1\n"
-"Bandomasis pasirinkimas 2\n"
-"Bandomasis pasirinkimas 3"
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Bandomasis pasirinkimas 1"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"Tik piktogramos\n"
-"Tik tekstas\n"
-"Tekstas po piktogramomis\n"
-"Tekstas su piktogramomis"
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Bandomasis pasirinkimas 2"
 
-#: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "Negalima rasti pixmap failo: %s"
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Bandomasis pasirinkimas 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Įveskite ką nors pasirinktam šriftui išbandyti."
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Keisti"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Failas"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "_Pagalba"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "mygtukas"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Peržiūra</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Išvaizdos nustatymai"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Žymeklių temos"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Piktogramų temos"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Langų temos"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Žymeklis"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Piktograma"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Tik piktogramos"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "Didelis"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Kita"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "Dydis"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "Mažas"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Tekstas po piktogramomis"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Tekstas su piktogramomis"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Tik tekstas"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Įrankių juostos stilius: "
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Langas"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Šriftas:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "Pr_idėti"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -214,3 +175,35 @@ msgstr "Išvaizda"
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "Keisti darbo aplinkos išvaizdą"
+
+#~ msgid "Back"
+#~ msgstr "Atgal"
+
+#~ msgid "Forward"
+#~ msgstr "Pirmyn"
+
+#~ msgid "Stop"
+#~ msgstr "Stop"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Bandomasis pasirinkimas 1\n"
+#~ "Bandomasis pasirinkimas 2\n"
+#~ "Bandomasis pasirinkimas 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Negalima rasti pixmap failo: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Tik piktogramos\n"
+#~ "Tik tekstas\n"
+#~ "Tekstas po piktogramomis\n"
+#~ "Tekstas su piktogramomis"

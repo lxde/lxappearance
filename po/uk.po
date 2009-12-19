@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
 "PO-Revision-Date: 2009-12-08 15:45+0100\n"
 "Last-Translator: Y P <yupadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,87 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "Настройка вигляду"
-
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "Доступні теми вікон"
-
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "_Фонт:"
-
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "Вікно"
-
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "Доступні теми іконок"
-
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "_Інсталювати"
-
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "Іконка"
-
-#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "Доступні теми курсора"
-
-#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "Розмір"
-
-#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "Малий"
-
-#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "Великий"
-
-#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "Курсор"
-
-#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "Стиль панелі інструментів: "
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "Тільки іконки"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "Тільки текст"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "Текст під іконками"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "Текст за іконками"
-
-#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "Інше"
-
-#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>Переглянути</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:643
 msgid "Select an icon theme"
 msgstr "Виберіть тему іконок"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:650
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Тема іконок)"
 
@@ -108,104 +32,141 @@ msgstr "Колонка"
 msgid "Item"
 msgstr "Пункт"
 
-#: ../src/demo-ui.c:116 ../demo.glade.h:16
-msgid "_File"
-msgstr "_Файл"
-
-#: ../src/demo-ui.c:148 ../demo.glade.h:15
-msgid "_Edit"
-msgstr "_Редагувати"
-
-#: ../src/demo-ui.c:171 ../demo.glade.h:17
-msgid "_Help"
-msgstr "_Допомога"
-
-#: ../src/demo-ui.c:196 ../demo.glade.h:1
-msgid "Back"
-msgstr "Назад"
-
-#: ../src/demo-ui.c:202 ../demo.glade.h:4
-msgid "Forward"
-msgstr "Вперед"
-
-#: ../src/demo-ui.c:207 ../demo.glade.h:6
-msgid "Stop"
-msgstr "Стоп"
-
-#: ../src/demo-ui.c:224 ../demo.glade.h:7
-msgid "Tab1"
-msgstr "Таб1"
-
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "Кнопка радіо"
-
-#: ../src/demo-ui.c:262 ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "Клавіша перевірки"
 
-#: ../src/demo-ui.c:271 ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "Демо"
 
-#: ../src/demo-ui.c:316 ../demo.glade.h:18
-msgid "button"
-msgstr "клавіша"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Кнопка радіо"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "Тестовий пункт 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Таб1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "Тестовий пункт 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "Тестовий пункт 3"
-
-#: ../src/demo-ui.c:327 ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "Tаб2"
 
-#: ../src/demo-ui.c:340 ../demo.glade.h:14
-msgid "Type some characters here to test currently selected font."
-msgstr "Надрукуйте тут якісь букви для перевірки щойно вибраного шрифта"
-
-#: ../src/demo-ui.c:342 ../demo.glade.h:9
+#: ../data/demo.glade.h:6
 msgid "Tab3"
 msgstr "Таб3"
 
-#: ../src/demo-ui.c:357 ../demo.glade.h:10
+#: ../data/demo.glade.h:7
 msgid "Tab4"
 msgstr "Таб4"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"Тестовий пункт 1\n"
-"Тестовий пункт 2\n"
-"Тестовий пункт 3"
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Тестовий пункт 1"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"Тільки іконки\n"
-"Тільки текст\n"
-"Текст під іконками\n"
-"Текст за іконками"
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Тестовий пункт 2"
 
-#: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "Не можу знайти pixmap файл: %s"
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Тестовий пункт 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Надрукуйте тут якісь букви для перевірки щойно вибраного шрифта"
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Редагувати"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "_Допомога"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "клавіша"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Переглянути</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Настройка вигляду"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Доступні теми курсора"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Доступні теми іконок"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Доступні теми вікон"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Курсор"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Іконка"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Тільки іконки"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "Великий"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Інше"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "Розмір"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "Малий"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Текст під іконками"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Текст за іконками"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Тільки текст"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Стиль панелі інструментів: "
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Вікно"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Фонт:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "_Інсталювати"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -214,3 +175,35 @@ msgstr "Зовнішній вигляд"
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "Налаштувати вигляд робочого столу"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Forward"
+#~ msgstr "Вперед"
+
+#~ msgid "Stop"
+#~ msgstr "Стоп"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Тестовий пункт 1\n"
+#~ "Тестовий пункт 2\n"
+#~ "Тестовий пункт 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Не можу знайти pixmap файл: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Тільки іконки\n"
+#~ "Тільки текст\n"
+#~ "Текст під іконками\n"
+#~ "Текст за іконками"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
 "PO-Revision-Date: 2009-12-08 15:45+0100\n"
 "Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,87 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "הגדרות המראה"
-
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "ערכות נושא הזמינות לחלונות"
-
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "_גופן:"
-
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "חלון"
-
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "ערכות הנושא הזמינות לסמלים"
-
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "ה_תקנה"
-
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "סמל"
-
-#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "ערכות סמני העכבר הזמינות"
-
-#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "גודל"
-
-#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "קטן"
-
-#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "גדול"
-
-#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "סמן העכבר"
-
-#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "סגנון סרגל הכלים: "
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "סמלים בלבד"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "טקסט בלבד"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "טקסט מתחת לסמלים"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "טקסט לצד הסמלים"
-
-#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "אחר"
-
-#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>תצוגה מקדימה</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:643
 msgid "Select an icon theme"
 msgstr "בחירת ערכת נושא לסמלים"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:650
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (ערכת נושא לסמלים)"
 
@@ -108,104 +32,141 @@ msgstr "עמודה"
 msgid "Item"
 msgstr "פריט"
 
-#: ../src/demo-ui.c:116 ../demo.glade.h:16
-msgid "_File"
-msgstr "_קובץ"
-
-#: ../src/demo-ui.c:148 ../demo.glade.h:15
-msgid "_Edit"
-msgstr "ע_ריכה"
-
-#: ../src/demo-ui.c:171 ../demo.glade.h:17
-msgid "_Help"
-msgstr "ע_זרה"
-
-#: ../src/demo-ui.c:196 ../demo.glade.h:1
-msgid "Back"
-msgstr "אחורה"
-
-#: ../src/demo-ui.c:202 ../demo.glade.h:4
-msgid "Forward"
-msgstr "קדימה"
-
-#: ../src/demo-ui.c:207 ../demo.glade.h:6
-msgid "Stop"
-msgstr "עצירה"
-
-#: ../src/demo-ui.c:224 ../demo.glade.h:7
-msgid "Tab1"
-msgstr "לשונית1"
-
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "לחצן ברירה"
-
-#: ../src/demo-ui.c:262 ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "לחצן סימון"
 
-#: ../src/demo-ui.c:271 ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "הדגמה"
 
-#: ../src/demo-ui.c:316 ../demo.glade.h:18
-msgid "button"
-msgstr "לחצן"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "לחצן ברירה"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "פריט לבדיקה 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "לשונית1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "פריט לבדיקה 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "פריט לבדיקה 3"
-
-#: ../src/demo-ui.c:327 ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "לשונית2"
 
-#: ../src/demo-ui.c:340 ../demo.glade.h:14
-msgid "Type some characters here to test currently selected font."
-msgstr "נא להקליד כמה תווים כדי לבדוק את הגופן הנבחר הנוכחי."
-
-#: ../src/demo-ui.c:342 ../demo.glade.h:9
+#: ../data/demo.glade.h:6
 msgid "Tab3"
 msgstr "לשונית3"
 
-#: ../src/demo-ui.c:357 ../demo.glade.h:10
+#: ../data/demo.glade.h:7
 msgid "Tab4"
 msgstr "לשונית4"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"פריט לבדיקה1\n"
-"פריט לבדיקה 2\n"
-"פריט לבדיקה 3"
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "פריט לבדיקה 1"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"סמלים בלבד\n"
-"טקסט בלבד\n"
-"טקסט מתחת לסמלים\n"
-"טקסט לצד הסמלים"
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "פריט לבדיקה 2"
 
-#: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "לא ניתן לאתר את קובץ ה־pixmap‏: %s"
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "פריט לבדיקה 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "נא להקליד כמה תווים כדי לבדוק את הגופן הנבחר הנוכחי."
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "ע_ריכה"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_קובץ"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "ע_זרה"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "לחצן"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>תצוגה מקדימה</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "הגדרות המראה"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "ערכות סמני העכבר הזמינות"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "ערכות הנושא הזמינות לסמלים"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "ערכות נושא הזמינות לחלונות"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "סמן העכבר"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "סמל"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "סמלים בלבד"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "גדול"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "אחר"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "גודל"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "קטן"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "טקסט מתחת לסמלים"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "טקסט לצד הסמלים"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "טקסט בלבד"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "סגנון סרגל הכלים: "
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "חלון"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_גופן:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "ה_תקנה"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -214,3 +175,35 @@ msgstr "מראה"
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "התאמת מראה שולחן העבודה"
+
+#~ msgid "Back"
+#~ msgstr "אחורה"
+
+#~ msgid "Forward"
+#~ msgstr "קדימה"
+
+#~ msgid "Stop"
+#~ msgstr "עצירה"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "פריט לבדיקה1\n"
+#~ "פריט לבדיקה 2\n"
+#~ "פריט לבדיקה 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "לא ניתן לאתר את קובץ ה־pixmap‏: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "סמלים בלבד\n"
+#~ "טקסט בלבד\n"
+#~ "טקסט מתחת לסמלים\n"
+#~ "טקסט לצד הסמלים"

@@ -3,10 +3,8 @@
 #endif
 
 #include <gtk/gtk.h>
-
+#include <glib/gi18n.h>
 #include "demo.h"
-#include "demo-ui.h"
-#include "glade-support.h"
 
 extern gboolean under_lxsession;	/* wether lxsession-xsettings daemon is active */
 
@@ -15,14 +13,16 @@ static GtkIconView* icon_view = NULL;
 static void load_demo_icons()
 {
     static const char* icon_names[]={
-        "gnome-fs-home",
-        "gnome-fs-desktop",
-        "gnome-fs-directory",
-        "gnome-fs-trash-empty",
-        "gnome-fs-regular",
-        "gnome-fs-executable",
-        "gnome-mime-image",
-        "gnome-mime-text"
+        "user-home",
+        "user-desktop",
+        "folder",
+        "folder-remote",
+        "user-trash",
+        "x-office-document",
+        "application-x-executable",
+        "image-x-generic",
+        "text-x-generic",
+        "text-html"
     };
 
     int i;
@@ -72,17 +72,21 @@ static void load_demo_tree_view( GtkTreeView* view )
 
 void show_demo( GdkNativeWindow wid )
 {
-    GtkWidget* demo = create_demo_window();
+    GtkBuilder* builder = gtk_builder_new();
+    GtkWidget* demo;
     GtkWidget* plug;
     GtkWidget* top_vbox;
     GtkToolbarStyle tb_style;
     GtkWidget* tree_view;
 
-    g_object_get( gtk_settings_get_default(), "gtk-toolbar-style", &tb_style, NULL );
-    gtk_toolbar_set_style (GTK_TOOLBAR (lookup_widget(demo, "toolbar")), tb_style );
+    gtk_builder_add_from_file(builder, PACKAGE_DATA_DIR "/lxappearance/demo.ui", NULL);
+    demo = gtk_builder_get_object(builder, "demo");
 
-    icon_view = GTK_ICON_VIEW( lookup_widget( demo, "icon_view" ) );
-    tree_view = lookup_widget( demo, "demo_treeview" );
+    g_object_get( gtk_settings_get_default(), "gtk-toolbar-style", &tb_style, NULL );
+    gtk_toolbar_set_style (GTK_TOOLBAR (gtk_builder_get_object(builder, "toolbar")), tb_style );
+
+    icon_view = GTK_ICON_VIEW( gtk_builder_get_object(builder, "icon_view" ) );
+    tree_view = gtk_builder_get_object(builder, "demo_treeview" );
 
     gtk_icon_view_set_pixbuf_column( icon_view, 0 );
     gtk_icon_view_set_text_column( icon_view, 1 );

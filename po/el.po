@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
 "PO-Revision-Date: 2009-07-21 23:20+0200\n"
 "Last-Translator: George Vasilakos <forfolias@linuxteam.cs.teilar.gr>\n"
 "Language-Team: Greek\n"
@@ -17,88 +17,11 @@ msgstr ""
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "Ρυθμίσεις εμφάνισης"
-
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "Διαθέσιμα θέματα παραθύρων"
-
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "_Γραμματοσειρά:"
-
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "Παράθυρο"
-
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "Διαθέσιμα θέματα εικονιδίων"
-
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "_Εγκατάσταση"
-
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "Εικονίδιο"
-
-#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-#, fuzzy
-msgid "Available Cursor Themes"
-msgstr "Διαθέσιμα θέματα εικονιδίων"
-
-#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr ""
-
-#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr ""
-
-#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr ""
-
-#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr ""
-
-#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "Στυλ γραμμής εργαλείων:"
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "Μόνο εικονίδια"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "Μόνο κείμενο"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "Κείμενο κάτω από τα εικονίδια"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "Κείμενο δίπλα από τα εικονίδια"
-
-#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "Άλλα"
-
-#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>Προεπισκόπηση</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:643
 msgid "Select an icon theme"
 msgstr "Επιλογή ενός θέματος εικονιδίων"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:650
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Θέμα εικονιδίων)"
 
@@ -110,104 +33,142 @@ msgstr "Στήλη"
 msgid "Item"
 msgstr "Αντικείμενο"
 
-#: ../src/demo-ui.c:116 ../demo.glade.h:16
-msgid "_File"
-msgstr "_Αρχείο"
-
-#: ../src/demo-ui.c:148 ../demo.glade.h:15
-msgid "_Edit"
-msgstr "_Επεξεργασία"
-
-#: ../src/demo-ui.c:171 ../demo.glade.h:17
-msgid "_Help"
-msgstr "_Βοήθεια"
-
-#: ../src/demo-ui.c:196 ../demo.glade.h:1
-msgid "Back"
-msgstr "Πίσω"
-
-#: ../src/demo-ui.c:202 ../demo.glade.h:4
-msgid "Forward"
-msgstr "Μπροστά"
-
-#: ../src/demo-ui.c:207 ../demo.glade.h:6
-msgid "Stop"
-msgstr "Σταμάτα"
-
-#: ../src/demo-ui.c:224 ../demo.glade.h:7
-msgid "Tab1"
-msgstr "Καρτέλα 1"
-
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "Κουμπί επιλογής"
-
-#: ../src/demo-ui.c:262 ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "Κουμπί ενεργοποίησης"
 
-#: ../src/demo-ui.c:271 ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "Δοκιμή"
 
-#: ../src/demo-ui.c:316 ../demo.glade.h:18
-msgid "button"
-msgstr "κουμπί"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Κουμπί επιλογής"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "Δοκιμαστικό αντικείμενο 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Καρτέλα 1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "Δοκιμαστικό αντικείμενο 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "Δοκιμαστικό αντικείμενο 3"
-
-#: ../src/demo-ui.c:327 ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "Καρτέλα 2"
 
-#: ../src/demo-ui.c:340 ../demo.glade.h:14
-msgid "Type some characters here to test currently selected font."
-msgstr "Πληκτρολογήστε χαρακτήρες για δοκιμή της τρέχουσας γραμματοσειράς."
-
-#: ../src/demo-ui.c:342 ../demo.glade.h:9
+#: ../data/demo.glade.h:6
 msgid "Tab3"
 msgstr "Καρτέλα 3"
 
-#: ../src/demo-ui.c:357 ../demo.glade.h:10
+#: ../data/demo.glade.h:7
 msgid "Tab4"
 msgstr "Καρτέλα 4"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"Δοκιμή αντικειμένου 1\n"
-"Δοκιμή αντικειμένου 2\n"
-"Δοκιμή αντικειμένου 3"
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Δοκιμαστικό αντικείμενο 1"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"Μόνο Εικονίδια\n"
-"Μόνο κείμενο\n"
-"Κείμενο κάτω από τα εικονίδια\n"
-"Κείμενο δίπλα από τα εικονίδια"
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Δοκιμαστικό αντικείμενο 2"
 
-#: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "Αδύνατη η εύρεση αρχείου pixmap: %s"
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Δοκιμαστικό αντικείμενο 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Πληκτρολογήστε χαρακτήρες για δοκιμή της τρέχουσας γραμματοσειράς."
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Επεξεργασία"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Αρχείο"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "κουμπί"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Προεπισκόπηση</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Ρυθμίσεις εμφάνισης"
+
+#: ../data/lxappearance.glade.h:3
+#, fuzzy
+msgid "Available Cursor Themes"
+msgstr "Διαθέσιμα θέματα εικονιδίων"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Διαθέσιμα θέματα εικονιδίων"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Διαθέσιμα θέματα παραθύρων"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr ""
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Εικονίδιο"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Μόνο εικονίδια"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr ""
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Άλλα"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr ""
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr ""
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Κείμενο κάτω από τα εικονίδια"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Κείμενο δίπλα από τα εικονίδια"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Μόνο κείμενο"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Στυλ γραμμής εργαλείων:"
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Παράθυρο"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Γραμματοσειρά:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "_Εγκατάσταση"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -216,3 +177,35 @@ msgstr "Εμφάνιση"
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "Προσαρμόστε την εμφάνιση της επιφάνειας εργασίας σας"
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"
+
+#~ msgid "Forward"
+#~ msgstr "Μπροστά"
+
+#~ msgid "Stop"
+#~ msgstr "Σταμάτα"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Δοκιμή αντικειμένου 1\n"
+#~ "Δοκιμή αντικειμένου 2\n"
+#~ "Δοκιμή αντικειμένου 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Αδύνατη η εύρεση αρχείου pixmap: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Μόνο Εικονίδια\n"
+#~ "Μόνο κείμενο\n"
+#~ "Κείμενο κάτω από τα εικονίδια\n"
+#~ "Κείμενο δίπλα από τα εικονίδια"

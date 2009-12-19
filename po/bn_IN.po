@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
 "PO-Revision-Date: 2009-12-08 18:00+0100\n"
 "Last-Translator: Sankarshan <sankarshan.mukhopadhyay@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,87 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "চেহারা ছবির বিবিধ বৈশিষ্ট্য"
-
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "উপলব্ধ উইন্ডো থিম"
-
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "ফন্ট(_F):"
-
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "উইন্ডো"
-
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "উপলব্ধ আইকন থিম"
-
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "ইনস্টল করা হবে (_I)"
-
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "আইকন"
-
-#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "উপলব্ধ কার্সার থিম"
-
-#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "আকার"
-
-#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "ছোট"
-
-#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "বড়"
-
-#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "কার্সার"
-
-#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "টুলবারের বিন্যাস:"
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "শুধুমাত্র আইকন"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "শুধুমাত্র টেক্সট"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "আইকনের নীচে টেক্সট"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "আইকনের পাশে টেক্সট"
-
-#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "অন্যান্য"
-
-#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>পূর্বপ্রদর্শন</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:643
 msgid "Select an icon theme"
 msgstr "একটি আইকন থিম নির্বাচন করুন"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:650
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (আইকন থিম)"
 
@@ -108,104 +32,141 @@ msgstr "কলাম"
 msgid "Item"
 msgstr "বস্তু"
 
-#: ../src/demo-ui.c:116 ../demo.glade.h:16
-msgid "_File"
-msgstr "ফাইল(_F)"
-
-#: ../src/demo-ui.c:148 ../demo.glade.h:15
-msgid "_Edit"
-msgstr "সম্পাদনা(_E)"
-
-#: ../src/demo-ui.c:171 ../demo.glade.h:17
-msgid "_Help"
-msgstr "সহায়িকা(_H)"
-
-#: ../src/demo-ui.c:196 ../demo.glade.h:1
-msgid "Back"
-msgstr "পূর্ববর্তী"
-
-#: ../src/demo-ui.c:202 ../demo.glade.h:4
-msgid "Forward"
-msgstr "ফরওয়ার্ড"
-
-#: ../src/demo-ui.c:207 ../demo.glade.h:6
-msgid "Stop"
-msgstr "বন্ধ করা হবে"
-
-#: ../src/demo-ui.c:224 ../demo.glade.h:7
-msgid "Tab1"
-msgstr "Tab1"
-
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "Radio Button"
-
-#: ../src/demo-ui.c:262 ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "Check Button"
 
-#: ../src/demo-ui.c:271 ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "ডেমো"
 
-#: ../src/demo-ui.c:316 ../demo.glade.h:18
-msgid "button"
-msgstr "button"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Radio Button"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "Test Item 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Tab1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "Test Item 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "Test Item 3"
-
-#: ../src/demo-ui.c:327 ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "Tab2"
 
-#: ../src/demo-ui.c:340 ../demo.glade.h:14
-msgid "Type some characters here to test currently selected font."
-msgstr "বর্তমানে নির্বাচিত ফন্ট-টি পরীক্ষা করার জন্য কিছু অক্ষর টাইপ করুন।"
-
-#: ../src/demo-ui.c:342 ../demo.glade.h:9
+#: ../data/demo.glade.h:6
 msgid "Tab3"
 msgstr "Tab3"
 
-#: ../src/demo-ui.c:357 ../demo.glade.h:10
+#: ../data/demo.glade.h:7
 msgid "Tab4"
 msgstr "Tab4"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Test Item 1"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"শুধুমাত্র আইকন\n"
-"শুধুমাত্র টেক্সট\n"
-"আইকনের নীচে টেক্সট\n"
-"আইকনের পাশে টেক্সট"
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Test Item 2"
 
-#: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "পিক্সম্যাপ ফাইল: %s খুজেঁ পাওয়া যায়নি"
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Test Item 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "বর্তমানে নির্বাচিত ফন্ট-টি পরীক্ষা করার জন্য কিছু অক্ষর টাইপ করুন।"
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "সম্পাদনা(_E)"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "ফাইল(_F)"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "সহায়িকা(_H)"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "button"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>পূর্বপ্রদর্শন</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "চেহারা ছবির বিবিধ বৈশিষ্ট্য"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "উপলব্ধ কার্সার থিম"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "উপলব্ধ আইকন থিম"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "উপলব্ধ উইন্ডো থিম"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "কার্সার"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "আইকন"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "শুধুমাত্র আইকন"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "বড়"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "আকার"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "ছোট"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "আইকনের নীচে টেক্সট"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "আইকনের পাশে টেক্সট"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "শুধুমাত্র টেক্সট"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "টুলবারের বিন্যাস:"
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "উইন্ডো"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "ফন্ট(_F):"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "ইনস্টল করা হবে (_I)"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -214,3 +175,35 @@ msgstr "চেহারা"
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "ডেস্কটপের চেহারা পছন্দ অনুসারে নির্ধারণ করুন"
+
+#~ msgid "Back"
+#~ msgstr "পূর্ববর্তী"
+
+#~ msgid "Forward"
+#~ msgstr "ফরওয়ার্ড"
+
+#~ msgid "Stop"
+#~ msgstr "বন্ধ করা হবে"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "পিক্সম্যাপ ফাইল: %s খুজেঁ পাওয়া যায়নি"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "শুধুমাত্র আইকন\n"
+#~ "শুধুমাত্র টেক্সট\n"
+#~ "আইকনের নীচে টেক্সট\n"
+#~ "আইকনের পাশে টেক্সট"

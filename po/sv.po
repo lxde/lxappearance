@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxapperance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
 "PO-Revision-Date: 2009-12-08 15:42+0100\n"
 "Last-Translator: Martin Bagge <brother@bsnet.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -17,87 +17,11 @@ msgstr ""
 "X-Generator: Pootle 1.1.0\n"
 "X-Poedit-Language: Swedish\n"
 
-#: ../src/main-dlg-ui.c:80 ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "Inställningar för utseende"
-
-#: ../src/main-dlg-ui.c:99 ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "Tillgängliga fönsterteman"
-
-#: ../src/main-dlg-ui.c:118 ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "_Teckensnitt:"
-
-#: ../src/main-dlg-ui.c:130 ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "Fönster"
-
-#: ../src/main-dlg-ui.c:138 ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "Tillgängliga ikonteman"
-
-#: ../src/main-dlg-ui.c:174 ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "_Installera"
-
-#: ../src/main-dlg-ui.c:181 ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "Ikon"
-
-#: ../src/main-dlg-ui.c:190 ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "Tillgängliga muspekarteman"
-
-#: ../src/main-dlg-ui.c:209 ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "Storlek"
-
-#: ../src/main-dlg-ui.c:213 ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "Liten"
-
-#: ../src/main-dlg-ui.c:223 ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "Stor"
-
-#: ../src/main-dlg-ui.c:227 ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "Muspekare"
-
-#: ../src/main-dlg-ui.c:241 ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "Verktygsfältsstil:"
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "Endast ikoner"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "Endast text"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "Text under ikoner"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "Text bredvid ikoner"
-
-#: ../src/main-dlg-ui.c:254 ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "Annat"
-
-#: ../src/main-dlg-ui.c:266 ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>Förhandsgranska</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:643
 msgid "Select an icon theme"
 msgstr "Välj ikontema"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:650
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Ikontema)"
 
@@ -109,104 +33,141 @@ msgstr "Kolumn"
 msgid "Item"
 msgstr "Objekt"
 
-#: ../src/demo-ui.c:116 ../demo.glade.h:16
-msgid "_File"
-msgstr "_Arkiv"
-
-#: ../src/demo-ui.c:148 ../demo.glade.h:15
-msgid "_Edit"
-msgstr "_Redigera"
-
-#: ../src/demo-ui.c:171 ../demo.glade.h:17
-msgid "_Help"
-msgstr "_Hjälp"
-
-#: ../src/demo-ui.c:196 ../demo.glade.h:1
-msgid "Back"
-msgstr "Bakåt"
-
-#: ../src/demo-ui.c:202 ../demo.glade.h:4
-msgid "Forward"
-msgstr "Framåt"
-
-#: ../src/demo-ui.c:207 ../demo.glade.h:6
-msgid "Stop"
-msgstr "Stopp"
-
-#: ../src/demo-ui.c:224 ../demo.glade.h:7
-msgid "Tab1"
-msgstr "Flik1"
-
-#: ../src/demo-ui.c:246 ../src/demo-ui.c:252 ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "Radioknapp"
-
-#: ../src/demo-ui.c:262 ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "Kryssruta"
 
-#: ../src/demo-ui.c:271 ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "Demonstration"
 
-#: ../src/demo-ui.c:316 ../demo.glade.h:18
-msgid "button"
-msgstr "knapp"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Radioknapp"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "Testobjekt 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Flik1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "Testobjekt 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "Testobjekt 3"
-
-#: ../src/demo-ui.c:327 ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "Flik2"
 
-#: ../src/demo-ui.c:340 ../demo.glade.h:14
-msgid "Type some characters here to test currently selected font."
-msgstr "Skriv här för att testa valt teckensnitt."
-
-#: ../src/demo-ui.c:342 ../demo.glade.h:9
+#: ../data/demo.glade.h:6
 msgid "Tab3"
 msgstr "Flik3"
 
-#: ../src/demo-ui.c:357 ../demo.glade.h:10
+#: ../data/demo.glade.h:7
 msgid "Tab4"
 msgstr "Flik4"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"Testobjekt 1\n"
-"Testobjekt 2\n"
-"Testobjekt 3"
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Testobjekt 1"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"Endast ikoner\n"
-"Endast text\n"
-"Text under ikoner\n"
-"Text brevid ikoner"
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Testobjekt 2"
 
-#: ../src/glade-support.c:90 ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "Kunde inte hitta pixmap-filen: %s"
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Testobjekt 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Skriv här för att testa valt teckensnitt."
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Redigera"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Arkiv"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "knapp"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Förhandsgranska</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Inställningar för utseende"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Tillgängliga muspekarteman"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Tillgängliga ikonteman"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Tillgängliga fönsterteman"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Muspekare"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Ikon"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Endast ikoner"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "Stor"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Annat"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "Storlek"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "Liten"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Text under ikoner"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Text bredvid ikoner"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Endast text"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Verktygsfältsstil:"
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Fönster"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Teckensnitt:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "_Installera"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -215,3 +176,35 @@ msgstr "Utseende"
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
 msgstr "Anpassa utseendet för skrivbordet"
+
+#~ msgid "Back"
+#~ msgstr "Bakåt"
+
+#~ msgid "Forward"
+#~ msgstr "Framåt"
+
+#~ msgid "Stop"
+#~ msgstr "Stopp"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Testobjekt 1\n"
+#~ "Testobjekt 2\n"
+#~ "Testobjekt 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Kunde inte hitta pixmap-filen: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Endast ikoner\n"
+#~ "Endast text\n"
+#~ "Text under ikoner\n"
+#~ "Text brevid ikoner"
