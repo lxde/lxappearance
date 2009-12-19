@@ -80,13 +80,13 @@ void show_demo( GdkNativeWindow wid )
     GtkWidget* tree_view;
 
     gtk_builder_add_from_file(builder, PACKAGE_DATA_DIR "/lxappearance/demo.ui", NULL);
-    demo = gtk_builder_get_object(builder, "demo");
+    demo = (GtkWidget*)gtk_builder_get_object(builder, "demo");
 
     g_object_get( gtk_settings_get_default(), "gtk-toolbar-style", &tb_style, NULL );
     gtk_toolbar_set_style (GTK_TOOLBAR (gtk_builder_get_object(builder, "toolbar")), tb_style );
 
     icon_view = GTK_ICON_VIEW( gtk_builder_get_object(builder, "icon_view" ) );
-    tree_view = gtk_builder_get_object(builder, "demo_treeview" );
+    tree_view = (GtkWidget*)gtk_builder_get_object(builder, "demo_treeview" );
 
     gtk_icon_view_set_pixbuf_column( icon_view, 0 );
     gtk_icon_view_set_text_column( icon_view, 1 );
@@ -114,4 +114,5 @@ void show_demo( GdkNativeWindow wid )
 		gtk_container_add( (GtkContainer*)plug, demo );
 		gtk_widget_show( plug );    	
     }
+    g_object_unref(builder);
 }

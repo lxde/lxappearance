@@ -14,7 +14,9 @@ lxappearance_SOURCES = \
 	demo.c demo.h \
 	$(NULL)
 
-lxappearance_CFLAGS = -Wl,--export-dynamic
+lxappearance_CFLAGS = \
+	-Wl,--export-dynamic \
+	-Werror-implicit-function-declaration \
+	$(NULL)
 
 lxappearance_LDADD = $(PACKAGE_LIBS) $(INTLLIBS)
-

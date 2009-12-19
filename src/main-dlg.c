@@ -17,6 +17,7 @@
 #include <sys/wait.h>
 
 #include "main-dlg.h"
+#include "demo.h"
 
 enum {
     COL_DISP_NAME,
@@ -571,6 +572,8 @@ GtkWidget* main_dlg_new()
 	}
 
     disable_apply();
+
+    g_object_unref(builder);
     return dlg;
 }
 

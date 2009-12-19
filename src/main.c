@@ -7,15 +7,19 @@
 #  include <config.h>
 #endif
 
+#include <libintl.h>
+
 #include <gtk/gtk.h>
 #include <string.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 #include <X11/X.h>
 #include <X11/Xatom.h>
 #include <X11/Xlib.h>
 #include <gdk/gdkx.h>
 
+#include "main-dlg.h"
 #include "demo.h"
 
 char tmp_rc_file[] = "/tmp/gtkrc-2.0-XXXXXX";
