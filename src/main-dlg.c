@@ -117,8 +117,10 @@ static void write_rc_file( const char* path )
         fprintf( f, "gtk-icon-theme-name=\"%s\"\n", icon_theme_name );
         fprintf( f, "gtk-font-name=\"%s\"\n", font_name );
         fprintf( f, "gtk-toolbar-style=%d\n", tb_style );
+#if CURSOR_THEME
         fprintf( f, "gtk-cursor-theme-name=\"%s\"\n", cursor_theme_name );
         fprintf( f, "gtk-cursor-theme-size=%d\n", cursor_theme_size );
+#endif
 
         fprintf( f, "include \"%s/.gtkrc-2.0.mine\"\n", g_get_home_dir() );
 
@@ -165,8 +167,10 @@ static void write_lxsession_config()
     g_key_file_set_string( kf, "GTK", "sNet/IconThemeName", icon_theme_name );
     g_key_file_set_string( kf, "GTK", "sGtk/FontName", font_name );
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", tb_style );
+#if CURSOR_THEME
     g_key_file_set_string( kf, "GTK", "sGtk/CursorThemeName", cursor_theme_name );
     g_key_file_set_integer( kf, "GTK", "iGtk/CursorThemeSize", cursor_theme_size );
+#endif
 
     data = g_key_file_to_data( kf, &len, NULL );
     g_key_file_free( kf );

@@ -75,7 +75,7 @@ int main (int argc, char *argv[])
     gtk_widget_destroy( gtk_toolbar_new() );
 
     main_dlg = main_dlg_new();
-    gtk_window_set_icon_name( (GtkWindow*)main_dlg, GTK_STOCK_PREFERENCES );
+    gtk_window_set_icon_name( (GtkWindow*)main_dlg, "preferences-desktop-theme" );
 
     gtk_main ();
 
