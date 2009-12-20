@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance r839\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-19 15:04+0800\n"
+"POT-Creation-Date: 2009-12-20 15:11+0100\n"
 "PO-Revision-Date: 2009-12-12 15:13+0100\n"
 "Last-Translator: Cilyan Olowen <gaknar@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg.c:643
+#: ../src/main-dlg.c:650
 msgid "Select an icon theme"
 msgstr "Sélectionnez un thème d'icônes"
 
-#: ../src/main-dlg.c:650
+#: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (thème d'icônes)"
 

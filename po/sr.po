@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXAppearance 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-19 15:04+0800\n"
+"POT-Creation-Date: 2009-12-20 15:11+0100\n"
 "PO-Revision-Date: 2009-09-02 12:40+0100\n"
 "Last-Translator: Jay A. Fleming <tito.nehru.naser@gmail.com>\n"
 "Language-Team: \n"
@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../src/main-dlg.c:643
+#: ../src/main-dlg.c:650
 msgid "Select an icon theme"
 msgstr "Изаберите пакет са темом икона"
 
-#: ../src/main-dlg.c:650
+#: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (тема икона)"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-19 15:04+0800\n"
+"POT-Creation-Date: 2009-12-20 15:11+0100\n"
 "PO-Revision-Date: 2009-12-08 17:40+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/main-dlg.c:643
+#: ../src/main-dlg.c:650
 msgid "Select an icon theme"
 msgstr "Vyberte tému vzhľadu ikon"
 
-#: ../src/main-dlg.c:650
+#: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (témy ikon)"
 

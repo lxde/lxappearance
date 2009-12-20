@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-19 15:04+0800\n"
+"POT-Creation-Date: 2009-12-20 15:11+0100\n"
 "PO-Revision-Date: 2009-05-25 15:41+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "X-Poedit-Country: HUNGARY\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
-#: ../src/main-dlg.c:643
+#: ../src/main-dlg.c:650
 msgid "Select an icon theme"
 msgstr "Válassz egy ikontémát"
 
-#: ../src/main-dlg.c:650
+#: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Ikontéma)"
 

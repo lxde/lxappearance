@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-19 15:04+0800\n"
+"POT-Creation-Date: 2009-12-20 15:11+0100\n"
 "PO-Revision-Date: 2009-12-08 17:06+0100\n"
 "Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../src/main-dlg.c:643
+#: ../src/main-dlg.c:650
 msgid "Select an icon theme"
 msgstr "Selecione um tema de ícones"
 
-#: ../src/main-dlg.c:650
+#: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Tema de ícones)"
 
