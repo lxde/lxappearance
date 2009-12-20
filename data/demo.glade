@@ -227,6 +227,8 @@
               <object class="GtkIconView" id="icon_view">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="item_width">100</property>
+                <property name="spacing">8</property>
               </object>
             </child>
           </object>

@@ -90,9 +90,6 @@ void show_demo( GdkNativeWindow wid )
 
     gtk_icon_view_set_pixbuf_column( icon_view, 0 );
     gtk_icon_view_set_text_column( icon_view, 1 );
-    gtk_icon_view_set_item_width( icon_view, 64 );
-    gtk_icon_view_set_column_spacing( icon_view, 8 );
-    gtk_icon_view_set_row_spacing( icon_view, 8 );
 
     load_demo_icons();
     load_demo_tree_view( (GtkTreeView*)tree_view );

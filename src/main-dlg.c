@@ -697,11 +697,11 @@ on_remove_theme_clicked                (GtkButton       *button,
 
 }
 
-#if CURSOR_THEME
 void
 on_cursor_size_changed                 (GtkHScale       *cursorsizescale,
                                         gpointer         user_data)
 {
+#if CURSOR_THEME
     cursor_theme_size = gtk_range_get_value( GTK_RANGE(cursorsizescale) );
 
 	if( under_lxsession )
@@ -714,8 +714,8 @@ on_cursor_size_changed                 (GtkHScale       *cursorsizescale,
 		write_rc_file( tmp_rc_file );
 		reload_demo_process();
 	}
-}
 #endif
+}
 
 void
 on_tb_style_changed                    (GtkComboBox     *combobox,
