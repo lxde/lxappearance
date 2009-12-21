@@ -1,0 +1,212 @@
+# Spanish translation of lxappearance
+# Copyright (C) 2008 THE lxappearance'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lxappearance package.
+#
+# Daniel Pacheco <daniel@tunki.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-19 15:04+0800\n"
+"PO-Revision-Date: 2009-12-08 19:54+0100\n"
+"Last-Translator: Hugo Florentino <sysadmin@cips.cu>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.1.0\n"
+"X-Poedit-Language: Spanish\n"
+
+#: ../src/main-dlg.c:643
+msgid "Select an icon theme"
+msgstr "Seleccione un tema de iconos"
+
+#: ../src/main-dlg.c:650
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema de iconos)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "Columna"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "Elemento"
+
+#: ../data/demo.glade.h:1
+msgid "Check Button"
+msgstr "Caja de selección"
+
+#: ../data/demo.glade.h:2
+msgid "Demo"
+msgstr "Demostración"
+
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Botón de selección"
+
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Pestaña1"
+
+#: ../data/demo.glade.h:5
+msgid "Tab2"
+msgstr "Pestaña2"
+
+#: ../data/demo.glade.h:6
+msgid "Tab3"
+msgstr "Pestaña3"
+
+#: ../data/demo.glade.h:7
+msgid "Tab4"
+msgstr "Pestaña4"
+
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Elemento de prueba 1"
+
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Elemento de prueba 2"
+
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Elemento de prueba 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Digite algunos caracteres acá para probar la fuente seleccionada."
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Edición"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Archivo"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "A_yuda"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "botón"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Vista previa</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Configuración de apariencia"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Temas de cursores disponibles"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Temas de iconos disponibles"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Temas de ventana disponibles"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Cursor"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Icono"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Sólo iconos"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "Grande"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Otro"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "Pequeño"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Texto bajo los iconos"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Texto al lado de los iconos"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Sólo texto"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Estilo de barra de herramientas: "
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Ventana"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Fuente:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "_Instalar"
+
+#: ../lxappearance.desktop.in.h:1
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: ../lxappearance.desktop.in.h:2
+msgid "Customize the look of the desktop"
+msgstr "Personalizar la apariencia del escritorio"
+
+#~ msgid "Back"
+#~ msgstr "Atrás"
+
+#~ msgid "Forward"
+#~ msgstr "Adelante"
+
+#~ msgid "Stop"
+#~ msgstr "Detener"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Elemento de prueba 1\n"
+#~ "Elemento de prueba 2\n"
+#~ "Elemento de prueba 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "No se encontro el archivo de imagen: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Sólo iconos\n"
+#~ "Sólo texto\n"
+#~ "Texto debajo de los iconos\n"
+#~ "Texto al lado de los iconos"
