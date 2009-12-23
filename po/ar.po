@@ -8,12 +8,13 @@ msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-20 15:11+0100\n"
-"PO-Revision-Date: 2009-01-26 10:40+0200\n"
-"Last-Translator: Ahmad Farghal <ahmad.farghal@gmail.com>\n"
+"PO-Revision-Date: 2009-12-21 11:16+0100\n"
+"Last-Translator: Ismaeel AL-zahrani <end-of-dream@hotmail.com>\n"
 "Language-Team: Arabic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
@@ -71,13 +72,14 @@ msgstr "عنصر اختباري 2"
 msgid "Test Item 3"
 msgstr "عنصر اختباري 3"
 
+# اﻷحرف هي الترجمة الأفضل لكلمة characters
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr "اكتب بعض المحارف هنا لتختبر الخط المنتقى حاليا."
+msgstr "اكتب بعض اﻷحرف هنا لتختبر الخط المنتقى حاليا."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
-msgstr "ت_حرير"
+msgstr "_تحرير"
 
 #: ../data/demo.glade.h:13
 msgid "_File"
@@ -85,7 +87,7 @@ msgstr "_ملف"
 
 #: ../data/demo.glade.h:14
 msgid "_Help"
-msgstr "م_ساعدة"
+msgstr "_مساعدة"
 
 #: ../data/demo.glade.h:15
 msgid "button"
@@ -114,7 +116,7 @@ msgstr "سمات النوافذ المتوفرة"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "المؤشر"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
@@ -126,7 +128,7 @@ msgstr "أيقونات فقط"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "كبير"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
@@ -134,11 +136,11 @@ msgstr "أخرى"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "حجم"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "صغير"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
@@ -162,7 +164,7 @@ msgstr "النافذة"
 
 #: ../data/lxappearance.glade.h:18
 msgid "_Font:"
-msgstr "ال_خط:"
+msgstr "_الخط:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
