@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: pl_PL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-20 15:11+0100\n"
-"PO-Revision-Date: 2009-02-15 17:39-0000\n"
+"PO-Revision-Date: 2009-12-28 02:50+0100\n"
 "Last-Translator: Artur Kruszewski <mazdac@gmail.com>\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
@@ -104,9 +104,8 @@ msgid "Appearance Settings"
 msgstr "Ustawienia wyglądu"
 
 #: ../data/lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Dostępne Motywy Ikon"
+msgstr "Dostępne motywy kursorów"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
@@ -118,7 +117,7 @@ msgstr "Dostępne Motywy"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Kursor"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
@@ -130,7 +129,7 @@ msgstr "Tylko ikony"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "Duży"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
@@ -138,11 +137,11 @@ msgstr "Inne"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "Rozmiar"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "Mały"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
