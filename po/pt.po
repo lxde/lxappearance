@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-20 15:11+0100\n"
-"PO-Revision-Date: 2009-12-09 11:20+0100\n"
+"PO-Revision-Date: 2009-12-29 16:21+0100\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese PT <alvarommorais@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr "_Fonte:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
-msgstr "_Intalar"
+msgstr "_Instalar"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
