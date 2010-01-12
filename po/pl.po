@@ -8,14 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pl_PL\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-20 15:11+0100\n"
+"POT-Creation-Date: 2010-01-12 01:16+0100\n"
 "PO-Revision-Date: 2009-12-24 19:11+0100\n"
 "Last-Translator: Grzegorz Gibas <amigib@gmail.com>\n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../src/main-dlg.c:650
@@ -180,10 +181,13 @@ msgstr "Dostosuj wygląd pulpitu"
 
 #~ msgid "Back"
 #~ msgstr "Powrót"
+
 #~ msgid "Forward"
 #~ msgstr "Do przodu"
+
 #~ msgid "Stop"
 #~ msgstr "Zatrzymaj"
+
 #~ msgid ""
 #~ "Test Item 1\n"
 #~ "Test Item 2\n"
@@ -192,8 +196,10 @@ msgstr "Dostosuj wygląd pulpitu"
 #~ "Element testowy 1\n"
 #~ "Element testowy 2\n"
 #~ "Element testowy 3"
+
 #~ msgid "Couldn't find pixmap file: %s"
 #~ msgstr "Nie można odnaleźć pliku pixmap: %s"
+
 #~ msgid ""
 #~ "Icons only\n"
 #~ "Text only\n"
@@ -204,4 +210,3 @@ msgstr "Dostosuj wygląd pulpitu"
 #~ "Tylko tekst\n"
 #~ "Tekst pod ikonami\n"
 #~ "Tekst obok ikon"
-

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-08 15:20+0100\n"
+"POT-Creation-Date: 2010-01-12 01:16+0100\n"
 "PO-Revision-Date: 2009-12-08 19:07+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz gmail com>\n"
 "Language-Team: Gnome Estonian Translation Team <gnome-et linux ee>\n"
@@ -16,102 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/main-dlg-ui.c:80
-#: ../lxappearance.glade.h:2
-msgid "Appearance Settings"
-msgstr "Välimuse sätted"
-
-#: ../src/main-dlg-ui.c:99
-#: ../lxappearance.glade.h:5
-msgid "Available Window Themes"
-msgstr "Aknateemad"
-
-#: ../src/main-dlg-ui.c:118
-#: ../lxappearance.glade.h:18
-msgid "_Font:"
-msgstr "_Kiri:"
-
-#: ../src/main-dlg-ui.c:130
-#: ../lxappearance.glade.h:17
-msgid "Window"
-msgstr "Aken"
-
-#: ../src/main-dlg-ui.c:138
-#: ../lxappearance.glade.h:4
-msgid "Available Icon Themes"
-msgstr "Ikooniteemad"
-
-#: ../src/main-dlg-ui.c:174
-#: ../lxappearance.glade.h:19
-msgid "_Install"
-msgstr "_Paigalda"
-
-#: ../src/main-dlg-ui.c:181
-#: ../lxappearance.glade.h:7
-msgid "Icon"
-msgstr "Ikoon"
-
-#: ../src/main-dlg-ui.c:190
-#: ../lxappearance.glade.h:3
-msgid "Available Cursor Themes"
-msgstr "Saadaolevad kursorid"
-
-#: ../src/main-dlg-ui.c:209
-#: ../lxappearance.glade.h:14
-msgid "Size"
-msgstr "Suurus"
-
-#: ../src/main-dlg-ui.c:213
-#: ../lxappearance.glade.h:15
-msgid "Small"
-msgstr "Väike"
-
-#: ../src/main-dlg-ui.c:223
-#: ../lxappearance.glade.h:12
-msgid "Large"
-msgstr "Suur"
-
-#: ../src/main-dlg-ui.c:227
-#: ../lxappearance.glade.h:6
-msgid "Cursor"
-msgstr "Kursor"
-
-#: ../src/main-dlg-ui.c:241
-#: ../lxappearance.glade.h:16
-msgid "Toolbar Style: "
-msgstr "Tööriistariba stiil:"
-
-#: ../src/main-dlg-ui.c:249
-msgid "Icons only"
-msgstr "Ainult ikoonid"
-
-#: ../src/main-dlg-ui.c:250
-msgid "Text only"
-msgstr "Ainult tekst"
-
-#: ../src/main-dlg-ui.c:251
-msgid "Text below icons"
-msgstr "Tekst ikoonide all"
-
-#: ../src/main-dlg-ui.c:252
-msgid "Text beside icons"
-msgstr "Tekst ikoonide kõrval"
-
-#: ../src/main-dlg-ui.c:254
-#: ../lxappearance.glade.h:13
-msgid "Other"
-msgstr "Muu"
-
-#: ../src/main-dlg-ui.c:266
-#: ../lxappearance.glade.h:1
-msgid "<b>Preview</b>"
-msgstr "<b>Eelvaade</b>"
-
-#: ../src/main-dlg.c:635
+#: ../src/main-dlg.c:650
 msgid "Select an icon theme"
 msgstr "Vali ikooniteema"
 
-#: ../src/main-dlg.c:642
+#: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (ikooniteema)"
 
@@ -123,121 +32,141 @@ msgstr "Tulp"
 msgid "Item"
 msgstr "Kirje"
 
-#: ../src/demo-ui.c:116
-#: ../demo.glade.h:16
-msgid "_File"
-msgstr "_Fail"
-
-#: ../src/demo-ui.c:148
-#: ../demo.glade.h:15
-msgid "_Edit"
-msgstr "_Redigeerimine"
-
-#: ../src/demo-ui.c:171
-#: ../demo.glade.h:17
-msgid "_Help"
-msgstr "_Abi"
-
-#: ../src/demo-ui.c:196
-#: ../demo.glade.h:1
-msgid "Back"
-msgstr "Tagasi"
-
-#: ../src/demo-ui.c:202
-#: ../demo.glade.h:4
-msgid "Forward"
-msgstr "Edasi"
-
-#: ../src/demo-ui.c:207
-#: ../demo.glade.h:6
-msgid "Stop"
-msgstr "Peata"
-
-#: ../src/demo-ui.c:224
-#: ../demo.glade.h:7
-msgid "Tab1"
-msgstr "Sakk1"
-
-#: ../src/demo-ui.c:246
-#: ../src/demo-ui.c:252
-#: ../demo.glade.h:5
-msgid "Radio Button"
-msgstr "Raadionupp"
-
-#: ../src/demo-ui.c:262
-#: ../demo.glade.h:2
+#: ../data/demo.glade.h:1
 msgid "Check Button"
 msgstr "Märkekast"
 
-#: ../src/demo-ui.c:271
-#: ../demo.glade.h:3
+#: ../data/demo.glade.h:2
 msgid "Demo"
 msgstr "Demo"
 
-#: ../src/demo-ui.c:316
-#: ../demo.glade.h:18
-msgid "button"
-msgstr "nupp"
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Raadionupp"
 
-#: ../src/demo-ui.c:323
-msgid "Test Item 1"
-msgstr "Testkirje 1"
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Sakk1"
 
-#: ../src/demo-ui.c:324
-msgid "Test Item 2"
-msgstr "Testkirje 2"
-
-#: ../src/demo-ui.c:325
-msgid "Test Item 3"
-msgstr "Testkirje 3"
-
-#: ../src/demo-ui.c:327
-#: ../demo.glade.h:8
+#: ../data/demo.glade.h:5
 msgid "Tab2"
 msgstr "Sakk2"
 
-#: ../src/demo-ui.c:340
-#: ../demo.glade.h:14
-msgid "Type some characters here to test currently selected font."
-msgstr "Siin saab valitud kirjatüüpe proovida."
-
-#: ../src/demo-ui.c:342
-#: ../demo.glade.h:9
+#: ../data/demo.glade.h:6
 msgid "Tab3"
 msgstr "Sakk3"
 
-#: ../src/demo-ui.c:357
-#: ../demo.glade.h:10
+#: ../data/demo.glade.h:7
 msgid "Tab4"
 msgstr "Sakk4"
 
-#: ../demo.glade.h:11
-msgid ""
-"Test Item 1\n"
-"Test Item 2\n"
-"Test Item 3"
-msgstr ""
-"Testkirje 1\n"
-"Testkirje 2\n"
-"Testkirje 3"
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Testkirje 1"
 
-#: ../lxappearance.glade.h:8
-msgid ""
-"Icons only\n"
-"Text only\n"
-"Text below icons\n"
-"Text beside icons"
-msgstr ""
-"Ainult ikoonid\n"
-"Ainult tekst\n"
-"Tekst ikoonide all\n"
-"Tekst ikoonide kõrval"
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Testkirje 2"
 
-#: ../src/glade-support.c:90
-#: ../src/glade-support.c:114
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "Pixmap faili ei suudetud leida: %s"
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Testkirje 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Siin saab valitud kirjatüüpe proovida."
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Redigeerimine"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Fail"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "_Abi"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "nupp"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Eelvaade</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Välimuse sätted"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Saadaolevad kursorid"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Ikooniteemad"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Aknateemad"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Kursor"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Ikoon"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Ainult ikoonid"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "Suur"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Muu"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "Suurus"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "Väike"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Tekst ikoonide all"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Tekst ikoonide kõrval"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Ainult tekst"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Tööriistariba stiil:"
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Aken"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Kiri:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "_Paigalda"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -247,5 +176,34 @@ msgstr "Välimus"
 msgid "Customize the look of the desktop"
 msgstr "Töölaua välimuse kohandamine"
 
+#~ msgid "Back"
+#~ msgstr "Tagasi"
 
- 	  	 
+#~ msgid "Forward"
+#~ msgstr "Edasi"
+
+#~ msgid "Stop"
+#~ msgstr "Peata"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Testkirje 1\n"
+#~ "Testkirje 2\n"
+#~ "Testkirje 3"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Ainult ikoonid\n"
+#~ "Ainult tekst\n"
+#~ "Tekst ikoonide all\n"
+#~ "Tekst ikoonide kõrval"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Pixmap faili ei suudetud leida: %s"
