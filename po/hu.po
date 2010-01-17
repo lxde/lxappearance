@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: 2009-05-25 15:41+0100\n"
+"PO-Revision-Date: 2010-01-17 18:20+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -103,9 +103,8 @@ msgid "Appearance Settings"
 msgstr "Megjelenés beállításai"
 
 #: ../data/lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Elérhető ikon-témák"
+msgstr "Elérhető kurzor-témák"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
@@ -117,7 +116,7 @@ msgstr "Elérhető ablak témák"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Kurzor"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
@@ -129,7 +128,7 @@ msgstr "Csak ikonok"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "Nagy"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
@@ -137,11 +136,11 @@ msgstr "Egyéb"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "Méret"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "Kis"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
@@ -181,13 +180,10 @@ msgstr "Az asztal megjelenésének testreszabása"
 
 #~ msgid "Back"
 #~ msgstr "Vissza"
-
 #~ msgid "Forward"
 #~ msgstr "Előre"
-
 #~ msgid "Stop"
 #~ msgstr "Stop"
-
 #~ msgid ""
 #~ "Test Item 1\n"
 #~ "Test Item 2\n"
@@ -196,10 +192,8 @@ msgstr "Az asztal megjelenésének testreszabása"
 #~ "Teszt elem 1\n"
 #~ "Teszt elem 2\n"
 #~ "Teszt elem 3"
-
 #~ msgid "Couldn't find pixmap file: %s"
 #~ msgstr "E pixel-térkép fájl nem található: %s"
-
 #~ msgid ""
 #~ "Icons only\n"
 #~ "Text only\n"
@@ -210,12 +204,10 @@ msgstr "Az asztal megjelenésének testreszabása"
 #~ "Csak szöveg\n"
 #~ "Szöveg az ikonok alatt\n"
 #~ "Szöveg az ikonok mellett"
-
 #~ msgid "Available Fonts"
 #~ msgstr "Elérhető betűk"
-
 #~ msgid "Font Size:"
 #~ msgstr "Betű-méret:"
-
 #~ msgid "Style:"
 #~ msgstr "Stílus"
+
