@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: pl_PL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: 2009-12-24 19:11+0100\n"
-"Last-Translator: Grzegorz Gibas <amigib@gmail.com>\n"
+"PO-Revision-Date: 2010-01-13 23:29+0200\n"
+"Last-Translator: Artur <mazdac@gmail.com>\n"
 "Language-Team: Polish\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Pootle 2.0.0\n"
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
@@ -157,7 +158,7 @@ msgstr "Tylko tekst"
 
 #: ../data/lxappearance.glade.h:16
 msgid "Toolbar Style: "
-msgstr "Styl paska narzędziowego"
+msgstr "Styl paska narzędziowego: "
 
 #: ../data/lxappearance.glade.h:17
 msgid "Window"
