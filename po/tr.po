@@ -3,74 +3,76 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-01-25 10:02+0200\n"
+"Last-Translator: Kılıç <kilickoken@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.1\n"
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Bir simge teması seçin"
 
 #: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Simge Teması)"
 
 #: ../src/demo.c:56
 msgid "Column"
-msgstr ""
+msgstr "Sütun"
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr ""
+msgstr "Öge"
 
 #: ../data/demo.glade.h:1
 msgid "Check Button"
-msgstr ""
+msgstr "Denetim Düğmesi"
 
 #: ../data/demo.glade.h:2
 msgid "Demo"
-msgstr ""
+msgstr "Tanıtlama"
 
 #: ../data/demo.glade.h:3
 msgid "Radio Button"
-msgstr ""
+msgstr "Radyo Düğmesi"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
-msgstr ""
+msgstr "Sekme1"
 
 #: ../data/demo.glade.h:5
 msgid "Tab2"
-msgstr ""
+msgstr "Sekme2"
 
 #: ../data/demo.glade.h:6
 msgid "Tab3"
-msgstr ""
+msgstr "Sekme3"
 
 #: ../data/demo.glade.h:7
 msgid "Tab4"
-msgstr ""
+msgstr "Sekme4"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
-msgstr ""
+msgstr "Deneme Ögesi 1"
 
 #: ../data/demo.glade.h:9
 msgid "Test Item 2"
-msgstr ""
+msgstr "Deneme Ögesi 2"
 
 #: ../data/demo.glade.h:10
 msgid "Test Item 3"
-msgstr ""
+msgstr "Deneme Ögesi 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
@@ -78,99 +80,99 @@ msgstr ""
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
-msgstr ""
+msgstr "_Düzen"
 
 #: ../data/demo.glade.h:13
 msgid "_File"
-msgstr ""
+msgstr "_Dosya"
 
 #: ../data/demo.glade.h:14
 msgid "_Help"
-msgstr ""
+msgstr "_Yardım"
 
 #: ../data/demo.glade.h:15
 msgid "button"
-msgstr ""
+msgstr "düğme"
 
 #: ../data/lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr ""
+msgstr "<b>Önizleme</b>"
 
 #: ../data/lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr ""
+msgstr "Görünüm Ayarları"
 
 #: ../data/lxappearance.glade.h:3
 msgid "Available Cursor Themes"
-msgstr ""
+msgstr "Kullanılabilir İmleç Temaları"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
-msgstr ""
+msgstr "Kullanılabilir Simge Temaları"
 
 #: ../data/lxappearance.glade.h:5
 msgid "Available Window Themes"
-msgstr ""
+msgstr "Kullanılabilir Pencere Temaları"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "İmleç"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
-msgstr ""
+msgstr "Simge"
 
 #: ../data/lxappearance.glade.h:8
 msgid "Icons only"
-msgstr ""
+msgstr "Yalnız simgeler"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "Geniş"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
-msgstr ""
+msgstr "Diğer"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "Boyut"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "Küçük"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
-msgstr ""
+msgstr "Simgelerin altında yazı"
 
 #: ../data/lxappearance.glade.h:14
 msgid "Text beside icons"
-msgstr ""
+msgstr "Simgelerin yanında yazı"
 
 #: ../data/lxappearance.glade.h:15
 msgid "Text only"
-msgstr ""
+msgstr "Yalnız yazı"
 
 #: ../data/lxappearance.glade.h:16
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Görev Çubuğu Biçemi: "
 
 #: ../data/lxappearance.glade.h:17
 msgid "Window"
-msgstr ""
+msgstr "Pencere"
 
 #: ../data/lxappearance.glade.h:18
 msgid "_Font:"
-msgstr ""
+msgstr "_Yazı Tipi:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
-msgstr ""
+msgstr "_Kur"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
-msgstr ""
+msgstr "Görünüm"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"

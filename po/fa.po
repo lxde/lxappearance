@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-01-25 01:17+0330\n"
+"Last-Translator: Hamidreza Davoodi <hrdavodi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +17,7 @@ msgstr ""
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
-msgstr ""
+msgstr "یک شمایل انتخاب کن"
 
 #: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
@@ -26,152 +25,156 @@ msgstr ""
 
 #: ../src/demo.c:56
 msgid "Column"
-msgstr ""
+msgstr "ستون"
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr ""
+msgstr "آیتم"
 
 #: ../data/demo.glade.h:1
 msgid "Check Button"
-msgstr ""
+msgstr "دکمه ی بررسی"
 
 #: ../data/demo.glade.h:2
 msgid "Demo"
-msgstr ""
+msgstr "حالت نمایشی"
 
 #: ../data/demo.glade.h:3
+#, fuzzy
 msgid "Radio Button"
 msgstr ""
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
-msgstr ""
+msgstr "تب۱"
 
 #: ../data/demo.glade.h:5
 msgid "Tab2"
-msgstr ""
+msgstr "تب۲"
 
 #: ../data/demo.glade.h:6
 msgid "Tab3"
-msgstr ""
+msgstr "تب۳"
 
 #: ../data/demo.glade.h:7
 msgid "Tab4"
-msgstr ""
+msgstr "تب۴"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
-msgstr ""
+msgstr "تست آیتم ۱"
 
 #: ../data/demo.glade.h:9
 msgid "Test Item 2"
-msgstr ""
+msgstr "تست آیتم ۲"
 
 #: ../data/demo.glade.h:10
 msgid "Test Item 3"
-msgstr ""
+msgstr "تست آیتم ۳"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr ""
+msgstr "چند حرف برای امتحان و نمایش قلم انتخاب شده در اینجا بنویس."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
-msgstr ""
+msgstr "ویرایش"
 
 #: ../data/demo.glade.h:13
 msgid "_File"
-msgstr ""
+msgstr "فایل"
 
 #: ../data/demo.glade.h:14
 msgid "_Help"
-msgstr ""
+msgstr "کمک"
 
 #: ../data/demo.glade.h:15
 msgid "button"
-msgstr ""
+msgstr "دکمه"
 
 #: ../data/lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr ""
+msgstr "<b>پیش نمایش</b>"
 
 #: ../data/lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr ""
+msgstr "تنظیمات ظاهری"
 
 #: ../data/lxappearance.glade.h:3
 msgid "Available Cursor Themes"
-msgstr ""
+msgstr "شمایل های دردسترس مکان نما"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
-msgstr ""
+msgstr "شمایل های دردسترس آیکن ها"
 
 #: ../data/lxappearance.glade.h:5
 msgid "Available Window Themes"
-msgstr ""
+msgstr "سیک های موجود پنجره"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "مکان نما"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
-msgstr ""
+msgstr "آیکن"
 
 #: ../data/lxappearance.glade.h:8
 msgid "Icons only"
-msgstr ""
+msgstr "فقط "
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "بزرگ"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
-msgstr ""
+msgstr "دیگر(باقی)"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "اندازه"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "کوچک"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
-msgstr ""
+msgstr "متن در زیر آیکن ها"
 
 #: ../data/lxappearance.glade.h:14
 msgid "Text beside icons"
-msgstr ""
+msgstr "متن درکنار آیکن ها"
 
 #: ../data/lxappearance.glade.h:15
 msgid "Text only"
-msgstr ""
+msgstr "فقط متن"
 
 #: ../data/lxappearance.glade.h:16
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "شکل نوارابزار:"
 
 #: ../data/lxappearance.glade.h:17
 msgid "Window"
-msgstr ""
+msgstr "پنجره:"
 
 #: ../data/lxappearance.glade.h:18
+#, fuzzy
 msgid "_Font:"
-msgstr ""
+msgstr "قلم:"
 
 #: ../data/lxappearance.glade.h:19
+#, fuzzy
 msgid "_Install"
-msgstr ""
+msgstr "نصب:"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
-msgstr ""
+msgstr "سیما و منظر"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr ""
+msgstr "شخصی سازی محیط دسکتاپ"
+
