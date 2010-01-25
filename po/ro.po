@@ -1,179 +1,174 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: LXDE\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: 2010-01-25 11:48+0200\n"
-"Last-Translator: Ali <aysabzevar@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: fa\n"
+"PO-Revision-Date: 2010-01-24 11:10-0800\n"
+"Last-Translator: alexxed <alexxed@gmail.com>\n"
+"Language-Team: Romanian <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.1\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Narro 0.9.4 on http://tradu.softwareliber.ro\n"
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
-msgstr "یک شمایل انتخاب کن"
+msgstr "Selectați o temă pentru iconițe"
 
 #: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (شمایل زمینه)"
+msgstr "*.tar.gz, *.tar.bz2 (temă de iconițe)"
 
 #: ../src/demo.c:56
 msgid "Column"
-msgstr "ستون"
+msgstr "Coloană"
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr "آیتم"
+msgstr "Element"
 
 #: ../data/demo.glade.h:1
 msgid "Check Button"
-msgstr "دکمه ی بررسی"
+msgstr "Bifă"
 
 #: ../data/demo.glade.h:2
 msgid "Demo"
-msgstr "حالت نمایشی"
+msgstr "Demo"
 
 #: ../data/demo.glade.h:3
 msgid "Radio Button"
-msgstr "کلید رادیویی"
+msgstr "Buton radio"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
-msgstr "تب۱"
+msgstr "Fila1"
 
 #: ../data/demo.glade.h:5
 msgid "Tab2"
-msgstr "تب۲"
+msgstr "Fila2"
 
 #: ../data/demo.glade.h:6
 msgid "Tab3"
-msgstr "تب۳"
+msgstr "Fila3"
 
 #: ../data/demo.glade.h:7
 msgid "Tab4"
-msgstr "تب۴"
+msgstr "Fila4"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
-msgstr "تست آیتم ۱"
+msgstr "Element de testare 1"
 
 #: ../data/demo.glade.h:9
 msgid "Test Item 2"
-msgstr "تست آیتم ۲"
+msgstr "Element de testare 2"
 
 #: ../data/demo.glade.h:10
 msgid "Test Item 3"
-msgstr "تست آیتم ۳"
+msgstr "Element de testare 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr "چند حرف برای امتحان و نمایش قلم انتخاب شده در اینجا بنویس."
+msgstr "Tastați aici niște caractere pentru a testa fontul selectat."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
-msgstr "ویرایش"
+msgstr "_Editare"
 
 #: ../data/demo.glade.h:13
 msgid "_File"
-msgstr "فایل"
+msgstr "_Fișier"
 
 #: ../data/demo.glade.h:14
 msgid "_Help"
-msgstr "کمک"
+msgstr "_Ajutor"
 
 #: ../data/demo.glade.h:15
 msgid "button"
-msgstr "دکمه"
+msgstr "buton"
 
 #: ../data/lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr "<b>پیش نمایش</b>"
+msgstr "<b>Previzualizare</b>"
 
 #: ../data/lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr "تنظیمات ظاهری"
+msgstr "Setări de aspect"
 
 #: ../data/lxappearance.glade.h:3
 msgid "Available Cursor Themes"
-msgstr "شمایل های دردسترس مکان نما"
+msgstr "Teme de cursor disponibile"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
-msgstr "شمایل های دردسترس آیکن ها"
+msgstr "Teme de iconițe disponibile"
 
 #: ../data/lxappearance.glade.h:5
 msgid "Available Window Themes"
-msgstr "سیک های موجود پنجره"
+msgstr "Teme de ferestre disponibile"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr "مکان نما"
+msgstr "Cursor"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
-msgstr "آیکن"
+msgstr "Iconiță"
 
 #: ../data/lxappearance.glade.h:8
 msgid "Icons only"
-msgstr "فقط "
+msgstr "Doar iconițe"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr "بزرگ"
+msgstr "Mare"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
-msgstr "دیگر(باقی)"
+msgstr "Altele"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr "اندازه"
+msgstr "Mărime"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr "کوچک"
+msgstr "Mică"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
-msgstr "متن در زیر آیکن ها"
+msgstr "Text sub iconițe"
 
 #: ../data/lxappearance.glade.h:14
 msgid "Text beside icons"
-msgstr "متن درکنار آیکن ها"
+msgstr "Text lângă iconițe"
 
 #: ../data/lxappearance.glade.h:15
 msgid "Text only"
-msgstr "فقط متن"
+msgstr "Doar text"
 
 #: ../data/lxappearance.glade.h:16
 msgid "Toolbar Style: "
-msgstr "شکل نوارابزار:"
+msgstr "Stilul barei de unelte: "
 
 #: ../data/lxappearance.glade.h:17
 msgid "Window"
-msgstr "پنجره:"
+msgstr "Fereastră"
 
 #: ../data/lxappearance.glade.h:18
 msgid "_Font:"
-msgstr "ـقلم:"
+msgstr "_Font:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
-msgstr "ـ نصب:"
+msgstr "_Instalează"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
-msgstr "سیما و منظر"
+msgstr "Aspect"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr "شخصی سازی محیط دسکتاپ"
+msgstr "Personalizează aspectul spațiului de lucru"
