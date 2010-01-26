@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: 2010-01-25 10:06+0200\n"
+"PO-Revision-Date: 2010-01-26 04:46+0200\n"
 "Last-Translator: Kılıç <kilickoken@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -64,19 +64,19 @@ msgstr "Sekme4"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
-msgstr "Deneme Ögesi 1"
+msgstr "Sınama Ögesi 1"
 
 #: ../data/demo.glade.h:9
 msgid "Test Item 2"
-msgstr "Deneme Ögesi 2"
+msgstr "Sınama Ögesi 2"
 
 #: ../data/demo.glade.h:10
 msgid "Test Item 3"
-msgstr "Deneme Ögesi 3"
+msgstr "Sınama Ögesi 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr ""
+msgstr "Seçilen yazıtipini sınamak için buraya birkaç birem yazın."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
