@@ -1,22 +1,20 @@
 # Hungarian translation of lxappearance.
-# Copyright (C) 2006 the lxde team
+# Copyright (C) 2006-2010 The LXDE Team
 # This file is distributed under the same license as the lxappearance package.
-# SZERVÁC Attila <sas@321>, 2006-2008.
+# Attila Szervac <sas@321.hu>, 2006-2010.
+# Laszlo Dvornik <dvornik@gnome.hu>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: lxappearance 0.1\n"
+"Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: 2010-01-17 18:20+0100\n"
-"Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
-"Language-Team: Hungarian <debian-l10n-hungarian@lists.debian.org>\n"
+"PO-Revision-Date: 2010-01-27 16:38+0100\n"
+"Last-Translator: Laszlo Dvornik <dvornik@gnome.hu>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Hungarian\n"
-"X-Poedit-Country: HUNGARY\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
@@ -24,7 +22,7 @@ msgstr "Válassz egy ikontémát"
 
 #: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Ikontéma)"
+msgstr "*.tar.gz, *.tar.bz2 (ikontéma)"
 
 #: ../src/demo.c:56
 msgid "Column"
@@ -36,7 +34,7 @@ msgstr "Elem"
 
 #: ../data/demo.glade.h:1
 msgid "Check Button"
-msgstr "Kijelölő gomb"
+msgstr "Jelölőnégyzet"
 
 #: ../data/demo.glade.h:2
 msgid "Demo"
@@ -44,43 +42,43 @@ msgstr "Demó"
 
 #: ../data/demo.glade.h:3
 msgid "Radio Button"
-msgstr "Rádió gomb"
+msgstr "Választógomb"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
-msgstr "Lap1"
+msgstr "1. lap"
 
 #: ../data/demo.glade.h:5
 msgid "Tab2"
-msgstr "Lap2"
+msgstr "2. lap"
 
 #: ../data/demo.glade.h:6
 msgid "Tab3"
-msgstr "Lap3"
+msgstr "3. lap"
 
 #: ../data/demo.glade.h:7
 msgid "Tab4"
-msgstr "Lap4"
+msgstr "4. lap"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
-msgstr "Teszt elem 1"
+msgstr "1. teszt elem"
 
 #: ../data/demo.glade.h:9
 msgid "Test Item 2"
-msgstr "Teszt elem 2"
+msgstr "2. teszt elem"
 
 #: ../data/demo.glade.h:10
 msgid "Test Item 3"
-msgstr "Teszt elem 3"
+msgstr "3. teszt elem"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr "Gépelj pár betűt a most kijelölt betű kipróbálásához"
+msgstr "Írj be néhány karaktert a most kijelölt betűkészlet kipróbálásához."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
-msgstr "Sz_erkesztés"
+msgstr "S_zerkesztés"
 
 #: ../data/demo.glade.h:13
 msgid "_File"
@@ -104,15 +102,15 @@ msgstr "Megjelenés beállításai"
 
 #: ../data/lxappearance.glade.h:3
 msgid "Available Cursor Themes"
-msgstr "Elérhető kurzor-témák"
+msgstr "Elérhető kurzortémák"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
-msgstr "Elérhető ikon-témák"
+msgstr "Elérhető ikontémák"
 
 #: ../data/lxappearance.glade.h:5
 msgid "Available Window Themes"
-msgstr "Elérhető ablak témák"
+msgstr "Elérhető ablaktémák"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
@@ -140,7 +138,7 @@ msgstr "Méret"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr "Kis"
+msgstr "Kicsi"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
@@ -156,7 +154,7 @@ msgstr "Csak szöveg"
 
 #: ../data/lxappearance.glade.h:16
 msgid "Toolbar Style: "
-msgstr "Eszköztárstílus:"
+msgstr "Eszköztár stílusa: "
 
 #: ../data/lxappearance.glade.h:17
 msgid "Window"
@@ -164,11 +162,11 @@ msgstr "Ablak"
 
 #: ../data/lxappearance.glade.h:18
 msgid "_Font:"
-msgstr "Betű:"
+msgstr "_Betűkészlet:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
-msgstr "Telepít"
+msgstr "_Telepítés"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -176,38 +174,4 @@ msgstr "Megjelenés"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr "Az asztal megjelenésének testreszabása"
-
-#~ msgid "Back"
-#~ msgstr "Vissza"
-#~ msgid "Forward"
-#~ msgstr "Előre"
-#~ msgid "Stop"
-#~ msgstr "Stop"
-#~ msgid ""
-#~ "Test Item 1\n"
-#~ "Test Item 2\n"
-#~ "Test Item 3"
-#~ msgstr ""
-#~ "Teszt elem 1\n"
-#~ "Teszt elem 2\n"
-#~ "Teszt elem 3"
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "E pixel-térkép fájl nem található: %s"
-#~ msgid ""
-#~ "Icons only\n"
-#~ "Text only\n"
-#~ "Text below icons\n"
-#~ "Text beside icons"
-#~ msgstr ""
-#~ "Csak ikonok\n"
-#~ "Csak szöveg\n"
-#~ "Szöveg az ikonok alatt\n"
-#~ "Szöveg az ikonok mellett"
-#~ msgid "Available Fonts"
-#~ msgstr "Elérhető betűk"
-#~ msgid "Font Size:"
-#~ msgstr "Betű-méret:"
-#~ msgid "Style:"
-#~ msgstr "Stílus"
-
+msgstr "A munkaasztal megjelenésének testreszabása"
