@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+
+# Sankarshan <sankarshan.mukhopadhyay@gmail.com>, 2009.
+# Sadia Afroz <sadia@ankur.org.bd>, 2010. 
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-12 01:16+0100\n"
+"PO-Revision-Date: 2010-01-31 15:54+0600\n"
+"Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
+"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
+
+#: ../src/main-dlg.c:650
+msgid "Select an icon theme"
+msgstr "একটি আইকন থিম নির্বাচন করুন"
+
+#: ../src/main-dlg.c:657
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (আইকন থিম)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "কলাম"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "আইটেম"
+
+#: ../data/demo.glade.h:1
+msgid "Check Button"
+msgstr "পরীক্ষা বোতাম"
+
+#: ../data/demo.glade.h:2
+msgid "Demo"
+msgstr "নমুনা"
+
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "রেডিও বোতাম"
+
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "ট্যাব১"
+
+#: ../data/demo.glade.h:5
+msgid "Tab2"
+msgstr "ট্যাব২"
+
+#: ../data/demo.glade.h:6
+msgid "Tab3"
+msgstr "ট্যাব৩"
+
+#: ../data/demo.glade.h:7
+msgid "Tab4"
+msgstr "ট্যাব৪"
+
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "পরীক্ষামূলক আইটেম ১"
+
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "পরীক্ষামূলক আইটেম ২"
+
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "পরীক্ষামূলক আইটেম ৩"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr ""
+"বর্তমানে কোন ফন্ট নির্বাচিত রয়েছে জানার জন্য এখানে কিছু অক্ষর টাইপ করুন।"
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "সম্পাদনা (_E)"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "ফাইল (_F)"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "সহায়তা (_H)"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "বোতাম"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>প্রাকদর্শন</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "অবয়ব সেটিংসমূহ"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "বিদ্যমান কার্সার থিম"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "বিদ্যমান আইকন থিম"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "বিদ্যমান উইন্ডো থিম"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "কার্সার"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "আইকন"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "শুধুমাত্র আইকন"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "বড়"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "আকার"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "ছোট"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "আইকনের নীচে টেক্সট"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "আইকনের পাশে টেক্সট"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "শুধুমাত্র টেক্সট"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "টুলবারের শৈলী:"
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "উইন্ডো"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "ফন্ট: (_F)"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "ইনস্টল (_I)"
+
+#: ../lxappearance.desktop.in.h:1
+msgid "Appearance"
+msgstr "অবয়ব"
+
+#: ../lxappearance.desktop.in.h:2
+msgid "Customize the look of the desktop"
+msgstr "ডেস্কটপের চেহারা পছন্দ অনুসারে নির্ধারণ করুন"
+
+#~ msgid "Back"
+#~ msgstr "পূর্ববর্তী"
+
+#~ msgid "Forward"
+#~ msgstr "ফরওয়ার্ড"
+
+#~ msgid "Stop"
+#~ msgstr "বন্ধ করা হবে"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "পিক্সম্যাপ ফাইল: %s খুজেঁ পাওয়া যায়নি"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "শুধুমাত্র আইকন\n"
+#~ "শুধুমাত্র টেক্সট\n"
+#~ "আইকনের নীচে টেক্সট\n"
+#~ "আইকনের পাশে টেক্সট"
