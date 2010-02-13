@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: lxappearance 0.2.0\n"
+"Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: 2009-12-29 16:21+0100\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"POT-Creation-Date: 2010-02-13 04:07+0000\n"
+"PO-Revision-Date: 2010-02-13 19:26-0000\n"
+"Last-Translator: Sergio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese PT <alvarommorais@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
-msgstr "Seleccione um tema de ícones"
+msgstr "Seleccione um tema"
 
 #: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
@@ -77,8 +77,7 @@ msgstr "Item de Teste 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr ""
-"Escreva alguns caracteres para testar a fonte actualmente seleccionada."
+msgstr "Escreva alguns caracteres para testar a letra actualmente seleccionada."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
@@ -166,7 +165,7 @@ msgstr "Janela"
 
 #: ../data/lxappearance.glade.h:18
 msgid "_Font:"
-msgstr "_Fonte:"
+msgstr "_Letra:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
@@ -182,13 +181,10 @@ msgstr "Personalizar a aparência do ambiente de trabalho"
 
 #~ msgid "Back"
 #~ msgstr "Voltar"
-
 #~ msgid "Forward"
 #~ msgstr "Avançar"
-
 #~ msgid "Stop"
 #~ msgstr "Parar"
-
 #~ msgid ""
 #~ "Test Item 1\n"
 #~ "Test Item 2\n"
@@ -197,10 +193,8 @@ msgstr "Personalizar a aparência do ambiente de trabalho"
 #~ "Item de Teste 1\n"
 #~ "Item de Teste 2\n"
 #~ "Item de Teste 3"
-
 #~ msgid "Couldn't find pixmap file: %s"
 #~ msgstr "Não foi possível encontrar: %s"
-
 #~ msgid ""
 #~ "Icons only\n"
 #~ "Text only\n"
@@ -211,3 +205,4 @@ msgstr "Personalizar a aparência do ambiente de trabalho"
 #~ "Apenas texto\n"
 #~ "Texto em baixo dos ícones\n"
 #~ "Texto ao lado dos ícones"
+
