@@ -3,20 +3,19 @@
 # Copyright (C) 2009 THE LXAppearance'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the LXAppearance package.
 # Vitaly Pashkov <admin@fluda.net>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:16+0100\n"
+"POT-Creation-Date: 2010-03-18 04:08+0000\n"
 "PO-Revision-Date: 2009-02-10 22:25+0300\n"
 "Last-Translator: Vitaly Pashkov <admin@fluda.net>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
@@ -105,9 +104,8 @@ msgid "Appearance Settings"
 msgstr "Настройки внешнего вида"
 
 #: ../data/lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Доступные темы значков"
+msgstr "Доступные темы курсора"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
@@ -119,7 +117,7 @@ msgstr "Доступные темы окон"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Курсор"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
@@ -131,7 +129,7 @@ msgstr "Только значки"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "Большой"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
@@ -139,11 +137,11 @@ msgstr "Другие"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "Маленький"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
