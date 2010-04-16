@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:16+0100\n"
+"POT-Creation-Date: 2010-04-16 04:10+0000\n"
 "PO-Revision-Date: 2009-12-08 20:25+0100\n"
 "Last-Translator: Julius Vitkauskas <zadintuvas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,23 +42,23 @@ msgstr "Demonstracija"
 
 #: ../data/demo.glade.h:3
 msgid "Radio Button"
-msgstr "Radio mygtukas"
+msgstr "Radijo mygtukas"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
-msgstr "Kortelė1"
+msgstr "Kortelė 1"
 
 #: ../data/demo.glade.h:5
 msgid "Tab2"
-msgstr "Kortelė2"
+msgstr "Kortelė 2"
 
 #: ../data/demo.glade.h:6
 msgid "Tab3"
-msgstr "Kortelė3"
+msgstr "Kortelė 3"
 
 #: ../data/demo.glade.h:7
 msgid "Tab4"
-msgstr "Kortelė4"
+msgstr "Kortelė 4"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
