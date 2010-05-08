@@ -1,0 +1,208 @@
+# Asturian translation of lxappearance
+# Copyright (C) 2008 THE lxappearance'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lxappearance package.
+#
+# Iñigo Varela <ivarela@softastur.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-08 04:10+0000\n"
+"PO-Revision-Date: 2010-05-08 16:02+0100\n"
+"Last-Translator: astur <malditoastur@gmail.com>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.1.0\n"
+"X-Poedit-Language: asturian\n"
+
+#: ../src/main-dlg.c:650
+msgid "Select an icon theme"
+msgstr "Esbilla un tema d'iconos"
+
+#: ../src/main-dlg.c:657
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema d'iconos)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "Columna"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "Elementu"
+
+#: ../data/demo.glade.h:1
+msgid "Check Button"
+msgstr "Caxellu de marcáu"
+
+#: ../data/demo.glade.h:2
+msgid "Demo"
+msgstr "Demostración"
+
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Botón d'escoyeta"
+
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "Llingüeta1"
+
+#: ../data/demo.glade.h:5
+msgid "Tab2"
+msgstr "Llingüeta2"
+
+#: ../data/demo.glade.h:6
+msgid "Tab3"
+msgstr "Llingüeta3"
+
+#: ../data/demo.glade.h:7
+msgid "Tab4"
+msgstr "Llingüeta4"
+
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Elementu de prueba 1"
+
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Elementu de prueba 2"
+
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Elementu de prueba 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Escribí equí dalgunos carauteres pa prebar la fonte esbillada"
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Ficheru"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "A_ida"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "botón"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Vista previa</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Configuración d'aspeutu"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Temes de cursores disponibles"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Temes d'iconos disponibles"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Temes de ventana disponibles"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Cursor"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Iconu"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Namái iconos"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "Grande"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Otru"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "Tamañu"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "Pequeñu"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Testu baxo los iconos"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Testu al delláu de los iconos"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Namái testu"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Estilu de barra de ferramientes: "
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Ventana"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Fonte:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "_Instalar"
+
+#: ../lxappearance.desktop.in.h:1
+msgid "Appearance"
+msgstr "Aspeutu"
+
+#: ../lxappearance.desktop.in.h:2
+msgid "Customize the look of the desktop"
+msgstr "Personalizar l'aspeutu del escritoriu"
+
+#~ msgid "Back"
+#~ msgstr "Atrás"
+#~ msgid "Forward"
+#~ msgstr "Alantre"
+#~ msgid "Stop"
+#~ msgstr "Detener"
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Elementu de prueba 1\n"
+#~ "Elementu de prueba 2\n"
+#~ "Elementu de prueba 3"
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Nun s'alcontró'l ficheru d'imaxe: %s"
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Namái iconos\n"
+#~ "Namái testu\n"
+#~ "Testu debaxo de los iconos\n"
+#~ "Testu al delláu de los iconos"
+
