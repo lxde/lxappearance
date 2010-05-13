@@ -25,7 +25,7 @@ msgstr "Wybierz motyw ikon"
 
 #: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Motyw Ikon)"
+msgstr "*.tar.gz, *.tar.bz2 (Motyw ikon)"
 
 #: ../src/demo.c:56
 msgid "Column"
@@ -45,7 +45,7 @@ msgstr "Demo"
 
 #: ../data/demo.glade.h:3
 msgid "Radio Button"
-msgstr "Przycisk Radio"
+msgstr "Przycisk"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
