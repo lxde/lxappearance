@@ -65,19 +65,19 @@ msgstr "Karta4"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
-msgstr "Testowa pozycja 1"
+msgstr "Pozycja testowa 1"
 
 #: ../data/demo.glade.h:9
 msgid "Test Item 2"
-msgstr "Testowa pozycja 2"
+msgstr "Pozycja testowa 2"
 
 #: ../data/demo.glade.h:10
 msgid "Test Item 3"
-msgstr "Testowa pozycja 3"
+msgstr "Pozycja testowa 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr "Napisz coś tutaj, żeby przetestować wybraną czcionkę."
+msgstr "Wpisz tutaj dowolne znaki, aby przetestować wybraną czcionkę."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
