@@ -45,7 +45,7 @@ msgstr "Demo"
 
 #: ../data/demo.glade.h:3
 msgid "Radio Button"
-msgstr "Przycisk"
+msgstr "Przycisk wyboru"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
