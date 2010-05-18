@@ -2,12 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance_hr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:16+0100\n"
+"POT-Creation-Date: 2010-05-18 04:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Boljsa <asjlob AT vip.hr>\n"
 "Language-Team:  <asjlob AT vip.hr>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-Country: CROATIA\n"
@@ -42,19 +42,19 @@ msgstr "Dugme Radio"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
-msgstr "Tab1"
+msgstr "Kartica1"
 
 #: ../data/demo.glade.h:5
 msgid "Tab2"
-msgstr "Tab2"
+msgstr "Kartica2"
 
 #: ../data/demo.glade.h:6
 msgid "Tab3"
-msgstr "Tab3"
+msgstr "Kartica3"
 
 #: ../data/demo.glade.h:7
 msgid "Tab4"
-msgstr "Tab4"
+msgstr "Kartica4"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
@@ -71,11 +71,11 @@ msgstr "Testna Stavka 3"
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
 msgstr ""
-"Upiπite nekoliko znakova ovdje kako bi testirali trenutno izabrani font."
+"Upi≈°ite nekoliko znakova ovdje kako bi testirali trenutno izabrani font."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
-msgstr "_Ureivanje"
+msgstr "_Uredi"
 
 #: ../data/demo.glade.h:13
 msgid "_File"
@@ -83,7 +83,7 @@ msgstr "_Datoteka"
 
 #: ../data/demo.glade.h:14
 msgid "_Help"
-msgstr "_PomoÊ"
+msgstr "_Pomoƒá"
 
 #: ../data/demo.glade.h:15
 msgid "button"
@@ -100,7 +100,7 @@ msgstr "Postavke Izgleda"
 #: ../data/lxappearance.glade.h:3
 #, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Dostupne Teme Ikona"
+msgstr "Dostupne Teme Pokazivaƒça"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
@@ -112,7 +112,7 @@ msgstr "Dostupne Teme Prozora"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Pokazivaƒç"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
@@ -124,7 +124,7 @@ msgstr "Samo ikone"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "Veliki"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
@@ -132,11 +132,11 @@ msgstr "Ostalo"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "Veliƒçina"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "Mali"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
@@ -169,11 +169,11 @@ msgstr "_Instaliraj"
 #: ../lxappearance.desktop.in.h:1
 #, fuzzy
 msgid "Appearance"
-msgstr "Postavke Izgleda"
+msgstr "Izgled"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr ""
+msgstr "Prilagodi izgled radne povr≈°ine"
 
 #~ msgid "Back"
 #~ msgstr "Natrag"
@@ -194,7 +194,7 @@ msgstr ""
 #~ "Testna Stavka 3"
 
 #~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "Ne mogu pronaÊi pixmap datoteku: %s"
+#~ msgstr "Ne mogu pronaƒái pixmap datoteku: %s"
 
 #~ msgid ""
 #~ "Icons only\n"
