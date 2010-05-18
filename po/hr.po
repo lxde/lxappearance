@@ -1,3 +1,4 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance_hr\n"
@@ -5,7 +6,7 @@ msgstr ""
 "POT-Creation-Date: 2010-05-18 04:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Boljsa <asjlob AT vip.hr>\n"
-"Language-Team:  <asjlob AT vip.hr>\n"
+"Language-Team: <asjlob AT vip.hr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -70,8 +71,7 @@ msgstr "Testna Stavka 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr ""
-"Upišite nekoliko znakova ovdje kako bi testirali trenutno izabrani font."
+msgstr "Upišite nekoliko znakova ovdje kako bi testirali trenutno izabrani font."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
@@ -98,9 +98,8 @@ msgid "Appearance Settings"
 msgstr "Postavke Izgleda"
 
 #: ../data/lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Dostupne Teme Pokazivača"
+msgstr "Dostupne TemePokazivača"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
@@ -167,13 +166,12 @@ msgid "_Install"
 msgstr "_Instaliraj"
 
 #: ../lxappearance.desktop.in.h:1
-#, fuzzy
 msgid "Appearance"
 msgstr "Izgled"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr "Prilagodi izgled radne površine"
+msgstr "Prilagodite izgled radne površine"
 
 #~ msgid "Back"
 #~ msgstr "Natrag"
