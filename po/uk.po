@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:16+0100\n"
+"POT-Creation-Date: 2010-05-31 04:47+0000\n"
 "PO-Revision-Date: 2009-12-08 15:45+0100\n"
 "Last-Translator: Y P <yupadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr "Тестовий пункт 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr "Надрукуйте тут якісь букви для перевірки щойно вибраного шрифта"
+msgstr "Надрукуйте тут якісь букви для перевірки щойно вибраного шрифту"
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
@@ -94,11 +94,11 @@ msgstr "клавіша"
 
 #: ../data/lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr "<b>Переглянути</b>"
+msgstr "<b>Перегляд</b>"
 
 #: ../data/lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr "Настройка вигляду"
+msgstr "Налаштування вигляду"
 
 #: ../data/lxappearance.glade.h:3
 msgid "Available Cursor Themes"
@@ -162,11 +162,11 @@ msgstr "Вікно"
 
 #: ../data/lxappearance.glade.h:18
 msgid "_Font:"
-msgstr "_Фонт:"
+msgstr "_Шрифт:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
-msgstr "_Інсталювати"
+msgstr "_Встановити"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
