@@ -1,0 +1,210 @@
+# Serbian translation for LXAppearance package
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the LXAppearance package.
+# Jay A. Fleming <tito.nehru.naser@gmail.com>, 2009.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: LXAppearance 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-25 04:46+0000\n"
+"PO-Revision-Date: 2009-09-02 12:40+0100\n"
+"Last-Translator: Jay A. Fleming <tito.nehru.naser@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../src/main-dlg.c:650
+msgid "Select an icon theme"
+msgstr "Izaberite paket sa temom ikona"
+
+#: ../src/main-dlg.c:657
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (tema ikona)"
+
+#: ../src/demo.c:56
+msgid "Column"
+msgstr "Kolona"
+
+#: ../src/demo.c:65
+msgid "Item"
+msgstr "Stavka"
+
+#: ../data/demo.glade.h:1
+msgid "Check Button"
+msgstr "Dugme za potvrdu"
+
+#: ../data/demo.glade.h:2
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/demo.glade.h:3
+msgid "Radio Button"
+msgstr "Radio dugme"
+
+#: ../data/demo.glade.h:4
+msgid "Tab1"
+msgstr "List-1"
+
+#: ../data/demo.glade.h:5
+msgid "Tab2"
+msgstr "List-2"
+
+#: ../data/demo.glade.h:6
+msgid "Tab3"
+msgstr "List-3"
+
+#: ../data/demo.glade.h:7
+msgid "Tab4"
+msgstr "List-4"
+
+#: ../data/demo.glade.h:8
+msgid "Test Item 1"
+msgstr "Test — Stavka 1"
+
+#: ../data/demo.glade.h:9
+msgid "Test Item 2"
+msgstr "Test — Stavka 2"
+
+#: ../data/demo.glade.h:10
+msgid "Test Item 3"
+msgstr "Test — Stavka 3"
+
+#: ../data/demo.glade.h:11
+msgid "Type some characters here to test currently selected font."
+msgstr "Unesite nekoliko karaktera za proveru odabranog fonta."
+
+#: ../data/demo.glade.h:12
+msgid "_Edit"
+msgstr "_Uredi"
+
+#: ../data/demo.glade.h:13
+msgid "_File"
+msgstr "_Datoteka"
+
+#: ../data/demo.glade.h:14
+msgid "_Help"
+msgstr "_Pomoć"
+
+#: ../data/demo.glade.h:15
+msgid "button"
+msgstr "dugme"
+
+#: ../data/lxappearance.glade.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Pregled</b>"
+
+#: ../data/lxappearance.glade.h:2
+msgid "Appearance Settings"
+msgstr "Podešavanja izgleda"
+
+#: ../data/lxappearance.glade.h:3
+msgid "Available Cursor Themes"
+msgstr "Raspoložive teme za pokazivač"
+
+#: ../data/lxappearance.glade.h:4
+msgid "Available Icon Themes"
+msgstr "Dostupne teme ikona"
+
+#: ../data/lxappearance.glade.h:5
+msgid "Available Window Themes"
+msgstr "Dostupne teme prozora"
+
+#: ../data/lxappearance.glade.h:6
+msgid "Cursor"
+msgstr "Pokazivač"
+
+#: ../data/lxappearance.glade.h:7
+msgid "Icon"
+msgstr "Ikona"
+
+#: ../data/lxappearance.glade.h:8
+msgid "Icons only"
+msgstr "Samo ikone"
+
+#: ../data/lxappearance.glade.h:9
+msgid "Large"
+msgstr "Veliki"
+
+#: ../data/lxappearance.glade.h:10
+msgid "Other"
+msgstr "Ostalo"
+
+#: ../data/lxappearance.glade.h:11
+msgid "Size"
+msgstr "Veličina"
+
+#: ../data/lxappearance.glade.h:12
+msgid "Small"
+msgstr "Mali"
+
+#: ../data/lxappearance.glade.h:13
+msgid "Text below icons"
+msgstr "Tekst ispod ikona"
+
+#: ../data/lxappearance.glade.h:14
+msgid "Text beside icons"
+msgstr "Tekst pored ikona"
+
+#: ../data/lxappearance.glade.h:15
+msgid "Text only"
+msgstr "Samo tekst"
+
+#: ../data/lxappearance.glade.h:16
+msgid "Toolbar Style: "
+msgstr "Izgled trake sa alatima"
+
+#: ../data/lxappearance.glade.h:17
+msgid "Window"
+msgstr "Prozor"
+
+#: ../data/lxappearance.glade.h:18
+msgid "_Font:"
+msgstr "_Font:"
+
+#: ../data/lxappearance.glade.h:19
+msgid "_Install"
+msgstr "_Instaliraj"
+
+#: ../lxappearance.desktop.in.h:1
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ../lxappearance.desktop.in.h:2
+msgid "Customize the look of the desktop"
+msgstr "Prilagodite izgled radne površi"
+
+#~ msgid "Back"
+#~ msgstr "Nazad"
+
+#~ msgid "Forward"
+#~ msgstr "Napred"
+
+#~ msgid "Stop"
+#~ msgstr "Zaustavi"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Test — Stavka 1\n"
+#~ "Test — Stavka 2\n"
+#~ "Test — Stavka 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Ne mogu naći bitmapiranu datoteku: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Samo ikone\n"
+#~ "Samo tekst\n"
+#~ "Tekst ispod ikona\n"
+#~ "Tekst pored ikona"
