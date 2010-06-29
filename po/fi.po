@@ -2,12 +2,12 @@
 # Copyright (C) 2008
 # This file is distributed under the same license as the PACKAGE package.
 # Elias Julkunen <elias.julkunen@gmail.com>, 2008.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:16+0100\n"
+"POT-Creation-Date: 2010-06-29 05:32+0000\n"
 "PO-Revision-Date: 2008-04-30 21:12+0200\n"
 "Last-Translator: Elias Julkunen <elias.julkunen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,9 +100,8 @@ msgid "Appearance Settings"
 msgstr "Ulkoasun asetukset"
 
 #: ../data/lxappearance.glade.h:3
-#, fuzzy
 msgid "Available Cursor Themes"
-msgstr "Käytettävissä olevat kuvaketeemat"
+msgstr "Käytettävissä olevat osoitinteemat"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
@@ -114,7 +113,7 @@ msgstr "Käytettävissä olevat ikkunateemat"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Osoitin"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
@@ -126,7 +125,7 @@ msgstr "Vain kuvakkeet"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "Iso"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
@@ -134,11 +133,11 @@ msgstr "Muu"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "Pieni"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
