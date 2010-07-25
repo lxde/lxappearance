@@ -1,0 +1,5 @@
+# List of source files containing translatable strings.
+
+data/template.desktop.in
+data/ui/about.glade.in
+src/template.c

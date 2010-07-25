@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+_Name=LXAppearance
+_GenericName=LXAppearance
+_Comment=LXAppearance Description
+Icon=LXAppearance
+Exec=lxappearance2
+StartupNotify=true
+Categories=GTK;
