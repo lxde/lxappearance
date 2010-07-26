@@ -20,10 +20,12 @@
  */
 
 #include "cursor-theme.h"
+#include "lxappearance2.h"
 
 static GtkWidget* cursor_theme_view;
 
 void cursor_theme_init(GtkBuilder* b)
 {
+    /* treeview and model are already set up in icon_theme_init() */
 
 }

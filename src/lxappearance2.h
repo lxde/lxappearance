@@ -1,5 +1,5 @@
 /*
- *      icon-theme.h
+ *      lxappearance2.h
  *
  *      Copyright 2010 PCMan <pcman.tw@gmail.com>
  *
@@ -19,24 +19,41 @@
  *      MA 02110-1301, USA.
  */
 
-#ifndef _ICON_THEME_H_
-#define _ICON_THEME_H_
+#ifndef _LXAPPEARANCE2_H_
+#define _LXAPPEARANCE2_H_
 
 #include <gtk/gtk.h>
 
-G_BEGIN_DECLS
-
-typedef struct
+typedef struct _LXAppearance    LXAppearance;
+struct _LXAppearance
 {
-    char* name;
-    char* disp_name;
-    char* comment;
-    gboolean has_icon : 1;
-    gboolean has_cursor : 1;
-}IconTheme;
+    GtkWidget* dlg;
+    GtkWidget* notebook;
 
-void icon_theme_init(GtkBuilder* b);
+    GtkWidget* widget_theme_view;
+    GtkListStore* widget_theme_store;
 
-G_END_DECLS
+    GtkWidget* icon_theme_view;
+    GtkListStore* icon_theme_store;
+
+    GtkWidget* cursor_theme_view;
+    GtkListStore* cursor_theme_store;
+
+    GSList* icon_themes; /* a list of IconTheme struct */
+
+    char* widget_theme;
+    char* icon_theme;
+    char* cursor_theme;
+    char* color_scheme;
+    char* icon_sizes;
+    int toolbar_style;
+    int toolbar_size;
+    gboolean changed;
+    gboolean use_lxsession;
+};
+
+extern LXAppearance app;
+
+void lxappearance_changed();
 
 #endif

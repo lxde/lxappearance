@@ -23,22 +23,113 @@
 #include <config.h>
 #endif
 
+#include "lxappearance2.h"
+
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
+
+#include <X11/X.h>
+#include <X11/Xatom.h>
+#include <X11/Xlib.h>
+#include <gdk/gdkx.h>
+
 #include "widget-theme.h"
 #include "icon-theme.h"
 #include "cursor-theme.h"
+
+LXAppearance app = {0};
+
+Atom lxsession_atom = 0;
+
+static void check_lxsession()
+{
+    lxsession_atom = XInternAtom( GDK_DISPLAY(), "_LXSESSION", True );
+    if( lxsession_atom != None )
+    {
+        XGrabServer( GDK_DISPLAY() );
+        if( XGetSelectionOwner( GDK_DISPLAY(), lxsession_atom ) )
+            app.use_lxsession = TRUE;
+        XUngrabServer( GDK_DISPLAY() );
+    }
+}
 
 static GOptionEntry option_entries[] =
 {
     { NULL }
 };
 
+static void lxappearance_save_gtkrc()
+{
+
+}
+
+static void lxappearance_save_lxsession()
+{
+
+}
+
+static void on_dlg_response(GtkDialog* dlg, int res, gpointer user_data)
+{
+    switch(res)
+    {
+    case GTK_RESPONSE_APPLY:
+
+        if(app.use_lxsession)
+            lxappearance_save_lxsession();
+        else
+            lxappearance_save_gtkrc();
+
+        app.changed = FALSE;
+        gtk_dialog_set_response_sensitive(app.dlg, GTK_RESPONSE_APPLY, FALSE);
+        break;
+    case 1: /* about dialog */
+        {
+            GtkBuilder* b = gtk_builder_new();
+            if(gtk_builder_add_from_file(b, PACKAGE_UI_DIR "/about.ui", NULL))
+            {
+                GtkWidget* dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
+                gtk_dialog_run(dlg);
+                gtk_widget_destroy(dlg);
+            }
+            g_object_unref(b);
+        }
+        break;
+    default:
+        gtk_main_quit();
+    }
+}
+
+static void settings_init()
+{
+    g_object_get(gtk_settings_get_default(), "gtk-theme-name", &app.widget_theme, NULL);
+    g_object_get(gtk_settings_get_default(), "gtk-icon-theme-name", &app.icon_theme, NULL);
+
+    /* try to figure out cursor theme used. */
+    g_object_get(gtk_settings_get_default(), "gtk-cursor-theme-name", &app.cursor_theme, NULL);
+    if(!app.cursor_theme || g_strcmp0(app.cursor_theme, "default") == 0)
+    {
+        /* get the real theme name from default. */
+        GKeyFile* kf = g_key_file_new();
+        char* fpath = g_build_filename(g_get_home_dir(), ".icons/default/index.theme", NULL);
+        gboolean ret = g_key_file_load_from_file(kf, fpath, 0, NULL);
+        g_free(fpath);
+
+        if(!ret)
+            ret = g_key_file_load_from_data_dirs(kf, "icons/default/index.theme", NULL, 0, NULL);
+
+        if(ret)
+        {
+            app.cursor_theme = g_key_file_get_string(kf, "Icon Theme", "Inherits", NULL);
+            g_debug("cursor theme name: %s", app.cursor_theme);
+        }
+        g_key_file_free(kf);
+    }
+}
+
 int main(int argc, char** argv)
 {
     GError* err = NULL;
     GtkBuilder* b;
-    GtkWidget* win;
 
     /* gettext support */
 #ifdef ENABLE_NLS
@@ -60,6 +151,12 @@ int main(int argc, char** argv)
         return 1;
     }
 
+    /* check if we're under LXSession */
+    check_lxsession();
+
+    /* load config values */
+    settings_init();
+
     /* create GUI here */
     b = gtk_builder_new();
     if(!gtk_builder_add_from_file(b, PACKAGE_UI_DIR "/lxappearance.ui", NULL))
@@ -69,12 +166,22 @@ int main(int argc, char** argv)
     icon_theme_init(b);
     cursor_theme_init(b);
 
-    win = gtk_builder_get_object(b, "dlg");
+    app.dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
+    g_signal_connect(app.dlg, "response", G_CALLBACK(on_dlg_response), NULL);
 
-    gtk_window_present(GTK_WINDOW(win));
+    gtk_window_present(GTK_WINDOW(app.dlg));
     g_object_unref(b);
 
     gtk_main();
 
     return 0;
+}
+
+void lxappearance_changed()
+{
+    if(!app.changed)
+    {
+        app.changed = TRUE;
+        gtk_dialog_set_response_sensitive(app.dlg, GTK_RESPONSE_APPLY, TRUE);
+    }
 }

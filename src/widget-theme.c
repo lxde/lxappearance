@@ -19,11 +19,10 @@
  *      MA 02110-1301, USA.
  */
 
+#include "lxappearance2.h"
 #include "widget-theme.h"
+#include "color-scheme.h"
 #include <string.h>
-
-static GtkWidget* widget_theme_view;
-static GtkListStore* store;
 
 static GSList* load_themes_in_dir(const char* theme_dir, GSList* themes)
 {
@@ -39,7 +38,7 @@ static GSList* load_themes_in_dir(const char* theme_dir, GSList* themes)
                 /* test if this is a gtk theme */
                 char* gtkrc = g_build_filename(theme_dir, name, "gtk-2.0/gtkrc", NULL);
                 if(g_file_test(gtkrc, G_FILE_TEST_EXISTS))
-                    themes = g_list_prepend(themes, g_strdup(name));
+                    themes = g_slist_prepend(themes, g_strdup(name));
                 g_free(gtkrc);
             }
         }
@@ -54,19 +53,13 @@ static void on_sel_changed(GtkTreeSelection* sel, gpointer user_data)
     GtkTreeModel* model;
     if(gtk_tree_selection_get_selected(sel, &model, &it))
     {
-        char* theme_name;
-        gtk_tree_model_get(model, &it, 0, &theme_name, -1);
-        g_object_set(gtk_settings_get_default(), "gtk-theme-name", theme_name, NULL);
-        g_free(theme_name);
+        g_free(app.widget_theme);
+        gtk_tree_model_get(model, &it, 0, &app.widget_theme, -1);
+        g_object_set(gtk_settings_get_default(), "gtk-theme-name", app.widget_theme, NULL);
+        lxappearance_changed();
 
-        /*
-        FIXME: check if current theme support color schemes.
-
-        char* color_scheme;
-        g_object_get(gtk_settings_get_default(), "gtk-color-scheme", &color_scheme, NULL);
-        g_debug("gtk-color-scheme:%s", color_scheme);
-        g_free(color_scheme);
-        */
+        /* check if current theme support color schemes. */
+        color_scheme_update();
     }
 }
 
@@ -74,12 +67,8 @@ static void load_themes()
 {
     char* dir;
     GSList* themes = NULL, *l;
-    GtkTreeViewColumn* col;
-    char* current;
     GtkTreeIter sel_it = {0};
     GtkTreeSelection* tree_sel;
-
-    g_object_get(gtk_settings_get_default(), "gtk-theme-name", &current, NULL);
 
     /* load user dir */
     dir = g_build_filename(g_get_home_dir(), ".themes", NULL);
@@ -91,31 +80,27 @@ static void load_themes()
     themes = load_themes_in_dir(dir, themes);
     g_free(dir);
 
-    col = gtk_tree_view_column_new_with_attributes("", gtk_cell_renderer_text_new(), "text", 0, NULL);
-    gtk_tree_view_append_column(widget_theme_view, col);
-
     themes = g_slist_sort(themes, (GCompareFunc)strcmp);
     for(l = themes; l; l=l->next)
     {
         GtkTreeIter it;
         char* name = (char*)l->data;
-        gtk_list_store_insert_with_values(store, &it, -1, 0, name, -1);
+        gtk_list_store_insert_with_values(app.widget_theme_store, &it, -1, 0, name, -1);
         /* if this theme is the one currently in use */
         if(!sel_it.user_data)
         {
-            if(strcmp(name, current) == 0)
+            if(strcmp(name, app.widget_theme) == 0)
                 sel_it = it;
         }
         g_free(name);
     }
-    g_free(current);
 
-    gtk_tree_view_set_model(widget_theme_view, GTK_TREE_MODEL(store));
-    tree_sel = gtk_tree_view_get_selection(widget_theme_view);
+    gtk_tree_view_set_model(app.widget_theme_view, GTK_TREE_MODEL(app.widget_theme_store));
+    tree_sel = gtk_tree_view_get_selection(app.widget_theme_view);
     if(sel_it.user_data)
         gtk_tree_selection_select_iter(tree_sel, &sel_it);
 
-    g_list_free(themes);
+    g_slist_free(themes);
 
     g_signal_connect(tree_sel, "changed", G_CALLBACK(on_sel_changed), NULL);
 
@@ -129,11 +114,12 @@ void widget_theme_init(GtkBuilder* b)
     GdkColor black = {0, 0, 0, 0};
 
     demo = GTK_WIDGET(gtk_builder_get_object(b, "demo"));
-    widget_theme_view = GTK_WIDGET(gtk_builder_get_object(b, "widget_theme_view"));
+    app.widget_theme_view = GTK_WIDGET(gtk_builder_get_object(b, "widget_theme_view"));
 
     gtk_widget_modify_bg(demo, GTK_STATE_NORMAL, &black);
 
+    app.widget_theme_store = gtk_list_store_new(1, G_TYPE_STRING);
+
     /* load available themes */
-    store = gtk_list_store_new(1, G_TYPE_STRING);
     load_themes();
 }

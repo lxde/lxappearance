@@ -10,8 +10,11 @@ AM_CPPFLAGS = \
 bin_PROGRAMS = lxappearance2
 lxappearance2_SOURCES = \
 	lxappearance2.c \
+	lxappearance2.h \
 	widget-theme.c \
 	widget-theme.h \
+	color-scheme.c \
+	color-scheme.h \
 	icon-theme.c \
 	icon-theme.h \
 	cursor-theme.c \
