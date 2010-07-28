@@ -22,6 +22,7 @@
 #include "icon-theme.h"
 #include "lxappearance2.h"
 #include <string.h>
+#include "utils.h"
 
 gint icon_theme_cmp_name(IconTheme* t, const char* name)
 {
@@ -155,6 +156,11 @@ static void on_icon_theme_sel_changed(GtkTreeSelection* tree_sel, gpointer user_
     }
 }
 
+static void on_install_theme_clicked(GtkButton* btn, gpointer user_data)
+{
+    install_icon_theme(gtk_widget_get_toplevel(btn));
+}
+
 void icon_theme_init(GtkBuilder* b)
 {
     GSList* l;
@@ -220,4 +226,7 @@ void icon_theme_init(GtkBuilder* b)
 
     /* load "gtk-icon-sizes" */
     icon_sizes_init(b);
+
+    GtkWidget* btn = gtk_builder_get_object(b, "install_icon_theme");
+    g_signal_connect(btn, "clicked", G_CALLBACK(on_install_theme_clicked), NULL);
 }
