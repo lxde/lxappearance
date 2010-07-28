@@ -107,6 +107,7 @@ static void settings_init()
                 "gtk-theme-name", &app.widget_theme,
                 "gtk-icon-theme-name", &app.icon_theme,
                 "gtk-cursor-theme-name", &app.cursor_theme,
+                "gtk-cursor-theme-size", &app.cursor_theme_size,
                 "gtk-toolbar-style", &app.toolbar_style,
                 "gtk-toolbar-icon-size", &app.toolbar_icon_size,
                 NULL);
@@ -143,12 +144,6 @@ int main(int argc, char** argv)
     bind_textdomain_codeset ( GETTEXT_PACKAGE, "UTF-8" );
     textdomain ( GETTEXT_PACKAGE );
 #endif
-
-    /* init threading support */
-    /*
-    g_thread_init(NULL);
-    gdk_threads_init();
-    */
 
     /* initialize GTK+ and parse the command line arguments */
     if( G_UNLIKELY( ! gtk_init_with_args( &argc, &argv, "", option_entries, GETTEXT_PACKAGE, &err ) ) )

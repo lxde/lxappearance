@@ -37,7 +37,9 @@ struct _LXAppearance
     GtkListStore* icon_theme_store;
 
     GtkWidget* cursor_theme_view;
+    GtkWidget* cursor_demo_view;
     GtkListStore* cursor_theme_store;
+    GtkWidget* cursor_size_range;
 
     GSList* icon_themes; /* a list of IconTheme struct */
 
@@ -47,6 +49,7 @@ struct _LXAppearance
     char* widget_theme;
     char* icon_theme;
     char* cursor_theme;
+    int cursor_theme_size;
     char* color_scheme;
     char* icon_sizes;
     int toolbar_style;

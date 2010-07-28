@@ -136,6 +136,25 @@ static void icon_sizes_init(GtkBuilder* b)
     g_debug("%s", sizes_str);
 }
 
+static void on_icon_theme_sel_changed(GtkTreeSelection* tree_sel, gpointer user_data)
+{
+    GtkTreeModel* model;
+    GtkTreeIter it;
+    if(gtk_tree_selection_get_selected(tree_sel, &model, &it))
+    {
+        IconTheme* theme;
+        gtk_tree_model_get(model, &it, 1, &theme, -1);
+        if(g_strcmp0(theme->name, app.icon_theme))
+        {
+            g_free(app.icon_theme);
+            app.icon_theme = g_strdup(theme->name);
+            g_object_set(gtk_settings_get_default(), "gtk-icon-theme-name", app.icon_theme, NULL);
+
+            lxappearance_changed();
+        }
+    }
+}
+
 void icon_theme_init(GtkBuilder* b)
 {
     GSList* l;
@@ -187,6 +206,7 @@ void icon_theme_init(GtkBuilder* b)
         gtk_tree_view_scroll_to_cell(app.icon_theme_view, tp, NULL, FALSE, 0, 0);
         gtk_tree_path_free(tp);
     }
+    g_signal_connect(sel, "changed", G_CALLBACK(on_icon_theme_sel_changed), NULL);
 
     gtk_tree_view_set_model(app.cursor_theme_view, GTK_TREE_MODEL(app.cursor_theme_store));
     sel = gtk_tree_view_get_selection(app.cursor_theme_view);

@@ -2,105 +2,11 @@
 <interface>
   <requires lib="gtk+" version="2.16"/>
   <!-- interface-naming-policy project-wide -->
-  <object class="GtkListStore" id="tb_icon_size_store">
-    <columns>
-      <!-- column-name name -->
-      <column type="gchararray"/>
-    </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">Same as menu items</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Small toolbar icon</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Large toolbar icon</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as buttons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as drag icons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as dialogs</col>
-      </row>
-    </data>
-  </object>
-  <object class="GtkListStore" id="tb_style_store">
-    <columns>
-      <!-- column-name item -->
-      <column type="gchararray"/>
-    </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">Icons only</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Text only</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Text below icons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Text beside icons</col>
-      </row>
-    </data>
-  </object>
-  <object class="GtkImage" id="image5">
-    <property name="visible">True</property>
-    <property name="stock">gtk-remove</property>
-  </object>
-  <object class="GtkImage" id="image4">
-    <property name="visible">True</property>
-    <property name="stock">gtk-add</property>
-  </object>
-  <object class="GtkImage" id="image3">
-    <property name="visible">True</property>
-    <property name="stock">gtk-remove</property>
-  </object>
-  <object class="GtkImage" id="image2">
-    <property name="visible">True</property>
-    <property name="stock">gtk-add</property>
-  </object>
-  <object class="GtkListStore" id="icon_demo_store">
-    <columns>
-      <!-- column-name icon-name -->
-      <column type="gchararray"/>
-    </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">user-home</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">user-desktop</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">folder</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">folder-remote</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">user-trash</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">x-office-document</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">application-x-executable</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">image-x-generic</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">text-x-generic</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">text-html</col>
-      </row>
-    </data>
+  <object class="GtkAdjustment" id="cursor_size_adj">
+    <property name="upper">138</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+    <property name="page_size">10</property>
   </object>
   <object class="GtkDialog" id="dlg">
     <property name="border_width">5</property>
@@ -669,7 +575,7 @@
                           </packing>
                         </child>
                         <child>
-                          <object class="GtkFontButton" id="fontbutton1">
+                          <object class="GtkFontButton" id="default_font">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">True</property>
@@ -932,6 +838,7 @@
                 <child>
                   <object class="GtkVBox" id="vbox11">
                     <property name="visible">True</property>
+                    <property name="spacing">6</property>
                     <child>
                       <object class="GtkLabel" id="label7">
                         <property name="visible">True</property>
@@ -954,14 +861,6 @@
                           <object class="GtkIconView" id="cursor_demo_view">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
-                            <child>
-                              <object class="GtkCellRendererPixbuf" id="cellrenderertext4">
-                                <property name="stock_size">6</property>
-                              </object>
-                              <attributes>
-                                <attribute name="icon-name">0</attribute>
-                              </attributes>
-                            </child>
                           </object>
                         </child>
                       </object>
@@ -970,7 +869,58 @@
                       </packing>
                     </child>
                     <child>
-                      <placeholder/>
+                      <object class="GtkLabel" id="label26">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">Size of cursors</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkHBox" id="hbox5">
+                        <property name="visible">True</property>
+                        <property name="spacing">12</property>
+                        <child>
+                          <object class="GtkLabel" id="label29">
+                            <property name="visible">True</property>
+                            <property name="label" translatable="yes">Smaller</property>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="position">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkHScale" id="cursor_size">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="update_policy">delayed</property>
+                            <property name="adjustment">cursor_size_adj</property>
+                            <property name="digits">0</property>
+                            <property name="value_pos">left</property>
+                          </object>
+                          <packing>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label27">
+                            <property name="visible">True</property>
+                            <property name="label" translatable="yes">Bigger</property>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="position">2</property>
+                          </packing>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">3</property>
+                      </packing>
                     </child>
                   </object>
                   <packing>
@@ -1402,9 +1352,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="close">
-                <property name="label">gtk-close</property>
+              <object class="GtkButton" id="apply">
+                <property name="label">gtk-apply</property>
                 <property name="visible">True</property>
+                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1416,10 +1367,9 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="apply">
-                <property name="label">gtk-apply</property>
+              <object class="GtkButton" id="close">
+                <property name="label">gtk-close</property>
                 <property name="visible">True</property>
-                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1441,8 +1391,108 @@
     </child>
     <action-widgets>
       <action-widget response="1">about</action-widget>
-      <action-widget response="-7">close</action-widget>
       <action-widget response="-10">apply</action-widget>
+      <action-widget response="-7">close</action-widget>
     </action-widgets>
+  </object>
+  <object class="GtkListStore" id="icon_demo_store">
+    <columns>
+      <!-- column-name icon-name -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">user-home</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">user-desktop</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">folder</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">folder-remote</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">user-trash</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">x-office-document</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">application-x-executable</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">image-x-generic</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">text-x-generic</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">text-html</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkImage" id="image2">
+    <property name="visible">True</property>
+    <property name="stock">gtk-add</property>
+  </object>
+  <object class="GtkImage" id="image3">
+    <property name="visible">True</property>
+    <property name="stock">gtk-remove</property>
+  </object>
+  <object class="GtkImage" id="image4">
+    <property name="visible">True</property>
+    <property name="stock">gtk-add</property>
+  </object>
+  <object class="GtkImage" id="image5">
+    <property name="visible">True</property>
+    <property name="stock">gtk-remove</property>
+  </object>
+  <object class="GtkListStore" id="tb_style_store">
+    <columns>
+      <!-- column-name item -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Icons only</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Text only</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Text below icons</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Text beside icons</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkListStore" id="tb_icon_size_store">
+    <columns>
+      <!-- column-name name -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Same as menu items</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Small toolbar icon</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Large toolbar icon</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Same as buttons</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Same as drag icons</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Same as dialogs</col>
+      </row>
+    </data>
   </object>
 </interface>
