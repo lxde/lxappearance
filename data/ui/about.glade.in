@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <!-- interface-requires gtk+ 2.12 -->
   <!-- interface-naming-policy toplevel-contextual -->
@@ -9,8 +9,8 @@
     <property name="has_separator">False</property>
     <property name="program_name">LXAppearance</property>
     <property name="version">@VERSION@</property>
-    <property name="copyright" translatable="yes">Copyright (C) 2010</property>
-    <property name="comments" translatable="yes">LXAppearance Description</property>
+    <property name="copyright" translatable="yes">Copyright (C) 2010 LXDE Project</property>
+    <property name="comments" translatable="yes">Configures look and feels of your desktop</property>
     <property name="website">http://lxde.org/</property>
     <property name="license">Copyright (C) 2010 LXDE Team
 
@@ -27,14 +27,13 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</property>
-    <property name="authors">LXDE Team</property>
+    <property name="authors">洪任諭 Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</property>
     <property name="translator_credits" translatable="yes" comments="Please replace this line with your own names, one name per line. ">translator-credits</property>
     <property name="artists"></property>
     <property name="wrap_license">True</property>
     <child internal-child="vbox">
       <object class="GtkVBox" id="dialog-vbox1">
         <property name="visible">True</property>
-        <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child internal-child="action_area">
           <object class="GtkHButtonBox" id="dialog-action_area1">

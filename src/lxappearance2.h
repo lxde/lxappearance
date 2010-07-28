@@ -41,13 +41,16 @@ struct _LXAppearance
 
     GSList* icon_themes; /* a list of IconTheme struct */
 
+    GtkWidget* tb_style_combo;
+    GtkWidget* tb_icon_size_combo;
+
     char* widget_theme;
     char* icon_theme;
     char* cursor_theme;
     char* color_scheme;
     char* icon_sizes;
     int toolbar_style;
-    int toolbar_size;
+    int toolbar_icon_size;
     gboolean changed;
     gboolean use_lxsession;
 };

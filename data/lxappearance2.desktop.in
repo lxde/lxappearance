@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-_Name=LXAppearance
-_GenericName=LXAppearance
-_Comment=LXAppearance Description
-Icon=LXAppearance
+_Name=Desktop Look and Feels
+_GenericName=Desktop Look and Feels
+_Comment=Configures look and feels of your desktop and applications
+Icon=preferences-desktop-theme
 Exec=lxappearance2
 StartupNotify=true
 Categories=GTK;

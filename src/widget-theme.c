@@ -98,7 +98,12 @@ static void load_themes()
     gtk_tree_view_set_model(app.widget_theme_view, GTK_TREE_MODEL(app.widget_theme_store));
     tree_sel = gtk_tree_view_get_selection(app.widget_theme_view);
     if(sel_it.user_data)
+    {
+        GtkTreePath* tp = gtk_tree_model_get_path(GTK_TREE_MODEL(app.widget_theme_store), &sel_it);
         gtk_tree_selection_select_iter(tree_sel, &sel_it);
+        gtk_tree_view_scroll_to_cell(app.widget_theme_view, tp, NULL, FALSE, 0, 0);
+        gtk_tree_path_free(tp);
+    }
 
     g_slist_free(themes);
 

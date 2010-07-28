@@ -19,6 +19,8 @@ lxappearance2_SOURCES = \
 	icon-theme.h \
 	cursor-theme.c \
 	cursor-theme.h \
+	other.c \
+	other.h \
 	utils.c \
 	utils.h \
 	$(NULL)

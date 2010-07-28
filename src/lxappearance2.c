@@ -36,6 +36,7 @@
 #include "widget-theme.h"
 #include "icon-theme.h"
 #include "cursor-theme.h"
+#include "other.h"
 
 LXAppearance app = {0};
 
@@ -101,11 +102,15 @@ static void on_dlg_response(GtkDialog* dlg, int res, gpointer user_data)
 
 static void settings_init()
 {
-    g_object_get(gtk_settings_get_default(), "gtk-theme-name", &app.widget_theme, NULL);
-    g_object_get(gtk_settings_get_default(), "gtk-icon-theme-name", &app.icon_theme, NULL);
-
+    GtkSettings* settings = gtk_settings_get_default();
+    g_object_get(settings,
+                "gtk-theme-name", &app.widget_theme,
+                "gtk-icon-theme-name", &app.icon_theme,
+                "gtk-cursor-theme-name", &app.cursor_theme,
+                "gtk-toolbar-style", &app.toolbar_style,
+                "gtk-toolbar-icon-size", &app.toolbar_icon_size,
+                NULL);
     /* try to figure out cursor theme used. */
-    g_object_get(gtk_settings_get_default(), "gtk-cursor-theme-name", &app.cursor_theme, NULL);
     if(!app.cursor_theme || g_strcmp0(app.cursor_theme, "default") == 0)
     {
         /* get the real theme name from default. */
@@ -119,6 +124,7 @@ static void settings_init()
 
         if(ret)
         {
+            g_free(app.cursor_theme);
             app.cursor_theme = g_key_file_get_string(kf, "Icon Theme", "Inherits", NULL);
             g_debug("cursor theme name: %s", app.cursor_theme);
         }
@@ -162,11 +168,13 @@ int main(int argc, char** argv)
     if(!gtk_builder_add_from_file(b, PACKAGE_UI_DIR "/lxappearance.ui", NULL))
         return 1;
 
+    app.dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
+
     widget_theme_init(b);
     icon_theme_init(b);
     cursor_theme_init(b);
+    other_init(b);
 
-    app.dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
     g_signal_connect(app.dlg, "response", G_CALLBACK(on_dlg_response), NULL);
 
     gtk_window_present(GTK_WINDOW(app.dlg));

@@ -181,12 +181,22 @@ void icon_theme_init(GtkBuilder* b)
     gtk_tree_view_set_model(app.icon_theme_view, GTK_TREE_MODEL(app.icon_theme_store));
     sel = gtk_tree_view_get_selection(app.icon_theme_view);
     if(icon_theme_sel_it.user_data)
+    {
+        GtkTreePath* tp = gtk_tree_model_get_path(GTK_TREE_MODEL(app.icon_theme_store), &icon_theme_sel_it);
         gtk_tree_selection_select_iter(sel, &icon_theme_sel_it);
+        gtk_tree_view_scroll_to_cell(app.icon_theme_view, tp, NULL, FALSE, 0, 0);
+        gtk_tree_path_free(tp);
+    }
 
     gtk_tree_view_set_model(app.cursor_theme_view, GTK_TREE_MODEL(app.cursor_theme_store));
     sel = gtk_tree_view_get_selection(app.cursor_theme_view);
     if(cursor_theme_sel_it.user_data)
+    {
+        GtkTreePath* tp = gtk_tree_model_get_path(GTK_TREE_MODEL(app.cursor_theme_store), &cursor_theme_sel_it);
         gtk_tree_selection_select_iter(sel, &cursor_theme_sel_it);
+        gtk_tree_view_scroll_to_cell(app.cursor_theme_view, tp, NULL, FALSE, 0, 0);
+        gtk_tree_path_free(tp);
+    }
 
     /* load "gtk-icon-sizes" */
     icon_sizes_init(b);
