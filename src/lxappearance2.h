@@ -32,6 +32,7 @@ struct _LXAppearance
 
     GtkWidget* widget_theme_view;
     GtkListStore* widget_theme_store;
+    GtkWidget* default_font_btn;
 
     GtkWidget* icon_theme_view;
     GtkListStore* icon_theme_store;
@@ -47,6 +48,7 @@ struct _LXAppearance
     GtkWidget* tb_icon_size_combo;
 
     char* widget_theme;
+    char* default_font;
     char* icon_theme;
     char* cursor_theme;
     int cursor_theme_size;

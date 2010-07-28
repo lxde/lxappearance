@@ -27,6 +27,7 @@
 static void update_cursor_demo()
 {
     GtkListStore* store = gtk_list_store_new(1, GDK_TYPE_PIXBUF);
+    GdkCursor* cursor;
     GdkCursorType types[] = {
         GDK_LEFT_PTR,
         GDK_HAND2,
@@ -36,11 +37,11 @@ static void update_cursor_demo()
         GDK_LEFT_SIDE,
         GDK_TOP_LEFT_CORNER,
         GDK_SB_H_DOUBLE_ARROW};
-    int i;
+    int i, n;
     for(i = 0; i < G_N_ELEMENTS(types); ++i)
     {
         GtkTreeIter it;
-        GdkCursor* cursor = gdk_cursor_new(types[i]);
+        cursor = gdk_cursor_new(types[i]);
         GdkPixbuf* pix = gdk_cursor_get_image(cursor);
         gdk_cursor_unref(cursor);
         gtk_list_store_insert_with_values(store, &it, -1, 0, pix, -1);
@@ -48,6 +49,20 @@ static void update_cursor_demo()
     }
     gtk_icon_view_set_model(app.cursor_demo_view, GTK_TREE_MODEL(store));
     g_object_unref(store);
+
+    /* gtk+ programs should reload named cursors correctly.
+     * However, if the cursor is inherited from the root window,
+     * gtk+ won't change it. So we need to update the cursor of root window.
+     * Unfortunately, this doesn't work for non-gtk+ programs.
+     * KDE programs seem to require special handling with XFixes */
+    cursor = gdk_cursor_new(GDK_LEFT_PTR);
+    i = gdk_display_get_n_screens(gdk_display_get_default());
+    while(--i >= 0)
+    {
+        GdkScreen* screen = gdk_display_get_screen(gdk_display_get_default(), i);
+        gdk_window_set_cursor(gdk_screen_get_root_window(screen), cursor);
+    }
+    gdk_cursor_unref(cursor);
 }
 
 static void on_cursor_theme_sel_changed(GtkTreeSelection* tree_sel, gpointer user_data)
@@ -85,14 +100,22 @@ static void on_cursor_theme_size_changed(GtkRange* range, gpointer user_data)
 
 void cursor_theme_init(GtkBuilder* b)
 {
+    int max_cursor_w, max_cursor_h, max_size;
     GtkTreeSelection* sel = gtk_tree_view_get_selection(app.cursor_theme_view);
     /* treeview and model are already set up in icon_theme_init() */
     g_signal_connect(sel, "changed", G_CALLBACK(on_cursor_theme_sel_changed), NULL);
 
+    gdk_display_get_maximal_cursor_size(gdk_display_get_default(), &max_cursor_w, &max_cursor_h);
+    max_size = MAX(max_cursor_w, max_cursor_h);
+
+    /* FIXME: this isn't fully working... */
     app.cursor_size_range = GTK_RANGE(gtk_builder_get_object(b, "cursor_size"));
+    if(max_size < 128)
+        gtk_range_set_range(app.cursor_size_range, 1, max_size + 10); /* 10 is page size */
     gtk_range_set_value(app.cursor_size_range, app.cursor_theme_size);
     g_signal_connect(app.cursor_size_range, "value-changed", G_CALLBACK(on_cursor_theme_size_changed), NULL);
 
+    /* set up demo for cursors */
     app.cursor_demo_view = GTK_WIDGET(gtk_builder_get_object(b, "cursor_demo_view"));
     gtk_icon_view_set_pixbuf_column(app.cursor_demo_view, 0);
     update_cursor_demo();

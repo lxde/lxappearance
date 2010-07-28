@@ -113,6 +113,19 @@ static void load_themes()
     // g_signal_connect(gtk_settings_get_default(), "notify::gtk-theme-name", G_CALLBACK(on_sel_changed), NULL);
 }
 
+static void on_font_set(GtkFontButton* btn, gpointer user_data)
+{
+    const char* font_name = gtk_font_button_get_font_name(btn);
+    if(g_strcmp0(font_name, app.default_font))
+    {
+        g_free(app.default_font);
+        app.default_font = g_strdup(font_name);
+        g_object_set(gtk_settings_get_default(), "gtk-font-name", font_name, NULL);
+
+        lxappearance_changed();
+    }
+}
+
 void widget_theme_init(GtkBuilder* b)
 {
     GtkWidget* demo;
@@ -127,4 +140,8 @@ void widget_theme_init(GtkBuilder* b)
 
     /* load available themes */
     load_themes();
+
+    app.default_font_btn = GTK_WIDGET(gtk_builder_get_object(b, "default_font"));
+    gtk_font_button_set_font_name(GTK_FONT_BUTTON(app.default_font_btn), app.default_font);
+    g_signal_connect(app.default_font_btn, "font-set", G_CALLBACK(on_font_set), NULL);
 }

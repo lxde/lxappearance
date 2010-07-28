@@ -4,7 +4,7 @@
 prog_name = lxappearance2
 
 AC_PREREQ([2.63])
-AC_INIT([lxappearance2], [0.1.0], [http://lxde.org/])
+AC_INIT([lxappearance2], [0.2.0], [http://lxde.org/])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
 AC_CONFIG_HEADERS([config.h])
