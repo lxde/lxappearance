@@ -136,7 +136,7 @@ static void lxappearance_save_gtkrc()
         "GTK_ICON_SIZE_DIALOG"
     };
 
-    char* file_path = g_build_filename(g_get_home_dir(), "~/.gtkrc-2.0", NULL);
+    char* file_path = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
     char* content = g_strdup_printf(
         "# DO NOT EDIT! This file will be overwritten by LXAppearance.\n"
         "# Any customization should be done in ~/.gtkrc-2.0.mine instead.\n\n"
