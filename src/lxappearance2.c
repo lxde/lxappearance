@@ -118,6 +118,11 @@ static void reload_all_programs()
     gdk_event_send_clientmessage_toall((GdkEvent *)&event);
 }
 
+static const char* bool2str(gboolean val)
+{
+    return val ? "TRUE" : "FALSE";
+}
+
 static void lxappearance_save_gtkrc()
 {
     static const char* tb_styles[]={
@@ -147,6 +152,10 @@ static void lxappearance_save_gtkrc()
         "gtk-toolbar-icon-size=%s\n"
         "gtk-cursor-theme-name=\"%s\"\n"
         "gtk-cursor-theme-size=%d\n"
+#if GTK_CHECK_VERSION(2, 14, 0)
+        "gtk-enable-event-sounds=%s\n"
+        "gtk-enable-input-feedback-sounds=%s\n"
+#endif
         "include \"%s/.gtkrc-2.0.mine\"\n",
         app.widget_theme,
         app.icon_theme,
@@ -155,6 +164,10 @@ static void lxappearance_save_gtkrc()
         tb_icon_sizes[app.toolbar_icon_size],
         app.cursor_theme,
         app.cursor_theme_size,
+#if GTK_CHECK_VERSION(2, 14, 0)
+        bool2str(app.enable_event_sound),
+        bool2str(app.enable_input_feedback),
+#endif
         g_get_home_dir());
 
     g_file_set_contents(file_path, content, -1, NULL);
@@ -195,6 +208,15 @@ static void lxappearance_save_lxsession()
 
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", app.toolbar_style );
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarIconSize", app.toolbar_icon_size );
+
+#if GTK_CHECK_VERSION(2, 14, 0)
+    g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", app.toolbar_style );
+    g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarIconSize", app.toolbar_icon_size );
+
+    /* "Net/SoundThemeName\0"      "gtk-sound-theme-name\0" */
+    g_key_file_set_integer( kf, "GTK", "iNet/EnableEventSounds", app.enable_event_sound);
+    g_key_file_set_integer( kf, "GTK", "iNet/EnableInputFeedbackSounds", app.enable_input_feedback);
+#endif
 
     buf = g_key_file_to_data( kf, &len, NULL );
     g_key_file_free(kf);
@@ -248,6 +270,10 @@ static void settings_init()
                 "gtk-cursor-theme-size", &app.cursor_theme_size,
                 "gtk-toolbar-style", &app.toolbar_style,
                 "gtk-toolbar-icon-size", &app.toolbar_icon_size,
+#if GTK_CHECK_VERSION(2, 14, 0)
+                "gtk-enable-event-sounds", &app.enable_event_sound,
+                "gtk-enable-input-feedback-sounds", &app.enable_input_feedback,
+#endif
                 NULL);
     /* try to figure out cursor theme used. */
     if(!app.cursor_theme || g_strcmp0(app.cursor_theme, "default") == 0)

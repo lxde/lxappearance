@@ -34,6 +34,17 @@ static void on_tb_icon_size_changed(GtkComboBox* combo, gpointer user_data)
     lxappearance_changed();
 }
 
+static void on_check_button_toggled(GtkToggleButton* btn, gpointer user_data)
+{
+    gboolean* val = (gboolean*)user_data;
+    gboolean new_val = gtk_toggle_button_get_active(btn);
+    if(new_val != *val)
+    {
+        *val = new_val;
+        lxappearance_changed();
+    }
+}
+
 void other_init(GtkBuilder* b)
 {
     int idx;
@@ -46,5 +57,18 @@ void other_init(GtkBuilder* b)
     idx = app.toolbar_icon_size - GTK_ICON_SIZE_MENU;
     gtk_combo_box_set_active(GTK_COMBO_BOX(app.tb_icon_size_combo), idx);
     g_signal_connect(app.tb_icon_size_combo, "changed", G_CALLBACK(on_tb_icon_size_changed), NULL);
+
+#if GTK_CHECK_VERSION(2, 14, 0)
+    app.event_sound_check = GTK_WIDGET(gtk_builder_get_object(b, "event_sound"));
+    gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(app.event_sound_check), app.enable_event_sound);
+    g_signal_connect(app.event_sound_check, "toggled", G_CALLBACK(on_check_button_toggled), &app.enable_event_sound);
+
+    app.input_feedback_check = GTK_WIDGET(gtk_builder_get_object(b, "input_feedback_sound"));
+    gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(app.input_feedback_check), app.enable_input_feedback);
+    g_signal_connect(app.input_feedback_check, "toggled", G_CALLBACK(on_check_button_toggled), &app.enable_input_feedback);
+
+    /* event sound support */
+    gtk_widget_show_all(GTK_WIDGET(gtk_builder_get_object(b, "sound_effect")));
+#endif
 }
 

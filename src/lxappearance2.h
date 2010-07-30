@@ -56,6 +56,14 @@ struct _LXAppearance
     char* icon_sizes;
     int toolbar_style;
     int toolbar_icon_size;
+
+#if GTK_CHECK_VERSION(2, 14, 0)
+    GtkWidget* event_sound_check;
+    GtkWidget* input_feedback_check;
+    gboolean enable_event_sound;
+    gboolean enable_input_feedback;
+#endif
+
     gboolean changed;
     gboolean use_lxsession;
 };
