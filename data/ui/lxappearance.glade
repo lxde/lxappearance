@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <interface>
   <requires lib="gtk+" version="2.16"/>
   <!-- interface-naming-policy project-wide -->
@@ -8,6 +8,90 @@
     <property name="step_increment">1</property>
     <property name="page_increment">10</property>
     <property name="page_size">10</property>
+  </object>
+  <object class="GtkListStore" id="icon_demo_store">
+    <columns>
+      <!-- column-name icon-name -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">user-home</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">user-desktop</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">folder</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">folder-remote</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">user-trash</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">x-office-document</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">application-x-executable</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">image-x-generic</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">text-x-generic</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">text-html</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkListStore" id="tb_style_store">
+    <columns>
+      <!-- column-name item -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Icons only</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Text only</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Text below icons</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Text beside icons</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkListStore" id="tb_icon_size_store">
+    <columns>
+      <!-- column-name name -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Same as menu items</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Small toolbar icon</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Large toolbar icon</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Same as buttons</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Same as drag icons</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Same as dialogs</col>
+      </row>
+    </data>
   </object>
   <object class="GtkDialog" id="dlg">
     <property name="border_width">5</property>
@@ -264,7 +348,7 @@
                                                   <object class="GtkEntry" id="entry1">
                                                     <property name="visible">True</property>
                                                     <property name="can_focus">True</property>
-                                                    <property name="invisible_char">●</property>
+                                                    <property name="invisible_char">&#x25CF;</property>
                                                   </object>
                                                 </child>
                                               </object>
@@ -341,7 +425,7 @@
                                                             <object class="GtkSpinButton" id="spinbutton1">
                                                             <property name="visible">True</property>
                                                             <property name="can_focus">True</property>
-                                                            <property name="invisible_char">●</property>
+                                                            <property name="invisible_char">&#x25CF;</property>
                                                             <property name="climb_rate">1</property>
                                                             </object>
                                                             <packing>
@@ -920,6 +1004,20 @@
                         <property name="position">3</property>
                       </packing>
                     </child>
+                    <child>
+                      <object class="GtkLabel" id="label30">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="yalign">0</property>
+                        <property name="label" translatable="yes">&lt;b&gt;Note:&lt;/b&gt; Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login.</property>
+                        <property name="use_markup">True</property>
+                        <property name="wrap">True</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="position">4</property>
+                      </packing>
+                    </child>
                   </object>
                   <packing>
                     <property name="position">1</property>
@@ -1137,7 +1235,7 @@
                                       <object class="GtkSpinButton" id="gtk-menu-size">
                                         <property name="visible">True</property>
                                         <property name="can_focus">True</property>
-                                        <property name="invisible_char">●</property>
+                                        <property name="invisible_char">&#x25CF;</property>
                                         <property name="snap_to_ticks">True</property>
                                         <property name="numeric">True</property>
                                       </object>
@@ -1160,7 +1258,7 @@
                                       <object class="GtkSpinButton" id="gtk-menu-size1">
                                         <property name="visible">True</property>
                                         <property name="can_focus">True</property>
-                                        <property name="invisible_char">●</property>
+                                        <property name="invisible_char">&#x25CF;</property>
                                         <property name="snap_to_ticks">True</property>
                                         <property name="numeric">True</property>
                                       </object>
@@ -1271,7 +1369,6 @@
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
-                                <property name="use_action_appearance">False</property>
                                 <property name="draw_indicator">True</property>
                               </object>
                               <packing>
@@ -1284,7 +1381,6 @@
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
-                                <property name="use_action_appearance">False</property>
                                 <property name="draw_indicator">True</property>
                               </object>
                               <packing>
@@ -1349,10 +1445,9 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="apply">
-                <property name="label">gtk-apply</property>
+              <object class="GtkButton" id="close">
+                <property name="label">gtk-close</property>
                 <property name="visible">True</property>
-                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1364,9 +1459,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="close">
-                <property name="label">gtk-close</property>
+              <object class="GtkButton" id="apply">
+                <property name="label">gtk-apply</property>
                 <property name="visible">True</property>
+                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1388,47 +1484,9 @@
     </child>
     <action-widgets>
       <action-widget response="1">about</action-widget>
-      <action-widget response="-10">apply</action-widget>
       <action-widget response="-7">close</action-widget>
+      <action-widget response="-10">apply</action-widget>
     </action-widgets>
-  </object>
-  <object class="GtkListStore" id="icon_demo_store">
-    <columns>
-      <!-- column-name icon-name -->
-      <column type="gchararray"/>
-    </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">user-home</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">user-desktop</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">folder</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">folder-remote</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">user-trash</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">x-office-document</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">application-x-executable</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">image-x-generic</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">text-x-generic</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">text-html</col>
-      </row>
-    </data>
   </object>
   <object class="GtkImage" id="image2">
     <property name="visible">True</property>
@@ -1445,51 +1503,5 @@
   <object class="GtkImage" id="image5">
     <property name="visible">True</property>
     <property name="stock">gtk-remove</property>
-  </object>
-  <object class="GtkListStore" id="tb_style_store">
-    <columns>
-      <!-- column-name item -->
-      <column type="gchararray"/>
-    </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">Icons only</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Text only</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Text below icons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Text beside icons</col>
-      </row>
-    </data>
-  </object>
-  <object class="GtkListStore" id="tb_icon_size_store">
-    <columns>
-      <!-- column-name name -->
-      <column type="gchararray"/>
-    </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">Same as menu items</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Small toolbar icon</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Large toolbar icon</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as buttons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as drag icons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as dialogs</col>
-      </row>
-    </data>
   </object>
 </interface>
