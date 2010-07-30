@@ -26,7 +26,7 @@
 
 G_BEGIN_DECLS
 
-void show_progress_for_pid(GtkWindow* parent, const char* title, const char* msg, GPid pid);
+gboolean show_progress_for_pid(GtkWindow* parent, const char* title, const char* msg, GPid pid);
 
 gboolean install_icon_theme(GtkWindow* parent);
 
