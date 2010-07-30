@@ -6,4 +6,4 @@ _Comment=Configures look and feels of your desktop and applications
 Icon=preferences-desktop-theme
 Exec=lxappearance2
 StartupNotify=true
-Categories=GTK;
+Categories=Settings;DesktopSettings;GTK;
