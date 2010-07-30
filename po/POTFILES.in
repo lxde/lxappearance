@@ -1,5 +1,6 @@
 # List of source files containing translatable strings.
 
-data/template.desktop.in
+data/lxappearance2.desktop.in
 data/ui/about.glade.in
-src/template.c
+data/ui/lxappearance.glade
+src/utils.c
