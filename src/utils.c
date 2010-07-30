@@ -88,5 +88,7 @@ gboolean install_icon_theme(GtkWindow* parent)
     if(pid >=0)
         show_progress_for_pid(parent, "Install themes", "Installing...", pid);
     g_free(file);
+
+    return TRUE;
 }
 

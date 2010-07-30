@@ -38,6 +38,8 @@ static gboolean gtkrc_supports_colors(const char* gtkrc_file, gboolean* support)
         g_free(content);
     }
     *support = support_colors;
+
+    return TRUE;
 }
 
 /* check if current gtk+ widget theme supports color schemes */

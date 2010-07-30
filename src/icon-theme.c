@@ -133,7 +133,7 @@ static void icon_sizes_init(GtkBuilder* b)
         "gtk-dialog"
     };
     char* sizes_str;
-    g_object_get(gtk_settings_get_default(), "gtk-icon-sizes", &sizes_str);
+    g_object_get(gtk_settings_get_default(), "gtk-icon-sizes", &sizes_str, NULL);
     g_debug("%s", sizes_str);
 }
 
