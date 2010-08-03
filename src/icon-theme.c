@@ -43,7 +43,7 @@ static void icon_theme_free(IconTheme* theme)
     g_slice_free(IconTheme, theme);
 }
 
-static void load_icon_themes_from_dir(const char* theme_dir, GKeyFile* kf)
+void load_icon_themes_from_dir(const char* theme_dir, GKeyFile* kf)
 {
     GDir* dir = g_dir_open(theme_dir, 0, NULL);
     if(dir)
@@ -87,7 +87,8 @@ static void load_icon_themes_from_dir(const char* theme_dir, GKeyFile* kf)
                 g_free(cursor_subdir);
 
                 if(theme->has_icon || theme->has_cursor)
-                    app.icon_themes = g_slist_prepend(app.icon_themes, theme);
+                    app.icon_themes = g_slist_insert_sorted(app.icon_themes, theme,
+                                            (GCompareFunc)icon_theme_cmp_disp_name);
                 else /* this dir contains no icon or cursor theme, drop it. */
                     icon_theme_free(theme);
             }
@@ -118,8 +119,6 @@ static void load_icon_themes()
         g_free(dir_path);
     }
     g_key_file_free(kf);
-
-    app.icon_themes = g_slist_sort(app.icon_themes, (GCompareFunc)icon_theme_cmp_disp_name);
 }
 
 static void icon_sizes_init(GtkBuilder* b)

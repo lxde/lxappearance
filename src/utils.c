@@ -28,6 +28,8 @@
 #include <stdlib.h>
 #include <glib/gstdio.h>
 
+#include "icon-theme.h"
+
 static void on_pid_exit(GPid pid, gint status, gpointer user_data)
 {
     GtkDialog* dlg = GTK_DIALOG(user_data);
@@ -81,6 +83,30 @@ gboolean show_progress_for_pid(GtkWindow* parent, const char* title, const char*
     return (res == GTK_RESPONSE_OK);
 }
 
+static void insert_theme_to_models(IconTheme* theme)
+{
+    int icon_theme_pos = 0;
+    int cursor_theme_pos = 0;
+    GSList* l;
+    GtkTreeIter it;
+
+    for(l = app.icon_themes; l; l=l->next)
+    {
+        IconTheme* theme2 = (IconTheme*)l->data;
+        if(l->data == theme)
+            break;
+        if(theme2->has_icon)
+            ++icon_theme_pos;
+        if(theme2->has_cursor)
+            ++cursor_theme_pos;
+    }
+    if(theme->has_icon)
+        gtk_list_store_insert_with_values(app.icon_theme_store, &it, icon_theme_pos, 0, theme->disp_name, 1, theme, -1);
+
+    if(theme->has_cursor)
+        gtk_list_store_insert_with_values(app.cursor_theme_store, &it, cursor_theme_pos, 0, theme->disp_name, 1, theme, -1);
+}
+
 static gboolean install_icon_theme_package(const char* package_path)
 {
     GPid pid = -1;
@@ -95,6 +121,9 @@ static gboolean install_icon_theme_package(const char* package_path)
         package_path,
         NULL
     };
+
+    if(g_mkdir_with_parents(user_icons_dir, 0700) == -1)
+        return FALSE;
 
     if(!mkdtemp(tmp_dir))
         return FALSE;
@@ -117,24 +146,38 @@ static gboolean install_icon_theme_package(const char* package_path)
         if(show_progress_for_pid(app.dlg, "Install themes", "Installing...", pid))
         {
             /* move files in tmp_dir to user_icons_dir */
-            GDir* dir = g_dir_open(tmp_dir, 0, NULL);
+            GDir* dir;
+            GKeyFile* kf = g_key_file_new();
+
+            /* convert the themes in the dir to IconTheme structs and add them to app.icon_themes list */
+            load_icon_themes_from_dir(tmp_dir, kf);
+            g_key_file_free(kf);
+
+            /* now really move this themes to ~/.icons dir and also update the GUI */
+            dir = g_dir_open(tmp_dir, 0, NULL);
             if(dir)
             {
                 char* name;
                 while(name = g_dir_read_name(dir))
                 {
-                    g_debug("name = %s", name);
                     char* index_theme = g_build_filename(tmp_dir, name, "index.theme", NULL);
                     gboolean is_theme = g_file_test(index_theme, G_FILE_TEST_EXISTS);
                     g_free(index_theme);
                     if(is_theme)
                     {
                         char* theme_tmp = g_build_filename(tmp_dir, name, NULL);
-                        char* theme_target = g_build_filename(tmp_dir, name, NULL);
+                        char* theme_target = g_build_filename(user_icons_dir, name, NULL);
                         if(g_rename(theme_tmp, theme_target) == 0)
                         {
                             /* the theme is already installed to ~/.icons */
-                            /* update UI */
+                            GSList* l= g_slist_find_custom(app.icon_themes, name, (GCompareFunc)icon_theme_cmp_name);
+                            if(l)
+                            {
+                                IconTheme* theme = (IconTheme*)l->data;
+                                g_debug("installed theme: %p, %s", theme, theme->name);
+                                /* update UI */
+                                insert_theme_to_models(theme);
+                            }
                         }
                         else
                         {
@@ -145,6 +188,11 @@ static gboolean install_icon_theme_package(const char* package_path)
                     }
                 }
                 g_dir_close(dir);
+
+                /* remove remaining files. FIXME: will this cause problems? */
+                name = g_strdup_printf("rm -rf '%s'", tmp_dir);
+                g_spawn_command_line_sync(name, NULL, NULL, NULL, NULL);
+                g_free(name);
             }
         }
     }

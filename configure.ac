@@ -25,9 +25,9 @@ AC_HEADER_STDC
 # intltool
 IT_PROG_INTLTOOL([0.40.0])
 
-# PKG_CHECK_MODULES(XLIB, "x11")
-# AC_SUBST(XLIB_CFLAGS)
-# AC_SUBST(XLIB_LIBS)
+PKG_CHECK_MODULES(XLIB, "x11")
+AC_SUBST(XLIB_CFLAGS)
+AC_SUBST(XLIB_LIBS)
 
 pkg_modules="gtk+-2.0 >= 2.12.0"
 PKG_CHECK_MODULES(GTK, [$pkg_modules])
@@ -45,10 +45,10 @@ AC_SUBST(GTK_LIBS)
 # AC_SUBST(MENU_CACHE_LIBS)
 
 AC_ARG_ENABLE(debug,
-	[AC_HELP_STRING([--enable-debug],
-		[build libfm with debug support @<:@default=no@:>@])],
-	[enable_debug="${enableval}"],
-	[enable_debug=no]
+    [AC_HELP_STRING([--enable-debug],
+        [build libfm with debug support @<:@default=no@:>@])],
+    [enable_debug="${enableval}"],
+    [enable_debug=no]
 )
 if test "$enable_debug" = "yes"; then
     # turn on debug and disable optimization
