@@ -67,6 +67,8 @@ gboolean show_progress_for_pid(GtkWindow* parent, const char* title, const char*
     guint child_watch = g_child_watch_add(pid, on_pid_exit, dlg);
     guint timeout = g_timeout_add(300, on_progress_timeout, progress);
 
+    gtk_window_set_default_size(GTK_WINDOW(dlg), 240, -1);
+    gtk_box_set_spacing(vbox, 6);
     gtk_widget_show(label);
     gtk_box_pack_start(vbox, label, FALSE, TRUE, 0);
     gtk_widget_show(progress);
