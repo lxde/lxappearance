@@ -889,7 +889,7 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkButton" id="install_icon_theme1">
+                      <object class="GtkButton" id="install_cursor_theme">
                         <property name="label" translatable="yes">Install</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
@@ -902,7 +902,7 @@
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkButton" id="remove_icon_theme1">
+                      <object class="GtkButton" id="remove_cursor_theme">
                         <property name="label" translatable="yes">Remove</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
@@ -1445,9 +1445,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="close">
-                <property name="label">gtk-close</property>
+              <object class="GtkButton" id="apply">
+                <property name="label">gtk-apply</property>
                 <property name="visible">True</property>
+                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1459,10 +1460,9 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="apply">
-                <property name="label">gtk-apply</property>
+              <object class="GtkButton" id="close">
+                <property name="label">gtk-close</property>
                 <property name="visible">True</property>
-                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1484,8 +1484,8 @@
     </child>
     <action-widgets>
       <action-widget response="1">about</action-widget>
-      <action-widget response="-7">close</action-widget>
       <action-widget response="-10">apply</action-widget>
+      <action-widget response="-7">close</action-widget>
     </action-widgets>
   </object>
   <object class="GtkImage" id="image2">

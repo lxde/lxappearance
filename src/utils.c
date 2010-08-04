@@ -112,7 +112,7 @@ static void insert_theme_to_models(IconTheme* theme)
 static gboolean install_icon_theme_package(const char* package_path)
 {
     GPid pid = -1;
-    char* user_icons_dir = g_build_filename(g_get_home_dir(), ".icons", NULL);
+    const char* user_icons_dir = icon_theme_dirs[0];
     char* tmp_dir = g_build_filename(user_icons_dir, "tmp.XXXXXX", NULL);
     char* argv[]= {
         "tar",
@@ -152,7 +152,7 @@ static gboolean install_icon_theme_package(const char* package_path)
             GKeyFile* kf = g_key_file_new();
 
             /* convert the themes in the dir to IconTheme structs and add them to app.icon_themes list */
-            load_icon_themes_from_dir(tmp_dir, kf);
+            load_icon_themes_from_dir(user_icons_dir, tmp_dir, kf);
             g_key_file_free(kf);
 
             /* now really move this themes to ~/.icons dir and also update the GUI */
@@ -201,7 +201,6 @@ static gboolean install_icon_theme_package(const char* package_path)
 
 _out:
     g_free(tmp_dir);
-    g_free(user_icons_dir);
     return (pid != -1);
 }
 
@@ -233,3 +232,36 @@ gboolean install_icon_theme(GtkWindow* parent)
     return TRUE;
 }
 
+gboolean remove_icon_theme(GtkWindow* parent, IconTheme* theme)
+{
+    gboolean ret = TRUE;
+    char* dir = g_build_filename(theme->base_dir, theme->name, NULL);
+    char* tmp_dir = g_build_filename(theme->base_dir, "tmp.XXXXXX", NULL);
+g_debug("tmp_dir = %s", tmp_dir);
+    /* move the theme to a tmp dir first. so we can make the
+     * removal atomic. */
+    if(mkdtemp(tmp_dir))
+    {
+        char* tmp_dest = g_build_filename(tmp_dir, theme->name, NULL);
+        if(g_rename(dir, tmp_dest) == 0)
+        {
+            char* argv[] = {
+                "rm",
+                "-rf",
+                tmp_dir,
+                NULL
+            };
+            GPid pid;
+            if(g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH|G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL))
+            {
+                ret = show_progress_for_pid(app.dlg, "Remove icon theme", "Removing...", pid);
+            }
+        }
+        g_free(tmp_dest);
+    }
+    else
+        ret = FALSE;
+
+    g_free(dir);
+    return ret;
+}

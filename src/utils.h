@@ -23,12 +23,14 @@
 #define _UTILS_H_
 
 #include <gtk/gtk.h>
+#include "icon-theme.h"
 
 G_BEGIN_DECLS
 
 gboolean show_progress_for_pid(GtkWindow* parent, const char* title, const char* msg, GPid pid);
 
 gboolean install_icon_theme(GtkWindow* parent);
+gboolean remove_icon_theme(GtkWindow* parent, IconTheme* theme);
 
 G_END_DECLS
 

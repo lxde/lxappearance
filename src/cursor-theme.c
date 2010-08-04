@@ -82,6 +82,8 @@ static void on_cursor_theme_sel_changed(GtkTreeSelection* tree_sel, gpointer use
             update_cursor_demo();
             lxappearance_changed();
         }
+
+        gtk_widget_set_sensitive(app.cursor_theme_remove_btn, theme->is_removable);
     }
 }
 
@@ -119,4 +121,7 @@ void cursor_theme_init(GtkBuilder* b)
     app.cursor_demo_view = GTK_WIDGET(gtk_builder_get_object(b, "cursor_demo_view"));
     gtk_icon_view_set_pixbuf_column(app.cursor_demo_view, 0);
     update_cursor_demo();
+
+    /* install and remove */
+    /* this part is already done in icon-theme.c */
 }

@@ -26,17 +26,21 @@
 
 G_BEGIN_DECLS
 
+extern char** icon_theme_dirs;
+
 typedef struct
 {
     char* name;
     char* disp_name;
     char* comment;
+    const char* base_dir;
     gboolean has_icon : 1;
     gboolean has_cursor : 1;
+    gboolean is_removable : 1;
 }IconTheme;
 
 void icon_theme_init(GtkBuilder* b);
-void load_icon_themes_from_dir(const char* theme_dir, GKeyFile* kf);
+void load_icon_themes_from_dir(const char* base_dir, const char* theme_dir, GKeyFile* kf);
 
 gint icon_theme_cmp_name(IconTheme* t, const char* name);
 gint icon_theme_cmp_disp_name(IconTheme* t1, IconTheme* t2);

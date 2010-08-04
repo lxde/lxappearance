@@ -36,11 +36,13 @@ struct _LXAppearance
 
     GtkWidget* icon_theme_view;
     GtkListStore* icon_theme_store;
+    GtkWidget* icon_theme_remove_btn;
 
     GtkWidget* cursor_theme_view;
     GtkWidget* cursor_demo_view;
     GtkListStore* cursor_theme_store;
     GtkWidget* cursor_size_range;
+    GtkWidget* cursor_theme_remove_btn;
 
     GSList* icon_themes; /* a list of IconTheme struct */
 
