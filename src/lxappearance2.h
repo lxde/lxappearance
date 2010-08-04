@@ -34,6 +34,10 @@ struct _LXAppearance
     GtkListStore* widget_theme_store;
     GtkWidget* default_font_btn;
 
+    GtkWidget* color_page;
+    GHashTable* color_scheme_hash;
+    GtkWidget* color_btns[8]; /* FIXME: this value might be changed in the future */
+
     GtkWidget* icon_theme_view;
     GtkListStore* icon_theme_store;
     GtkWidget* icon_theme_remove_btn;
@@ -55,7 +59,6 @@ struct _LXAppearance
     char* cursor_theme;
     int cursor_theme_size;
     char* color_scheme;
-    char* icon_sizes;
     int toolbar_style;
     int toolbar_icon_size;
 

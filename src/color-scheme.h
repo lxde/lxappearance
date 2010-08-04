@@ -23,7 +23,7 @@
 
 G_BEGIN_DECLS
 
-void color_scheme_init();
+void color_scheme_init(GtkBuilder* b);
 void color_scheme_update();
 
 G_END_DECLS

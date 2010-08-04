@@ -35,6 +35,7 @@
 #include <string.h>
 
 #include "widget-theme.h"
+#include "color-scheme.h"
 #include "icon-theme.h"
 #include "cursor-theme.h"
 #include "other.h"
@@ -200,6 +201,9 @@ static void lxappearance_save_lxsession()
     g_key_file_set_string( kf, "GTK", "sNet/ThemeName", app.widget_theme );
     g_key_file_set_string( kf, "GTK", "sGtk/FontName", app.default_font );
 
+    if(app.color_scheme)
+        g_key_file_set_string( kf, "GTK", "sGtk/ColorScheme", app.color_scheme );
+
     g_key_file_set_string( kf, "GTK", "sNet/IconThemeName", app.icon_theme );
 
     g_key_file_set_string( kf, "GTK", "sGtk/CursorThemeName", app.cursor_theme );
@@ -330,6 +334,7 @@ int main(int argc, char** argv)
     app.dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
 
     widget_theme_init(b);
+    color_scheme_init(b);
     icon_theme_init(b);
     cursor_theme_init(b);
     other_init(b);

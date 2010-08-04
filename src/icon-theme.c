@@ -128,20 +128,6 @@ static void load_icon_themes()
     g_key_file_free(kf);
 }
 
-static void icon_sizes_init(GtkBuilder* b)
-{
-    const char* names[] = {
-        "gtk-menu",
-        "gtk-button",
-        "gtk-small-toolbar",
-        "gtk-large-toolbar",
-        "gtk-dnd",
-        "gtk-dialog"
-    };
-    char* sizes_str;
-    g_object_get(gtk_settings_get_default(), "gtk-icon-sizes", &sizes_str, NULL);
-    g_debug("%s", sizes_str);
-}
 
 static void on_icon_theme_sel_changed(GtkTreeSelection* tree_sel, gpointer user_data)
 {
@@ -315,8 +301,4 @@ void icon_theme_init(GtkBuilder* b)
         gtk_tree_model_get(app.cursor_theme_store, &cursor_theme_sel_it, 1, &theme, -1);
         gtk_widget_set_sensitive(app.cursor_theme_remove_btn, theme->is_removable);
     }
-
-    /* load "gtk-icon-sizes" */
-    /* icon_sizes_init(b); */
-
 }
