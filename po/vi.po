@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the LXApperance package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-12 01:16+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-08-02 05:37+0000\n"
+"PO-Revision-Date: 2010-08-05 18:02+0700\n"
+"Last-Translator: Tran Duy Hung <nguyentieuhau@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -18,155 +17,155 @@ msgstr ""
 
 #: ../src/main-dlg.c:650
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Chọn kiểu biểu tượng"
 
 #: ../src/main-dlg.c:657
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Kiểu Biểu tượng)"
 
 #: ../src/demo.c:56
 msgid "Column"
-msgstr ""
+msgstr "Cột"
 
 #: ../src/demo.c:65
 msgid "Item"
-msgstr ""
+msgstr "Hạng mục"
 
 #: ../data/demo.glade.h:1
 msgid "Check Button"
-msgstr ""
+msgstr "Nút Kiểm tra"
 
 #: ../data/demo.glade.h:2
 msgid "Demo"
-msgstr ""
+msgstr "Mẫu"
 
 #: ../data/demo.glade.h:3
 msgid "Radio Button"
-msgstr ""
+msgstr "Nút Lựa chọn"
 
 #: ../data/demo.glade.h:4
 msgid "Tab1"
-msgstr ""
+msgstr "Thẻ1"
 
 #: ../data/demo.glade.h:5
 msgid "Tab2"
-msgstr ""
+msgstr "Thẻ2"
 
 #: ../data/demo.glade.h:6
 msgid "Tab3"
-msgstr ""
+msgstr "Thẻ3"
 
 #: ../data/demo.glade.h:7
 msgid "Tab4"
-msgstr ""
+msgstr "Thẻ4"
 
 #: ../data/demo.glade.h:8
 msgid "Test Item 1"
-msgstr ""
+msgstr "Hạng mục Thử 1"
 
 #: ../data/demo.glade.h:9
 msgid "Test Item 2"
-msgstr ""
+msgstr "Hạng mục Thử 2"
 
 #: ../data/demo.glade.h:10
 msgid "Test Item 3"
-msgstr ""
+msgstr "Hạng mục Thử 3"
 
 #: ../data/demo.glade.h:11
 msgid "Type some characters here to test currently selected font."
-msgstr ""
+msgstr "Gõ vài ký tự ở đây để thử phông vừa chọn gần đây."
 
 #: ../data/demo.glade.h:12
 msgid "_Edit"
-msgstr ""
+msgstr "_Sửa"
 
 #: ../data/demo.glade.h:13
 msgid "_File"
-msgstr ""
+msgstr "_Tập tin"
 
 #: ../data/demo.glade.h:14
 msgid "_Help"
-msgstr ""
+msgstr "_Trợ giúp"
 
 #: ../data/demo.glade.h:15
 msgid "button"
-msgstr ""
+msgstr "nút"
 
 #: ../data/lxappearance.glade.h:1
 msgid "<b>Preview</b>"
-msgstr ""
+msgstr "<b>Xem trước</b>"
 
 #: ../data/lxappearance.glade.h:2
 msgid "Appearance Settings"
-msgstr ""
+msgstr "Thiết lập Diện mạo"
 
 #: ../data/lxappearance.glade.h:3
 msgid "Available Cursor Themes"
-msgstr ""
+msgstr "Kiểu Trỏ chuột Hiện có"
 
 #: ../data/lxappearance.glade.h:4
 msgid "Available Icon Themes"
-msgstr ""
+msgstr "Kiểm Biểu tượng Hiện có"
 
 #: ../data/lxappearance.glade.h:5
 msgid "Available Window Themes"
-msgstr ""
+msgstr "Kiểu Cửa sổ Hiện có"
 
 #: ../data/lxappearance.glade.h:6
 msgid "Cursor"
-msgstr ""
+msgstr "Trỏ chuột"
 
 #: ../data/lxappearance.glade.h:7
 msgid "Icon"
-msgstr ""
+msgstr "Biểu tượng"
 
 #: ../data/lxappearance.glade.h:8
 msgid "Icons only"
-msgstr ""
+msgstr "Chỉ hiện biểu tượng"
 
 #: ../data/lxappearance.glade.h:9
 msgid "Large"
-msgstr ""
+msgstr "Lớn"
 
 #: ../data/lxappearance.glade.h:10
 msgid "Other"
-msgstr ""
+msgstr "Khác"
 
 #: ../data/lxappearance.glade.h:11
 msgid "Size"
-msgstr ""
+msgstr "Kích thước"
 
 #: ../data/lxappearance.glade.h:12
 msgid "Small"
-msgstr ""
+msgstr "Nhỏ"
 
 #: ../data/lxappearance.glade.h:13
 msgid "Text below icons"
-msgstr ""
+msgstr "Chữ nằm dưới biểu tượng"
 
 #: ../data/lxappearance.glade.h:14
 msgid "Text beside icons"
-msgstr ""
+msgstr "chữ bên cạnh biểu tượng"
 
 #: ../data/lxappearance.glade.h:15
 msgid "Text only"
-msgstr ""
+msgstr "Chỉ hiện chữ"
 
 #: ../data/lxappearance.glade.h:16
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Kiểu dáng Thanh công cụ:"
 
 #: ../data/lxappearance.glade.h:17
 msgid "Window"
-msgstr ""
+msgstr "Cửa sổ"
 
 #: ../data/lxappearance.glade.h:18
 msgid "_Font:"
-msgstr ""
+msgstr "_Phông:"
 
 #: ../data/lxappearance.glade.h:19
 msgid "_Install"
-msgstr ""
+msgstr "_Cài đặt"
 
 #: ../lxappearance.desktop.in.h:1
 msgid "Appearance"
@@ -174,4 +173,5 @@ msgstr "Diện mạo"
 
 #: ../lxappearance.desktop.in.h:2
 msgid "Customize the look of the desktop"
-msgstr "Tùy chỉnh màn hình nền"
+msgstr "Tùy chỉnh diện mạo màn hình nền"
+
