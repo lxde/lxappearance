@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-02 05:37+0000\n"
-"PO-Revision-Date: 2010-08-05 18:02+0700\n"
+"PO-Revision-Date: 2010-08-05 19:21+0700\n"
 "Last-Translator: Tran Duy Hung <nguyentieuhau@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ msgstr "_Tập tin"
 
 #: ../data/demo.glade.h:14
 msgid "_Help"
-msgstr "_Trợ giúp"
+msgstr "Trợ _giúp"
 
 #: ../data/demo.glade.h:15
 msgid "button"
@@ -145,7 +145,7 @@ msgstr "Chữ nằm dưới biểu tượng"
 
 #: ../data/lxappearance.glade.h:14
 msgid "Text beside icons"
-msgstr "chữ bên cạnh biểu tượng"
+msgstr "Chữ bên cạnh biểu tượng"
 
 #: ../data/lxappearance.glade.h:15
 msgid "Text only"
