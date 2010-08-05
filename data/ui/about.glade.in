@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <interface>
   <!-- interface-requires gtk+ 2.12 -->
   <!-- interface-naming-policy toplevel-contextual -->
@@ -10,7 +10,7 @@
     <property name="program_name">LXAppearance</property>
     <property name="version">@VERSION@</property>
     <property name="copyright" translatable="yes">Copyright (C) 2010 LXDE Project</property>
-    <property name="comments" translatable="yes">Configures look and feels of your desktop</property>
+    <property name="comments" translatable="yes">Customizes look and feel of your desktop</property>
     <property name="website">http://lxde.org/</property>
     <property name="license">Copyright (C) 2010 LXDE Team
 
@@ -27,7 +27,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</property>
-    <property name="authors">洪任諭 Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</property>
+    <property name="authors">&#x6D2A;&#x4EFB;&#x8AED; Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</property>
     <property name="translator_credits" translatable="yes" comments="Please replace this line with your own names, one name per line. ">translator-credits</property>
     <property name="artists"></property>
     <property name="wrap_license">True</property>

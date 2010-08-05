@@ -23,8 +23,21 @@
 
 G_BEGIN_DECLS
 
+/* initialize gtk color scheme support. */
 void color_scheme_init(GtkBuilder* b);
+
+/* update the color scheme page for currently selected gtk theme.
+ * should be called when currently selected gtk theme gets changed. */
 void color_scheme_update();
+
+/* load gtk-color-scheme from gtkrc file into hash table if it's available. */
+gboolean gtkrc_file_get_color_scheme(const char* gtkrc_file, GHashTable* hash);
+
+/* convert a color scheme hash table to string */
+char* color_scheme_hash_to_str(GHashTable* hash);
+
+/* merge a color scheme string to hash table. */
+void color_scheme_str_to_hash(GHashTable* hash, const char* color_str);
 
 G_END_DECLS
 

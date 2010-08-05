@@ -123,7 +123,7 @@ static void load_icon_themes()
     for(i = 0; i < n; ++i)
     {
         load_icon_themes_from_dir(icon_theme_dirs[i], icon_theme_dirs[i], kf);
-        g_debug("icon_theme_dirs[%d] = %s", i, icon_theme_dirs[i]);
+        /* g_debug("icon_theme_dirs[%d] = %s", i, icon_theme_dirs[i]); */
     }
     g_key_file_free(kf);
 }

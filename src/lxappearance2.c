@@ -143,7 +143,8 @@ static void lxappearance_save_gtkrc()
     };
 
     char* file_path = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
-    char* content = g_strdup_printf(
+    GString* content = g_string_sized_new(512);
+    g_string_append_printf(content,
         "# DO NOT EDIT! This file will be overwritten by LXAppearance.\n"
         "# Any customization should be done in ~/.gtkrc-2.0.mine instead.\n\n"
         "gtk-theme-name=\"%s\"\n"
@@ -155,9 +156,8 @@ static void lxappearance_save_gtkrc()
         "gtk-cursor-theme-size=%d\n"
 #if GTK_CHECK_VERSION(2, 14, 0)
         "gtk-enable-event-sounds=%s\n"
-        "gtk-enable-input-feedback-sounds=%s\n"
+        "gtk-enable-input-feedback-sounds=%s\n",
 #endif
-        "include \"%s/.gtkrc-2.0.mine\"\n",
         app.widget_theme,
         app.icon_theme,
         app.default_font,
@@ -167,12 +167,25 @@ static void lxappearance_save_gtkrc()
         app.cursor_theme_size,
 #if GTK_CHECK_VERSION(2, 14, 0)
         bool2str(app.enable_event_sound),
-        bool2str(app.enable_input_feedback),
+        bool2str(app.enable_input_feedback)
 #endif
+        );
+
+    if(app.color_scheme)
+    {
+        char* escaped = g_strescape(app.color_scheme, NULL);
+        g_string_append_printf(content,
+            "gtk-color-scheme=\"\"\n",
+            escaped);
+        g_free(escaped);
+    }
+
+    g_string_append_printf(content,
+        "include \"%s/.gtkrc-2.0.mine\"\n",
         g_get_home_dir());
 
-    g_file_set_contents(file_path, content, -1, NULL);
-    g_free(content);
+    g_file_set_contents(file_path, content->str, content->len, NULL);
+    g_string_free(content, TRUE);
     g_free(file_path);
 }
 
@@ -201,8 +214,7 @@ static void lxappearance_save_lxsession()
     g_key_file_set_string( kf, "GTK", "sNet/ThemeName", app.widget_theme );
     g_key_file_set_string( kf, "GTK", "sGtk/FontName", app.default_font );
 
-    if(app.color_scheme)
-        g_key_file_set_string( kf, "GTK", "sGtk/ColorScheme", app.color_scheme );
+    g_key_file_set_string( kf, "GTK", "sGtk/ColorScheme", app.color_scheme ? app.color_scheme : "" );
 
     g_key_file_set_string( kf, "GTK", "sNet/IconThemeName", app.icon_theme );
 
@@ -298,6 +310,41 @@ static void settings_init()
             g_debug("cursor theme name: %s", app.cursor_theme);
         }
         g_key_file_free(kf);
+    }
+
+    app.color_scheme_hash = g_hash_table_new_full(g_str_hash, g_str_equal, g_free, g_free);
+    /* try to load custom color scheme if available */
+    if(app.use_lxsession)
+    {
+        char* rel_path = g_strconcat("lxsession/", lxsession_name, "/desktop.conf", NULL);
+        char* user_config_file = g_build_filename(g_get_user_config_dir(), rel_path, NULL);
+        GKeyFile* kf = g_key_file_new();
+        if(g_key_file_load_from_file(kf, user_config_file, 0, NULL))
+            app.color_scheme = g_key_file_get_string(kf, "GTK", "sGtk/ColorScheme", NULL);
+        else if(g_key_file_load_from_dirs(kf, rel_path, g_get_system_config_dirs(), NULL, 0, NULL))
+            app.color_scheme = g_key_file_get_string(kf, "GTK", "sGtk/ColorScheme", NULL);
+        g_key_file_free(kf);
+        g_free(rel_path);
+        g_free(user_config_file);
+
+        if(app.color_scheme)
+        {
+            if(*app.color_scheme)
+                color_scheme_str_to_hash(app.color_scheme_hash, app.color_scheme);
+            else
+            {
+                g_free(app.color_scheme);
+                app.color_scheme = NULL;
+            }
+        }
+    }
+    else
+    {
+        char* gtkrc_file = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
+        gtkrc_file_get_color_scheme(gtkrc_file, app.color_scheme_hash);
+        g_free(gtkrc_file);
+        if(g_hash_table_size(app.color_scheme_hash) > 0)
+            app.color_scheme = color_scheme_hash_to_str(app.color_scheme_hash);
     }
 }
 
