@@ -99,7 +99,7 @@ static void update_color_buttons()
     {
         GtkWidget* btn = app.color_btns[i];
         const char* color_name = gnome_color_names[i];
-        const char* color_str = (const char*)g_hash_table_lookup(app.color_scheme_hash, color_name);
+        const char* color_str = (const char*)g_hash_table_lookup(hash, color_name);
         /* g_debug("%s ='%s'", gnome_color_names[i], color_str); */
         if(color_str)
         {
@@ -146,7 +146,7 @@ static void on_custom_color_toggled(GtkToggleButton* btn, gpointer user_data)
         /* restore default colors */
         app.color_scheme = NULL;
         g_hash_table_remove_all(app.color_scheme_hash);
-        if(app.default_color_scheme_hash)
+        if(g_hash_table_size(app.default_color_scheme_hash) > 0)
             color_scheme_str = color_scheme_hash_to_str(app.default_color_scheme_hash);
         else
             color_scheme_str = g_strdup("");
@@ -272,6 +272,15 @@ void color_scheme_update()
         gtk_widget_set_sensitive(app.custom_colors, TRUE);
         gtk_widget_set_sensitive(app.color_table, app.color_scheme != NULL);
         gtk_widget_hide(app.no_custom_colors);
+
+        /* if customized color scheme is not used,
+         * use default colors of the theme. */
+        if(!app.color_scheme)
+        {
+            char* color_scheme_str = color_scheme_hash_to_str(app.default_color_scheme_hash);
+            g_object_set(gtk_settings_get_default(), "gtk-color-scheme", color_scheme_str, NULL);
+            g_free(color_scheme_str);
+        }
     }
     else
     {
