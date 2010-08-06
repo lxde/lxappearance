@@ -29,10 +29,15 @@ PKG_CHECK_MODULES(XLIB, "x11")
 AC_SUBST(XLIB_CFLAGS)
 AC_SUBST(XLIB_LIBS)
 
-pkg_modules="gtk+-2.0 >= 2.12.0"
-PKG_CHECK_MODULES(GTK, [$pkg_modules])
+gtk_modules="gtk+-2.0 >= 2.12.0"
+PKG_CHECK_MODULES(GTK, [$gtk_modules])
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)
+
+gmodule_modules="gmodule-export-2.0"
+PKG_CHECK_MODULES(GMODULE, [$gmodule_modules])
+AC_SUBST(GMODULE_CFLAGS)
+AC_SUBST(GMODULE_LIBS)
 
 # gio_modules="gthread-2.0 gio-unix-2.0 glib-2.0 >= 2.18.0"
 # PKG_CHECK_MODULES(GIO, [$gio_modules])
@@ -79,6 +84,7 @@ AC_CONFIG_FILES([
     data/Makefile
     data/ui/Makefile
     data/ui/about.glade
+    data/lxappearance.pc
     po/Makefile.in
 ])
 

@@ -39,6 +39,7 @@
 #include "icon-theme.h"
 #include "cursor-theme.h"
 #include "other.h"
+#include "plugin.h"
 
 LXAppearance app = {0};
 
@@ -401,12 +402,19 @@ int main(int argc, char** argv)
     cursor_theme_init(b);
     other_init(b);
 
+    plugins_init(b);
+
+    /* the page for window manager plugins */
+    app.wm_page = GTK_WIDGET(gtk_builder_get_object(b, "wm_page"));
+
     g_signal_connect(app.dlg, "response", G_CALLBACK(on_dlg_response), NULL);
 
     gtk_window_present(GTK_WINDOW(app.dlg));
     g_object_unref(b);
 
     gtk_main();
+
+    plugins_finalize();
 
     return 0;
 }

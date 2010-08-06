@@ -4,6 +4,9 @@ SUBDIRS= \
 	ui \
 	$(NULL)
 
+pkgconfigdir   = $(libdir)/pkgconfig
+pkgconfig_DATA = lxappearance.pc
+
 desktopdir=$(datadir)/applications
 desktop_in_files = \
 	lxappearance.desktop.in \

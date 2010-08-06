@@ -4,8 +4,12 @@ AM_CPPFLAGS = \
 	-I$(srcdir) \
 	-DPACKAGE_DATA_DIR=\""$(datadir)/lxappearance"\" \
 	-DPACKAGE_UI_DIR=\""$(datadir)/lxappearance/ui"\" \
+	-DPACKAGE_LIB_DIR=\""$(libdir)"\" \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	$(NULL)
+
+lxappearance_includedir = $(includedir)/lxappearance
+lxappearance_include_HEADERS = lxappearance.h
 
 bin_PROGRAMS = lxappearance
 lxappearance_SOURCES = \
@@ -23,15 +27,19 @@ lxappearance_SOURCES = \
 	other.h \
 	utils.c \
 	utils.h \
+	plugin.c \
+	plugin.h \
 	$(NULL)
 
 lxappearance_CFLAGS = \
 	$(GTK_CFLAGS) \
+	$(GMODULE_CFLAGS) \
 	-Werror-implicit-function-declaration \
 	$(NULL)
 
 lxappearance_LDADD = \
 	$(GTK_LIBS) \
+	$(GMODULE_LIBS) \
 	$(INTLLIBS) \
 	$(NULL)
 

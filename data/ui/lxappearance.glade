@@ -1277,7 +1277,9 @@
               </packing>
             </child>
             <child>
-              <object class="GtkVBox" id="vbox8">
+              <object class="GtkVBox" id="wm_page">
+                <property name="border_width">12</property>
+                <property name="spacing">18</property>
                 <child>
                   <placeholder/>
                 </child>

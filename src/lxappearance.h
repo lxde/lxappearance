@@ -66,6 +66,9 @@ struct _LXAppearance
     GtkWidget* button_images_check;
     GtkWidget* menu_images_check;
 
+    /* the page for window manager plugins */
+    GtkWidget* wm_page;
+
     char* widget_theme;
     char* default_font;
     char* icon_theme;
