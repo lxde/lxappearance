@@ -154,6 +154,8 @@ static void lxappearance_save_gtkrc()
         "gtk-toolbar-icon-size=%s\n"
         "gtk-cursor-theme-name=\"%s\"\n"
         "gtk-cursor-theme-size=%d\n"
+        "gtk-button-images=%s\n"
+        "gtk-menu-images=%s\n"
 #if GTK_CHECK_VERSION(2, 14, 0)
         "gtk-enable-event-sounds=%s\n"
         "gtk-enable-input-feedback-sounds=%s\n",
@@ -165,6 +167,8 @@ static void lxappearance_save_gtkrc()
         tb_icon_sizes[app.toolbar_icon_size],
         app.cursor_theme,
         app.cursor_theme_size,
+        bool2str(app.button_images),
+        bool2str(app.menu_images),
 #if GTK_CHECK_VERSION(2, 14, 0)
         bool2str(app.enable_event_sound),
         bool2str(app.enable_input_feedback)
@@ -225,10 +229,13 @@ static void lxappearance_save_lxsession()
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", app.toolbar_style );
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarIconSize", app.toolbar_icon_size );
 
-#if GTK_CHECK_VERSION(2, 14, 0)
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarStyle", app.toolbar_style );
     g_key_file_set_integer( kf, "GTK", "iGtk/ToolbarIconSize", app.toolbar_icon_size );
 
+    g_key_file_set_integer( kf, "GTK", "iGtk/ButtonImages", app.button_images );
+    g_key_file_set_integer( kf, "GTK", "iGtk/MenuImages", app.menu_images );
+
+#if GTK_CHECK_VERSION(2, 14, 0)
     /* "Net/SoundThemeName\0"      "gtk-sound-theme-name\0" */
     g_key_file_set_integer( kf, "GTK", "iNet/EnableEventSounds", app.enable_event_sound);
     g_key_file_set_integer( kf, "GTK", "iNet/EnableInputFeedbackSounds", app.enable_input_feedback);
@@ -286,6 +293,8 @@ static void settings_init()
                 "gtk-cursor-theme-size", &app.cursor_theme_size,
                 "gtk-toolbar-style", &app.toolbar_style,
                 "gtk-toolbar-icon-size", &app.toolbar_icon_size,
+                "gtk-button-images", &app.button_images,
+                "gtk-menu-images", &app.menu_images,
 #if GTK_CHECK_VERSION(2, 14, 0)
                 "gtk-enable-event-sounds", &app.enable_event_sound,
                 "gtk-enable-input-feedback-sounds", &app.enable_input_feedback,
@@ -370,13 +379,19 @@ int main(int argc, char** argv)
     /* check if we're under LXSession */
     check_lxsession();
 
-    /* load config values */
-    settings_init();
-
     /* create GUI here */
     b = gtk_builder_new();
     if(!gtk_builder_add_from_file(b, PACKAGE_UI_DIR "/lxappearance.ui", NULL))
         return 1;
+
+    /* NOTE: GUI must be created prior to loading settings from GtkSettings object.
+     * Some properties of GtkSettings class are installed by some other gtk classes.
+     * For example, "gtk-menu-images" property is actually installed by initialization
+     * of GtkImageMenuItem class. If we load the GUI first, then when the menu items
+     * are created, this property gets correctly registered. So later it can be read. */
+
+    /* load config values */
+    settings_init();
 
     app.dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
 

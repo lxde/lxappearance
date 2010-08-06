@@ -58,6 +58,14 @@ void other_init(GtkBuilder* b)
     gtk_combo_box_set_active(GTK_COMBO_BOX(app.tb_icon_size_combo), idx);
     g_signal_connect(app.tb_icon_size_combo, "changed", G_CALLBACK(on_tb_icon_size_changed), NULL);
 
+    app.button_images_check = GTK_WIDGET(gtk_builder_get_object(b, "button_images"));
+    gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(app.button_images_check), app.button_images);
+    g_signal_connect(app.button_images_check, "toggled", G_CALLBACK(on_check_button_toggled), &app.button_images);
+
+    app.menu_images_check = GTK_WIDGET(gtk_builder_get_object(b, "menu_images"));
+    gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(app.menu_images_check), app.menu_images);
+    g_signal_connect(app.menu_images_check, "toggled", G_CALLBACK(on_check_button_toggled), &app.menu_images);
+
 #if GTK_CHECK_VERSION(2, 14, 0)
     app.event_sound_check = GTK_WIDGET(gtk_builder_get_object(b, "event_sound"));
     gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(app.event_sound_check), app.enable_event_sound);

@@ -63,6 +63,9 @@ struct _LXAppearance
     GtkWidget* tb_style_combo;
     GtkWidget* tb_icon_size_combo;
 
+    GtkWidget* button_images_check;
+    GtkWidget* menu_images_check;
+
     char* widget_theme;
     char* default_font;
     char* icon_theme;
@@ -71,6 +74,9 @@ struct _LXAppearance
     char* color_scheme;
     int toolbar_style;
     int toolbar_icon_size;
+
+    gboolean button_images;
+    gboolean menu_images;
 
 #if GTK_CHECK_VERSION(2, 14, 0)
     GtkWidget* event_sound_check;
