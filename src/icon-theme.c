@@ -20,7 +20,7 @@
  */
 
 #include "icon-theme.h"
-#include "lxappearance2.h"
+#include "lxappearance.h"
 #include <string.h>
 #include <unistd.h>
 #include "utils.h"

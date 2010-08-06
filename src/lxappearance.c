@@ -1,5 +1,5 @@
 /*
- *      lxappearance2.c
+ *      lxappearance.c
  *
  *      Copyright 2010 PCMan <pcman.tw@gmail.com>
  *
@@ -23,7 +23,7 @@
 #include <config.h>
 #endif
 
-#include "lxappearance2.h"
+#include "lxappearance.h"
 
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>

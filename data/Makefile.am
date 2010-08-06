@@ -6,7 +6,7 @@ SUBDIRS= \
 
 desktopdir=$(datadir)/applications
 desktop_in_files = \
-	lxappearance2.desktop.in \
+	lxappearance.desktop.in \
 	$(NULL)
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@

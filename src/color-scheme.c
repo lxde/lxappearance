@@ -17,7 +17,7 @@
 //      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 //      MA 02110-1301, USA.
 
-#include "lxappearance2.h"
+#include "lxappearance.h"
 #include "color-scheme.h"
 #include <string.h>
 

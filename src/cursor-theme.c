@@ -21,7 +21,7 @@
 
 #include "cursor-theme.h"
 #include "icon-theme.h"
-#include "lxappearance2.h"
+#include "lxappearance.h"
 #include <gdk/gdkx.h>
 
 static void update_cursor_demo()

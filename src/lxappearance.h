@@ -1,5 +1,5 @@
 /*
- *      lxappearance2.h
+ *      lxappearance.h
  *
  *      Copyright 2010 PCMan <pcman.tw@gmail.com>
  *
@@ -19,8 +19,8 @@
  *      MA 02110-1301, USA.
  */
 
-#ifndef _LXAPPEARANCE2_H_
-#define _LXAPPEARANCE2_H_
+#ifndef _LXAPPEARANCE_H_
+#define _LXAPPEARANCE_H_
 
 #include <gtk/gtk.h>
 

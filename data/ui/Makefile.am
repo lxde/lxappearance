@@ -1,7 +1,7 @@
 NULL=
 
 # GtkBuilder UI definition files
-uidir=$(datadir)/lxappearance2/ui
+uidir=$(datadir)/lxappearance/ui
 ui_in_files= \
 	about.glade \
 	lxappearance.glade \

@@ -18,7 +18,7 @@
 //      MA 02110-1301, USA.
 
 
-#include "lxappearance2.h"
+#include "lxappearance.h"
 #include "other.h"
 #include <glib/gi18n.h>
 

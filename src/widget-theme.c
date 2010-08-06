@@ -19,7 +19,7 @@
  *      MA 02110-1301, USA.
  */
 
-#include "lxappearance2.h"
+#include "lxappearance.h"
 #include "widget-theme.h"
 #include "color-scheme.h"
 #include <string.h>

@@ -4,6 +4,6 @@ _Name=Customize Look and Feel
 _GenericName=Customize Look and Feel
 _Comment=Customizes look and feel of your desktop and applications
 Icon=preferences-desktop-theme
-Exec=lxappearance2
+Exec=lxappearance
 StartupNotify=true
 Categories=Settings;DesktopSettings;GTK;X-LXDE-Settings;

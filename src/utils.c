@@ -20,7 +20,7 @@
  */
 
 #include "utils.h"
-#include "lxappearance2.h"
+#include "lxappearance.h"
 #include <glib/gi18n.h>
 #include <sys/types.h>
 #include <signal.h>

@@ -1,10 +1,10 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-prog_name = lxappearance2
+prog_name = lxappearance
 
 AC_PREREQ([2.63])
-AC_INIT([lxappearance2], [0.2.0], [http://lxde.org/])
+AC_INIT([lxappearance], [0.2.0], [http://lxde.org/])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
 AC_CONFIG_HEADERS([config.h])
@@ -68,7 +68,7 @@ do
     echo $lang >> $srcdir/po/LINGUAS
 done
 
-GETTEXT_PACKAGE=lxappearance2
+GETTEXT_PACKAGE="$prog_name"
 AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
@@ -94,7 +94,7 @@ if test x"$sysconfdir" != x'/etc'; then
     echo
 else
     echo
-    echo lxappearance2....................... : Version $VERSION
+    echo lxappearance....................... : Version $VERSION
     echo
     echo Enable debug....................: "$enable_debug"
     echo Prefix..........................: $prefix
@@ -103,6 +103,6 @@ else
     echo
     echo http://lxde.org/
     echo
-    echo "Ready to make lxappearance2. Type 'make' to continue."
+    echo "Ready to make lxappearance. Type 'make' to continue."
     echo
 fi

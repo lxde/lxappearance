@@ -2,15 +2,15 @@ NULL=
 
 AM_CPPFLAGS = \
 	-I$(srcdir) \
-	-DPACKAGE_DATA_DIR=\""$(datadir)/lxappearance2"\" \
-	-DPACKAGE_UI_DIR=\""$(datadir)/lxappearance2/ui"\" \
+	-DPACKAGE_DATA_DIR=\""$(datadir)/lxappearance"\" \
+	-DPACKAGE_UI_DIR=\""$(datadir)/lxappearance/ui"\" \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	$(NULL)
 
-bin_PROGRAMS = lxappearance2
-lxappearance2_SOURCES = \
-	lxappearance2.c \
-	lxappearance2.h \
+bin_PROGRAMS = lxappearance
+lxappearance_SOURCES = \
+	lxappearance.c \
+	lxappearance.h \
 	widget-theme.c \
 	widget-theme.h \
 	color-scheme.c \
@@ -25,12 +25,12 @@ lxappearance2_SOURCES = \
 	utils.h \
 	$(NULL)
 
-lxappearance2_CFLAGS = \
+lxappearance_CFLAGS = \
 	$(GTK_CFLAGS) \
 	-Werror-implicit-function-declaration \
 	$(NULL)
 
-lxappearance2_LDADD = \
+lxappearance_LDADD = \
 	$(GTK_LIBS) \
 	$(INTLLIBS) \
 	$(NULL)
