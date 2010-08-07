@@ -24,9 +24,12 @@
 
 #include <gtk/gtk.h>
 
+#define LXAPPEARANCE_ABI_VERSION    1
+
 typedef struct _LXAppearance    LXAppearance;
 struct _LXAppearance
 {
+    guint32 abi_version;
     GtkWidget* dlg;
     GtkWidget* notebook;
 

@@ -378,6 +378,8 @@ int main(int argc, char** argv)
         return 1;
     }
 
+    app.abi_version = LXAPPEARANCE_ABI_VERSION;
+
     /* check if we're under LXSession */
     check_lxsession();
 
