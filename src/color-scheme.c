@@ -107,9 +107,9 @@ static void update_color_buttons()
             if(gdk_color_parse(color_str, &clr))
             {
                 /* prevent invoking color-set handlers here. */
-                g_signal_handlers_block_by_func(btn, on_color_set, color_name);
+                g_signal_handlers_block_by_func(btn, on_color_set, (gpointer)color_name);
                 gtk_color_button_set_color(GTK_COLOR_BUTTON(btn), &clr);
-                g_signal_handlers_unblock_by_func(btn, on_color_set, color_name);
+                g_signal_handlers_unblock_by_func(btn, on_color_set, (gpointer)color_name);
             }
             gtk_widget_set_sensitive(btn, TRUE);
         }
@@ -188,7 +188,7 @@ void color_scheme_init(GtkBuilder* b)
     color_scheme_update();
 
     for(i = 0; i < 8; ++i)
-        g_signal_connect(app.color_btns[i], "color-set", G_CALLBACK(on_color_set), gnome_color_names[i]);
+        g_signal_connect(app.color_btns[i], "color-set", G_CALLBACK(on_color_set), (gpointer)gnome_color_names[i]);
 }
 
 /* return FALSE when the gtkrc file does not exists. */

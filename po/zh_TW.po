@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-08 00:42+0800\n"
-"PO-Revision-Date: 2010-08-08 00:45+0800\n"
+"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"PO-Revision-Date: 2010-08-08 01:59+0800\n"
 "Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
 "Language-Team: zh_TW <zh@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgstr "正常視窗："
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Other"
-msgstr "其他："
+msgstr "其他"
 
 #: ../data/ui/lxappearance.glade.h:20
 msgid "Page1"
@@ -125,118 +125,122 @@ msgid "Play event sounds"
 msgstr "播放事件音效"
 
 #: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "預覽選取的滑鼠游標佈景主題"
+
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected icon theme"
 msgstr "預覽選取的圖示佈景主題"
 
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected widget style"
 msgstr "預覽選取的視窗元件佈景主題"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
 msgstr "Radio 按鈕"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Remove"
 msgstr "移除"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Same as buttons"
 msgstr "和按鈕相同"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Same as dialogs"
 msgstr "和對話框相同"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Same as drag icons"
 msgstr "和滑鼠拖放時相同"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.glade.h:31
 msgid "Same as menu items"
 msgstr "和選單項目相同"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.glade.h:32
 msgid "Selected items:"
 msgstr "選取的項目："
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Show images in menus"
 msgstr "在選單中顯示圖示"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Show images on buttons"
 msgstr "在按鈕上顯示圖示"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.glade.h:35
 msgid "Size of cursors"
 msgstr "游標大小"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.glade.h:36
 msgid "Small toolbar icon"
 msgstr "小型工具列圖示"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Smaller"
 msgstr "較小"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.glade.h:38
 msgid "Text below icons"
 msgstr "文字在圖示下方"
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.glade.h:39
 msgid "Text beside icons"
 msgstr "文字在圖示旁"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.glade.h:40
 msgid "Text only"
 msgstr "只有文字"
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
 msgstr "文字視窗："
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
 msgstr "工具列圖示大小："
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
 msgstr "工具列風格："
 
-#: ../data/ui/lxappearance.glade.h:43
+#: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
 msgstr "工具提示："
 
-#: ../data/ui/lxappearance.glade.h:44
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Use customized color scheme"
 msgstr "使用自訂的色彩"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
 msgstr "圖形元件"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
 msgstr "視窗邊框"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.glade.h:48
 msgid "_Edit"
 msgstr "編輯(_E)"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.glade.h:49
 msgid "_File"
 msgstr "檔案(_F)"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.glade.h:50
 msgid "_Help"
 msgstr "說明(_H)"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.glade.h:51
 msgid "button"
 msgstr "按鈕"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.glade.h:52
 msgid "play event sounds as feedback to user input"
 msgstr "使用者輸入時播放回饋音效"
 

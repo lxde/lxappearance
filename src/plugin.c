@@ -43,7 +43,7 @@ static GSList* plugins = NULL;
 void plugins_init(GtkBuilder* builder)
 {
     GDir* dir = g_dir_open(PLUGIN_DIR, 0, NULL);
-    char* name;
+    const char* name;
     if(!dir)
         return;
     while(name = g_dir_read_name(dir))
@@ -58,14 +58,14 @@ void plugins_init(GtkBuilder* builder)
                 PluginLoadFunc load;
                 gboolean loaded = FALSE;
                 g_debug("module: %s", g_module_name(mod));
-                if(g_module_symbol(mod, "plugin_load", &load))
+                if(g_module_symbol(mod, "plugin_load", (gpointer*)&load))
                     loaded = load(&app, builder);
                 if(loaded)
                 {
                     Plugin* plugin = g_slice_new0(Plugin);
                     plugin->module = mod;
                     plugin->load = load;
-                    g_module_symbol(mod, "plugin_unload", &plugin->unload);
+                    g_module_symbol(mod, "plugin_unload", (gpointer*)&plugin->unload);
                     plugins = g_slist_prepend(plugins, plugin);
                 }
                 else

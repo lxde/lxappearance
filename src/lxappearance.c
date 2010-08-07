@@ -211,7 +211,8 @@ static void lxappearance_save_lxsession()
         g_mkdir_with_parents(user_config_file, 0700);
         user_config_file[len] = '/';
 
-        g_key_file_load_from_dirs(kf, rel_path, g_get_system_config_dirs(), NULL, G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL);
+        g_key_file_load_from_dirs(kf, rel_path, (const char**)g_get_system_config_dirs(), NULL,
+                                  G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL);
     }
 
     g_free(rel_path);
@@ -264,7 +265,7 @@ static void on_dlg_response(GtkDialog* dlg, int res, gpointer user_data)
         reload_all_programs();
 
         app.changed = FALSE;
-        gtk_dialog_set_response_sensitive(app.dlg, GTK_RESPONSE_APPLY, FALSE);
+        gtk_dialog_set_response_sensitive(GTK_DIALOG(app.dlg), GTK_RESPONSE_APPLY, FALSE);
         break;
     case 1: /* about dialog */
         {
@@ -272,7 +273,7 @@ static void on_dlg_response(GtkDialog* dlg, int res, gpointer user_data)
             if(gtk_builder_add_from_file(b, PACKAGE_UI_DIR "/about.ui", NULL))
             {
                 GtkWidget* dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
-                gtk_dialog_run(dlg);
+                gtk_dialog_run(GTK_DIALOG(dlg));
                 gtk_widget_destroy(dlg);
             }
             g_object_unref(b);
@@ -331,7 +332,7 @@ static void settings_init()
         GKeyFile* kf = g_key_file_new();
         if(g_key_file_load_from_file(kf, user_config_file, 0, NULL))
             app.color_scheme = g_key_file_get_string(kf, "GTK", "sGtk/ColorScheme", NULL);
-        else if(g_key_file_load_from_dirs(kf, rel_path, g_get_system_config_dirs(), NULL, 0, NULL))
+        else if(g_key_file_load_from_dirs(kf, rel_path, (const char**)g_get_system_config_dirs(), NULL, 0, NULL))
             app.color_scheme = g_key_file_get_string(kf, "GTK", "sGtk/ColorScheme", NULL);
         g_key_file_free(kf);
         g_free(rel_path);
@@ -426,6 +427,6 @@ void lxappearance_changed()
     if(!app.changed)
     {
         app.changed = TRUE;
-        gtk_dialog_set_response_sensitive(app.dlg, GTK_RESPONSE_APPLY, TRUE);
+        gtk_dialog_set_response_sensitive(GTK_DIALOG(app.dlg), GTK_RESPONSE_APPLY, TRUE);
     }
 }

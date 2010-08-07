@@ -61,22 +61,22 @@ gboolean show_progress_for_pid(GtkWindow* parent, const char* title, const char*
                             GTK_DIALOG_NO_SEPARATOR|GTK_DIALOG_MODAL,
                             GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL);
     GtkWidget* progress = gtk_progress_bar_new();
-    GtkWidget* vbox = gtk_dialog_get_content_area(dlg);
+    GtkWidget* vbox = gtk_dialog_get_content_area(GTK_DIALOG(dlg));
     GtkWidget* label = gtk_label_new(msg);
 
     guint child_watch = g_child_watch_add(pid, on_pid_exit, dlg);
-    guint timeout = g_timeout_add(300, on_progress_timeout, progress);
+    guint timeout = g_timeout_add(300, (GSourceFunc)on_progress_timeout, progress);
 
     gtk_window_set_default_size(GTK_WINDOW(dlg), 240, -1);
-    gtk_box_set_spacing(vbox, 6);
+    gtk_box_set_spacing(GTK_BOX(vbox), 6);
     gtk_widget_show(label);
-    gtk_box_pack_start(vbox, label, FALSE, TRUE, 0);
+    gtk_box_pack_start(GTK_BOX(vbox), label, FALSE, TRUE, 0);
     gtk_widget_show(progress);
-    gtk_box_pack_start(vbox, progress, FALSE, TRUE, 0);
-    gtk_progress_set_activity_mode(progress, TRUE);
+    gtk_box_pack_start(GTK_BOX(vbox), progress, FALSE, TRUE, 0);
+    gtk_progress_set_activity_mode(GTK_PROGRESS(progress), TRUE);
     g_signal_connect(dlg, "response", G_CALLBACK(on_progress_dlg_response), &pid);
 
-    res = gtk_dialog_run(dlg);
+    res = gtk_dialog_run(GTK_DIALOG(dlg));
 
     g_source_remove(child_watch);
     g_source_remove(timeout);
@@ -120,7 +120,7 @@ static gboolean install_icon_theme_package(const char* package_path)
         "-C",
         tmp_dir,
         "-xf",
-        package_path,
+        (char*)package_path,
         NULL
     };
 
@@ -145,7 +145,7 @@ static gboolean install_icon_theme_package(const char* package_path)
     {
         g_debug("pid = %d", pid);
         /* show progress UI for this pid */
-        if(show_progress_for_pid(app.dlg, "Install themes", "Installing...", pid))
+        if(show_progress_for_pid(GTK_WINDOW(app.dlg), "Install themes", "Installing...", pid))
         {
             /* move files in tmp_dir to user_icons_dir */
             GDir* dir;
@@ -160,7 +160,7 @@ static gboolean install_icon_theme_package(const char* package_path)
             if(dir)
             {
                 char* name;
-                while(name = g_dir_read_name(dir))
+                while(name = (char*)g_dir_read_name(dir))
                 {
                     char* index_theme = g_build_filename(tmp_dir, name, "index.theme", NULL);
                     gboolean is_theme = g_file_test(index_theme, G_FILE_TEST_EXISTS);
@@ -213,7 +213,7 @@ gboolean install_icon_theme(GtkWindow* parent)
                                         GTK_FILE_CHOOSER_ACTION_OPEN,
                                         GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL,
                                         GTK_STOCK_OPEN, GTK_RESPONSE_OK, NULL );
-    gtk_window_set_transient_for(fc, app.dlg);
+    gtk_window_set_transient_for(GTK_WINDOW(fc), GTK_WINDOW(app.dlg));
     gtk_file_filter_add_pattern( filter, "*.tar.gz" );
     gtk_file_filter_add_pattern( filter, "*.tar.bz2" );
     gtk_file_filter_set_name( filter, _("*.tar.gz, *.tar.bz2 (Icon Theme)") );
@@ -254,7 +254,7 @@ g_debug("tmp_dir = %s", tmp_dir);
             GPid pid;
             if(g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH|G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL))
             {
-                ret = show_progress_for_pid(app.dlg, "Remove icon theme", "Removing...", pid);
+                ret = show_progress_for_pid(GTK_WINDOW(app.dlg), "Remove icon theme", "Removing...", pid);
             }
         }
         g_free(tmp_dest);

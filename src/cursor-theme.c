@@ -47,7 +47,7 @@ static void update_cursor_demo()
         gtk_list_store_insert_with_values(store, &it, -1, 0, pix, -1);
         g_object_unref(pix);
     }
-    gtk_icon_view_set_model(app.cursor_demo_view, GTK_TREE_MODEL(store));
+    gtk_icon_view_set_model(GTK_ICON_VIEW(app.cursor_demo_view), GTK_TREE_MODEL(store));
     g_object_unref(store);
 
     /* gtk+ programs should reload named cursors correctly.
@@ -103,7 +103,7 @@ static void on_cursor_theme_size_changed(GtkRange* range, gpointer user_data)
 void cursor_theme_init(GtkBuilder* b)
 {
     int max_cursor_w, max_cursor_h, max_size;
-    GtkTreeSelection* sel = gtk_tree_view_get_selection(app.cursor_theme_view);
+    GtkTreeSelection* sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(app.cursor_theme_view));
     /* treeview and model are already set up in icon_theme_init() */
     g_signal_connect(sel, "changed", G_CALLBACK(on_cursor_theme_sel_changed), NULL);
 
@@ -111,15 +111,15 @@ void cursor_theme_init(GtkBuilder* b)
     max_size = MAX(max_cursor_w, max_cursor_h);
 
     /* FIXME: this isn't fully working... */
-    app.cursor_size_range = GTK_RANGE(gtk_builder_get_object(b, "cursor_size"));
+    app.cursor_size_range = GTK_WIDGET(gtk_builder_get_object(b, "cursor_size"));
     if(max_size < 128)
-        gtk_range_set_range(app.cursor_size_range, 1, max_size + 10); /* 10 is page size */
-    gtk_range_set_value(app.cursor_size_range, app.cursor_theme_size);
+        gtk_range_set_range(GTK_RANGE(app.cursor_size_range), 1, max_size + 10); /* 10 is page size */
+    gtk_range_set_value(GTK_RANGE(app.cursor_size_range), app.cursor_theme_size);
     g_signal_connect(app.cursor_size_range, "value-changed", G_CALLBACK(on_cursor_theme_size_changed), NULL);
 
     /* set up demo for cursors */
     app.cursor_demo_view = GTK_WIDGET(gtk_builder_get_object(b, "cursor_demo_view"));
-    gtk_icon_view_set_pixbuf_column(app.cursor_demo_view, 0);
+    gtk_icon_view_set_pixbuf_column(GTK_ICON_VIEW(app.cursor_demo_view), 0);
     update_cursor_demo();
 
     /* install and remove */

@@ -152,7 +152,7 @@ static void on_icon_theme_sel_changed(GtkTreeSelection* tree_sel, gpointer user_
 
 static void on_install_theme_clicked(GtkButton* btn, gpointer user_data)
 {
-    install_icon_theme(gtk_widget_get_toplevel(btn));
+    install_icon_theme(GTK_WINDOW(gtk_widget_get_toplevel(GTK_WIDGET(btn))));
 }
 
 static void on_remove_theme_clicked(GtkButton* btn, gpointer user_data)
@@ -162,10 +162,10 @@ static void on_remove_theme_clicked(GtkButton* btn, gpointer user_data)
     GtkTreeModel* model;
     GtkTreeIter it;
 
-    if(btn == app.icon_theme_remove_btn) /* remove icon theme */
-        sel = gtk_tree_view_get_selection(app.icon_theme_view);
-    else if(btn == app.cursor_theme_remove_btn) /* remove cursor theme */
-        sel = gtk_tree_view_get_selection(app.cursor_theme_view);
+    if(btn == (GtkButton*)app.icon_theme_remove_btn) /* remove icon theme */
+        sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(app.icon_theme_view));
+    else if(btn == (GtkButton*)app.cursor_theme_remove_btn) /* remove cursor theme */
+        sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(app.cursor_theme_view));
     else
         return;
 
@@ -182,7 +182,7 @@ static void on_remove_theme_clicked(GtkButton* btn, gpointer user_data)
         }
 
         gtk_tree_model_get(model, &it, 1, &theme, -1);
-        if(remove_icon_theme(gtk_widget_get_toplevel(btn), theme))
+        if(remove_icon_theme(GTK_WINDOW(gtk_widget_get_toplevel(GTK_WIDGET(btn))), theme))
         {
             gtk_list_store_remove(GTK_LIST_STORE(model), &it);
 
@@ -193,7 +193,7 @@ static void on_remove_theme_clicked(GtkButton* btn, gpointer user_data)
             /* FIXME: in rare case, a theme can contain both icons and cursors */
             if(both) /* we need to remove item in another list store, too */
             {
-                model = (model == app.icon_theme_store ? app.cursor_theme_store : app.icon_theme_store);
+                model = GTK_TREE_MODEL(model == (GtkTreeModel*)app.icon_theme_store ? app.cursor_theme_store : app.icon_theme_store);
                 /* find the item in another store */
                 if(gtk_tree_model_get_iter_first(model, &it))
                 {
@@ -273,32 +273,32 @@ void icon_theme_init(GtkBuilder* b)
     }
 
     /* select the currently used theme from the list */
-    gtk_tree_view_set_model(app.icon_theme_view, GTK_TREE_MODEL(app.icon_theme_store));
-    sel = gtk_tree_view_get_selection(app.icon_theme_view);
+    gtk_tree_view_set_model(GTK_TREE_VIEW(app.icon_theme_view), GTK_TREE_MODEL(app.icon_theme_store));
+    sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(app.icon_theme_view));
     if(icon_theme_sel_it.user_data)
     {
         IconTheme* theme;
         GtkTreePath* tp = gtk_tree_model_get_path(GTK_TREE_MODEL(app.icon_theme_store), &icon_theme_sel_it);
         gtk_tree_selection_select_iter(sel, &icon_theme_sel_it);
-        gtk_tree_view_scroll_to_cell(app.icon_theme_view, tp, NULL, FALSE, 0, 0);
+        gtk_tree_view_scroll_to_cell(GTK_TREE_VIEW(app.icon_theme_view), tp, NULL, FALSE, 0, 0);
         gtk_tree_path_free(tp);
 
-        gtk_tree_model_get(app.icon_theme_store, &icon_theme_sel_it, 1, &theme, -1);
+        gtk_tree_model_get(GTK_TREE_MODEL(app.icon_theme_store), &icon_theme_sel_it, 1, &theme, -1);
         gtk_widget_set_sensitive(app.icon_theme_remove_btn, theme->is_removable);
     }
     g_signal_connect(sel, "changed", G_CALLBACK(on_icon_theme_sel_changed), NULL);
 
-    gtk_tree_view_set_model(app.cursor_theme_view, GTK_TREE_MODEL(app.cursor_theme_store));
-    sel = gtk_tree_view_get_selection(app.cursor_theme_view);
+    gtk_tree_view_set_model(GTK_TREE_VIEW(app.cursor_theme_view), GTK_TREE_MODEL(app.cursor_theme_store));
+    sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(app.cursor_theme_view));
     if(cursor_theme_sel_it.user_data)
     {
         IconTheme* theme;
         GtkTreePath* tp = gtk_tree_model_get_path(GTK_TREE_MODEL(app.cursor_theme_store), &cursor_theme_sel_it);
         gtk_tree_selection_select_iter(sel, &cursor_theme_sel_it);
-        gtk_tree_view_scroll_to_cell(app.cursor_theme_view, tp, NULL, FALSE, 0, 0);
+        gtk_tree_view_scroll_to_cell(GTK_TREE_VIEW(app.cursor_theme_view), tp, NULL, FALSE, 0, 0);
         gtk_tree_path_free(tp);
 
-        gtk_tree_model_get(app.cursor_theme_store, &cursor_theme_sel_it, 1, &theme, -1);
+        gtk_tree_model_get(GTK_TREE_MODEL(app.cursor_theme_store), &cursor_theme_sel_it, 1, &theme, -1);
         gtk_widget_set_sensitive(app.cursor_theme_remove_btn, theme->is_removable);
     }
 }
