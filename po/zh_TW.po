@@ -3,247 +3,248 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-08 00:42+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2010-08-08 00:45+0800\n"
+"Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
+"Language-Team: zh_TW <zh@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
-msgstr ""
+msgstr "自訂外觀風格"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr ""
+msgstr "自訂桌面和應用程式的外觀風格"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr ""
+msgstr "版權所有 (C) 2010 LXDE 專案"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr ""
+msgstr "自訂桌面外觀風格"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr ""
+msgstr "洪任諭 (PCMan) <pcman.tw@gmail.com>"
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
-msgstr ""
+msgstr "<b>圖形介面選項</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>注意：</b>並非所有桌面應用程式都能支援動態變更滑鼠游標，所以你的部份變更可能要到下次登入時才會被完全套用。"
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
-msgstr ""
+msgstr "<b>音效</b>"
 
 #: ../data/ui/lxappearance.glade.h:4
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #: ../data/ui/lxappearance.glade.h:5
 msgid "Bigger"
-msgstr ""
+msgstr "較大"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
-msgstr ""
+msgstr "核取方塊"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Color"
-msgstr ""
+msgstr "色彩"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
+msgstr "目前選取的佈景主題不支援變更色彩"
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
-msgstr ""
+msgstr "預設字型："
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
-msgstr ""
+msgstr "展示"
 
 #: ../data/ui/lxappearance.glade.h:12
 msgid "Foreground"
-msgstr ""
+msgstr "前景"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Icon Theme"
-msgstr ""
+msgstr "圖示佈景主題"
 
 #: ../data/ui/lxappearance.glade.h:14
 msgid "Icons only"
-msgstr ""
+msgstr "只有圖示"
 
 #: ../data/ui/lxappearance.glade.h:15
 msgid "Install"
-msgstr ""
+msgstr "安裝"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
-msgstr ""
+msgstr "大型工具列圖示"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
-msgstr ""
+msgstr "滑鼠游標"
 
 #: ../data/ui/lxappearance.glade.h:18
 msgid "Normal windows:"
-msgstr ""
+msgstr "正常視窗："
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Other"
-msgstr ""
+msgstr "其他："
 
 #: ../data/ui/lxappearance.glade.h:20
 msgid "Page1"
-msgstr ""
+msgstr "第一頁"
 
 #: ../data/ui/lxappearance.glade.h:21
 msgid "Page2"
-msgstr ""
+msgstr "第二頁"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Play event sounds"
-msgstr ""
+msgstr "播放事件音效"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected icon theme"
-msgstr ""
+msgstr "預覽選取的圖示佈景主題"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "預覽選取的視窗元件佈景主題"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Radio Button"
-msgstr ""
+msgstr "Radio 按鈕"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Same as buttons"
-msgstr ""
+msgstr "和按鈕相同"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Same as dialogs"
-msgstr ""
+msgstr "和對話框相同"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as drag icons"
-msgstr ""
+msgstr "和滑鼠拖放時相同"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Same as menu items"
-msgstr ""
+msgstr "和選單項目相同"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Selected items:"
-msgstr ""
+msgstr "選取的項目："
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Show images in menus"
-msgstr ""
+msgstr "在選單中顯示圖示"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Show images on buttons"
-msgstr ""
+msgstr "在按鈕上顯示圖示"
 
 #: ../data/ui/lxappearance.glade.h:34
 msgid "Size of cursors"
-msgstr ""
+msgstr "游標大小"
 
 #: ../data/ui/lxappearance.glade.h:35
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "小型工具列圖示"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Smaller"
-msgstr ""
+msgstr "較小"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Text below icons"
-msgstr ""
+msgstr "文字在圖示下方"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Text beside icons"
-msgstr ""
+msgstr "文字在圖示旁"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Text only"
-msgstr ""
+msgstr "只有文字"
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "Text windows:"
-msgstr ""
+msgstr "文字視窗："
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "工具列圖示大小："
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "工具列風格："
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Tooltips:"
-msgstr ""
+msgstr "工具提示："
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "使用自訂的色彩"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Widget"
-msgstr ""
+msgstr "圖形元件"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Window Border"
-msgstr ""
+msgstr "視窗邊框"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "_Edit"
-msgstr ""
+msgstr "編輯(_E)"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "_File"
-msgstr ""
+msgstr "檔案(_F)"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "_Help"
-msgstr ""
+msgstr "說明(_H)"
 
 #: ../data/ui/lxappearance.glade.h:50
 msgid "button"
-msgstr ""
+msgstr "按鈕"
 
 #: ../data/ui/lxappearance.glade.h:51
 msgid "play event sounds as feedback to user input"
-msgstr ""
+msgstr "使用者輸入時播放回饋音效"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
-msgstr ""
+msgstr "選取一個圖示佈景主題"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
+

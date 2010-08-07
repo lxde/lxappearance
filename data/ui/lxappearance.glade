@@ -16,34 +16,34 @@
     </columns>
     <data>
       <row>
-        <col id="0" translatable="yes">user-home</col>
+        <col id="0">user-home</col>
       </row>
       <row>
-        <col id="0" translatable="yes">user-desktop</col>
+        <col id="0">user-desktop</col>
       </row>
       <row>
-        <col id="0" translatable="yes">folder</col>
+        <col id="0">folder</col>
       </row>
       <row>
-        <col id="0" translatable="yes">folder-remote</col>
+        <col id="0">folder-remote</col>
       </row>
       <row>
-        <col id="0" translatable="yes">user-trash</col>
+        <col id="0">user-trash</col>
       </row>
       <row>
-        <col id="0" translatable="yes">x-office-document</col>
+        <col id="0">x-office-document</col>
       </row>
       <row>
-        <col id="0" translatable="yes">application-x-executable</col>
+        <col id="0">application-x-executable</col>
       </row>
       <row>
-        <col id="0" translatable="yes">image-x-generic</col>
+        <col id="0">image-x-generic</col>
       </row>
       <row>
-        <col id="0" translatable="yes">text-x-generic</col>
+        <col id="0">text-x-generic</col>
       </row>
       <row>
-        <col id="0" translatable="yes">text-html</col>
+        <col id="0">text-html</col>
       </row>
     </data>
   </object>
@@ -1165,7 +1165,7 @@
                       <object class="GtkLabel" id="label7">
                         <property name="visible">True</property>
                         <property name="xalign">0</property>
-                        <property name="label" translatable="yes">Preview of the selected icon theme</property>
+                        <property name="label" translatable="yes">Preview of the selected cursor theme</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
