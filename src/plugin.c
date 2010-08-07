@@ -48,27 +48,32 @@ void plugins_init(GtkBuilder* builder)
         return;
     while(name = g_dir_read_name(dir))
     {
-        char* file = g_build_filename(PLUGIN_DIR, name, NULL);
-        GModule* mod = g_module_open(file, G_MODULE_BIND_LOCAL);
-        if(mod)
+        if(g_str_has_suffix(name, ".so"))
         {
-            PluginLoadFunc load;
-            gboolean loaded = FALSE;
-            if(g_module_symbol(mod, "plugin_load", &load))
-                loaded = load(&app, builder);
-            if(loaded)
+            char* file = g_build_filename(PLUGIN_DIR, name, NULL);
+            GModule* mod = g_module_open(file, 0);
+            g_free(file);
+            if(mod)
             {
-                Plugin* plugin = g_slice_new0(Plugin);
-                plugin->module = mod;
-                plugin->load = load;
-                g_module_symbol(mod, "plugin_unload", &plugin->unload);
-                plugins = g_slist_prepend(plugins, plugin);
-                g_debug("plugin: %s loadad", file);
+                PluginLoadFunc load;
+                gboolean loaded = FALSE;
+                g_debug("module: %s", g_module_name(mod));
+                if(g_module_symbol(mod, "plugin_load", &load))
+                    loaded = load(&app, builder);
+                if(loaded)
+                {
+                    Plugin* plugin = g_slice_new0(Plugin);
+                    plugin->module = mod;
+                    plugin->load = load;
+                    g_module_symbol(mod, "plugin_unload", &plugin->unload);
+                    plugins = g_slist_prepend(plugins, plugin);
+                }
+                else
+                    g_module_close(mod);
             }
             else
-                g_module_close(mod);
+                g_debug("open failed: %s\n%s", name, g_module_error());
         }
-        g_free(file);
     }
     g_dir_close(dir);
 }
@@ -79,6 +84,8 @@ void plugins_finalize()
     for(l = plugins; l; l=l->next)
     {
         Plugin* plugin = (Plugin*)l->data;
+        if(plugin->unload)
+            plugin->unload(&app);
         g_module_close(plugin->module);
         g_slice_free(Plugin, plugin);
     }

@@ -29,7 +29,7 @@ PKG_CHECK_MODULES(XLIB, "x11")
 AC_SUBST(XLIB_CFLAGS)
 AC_SUBST(XLIB_LIBS)
 
-gtk_modules="gtk+-2.0 >= 2.12.0"
+gtk_modules="gtk+-2.0 >= 2.12.0 gthread-2.0"
 PKG_CHECK_MODULES(GTK, [$gtk_modules])
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)

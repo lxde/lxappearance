@@ -370,6 +370,7 @@ int main(int argc, char** argv)
     textdomain ( GETTEXT_PACKAGE );
 #endif
 
+    g_thread_init(NULL);
     /* initialize GTK+ and parse the command line arguments */
     if( G_UNLIKELY( ! gtk_init_with_args( &argc, &argv, "", option_entries, GETTEXT_PACKAGE, &err ) ) )
     {
@@ -401,11 +402,10 @@ int main(int argc, char** argv)
     icon_theme_init(b);
     cursor_theme_init(b);
     other_init(b);
-
-    plugins_init(b);
-
     /* the page for window manager plugins */
     app.wm_page = GTK_WIDGET(gtk_builder_get_object(b, "wm_page"));
+
+    plugins_init(b);
 
     g_signal_connect(app.dlg, "response", G_CALLBACK(on_dlg_response), NULL);
 
