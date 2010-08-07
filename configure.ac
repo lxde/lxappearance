@@ -73,7 +73,7 @@ do
     echo $lang >> $srcdir/po/LINGUAS
 done
 
-GETTEXT_PACKAGE="$prog_name"
+GETTEXT_PACKAGE=lxappearance
 AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])

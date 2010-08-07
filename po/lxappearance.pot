@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-06 09:26+0800\n"
+"POT-Creation-Date: 2010-08-08 00:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/lxappearance2.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
 msgstr ""
 
-#: ../data/lxappearance2.desktop.in.h:2
+#: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
 msgstr ""
 
@@ -38,18 +38,18 @@ msgid "translator-credits"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:2
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:2
-msgid "<b>Sound Effect</b>"
-msgstr ""
-
 #: ../data/ui/lxappearance.glade.h:3
-msgid "<b>Toolbar</b>"
+msgid "<b>Sound Effect</b>"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:4
@@ -161,114 +161,122 @@ msgid "Selected items:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:32
-msgid "Size of cursors"
+msgid "Show images in menus"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:33
-msgid "Small toolbar icon"
+msgid "Show images on buttons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:34
-msgid "Smaller"
+msgid "Size of cursors"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:35
-msgid "Text below icons"
+msgid "Small toolbar icon"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:36
-msgid "Text beside icons"
+msgid "Smaller"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:37
-msgid "Text only"
+msgid "Text below icons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:38
-msgid "Text windows:"
+msgid "Text beside icons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:39
-msgid "Toolbar Icon Size: "
+msgid "Text only"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:40
-msgid "Toolbar Style: "
+msgid "Text windows:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:41
-msgid "Tooltips:"
+msgid "Toolbar Icon Size: "
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:42
-msgid "Use customized color scheme"
+msgid "Toolbar Style: "
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:43
-msgid "Widget"
+msgid "Tooltips:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:44
-msgid "Window Border"
+msgid "Use customized color scheme"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:45
-msgid "_Edit"
+msgid "Widget"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:46
-msgid "_File"
+msgid "Window Border"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:47
-msgid "_Help"
+msgid "_Edit"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:48
-msgid "application-x-executable"
+msgid "_File"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:49
-msgid "button"
+msgid "_Help"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:50
-msgid "folder"
+msgid "application-x-executable"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:51
-msgid "folder-remote"
+msgid "button"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:52
-msgid "image-x-generic"
+msgid "folder"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:53
-msgid "play event sounds as feedback to user input"
+msgid "folder-remote"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:54
-msgid "text-html"
+msgid "image-x-generic"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:55
-msgid "text-x-generic"
+msgid "play event sounds as feedback to user input"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:56
-msgid "user-desktop"
+msgid "text-html"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:57
-msgid "user-home"
+msgid "text-x-generic"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:58
-msgid "user-trash"
+msgid "user-desktop"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:59
+msgid "user-home"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:60
+msgid "user-trash"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:61
 msgid "x-office-document"
 msgstr ""
 
