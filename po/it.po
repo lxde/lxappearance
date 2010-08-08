@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-08 01:59+0800\n"
-"PO-Revision-Date: 2010-08-08 11:55+0100\n"
+"PO-Revision-Date: 2010-08-08 13:00+0100\n"
 "Last-Translator: Andrea Florio <andrea@opensuse.org>\n"
 "Language-Team: it <it@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "Più grande"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
-msgstr "Seleziona pulsante"
+msgstr "Pulsante di selezione"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Color"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Smaller"
-msgstr ""
+msgstr "Più piccolo"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Text below icons"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "Text only"
-msgstr ""
+msgstr "Solo testo"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
@@ -215,11 +215,11 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
-msgstr ""
+msgstr "Finestra"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
-msgstr ""
+msgstr "Bordo finestra"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "_Edit"
