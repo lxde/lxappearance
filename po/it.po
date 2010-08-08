@@ -1,0 +1,251 @@
+# Lxappearance
+# Copyright (C) 2010
+# This file is distributed under the same license as the lxappearance package.
+# Andrea Florio <andrea@opensuse.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"PO-Revision-Date: 2010-08-08 11:55+0100\n"
+"Last-Translator: Andrea Florio <andrea@opensuse.org>\n"
+"Language-Team: it <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Personalizza aspetto e stile"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Personalizza l'aspetto e lo stile del tuo desktop e delle applicazioni"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Personalizza l'aspetto e lo stile del tuo desktop"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Andrea Florio <andrea@opensuse.org>\n"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>Opzioni GUI</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Nota:</b> Non tutte le applicazioni desktop supportano il cambio del tema del cursore al volo. Quindi i tuoi cambiamenti potrebbero non essere completamente applicati fino al prossimo login."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Effetti Sonori</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Sfondo"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Più grande"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Seleziona pulsante"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Colore"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Lo schema del colore non è supportato dal tema attualmente selezionato"
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Font predefinito"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Testo"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Tema di icone"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Solo icone"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Installa"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Icona della barra degli strumenti larga"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Puntatore del mouse"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Finestra normale:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Altro"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Pagina1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Pagina2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Esegui suoni di avviso"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "Anteprima del tema del puntatore selezionato"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "Anteprima del tema di icone selezionato"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "Anteprima dello stile delle finestre selezionato"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "Pulsante Radio"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "_Modifica"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_File"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Aiuto"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "pulsante"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr ""
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Seleziona un tema di icone"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "(Tema di icone) *.tar.gz, *.tar.bz2"
+
