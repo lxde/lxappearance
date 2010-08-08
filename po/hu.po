@@ -1,0 +1,256 @@
+# Hungarian translation of lxappearance.
+# Copyright (C) 2006-2010 The LXDE Team
+# This file is distributed under the same license as the lxappearance package.
+# Laszlo Dvornik <dvornik@gnome.hu>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-07 18:00+0000\n"
+"PO-Revision-Date: 2010-08-07 22:12+0200\n"
+"Last-Translator: Laszlo Dvornik <dvornik@gnome.hu>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Megjelenés testreszabása"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "A munkaasztal és az alkalmazások megjelenésének testreszabása"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "A munkaasztal megjelenésének testreszabása"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Dvornik László <dvornik@gnome.hu>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI beállításai</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Megjegyzés:</b> Nem minden munkaasztal alkalmazás támogatja a menet "
+"közbeni kurzorváltást. Ezért az itteni változtatások a következő "
+"bejelentkezésig lehet, hogy nem minden alkalmazásban fognak érvényesülni."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Hangeffektusok</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Háttér"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Nagyobb"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Jelölőnégyzet"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Szín"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "A színséma nem támogatott a jelenleg kijelölt elemtémánál."
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Alapértelmezett betűkészlet:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demó"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Előtér"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Ikontéma"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Csak ikonok"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Telepítés"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Nagy eszköztár ikon"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Egérkurzor"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Normál ablakok:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Egyéb"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "1. oldal"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "2. oldal"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Eseményhangok lejátszása"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "A kijelölt kurzortéma előnézete"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "A kijelölt ikontéma előnézete"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "A kijelölt elemstílus előnézete"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "Választógomb"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "Azonos a gombokéval"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "Azonos a párbeszédablakokéval"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr "Azonos a húzás ikonokkal"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "Azonos a menüelemekkel"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "Kijelölt elemek:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "Képek megjelenítése a menükben"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "Képek megjelenítése a gombokon"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "Kurzorok mérete"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "Kis eszköztár ikon"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "Kisebb"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "Szöveg az ikonok alatt"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "Szöveg az ikonok mellett"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "Csak szöveg"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "Szöveges ablakok:"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "Eszköztár ikon mérete: "
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "Eszköztár stílusa: "
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr "Eszköztippek:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr "Egyedi színséma használata"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr "Elem"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "Ablakkeret"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "S_zerkesztés"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "gomb"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "Eseményhangok lejátszása visszajelzésként a felhasználói bevitelhez"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Válassz egy ikontémát"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (ikontéma)"
