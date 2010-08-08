@@ -1,0 +1,344 @@
+# Russian translations for LXAppearance package
+# Английские переводы для пакета LXAppearance.
+# Copyright (C) 2009 THE LXAppearance'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the LXAppearance package.
+# Vitaly Pashkov <admin@fluda.net>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-07 18:00+0000\n"
+"PO-Revision-Date: 2010-08-08 11:32+0300\n"
+"Last-Translator: Alexander Kazancev <kazancas@mandriva.ru>\n"
+"Language-Team: Russian <info@edumandriva.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Настройка внешнего вида"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Настройте тему рабочего стола и приложений"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Настройте тему рабочего стола"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Alexander Kazancev"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>Параметры графического интерфейса</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Замечание:</b> Не все приложения поддерживают смену темы курсора на лету. Поэтому ваши изменения могут быть применены только при следующем запуске приложения."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Звуковые эффекты</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "В фоне"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Больше"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Флажок"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Цвет"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Цветовая схема не поддерживается текущей выбранной темой."
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Шрифт по умолчанию:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Демонстрация"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Передний план"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Темы значков"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Только значки"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Установить"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Большие иконки панели"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Курсор мыши"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Нормальные окна:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Другие"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Страница 1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Страница 2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Проигрывать звук события"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "Предпросмотр выбранной темы курсоров"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "Предпросмотр выбранной темы значков"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "Предпросмотр выбранной темы окон"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "Переключатель"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "Также как кнопки"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "Также как диалоги"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr "Также как перемещаемые значки"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "Также как элементы меню"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "Выбранные элементы:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "Показывать изображения в меню"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "Показывать изображения на кнопках"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "Размер курсоров"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "Маленькие значки панели"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "Меньше"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "Текст под значками"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "Текст рядом со значками"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "Только текст"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "Текст окон:"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "Размер иконок панели:"
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "Стиль панели инструментов:"
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr "Подсказки:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr "Использовать измененную цветовую схему"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr "Виджет"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "Рамка окна"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "_Правка"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Справка"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "кнопка"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "проигрывать звук события как ответ ввода пользователя"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Выберите тему значков"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Тема значков)"
+
+#~ msgid "<b>Toolbar</b>"
+#~ msgstr "<b>Панель инструментов</b>"
+
+#~ msgid "folder"
+#~ msgstr "папка"
+
+#~ msgid "Column"
+#~ msgstr "Столбец"
+
+#~ msgid "Item"
+#~ msgstr "Элемент"
+
+#~ msgid "Tab1"
+#~ msgstr "Вкладка1"
+
+#~ msgid "Tab2"
+#~ msgstr "Вкладка2"
+
+#~ msgid "Tab3"
+#~ msgstr "Вкладка3"
+
+#~ msgid "Tab4"
+#~ msgstr "Вкладка4"
+
+#~ msgid "Test Item 1"
+#~ msgstr "Тестовый элемент 1"
+
+#~ msgid "Test Item 2"
+#~ msgstr "Тестовый элемент 2"
+
+#~ msgid "Test Item 3"
+#~ msgstr "Тестовый элемент 3"
+
+#~ msgid "Type some characters here to test currently selected font."
+#~ msgstr "Введите сюда несколько символов для проверки выбранного шрифта."
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Предпросмотр</b>"
+
+#~ msgid "Appearance Settings"
+#~ msgstr "Настройки внешнего вида"
+
+#, fuzzy
+#~ msgid "Available Cursor Themes"
+#~ msgstr "Доступные темы значков"
+
+#~ msgid "Available Window Themes"
+#~ msgstr "Доступные темы окон"
+
+#~ msgid "Icon"
+#~ msgstr "Значки"
+
+#~ msgid "_Font:"
+#~ msgstr "_Шрифт:"
+
+#~ msgid "Appearance"
+#~ msgstr "Внешний вид"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Forward"
+#~ msgstr "Вперед"
+
+#~ msgid "Stop"
+#~ msgstr "Стоп"
+
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Тестовый элемент 1\n"
+#~ "Тестовый элемент 2\n"
+#~ "Тестовый элемент 3"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Не могу найти файл изображения: %s"
+
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Только значки\n"
+#~ "Только текст\n"
+#~ "Текст под значками\n"
+#~ "Текст рядом со значками"
