@@ -2,8 +2,7 @@
 # Copyright (C) 2010 The LXDE Project
 # This file is distributed under the same license as the lxappearance package.
 # Hugo Florentino <sysadmin@cips.cu>, 2010.
-#
-#, fuzzy
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
@@ -43,11 +42,8 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Opciones de la interfaz gráfica</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Nota:</b> No todas las aplicaciones de escritorio admiten cambiar el tema de cursores al vuelo. De manera que sus cambios aquí podrían aplicarse sólo tras el próximo inicio de sesión."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -99,156 +95,156 @@ msgstr "Instalar"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
-msgstr ""
+msgstr "Icono grande en la barra de herramientas"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
-msgstr ""
+msgstr "Cursor del ratón"
 
 #: ../data/ui/lxappearance.glade.h:18
 msgid "Normal windows:"
-msgstr ""
+msgstr "Ventanas normales:"
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Other"
-msgstr ""
+msgstr "Otras"
 
 #: ../data/ui/lxappearance.glade.h:20
 msgid "Page1"
-msgstr ""
+msgstr "Página1"
 
 #: ../data/ui/lxappearance.glade.h:21
 msgid "Page2"
-msgstr ""
+msgstr "Página2"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Play event sounds"
-msgstr ""
+msgstr "Reproducir sonidos en eventos"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected cursor theme"
-msgstr ""
+msgstr "Previsualizar el tema de cursores seleccionados"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected icon theme"
-msgstr ""
+msgstr "Previsualizar el tema de iconos seleccionados"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "Previsualizar el tema de controles seleccionados"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
-msgstr ""
+msgstr "Botón de selección"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Remove"
-msgstr ""
+msgstr "Quitar"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Same as buttons"
-msgstr ""
+msgstr "Igual que en los botons"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Igual que en las pantallas"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Igual que en los iconos de arrastre"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Same as menu items"
-msgstr ""
+msgstr "Igual que en los elementos de menú"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Selected items:"
-msgstr ""
+msgstr "Elementos seleccionados"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Show images in menus"
-msgstr ""
+msgstr "Mostrar imágenes en los menús"
 
 #: ../data/ui/lxappearance.glade.h:34
 msgid "Show images on buttons"
-msgstr ""
+msgstr "Mostrar imágenes en los botones"
 
 #: ../data/ui/lxappearance.glade.h:35
 msgid "Size of cursors"
-msgstr ""
+msgstr "Tamaño de los cursores"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "Icono pequeño en la barra de herramientas"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Smaller"
-msgstr ""
+msgstr "Menor"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Text below icons"
-msgstr ""
+msgstr "Texto bajo los iconos"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Text beside icons"
-msgstr ""
+msgstr "Texto al lado de los iconos"
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "Text only"
-msgstr ""
+msgstr "Sólo texto"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
-msgstr ""
+msgstr "Ventanas de texto:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "Tamaño del icono de la barra de herramientas:"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Estilo de la barra de herramientas:"
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
-msgstr ""
+msgstr "Sugerencias:"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "Usar esquema de colores personalizado"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
-msgstr ""
+msgstr "Controles"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
-msgstr ""
+msgstr "Borde de la ventana"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "_Edit"
-msgstr ""
+msgstr "_Editar"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "_File"
-msgstr ""
+msgstr "_Archivo"
 
 #: ../data/ui/lxappearance.glade.h:50
 msgid "_Help"
-msgstr ""
+msgstr "Ay_uda"
 
 #: ../data/ui/lxappearance.glade.h:51
 msgid "button"
-msgstr ""
+msgstr "botón"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "play event sounds as feedback to user input"
-msgstr ""
+msgstr "reproducir sonidos de eventos como retroalimentación al usuario"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Seleccionar un tema de iconos"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Tema de iconos)"
