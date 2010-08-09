@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
@@ -14,9 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
@@ -24,51 +23,48 @@ msgstr "Налаштувати вигляд і відображення"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr ""
+msgstr "Налаштовує вигляд Вашого робочого столу і програм"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr ""
+msgstr "Всі права застережено (C) 2010 Проект LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr ""
+msgstr "Налаштовує вигляд Вашого робочого столу"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr ""
+msgstr "Yarema aka Knedlyk <yarpry@gmail.com>"
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
-msgstr ""
+msgstr "<b>Опції GUI</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
-msgstr ""
+msgstr "<b>Звуковий ефект</b>"
 
 #: ../data/ui/lxappearance.glade.h:4
 msgid "Background"
-msgstr ""
+msgstr "Тло"
 
 #: ../data/ui/lxappearance.glade.h:5
 msgid "Bigger"
-msgstr ""
+msgstr "Більше"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
-msgstr ""
+msgstr "Кнопка перевірки"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Color"
-msgstr ""
+msgstr "Колір"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
@@ -76,27 +72,27 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
-msgstr ""
+msgstr "Шрифт по замовчуванню:"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
-msgstr ""
+msgstr "Демонстрація"
 
 #: ../data/ui/lxappearance.glade.h:12
 msgid "Foreground"
-msgstr ""
+msgstr "Передній план"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Icon Theme"
-msgstr ""
+msgstr "Тема іконок"
 
 #: ../data/ui/lxappearance.glade.h:14
 msgid "Icons only"
-msgstr ""
+msgstr "Тільки іконки"
 
 #: ../data/ui/lxappearance.glade.h:15
 msgid "Install"
-msgstr ""
+msgstr "Встановити"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
@@ -104,23 +100,23 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
-msgstr ""
+msgstr "Курсор мишки"
 
 #: ../data/ui/lxappearance.glade.h:18
 msgid "Normal windows:"
-msgstr ""
+msgstr "Звичайне вікно:"
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Other"
-msgstr ""
+msgstr "Інше:"
 
 #: ../data/ui/lxappearance.glade.h:20
 msgid "Page1"
-msgstr ""
+msgstr "Сторінка 1"
 
 #: ../data/ui/lxappearance.glade.h:21
 msgid "Page2"
-msgstr ""
+msgstr "Сторінка 2"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Play event sounds"
