@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
@@ -44,7 +44,7 @@ msgstr "<b>Опції GUI</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr ""
+msgstr "<b>Примітка:</b> Не всі програми робочого столу підримують зміну теми курсора на льоту. Тому, можливо, не всі зміни будуть повністю застосовані відразу, а лише після поновного входу в систему."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -68,7 +68,7 @@ msgstr "Колір"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
+msgstr "Схема кольору не підтримується поточною темою віджетів."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
@@ -124,15 +124,15 @@ msgstr "Програти звуки подій"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected cursor theme"
-msgstr ""
+msgstr "Перегляд вибраної теми курсору"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected icon theme"
-msgstr ""
+msgstr "Перегляд вибраної теми іконок"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "Перегляд вибраного стилю віджетів"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
@@ -200,11 +200,11 @@ msgstr "Вікно тексту:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "Розмір іконок панелі інструментів:"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Стиль панелі інструментів:"
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
@@ -212,15 +212,15 @@ msgstr "Підказки:"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "Використовувати власну схему кольорів"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
-msgstr ""
+msgstr "Віджет"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
-msgstr ""
+msgstr "Границя вікна"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "_Edit"
@@ -240,11 +240,11 @@ msgstr "кнопка"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "play event sounds as feedback to user input"
-msgstr ""
+msgstr "програвати звуки подій як відгук на дії користувача"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Вибрати тему іконок"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
