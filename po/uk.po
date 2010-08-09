@@ -96,7 +96,7 @@ msgstr "Встановити"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
-msgstr ""
+msgstr "Велика іконка панелі інструментів"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
@@ -120,7 +120,7 @@ msgstr "Сторінка 2"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Play event sounds"
-msgstr ""
+msgstr "Програти звуки подій"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected cursor theme"
@@ -136,67 +136,67 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
-msgstr ""
+msgstr "Кнопка радіо"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Remove"
-msgstr ""
+msgstr "Вилучити"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Same as buttons"
-msgstr ""
+msgstr "Так само як кнопки"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Так само як діалоги"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Так само іконки перетягування"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Same as menu items"
-msgstr ""
+msgstr "Так само як пукти меню"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Selected items:"
-msgstr ""
+msgstr "Вибрані пункти:"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Show images in menus"
-msgstr ""
+msgstr "Показати малюнки в меню"
 
 #: ../data/ui/lxappearance.glade.h:34
 msgid "Show images on buttons"
-msgstr ""
+msgstr "Показати малюнки на кнопках"
 
 #: ../data/ui/lxappearance.glade.h:35
 msgid "Size of cursors"
-msgstr ""
+msgstr "Розмір курсорів"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "Маленькі іконки панелі інструментів"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Smaller"
-msgstr ""
+msgstr "Менше"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Text below icons"
-msgstr ""
+msgstr "Текст під іконками"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Text beside icons"
-msgstr ""
+msgstr "Текст поруч з іконками"
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "Text only"
-msgstr ""
+msgstr "Тільки текст"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
-msgstr ""
+msgstr "Вікно тексту:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
@@ -208,7 +208,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
-msgstr ""
+msgstr "Підказки:"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Use customized color scheme"
@@ -224,19 +224,19 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "_Edit"
-msgstr ""
+msgstr "_Редагувати"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "_File"
-msgstr ""
+msgstr "_Файл"
 
 #: ../data/ui/lxappearance.glade.h:50
 msgid "_Help"
-msgstr ""
+msgstr "_Допомога"
 
 #: ../data/ui/lxappearance.glade.h:51
 msgid "button"
-msgstr ""
+msgstr "кнопка"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "play event sounds as feedback to user input"
@@ -248,4 +248,4 @@ msgstr ""
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Тема іконок)"
