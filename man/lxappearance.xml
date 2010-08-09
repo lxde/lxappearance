@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<refentry>  <refentryinfo>    <address>      <email>grandpaul@gmail.com</email>
+    </address>
+    <author>      <firstname>Ying-Chun</firstname>
+      <surname>Liu</surname>
+    </author>
+    <copyright>      <year>2008</year>
+      <holder>paulliu</holder>
+    </copyright>
+    <date>April  20, 2008</date>
+  </refentryinfo>
+  <refmeta>    <refentrytitle>LXAPPEARANCE</refentrytitle>
+<refmiscinfo class="source">http://LXDE.org</refmiscinfo>
+
+    <manvolnum>1</manvolnum>
+  </refmeta>
+  <refnamediv>    <refname>lxappearance</refname>
+
+    <refpurpose>GTK+ theme switcher</refpurpose>
+  </refnamediv>
+  <refsynopsisdiv>    <cmdsynopsis>      <command>lxappearance</command>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+  <refsect1>    <title>DESCRIPTION</title>
+
+    <para>This manual page documents briefly the
+      <command>lxappearance</command> command.</para>
+
+    <para><command>lxappearance</command> is a program to change
+    GTK+ themes, icon themes, and fonts used by applications. It is a
+    feature-rich GTK+ theme switcher.
+    </para>
+
+  </refsect1>
+
+  <refsect1>    <title>AUTHOR</title>
+
+    <para>This manual page was written by paulliu <email>grandpaul@gmail.com</email> for
+      the <productname>Debian</productname> system (but may be used by others).  Permission is
+      granted to copy, distribute and/or modify this document under
+      the terms of the <acronym>GNU</acronym> General Public License, Version 2 any 
+      later version published by the Free Software Foundation.
+    </para>
+    <para>	  On Debian systems, the complete text of the GNU General Public
+	  License can be found in /usr/share/common-licenses/GPL.
+    </para>
+    <para>          The source code of this manual page should be in 
+          <filename>.sgml</filename> format. It is better not to modify
+          the <filename>.1</filename> file directly.
+    </para>
+
+  </refsect1></refentry>
