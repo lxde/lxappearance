@@ -81,7 +81,7 @@ static void save_cursor_theme_name()
             "[Icon Theme]\n"
             "Name=Default\n"
             "Comment=Default Cursor Theme\n"
-            "Inherits=%s\n", app.cursor_theme);
+            "Inherits=%s\n", app.cursor_theme ? app.cursor_theme : "");
         g_file_set_contents(index_theme, content, -1, NULL);
         g_free(content);
         g_free(index_theme);
@@ -145,29 +145,36 @@ static void lxappearance_save_gtkrc()
 
     char* file_path = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
     GString* content = g_string_sized_new(512);
-    g_string_append_printf(content,
+    g_string_append(content,
         "# DO NOT EDIT! This file will be overwritten by LXAppearance.\n"
-        "# Any customization should be done in ~/.gtkrc-2.0.mine instead.\n\n"
-        "gtk-theme-name=\"%s\"\n"
-        "gtk-icon-theme-name=\"%s\"\n"
-        "gtk-font-name=\"%s\"\n"
+        "# Any customization should be done in ~/.gtkrc-2.0.mine instead.\n\n");
+    if(app.widget_theme)
+        g_string_append_printf(content,
+            "gtk-theme-name=\"%s\"\n", app.widget_theme);
+    if(app.icon_theme)
+        g_string_append_printf(content,
+            "gtk-icon-theme-name=\"%s\"\n", app.icon_theme);
+    if(app.default_font)
+        g_string_append_printf(content,
+            "gtk-font-name=\"%s\"\n", app.default_font);
+    if(app.cursor_theme)
+        g_string_append_printf(content,
+            "gtk-cursor-theme-name=\"%s\"\n", app.cursor_theme);
+    save_cursor_theme_name();
+
+    g_string_append_printf(content,
+        "gtk-cursor-theme-size=%d\n"
         "gtk-toolbar-style=%s\n"
         "gtk-toolbar-icon-size=%s\n"
-        "gtk-cursor-theme-name=\"%s\"\n"
-        "gtk-cursor-theme-size=%d\n"
         "gtk-button-images=%d\n"
         "gtk-menu-images=%d\n"
 #if GTK_CHECK_VERSION(2, 14, 0)
         "gtk-enable-event-sounds=%d\n"
-        "gtk-enable-input-feedback-sounds=%d\n",
+        "gtk-enable-input-feedback-sounds=%d\n"
 #endif
-        app.widget_theme,
-        app.icon_theme,
-        app.default_font,
+        , app.cursor_theme_size,
         tb_styles[app.toolbar_style],
         tb_icon_sizes[app.toolbar_icon_size],
-        app.cursor_theme,
-        app.cursor_theme_size,
         app.button_images ? 1 : 0,
         app.menu_images ? 1 : 0,
 #if GTK_CHECK_VERSION(2, 14, 0)
