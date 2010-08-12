@@ -15,8 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/lxappearance.desktop.in.h:1
-#: ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
 msgstr "Personalizza aspetto e stile"
 
@@ -42,8 +41,14 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Opzioni GUI</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b>Nota:</b> Non tutte le applicazioni desktop supportano il cambio del tema del cursore al volo. Quindi i tuoi cambiamenti potrebbero non essere completamente applicati fino al prossimo login."
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Nota:</b> Non tutte le applicazioni desktop supportano il cambio del tema "
+"del cursore al volo. Quindi i tuoi cambiamenti potrebbero non essere "
+"completamente applicati fino al prossimo login."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -248,4 +253,3 @@ msgstr "Seleziona un tema di icone"
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "(Tema di icone) *.tar.gz, *.tar.bz2"
-

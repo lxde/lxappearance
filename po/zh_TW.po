@@ -18,8 +18,7 @@ msgstr ""
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../data/lxappearance.desktop.in.h:1
-#: ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
 msgstr "自訂外觀風格"
 
@@ -45,8 +44,13 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>圖形介面選項</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b>注意：</b>並非所有桌面應用程式都能支援動態變更滑鼠游標，所以你的部份變更可能要到下次登入時才會被完全套用。"
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>注意：</b>並非所有桌面應用程式都能支援動態變更滑鼠游標，所以你的部份變更可"
+"能要到下次登入時才會被完全套用。"
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -251,4 +255,3 @@ msgstr "選取一個圖示佈景主題"
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
-
