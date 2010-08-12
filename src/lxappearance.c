@@ -155,11 +155,11 @@ static void lxappearance_save_gtkrc()
         "gtk-toolbar-icon-size=%s\n"
         "gtk-cursor-theme-name=\"%s\"\n"
         "gtk-cursor-theme-size=%d\n"
-        "gtk-button-images=%s\n"
-        "gtk-menu-images=%s\n"
+        "gtk-button-images=%d\n"
+        "gtk-menu-images=%d\n"
 #if GTK_CHECK_VERSION(2, 14, 0)
-        "gtk-enable-event-sounds=%s\n"
-        "gtk-enable-input-feedback-sounds=%s\n",
+        "gtk-enable-event-sounds=%d\n"
+        "gtk-enable-input-feedback-sounds=%d\n",
 #endif
         app.widget_theme,
         app.icon_theme,
@@ -168,11 +168,11 @@ static void lxappearance_save_gtkrc()
         tb_icon_sizes[app.toolbar_icon_size],
         app.cursor_theme,
         app.cursor_theme_size,
-        bool2str(app.button_images),
-        bool2str(app.menu_images),
+        app.button_images ? 1 : 0,
+        app.menu_images ? 1 : 0,
 #if GTK_CHECK_VERSION(2, 14, 0)
-        bool2str(app.enable_event_sound),
-        bool2str(app.enable_input_feedback)
+        app.enable_event_sound ? 1 : 0,
+        app.enable_input_feedback ? 1 : 0
 #endif
         );
 
