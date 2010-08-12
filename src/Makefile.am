@@ -33,12 +33,14 @@ lxappearance_SOURCES = \
 
 lxappearance_CFLAGS = \
 	$(GTK_CFLAGS) \
+	$(XLIB_CFLAGS) \
 	$(GMODULE_CFLAGS) \
 	-Werror-implicit-function-declaration \
 	$(NULL)
 
 lxappearance_LDADD = \
 	$(GTK_LIBS) \
+	$(XLIB_LIBS) \
 	$(GMODULE_LIBS) \
 	$(INTLLIBS) \
 	$(NULL)
