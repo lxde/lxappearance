@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-07 18:00+0000\n"
+"PO-Revision-Date: 2010-08-09 00:57+0100\n"
+"Last-Translator: Christoph Wickert <cwickert@fedoraproject.org>\n"
+"Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr ""
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr ""
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr ""
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr ""
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Christoph Wickert <cwickert@fedoraproject.org>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Hintergrund"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Größer"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Auswahlfeld"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Farben"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Vordergrund"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Symbolthema"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Nur Symbole"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Installieren"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Mauszeiger"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Normale Fenster:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Reiter1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "Vorschau des ausgewählten Mauszeigerthemas"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "Vorschau des ausgewählten Symbolthemas"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "Auswahlknopf"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "Symbole in Menüs anzeigen"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "Symbole auf Knöpfen anzeigen"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "Größe des"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "Kleiner"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "Text unter Symbolen"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "Text neben Symbolen"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "Nur Text"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "Stil der Werkzeugleiste: "
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "Fensterrahmen"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "_Bearbeiten"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_Datei"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr ""
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Symbolthema wählen"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Symbolthema)"
+
