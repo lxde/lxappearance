@@ -5,17 +5,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: lxappearance 0.5.0\n"
+"Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-07 18:00+0000\n"
-"PO-Revision-Date: 2010-08-13 03:15+0100\n"
-"Last-Translator: Christoph Wickert <cwickert@fedoraproject.org>\n"
+"PO-Revision-Date: 2010-08-13 17:51+0100\n"
+"Last-Translator: Lutz Thuns <lthuns@opensuse.org>\n"
 "Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: German\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/lxappearance.desktop.in.h:1
 #: ../data/ui/lxappearance.glade.h:9
@@ -28,7 +27,7 @@ msgstr ""
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr ""
+msgstr "Copyright (C) 2010 LXDE Project"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -37,19 +36,22 @@ msgstr ""
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Christoph Wickert <cwickert@fedoraproject.org>"
+msgstr ""
+"Christoph Wickert <cwickert@fedoraproject.org>\n"
+"Lutz Thuns <lthuns@opensuse.org>"
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:2
+#, fuzzy
 msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr ""
+msgstr "<b>Hinweis:</b> Nicht alle Desktopanwendungen unterstützen das sofortige Ändern des Mauszeigers. Ihre Einstellungen könnten bis zur nächsten Anmeldung nicht vollständig für alle Anwendungen übernommen sein."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
-msgstr ""
+msgstr "<b>Akustische Signale</b>"
 
 #: ../data/ui/lxappearance.glade.h:4
 msgid "Background"
@@ -68,12 +70,13 @@ msgid "Color"
 msgstr "Farben"
 
 #: ../data/ui/lxappearance.glade.h:8
+#, fuzzy
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
+msgstr "Farbeinstellungen werden vom momentan eingestellten Thema nicht unterstützt."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
-msgstr ""
+msgstr "Schrift:"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
@@ -97,7 +100,7 @@ msgstr "Installieren"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
-msgstr ""
+msgstr "Große Symbole"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
@@ -109,7 +112,7 @@ msgstr "Normale Fenster:"
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Other"
-msgstr ""
+msgstr "Andere"
 
 #: ../data/ui/lxappearance.glade.h:20
 msgid "Page1"
@@ -117,11 +120,11 @@ msgstr "Reiter1"
 
 #: ../data/ui/lxappearance.glade.h:21
 msgid "Page2"
-msgstr ""
+msgstr "Reiter2"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Play event sounds"
-msgstr ""
+msgstr "Akustische Signale wiedergeben"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected cursor theme"
@@ -133,7 +136,7 @@ msgstr "Vorschau des ausgewählten Symbolthemas"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "Vorschau des ausgewählten Themas"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
@@ -141,7 +144,7 @@ msgstr "Auswahlknopf"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Remove"
-msgstr ""
+msgstr "Entfernen"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Same as buttons"
@@ -161,7 +164,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Selected items:"
-msgstr ""
+msgstr "Ausgewählte Elemente:"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Show images in menus"
@@ -173,11 +176,11 @@ msgstr "Symbole auf Knöpfen anzeigen"
 
 #: ../data/ui/lxappearance.glade.h:35
 msgid "Size of cursors"
-msgstr "Größe des"
+msgstr "Größe des Mauszeigers"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "Kleine Symbole"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Smaller"
@@ -197,11 +200,11 @@ msgstr "Nur Text"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
-msgstr ""
+msgstr "Textfenster:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "Symbolgröße der Werkzeugleiste:"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
@@ -209,15 +212,16 @@ msgstr "Stil der Werkzeugleiste: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
-msgstr ""
+msgstr "Kurzinfo:"
 
 #: ../data/ui/lxappearance.glade.h:45
+#, fuzzy
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "Benutze eigene Farbeinstellung"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
-msgstr ""
+msgstr "Fenster"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
