@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-07 18:00+0000\n"
+"POT-Creation-Date: 2010-08-14 05:37+0000\n"
 "PO-Revision-Date: 2010-08-13 17:51+0100\n"
 "Last-Translator: Lutz Thuns <lthuns@opensuse.org>\n"
 "Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
@@ -16,22 +16,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: German\n"
 
-#: ../data/lxappearance.desktop.in.h:1
-#: ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
-msgstr ""
+msgstr "Erscheinungsbild anpassen"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr ""
+msgstr "Das Erscheinungsbild Ihrer Arbeitsumgebung und Anwendungen anpassen"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Projekt"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr ""
+msgstr "Passt das Erscheinungsbild Ihrer Arbeitsumgebung an"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
@@ -42,12 +41,11 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
-msgstr ""
+msgstr "<b>Oberfläche</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-#, fuzzy
 msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b>Hinweis:</b> Nicht alle Desktopanwendungen unterstützen das sofortige Ändern des Mauszeigers. Ihre Einstellungen könnten bis zur nächsten Anmeldung nicht vollständig für alle Anwendungen übernommen sein."
+msgstr "<b>Hinweis:</b> Nicht alle Desktop-Anwendungen unterstützen das sofortige Ändern des Mauszeigers. Ihre Einstellungen könnten bis zur nächsten Anmeldung nicht vollständig für alle Anwendungen übernommen werden."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -63,16 +61,15 @@ msgstr "Größer"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
-msgstr "Auswahlfeld"
+msgstr "Ankreuzfeld"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Color"
 msgstr "Farben"
 
 #: ../data/ui/lxappearance.glade.h:8
-#, fuzzy
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Farbeinstellungen werden vom momentan eingestellten Thema nicht unterstützt."
+msgstr "Farbschemata werden vom momentan gewählten Thema nicht unterstützt."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
@@ -148,19 +145,20 @@ msgstr "Entfernen"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Same as buttons"
-msgstr ""
+msgstr "Wie auf Knöpfen"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Wie in Dialogen"
 
 #: ../data/ui/lxappearance.glade.h:30
+#, fuzzy
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Wie in Anfassern"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Same as menu items"
-msgstr ""
+msgstr "Wie in Menüs"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Selected items:"
@@ -200,7 +198,7 @@ msgstr "Nur Text"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
-msgstr "Textfenster:"
+msgstr "Fenstertext:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
@@ -212,12 +210,11 @@ msgstr "Stil der Werkzeugleiste: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
-msgstr "Kurzinfo:"
+msgstr "Minihilfe:"
 
 #: ../data/ui/lxappearance.glade.h:45
-#, fuzzy
 msgid "Use customized color scheme"
-msgstr "Benutze eigene Farbeinstellung"
+msgstr "Angepasstes Farbschema benutzen"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
@@ -241,11 +238,11 @@ msgstr "_Hilfe"
 
 #: ../data/ui/lxappearance.glade.h:51
 msgid "button"
-msgstr ""
+msgstr "Knopf"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "play event sounds as feedback to user input"
-msgstr ""
+msgstr "Akustische Signale als Rückmeldung für Benutzereingaben wiedergeben"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
@@ -254,4 +251,3 @@ msgstr "Symbolthema wählen"
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Symbolthema)"
-
