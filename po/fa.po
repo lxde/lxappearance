@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-16 05:40+0000\n"
+"PO-Revision-Date: 2010-08-16 17:09+0330\n"
+"Last-Translator: Mostafa <info@mostafadaneshvar.com>\n"
+"Language-Team: Persian <trans-fa@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: Iran\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "سفارشی سازی نما و شما"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "سفارشی سازی نمای و شمای رومیزی و برنامه های خود"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "کپی رایت (C) ۲۰۱۰ پروژه LXDE"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "سفارشی سازی نمای و شمای رومیزی خود"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "مترجمین"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>گزینه های میانگر گرافیکی کاربری</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>نکنه:</b> همه برنامه های رو میزی تغییر تم نشانگر در حرکت را پشتیبانی نمی کنند. پس تغییرات شما اینجا شاید به طور کامل در همه برنامه ها تا هنگام ورود مجدد اعمال نشوند."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>افکت صوتی</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "پس زمینه"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "بزرگتر"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "دکمه چک"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "رنگ"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "شمای رنگ در تم برنامک انتخابی کنونی پشتیبانی نمی  شود."
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "قلم پیشفرض:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "دمو"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "پیش نما"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "تم آیکن"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "فقط آیکن"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "نصب"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "ایکن بزرگ نوار ابزار"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "نشانگر موشی"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "پنجره های معمولی:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "دیگر"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "صفحه ۲"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "صفحه ۱"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "پخش صدا"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "بازبینی تم نشانگر انتخابی"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "بازبینی تم آیکن انتخابی"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "بازبینی سبک برنامک انتخابی"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "دکمه های رادیویی"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "حذف"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "همانند دکمه ها"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "همانند محاروه ها"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr "همانند آیکن های کشیدن"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "همانند ایتم های منو"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "ایتم ها انتخاب شده:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "نمایش تصاویر در منوها"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "نمایش تصویر بر روی دکمه ها"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "اندازه ی نشانگر"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "آیکن کوچکتر نوار ابزار"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "کوچکتر"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "متن ذیل آیکن ها"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "متن کنار آیکن ها"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "فقط متن"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "متن پنجره ها:"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "اندازه ایکن نوار ابزار:"
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "سبک نوار ابزار:"
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr "نکات‌ابزار:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr "استفاده از شمای رنگ سفارشی"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr "ابزارک"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "محدوده ی پنجره"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "اصلاح"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "فایل"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "کمک"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "دکمه"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "پخش صوتی به عنوان بازخورد برای خروجی کاربر"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "انتخاب یک تم آیکن"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (آیکن تم)"
+
