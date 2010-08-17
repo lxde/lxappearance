@@ -1,0 +1,255 @@
+# Serbian translation for LXAppearance package
+# Copyright (C) 2010 The LXDE Project
+# This file is distributed under the same license as the LXAppearance package.
+# Jay A. Fleming <tito.nehru.naser@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LXAppearance package\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-17 05:37+0000\n"
+"PO-Revision-Date: 2010-08-17 13:56+0100\n"
+"Last-Translator: Jay Alexander Fleming <tito.nehru.naser@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Подешавања изгледа"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Прилагодите изглед радне површи и програма"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "LXDE Project — 2010. Сва права задржана."
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Прилагодите изглед радне површи"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Serbian (sr) — Jay A. Fleming <tito.nehru.naser@gmail.com>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>Подешавања графичког корисничког интерфејса</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Напомена:</b> Аутоматску промену изгледа показивача не подржавају сви програми. Ове промене у тим програмима биће видљиве након наредног пријављивања на систем."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Звучни догађаји</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Позадина"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Веће"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Дугме за потврду"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Боје"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Одабрана тема контрола не подржава шему боја."
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Подразумевани фонт:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Демо"
+
+#: ../data/ui/lxappearance.glade.h:12
+#, fuzzy
+msgid "Foreground"
+msgstr "Боја исцртавања"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Тема икона"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Само иконе"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Инсталирај"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Велике иконе у траци са алатима"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Показивач миша"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Прозори - подразумевано:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Остало"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Страна1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Страна2"
+
+#: ../data/ui/lxappearance.glade.h:22
+#, fuzzy
+msgid "Play event sounds"
+msgstr "Озвучи догађаје"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "Преглед одабране теме показивача"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "Преглед одабране теме икона"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "Преглед изгледа одабраног виџета"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "Радио дугме"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "Уклони"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "Исто као дугмад"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "Исто као дијалози"
+
+#: ../data/ui/lxappearance.glade.h:30
+#, fuzzy
+msgid "Same as drag icons"
+msgstr "Исто као превучене иконе"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "Исто као ставке менија"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "Одабране ставке:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "Прикажи слике у менијима"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "Прикажи слике на дугмадима"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "Величина показивача"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "Мале иконе у траци са алатима"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "Мање"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "Текст испод икона"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "Текст поред икона"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "Само текст"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "Прозори за текст:"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "Величина икона у траци са алатима: "
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "Изглед траке са алатима: "
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr "Облачићи са саветима:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr "Користи прилагођену шему боја"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr "Контрола"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "Ивица прозора"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "_Уреди"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_Датотека"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Помоћ"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "дугме"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "додели звук догађају као одговор на корисничку акцију"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Изаберите пакет са темом икона"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (тема икона)"
+
