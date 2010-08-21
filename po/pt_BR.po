@@ -2,12 +2,12 @@
 # Copyright (C) 2010 The creators of LXAPPEARANCE.
 # This file is distributed under the same license as the LXAPPEARANCE package.
 # Henrique P. Machado <hpmachado@gnome.org>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"POT-Creation-Date: 2010-08-21 05:38+0000\n"
 "PO-Revision-Date: 2010-08-10 00:21-03:00\n"
 "Last-Translator: Henrique P. Machado <hpmachado@gnome.org>\n"
 "Language-Team: Brazilian Porguese <ldp-br@bazar.conectiva.com.br>\n"
@@ -41,14 +41,8 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Opções de gráficos</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
-"<b>Nota:</b> Nem todos aplicativos da área de trabalho suportam mudança do "
-"tema do cursor em tempo real. Então suas alterações aqui podem não ser "
-"aplicadas a todos os aplicativos até o próximo início de sessão."
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Nota:</b> Nem todos os aplicativos da área de trabalho suportam mudança do tema do cursor em tempo real. Então suas alterações aqui podem não ser aplicadas a todos os aplicativos até o próximo início de sessão."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -72,9 +66,7 @@ msgstr "Cor"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
-"O esquema de cores não tem suporte pelo tema do widget selecionado "
-"atualmente."
+msgstr "O esquema de cores não tem suporte pelo tema do widget selecionado atualmente."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
@@ -102,7 +94,7 @@ msgstr "Instalar"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
-msgstr "Ícone de barra de ferramentas largo"
+msgstr "Ícone da barra de ferramentas grande"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
@@ -126,7 +118,7 @@ msgstr "Página 2"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Play event sounds"
-msgstr "Reproduzir eventos de som"
+msgstr "Reproduzir som de eventos"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected cursor theme"
@@ -182,7 +174,7 @@ msgstr "Tamanho dos cursores"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Small toolbar icon"
-msgstr "Ícone de barra de ferramentas pequeno"
+msgstr "Ícone da barra de ferramentas pequeno"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Smaller"
