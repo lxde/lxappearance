@@ -238,7 +238,7 @@ msgstr "botão"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "play event sounds as feedback to user input"
-msgstr "reproduzir sons de eventos como feedback à entrada do usuário"
+msgstr "Reproduzir sons de eventos como feedback à entrada do usuário"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
