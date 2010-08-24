@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"PO-Revision-Date: 2010-08-24 12:54+0200\n"
+"Last-Translator: Martin <brother@bsnet.se>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Hantera utseende och beteende"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Hanterar utseende och beteende för skrivbordsmiljö och program"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright © 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Hanterar utseende och beteende för din skrivbordsmiljö"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr ""
+"Martin Bagge <brother@bsnet.se>\n"
+"\n"
+"Fel på översättningen? Kontakta då tp-sv@listor.tp-sv.se med dina "
+"kommentarer!"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI-alternativ</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>OBS!</b> Alla skrivbordsprogram har inte stöd för att byta tema för "
+"muspekaren under drift. Vissa ändringar här slår därför igenom först nästa "
+"gång du loggar in."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Ljudeffekt</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Bakgrund"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Större"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Kryssruta"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Färg"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Standardteckensnitt:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Förgrund"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Ikontema"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Bara ikoner"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Installera"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Stor ikon i vertygsfält"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Muspekare"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Normalt fönster:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Annat"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Sida 1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Sida 2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Spela händelseljud"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "Förhandsgranska valt muspekartema"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "Förhandsgranska valt ikontema"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "Ta bort"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "Samma som knappar"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "Samma som informationsrutor"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr "Samma som flyttikoner"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "Samma som menyalternativ"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "Valda alternativ:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "Visa bilder i menyer"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "Visa bilder på knappar"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "Storlek på pekare"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "Liten ikon i vertygsfält"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "Mindre"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "Text under ikoner"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "Text brevid ikoner"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "Bara text"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "Fönsterkant"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "_Redigera"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_Arkiv"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "knapp"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "spela händelseljud som återkoppling till användarens inmatning"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Välj ikontema"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Ikontema)"
