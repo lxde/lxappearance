@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-08 01:59+0800\n"
-"PO-Revision-Date: 2010-08-24 12:54+0200\n"
+"PO-Revision-Date: 2010-08-30 16:10+0200\n"
 "Last-Translator: Martin <brother@bsnet.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
-msgstr ""
+msgstr "Radioknapp"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Remove"
@@ -211,19 +211,19 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "Ikonstorlek i verktygsfältet: "
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Verktygsfältets stil: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
-msgstr ""
+msgstr "Verktygstips:"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "Använd anpassat färgschema"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
