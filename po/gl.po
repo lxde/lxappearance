@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-03 05:41+0000\n"
+"PO-Revision-Date: 2010-09-03 18:10+0100\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
+"Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Galician\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Personalizar a aparencia e o comportamento"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Personalizar a aparencia e comportamento do seu escritorio e aplicativos"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Dereitos de autor (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Personalizar a aparencia e comportamento do escritorio"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr ""
+"Miguel Anxo Bouzada <mbouzada@gmail.com>, 2010\n"
+"Proxecto Trasno <proxecto@trasno.net>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>Opcións do IGU</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b> Nota:</b> Non todos os aplicativos de escritorio permiten cambiar o tema do punteiro ao voo. Polo que non se aplicaran todos os seus cambios ata o seguinte inicio de sesión."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Efecto sonoro</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Fondo"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Máis grande"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Caixa de selección"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Cor"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "O esquema de cor no é admitido polo tema seleccionado actualmente de trebellos."
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Tipo de letra predeterminado:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demostración"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Primeiro plano"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Temas de iconas"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Só iconas"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Instalar"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Iconas grandes na barra de ferramentas"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Punteiro do rato"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Xanelas normais:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Outro"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Páxina1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Páxina3"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Reproducir sons en eventos"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "Vista previa do tema de punteriro seleccionado"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "Vista previa do tema de iconas seleccionado"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "Vista previa do tema de trebellos seleccionado"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "Botón de selección"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "Quitar"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "Igual que nos botóns"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "Igual que nos dialogos"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr "Igual que ao arrastrar iconas"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "Igual que nos elementos do menú"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "Elementos seleccionados:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "Amosar imaxes nos menús"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "Amosar imaxes no botóns"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "Tamaño dos punteiros"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "Iconas pequenas na barra de ferramentas"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "Máis pequeno"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "Texto debaixo das iconas"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "Texto ao lado das iconas"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "Só texto"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "Texto das xanelas:"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "Tamaño das iconas a barra de ferramentas: "
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "Estilo de barra de ferramentas: "
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr "Suxestións:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr "Empregar esquema de cor personalizado"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr "Trebello"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "Bordo da xanela"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Axuda"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "botón"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "reproducir sons nos eventos para informar ao usuario"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Seleccione un tema de iconas"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema de iconas)"
+
+#~ msgid "Column"
+#~ msgstr "Columna"
+#~ msgid "Item"
+#~ msgstr "Elemento"
+#~ msgid "Tab1"
+#~ msgstr "Separador1"
+#~ msgid "Tab2"
+#~ msgstr "Separador2"
+#~ msgid "Tab3"
+#~ msgstr "Separador3"
+#~ msgid "Tab4"
+#~ msgstr "Separador4"
+#~ msgid "Test Item 1"
+#~ msgstr "Elemento de proba 1"
+#~ msgid "Test Item 2"
+#~ msgstr "Elemento de proba 2"
+#~ msgid "Test Item 3"
+#~ msgstr "Elemento de proba 3"
+#~ msgid "Type some characters here to test currently selected font."
+#~ msgstr "Escriba algúns caracteres aquí para probar a fonte seleccionada."
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Vista previa</b>"
+#~ msgid "Appearance Settings"
+#~ msgstr "Configuración da aparencia"
+#~ msgid "Available Cursor Themes"
+#~ msgstr "Temas de punteiros dispoñíbeis"
+#~ msgid "Available Window Themes"
+#~ msgstr "Temas de xanela dispoñíbeis"
+#~ msgid "Icon"
+#~ msgstr "Icona"
+#~ msgid "Size"
+#~ msgstr "Tamaño"
+#~ msgid "_Font:"
+#~ msgstr "_Tipo de letra:"
+#~ msgid "Appearance"
+#~ msgstr "Aparencia"
+#~ msgid "Back"
+#~ msgstr "Atrás"
+#~ msgid "Forward"
+#~ msgstr "Adiante"
+#~ msgid "Stop"
+#~ msgstr "Deter"
+#~ msgid ""
+#~ "Test Item 1\n"
+#~ "Test Item 2\n"
+#~ "Test Item 3"
+#~ msgstr ""
+#~ "Elemento de proba 1\n"
+#~ "Elemento de proba 2\n"
+#~ "Elemento de proba 3"
+#~ msgid ""
+#~ "Icons only\n"
+#~ "Text only\n"
+#~ "Text below icons\n"
+#~ "Text beside icons"
+#~ msgstr ""
+#~ "Só iconas\n"
+#~ "Só texto\n"
+#~ "Texto debaixo das iconas\n"
+#~ "Texto ao lado das iconas"
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Non se atopou o ficheiro de imaxe: %s"
+
