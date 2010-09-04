@@ -28,11 +28,11 @@ msgstr "Customises look and feel of your desktop and applications"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Copyright  2010 LXDE Project"
+msgstr "Copyright © 2010 LXDE Project"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Customises look and feel of your desktop"
+msgstr "Customises the look and feel of your desktop"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
@@ -57,7 +57,7 @@ msgstr "Background"
 
 #: ../data/ui/lxappearance.glade.h:5
 msgid "Bigger"
-msgstr "Bigger"
+msgstr "Larger"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
@@ -69,7 +69,7 @@ msgstr "Colour"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Colour scheme is not supported by currently selected widget theme."
+msgstr "Colour scheme is not supported by the current widget theme."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
