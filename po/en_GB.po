@@ -244,10 +244,9 @@ msgid "play event sounds as feedback to user input"
 msgstr "play event sounds as feedback to user input"
 
 #: ../src/utils.c:212
-#, fuzzy
 msgid "Select an icon theme"
 msgstr "Select an icon theme"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Icon Theme)"
