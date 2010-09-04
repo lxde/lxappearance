@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
@@ -11,21 +11,20 @@ msgstr ""
 "PO-Revision-Date: 2010-09-04 17:42+0100\n"
 "Last-Translator: Steve (Yorvyk) Cook <yorvik.ubunto@googlemail.com>\n"
 "Language-Team: en_GB <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-Language: English\n"
 "X-Poedit-Country: UNITED KINGDOM\n"
 
-#: ../data/lxappearance.desktop.in.h:1
-#: ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
 msgstr "Customise Look and Feel"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr ""
+msgstr "Customises look and feel of your desktop and applications"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
@@ -33,100 +32,85 @@ msgstr "Copyright  2010 LXDE Project"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr ""
+msgstr "Customises look and feel of your desktop"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
-#, fuzzy
 msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  Malcolm Parsons https://launchpad.net/~malcolm-parsons\n"
-"  Michael Mulqueen https://launchpad.net/~michael.mulqueen\n"
-"  MoLE https://launchpad.net/~moleonthehill\n"
-"  Nicholas Wastell https://launchpad.net/~nickwastell\n"
-"  Rui Moreira https://launchpad.net/~rui-f-moreira"
+msgstr "translator-credits"
 
 #: ../data/ui/lxappearance.glade.h:1
-#, fuzzy
 msgid "<b>GUI Options</b>"
-msgstr "The menu of options"
+msgstr "<b>GUI Options</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr ""
+msgstr "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes, here, might not be fully applied to all applications until next login."
 
 #: ../data/ui/lxappearance.glade.h:3
-#, fuzzy
 msgid "<b>Sound Effect</b>"
-msgstr "Rock Sound"
+msgstr "<b>Sound Effect</b>"
 
 #: ../data/ui/lxappearance.glade.h:4
-#, fuzzy
 msgid "Background"
 msgstr "Background"
 
 #: ../data/ui/lxappearance.glade.h:5
 msgid "Bigger"
-msgstr ""
+msgstr "Bigger"
 
 #: ../data/ui/lxappearance.glade.h:6
-#, fuzzy
 msgid "Check Button"
-msgstr "Create a button"
+msgstr "Check Button"
 
 #: ../data/ui/lxappearance.glade.h:7
-#, fuzzy
 msgid "Color"
 msgstr "Colour"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
+msgstr "Colour scheme is not supported by currently selected widget theme."
 
 #: ../data/ui/lxappearance.glade.h:10
-#, fuzzy
 msgid "Default font:"
 msgstr "Default Font Size"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
-msgstr ""
+msgstr "Demo"
 
 #: ../data/ui/lxappearance.glade.h:12
-#, fuzzy
 msgid "Foreground"
 msgstr "Foreground"
 
 #: ../data/ui/lxappearance.glade.h:13
-#, fuzzy
 msgid "Icon Theme"
-msgstr "Chart Theme"
+msgstr "Icon Theme"
 
 #: ../data/ui/lxappearance.glade.h:14
 #, fuzzy
 msgid "Icons only"
-msgstr "_Icons Only"
+msgstr "Icons only"
 
 #: ../data/ui/lxappearance.glade.h:15
 #, fuzzy
 msgid "Install"
-msgstr "Aborting install."
+msgstr "Install"
 
 #: ../data/ui/lxappearance.glade.h:16
 #, fuzzy
 msgid "Large toolbar icon"
-msgstr "Show status icon"
+msgstr "Large toolbar icon"
 
 #: ../data/ui/lxappearance.glade.h:17
 #, fuzzy
 msgid "Mouse Cursor"
-msgstr "Cursor colour"
+msgstr "Mouse Cursor"
 
 #: ../data/ui/lxappearance.glade.h:18
 #, fuzzy
 msgid "Normal windows:"
-msgstr "  Normal packages: "
+msgstr "Normal windows:"
 
 #: ../data/ui/lxappearance.glade.h:19
 #, fuzzy
@@ -299,4 +283,3 @@ msgstr "Select _icon from:"
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr ""
-
