@@ -2,12 +2,12 @@
 # Copyright (C) 2010 THE lxappearance'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the lxappearance package.
 # Andika Triwidada <andika@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-25 05:39+0000\n"
+"POT-Creation-Date: 2010-09-07 05:44+0000\n"
 "PO-Revision-Date: 2010-09-05 16:07+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian Translation Team <id@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
-msgstr ""
+msgstr "Ubah Tampilan dan Rasa"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr ""
+msgstr "Ubah tampilan dan rasa dari desktop dan aplikasi Anda"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
@@ -29,7 +29,7 @@ msgstr "Hak Cipta (C) 2010 Projek LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr ""
+msgstr "Ubah tampilan dan rasa dari desktop Anda"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
@@ -41,11 +41,8 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Opsi GUI</b?"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Catatan:</b> Tidak semua aplikasi desktop mendukung pengubahan tema kursor sambil-jalan. Maka perubahan Anda mungkin tidak diterapkan sepenuhnya atas semua aplikasi sampai login berikutnya."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
