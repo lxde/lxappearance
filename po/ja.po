@@ -1,0 +1,254 @@
+# Japanese translations for lxappearance package
+# lxappearance パッケージに対する日本語訳.
+# Copyright (C) 2008-2009 THE lxappearance'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lxappearance package.
+# Hironao Komatsu <hironao@users.sourceforge.net>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-11 10:18+0900\n"
+"PO-Revision-Date: 2010-09-11 10:40+0900\n"
+"Last-Translator: Hironao Komatsu <hironao@users.sourceforge.net>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "ルックアンドフィールを設定します"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "あなたのデスクトップとアプリケーションのルックアンドフィールを設定します"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "デスクトップのルックアンドフィールを設定します"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Hironao Komatsu <hironao@users.sourceforge.net>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI のオプション</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr "<b>注意:</b> デスクトップアプリケーションのすべてが実行中のカーソルテーマの変更をサポートしているわけではありません。よって、ここでの変更の一部は次回のログインまで反映されないことがあります。"
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>効果音</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "背景色"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "大きく"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "チェックボタン"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "色"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "現在選択しているウィジェットテーマはカラースキームをサポートしていません。"
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "デフォルトのフォント:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "デモ"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "前景色"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "アイコンテーマ"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "アイコンのみ"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "インストール"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "大きなツールバーアイコン"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "マウスカーソル"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "通常のウィンドウ:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "その他"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "ページ1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "ページ2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "イベント音を鳴らす"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "選択中のカーソルテーマのプレビュー"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "選択中のアイコンテーマのプレビュー"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "選択中のウィジェットスタイルのプレビュー"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "ラジオボタン"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "削除"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "ボタンと同じ"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "ダイアログと同じ"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr "ドラッグアイコンと同じ"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "メニューアイテムと同じ"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "選択中のアイテム:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "メニューに画像を表示する"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "ボタンに画像を表示する"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "カーソルの大きさ"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "小さなツールバーアイコン"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "小さく"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "アイコンの下にテキスト"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "アイコンの横にテキスト"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "テキストのみ"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "テキストウィンドウ:"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "ツールバーアイコンの大きさ: "
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "ツールバーのスタイル: "
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr "ツールチップ:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr "独自のカラースキームを使用する"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "ウィンドウ境界"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "ボタン"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "ユーザ入力のフィードバックとしてイベント音を鳴らす"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "アイコンテーマの選択"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (アイコンテーマ)"
