@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gunleif Joensen <gunleif@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-13 05:43+0000\n"
+"PO-Revision-Date: 2010-09-13 08:30+0200\n"
+"Last-Translator: Gunleif Joensen <gunleif@gmail.com>\n"
+"Language-Team: Føroyabólkurin\n"
+"Language: fo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Tillaga útsjónd og kenslu"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr ""
+"Tillagar útsjóndina og kensluna, av tínum skriviborðið og nýtsluskipanum"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Upphavsrættur (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Tillagar útsjóndina og kensluna av tínum skriviborði"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr ""
+"Gunleif Joensen\n"
+"\n"
+"Sjónarmið viðvíkjandi týðingini kunnu sendast til:\n"
+"<fo.umseting@gmail.com>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI kostir</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Bakgrund"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Størri"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Litur"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Forsett Stavsnið:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Ímyndstema"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Einans ímyndir"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Legg inn"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Stóra amboðsstongsímynd"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Músavísi"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Vanligir gluggar:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Aðrir"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Síða1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Síða2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Spæl av hendinga ljóð"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "Undansýning av tí valdu vísitemuni "
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "Undansýning av tí valdu temuni "
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "Útvarpsknappur"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "Tak burtur"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "Eins og  knappar"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "Eins og samrøður"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "Eins og valmyndaliðir"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "Valdir liðir:"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "Sýn myndir í valmyndum"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "Sýn myndir á knappum"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "Stødd á vísum"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "Lítla amboðsstongsímynd"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "Minni"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "Tekst niðanfyri ímyndum"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "Tekst við síðuni av ímyndum"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "Einans tekstur"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "Tekstgluggar:"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "Ímyndastødd á amboðsstong:"
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "Snið á amboðsstong:"
+
+#: ../data/ui/lxappearance.glade.h:44
+#, fuzzy
+msgid "Tooltips:"
+msgstr "Amboðsráð:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "Gluggakantur"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "_Ritstjórna"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "_Fíla"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "_Hjálp"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "knappur"
+
+#: ../data/ui/lxappearance.glade.h:52
+#, fuzzy
+msgid "play event sounds as feedback to user input"
+msgstr "spal av hendigarljóð, sum afturboðan um brúkarainntak"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Vel eina ímyndatemu"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (ímyndatema)"
