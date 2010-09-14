@@ -3,17 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-12 05:42+0000\n"
+"POT-Creation-Date: 2010-09-14 05:43+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: George Vasilakos <forfolias@linuxteam.cs.teilar.gr>\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: GREECE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: GREECE\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
@@ -129,9 +129,8 @@ msgid "Preview of the selected icon theme"
 msgstr "Προεπισκόπηση του επιλεγμένου θέματος εικονιδίων"
 
 #: ../data/ui/lxappearance.glade.h:25
-#, fuzzy
 msgid "Preview of the selected widget style"
-msgstr "Προεπισκόπηση του επιλεγμένου θέματος widget"
+msgstr "Προεπισκόπηση του επιλεγμένου στυλ γραφικών συστατικών"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
@@ -214,7 +213,6 @@ msgid "Use customized color scheme"
 msgstr "Χρήση προσαρμοσμένων χρωμάτων"
 
 #: ../data/ui/lxappearance.glade.h:46
-#, fuzzy
 msgid "Widget"
 msgstr "Widget"
 
