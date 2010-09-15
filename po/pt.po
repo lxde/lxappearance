@@ -2,13 +2,13 @@
 # Copyright (C) 2010 The LXAPPEARANCE Copyright Holder.
 # This file is distributed under the same license as the LXAPPEARANCE package.
 # Sérgio Marques <smarquespt@gmail.com>, 2010.
-#
+# Adaptado ao acordo ortográfico de 1990
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-29 07:53+0000\n"
-"PO-Revision-Date: 2010-08-30 02:12-0000\n"
+"PO-Revision-Date: 2010-09-15 16:15-0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,15 +20,15 @@ msgstr ""
 #: ../data/lxappearance.desktop.in.h:1
 #: ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
-msgstr "Personalizar Aparência"
+msgstr "Personalizar aparência e comportamento"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Personaliza o aspecto do seu ambiente de trabalho e das aplicações"
+msgstr "Personaliza o aspeto do seu ambiente de trabalho e das aplicações"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Copyright (C) 2010 LXDE Project"
+msgstr "Direitos de autor (C) 2010 Projeto LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -41,15 +41,15 @@ msgstr "Sérgio Marques <smarquespt@gmail.com>"
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
-msgstr "<b>Opções de Interface</b>"
+msgstr "<b>Opções de interface</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b>Nota:</b> Nem todas as aplicações suportam a alteração do tema do cursor em tempo real. Assim, algumas alterações efectuadas poderão não ser aplicadas até ao próximo início de sessão."
+msgstr "<b>Nota:</b> nem todas as aplicações suportam a alteração imediata dos cursores. Assim, algumas alterações efetuadas poderão não ser aplicadas até ao próximo início de sessão."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Efeito de Som</b>"
+msgstr "<b>Efeitos sonoros</b>"
 
 #: ../data/ui/lxappearance.glade.h:4
 msgid "Background"
@@ -61,7 +61,7 @@ msgstr "Maior"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
-msgstr "Botão de Verificação"
+msgstr "Botão de verificação"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Color"
@@ -69,11 +69,11 @@ msgstr "Cor"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "O esquema de cores não é suportado pelo tema actual."
+msgstr "O esquema de cores não é suportado pelo tema atual."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
-msgstr "Tipo de letra pro omissão:"
+msgstr "Tipo de letra por omissão:"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
@@ -85,7 +85,7 @@ msgstr "Primeiro plano"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Icon Theme"
-msgstr "Tema de Ícones"
+msgstr "Tema de ícones"
 
 #: ../data/ui/lxappearance.glade.h:14
 msgid "Icons only"
@@ -101,7 +101,7 @@ msgstr "Ícones grandes"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
-msgstr "Cursor do Rato"
+msgstr "Cursor do rato"
 
 #: ../data/ui/lxappearance.glade.h:18
 msgid "Normal windows:"
@@ -125,19 +125,19 @@ msgstr "Reproduzir sons de eventos"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected cursor theme"
-msgstr "Antevisão do tema de cursor seleccionado"
+msgstr "Antevisão do tema de cursor selecionado"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected icon theme"
-msgstr "Antevisão do tema de ícones seleccionado"
+msgstr "Antevisão do tema de ícones selecionado"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected widget style"
-msgstr "Antevisão do estilo do widget seleccionado"
+msgstr "Antevisão do estilo do \"widget\" selecionado"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
-msgstr "Botão de Rádio"
+msgstr "Botão rádio"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Remove"
@@ -145,23 +145,23 @@ msgstr "Remover"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Same as buttons"
-msgstr "O mesmo que botões"
+msgstr "O mesmo dos botões"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as dialogs"
-msgstr "O mesmo que diálogos"
+msgstr "O mesmo dos diálogos"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Same as drag icons"
-msgstr "O mesmo que ícones arrastáveis"
+msgstr "O mesmo dos ícones arrastáveis"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Same as menu items"
-msgstr "O mesmo que itens de menu"
+msgstr "O mesmo dos itens de menu"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Selected items:"
-msgstr "Itens seleccionados:"
+msgstr "Itens selecionados:"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Show images in menus"
@@ -201,11 +201,11 @@ msgstr "Janelas de texto:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
-msgstr "Tamanho do Ícone na Barra de Ferramentas:"
+msgstr "Tamanho do ícone na barra de ferramentas:"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
-msgstr "Estilo da Barra de Ferramentas:"
+msgstr "Estilo da barra de ferramentas:"
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
@@ -217,11 +217,11 @@ msgstr "Utilizar esquema personalizado"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
-msgstr "Widget"
+msgstr "\"Widget\""
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
-msgstr "Contornos da Janela"
+msgstr "Contornos da janela"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "_Edit"
@@ -245,9 +245,9 @@ msgstr "reproduzir sons de eventos como resposta à entrada do utilizador"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
-msgstr "Seleccione um tema de ícones"
+msgstr "Selecione um tema de ícones"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Tema de Ícone)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema de ícone)"
 
