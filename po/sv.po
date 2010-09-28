@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-08 01:59+0800\n"
-"PO-Revision-Date: 2010-08-30 16:10+0200\n"
+"PO-Revision-Date: 2010-09-28 02:30+0200\n"
 "Last-Translator: Martin <brother@bsnet.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -79,7 +79,7 @@ msgstr "Färg"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
+msgstr "Färgchemat stöds inte av widget-temat som är valt."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
@@ -143,7 +143,7 @@ msgstr "Förhandsgranska valt ikontema"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "Förhandsvisning av aktuell widget-stil"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
@@ -207,7 +207,7 @@ msgstr "Bara text"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
-msgstr ""
+msgstr "Textfönster:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
@@ -227,7 +227,7 @@ msgstr "Använd anpassat färgschema"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
-msgstr ""
+msgstr "Widget"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
