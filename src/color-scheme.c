@@ -161,14 +161,6 @@ static void on_custom_color_toggled(GtkToggleButton* btn, gpointer user_data)
 void color_scheme_init(GtkBuilder* b)
 {
     int i;
-    /* regular expressions used to parse gtkrc files */
-    gtkrc_include_reg = g_regex_new(
-        "[\\s]*include[\\s]+(\"([^\"]+)\"|'([^']+)')",
-        G_REGEX_MULTILINE|G_REGEX_OPTIMIZE, 0, NULL);
-
-    gtkrc_color_scheme_reg = g_regex_new(
-        "[\\s]*(gtk-color-scheme|gtk_color_scheme)[\\s]*=[\\s]*(\"([^\"]+)\"|'([^']+)')",
-        G_REGEX_MULTILINE|G_REGEX_OPTIMIZE, 0, NULL);
 
     app.color_table = GTK_WIDGET(gtk_builder_get_object(b, "color_table"));
     app.custom_colors = GTK_WIDGET(gtk_builder_get_object(b, "custom_colors"));
@@ -195,6 +187,18 @@ void color_scheme_init(GtkBuilder* b)
 gboolean gtkrc_file_get_color_scheme(const char* gtkrc_file, GHashTable* hash)
 {
     char* content;
+    if(G_UNLIKELY(!gtkrc_include_reg)) /* if regexp object is not yet created */
+    {
+        /* regular expressions used to parse gtkrc files */
+        gtkrc_include_reg = g_regex_new(
+            "[\\s]*include[\\s]+(\"([^\"]+)\"|'([^']+)')",
+            G_REGEX_MULTILINE|G_REGEX_OPTIMIZE, 0, NULL);
+
+        gtkrc_color_scheme_reg = g_regex_new(
+            "[\\s]*(gtk-color-scheme|gtk_color_scheme)[\\s]*=[\\s]*(\"([^\"]+)\"|'([^']+)')",
+            G_REGEX_MULTILINE|G_REGEX_OPTIMIZE, 0, NULL);
+    }
+
     /* g_debug("check: %s", gtkrc_file); */
     if(g_file_get_contents(gtkrc_file, &content, NULL, NULL))
     {
