@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"POT-Creation-Date: 2010-10-07 01:02+0800\n"
 "PO-Revision-Date: 2010-08-09 06:22-0500\n"
 "Last-Translator: Hugo Florentino <sysadmin@cips.cu>\n"
 "Language-Team: Spanish\n"
@@ -132,124 +132,124 @@ msgid "Play event sounds"
 msgstr "Reproducir sonidos en eventos"
 
 #: ../data/ui/lxappearance.glade.h:23
+msgid "Play event sounds as feedback to user input"
+msgstr "Reproducir sonidos de eventos como retroalimentación al usuario"
+
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected cursor theme"
 msgstr "Previsualizar el tema de cursores seleccionados"
 
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
 msgstr "Previsualizar el tema de iconos seleccionados"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Preview of the selected widget style"
 msgstr "Previsualizar el tema de controles seleccionados"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Radio Button"
 msgstr "Botón de selección"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Remove"
 msgstr "Quitar"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Same as buttons"
 msgstr "Igual que en los botons"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Same as dialogs"
 msgstr "Igual que en las pantallas"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.glade.h:31
 msgid "Same as drag icons"
 msgstr "Igual que en los iconos de arrastre"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.glade.h:32
 msgid "Same as menu items"
 msgstr "Igual que en los elementos de menú"
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Selected items:"
 msgstr "Elementos seleccionados"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Show images in menus"
 msgstr "Mostrar imágenes en los menús"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.glade.h:35
 msgid "Show images on buttons"
 msgstr "Mostrar imágenes en los botones"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.glade.h:36
 msgid "Size of cursors"
 msgstr "Tamaño de los cursores"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Small toolbar icon"
 msgstr "Icono pequeño en la barra de herramientas"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.glade.h:38
 msgid "Smaller"
 msgstr "Menor"
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.glade.h:39
 msgid "Text below icons"
 msgstr "Texto bajo los iconos"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.glade.h:40
 msgid "Text beside icons"
 msgstr "Texto al lado de los iconos"
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.glade.h:41
 msgid "Text only"
 msgstr "Sólo texto"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Text windows:"
 msgstr "Ventanas de texto:"
 
-#: ../data/ui/lxappearance.glade.h:42
-msgid "Toolbar Icon Size: "
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Icon Size:"
 msgstr "Tamaño del icono de la barra de herramientas:"
 
-#: ../data/ui/lxappearance.glade.h:43
-msgid "Toolbar Style: "
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Toolbar Style:"
 msgstr "Estilo de la barra de herramientas:"
 
-#: ../data/ui/lxappearance.glade.h:44
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Tooltips:"
 msgstr "Sugerencias:"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.glade.h:46
 msgid "Use customized color scheme"
 msgstr "Usar esquema de colores personalizado"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.glade.h:47
 msgid "Widget"
 msgstr "Controles"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.glade.h:48
 msgid "Window Border"
 msgstr "Borde de la ventana"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.glade.h:49
 msgid "_Edit"
 msgstr "_Editar"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.glade.h:50
 msgid "_File"
 msgstr "_Archivo"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.glade.h:51
 msgid "_Help"
 msgstr "Ay_uda"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.glade.h:52
 msgid "button"
 msgstr "botón"
-
-#: ../data/ui/lxappearance.glade.h:52
-msgid "play event sounds as feedback to user input"
-msgstr "reproducir sonidos de eventos como retroalimentación al usuario"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"

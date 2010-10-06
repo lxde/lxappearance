@@ -1327,7 +1327,7 @@
                                   <object class="GtkLabel" id="label24">
                                     <property name="visible">True</property>
                                     <property name="xalign">0</property>
-                                    <property name="label" translatable="yes">Toolbar Style: </property>
+                                    <property name="label" translatable="yes">Toolbar Style:</property>
                                   </object>
                                   <packing>
                                     <property name="x_options">GTK_FILL</property>
@@ -1338,7 +1338,7 @@
                                   <object class="GtkLabel" id="label25">
                                     <property name="visible">True</property>
                                     <property name="xalign">0</property>
-                                    <property name="label" translatable="yes">Toolbar Icon Size: </property>
+                                    <property name="label" translatable="yes">Toolbar Icon Size:</property>
                                   </object>
                                   <packing>
                                     <property name="top_attach">1</property>
@@ -1458,7 +1458,7 @@
                             </child>
                             <child>
                               <object class="GtkCheckButton" id="input_feedback_sound">
-                                <property name="label" translatable="yes">play event sounds as feedback to user input</property>
+                                <property name="label" translatable="yes">Play event sounds as feedback to user input</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
@@ -1526,10 +1526,9 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="apply">
-                <property name="label">gtk-apply</property>
+              <object class="GtkButton" id="close">
+                <property name="label">gtk-close</property>
                 <property name="visible">True</property>
-                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1541,9 +1540,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="close">
-                <property name="label">gtk-close</property>
+              <object class="GtkButton" id="apply">
+                <property name="label">gtk-apply</property>
                 <property name="visible">True</property>
+                <property name="sensitive">False</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
@@ -1565,8 +1565,8 @@
     </child>
     <action-widgets>
       <action-widget response="1">about</action-widget>
-      <action-widget response="-10">apply</action-widget>
       <action-widget response="-7">close</action-widget>
+      <action-widget response="-10">apply</action-widget>
     </action-widgets>
   </object>
   <object class="GtkImage" id="image2">

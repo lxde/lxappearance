@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"POT-Creation-Date: 2010-10-07 01:02+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,123 +125,123 @@ msgid "Play event sounds"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:23
-msgid "Preview of the selected cursor theme"
+msgid "Play event sounds as feedback to user input"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:24
-msgid "Preview of the selected icon theme"
+msgid "Preview of the selected cursor theme"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:25
-msgid "Preview of the selected widget style"
+msgid "Preview of the selected icon theme"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:26
-msgid "Radio Button"
+msgid "Preview of the selected widget style"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:27
-msgid "Remove"
+msgid "Radio Button"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:28
-msgid "Same as buttons"
+msgid "Remove"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:29
-msgid "Same as dialogs"
+msgid "Same as buttons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:30
-msgid "Same as drag icons"
+msgid "Same as dialogs"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:31
-msgid "Same as menu items"
+msgid "Same as drag icons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:32
-msgid "Selected items:"
+msgid "Same as menu items"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:33
-msgid "Show images in menus"
+msgid "Selected items:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:34
-msgid "Show images on buttons"
+msgid "Show images in menus"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:35
-msgid "Size of cursors"
+msgid "Show images on buttons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:36
-msgid "Small toolbar icon"
+msgid "Size of cursors"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:37
-msgid "Smaller"
+msgid "Small toolbar icon"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:38
-msgid "Text below icons"
+msgid "Smaller"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:39
-msgid "Text beside icons"
+msgid "Text below icons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:40
-msgid "Text only"
+msgid "Text beside icons"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:41
-msgid "Text windows:"
+msgid "Text only"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:42
-msgid "Toolbar Icon Size: "
+msgid "Text windows:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:43
-msgid "Toolbar Style: "
+msgid "Toolbar Icon Size:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:44
-msgid "Tooltips:"
+msgid "Toolbar Style:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:45
-msgid "Use customized color scheme"
+msgid "Tooltips:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:46
-msgid "Widget"
+msgid "Use customized color scheme"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:47
-msgid "Window Border"
+msgid "Widget"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:48
-msgid "_Edit"
+msgid "Window Border"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:49
-msgid "_File"
+msgid "_Edit"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:50
-msgid "_Help"
+msgid "_File"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:51
-msgid "button"
+msgid "_Help"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:52
-msgid "play event sounds as feedback to user input"
+msgid "button"
 msgstr ""
 
 #: ../src/utils.c:212

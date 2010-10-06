@@ -248,7 +248,6 @@ msgid "button"
 msgstr "knappur"
 
 #: ../data/ui/lxappearance.glade.h:52
-#, fuzzy
 msgid "play event sounds as feedback to user input"
 msgstr "spal av hendigarljóð, sum afturboðan um brúkarainntak"
 

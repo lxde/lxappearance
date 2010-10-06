@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"POT-Creation-Date: 2010-10-07 01:02+0800\n"
 "PO-Revision-Date: 2010-08-08 13:00+0100\n"
 "Last-Translator: Andrea Florio <andrea@opensuse.org>\n"
 "Language-Team: it <it@li.org>\n"
@@ -127,124 +127,124 @@ msgid "Play event sounds"
 msgstr "Esegui suoni di avviso"
 
 #: ../data/ui/lxappearance.glade.h:23
+msgid "Play event sounds as feedback to user input"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected cursor theme"
 msgstr "Anteprima del tema del puntatore selezionato"
 
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
 msgstr "Anteprima del tema di icone selezionato"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Preview of the selected widget style"
 msgstr "Anteprima dello stile delle finestre selezionato"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Radio Button"
 msgstr "Pulsante Radio"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Remove"
 msgstr "Rimuovi"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Same as buttons"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Same as dialogs"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.glade.h:31
 msgid "Same as drag icons"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.glade.h:32
 msgid "Same as menu items"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Selected items:"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Show images in menus"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.glade.h:35
 msgid "Show images on buttons"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.glade.h:36
 msgid "Size of cursors"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Small toolbar icon"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.glade.h:38
 msgid "Smaller"
 msgstr "Più piccolo"
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.glade.h:39
 msgid "Text below icons"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.glade.h:40
 msgid "Text beside icons"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.glade.h:41
 msgid "Text only"
 msgstr "Solo testo"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Text windows:"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:42
-msgid "Toolbar Icon Size: "
-msgstr ""
-
 #: ../data/ui/lxappearance.glade.h:43
-msgid "Toolbar Style: "
+msgid "Toolbar Icon Size:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:44
-msgid "Tooltips:"
+msgid "Toolbar Style:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:45
-msgid "Use customized color scheme"
+msgid "Tooltips:"
 msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:46
+msgid "Use customized color scheme"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:47
 msgid "Widget"
 msgstr "Finestra"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.glade.h:48
 msgid "Window Border"
 msgstr "Bordo finestra"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.glade.h:49
 msgid "_Edit"
 msgstr "_Modifica"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.glade.h:50
 msgid "_File"
 msgstr "_File"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.glade.h:51
 msgid "_Help"
 msgstr "_Aiuto"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.glade.h:52
 msgid "button"
 msgstr "pulsante"
-
-#: ../data/ui/lxappearance.glade.h:52
-msgid "play event sounds as feedback to user input"
-msgstr ""
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
