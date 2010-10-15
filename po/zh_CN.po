@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-08 01:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "自定义外观和体验"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "自定义您桌面和应用程序的外观和体验"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "版权所有 (C) 2010 LXDE 项目"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "自定义您桌面的外观和体验"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Yinghua Wang <wantinghard@gmail.com>"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI 选项</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr "<b>注：</b> 有些桌面应用程序不支持实时更改鼠标主题。因此您在这里所作的更改可能要到下次登录时才能完全应用。"
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>音效</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "背景"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "较大"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "复选按钮"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "颜色"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "当前选择的窗体主题不支持颜色方案。"
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "默认字体："
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "演示"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "前景色"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "图标主题"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "仅图标"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "安装"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "大工具栏图标"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "鼠标光标"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "正常窗口："
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "其他"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "页1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "页2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "播放事件声音"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Preview of the selected cursor theme"
+msgstr "预览选择的鼠标主题"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected icon theme"
+msgstr "预览选择的图标主题"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected widget style"
+msgstr "预览选择的窗体样式"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Radio Button"
+msgstr "单选按钮"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Remove"
+msgstr "移除"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Same as buttons"
+msgstr "与按钮相同"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as dialogs"
+msgstr "与对话框相同"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as drag icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as menu items"
+msgstr "与菜单项目相同"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Selected items:"
+msgstr "选择的项目："
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Show images in menus"
+msgstr "在菜单中显示图像"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images on buttons"
+msgstr "在按钮上显示图像"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Size of cursors"
+msgstr "光标大小"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Small toolbar icon"
+msgstr "小工具栏图标"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Smaller"
+msgstr "较小"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Text below icons"
+msgstr "文本在图标下"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text beside icons"
+msgstr "文本在图标旁"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text only"
+msgstr "仅文本"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text windows:"
+msgstr "文本窗口："
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Icon Size: "
+msgstr "工具栏图标尺寸："
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Style: "
+msgstr "工具栏样式："
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Tooltips:"
+msgstr "工具提示："
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Use customized color scheme"
+msgstr "使用自定义的色彩方案"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Widget"
+msgstr "窗体"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Window Border"
+msgstr "窗口边框"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_File"
+msgstr "文件(_F)"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "button"
+msgstr "按钮"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "play event sounds as feedback to user input"
+msgstr "播放事件声音作为用户输入的反馈"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "选择一个图标主题"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (图标主题)"
