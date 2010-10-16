@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-07 06:08+0000\n"
-"PO-Revision-Date: 2010-10-15 22:13+0200\n"
+"PO-Revision-Date: 2010-10-16 15:48+0200\n"
 "Last-Translator: Cilyan <gaknar@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -112,7 +112,6 @@ msgid "Mouse Cursor"
 msgstr "Curseur de la souris"
 
 #: ../data/ui/lxappearance.glade.h:18
-#, fuzzy
 msgid "Normal windows:"
 msgstr "Fenêtres normales :"
 
@@ -174,7 +173,7 @@ msgstr "Comme les entrées de menu"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Selected items:"
-msgstr "Élément sélectionnés :"
+msgstr "Éléments sélectionnés :"
 
 #: ../data/ui/lxappearance.glade.h:34
 msgid "Show images in menus"
@@ -209,9 +208,8 @@ msgid "Text only"
 msgstr "Texte seulement"
 
 #: ../data/ui/lxappearance.glade.h:42
-#, fuzzy
 msgid "Text windows:"
-msgstr "Fenêtres textuelles :"
+msgstr "Fenêtres de texte :"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size:"
