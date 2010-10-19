@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-07 01:02+0800\n"
+"POT-Creation-Date: 2010-10-18 05:59+0000\n"
 "PO-Revision-Date: 2010-08-13 17:51+0100\n"
 "Last-Translator: Lutz Thuns <lthuns@opensuse.org>\n"
 "Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
@@ -44,14 +44,8 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Oberfläche</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
-"<b>Hinweis:</b> Nicht alle Desktop-Anwendungen unterstützen das sofortige "
-"Ändern des Mauszeigers. Ihre Einstellungen könnten bis zur nächsten "
-"Anmeldung nicht vollständig für alle Anwendungen übernommen werden."
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Hinweis:</b> Nicht alle Desktop-Anwendungen unterstützen das sofortige Ändern des Mauszeigers. Ihre Einstellungen könnten bis zur nächsten Anmeldung nicht vollständig für alle Anwendungen übernommen werden."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -164,7 +158,7 @@ msgstr "Wie in Dialogen"
 #: ../data/ui/lxappearance.glade.h:31
 #, fuzzy
 msgid "Same as drag icons"
-msgstr "Wie in Anfassern"
+msgstr "Wie beim Ziehen von Symbolen"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Same as menu items"
