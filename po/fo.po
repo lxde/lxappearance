@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-13 05:43+0000\n"
-"PO-Revision-Date: 2010-10-22 07:48+0200\n"
+"PO-Revision-Date: 2010-10-22 08:52+0200\n"
 "Last-Translator: Gunleif Joensen <gunleif@gmail.com>\n"
 "Language-Team: Føroyabólkurin\n"
 "Language: fo\n"
@@ -79,7 +79,6 @@ msgid "Color"
 msgstr "Litur"
 
 #: ../data/ui/lxappearance.glade.h:8
-#, fuzzy
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Litaskipan er ikki stuðla av tí núverandi valda widget tema"
 
@@ -220,7 +219,6 @@ msgid "Toolbar Style: "
 msgstr "Snið á amboðsstong:"
 
 #: ../data/ui/lxappearance.glade.h:44
-#, fuzzy
 msgid "Tooltips:"
 msgstr "Amboðsráð:"
 
@@ -253,9 +251,8 @@ msgid "button"
 msgstr "knappur"
 
 #: ../data/ui/lxappearance.glade.h:52
-#, fuzzy
 msgid "play event sounds as feedback to user input"
-msgstr "spal av hendigarljóð, sum afturboðan um brúkarainntak"
+msgstr "spæl av hendigarljóð, sum afturboðan um brúkarainntak"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
