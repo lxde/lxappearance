@@ -5,12 +5,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-08 01:59+0800\n"
 "PO-Revision-Date: 2010-10-28 14:56+0200\n"
 "Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
 "Language: lg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -41,7 +41,7 @@ msgstr "Kizito Birabwa <kbirabwa@yahoo.co.uk>"
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
-msgstr "<b>Ebikwata ku ndabika y'awakolerwa</b>"
+msgstr "<b>Eby'endabika y'olubaawo lw'ebiyamba</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid ""
@@ -67,7 +67,7 @@ msgstr "Yongera bunene"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
-msgstr "Ppeesa erirondesebwa"
+msgstr "Ppeesa ery'akasaze"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Color"
@@ -76,7 +76,7 @@ msgstr "Langi"
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
-"Ekika ky'ebitundu by'awakolerwa ky'olonze tekikolagana na kukyusa olulyo lwa "
+"Ekika ky'obutundu bw'awakolerwa ky'olonze tekikolagana na kukyusa olulyo lwa "
 "langi za kyo."
 
 #: ../data/ui/lxappearance.glade.h:10
@@ -93,19 +93,19 @@ msgstr "Bwanjo"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Icon Theme"
-msgstr "Olulyo lw'obufaananyi obuyunzi"
+msgstr "Lulyo lw'obufaananyi"
 
 #: ../data/ui/lxappearance.glade.h:14
 msgid "Icons only"
-msgstr "Wabewo bufaananyi bwokka nga tekuli bigambo"
+msgstr "Bufaananyi bwokka nga tekuli bigambo"
 
 #: ../data/ui/lxappearance.glade.h:15
 msgid "Install"
-msgstr "Wanga"
+msgstr "Kozes'olwo"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
-msgstr "Akafaananyi ak'oku lubaawo lw'ebiyamba akanene"
+msgstr "Bunene"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
@@ -113,7 +113,7 @@ msgstr "Akasonga"
 
 #: ../data/ui/lxappearance.glade.h:18
 msgid "Normal windows:"
-msgstr "Madirisa aga bulijjo:"
+msgstr "Madirisa ga bulijjo:"
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Other"
@@ -121,11 +121,11 @@ msgstr "Birala"
 
 #: ../data/ui/lxappearance.glade.h:20
 msgid "Page1"
-msgstr "Lupapula 1"
+msgstr "Oludda 1"
 
 #: ../data/ui/lxappearance.glade.h:21
 msgid "Page2"
-msgstr "Lupapula 2"
+msgstr "Oludda 2"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Play event sounds"
@@ -133,15 +133,15 @@ msgstr "Vugisa amalaboozi agalaga nti waliwo ekiguddewo"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Preview of the selected cursor theme"
-msgstr "Okukulagako olulyo lw'akasonga lw'olonze"
+msgstr "Endabika y'obusonga obw'omu lulyo olwo"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected icon theme"
-msgstr "Okukulagako olulyo lw'obufaananyi obuyunzi lw'olonze"
+msgstr "Endabika y'obufaananyi obw'omu lulyo olwo"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected widget style"
-msgstr "Okukulagako omusono gw'ebitundu by'awakolerwa gw'olonze"
+msgstr "Endabika y'obutundu bw'awakolerwa obw'olulyo olwo"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Radio Button"
@@ -149,23 +149,23 @@ msgstr "Ppeesa lya kiradiyo"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Remove"
-msgstr "Gyawo"
+msgstr "Luggyemu"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Same as buttons"
-msgstr "Ekimu n'amapeesa"
+msgstr "Ng'obw'oku mapeesa"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as dialogs"
-msgstr "Ekimu n'obuboozi"
+msgstr "Ng'obw'omu buboozi"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Ng'obutambizika"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Same as menu items"
-msgstr ""
+msgstr "Ng'obw'oku menyu"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Selected items:"
@@ -185,7 +185,7 @@ msgstr "Bunene bw'obusonga"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Small toolbar icon"
-msgstr "Akafaananyi akayunzi ak'oku lubaawo lw'ebiyamba akatono"
+msgstr "Butono"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Smaller"
@@ -193,15 +193,15 @@ msgstr "Kendeeza"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Text below icons"
-msgstr "Obufaananyi obuyunzi bubeko ebigambo wansi wabwo"
+msgstr "Bigambo wansi w'obufaananyi"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Text beside icons"
-msgstr "Obufaananyi obuyunzi bubeko ebigambo wabbali wabwo"
+msgstr "Bigambo wabbali w'obufaananyi"
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "Text only"
-msgstr "Wabewo bigambo byokka"
+msgstr "Bigambo byokka"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text windows:"
@@ -209,11 +209,11 @@ msgstr "Amadirisa agalaga ebigambo:"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Icon Size: "
-msgstr "Bunene bw'obufaanayi obuyunzi obw'oku lubaawo lw'ebiyamba: "
+msgstr "Bunene bw'obufaanayi: "
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
-msgstr "Musono gw'olubaawo lw'ebiyamba: "
+msgstr "Musono: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Tooltips:"
@@ -225,11 +225,11 @@ msgstr "Weyiyize olulyo lwa langi"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Widget"
-msgstr "Katundu k'wakolerwa"
+msgstr "Butundu bw'awakolerwa"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Window Border"
-msgstr ""
+msgstr "Olukoloboze olwetoolola ddirisa"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "_Edit"
@@ -249,14 +249,12 @@ msgstr "ppeesa"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "play event sounds as feedback to user input"
-msgstr ""
-"vugisanga malaboozi agalaga nti waliwo ekiguddewo omukozesa nga alina "
-"by'ayingiza"
+msgstr "vugisa malaboozi omukozesa nga alina by'ayingiza"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
-msgstr "Londako olulyo lw'obufaanayinyi obuyunzi"
+msgstr "Londa olulyo lw'obufaanayinyi obuyunzi"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Lulyo lw'obufaananyi obuyunzi)"
+msgstr "*.tar.gz, *.tar.bz2 (Lulyo lw'obufaananyi)"
