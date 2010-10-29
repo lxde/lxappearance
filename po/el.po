@@ -1,12 +1,13 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-13 06:03+0000\n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: George Vasilakos <forfolias@linuxteam.cs.teilar.gr>\n"
 "Language-Team: Greek\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +22,9 @@ msgstr "Προσαρμόστε την εμφάνιση και αίσθηση"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Προσαρμόζει την εμφάνιση και την αίσθηση της επιφάνειας εργασίας και των εφαρμογών σας"
+msgstr ""
+"Προσαρμόζει την εμφάνιση και την αίσθηση της επιφάνειας εργασίας και των "
+"εφαρμογών σας"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
@@ -41,8 +44,14 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Επιλογές διεπαφής</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b>Σημείωση:</b> Δεν υποστηρίζουν όλες οι εφαρμογές την άμεση αλλαγή θέματος του δρομέα. Έτσι, οι αλλαγές σας μπορεί να μην εφαρμοστούν πλήρως μέχρι την επόμενη σύνδεση."
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Σημείωση:</b> Δεν υποστηρίζουν όλες οι εφαρμογές την άμεση αλλαγή θέματος "
+"του δρομέα. Έτσι, οι αλλαγές σας μπορεί να μην εφαρμοστούν πλήρως μέχρι την "
+"επόμενη σύνδεση."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"

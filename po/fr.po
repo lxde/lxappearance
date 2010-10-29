@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-07 06:08+0000\n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
 "PO-Revision-Date: 2010-10-16 15:48+0200\n"
 "Last-Translator: Cilyan <gaknar@gmail.com>\n"
 "Language-Team: French\n"
@@ -77,7 +77,8 @@ msgstr "Couleur"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "La sélection des couleurs n'est pas supportée par le thème sélectionné."
+msgstr ""
+"La sélection des couleurs n'est pas supportée par le thème sélectionné."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"

@@ -2,15 +2,16 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-09 06:00+0000\n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
 "PO-Revision-Date: 2010-09-03 18:10+0100\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +25,8 @@ msgstr "Personalizar a aparencia e o comportamento"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Personalizar a aparencia e comportamento do seu escritorio e aplicativos"
+msgstr ""
+"Personalizar a aparencia e comportamento do seu escritorio e aplicativos"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
@@ -46,8 +48,14 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Opcións do IGU</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b> Nota:</b> Non todos os aplicativos de escritorio permiten cambiar o tema do punteiro ao voo. Polo que non se aplicaran todos os seus cambios ata o seguinte inicio de sesión."
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b> Nota:</b> Non todos os aplicativos de escritorio permiten cambiar o tema "
+"do punteiro ao voo. Polo que non se aplicaran todos os seus cambios ata o "
+"seguinte inicio de sesión."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -71,7 +79,9 @@ msgstr "Cor"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "O esquema de cor no é admitido polo tema seleccionado actualmente de trebellos."
+msgstr ""
+"O esquema de cor no é admitido polo tema seleccionado actualmente de "
+"trebellos."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"

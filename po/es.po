@@ -2,15 +2,16 @@
 # Copyright (C) 2010 The LXDE Project
 # This file is distributed under the same license as the lxappearance package.
 # Hugo Florentino <sysadmin@cips.cu>, 2010.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-24 06:01+0000\n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
 "PO-Revision-Date: 2010-08-09 06:22-0500\n"
 "Last-Translator: Hugo Florentino <sysadmin@cips.cu>\n"
 "Language-Team: Spanish\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +23,9 @@ msgstr "Personalizar apariencia y comportamiento"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Personaliza la aparciencia y el comportamiento de su escritorio y aplicaciones"
+msgstr ""
+"Personaliza la aparciencia y el comportamiento de su escritorio y "
+"aplicaciones"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
@@ -42,8 +45,14 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Opciones de la interfaz gráfica</b>"
 
 #: ../data/ui/lxappearance.glade.h:2
-msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b>Nota:</b> No todas las aplicaciones de escritorio admiten cambiar el tema de cursores al vuelo. De manera que sus cambios aquí podrían aplicarse sólo tras el próximo inicio de sesión."
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Nota:</b> No todas las aplicaciones de escritorio admiten cambiar el tema "
+"de cursores al vuelo. De manera que sus cambios aquí podrían aplicarse sólo "
+"tras el próximo inicio de sesión."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -67,7 +76,9 @@ msgstr "Color"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "El tema de componentes seleccionado actualmente no admite este tema de colores."
+msgstr ""
+"El tema de componentes seleccionado actualmente no admite este tema de "
+"colores."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
