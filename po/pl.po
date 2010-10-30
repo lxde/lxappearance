@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Piotr Sokół <psokol@jabster.pl>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-30 06:10+0000\n"
+"PO-Revision-Date: 2010-10-30 21:45+0200\n"
+"Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
+"Language-Team:  <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Preferencje wyglądu"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Dostosowuje wygląd środowiska graficznego"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Dostosowuje wygląd środowiska graficznego"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Piotr Sokół <psokol@jabster.pl>, 2010"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>Interfejs użytkownika</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Dźwięki</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Drugoplanowy"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Przycisk wyboru"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Kolory"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Schematy kolorów nie są obsługiwane przez bieżący styl"
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Domyślna czcionka:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Pierwszoplanowy"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Ikony"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Tylko ikony"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Zainstaluj"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Kursory myszy"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Inne"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Karta1 "
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Karta2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Odtwarzanie zdarzeń dźwiękowych"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Play event sounds as feedback to user input"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected cursor theme"
+msgstr "Podgląd wybranego stylu kursora"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected icon theme"
+msgstr "Podgląd wybranego stylu ikon"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Preview of the selected widget style"
+msgstr "Podgląd wybranego stylu widżetów"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Radio Button"
+msgstr "Przycisk pojedynczego wyboru"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Remove"
+msgstr "Usuń"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as dialogs"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as drag icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Same as menu items"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Selected items:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images in menus"
+msgstr "Wyświetlanie ikon w menu"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Show images on buttons"
+msgstr "Wyświetlanie ikon na przyciskach"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Size of cursors"
+msgstr "Rozmiar"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Small toolbar icon"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Smaller"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text below icons"
+msgstr "Etykiety poniżej ikon"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text beside icons"
+msgstr "Etykiety obok ikon"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text only"
+msgstr "Tylko etykiety"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Text windows:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Icon Size:"
+msgstr "Rozmiar ikon pasków narzędziowych:"
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Toolbar Style:"
+msgstr "Styl pasków narzędziowych:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Tooltips:"
+msgstr "Podpowiedzi:"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Use customized color scheme"
+msgstr "Własne"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Widget"
+msgstr "Widżety"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "Window Border"
+msgstr "Obramowanie okna"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_Edit"
+msgstr "_Edycja"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_File"
+msgstr "_Plik"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "button"
+msgstr "Przycisk"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Wybór pliku"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (zestawy ikon)"
