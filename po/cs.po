@@ -1,0 +1,260 @@
+# Czech translation for LXAppearance package.
+# Copyright (C) 2010
+# This file is distributed under the same license as the LXAppearance package.
+# Radek Tříška <radek@fastlinux.eu>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LXAppearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-01 10:37+0000\n"
+"PO-Revision-Date: 2010-11-01 23:51+0100\n"
+"Last-Translator: Radek Tříška <radek@fastlinux.eu>\n"
+"Language-Team: Czech <radek@fastlinux.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Upravit vzhled a chování"
+
+#: ../data/lxappearance.desktop.in.h:2
+#, fuzzy
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Upraví vzhled a chování vašeho pracovního prostředí a aplikací"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+#, fuzzy
+msgid "Customizes look and feel of your desktop"
+msgstr "Upraví vzhled a chování vašeho pracovního prostředí"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Radek Tříška (radek@fastlinux.eu)"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>Volby GUI</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Poznámka:</b> Některé aplikace nepodporují změnu tématu kurzoru za chodu. Pro správnou funkčnost všech aplikací je potřeba opětovný login. "
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Zvukový efekt</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Pozadí"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Větší"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Zaškrtávací tlačítko"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Barva"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Barevné schéma není podporováno u aktuálně vybraného widget motivu."
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Výchozí písmo:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Popředí"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Motiv ikon"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Pouze ikony"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Instalovat"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Velké ikony panelu nástrojů"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Kurzor myši"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Normální okna:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Ostatní"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Karta1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Karta2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Přehrávání zvuků při událostech"
+
+#: ../data/ui/lxappearance.glade.h:23
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
+msgstr "Přehrávání zvuků při událostech jako zpětnou vazbu uživatelova vstupu"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected cursor theme"
+msgstr "Náhled vybraného motivu kurzoru"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected icon theme"
+msgstr "Náhled vybraného motivu ikon"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Preview of the selected widget style"
+msgstr "Náhled vybraného widget motivu"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Radio Button"
+msgstr "Přepínací tlačítko"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Remove"
+msgstr "Odstranit"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as buttons"
+msgstr "Stejné jako tlačítka"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as dialogs"
+msgstr "Stejné jako dialogy"
+
+#: ../data/ui/lxappearance.glade.h:31
+#, fuzzy
+msgid "Same as drag icons"
+msgstr "Stejné jako přetahované ikony"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Same as menu items"
+msgstr "Stejné jako položky nabídek"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Selected items:"
+msgstr "Vybrané položky:"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images in menus"
+msgstr "Zobrazovat obrázky v nabídkách"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Show images on buttons"
+msgstr "Zobrazovat obrázky na tlačítkách"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Size of cursors"
+msgstr "Velikost kurzoru"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Small toolbar icon"
+msgstr "Malé ikony panelu nástrojů"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Smaller"
+msgstr "Menší"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text below icons"
+msgstr "Text pod ikonami"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text beside icons"
+msgstr "Text vedle ikon"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text only"
+msgstr "Pouze text"
+
+#: ../data/ui/lxappearance.glade.h:42
+#, fuzzy
+msgid "Text windows:"
+msgstr "Textová okna:"
+
+#: ../data/ui/lxappearance.glade.h:43
+#, fuzzy
+msgid "Toolbar Icon Size:"
+msgstr "Velikost ikon panelu nástrojů:"
+
+#: ../data/ui/lxappearance.glade.h:44
+#, fuzzy
+msgid "Toolbar Style:"
+msgstr "Styl panelu nástrojů:"
+
+#: ../data/ui/lxappearance.glade.h:45
+#, fuzzy
+msgid "Tooltips:"
+msgstr "Bublinková nápověda:"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Use customized color scheme"
+msgstr "Použít vlastní barevné schéma"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Widget"
+msgstr "Widget"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "Window Border"
+msgstr "Okraj okna"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_Edit"
+msgstr "_Upravit"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_File"
+msgstr "_Soubor"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "button"
+msgstr "tlačítko"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Vyberte motiv ikon"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Motiv ikon)"
+
