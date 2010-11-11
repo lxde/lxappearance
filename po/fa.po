@@ -7,14 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-10 06:02+0000\n"
-"PO-Revision-Date: 2010-10-09 13:57+0330\n"
-"Last-Translator: Mostafa <info@mostafadaneshvar.com>\n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"PO-Revision-Date: 2010-11-05 16:52+0200\n"
+"Last-Translator: Ali <aysabzevar@gmail.com>\n"
 "Language-Team: Persian <trans-fa@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Persian\n"
 "X-Poedit-Country: Iran\n"
 
@@ -125,7 +126,7 @@ msgstr "پخش صدا"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Play event sounds as feedback to user input"
-msgstr "پخش صوتی به عنوان بازخورد برای خروجی کاربر"
+msgstr "پخش صوتی به عنوان بازخورد برای ورودی کاربر"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected cursor theme"
@@ -205,7 +206,7 @@ msgstr "متن پنجره ها:"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size:"
-msgstr "اندازه ایکن نوار ابزار:"
+msgstr "اندازه آیکن نوار ابزار:"
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Toolbar Style:"
