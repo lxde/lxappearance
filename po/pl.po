@@ -8,12 +8,14 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-30 06:10+0000\n"
-"PO-Revision-Date: 2010-10-30 21:45+0200\n"
+"PO-Revision-Date: 2010-11-15 12:02+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
-"Language-Team:  <>\n"
+"Language-Team: Polish <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20)) ? 1 : 2));\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
 msgid "Customize Look and Feel"
@@ -46,6 +48,9 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
+"<b>Uwaga:</b> Nie wszystkie programy obsługują natychmiastową zmianę kursora "
+"myszy. Modyfikacje mogą zostać w pełni wprowadzone po ponownym zalogowaniu "
+"do środowiska graficznego."
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
@@ -57,11 +62,11 @@ msgstr "Drugoplanowy"
 
 #: ../data/ui/lxappearance.glade.h:5
 msgid "Bigger"
-msgstr ""
+msgstr "Większy"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Check Button"
-msgstr "Przycisk wyboru"
+msgstr "Pole wyboru"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Color"
@@ -77,7 +82,7 @@ msgstr "Domyślna czcionka:"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
-msgstr ""
+msgstr "Prezentacja"
 
 #: ../data/ui/lxappearance.glade.h:12
 msgid "Foreground"
@@ -97,7 +102,7 @@ msgstr "Zainstaluj"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Large toolbar icon"
-msgstr ""
+msgstr "Duży"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Mouse Cursor"
@@ -105,7 +110,7 @@ msgstr "Kursory myszy"
 
 #: ../data/ui/lxappearance.glade.h:18
 msgid "Normal windows:"
-msgstr ""
+msgstr "Okna:"
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Other"
@@ -125,7 +130,7 @@ msgstr "Odtwarzanie zdarzeń dźwiękowych"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Play event sounds as feedback to user input"
-msgstr ""
+msgstr "Odtwarzanie zdarzeń dźwiękowych podczas wprowadzania danych"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected cursor theme"
@@ -149,23 +154,23 @@ msgstr "Usuń"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as buttons"
-msgstr ""
+msgstr "Taki jak przycisków"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Taki jak okien dialogowych"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Taki jak ikon przeciągania"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Same as menu items"
-msgstr ""
+msgstr "Taki jak elementów menu"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Selected items:"
-msgstr ""
+msgstr "Wybrane elementy:"
 
 #: ../data/ui/lxappearance.glade.h:34
 msgid "Show images in menus"
@@ -181,11 +186,11 @@ msgstr "Rozmiar"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "Mały"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Smaller"
-msgstr ""
+msgstr "Mniejszy"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Text below icons"
@@ -201,7 +206,7 @@ msgstr "Tylko etykiety"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Text windows:"
-msgstr ""
+msgstr "Pola wejściowe:"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size:"
