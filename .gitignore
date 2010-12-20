@@ -51,3 +51,4 @@ src/xml-purge
 data/lxappearance.desktop
 data/lxappearance.pc
 src/lxappearance
+data/ui/about.ui
