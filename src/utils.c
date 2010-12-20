@@ -73,7 +73,7 @@ gboolean show_progress_for_pid(GtkWindow* parent, const char* title, const char*
     gtk_box_pack_start(GTK_BOX(vbox), label, FALSE, TRUE, 0);
     gtk_widget_show(progress);
     gtk_box_pack_start(GTK_BOX(vbox), progress, FALSE, TRUE, 0);
-    gtk_progress_set_activity_mode(GTK_PROGRESS(progress), TRUE);
+    gtk_progress_bar_pulse(GTK_PROGRESS_BAR(progress));
     g_signal_connect(dlg, "response", G_CALLBACK(on_progress_dlg_response), &pid);
 
     res = gtk_dialog_run(GTK_DIALOG(dlg));

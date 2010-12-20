@@ -48,16 +48,16 @@ static const char* lxsession_name = NULL;
 
 static void check_lxsession()
 {
-    lxsession_atom = XInternAtom( GDK_DISPLAY(), "_LXSESSION", True );
+    lxsession_atom = XInternAtom( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), "_LXSESSION", True );
     if( lxsession_atom != None )
     {
-        XGrabServer( GDK_DISPLAY() );
-        if( XGetSelectionOwner( GDK_DISPLAY(), lxsession_atom ) )
+        XGrabServer( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()) );
+        if( XGetSelectionOwner( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), lxsession_atom ) )
         {
             app.use_lxsession = TRUE;
             lxsession_name = g_getenv("DESKTOP_SESSION");
         }
-        XUngrabServer( GDK_DISPLAY() );
+        XUngrabServer( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()) );
     }
 }
 
