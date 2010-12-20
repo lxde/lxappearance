@@ -5,9 +5,14 @@ prog_name = lxappearance
 
 AC_PREREQ([2.63])
 AC_INIT([lxappearance], [0.5.0], [http://lxde.org/])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign])
+AM_MAINTAINER_MODE
 
 AC_CONFIG_HEADERS([config.h])
+
+# Support silent build rules. Disable by either passing --disable-silent-rules
+# to configure or passing V=1 to make
+AM_SILENT_RULES([yes])
 
 # Checks for programs.
 AC_PROG_CC
@@ -55,6 +60,12 @@ AC_SUBST(GMODULE_LIBS)
 # PKG_CHECK_MODULES(MENU_CACHE, [$menu_modules])
 # AC_SUBST(MENU_CACHE_CFLAGS)
 # AC_SUBST(MENU_CACHE_LIBS)
+
+# Pass --enable-maintainer-mode to enable more CFLAGS
+if test "$USE_MAINTAINER_MODE" = "yes"; then
+  ADDITIONAL_FLAGS="-Wall -Werror=all -Werror=format -Werror=implicit-function-declaration -Werror=implicit-int -Werror=missing-braces -Werror=parentheses -Werror=return-type -Werror=strict-aliasing -Werror=switch -Wuninitialized -Werror=unused-label -Werror=unused-value -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Werror=missing-declarations -Wredundant-decls -Wmissing-noreturn -Wpointer-arith -Wcast-align -Wwrite-strings -Werror=inline -Werror=format-nonliteral -Wformat-nonliteral -Werror=format-security -Wformat-security -Winit-self -Werror=missing-include-dirs -Werror=undef -Werror=aggregate-return -Wmissing-format-attribute -Werror=nested-externs -fno-strict-aliasing -fmessage-length=0 -Wp,-D_FORTIFY_SOURCE=2 -DG_DISABLE_DEPRECATED -DG_DISABLE_SINGLE_INCLUDES -DGDK_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_SINGLE_INCLUDES -DGTK_DISABLE_DEPRECATED -DGTK_DISABLE_SINGLE_INCLUDES"
+fi
+AC_SUBST(ADDITIONAL_FLAGS)
 
 AC_ARG_ENABLE(man,
        [AC_HELP_STRING([--enable-man],
