@@ -37,7 +37,8 @@ static void update_cursor_demo()
         GDK_LEFT_SIDE,
         GDK_TOP_LEFT_CORNER,
         GDK_SB_H_DOUBLE_ARROW};
-    int i, n;
+    unsigned int i;
+    int s;
     for(i = 0; i < G_N_ELEMENTS(types); ++i)
     {
         GtkTreeIter it;
@@ -56,8 +57,8 @@ static void update_cursor_demo()
      * Unfortunately, this doesn't work for non-gtk+ programs.
      * KDE programs seem to require special handling with XFixes */
     cursor = gdk_cursor_new(GDK_LEFT_PTR);
-    i = gdk_display_get_n_screens(gdk_display_get_default());
-    while(--i >= 0)
+    s = gdk_display_get_n_screens(gdk_display_get_default());
+    while(--s >= 0)
     {
         GdkScreen* screen = gdk_display_get_screen(gdk_display_get_default(), i);
         gdk_window_set_cursor(gdk_screen_get_root_window(screen), cursor);
@@ -102,7 +103,7 @@ static void on_cursor_theme_size_changed(GtkRange* range, gpointer user_data)
 
 void cursor_theme_init(GtkBuilder* b)
 {
-    int max_cursor_w, max_cursor_h, max_size;
+    guint max_cursor_w, max_cursor_h, max_size;
     GtkTreeSelection* sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(app.cursor_theme_view));
     /* treeview and model are already set up in icon_theme_init() */
     g_signal_connect(sel, "changed", G_CALLBACK(on_cursor_theme_sel_changed), NULL);
