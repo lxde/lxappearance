@@ -35,6 +35,7 @@ lxappearance_CFLAGS = \
 	$(GTK_CFLAGS) \
 	$(XLIB_CFLAGS) \
 	$(GMODULE_CFLAGS) \
+	$(ADDITIONAL_FLAGS) \
 	-Werror-implicit-function-declaration \
 	$(NULL)
 
