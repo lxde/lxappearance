@@ -206,7 +206,7 @@ static void lxappearance_save_lxsession()
     char* rel_path = g_strconcat("lxsession/", lxsession_name, "/desktop.conf", NULL);
     char* user_config_file = g_build_filename(g_get_user_config_dir(), rel_path, NULL);
     char* buf;
-    int len;
+    gsize len;
     GKeyFile* kf = g_key_file_new();
 
     if(!g_key_file_load_from_file(kf, user_config_file, G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL))
