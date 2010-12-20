@@ -34,17 +34,6 @@ static void on_tb_icon_size_changed(GtkComboBox* combo, gpointer user_data)
     lxappearance_changed();
 }
 
-static void on_check_button_toggled(GtkToggleButton* btn, gpointer user_data)
-{
-    gboolean* val = (gboolean*)user_data;
-    gboolean new_val = gtk_toggle_button_get_active(btn);
-    if(new_val != *val)
-    {
-        *val = new_val;
-        lxappearance_changed();
-    }
-}
-
 void other_init(GtkBuilder* b)
 {
     int idx;
@@ -78,5 +67,6 @@ void other_init(GtkBuilder* b)
     /* event sound support */
     gtk_widget_show_all(GTK_WIDGET(gtk_builder_get_object(b, "sound_effect")));
 #endif
+
 }
 

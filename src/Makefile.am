@@ -23,6 +23,8 @@ lxappearance_SOURCES = \
 	icon-theme.h \
 	cursor-theme.c \
 	cursor-theme.h \
+	font.c \
+	font.h \
 	other.c \
 	other.h \
 	utils.c \
