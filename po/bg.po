@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-29 16:12+0200\n"
-"PO-Revision-Date: 2010-10-29 23:05+0200\n"
+"PO-Revision-Date: 2010-12-11 03:20+0200\n"
 "Last-Translator: Радослав <Rec.ku@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -146,7 +146,6 @@ msgid "Preview of the selected widget style"
 msgstr "Преглед на израният стил за джаджите"
 
 #: ../data/ui/lxappearance.glade.h:27
-#, fuzzy
 msgid "Radio Button"
 msgstr "Бутон за единичен избор"
 
@@ -163,9 +162,8 @@ msgid "Same as dialogs"
 msgstr "Като диалозите"
 
 #: ../data/ui/lxappearance.glade.h:31
-#, fuzzy
 msgid "Same as drag icons"
-msgstr "Като преместените икони"
+msgstr "Като влачените икони"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Same as menu items"
@@ -188,9 +186,8 @@ msgid "Size of cursors"
 msgstr "Размер на курсорите"
 
 #: ../data/ui/lxappearance.glade.h:37
-#, fuzzy
 msgid "Small toolbar icon"
-msgstr "Малки икони в лентата с инструменти"
+msgstr "Малки икони в лентата с инструментите"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Smaller"
@@ -213,14 +210,12 @@ msgid "Text windows:"
 msgstr "Текстови прозорци:"
 
 #: ../data/ui/lxappearance.glade.h:43
-#, fuzzy
 msgid "Toolbar Icon Size:"
-msgstr "Размер на иконите в Лентата с инструменти:"
+msgstr "Размер на иконите в Лентата с инструментите:"
 
 #: ../data/ui/lxappearance.glade.h:44
-#, fuzzy
 msgid "Toolbar Style:"
-msgstr "Стил на лентата с инструменти:"
+msgstr "Стил на лентата с инструментите:"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Tooltips:"
