@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-29 16:12+0200\n"
-"PO-Revision-Date: 2010-12-30 10:31+0200\n"
+"PO-Revision-Date: 2011-01-04 11:14+0200\n"
 "Last-Translator: zvacet <ikoli@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -38,7 +38,7 @@ msgstr "Prilagođava izgled i dojam vaše radne površine"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Ivica Kolić <ikoli@yahoo.com"
+msgstr "Ivica Kolić <ikoli@yahoo.com>"
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Zvučniefekt</b>"
+msgstr "<b>Zvučni efekt</b>"
 
 #: ../data/ui/lxappearance.glade.h:4
 msgid "Background"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
-msgstr "Zadani font"
+msgstr "Zadani font:"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
@@ -213,7 +213,7 @@ msgstr "Veličina ikona alatne trake:"
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Toolbar Style:"
-msgstr "Stil alatne trake :"
+msgstr "Stil alatne trake:"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Tooltips:"
