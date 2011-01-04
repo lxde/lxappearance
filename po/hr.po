@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"PO-Revision-Date: 2010-12-30 10:31+0200\n"
+"Last-Translator: zvacet <ikoli@yahoo.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Prilagođava izgled i dojam"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Prilagođava izgled i dojam vaše radne površine i programa"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Prilagođava izgled i dojam vaše radne površine"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Ivica Kolić <ikoli@yahoo.com"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>Opcije korisničkog sučelja</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Zvučniefekt</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Pozadina"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Veće"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Boja"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Zadani font"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Prvi plan"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Tema ikone"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Samo ikone"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Instaliraj"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Velike ikone alatne trake"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Pokazivač miša"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Normalni prozori:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Ostalo"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Stranica1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Stranica2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Sviraj zvuk događaja"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Play event sounds as feedback to user input"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected cursor theme"
+msgstr "Pregled odabrane teme pokazivača"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected icon theme"
+msgstr "Pregled odabrane teme ikone"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Preview of the selected widget style"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Radio Button"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Remove"
+msgstr "Ukloni"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as dialogs"
+msgstr "Isto kao i dijalozi"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as drag icons"
+msgstr "Isto kao i povlačenje ikona"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Same as menu items"
+msgstr "Isto kao i stavke izbornika"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Selected items:"
+msgstr "Odabrane stavke:"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images in menus"
+msgstr "Prikaži slike u izbornicima"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Show images on buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Size of cursors"
+msgstr "Veličina pokazivača"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Small toolbar icon"
+msgstr "Mala ikona alatne trake"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Smaller"
+msgstr "Manje"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text below icons"
+msgstr "Tekst ispod ikona"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text beside icons"
+msgstr "Tekst uz ikone"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text only"
+msgstr "Samo tekst"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Text windows:"
+msgstr "Tekst prozori:"
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Icon Size:"
+msgstr "Veličina ikona alatne trake:"
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Toolbar Style:"
+msgstr "Stil alatne trake :"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Tooltips:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Use customized color scheme"
+msgstr "Koristi prilagođenu shemu boja"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Widget"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "Window Border"
+msgstr "Granica prozora"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_Edit"
+msgstr "_Uredi"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_File"
+msgstr "_Datoteka"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "_Help"
+msgstr "_Pomoć"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "button"
+msgstr ""
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Odaberi temu ikone"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema ikone)"
