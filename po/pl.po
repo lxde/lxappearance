@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Piotr Sokół <psokol@jabster.pl>, 2010.
+# Piotr Sokół <psokol@jabster.pl>, 2010, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: lxappearance\n"
+"Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-30 06:10+0000\n"
-"PO-Revision-Date: 2010-11-15 12:02+0100\n"
+"PO-Revision-Date: 2011-02-17 22:41+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: Polish <>\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "Kolory"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Schematy kolorów nie są obsługiwane przez bieżący styl"
+msgstr "Schematy kolorów nie są obsługiwane przez bieżący motyw."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
@@ -230,7 +230,7 @@ msgstr "Widżety"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "Window Border"
-msgstr "Obramowanie okna"
+msgstr "Obramowanie okien"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "_Edit"
