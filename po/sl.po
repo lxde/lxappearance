@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-29 16:12+0200\n"
-"PO-Revision-Date: 2011-02-14 15:04+0200\n"
+"PO-Revision-Date: 2011-02-18 16:39+0200\n"
 "Last-Translator: Klemen <klemen.kosir@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -38,7 +38,7 @@ msgstr "Prilagodite videz in občutek namizja"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Klemen Košir <https://launchpad.net/~klemen913>"
+msgstr "Klemen Košir <https://launchpad.net/~klemen.kosir>"
 
 #: ../data/ui/lxappearance.glade.h:1
 msgid "<b>GUI Options</b>"
