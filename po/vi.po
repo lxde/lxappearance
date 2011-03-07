@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-29 16:12+0200\n"
-"PO-Revision-Date: 2010-09-05 10:58+0700\n"
-"Last-Translator: Tran Duy Hung <nguyentieuhau@gmail.com>\n"
+"PO-Revision-Date: 2011-03-07 03:51+0200\n"
+"Last-Translator: Duy Hung <nguyentieuhau@gmail.com>\n"
 "Language-Team: vi <nguyentieuhau@gmail.com>\n"
-"Language: \n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Vietnamese\n"
 "X-Poedit-Country: Viet Nam\n"
 
@@ -130,9 +132,8 @@ msgid "Play event sounds"
 msgstr "Phát âm thanh cho sự kiện"
 
 #: ../data/ui/lxappearance.glade.h:23
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "phát âm thanh khi người dùng nhập"
+msgstr "Phát âm thanh khi người dùng nhập"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected cursor theme"
@@ -211,12 +212,10 @@ msgid "Text windows:"
 msgstr "Cửa sổ văn bản:"
 
 #: ../data/ui/lxappearance.glade.h:43
-#, fuzzy
 msgid "Toolbar Icon Size:"
 msgstr "Kích thước Biểu tượng Thanh công cụ:"
 
 #: ../data/ui/lxappearance.glade.h:44
-#, fuzzy
 msgid "Toolbar Style:"
 msgstr "Kiểu dánh Thanh công cụ:"
 
