@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "Muokkaa ulkonäköä sekä tuntumaa"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Muokkaa ohjelmiesi ja työpöäytäsi ulkonäköa sekä tuntumaa"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Muokkaa tuöpöytäsi ulkonäköä sekä tuntumaa"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "Kääntäjät"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI asetukset</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Huomio:</b> Kaikki ohjelmasi eivät saata tukea ajonaikaista hiiriteeman "
+"vaihtamista. Joten kaikki muutoksesi eivät välttämättä tule voimaan enne "
+"seuraavaa sisäänkirjautumista."
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Ääniefekti</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "Taustakuva"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "Suurempi"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr "Valinta-nappula"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "Väri"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Nykyinen ikkunaelementtiteema ei tue värikarttoja."
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "Oletus fontti:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "Etuala"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "Kuvaketeema"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "Vain kuvakkeet"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "Asenna"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "Isot työkälupalkin kuvakkeet"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "Hiiren kuvake"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "Tavalliset ikkunat:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "Muut"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "Sivu 1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "Sivu 2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "Toista tapahtumaäänet"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Play event sounds as feedback to user input"
+msgstr "Toita tapahtumaäänet vastakaikuna käyttäjän syötteeseen"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected cursor theme"
+msgstr "Esikatsele valittua hiiriteemaa"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected icon theme"
+msgstr "Esikatsele valittua kuvaketeemaa"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Preview of the selected widget style"
+msgstr "Esikatsele valittua ikkunaelementtiteemaa"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Radio Button"
+msgstr "Valintanappi"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Remove"
+msgstr "Poista"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as buttons"
+msgstr "Sama kuin nappulat"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as dialogs"
+msgstr "Sama kuin valintaikkunat"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as drag icons"
+msgstr "Sama kuin liikuteltavat kuvakkeet"
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Same as menu items"
+msgstr "Sama kuin valikkokohteet"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Selected items:"
+msgstr "Valitut kohteet:"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images in menus"
+msgstr "Näytä kuvat valikoissa"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Show images on buttons"
+msgstr "Näytä kuvat nappuloissa"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Size of cursors"
+msgstr "Hiiren kuvakkeen koko"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Small toolbar icon"
+msgstr "Pienet työkalupalkin kuvakkeet"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Smaller"
+msgstr "Pienempi"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text below icons"
+msgstr "Teksti kuvakkeiden alla"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text beside icons"
+msgstr "Teksti kuvakkeiden vieressä"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text only"
+msgstr "Vain teksti"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Text windows:"
+msgstr "Teksti ikkunat:"
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Icon Size:"
+msgstr "Työkalupalkin kuvakkeiden koko:"
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Toolbar Style:"
+msgstr "Työkalupalkin tyyli:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Tooltips:"
+msgstr "Infokkeet:"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Use customized color scheme"
+msgstr "Käytä omaa värikarttaa"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Widget"
+msgstr "Ikkunaelementti"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "Window Border"
+msgstr "Ikkunan reunat"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_File"
+msgstr "_Tiedosto"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "_Help"
+msgstr "_Apua"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "button"
+msgstr "nappula"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Valitse kuvake teema"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Kuvake teema)"
