@@ -129,7 +129,7 @@ msgstr "Esegui suoni di avviso"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Play event sounds as feedback to user input"
-msgstr ""
+msgstr "Esegui suoni di avviso alle azioni dell'utente"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Preview of the selected cursor theme"
@@ -153,39 +153,39 @@ msgstr "Rimuovi"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Same as buttons"
-msgstr ""
+msgstr "Come i bottoni"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Come i dialoghi"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Come il trascinamento icone"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Same as menu items"
-msgstr ""
+msgstr "Come gli elementi di menu"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Selected items:"
-msgstr ""
+msgstr "Oggetti selezionati:"
 
 #: ../data/ui/lxappearance.glade.h:34
 msgid "Show images in menus"
-msgstr ""
+msgstr "Mostra immagini nei menu"
 
 #: ../data/ui/lxappearance.glade.h:35
 msgid "Show images on buttons"
-msgstr ""
+msgstr "Mostra immagini nei bottoni"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Size of cursors"
-msgstr ""
+msgstr "Dimensioni dei cursori"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "Icona piccola della barra strumenti"
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "Smaller"
@@ -193,11 +193,11 @@ msgstr "Più piccolo"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Text below icons"
-msgstr ""
+msgstr "Testo sotto le icone"
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "Text beside icons"
-msgstr ""
+msgstr "Testo a fianco delle icone"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Text only"
@@ -205,23 +205,23 @@ msgstr "Solo testo"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Text windows:"
-msgstr ""
+msgstr "Finestre di testo:"
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size:"
-msgstr ""
+msgstr "Dimensioni Icona Toolbar:"
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Toolbar Style:"
-msgstr ""
+msgstr "Stile Toolbar:"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Tooltips:"
-msgstr ""
+msgstr "Tooltips:"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "Usa schema colore personalizzato"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Widget"
