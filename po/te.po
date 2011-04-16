@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"PO-Revision-Date: 2011-04-16 08:55+0200\n"
+"Last-Translator: Praveen <mail2ipn@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+msgid "Customize Look and Feel"
+msgstr "రూపాన్ని మలచుకుని అనుభవించండి"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "మీ డెస్క్‍టాప్ మరియు అనువర్తనాల దర్శనమును అనురూపిస్తుంది"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "నకలుహక్కు (C) 2010 LXDE ప్రోజెక్టు"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "మీ డెస్క్‍టాప్ యొక్క రూపాన్ని మరియు అనుభవాన్ని అనురూపిస్తుంది"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "అనువాదకుడి-పరపతులు"
+
+#: ../data/ui/lxappearance.glade.h:1
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI ఐచ్ఛికాలు</b>"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "<b>Sound Effect</b>"
+msgstr "<b>శబ్ధ ప్రభావం</b>"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "Background"
+msgstr "నేపథ్యం"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "Bigger"
+msgstr "అతిపెద్ద"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Check Button"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Color"
+msgstr "రంగు"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Default font:"
+msgstr "అప్రమేయ ఫాంటు:"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Demo"
+msgstr "ఉపపాదన"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Foreground"
+msgstr "ముందుభాగము"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Icon Theme"
+msgstr "ప్రతీక థీము"
+
+#: ../data/ui/lxappearance.glade.h:14
+msgid "Icons only"
+msgstr "ప్రతీకలు మాత్రమే"
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Install"
+msgstr "స్థాపించు"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Large toolbar icon"
+msgstr "పెద్ద సాధనపట్టీ ప్రతీక"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Mouse Cursor"
+msgstr "మౌస్ కర్సర్"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Normal windows:"
+msgstr "సాధారణ విండోలు:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Other"
+msgstr "ఇతర"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Page1"
+msgstr "పేజీ1"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Page2"
+msgstr "పేజీ2"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Play event sounds"
+msgstr "కార్యక్రమాల ధ్వనులను ఆడించు"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Play event sounds as feedback to user input"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Preview of the selected cursor theme"
+msgstr "ఎంచుకున్న కర్సర్ థీము యొక్క మునుజూపు"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected icon theme"
+msgstr "ఎంచుకున్న ప్రతీక థీము యొక్క మునుజూపు"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Preview of the selected widget style"
+msgstr "ఎంచుకున్న విడ్జెట్ శైలి యొక్క మునుజూపు"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Radio Button"
+msgstr "రేడియో బటన్"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Remove"
+msgstr "తొలగించు"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Same as buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Same as dialogs"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid "Same as drag icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Same as menu items"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Selected items:"
+msgstr "ఎంచుకున్న అంశాలు:"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Show images in menus"
+msgstr "మెనూల నందు బొమ్మలను చూపించు"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "Show images on buttons"
+msgstr "బటన్ల మీద బొమ్మలను చూపించు"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Size of cursors"
+msgstr "కర్సర్ యొక్క పరిమాణం"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Small toolbar icon"
+msgstr "చిన్న సాధనపట్టీ ప్రతీక"
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "Smaller"
+msgstr "చిన్నది"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Text below icons"
+msgstr "ప్రతీకల కింద పాఠ్యం"
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "Text beside icons"
+msgstr "ప్రతీకల ప్రక్క పాఠ్యం"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Text only"
+msgstr "పాఠ్యం మాత్రమే"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Text windows:"
+msgstr "పాఠ్య విండోలు:"
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Icon Size:"
+msgstr "సాధనపట్టీ ప్రతీక పరిమాణం:"
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Toolbar Style:"
+msgstr "సాధనపట్టీ శైలి:"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Tooltips:"
+msgstr "సాధనచిట్కాలు:"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "Use customized color scheme"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Widget"
+msgstr "విడ్జెట్"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "Window Border"
+msgstr "విండో సరిహద్దు"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "_Edit"
+msgstr "సవరణ (_E)"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "_File"
+msgstr "ఫైల్ (_F)"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "_Help"
+msgstr "సహాయం (_H)"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "button"
+msgstr "బటన్"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "ఒక ప్రతీక థీమును ఎంచుకొను"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (ప్రతీక థీము)"
