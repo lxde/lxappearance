@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-29 16:12+0200\n"
-"PO-Revision-Date: 2011-04-09 15:43+0200\n"
+"PO-Revision-Date: 2011-04-22 22:57+0200\n"
 "Last-Translator: Steve <yorvik.ubunto@gmail.com>\n"
 "Language-Team: en_GB <LL@li.org>\n"
 "Language: en_GB\n"
@@ -51,8 +51,8 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes, here, might not be fully applied to all "
+"<b>Note:</b> Not all desktop applications support changing the cursor theme "
+"on-the-fly. So your changes, here, might not be fully applied to all "
 "applications until next login."
 
 #: ../data/ui/lxappearance.glade.h:3
@@ -81,7 +81,7 @@ msgstr "Colour scheme is not supported by the current widget theme."
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Default font:"
-msgstr "Default Font Size"
+msgstr "Default Font"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "Demo"
