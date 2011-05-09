@@ -69,6 +69,13 @@ struct _LXAppearance
     GtkWidget* button_images_check;
     GtkWidget* menu_images_check;
 
+    /* font rendering */
+    GtkWidget* font_rgba_combo;
+    GtkWidget* hinting_style_combo;
+
+    GtkWidget* enable_antialising_check;
+    GtkWidget* enable_hinting_check;
+
     /* the page for window manager plugins */
     GtkWidget* wm_page;
 
@@ -80,6 +87,8 @@ struct _LXAppearance
     char* color_scheme;
     int toolbar_style;
     int toolbar_icon_size;
+    int hinting_style;
+    int font_rgba;
 
     gboolean button_images;
     gboolean menu_images;
@@ -91,6 +100,9 @@ struct _LXAppearance
     gboolean enable_input_feedback;
 #endif
 
+    gboolean enable_antialising;
+    gboolean enable_hinting;
+
     gboolean changed;
     gboolean use_lxsession;
 };
@@ -98,5 +110,7 @@ struct _LXAppearance
 extern LXAppearance app;
 
 void lxappearance_changed();
+
+void on_check_button_toggled(GtkToggleButton* btn, gpointer user_data);
 
 #endif

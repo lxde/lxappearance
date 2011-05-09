@@ -1,6 +1,6 @@
 NULL=
 
-SUBDIRS=src po data
+SUBDIRS=src data man po   
 
 EXTRA_DIST = \
 	$(NULL)

@@ -23,6 +23,8 @@ lxappearance_SOURCES = \
 	icon-theme.h \
 	cursor-theme.c \
 	cursor-theme.h \
+	font.c \
+	font.h \
 	other.c \
 	other.h \
 	utils.c \
@@ -35,6 +37,7 @@ lxappearance_CFLAGS = \
 	$(GTK_CFLAGS) \
 	$(XLIB_CFLAGS) \
 	$(GMODULE_CFLAGS) \
+	$(ADDITIONAL_FLAGS) \
 	-Werror-implicit-function-declaration \
 	$(NULL)
 

@@ -38,6 +38,7 @@
 #include "color-scheme.h"
 #include "icon-theme.h"
 #include "cursor-theme.h"
+#include "font.h"
 #include "other.h"
 #include "plugin.h"
 
@@ -48,16 +49,16 @@ static const char* lxsession_name = NULL;
 
 static void check_lxsession()
 {
-    lxsession_atom = XInternAtom( GDK_DISPLAY(), "_LXSESSION", True );
+    lxsession_atom = XInternAtom( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), "_LXSESSION", True );
     if( lxsession_atom != None )
     {
-        XGrabServer( GDK_DISPLAY() );
-        if( XGetSelectionOwner( GDK_DISPLAY(), lxsession_atom ) )
+        XGrabServer( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()) );
+        if( XGetSelectionOwner( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), lxsession_atom ) )
         {
             app.use_lxsession = TRUE;
             lxsession_name = g_getenv("DESKTOP_SESSION");
         }
-        XUngrabServer( GDK_DISPLAY() );
+        XUngrabServer( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()) );
     }
 }
 
@@ -120,10 +121,12 @@ static void reload_all_programs()
     gdk_event_send_clientmessage_toall((GdkEvent *)&event);
 }
 
+/* Disable, not used
 static const char* bool2str(gboolean val)
 {
     return val ? "TRUE" : "FALSE";
 }
+*/
 
 static void lxappearance_save_gtkrc()
 {
@@ -172,6 +175,9 @@ static void lxappearance_save_gtkrc()
         "gtk-enable-event-sounds=%d\n"
         "gtk-enable-input-feedback-sounds=%d\n"
 #endif
+        "gtk-xft-antialias=%d\n"
+        "gtk-xft-hinting=%d\n"
+
         , app.cursor_theme_size,
         tb_styles[app.toolbar_style],
         tb_icon_sizes[app.toolbar_icon_size],
@@ -179,15 +185,25 @@ static void lxappearance_save_gtkrc()
         app.menu_images ? 1 : 0,
 #if GTK_CHECK_VERSION(2, 14, 0)
         app.enable_event_sound ? 1 : 0,
-        app.enable_input_feedback ? 1 : 0
+        app.enable_input_feedback ? 1 : 0,
 #endif
+        app.enable_antialising ? 1 : 0,
+        app.enable_hinting ? 1 : 0
         );
+
+    if(app.hinting_style)
+        g_string_append_printf(content,
+            "gtk-xft-hintstyle=\"%i\"\n", app.hinting_style);
+
+    if(app.font_rgba)
+        g_string_append_printf(content,
+            "gtk-xft-rgba=\"%i\"\n", app.font_rgba);
 
     if(app.color_scheme)
     {
         char* escaped = g_strescape(app.color_scheme, NULL);
         g_string_append_printf(content,
-            "gtk-color-scheme=\"\"\n",
+            "gtk-color-scheme=\"%s\"\n",
             escaped);
         g_free(escaped);
     }
@@ -206,7 +222,7 @@ static void lxappearance_save_lxsession()
     char* rel_path = g_strconcat("lxsession/", lxsession_name, "/desktop.conf", NULL);
     char* user_config_file = g_build_filename(g_get_user_config_dir(), rel_path, NULL);
     char* buf;
-    int len;
+    gsize len;
     GKeyFile* kf = g_key_file_new();
 
     if(!g_key_file_load_from_file(kf, user_config_file, G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL))
@@ -249,6 +265,10 @@ static void lxappearance_save_lxsession()
     g_key_file_set_integer( kf, "GTK", "iNet/EnableEventSounds", app.enable_event_sound);
     g_key_file_set_integer( kf, "GTK", "iNet/EnableInputFeedbackSounds", app.enable_input_feedback);
 #endif
+    g_key_file_set_integer( kf, "GTK", "iXft/Antialias", app.enable_antialising);
+    g_key_file_set_integer( kf, "GTK", "iXft/Hinting", app.enable_hinting);
+    g_key_file_set_integer( kf, "GTK", "sXft/HintStyle", app.hinting_style);
+    g_key_file_set_integer( kf, "GTK", "sXft/RGBA", app.font_rgba);
 
     buf = g_key_file_to_data( kf, &len, NULL );
     g_key_file_free(kf);
@@ -308,6 +328,10 @@ static void settings_init()
                 "gtk-enable-event-sounds", &app.enable_event_sound,
                 "gtk-enable-input-feedback-sounds", &app.enable_input_feedback,
 #endif
+                "gtk-xft-antialias", &app.enable_antialising,
+                "gtk-xft-hinting", &app.enable_hinting,
+                "gtk-xft-hintstyle", &app.hinting_style,
+                "gtk-xft-rgba", &app.font_rgba,
                 NULL);
     /* try to figure out cursor theme used. */
     if(!app.cursor_theme || g_strcmp0(app.cursor_theme, "default") == 0)
@@ -411,6 +435,7 @@ int main(int argc, char** argv)
     color_scheme_init(b);
     icon_theme_init(b);
     cursor_theme_init(b);
+    font_init(b);
     other_init(b);
     /* the page for window manager plugins */
     app.wm_page = GTK_WIDGET(gtk_builder_get_object(b, "wm_page"));
@@ -435,5 +460,16 @@ void lxappearance_changed()
     {
         app.changed = TRUE;
         gtk_dialog_set_response_sensitive(GTK_DIALOG(app.dlg), GTK_RESPONSE_APPLY, TRUE);
+    }
+}
+
+void on_check_button_toggled(GtkToggleButton* btn, gpointer user_data)
+{
+    gboolean* val = (gboolean*)user_data;
+    gboolean new_val = gtk_toggle_button_get_active(btn);
+    if(new_val != *val)
+    {
+        *val = new_val;
+        lxappearance_changed();
     }
 }

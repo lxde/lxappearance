@@ -5,9 +5,14 @@ prog_name = lxappearance
 
 AC_PREREQ([2.63])
 AC_INIT([lxappearance], [0.5.0], [http://lxde.org/])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign])
+AM_MAINTAINER_MODE
 
 AC_CONFIG_HEADERS([config.h])
+
+# Support silent build rules. Disable by either passing --disable-silent-rules
+# to configure or passing V=1 to make
+AM_SILENT_RULES([yes])
 
 # Checks for programs.
 AC_PROG_CC
@@ -24,6 +29,13 @@ AC_HEADER_STDC
 
 # intltool
 IT_PROG_INTLTOOL([0.40.0])
+
+AC_ARG_ENABLE(man,
+       [AC_HELP_STRING([--enable-man],
+               [regenerate roff man pages from Docbook @<:@default=no@:>@])],
+       [enable_man="${enableval}"],
+       [enable_man=no]
+)
 
 PKG_CHECK_MODULES(XLIB, "x11")
 AC_SUBST(XLIB_CFLAGS)
@@ -49,12 +61,19 @@ AC_SUBST(GMODULE_LIBS)
 # AC_SUBST(MENU_CACHE_CFLAGS)
 # AC_SUBST(MENU_CACHE_LIBS)
 
-AC_ARG_ENABLE(debug,
-    [AC_HELP_STRING([--enable-debug],
-        [build libfm with debug support @<:@default=no@:>@])],
-    [enable_debug="${enableval}"],
-    [enable_debug=no]
+# Pass --enable-maintainer-mode to enable more CFLAGS
+if test "$USE_MAINTAINER_MODE" = "yes"; then
+  ADDITIONAL_FLAGS="-Wall -Werror=all -Werror=format -Werror=implicit-function-declaration -Werror=implicit-int -Werror=missing-braces -Werror=parentheses -Werror=return-type -Werror=strict-aliasing -Werror=switch -Wuninitialized -Werror=unused-label -Werror=unused-value -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Werror=missing-declarations -Wredundant-decls -Wmissing-noreturn -Wpointer-arith -Wcast-align -Wwrite-strings -Werror=inline -Werror=format-nonliteral -Wformat-nonliteral -Werror=format-security -Wformat-security -Winit-self -Werror=missing-include-dirs -Werror=undef -Werror=aggregate-return -Wmissing-format-attribute -Werror=nested-externs -fno-strict-aliasing -fmessage-length=0 -Wp,-D_FORTIFY_SOURCE=2 -DG_DISABLE_DEPRECATED -DG_DISABLE_SINGLE_INCLUDES -DGDK_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_SINGLE_INCLUDES -DGTK_DISABLE_DEPRECATED -DGTK_DISABLE_SINGLE_INCLUDES"
+fi
+AC_SUBST(ADDITIONAL_FLAGS)
+
+AC_ARG_ENABLE(man,
+       [AC_HELP_STRING([--enable-man],
+               [regenerate roff man pages from Docbook @<:@default=no@:>@])],
+       [enable_man="${enableval}"],
+       [enable_man=no]
 )
+
 if test "$enable_debug" = "yes"; then
     # turn on debug and disable optimization
     CPPFLAGS="$CPPFLAGS -DG_ENABLE_DEBUG -O0 -g"
@@ -78,13 +97,29 @@ AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
+if test x"$enable_man" = x"yes"; then
+	AC_PATH_PROG([XSLTPROC], [xsltproc])
+	if test -z "$XSLTPROC"; then
+		enable_man=no
+	fi
+
+	dnl check for DocBook DTD and stylesheets in the local catalog.
+	JH_CHECK_XML_CATALOG([-//OASIS//DTD DocBook XML V4.1.2//EN],
+		[DocBook XML DTD V4.1.2], [], enable_man=no)
+	JH_CHECK_XML_CATALOG([http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl],
+		[DocBook XSL Stylesheets >= 1.70.1], [], enable_man=no)
+fi
+
+AM_CONDITIONAL(ENABLE_REGENERATE_MAN, test "x$enable_man" != "xno")
+
 AC_CONFIG_FILES([
     Makefile
     src/Makefile
     data/Makefile
     data/ui/Makefile
-    data/ui/about.glade
+    data/ui/about.ui
     data/lxappearance.pc
+    man/Makefile
     po/Makefile.in
 ])
 
