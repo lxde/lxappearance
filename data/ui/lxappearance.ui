@@ -4,7 +4,7 @@
   <!-- interface-naming-policy project-wide -->
   <object class="GtkAdjustment" id="cursor_size_adj">
     <property name="lower">1</property>
-    <property name="upper">138</property>
+    <property name="upper">138</property>pla
     <property name="step_increment">1</property>
     <property name="page_increment">10</property>
     <property name="page_size">10</property>
@@ -1691,7 +1691,7 @@
                             </child>
                             <child>
                               <object class="GtkCheckButton" id="input_feedback_sound">
-                                <property name="label" translatable="yes">play event sounds as feedback to user input</property>
+                                <property name="label" translatable="yes">Play event sounds as feedback to user input</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
