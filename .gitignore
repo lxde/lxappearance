@@ -29,6 +29,7 @@ ltmain.sh
 m4/
 missing
 po/Makefile.in.in
+po/.intltool-merge-cache
 config.guess
 config.h
 config.h.in~
