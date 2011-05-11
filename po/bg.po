@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"POT-Creation-Date: 2011-05-11 11:17+0200\n"
 "PO-Revision-Date: 2010-12-11 03:20+0200\n"
 "Last-Translator: Радослав <Rec.ku@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Персонализиране на Външния вид"
 
@@ -26,24 +26,33 @@ msgstr "Персонализиране на Външния вид"
 msgid "Customizes look and feel of your desktop and applications"
 msgstr "Персонализирайте Външният вид на вашия работен плот и приложения"
 
-#: ../data/ui/about.glade.in.h:1
+#: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
 msgstr "Copyright © 2010 LXDE Project"
 
-#: ../data/ui/about.glade.in.h:2
+#: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "Персонализирайте външният вид на вашия работен плот"
 
 #. Please replace this line with your own names, one name per line.
-#: ../data/ui/about.glade.in.h:4
+#: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr "Радослав Иванов"
 
-#: ../data/ui/lxappearance.glade.h:1
+#: ../data/ui/lxappearance.ui.h:1
+msgid "<b>Antialising</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Опции на графическия интерфейс</b>"
 
-#: ../data/ui/lxappearance.glade.h:2
+#: ../data/ui/lxappearance.ui.h:3
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "<b>Опции на графическия интерфейс</b>"
+
+#: ../data/ui/lxappearance.ui.h:4
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -53,201 +62,261 @@ msgstr ""
 "курсоровата тема. Така че промените, може да не са меродавно приложени... до "
 "следващото вписване."
 
-#: ../data/ui/lxappearance.glade.h:3
+#: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Звуков Ефект</b>"
 
-#: ../data/ui/lxappearance.glade.h:4
+#: ../data/ui/lxappearance.ui.h:6
+msgid "<b>Sub-pixel geometry</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "BGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
 msgstr "Среда"
 
-#: ../data/ui/lxappearance.glade.h:5
+#: ../data/ui/lxappearance.ui.h:9
 msgid "Bigger"
 msgstr "По-голям"
 
-#: ../data/ui/lxappearance.glade.h:6
+#: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
 msgstr "Провери бутона"
 
-#: ../data/ui/lxappearance.glade.h:7
+#: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
 msgstr "Цвят"
 
-#: ../data/ui/lxappearance.glade.h:8
+#: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Цветовата схема засега не се поддържа от избраната тема за джаджи."
 
-#: ../data/ui/lxappearance.glade.h:10
+#: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
 msgstr "Шрифт по подразбиране:"
 
-#: ../data/ui/lxappearance.glade.h:11
+#: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
 msgstr "Демонстрация"
 
-#: ../data/ui/lxappearance.glade.h:12
+#: ../data/ui/lxappearance.ui.h:16
+msgid "Enable antialising"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "Enable hinting"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "Font"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
 msgstr "Отпред"
 
-#: ../data/ui/lxappearance.glade.h:13
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Full"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "Hinting style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
 msgstr "Тема за икони"
 
-#: ../data/ui/lxappearance.glade.h:14
+#: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
 msgstr "Само икони"
 
-#: ../data/ui/lxappearance.glade.h:15
+#: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
 msgstr "Инсталиране"
 
-#: ../data/ui/lxappearance.glade.h:16
+#: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
 msgstr "Големи икони в лентата с инструменти"
 
-#: ../data/ui/lxappearance.glade.h:17
+#: ../data/ui/lxappearance.ui.h:26
+msgid "Medium"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
 msgstr "Курсор на мишката"
 
-#: ../data/ui/lxappearance.glade.h:18
+#: ../data/ui/lxappearance.ui.h:28
+msgid "None"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
 msgstr "Нормални прозорци:"
 
-#: ../data/ui/lxappearance.glade.h:19
+#: ../data/ui/lxappearance.ui.h:30
 msgid "Other"
 msgstr "Други"
 
-#: ../data/ui/lxappearance.glade.h:20
+#: ../data/ui/lxappearance.ui.h:31
 msgid "Page1"
 msgstr "Страница 1"
 
-#: ../data/ui/lxappearance.glade.h:21
+#: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
 msgstr "Страница 2"
 
-#: ../data/ui/lxappearance.glade.h:22
+#: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
 msgstr "Изпълнявай сигнализиращи звукове"
 
-#: ../data/ui/lxappearance.glade.h:23
-msgid "Play event sounds as feedback to user input"
-msgstr "Изпълнявай сигнализиращи звукове като отражение на набраните комбинации"
-
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.ui.h:34
 msgid "Preview of the selected cursor theme"
 msgstr "Преглед на маркираната тема за курсора"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected icon theme"
 msgstr "Преглед на маркираната тема за иконите"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected widget style"
 msgstr "Преглед на израният стил за джаджите"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.ui.h:37
+msgid "RGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
 msgstr "Бутон за единичен избор"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Remove"
 msgstr "Премахни"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Same as buttons"
 msgstr "Като бутоните"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as dialogs"
 msgstr "Като диалозите"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as drag icons"
 msgstr "Като влачените икони"
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as menu items"
 msgstr "Като елементите на менюто"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Selected items:"
 msgstr "Избрани елементи:"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Show images in menus"
 msgstr "Показвай образи в менютата"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images on buttons"
 msgstr "Показвай образи на бутоните"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Size of cursors"
 msgstr "Размер на курсорите"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Slight"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
 msgstr "Малки икони в лентата с инструментите"
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Smaller"
 msgstr "По-малки"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Sub-pixel geometry: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
 msgstr "Текст под иконите"
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text beside icons"
 msgstr "Текст зад иконите"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text only"
 msgstr "Само текст"
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text windows:"
 msgstr "Текстови прозорци:"
 
-#: ../data/ui/lxappearance.glade.h:43
-msgid "Toolbar Icon Size:"
+#: ../data/ui/lxappearance.ui.h:56
+#, fuzzy
+msgid "Toolbar Icon Size: "
 msgstr "Размер на иконите в Лентата с инструментите:"
 
-#: ../data/ui/lxappearance.glade.h:44
-msgid "Toolbar Style:"
+#: ../data/ui/lxappearance.ui.h:57
+#, fuzzy
+msgid "Toolbar Style: "
 msgstr "Стил на лентата с инструментите:"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
 msgstr "Подсказки:"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
 msgstr "Използвай персонализирана цветова схема:"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.ui.h:60
+msgid "VBGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "VRGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
 msgstr "Джаджа"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Window Border"
 msgstr "Рамка на прозорците"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.ui.h:64
 msgid "_Edit"
 msgstr "_Редактиране"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_File"
 msgstr "_Файл"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_Help"
 msgstr "_Помощ"
 
-#: ../data/ui/lxappearance.glade.h:52
+#: ../data/ui/lxappearance.ui.h:67
 msgid "button"
 msgstr "бутон"
+
+#: ../data/ui/lxappearance.ui.h:68
+#, fuzzy
+msgid "play event sounds as feedback to user input"
+msgstr ""
+"Изпълнявай сигнализиращи звукове като отражение на набраните комбинации"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"

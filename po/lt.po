@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"POT-Creation-Date: 2011-05-11 11:17+0200\n"
 "PO-Revision-Date: 2011-04-07 15:55+0200\n"
 "Last-Translator: Julius <zadintuvas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Derinti išvaizdą"
 
@@ -27,24 +27,33 @@ msgstr "Derinti išvaizdą"
 msgid "Customizes look and feel of your desktop and applications"
 msgstr "Derina jūsų darbastalio ir programų išvaizdą"
 
-#: ../data/ui/about.glade.in.h:1
+#: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
 msgstr "Autorinės teisės (C) 2010 LXDE Project"
 
-#: ../data/ui/about.glade.in.h:2
+#: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "Derina jūsų darbastalio išvaizdą"
 
 #. Please replace this line with your own names, one name per line.
-#: ../data/ui/about.glade.in.h:4
+#: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr "Julius Vitkauskas <zadintuvas@gmail.com>"
 
-#: ../data/ui/lxappearance.glade.h:1
+#: ../data/ui/lxappearance.ui.h:1
+msgid "<b>Antialising</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>GUI nusatymai</b>"
 
-#: ../data/ui/lxappearance.glade.h:2
+#: ../data/ui/lxappearance.ui.h:3
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "<b>GUI nusatymai</b>"
+
+#: ../data/ui/lxappearance.ui.h:4
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -54,201 +63,260 @@ msgstr ""
 "veikimo metu. Jūsų nustatymai gali nepasikeisti, kol neprisijungsite prie "
 "sistemos iš naujo."
 
-#: ../data/ui/lxappearance.glade.h:3
+#: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Garso efektas</b>"
 
-#: ../data/ui/lxappearance.glade.h:4
+#: ../data/ui/lxappearance.ui.h:6
+msgid "<b>Sub-pixel geometry</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "BGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
 msgstr "Fonas"
 
-#: ../data/ui/lxappearance.glade.h:5
+#: ../data/ui/lxappearance.ui.h:9
 msgid "Bigger"
 msgstr "Didesnis"
 
-#: ../data/ui/lxappearance.glade.h:6
+#: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
 msgstr "Pažymimas mygtukas"
 
-#: ../data/ui/lxappearance.glade.h:7
+#: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
 msgstr "Spalva"
 
-#: ../data/ui/lxappearance.glade.h:8
+#: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Jūsų pasirinkta tema nepalaiko šios spalvų schemos."
 
-#: ../data/ui/lxappearance.glade.h:10
+#: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
 msgstr "Numatytasis šriftas:"
 
-#: ../data/ui/lxappearance.glade.h:11
+#: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
 msgstr "Demonstracija"
 
-#: ../data/ui/lxappearance.glade.h:12
+#: ../data/ui/lxappearance.ui.h:16
+msgid "Enable antialising"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "Enable hinting"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "Font"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
 msgstr "Priekis"
 
-#: ../data/ui/lxappearance.glade.h:13
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Full"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "Hinting style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
 msgstr "Piktogramų tema"
 
-#: ../data/ui/lxappearance.glade.h:14
+#: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
 msgstr "Tik piktogramos"
 
-#: ../data/ui/lxappearance.glade.h:15
+#: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
 msgstr "Diegti"
 
-#: ../data/ui/lxappearance.glade.h:16
+#: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
 msgstr "Didelė įrankių juostos piktograma"
 
-#: ../data/ui/lxappearance.glade.h:17
+#: ../data/ui/lxappearance.ui.h:26
+msgid "Medium"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
 msgstr "Pelės kursorius"
 
-#: ../data/ui/lxappearance.glade.h:18
+#: ../data/ui/lxappearance.ui.h:28
+msgid "None"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
 msgstr "Normalūs langai:"
 
-#: ../data/ui/lxappearance.glade.h:19
+#: ../data/ui/lxappearance.ui.h:30
 msgid "Other"
 msgstr "Kita"
 
-#: ../data/ui/lxappearance.glade.h:20
+#: ../data/ui/lxappearance.ui.h:31
 msgid "Page1"
 msgstr "Puslapis1"
 
-#: ../data/ui/lxappearance.glade.h:21
+#: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
 msgstr "Puslapis2"
 
-#: ../data/ui/lxappearance.glade.h:22
+#: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
 msgstr "Groti įvykių garsus"
 
-#: ../data/ui/lxappearance.glade.h:23
-msgid "Play event sounds as feedback to user input"
-msgstr "Groti įvykių garsus, kaip atsaką į naudotojo įvestį"
-
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.ui.h:34
 msgid "Preview of the selected cursor theme"
 msgstr "Išbandyti pasirinktą kursoriaus temą"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected icon theme"
 msgstr "Išbandyti pasirinktą piktogramų temą"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected widget style"
 msgstr "Išbandyti pasirinktą darbastalio temą"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.ui.h:37
+msgid "RGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
 msgstr "Radio mygtukas"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Remove"
 msgstr "Pašalinti"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Same as buttons"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as dialogs"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as drag icons"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as menu items"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Selected items:"
 msgstr "Pasirinkti dalykai:"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Show images in menus"
 msgstr "Rodyti paveikslėlius meniu"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images on buttons"
 msgstr "Rodyti paveikslėlius mygtukuose"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Size of cursors"
 msgstr "Kursorių dydis"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Slight"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
 msgstr "Maža įrankių juostos piktograma"
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Smaller"
 msgstr "Mažesnis"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Sub-pixel geometry: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
 msgstr "Tekstas po piktogramomis"
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text beside icons"
 msgstr "Tekstas kartu su piktogramomis"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text only"
 msgstr "Tik tekstas"
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text windows:"
 msgstr "Teksto langai:"
 
-#: ../data/ui/lxappearance.glade.h:43
-msgid "Toolbar Icon Size:"
+#: ../data/ui/lxappearance.ui.h:56
+#, fuzzy
+msgid "Toolbar Icon Size: "
 msgstr "Įrankių juostos piktogramų dydis:"
 
-#: ../data/ui/lxappearance.glade.h:44
-msgid "Toolbar Style:"
+#: ../data/ui/lxappearance.ui.h:57
+#, fuzzy
+msgid "Toolbar Style: "
 msgstr "Įrankių juostos stilius:"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
 msgstr "Patarimai:"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
 msgstr "Naudoti savą spalvų schemą"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.ui.h:60
+msgid "VBGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "VRGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
 msgstr ""
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Window Border"
 msgstr "Lango kraštinė"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.ui.h:64
 msgid "_Edit"
 msgstr "_Keisti"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_File"
 msgstr "_Failas"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_Help"
 msgstr "_Pagalba"
 
-#: ../data/ui/lxappearance.glade.h:52
+#: ../data/ui/lxappearance.ui.h:67
 msgid "button"
 msgstr "mygtukas"
+
+#: ../data/ui/lxappearance.ui.h:68
+#, fuzzy
+msgid "play event sounds as feedback to user input"
+msgstr "Groti įvykių garsus, kaip atsaką į naudotojo įvestį"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"

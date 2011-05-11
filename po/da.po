@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"POT-Creation-Date: 2011-05-11 11:17+0200\n"
 "PO-Revision-Date: 2010-10-25 10:15+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>Language-Team: Danish\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Tilpas udseende"
 
@@ -23,16 +23,16 @@ msgstr "Tilpas udseende"
 msgid "Customizes look and feel of your desktop and applications"
 msgstr "Tilpas skrivebordets udseende og programmer"
 
-#: ../data/ui/about.glade.in.h:1
+#: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
 msgstr "Ophavsret 2010 LXDE-projektet"
 
-#: ../data/ui/about.glade.in.h:2
+#: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "Tilpas skrivebordets udseende"
 
 #. Please replace this line with your own names, one name per line.
-#: ../data/ui/about.glade.in.h:4
+#: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr ""
 "Joe Hansen, 2010.\n"
@@ -40,11 +40,20 @@ msgstr ""
 "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Mere info: http://www.dansk-gruppen.dk"
 
-#: ../data/ui/lxappearance.glade.h:1
+#: ../data/ui/lxappearance.ui.h:1
+msgid "<b>Antialising</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Indstillinger for grafisk brugergrænseflade</b>"
 
-#: ../data/ui/lxappearance.glade.h:2
+#: ../data/ui/lxappearance.ui.h:3
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "<b>Indstillinger for grafisk brugergrænseflade</b>"
+
+#: ../data/ui/lxappearance.ui.h:4
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -54,201 +63,260 @@ msgstr ""
 "løbende markørændring. Så dine ændringer her er måske ikke fuldt brugbare "
 "for alle programmer før næste logind."
 
-#: ../data/ui/lxappearance.glade.h:3
+#: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Lydeffekt</b>"
 
-#: ../data/ui/lxappearance.glade.h:4
+#: ../data/ui/lxappearance.ui.h:6
+msgid "<b>Sub-pixel geometry</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "BGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
 msgstr "Baggrund"
 
-#: ../data/ui/lxappearance.glade.h:5
+#: ../data/ui/lxappearance.ui.h:9
 msgid "Bigger"
 msgstr "Større"
 
-#: ../data/ui/lxappearance.glade.h:6
+#: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
 msgstr "Tjekknap"
 
-#: ../data/ui/lxappearance.glade.h:7
+#: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
 msgstr "Farve"
 
-#: ../data/ui/lxappearance.glade.h:8
+#: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Farveskema er ikke understøttet af aktuelt valgt kontroltema."
 
-#: ../data/ui/lxappearance.glade.h:10
+#: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
 msgstr "Standardskrift:"
 
-#: ../data/ui/lxappearance.glade.h:11
+#: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
 msgstr "Demo"
 
-#: ../data/ui/lxappearance.glade.h:12
+#: ../data/ui/lxappearance.ui.h:16
+msgid "Enable antialising"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "Enable hinting"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "Font"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
 msgstr "Forgrund"
 
-#: ../data/ui/lxappearance.glade.h:13
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Full"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "Hinting style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
 msgstr "Ikontema"
 
-#: ../data/ui/lxappearance.glade.h:14
+#: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
 msgstr "Kun ikoner"
 
-#: ../data/ui/lxappearance.glade.h:15
+#: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
 msgstr "Installer"
 
-#: ../data/ui/lxappearance.glade.h:16
+#: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
 msgstr "Store værktøjsbjælkeikoner"
 
-#: ../data/ui/lxappearance.glade.h:17
+#: ../data/ui/lxappearance.ui.h:26
+msgid "Medium"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
 msgstr "Musemarkør"
 
-#: ../data/ui/lxappearance.glade.h:18
+#: ../data/ui/lxappearance.ui.h:28
+msgid "None"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
 msgstr "Normale vinduer:"
 
-#: ../data/ui/lxappearance.glade.h:19
+#: ../data/ui/lxappearance.ui.h:30
 msgid "Other"
 msgstr "Andet"
 
-#: ../data/ui/lxappearance.glade.h:20
+#: ../data/ui/lxappearance.ui.h:31
 msgid "Page1"
 msgstr "Side1"
 
-#: ../data/ui/lxappearance.glade.h:21
+#: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
 msgstr "Side2"
 
-#: ../data/ui/lxappearance.glade.h:22
+#: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
 msgstr "Afspil påmindelseslyde"
 
-#: ../data/ui/lxappearance.glade.h:23
-msgid "Play event sounds as feedback to user input"
-msgstr "Afspil påmindelseslyde som tilbagemelding på brugerinddata"
-
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.ui.h:34
 msgid "Preview of the selected cursor theme"
 msgstr "Forhåndsvisning af det valgte markørtema"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected icon theme"
 msgstr "Forhåndsvisning af det valgte ikontema"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected widget style"
 msgstr "Forhåndsvisning af den valgte kontrolstil"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.ui.h:37
+msgid "RGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
 msgstr "Radioknap"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Remove"
 msgstr "Fjern"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Same as buttons"
 msgstr "Som knapper"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as dialogs"
 msgstr "Som dialoger"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as drag icons"
 msgstr "Som trækkede ikoner"
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as menu items"
 msgstr "Som menupunkter"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Selected items:"
 msgstr "Valgte punkter:"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Show images in menus"
 msgstr "Vis billeder i menuer"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images on buttons"
 msgstr "Vis billeder på knapper"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Size of cursors"
 msgstr "Størrelse på markører"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Slight"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
 msgstr "Små værktøjsbjælkeikoner"
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Smaller"
 msgstr "Mindre"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Sub-pixel geometry: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
 msgstr "Tekst under ikonerne"
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text beside icons"
 msgstr "Tekst ved siden af ikonerne"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text only"
 msgstr "Kun tekst"
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text windows:"
 msgstr "Tekstvinduer:"
 
-#: ../data/ui/lxappearance.glade.h:43
-msgid "Toolbar Icon Size:"
+#: ../data/ui/lxappearance.ui.h:56
+#, fuzzy
+msgid "Toolbar Icon Size: "
 msgstr "Størrelse på værktøjsbjælkeikoner:"
 
-#: ../data/ui/lxappearance.glade.h:44
-msgid "Toolbar Style:"
+#: ../data/ui/lxappearance.ui.h:57
+#, fuzzy
+msgid "Toolbar Style: "
 msgstr "Stil for værktøjsbjælke:"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
 msgstr "Værktøjsfif:"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
 msgstr "Brug tilpasset farveskema"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.ui.h:60
+msgid "VBGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "VRGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
 msgstr "Kontrol"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Window Border"
 msgstr "Vinduegrænse"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.ui.h:64
 msgid "_Edit"
 msgstr "_Rediger"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_File"
 msgstr "_Fil"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_Help"
 msgstr "_Hjælp"
 
-#: ../data/ui/lxappearance.glade.h:52
+#: ../data/ui/lxappearance.ui.h:67
 msgid "button"
 msgstr "knap"
+
+#: ../data/ui/lxappearance.ui.h:68
+#, fuzzy
+msgid "play event sounds as feedback to user input"
+msgstr "Afspil påmindelseslyde som tilbagemelding på brugerinddata"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"

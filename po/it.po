@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-29 16:12+0200\n"
+"POT-Creation-Date: 2011-05-11 11:17+0200\n"
 "PO-Revision-Date: 2010-08-08 13:00+0100\n"
 "Last-Translator: Andrea Florio <andrea@opensuse.org>\n"
 "Language-Team: it <it@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:9
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Personalizza aspetto e stile"
 
@@ -24,24 +24,33 @@ msgstr "Personalizza aspetto e stile"
 msgid "Customizes look and feel of your desktop and applications"
 msgstr "Personalizza l'aspetto e lo stile del tuo desktop e delle applicazioni"
 
-#: ../data/ui/about.glade.in.h:1
+#: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
 msgstr "Copyright (C) 2010 LXDE Project"
 
-#: ../data/ui/about.glade.in.h:2
+#: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "Personalizza l'aspetto e lo stile del tuo desktop"
 
 #. Please replace this line with your own names, one name per line.
-#: ../data/ui/about.glade.in.h:4
+#: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr "Andrea Florio <andrea@opensuse.org>"
 
-#: ../data/ui/lxappearance.glade.h:1
+#: ../data/ui/lxappearance.ui.h:1
+msgid "<b>Antialising</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Opzioni GUI</b>"
 
-#: ../data/ui/lxappearance.glade.h:2
+#: ../data/ui/lxappearance.ui.h:3
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "<b>Opzioni GUI</b>"
+
+#: ../data/ui/lxappearance.ui.h:4
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -51,201 +60,260 @@ msgstr ""
 "del cursore al volo. Quindi i tuoi cambiamenti potrebbero non essere "
 "completamente applicati fino al prossimo login."
 
-#: ../data/ui/lxappearance.glade.h:3
+#: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Effetti Sonori</b>"
 
-#: ../data/ui/lxappearance.glade.h:4
+#: ../data/ui/lxappearance.ui.h:6
+msgid "<b>Sub-pixel geometry</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "BGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
 msgstr "Sfondo"
 
-#: ../data/ui/lxappearance.glade.h:5
+#: ../data/ui/lxappearance.ui.h:9
 msgid "Bigger"
 msgstr "Più grande"
 
-#: ../data/ui/lxappearance.glade.h:6
+#: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
 msgstr "Pulsante di selezione"
 
-#: ../data/ui/lxappearance.glade.h:7
+#: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
 msgstr "Colore"
 
-#: ../data/ui/lxappearance.glade.h:8
+#: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Lo schema del colore non è supportato dal tema attualmente selezionato"
 
-#: ../data/ui/lxappearance.glade.h:10
+#: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
 msgstr "Font predefinito"
 
-#: ../data/ui/lxappearance.glade.h:11
+#: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
 msgstr "Demo"
 
-#: ../data/ui/lxappearance.glade.h:12
+#: ../data/ui/lxappearance.ui.h:16
+msgid "Enable antialising"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "Enable hinting"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "Font"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
 msgstr "Testo"
 
-#: ../data/ui/lxappearance.glade.h:13
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Full"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "Hinting style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
 msgstr "Tema di icone"
 
-#: ../data/ui/lxappearance.glade.h:14
+#: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
 msgstr "Solo icone"
 
-#: ../data/ui/lxappearance.glade.h:15
+#: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
 msgstr "Installa"
 
-#: ../data/ui/lxappearance.glade.h:16
+#: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
 msgstr "Icona della barra degli strumenti larga"
 
-#: ../data/ui/lxappearance.glade.h:17
+#: ../data/ui/lxappearance.ui.h:26
+msgid "Medium"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
 msgstr "Puntatore del mouse"
 
-#: ../data/ui/lxappearance.glade.h:18
+#: ../data/ui/lxappearance.ui.h:28
+msgid "None"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
 msgstr "Finestra normale:"
 
-#: ../data/ui/lxappearance.glade.h:19
+#: ../data/ui/lxappearance.ui.h:30
 msgid "Other"
 msgstr "Altro"
 
-#: ../data/ui/lxappearance.glade.h:20
+#: ../data/ui/lxappearance.ui.h:31
 msgid "Page1"
 msgstr "Pagina1"
 
-#: ../data/ui/lxappearance.glade.h:21
+#: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
 msgstr "Pagina2"
 
-#: ../data/ui/lxappearance.glade.h:22
+#: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
 msgstr "Esegui suoni di avviso"
 
-#: ../data/ui/lxappearance.glade.h:23
-msgid "Play event sounds as feedback to user input"
-msgstr "Esegui suoni di avviso alle azioni dell'utente"
-
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.ui.h:34
 msgid "Preview of the selected cursor theme"
 msgstr "Anteprima del tema del puntatore selezionato"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected icon theme"
 msgstr "Anteprima del tema di icone selezionato"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected widget style"
 msgstr "Anteprima dello stile delle finestre selezionato"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.ui.h:37
+msgid "RGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
 msgstr "Pulsante Radio"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Remove"
 msgstr "Rimuovi"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Same as buttons"
 msgstr "Come i bottoni"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as dialogs"
 msgstr "Come i dialoghi"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as drag icons"
 msgstr "Come il trascinamento icone"
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as menu items"
 msgstr "Come gli elementi di menu"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Selected items:"
 msgstr "Oggetti selezionati:"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Show images in menus"
 msgstr "Mostra immagini nei menu"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images on buttons"
 msgstr "Mostra immagini nei bottoni"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Size of cursors"
 msgstr "Dimensioni dei cursori"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Slight"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
 msgstr "Icona piccola della barra strumenti"
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Smaller"
 msgstr "Più piccolo"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Sub-pixel geometry: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
 msgstr "Testo sotto le icone"
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text beside icons"
 msgstr "Testo a fianco delle icone"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text only"
 msgstr "Solo testo"
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text windows:"
 msgstr "Finestre di testo:"
 
-#: ../data/ui/lxappearance.glade.h:43
-msgid "Toolbar Icon Size:"
+#: ../data/ui/lxappearance.ui.h:56
+#, fuzzy
+msgid "Toolbar Icon Size: "
 msgstr "Dimensioni Icona Toolbar:"
 
-#: ../data/ui/lxappearance.glade.h:44
-msgid "Toolbar Style:"
+#: ../data/ui/lxappearance.ui.h:57
+#, fuzzy
+msgid "Toolbar Style: "
 msgstr "Stile Toolbar:"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
 msgstr "Tooltips:"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
 msgstr "Usa schema colore personalizzato"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.ui.h:60
+msgid "VBGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "VRGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
 msgstr "Finestra"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Window Border"
 msgstr "Bordo finestra"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.ui.h:64
 msgid "_Edit"
 msgstr "_Modifica"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_File"
 msgstr "_File"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_Help"
 msgstr "_Aiuto"
 
-#: ../data/ui/lxappearance.glade.h:52
+#: ../data/ui/lxappearance.ui.h:67
 msgid "button"
 msgstr "pulsante"
+
+#: ../data/ui/lxappearance.ui.h:68
+#, fuzzy
+msgid "play event sounds as feedback to user input"
+msgstr "Esegui suoni di avviso alle azioni dell'utente"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
