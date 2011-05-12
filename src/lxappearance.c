@@ -121,12 +121,11 @@ static void reload_all_programs()
     gdk_event_send_clientmessage_toall((GdkEvent *)&event);
 }
 
-/* Disable, not used
 static const char* bool2str(gboolean val)
 {
     return val ? "TRUE" : "FALSE";
 }
-*/
+
 
 static void lxappearance_save_gtkrc()
 {
@@ -193,11 +192,11 @@ static void lxappearance_save_gtkrc()
 
     if(app.hinting_style)
         g_string_append_printf(content,
-            "gtk-xft-hintstyle=\"%i\"\n", app.hinting_style);
+            "gtk-xft-hintstyle=\"%s\"\n", app.hinting_style);
 
     if(app.font_rgba)
         g_string_append_printf(content,
-            "gtk-xft-rgba=\"%i\"\n", app.font_rgba);
+            "gtk-xft-rgba=\"%s\"\n", app.font_rgba);
 
     if(app.color_scheme)
     {
@@ -222,7 +221,7 @@ static void lxappearance_save_lxsession()
     char* rel_path = g_strconcat("lxsession/", lxsession_name, "/desktop.conf", NULL);
     char* user_config_file = g_build_filename(g_get_user_config_dir(), rel_path, NULL);
     char* buf;
-    gsize len;
+    int len;
     GKeyFile* kf = g_key_file_new();
 
     if(!g_key_file_load_from_file(kf, user_config_file, G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL))
@@ -267,8 +266,8 @@ static void lxappearance_save_lxsession()
 #endif
     g_key_file_set_integer( kf, "GTK", "iXft/Antialias", app.enable_antialising);
     g_key_file_set_integer( kf, "GTK", "iXft/Hinting", app.enable_hinting);
-    g_key_file_set_integer( kf, "GTK", "sXft/HintStyle", app.hinting_style);
-    g_key_file_set_integer( kf, "GTK", "sXft/RGBA", app.font_rgba);
+    g_key_file_set_string( kf, "GTK", "sXft/HintStyle", app.hinting_style);
+    g_key_file_set_string( kf, "GTK", "sXft/RGBA", app.font_rgba);
 
     buf = g_key_file_to_data( kf, &len, NULL );
     g_key_file_free(kf);
