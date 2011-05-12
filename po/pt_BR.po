@@ -2,13 +2,14 @@
 # Copyright (C) 2010 The creators of LXAPPEARANCE.
 # This file is distributed under the same license as the LXAPPEARANCE package.
 # Henrique P. Machado <hpmachado@gnome.org>, 2010.
+# Sérgio Cipolla <secipolla@gmail.com>, 2010-2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 12:53-0300\n"
-"PO-Revision-Date: 2011-05-11 12:54-0300\n"
+"PO-Revision-Date: 2011-05-12 08:23-0300\n"
 "Last-Translator: Sérgio Cipolla <secipolla@gmail.com>\n"
 "Language-Team: Brazilian Porguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: \n"
@@ -134,7 +135,7 @@ msgstr "Instalar"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
-msgstr "Ícone da barra de ferramentas grande"
+msgstr "Ícones grandes"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
@@ -198,19 +199,19 @@ msgstr "Remover"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
-msgstr "O mesmo que botões"
+msgstr "O mesmo que nos botões"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
-msgstr "O mesmo que diálogos"
+msgstr "O mesmo que nos diálogos"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
-msgstr "O mesmo que ícones arrastáveis"
+msgstr "O mesmo que em ícones arrastáveis"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
-msgstr "O mesmo que itens de menu"
+msgstr "O mesmo que nos itens de menu"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
@@ -234,7 +235,7 @@ msgstr "Leve"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
-msgstr "Ícone da barra de ferramentas pequeno"
+msgstr "Ícones pequenos"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
@@ -262,7 +263,7 @@ msgstr "Janelas de texto:"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Toolbar Icon Size: "
-msgstr "Tamanho do ícone da barra de ferramentas: "
+msgstr "Tamanho dos ícones na barra de ferramentas: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Toolbar Style: "
