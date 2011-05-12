@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-05-11 20:23+0200\n"
+"PO-Revision-Date: 2011-05-12 20:29+0200\n"
 "Last-Translator: Lutz <lthuns@opensuse.org>\n"
 "Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
 "Language: de\n"
@@ -75,8 +75,9 @@ msgid "<b>Sub-pixel geometry</b>"
 msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:7
+#, fuzzy
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
