@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-04-22 22:57+0200\n"
+"PO-Revision-Date: 2011-05-12 22:34+0200\n"
 "Last-Translator: Steve <yorvik.ubunto@gmail.com>\n"
 "Language-Team: en_GB <LL@li.org>\n"
 "Language: en_GB\n"
@@ -43,16 +43,15 @@ msgstr "translator-credits"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Antialising</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>GUI Options</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>GUI Options</b>"
+msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -70,11 +69,11 @@ msgstr "<b>Sound Effect</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Sub-pixel geometry</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -106,15 +105,15 @@ msgstr "Demo"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Enable antialising"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Enable hinting"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -122,11 +121,11 @@ msgstr "Foreground"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Full"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Hinting style: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -146,7 +145,7 @@ msgstr "Large toolbar icon"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -154,7 +153,7 @@ msgstr "Mouse Cursor"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -190,7 +189,7 @@ msgstr "Preview of the selected widget style"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -234,7 +233,7 @@ msgstr "Size of cursors"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Slight"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -246,7 +245,7 @@ msgstr "Smaller"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Sub-pixel geometry: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -265,12 +264,10 @@ msgid "Text windows:"
 msgstr "Text windows:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "Toolbar Icon Size: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
 msgstr "Toolbar Style: "
 
@@ -284,11 +281,11 @@ msgstr "Use customised colour scheme"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -315,7 +312,6 @@ msgid "button"
 msgstr "button"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
 msgstr "Play event sounds as feedback to user input"
 
