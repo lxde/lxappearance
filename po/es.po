@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-05-13 14:02+0200\n"
+"PO-Revision-Date: 2011-05-13 14:06+0200\n"
 "Last-Translator: Hugo <sysadmin@cips.cu>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -122,7 +122,6 @@ msgid "Foreground"
 msgstr "Primer plano"
 
 #: ../data/ui/lxappearance.ui.h:20
-#, fuzzy
 msgid "Full"
 msgstr "Completo"
 
@@ -147,7 +146,6 @@ msgid "Large toolbar icon"
 msgstr "Icono grande en la barra de herramientas"
 
 #: ../data/ui/lxappearance.ui.h:26
-#, fuzzy
 msgid "Medium"
 msgstr "Medio"
 
@@ -156,7 +154,6 @@ msgid "Mouse Cursor"
 msgstr "Cursor del ratón"
 
 #: ../data/ui/lxappearance.ui.h:28
-#, fuzzy
 msgid "None"
 msgstr "Ninguno"
 
@@ -269,12 +266,10 @@ msgid "Text windows:"
 msgstr "Ventanas de texto:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "Tamaño del icono de la barra de herramientas:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
 msgstr "Estilo de la barra de herramientas:"
 
