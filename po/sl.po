@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-02-18 16:39+0200\n"
+"PO-Revision-Date: 2011-05-12 08:16+0200\n"
 "Last-Translator: Klemen <klemen.kosir@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
@@ -42,16 +42,15 @@ msgstr "Klemen Košir <https://launchpad.net/~klemen.kosir>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Glajenje robov</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Možnosti grafičnega vmesnika</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Možnosti grafičnega vmesnika</b>"
+msgstr "<b>Glajenje pisave</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -69,11 +68,11 @@ msgstr "<b>Zvočni učinki</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Podtočkovna geometrija</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -105,27 +104,27 @@ msgstr "Preizkus"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Omogoči glajenje robov"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Omogoči glajenje pisave"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Pisava"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
-msgstr "Pisava"
+msgstr "Ospredje"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Polno"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Slog glajenja pisave: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -145,7 +144,7 @@ msgstr "Velike ikone"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Srednje"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -153,7 +152,7 @@ msgstr "Miškina kazalka"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Brez"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -189,7 +188,7 @@ msgstr "Predogled izbranega sloga gradnikov"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -233,7 +232,7 @@ msgstr "Velikost kazalk"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Rahlo"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -245,7 +244,7 @@ msgstr "Manjše"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Podtočkovna geometrija: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -264,14 +263,12 @@ msgid "Text windows:"
 msgstr "Besedilna okna:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Velikost ikon orodne vrstice:"
+msgstr "Velikost ikon orodne vrstice: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Slog orodne vrstice:"
+msgstr "Slog orodne vrstice: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -283,11 +280,11 @@ msgstr "Uporabi prilagojeno barvno shemo"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -314,7 +311,6 @@ msgid "button"
 msgstr "Gumb"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
 msgstr "Ob dogodku predvajaj zvok kot odziv uporabnikovem vnosu"
 
