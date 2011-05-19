@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-05-19 13:03+0200\n"
+"PO-Revision-Date: 2011-05-19 13:06+0200\n"
 "Last-Translator: Oleg <koptev.oleg@gmail.com>\n"
 "Language-Team: Russian <info@edumandriva.ru>\n"
 "Language: ru\n"
@@ -247,7 +247,7 @@ msgstr "Меньше"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr "Субпиксельная геометрия:"
+msgstr "Субпиксельная геометрия: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -271,7 +271,7 @@ msgstr "Размер значков панели инструментов: "
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Toolbar Style: "
-msgstr "Стиль панели инструментов:"
+msgstr "Стиль панели инструментов: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -279,7 +279,7 @@ msgstr "Подсказки:"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
-msgstr "Использовать измененную цветовую схему"
+msgstr "Использовать изменённую цветовую схему"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
