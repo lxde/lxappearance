@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-09-15 16:15-0000\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"PO-Revision-Date: 2011-05-14 02:17+0200\n"
+"Last-Translator: Sérgio <smarquespt@gmail.com>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: PORTUGAL\n"
 
@@ -41,16 +43,15 @@ msgstr "Sérgio Marques <smarquespt@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Suavização</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Opções de interface</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Opções de interface</b>"
+msgstr "<b>Ajudas</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -68,11 +69,11 @@ msgstr "<b>Efeitos sonoros</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Geometria de subpixel</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -104,15 +105,15 @@ msgstr "Demo"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Ativar suavização"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Ativar ajudas"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Tipo de letra"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -120,11 +121,11 @@ msgstr "Primeiro plano"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Total"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Estilo das ajudas: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -144,7 +145,7 @@ msgstr "Ícones grandes"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Média"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -152,7 +153,7 @@ msgstr "Cursor do rato"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -188,7 +189,7 @@ msgstr "Antevisão do estilo do \"widget\" selecionado"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -232,7 +233,7 @@ msgstr "Tamanho dos cursores"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Ligeiro"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -244,7 +245,7 @@ msgstr "Menor"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Geometria de subpixel: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -263,14 +264,12 @@ msgid "Text windows:"
 msgstr "Janelas de texto:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Tamanho do ícone na barra de ferramentas:"
+msgstr "Tamanho da barra de ícones: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Estilo da barra de ferramentas:"
+msgstr "Estilo da barra de ferramentas: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -282,15 +281,15 @@ msgstr "Utilizar esquema personalizado"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
-msgstr "\"Widget\""
+msgstr "Widget"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Window Border"
@@ -313,9 +312,8 @@ msgid "button"
 msgstr "botão"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
-msgstr "Reproduzir sons como resposta à ação do utilizador"
+msgstr "reproduzir sons como resposta à ação do utilizador"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
