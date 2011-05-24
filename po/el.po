@@ -4,14 +4,15 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: \n"
-"Last-Translator: George Vasilakos <forfolias@linuxteam.cs.teilar.gr>\n"
+"PO-Revision-Date: 2011-05-24 12:31+0200\n"
+"Last-Translator: George <forfolias@gmail.com>\n"
 "Language-Team: Greek\n"
-"Language: \n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Country: GREECE\n"
@@ -41,16 +42,15 @@ msgstr "Βασιλάκος Γεώργιος <forfolias@linuxteam.cs.teilar.gr>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Antialising</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Επιλογές διεπαφής</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Επιλογές διεπαφής</b>"
+msgstr "<b>Υποδείξεις</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -68,11 +68,11 @@ msgstr "<b>Ηχητικά εφέ</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Γεωμετρία υπο-pixel</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -104,15 +104,15 @@ msgstr "Δοκιμή"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Ενεργοποίηση antialising"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Ενεργοποίηση υποδείξεων"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Γραμματοσειρά"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -120,11 +120,11 @@ msgstr "Προσκήνιο"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Γεμάτο"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Στυλ υπόδειξης: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -144,7 +144,7 @@ msgstr "Μεγάλα εικονίδια στη γραμμή εργαλείων"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Μεσαίο"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -152,7 +152,7 @@ msgstr "Δρομέας"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Κανένα"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -188,7 +188,7 @@ msgstr "Προεπισκόπηση του επιλεγμένου στυλ γρα
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -232,7 +232,7 @@ msgstr "Μέγεθος δρομέα"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Ελαφρά"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -244,7 +244,7 @@ msgstr "Μικρότερο"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Γεωμετρία υπό-pixel: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -263,14 +263,12 @@ msgid "Text windows:"
 msgstr "Κείμενο παραθύρων:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Μέγεθος εικονιδίων μπάρας εργαλείων:"
+msgstr "Μέγεθος εικονιδίων μπάρας εργαλείων: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Στυλ μπάρας εργαλείων:"
+msgstr "Στυλ μπάρας εργαλείων: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -282,11 +280,11 @@ msgstr "Χρήση προσαρμοσμένων χρωμάτων"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -313,9 +311,8 @@ msgid "button"
 msgstr "κουμπί"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
-msgstr "Αναπαραγωγή ήχων σε ενέργειες του χρήστη"
+msgstr "αναπαραγωγή ήχων σε ενέργειες του χρήστη"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
