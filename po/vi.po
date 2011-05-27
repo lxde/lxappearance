@@ -43,14 +43,13 @@ msgstr "translator-credits"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Chống răng cưa</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Tùy chọn GUI</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
 msgstr "<b>Tùy chọn GUI</b>"
 
@@ -70,11 +69,11 @@ msgstr "<b>Hiệu ứng Âm thanh</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Hình học sub-pixel</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -106,15 +105,15 @@ msgstr "Mẫu"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Bật chống răng cưa"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Bật gợi ý"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -122,11 +121,11 @@ msgstr "Nền trước"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Đầy"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Kiểu dáng gợi ý:"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -146,7 +145,7 @@ msgstr "Biểu tượng thanh công cụ lớn"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Vừa"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -154,7 +153,7 @@ msgstr "Con trỏ Chuột"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Không"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -190,7 +189,7 @@ msgstr "Xem trước kiểu dáng widget được chọn"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
