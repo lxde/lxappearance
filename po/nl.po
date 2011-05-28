@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-05-18 20:06+0200\n"
+"PO-Revision-Date: 2011-05-28 17:14+0200\n"
 "Last-Translator: Pjotr <pliniusminor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -46,7 +46,7 @@ msgstr "<b>Antialising</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr "Opties voor de grafische gebruikersomgeving"
+msgstr "<b>Opties voor de gebruikersomgeving</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "<b>Hinting</b>"
@@ -84,7 +84,7 @@ msgstr "Groter"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
-msgstr "Controleer Knop"
+msgstr "Controleknop"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
@@ -125,7 +125,7 @@ msgstr "Volledig"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr "Stijl van vormsuggesties:"
+msgstr "Stijl van vormsuggesties: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -177,7 +177,7 @@ msgstr "Speel gebeurtenisgeluiden af"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Preview of the selected cursor theme"
-msgstr "Vooruitblik van het gekozen muispijlthema"
+msgstr "Vooruitblik van het gekozen aanwijzerthema"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected icon theme"
@@ -229,7 +229,7 @@ msgstr "Toon afbeeldingen op knoppen"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Size of cursors"
-msgstr "Grootte van muispijlen"
+msgstr "Grootte van aanwijzers"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
