@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-03-07 03:51+0200\n"
-"Last-Translator: Duy Hung <nguyentieuhau@gmail.com>\n"
+"PO-Revision-Date: 2011-05-28 09:55+0700\n"
+"Last-Translator: Hung Tran <nguyentieuhau@gmail.com>\n"
 "Language-Team: vi <nguyentieuhau@gmail.com>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,8 @@ msgstr ""
 "X-Poedit-Language: Vietnamese\n"
 "X-Poedit-Country: Viet Nam\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Tùy chỉnh Giao diện"
 
@@ -54,14 +55,8 @@ msgid "<b>Hinting</b>"
 msgstr "<b>Tùy chọn GUI</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
-"<b>Chú ý:</b> Không phải tất cả ứng dụng đều hỗ trợ thay đổi kiểu con trỏ "
-"chuột ngay lập tức. Vì vậy những gì bạn vừa thay đổi có thể chỉ thật sự có "
-"hiệu lực trong lần đăng nhập tới."
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Chú ý:</b> Không phải tất cả ứng dụng đều hỗ trợ thay đổi kiểu con trỏ chuột ngay lập tức. Vì vậy những gì bạn vừa thay đổi có thể chỉ thật sự có hiệu lực trong lần đăng nhập tới."
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
@@ -233,7 +228,7 @@ msgstr "Kích thước con trỏ"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Mỏng"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -245,7 +240,7 @@ msgstr "Nhỏ hơn"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Hình học sub-pixel : "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -264,12 +259,10 @@ msgid "Text windows:"
 msgstr "Cửa sổ văn bản:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "Kích thước Biểu tượng Thanh công cụ:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
 msgstr "Kiểu dánh Thanh công cụ:"
 
@@ -283,11 +276,11 @@ msgstr "Dùng sơ đồ màu sắc tùy chọn"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -314,7 +307,6 @@ msgid "button"
 msgstr "nút"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
 msgstr "Phát âm thanh khi người dùng nhập"
 
@@ -325,3 +317,4 @@ msgstr "Chọn một đề tài biểu tượng"
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Đề tài Biểu tượng)"
+
