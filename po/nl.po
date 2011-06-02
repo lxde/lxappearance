@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-05-28 17:14+0200\n"
+"PO-Revision-Date: 2011-06-02 16:38+0200\n"
 "Last-Translator: Pjotr <pliniusminor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Auteursrecht (C) 2010 LXDE Project"
+msgstr "Auteursrecht (C) 2010 LXDE-Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -46,7 +46,7 @@ msgstr "<b>Antialising</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr "<b>Opties voor de gebruikersomgeving</b>"
+msgstr "<b>Opties voor de gebruikersschil</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "<b>Hinting</b>"
@@ -59,12 +59,12 @@ msgid ""
 "applications till next login."
 msgstr ""
 "<b>Let op:</b> Niet alle toepassingen ondersteunen een verandering van het "
-"muispijlthema zonder herstart. Dus uw veranderingen hier zouden pas volledig "
-"van kracht kunnen zijn na uw volgende aanmelding."
+"muispijlthema zonder herstart. Dus uw veranderingen hier, zouden mogelijk "
+"pas volledig van kracht kunnen zijn na uw volgende aanmelding."
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Geluidseffect</b>"
+msgstr "<b>Geluideffect</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
