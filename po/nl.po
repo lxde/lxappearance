@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-06-02 16:38+0200\n"
-"Last-Translator: Pjotr <pliniusminor@gmail.com>\n"
+"PO-Revision-Date: 2011-06-02 23:28+0200\n"
+"Last-Translator: Pjotr <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -265,11 +265,11 @@ msgstr "Tekstvensters:"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "Toolbar Icon Size: "
-msgstr "Grootte van werkbalkpictogram: "
+msgstr "Grootte van Werkbalkpictogram: "
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Toolbar Style: "
-msgstr "Stijl van werkbalk: "
+msgstr "Stijl van Werkbalk: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
