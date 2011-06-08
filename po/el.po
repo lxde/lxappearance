@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-05-24 12:31+0200\n"
+"PO-Revision-Date: 2011-06-08 13:08+0200\n"
 "Last-Translator: George <forfolias@gmail.com>\n"
 "Language-Team: Greek\n"
 "Language: el\n"
@@ -19,12 +19,12 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
-msgstr "Προσαρμόστε την εμφάνιση και αίσθηση"
+msgstr "Προσαρμογή εμφάνισης και αισθητικής"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
 msgstr ""
-"Προσαρμόζει την εμφάνιση και την αίσθηση της επιφάνειας εργασίας και των "
+"Προσαρμογή εμφάνισης και αισθητικής της επιφάνειας εργασίας και των "
 "εφαρμογών σας"
 
 #: ../data/ui/about.ui.in.h:1
@@ -33,7 +33,7 @@ msgstr "Copyright (C) 2010 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Προσαρμόζει την εμφάνιση και την αίσθηση της επιφάνειας εργασίας"
+msgstr "Προσαρμογή εμφάνισης και αισθητικής της επιφάνειας εργασίας "
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
@@ -132,7 +132,7 @@ msgstr "Θέματα εικονιδίων"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
-msgstr "Εικονίδια μόνο"
+msgstr "Μόνο εικονίδια"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
