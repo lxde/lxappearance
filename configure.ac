@@ -37,6 +37,13 @@ AC_ARG_ENABLE(man,
        [enable_man=no]
 )
 
+AC_ARG_ENABLE(more_warnings,
+       [AC_HELP_STRING([--enable-more-warnings],
+               [Add more warnings @<:@default=no@:>@])],
+       [enable_more_warnings="${enableval}"],
+       [enable_more_warnings=no]
+)
+
 PKG_CHECK_MODULES(XLIB, "x11")
 AC_SUBST(XLIB_CFLAGS)
 AC_SUBST(XLIB_LIBS)
@@ -61,8 +68,7 @@ AC_SUBST(GMODULE_LIBS)
 # AC_SUBST(MENU_CACHE_CFLAGS)
 # AC_SUBST(MENU_CACHE_LIBS)
 
-# Pass --enable-maintainer-mode to enable more CFLAGS
-if test "$USE_MAINTAINER_MODE" = "yes"; then
+if test x"$enable_more_warnings" = x"yes"; then
   ADDITIONAL_FLAGS="-Wall -Werror=all -Werror=format -Werror=implicit-function-declaration -Werror=implicit-int -Werror=missing-braces -Werror=parentheses -Werror=return-type -Werror=strict-aliasing -Werror=switch -Wuninitialized -Werror=unused-label -Werror=unused-value -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Werror=missing-declarations -Wredundant-decls -Wmissing-noreturn -Wpointer-arith -Wcast-align -Wwrite-strings -Werror=inline -Werror=format-nonliteral -Wformat-nonliteral -Werror=format-security -Wformat-security -Winit-self -Werror=missing-include-dirs -Werror=undef -Werror=aggregate-return -Wmissing-format-attribute -Werror=nested-externs -fno-strict-aliasing -fmessage-length=0 -Wp,-D_FORTIFY_SOURCE=2 -DG_DISABLE_DEPRECATED -DG_DISABLE_SINGLE_INCLUDES -DGDK_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_SINGLE_INCLUDES -DGTK_DISABLE_DEPRECATED -DGTK_DISABLE_SINGLE_INCLUDES"
 fi
 AC_SUBST(ADDITIONAL_FLAGS)
