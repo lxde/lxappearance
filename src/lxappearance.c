@@ -100,6 +100,11 @@ static void save_cursor_theme_name()
 
 static void reload_all_programs()
 {
+#if GTK_CHECK_VERSION(3, 0, 0)
+
+/* TODO Port this to something else than gdk_event_send_clientmessage_toall */
+
+#else
     GdkEventClient event;
     event.type = GDK_CLIENT_EVENT;
     event.send_event = TRUE;
@@ -119,6 +124,7 @@ static void reload_all_programs()
     }
     event.data_format = 8;
     gdk_event_send_clientmessage_toall((GdkEvent *)&event);
+#endif
 }
 
 static const char* bool2str(gboolean val)
