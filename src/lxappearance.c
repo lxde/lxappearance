@@ -212,6 +212,19 @@ static void lxappearance_save_gtkrc()
         g_get_home_dir());
 
     g_file_set_contents(file_path, content->str, content->len, NULL);
+
+    /* Save also for GTK3 */
+    g_string_prepend(content, "[Settings] \n");
+    char* file_path_gtk3 = g_build_filename(g_get_home_dir(), "gtk-3.0", NULL);
+    char* file_path_settings = g_build_filename(g_get_home_dir(), "gtk-3.0", ".settings.ini", NULL);
+
+    if (!g_file_test(file_path_gtk3, G_FILE_TEST_IS_DIR))
+    {
+        g_mkdir_with_parents(file_path_gtk3, 0755);
+    }
+
+    g_file_set_contents(file_path_settings, content->str, content->len, NULL);
+
     g_string_free(content, TRUE);
     g_free(file_path);
 }
