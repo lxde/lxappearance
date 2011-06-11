@@ -58,7 +58,11 @@ gboolean show_progress_for_pid(GtkWindow* parent, const char* title, const char*
 {
     gint res;
     GtkWidget* dlg = gtk_dialog_new_with_buttons(title, parent,
+#if GTK_CHECK_VERSION(3, 0, 0)
+                            GTK_DIALOG_MODAL,
+#else
                             GTK_DIALOG_NO_SEPARATOR|GTK_DIALOG_MODAL,
+#endif
                             GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL);
     GtkWidget* progress = gtk_progress_bar_new();
     GtkWidget* vbox = gtk_dialog_get_content_area(GTK_DIALOG(dlg));
