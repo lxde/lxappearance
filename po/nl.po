@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Auteursrecht (C) 2010 LXDE Project"
+msgstr "Auteursrecht (C) 2010 LXDE-Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -39,11 +39,11 @@ msgstr "Past het uiterlijk en de bediening aan van uw bureaublad"
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr "Pjotr\n"
-"Some other people whose names are unfortunately lost (sorry!)"
+"Enkele anderen wier namen per ongeluk zijn verwijderd (Excuus!)."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr "<b>Antialising</b>"
+msgstr "<b>Anti-kartelvorming</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
@@ -65,11 +65,11 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Geluidseffect</b>"
+msgstr "<b>Geluideffect</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr "<b>Sub-pixel-geometrie</b>"
+msgstr "<b>Subpixelgeometrie</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
@@ -106,7 +106,7 @@ msgstr "Demonstratie"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr "Anti-aliasing inschakelen"
+msgstr "Anti-kartelvorming inschakelen"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
@@ -186,7 +186,7 @@ msgstr "Vooruitblik van het gekozen pictogramthema"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected widget style"
-msgstr "Vooruitblik van de gekozen widget-stijl"
+msgstr "Vooruitblik van de gekozen widgetstijl"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
@@ -246,7 +246,7 @@ msgstr "Kleiner"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr "Sub-pixel-geometrie: "
+msgstr "Subpixelgeometrie: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -314,7 +314,7 @@ msgstr "knop"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "play event sounds as feedback to user input"
-msgstr "speel gebeurtenisgeluiden af als terugkoppeling op gebruikersinvoer"
+msgstr "speel gebeurtenisgeluiden af als terugkoppeling op gebruikerinvoer"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
