@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-05-18 22:49+0200\n"
+"PO-Revision-Date: 2011-06-13 23:56+0200\n"
 "Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
 "Language: lg\n"
@@ -145,7 +145,7 @@ msgstr "Bunene"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Bwa wakkati"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -153,7 +153,7 @@ msgstr "Akasonga"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Waleme okuba"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -233,7 +233,7 @@ msgstr "Bunene bw'obusonga"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Katono"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
