@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-27 04:04+0000\n"
-"PO-Revision-Date: 2011-05-25 11:34+0200\n"
+"PO-Revision-Date: 2011-06-13 11:34+0200\n"
 "Last-Translator: Pjotr\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,8 @@ msgstr "Past het uiterlijk en de bediening aan van uw bureaublad"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Dank aan de vertalers"
+msgstr "Pjotr\n"
+"Some other people whose names are unfortunately lost (sorry!)"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
