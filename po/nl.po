@@ -1,4 +1,4 @@
-# Dutch translation of the lxappearance package.
+# Dutch translation for the lxappearance package.
 # Copyright (C) the author of the lxappearance package.
 # This file is distributed under the same license as the 
 # lxappearance package.
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
+"Language: nl (Dutch)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
@@ -25,7 +25,7 @@ msgstr "Uiterlijk en bediening aanpassen"
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
 msgstr ""
-"Past het uiterlijk en de bediening aan van uw bureaublad en uw toepassingen"
+"Past uiterlijk en bediening aan van uw bureaublad en toepassingen"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
@@ -33,7 +33,7 @@ msgstr "Auteursrecht (C) 2010 LXDE-Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Past het uiterlijk en de bediening aan van uw bureaublad"
+msgstr "Past uiterlijk en bediening aan van uw werkomgeving"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
