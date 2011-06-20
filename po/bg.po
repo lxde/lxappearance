@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-12-11 03:20+0200\n"
+"PO-Revision-Date: 2011-06-20 19:37+0200\n"
 "Last-Translator: Радослав <Rec.ku@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -41,16 +41,15 @@ msgstr "Радослав Иванов"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Заглаждане</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Опции на графическия интерфейс</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Опции на графическия интерфейс</b>"
+msgstr "<b>Подсказване</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -58,7 +57,7 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>Бележка:</b> Не всички от приложенията поддържат опресняване на "
+"<b>Бележка:</b> Невсички от приложенията поддържат опресняване на "
 "курсоровата тема. Така че промените, може да не са меродавно приложени... до "
 "следващото вписване."
 
@@ -68,7 +67,7 @@ msgstr "<b>Звуков Ефект</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Форма на подпикселите</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
@@ -104,15 +103,15 @@ msgstr "Демонстрация"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Позволи заглаждане"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Позволи подсказване"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Шрифт"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -120,11 +119,11 @@ msgstr "Отпред"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Пълен"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Стил на подсказката"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -144,7 +143,7 @@ msgstr "Големи икони в лентата с инструменти"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Средно"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -152,7 +151,7 @@ msgstr "Курсор на мишката"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Няма"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -188,7 +187,7 @@ msgstr "Преглед на израният стил за джаджите"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "Основни цветове"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -232,7 +231,7 @@ msgstr "Размер на курсорите"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Тънък"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -244,7 +243,7 @@ msgstr "По-малки"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Форма на подпикселите:"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -263,14 +262,12 @@ msgid "Text windows:"
 msgstr "Текстови прозорци:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Размер на иконите в Лентата с инструментите:"
+msgstr "Размер на иконите в панела с инструментите:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Стил на лентата с инструментите:"
+msgstr "Стил на панела с инструментите:"
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -313,10 +310,9 @@ msgid "button"
 msgstr "бутон"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
 msgstr ""
-"Изпълнявай сигнализиращи звукове като отражение на набраните комбинации"
+"Изпълнявай сигнализиращи звукове, като отражение на набраните комбинации"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
@@ -324,4 +320,4 @@ msgstr "Изберете тема за иконите"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Тема за иконите)"
+msgstr "*.tar.gz, *.tar.bz2 (Тема за икони)"
