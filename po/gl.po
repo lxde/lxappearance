@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-09-03 18:10+0100\n"
-"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
+"PO-Revision-Date: 2011-05-16 20:48+0200\n"
+"Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
-"Language: \n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Galician\n"
-"X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
@@ -45,16 +45,15 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Suavizado</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr "<b>Opcións do IGU</b>"
+msgstr "<b>Opcións da IGU</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Opcións do IGU</b>"
+msgstr "<b>Suxestión</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -72,11 +71,11 @@ msgstr "<b>Efecto sonoro</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Xeometria do subpíxel</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -110,16 +109,15 @@ msgstr "Demostración"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Activar o suavizado"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Activar as suxestións"
 
 #: ../data/ui/lxappearance.ui.h:18
-#, fuzzy
 msgid "Font"
-msgstr "_Tipo de letra:"
+msgstr "Tipo de letra"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -127,11 +125,11 @@ msgstr "Primeiro plano"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Completo"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Estilo consello: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -151,7 +149,7 @@ msgstr "Iconas grandes na barra de ferramentas"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Medio"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -159,7 +157,7 @@ msgstr "Punteiro do rato"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Ningún"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -175,7 +173,7 @@ msgstr "Páxina1"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
-msgstr "Páxina3"
+msgstr "Páxina2"
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
@@ -183,7 +181,7 @@ msgstr "Reproducir sons en eventos"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Preview of the selected cursor theme"
-msgstr "Vista previa do tema de punteriro seleccionado"
+msgstr "Vista previa do tema de punteiro seleccionado"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected icon theme"
@@ -195,7 +193,7 @@ msgstr "Vista previa do tema de trebellos seleccionado"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -203,7 +201,7 @@ msgstr "Botón de selección"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Remove"
-msgstr "Quitar"
+msgstr "Retirar"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Same as buttons"
@@ -211,7 +209,7 @@ msgstr "Igual que nos botóns"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Same as dialogs"
-msgstr "Igual que nos dialogos"
+msgstr "Igual que nos diálogos"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Same as drag icons"
@@ -239,7 +237,7 @@ msgstr "Tamaño dos punteiros"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Leve"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -251,7 +249,7 @@ msgstr "Máis pequeno"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Xeometría do subpíxel: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -259,7 +257,7 @@ msgstr "Texto debaixo das iconas"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text beside icons"
-msgstr "Texto ao lado das iconas"
+msgstr "Texto ao carón das iconas"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Text only"
@@ -270,18 +268,16 @@ msgid "Text windows:"
 msgstr "Texto das xanelas:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "Tamaño das iconas da barra de ferramentas: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
 msgstr "Estilo da barra de ferramentas: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
-msgstr "Suxestións:"
+msgstr "Consellos:"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
@@ -289,11 +285,11 @@ msgstr "Empregar esquema de cor personalizado"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -320,9 +316,8 @@ msgid "button"
 msgstr "botón"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
-msgstr "Reproducir sons nos eventos para informar ao usuario"
+msgstr "reproducir sons nos eventos para informar ao usuario"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
@@ -330,7 +325,7 @@ msgstr "Seleccione un tema de iconas"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Tema de iconas)"
+msgstr "*.tar.gz, *.tar.bz2 (tema de iconas)"
 
 #~ msgid "Column"
 #~ msgstr "Columna"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-11-06 17:07+0200\n"
+"PO-Revision-Date: 2011-06-13 23:56+0200\n"
 "Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
 "Language: lg\n"
@@ -41,16 +41,15 @@ msgstr "Kizito Birabwa <kbirabwa@yahoo.co.uk>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Okuseeteeza</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Eby'endabika y'olubaawo lw'ebiyamba</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Eby'endabika y'olubaawo lw'ebiyamba</b>"
+msgstr "<b>Hinti</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -68,11 +67,11 @@ msgstr "<b>Maloboozi</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Entereeza y'obutundu bwa pikiseli</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -106,15 +105,15 @@ msgstr "Kulagako"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Wabewo okugyamu aliyasi"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Wabewo hinti"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Nkula y'ennukuta"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -122,11 +121,11 @@ msgstr "Bwanjo"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Nzijjuvu"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Kika kya hinti: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -146,7 +145,7 @@ msgstr "Bunene"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Bwa wakkati"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -154,7 +153,7 @@ msgstr "Akasonga"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Waleme okuba"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -190,7 +189,7 @@ msgstr "Endabika y'obutundu bw'awakolerwa obw'olulyo olwo"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -234,7 +233,7 @@ msgstr "Bunene bw'obusonga"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Katono"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -246,7 +245,7 @@ msgstr "Kendeeza"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Entereeza y'obutundu bwa pikiseli: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -265,14 +264,12 @@ msgid "Text windows:"
 msgstr "Amadirisa agalaga ebigambo:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Bunene bw'obufaanayi:"
+msgstr "Bunene bw'obufaanayi: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Musono:"
+msgstr "Musono: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -284,11 +281,11 @@ msgstr "Weyiyize olulyo lwa langi"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -315,7 +312,6 @@ msgid "button"
 msgstr "ppeesa"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
 msgstr "vugisa malaboozi omukozesa nga alina by'ayingiza"
 

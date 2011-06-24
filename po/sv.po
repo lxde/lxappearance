@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-10-29 16:13+0200\n"
+"PO-Revision-Date: 2011-06-08 12:45+0200\n"
 "Last-Translator: Martin <brother@bsnet.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -45,16 +45,16 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Kantutjämning</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>GUI-alternativ</b>"
 
+# hinting är oöversatt även i gimp. fackterm?
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>GUI-alternativ</b>"
+msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -70,13 +70,14 @@ msgstr ""
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Ljudeffekt</b>"
 
+# den här översättningen är jag inte särdeles stolt över //brother
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Subpixel-geometri</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -108,15 +109,16 @@ msgstr "Demo"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Aktivera kantutjämning"
 
+# hinting är oöversatt i gimp också. facterm?
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Aktivera hinting"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Teckensnitt"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -124,11 +126,11 @@ msgstr "Förgrund"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Komplett"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Hinting-typ: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -148,7 +150,7 @@ msgstr "Stor ikon i vertygsfält"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Mellan"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -156,7 +158,7 @@ msgstr "Muspekare"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -192,7 +194,7 @@ msgstr "Förhandsvisning av aktuell widget-stil"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -236,7 +238,7 @@ msgstr "Storlek på pekare"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Lite"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -248,7 +250,7 @@ msgstr "Mindre"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Subpixel-geometri: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -267,14 +269,12 @@ msgid "Text windows:"
 msgstr "Textfönster:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Storlek på ikoner i verktygsfältet:"
+msgstr "Storlek på ikoner i verktygsfältet: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Verktygsfältets stil:"
+msgstr "Verktygsfältets stil: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -286,11 +286,11 @@ msgstr "Använd anpassat färgschema"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -317,9 +317,8 @@ msgid "button"
 msgstr "knapp"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
-msgstr "Spela händelseljud som återkoppling till användarens inmatning"
+msgstr "spela händelseljud som återkoppling till användarens inmatning"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"

@@ -1,55 +1,57 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Dutch translation for the lxappearance package.
+# Copyright (C) the author of the lxappearance package.
+# This file is distributed under the same license as the 
+# lxappearance package.
+# Pjotr, 2011.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-10-04 17:46+0200\n"
-"Last-Translator: Horatio <hosoka@hotmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: nl\n"
+"POT-Creation-Date: 2011-05-27 04:04+0000\n"
+"PO-Revision-Date: 2011-06-13 11:34+0200\n"
+"Last-Translator: Pjotr\n"
+"Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl (Dutch)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
-msgstr ""
+msgstr "Uiterlijk en bediening aanpassen"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
 msgstr ""
+"Past uiterlijk en bediening aan van uw bureaublad en toepassingen"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Kopierecht(C)2010 LXDE Project"
+msgstr "Auteursrecht (C) 2010 LXDE-Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr ""
+msgstr "Past uiterlijk en bediening aan van uw werkomgeving"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr ""
+msgstr "Pjotr\n"
+"Enkele anderen wier namen per ongeluk zijn verwijderd (Excuus!)."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Anti-kartelvorming</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr ""
+msgstr "<b>Opties voor de gebruikersomgeving</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "<b>Hinting</b>"
-msgstr ""
+msgstr "<b>Vormsuggesties</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -57,18 +59,21 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
+"<b>Let op:</b> Niet alle toepassingen ondersteunen een verandering van het "
+"muispijlthema zonder herstart. Dus uw veranderingen hier zouden pas volledig "
+"van kracht kunnen zijn na uw volgende aanmelding."
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
-msgstr "Geluid Effect"
+msgstr "<b>Geluideffect</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Subpixelgeometrie</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -80,7 +85,7 @@ msgstr "Groter"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
-msgstr ""
+msgstr "Controleknop"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
@@ -89,26 +94,27 @@ msgstr "Kleur"
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
+"Kleurenschema wordt niet ondersteund door het thans gekozen widget-thema."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
-msgstr ""
+msgstr "Standaardlettertype:"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
-msgstr "Demo"
+msgstr "Demonstratie"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Anti-kartelvorming inschakelen"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Vormsuggesties inschakelen"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Lettertype"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -116,19 +122,19 @@ msgstr "Voorgrond"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Volledig"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Stijl van vormsuggesties: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
-msgstr "Icoon Thema"
+msgstr "Pictogramthema"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
-msgstr ""
+msgstr "Alleen pictogrammen"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
@@ -136,23 +142,23 @@ msgstr "Installeer"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
-msgstr ""
+msgstr "Groot werkbalkpictogram"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Gemiddeld"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
-msgstr "Muis cursor"
+msgstr "Muispijl"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
-msgstr "Normaal windows:"
+msgstr "Normale vensters:"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Other"
@@ -168,152 +174,152 @@ msgstr "Pagina 2"
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
-msgstr ""
+msgstr "Speel gebeurtenisgeluiden af"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Preview of the selected cursor theme"
-msgstr ""
+msgstr "Vooruitblik van het gekozen aanwijzerthema"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected icon theme"
-msgstr ""
+msgstr "Vooruitblik van het gekozen pictogramthema"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "Vooruitblik van de gekozen widgetstijl"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
-msgstr ""
+msgstr "Radioknop"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Remove"
-msgstr ""
+msgstr "Verwijderen"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Same as buttons"
-msgstr ""
+msgstr "Zelfde als knoppen"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Zelfde als dialogen"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Zelfde als sleep-pictogrammen"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Same as menu items"
-msgstr ""
+msgstr "Zelfde als menu-onderdelen"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Selected items:"
-msgstr ""
+msgstr "Geselecteerde elementen:"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Show images in menus"
-msgstr ""
+msgstr "Toon afbeeldingen in menu's"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Show images on buttons"
-msgstr ""
+msgstr "Toon afbeeldingen op knoppen"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Size of cursors"
-msgstr ""
+msgstr "Grootte van aanwijzers"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Gering"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "Klein werkbalkpictogram"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Smaller"
-msgstr ""
+msgstr "Kleiner"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Subpixelgeometrie: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
-msgstr ""
+msgstr "Tekst onder pictogrammen"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text beside icons"
-msgstr ""
+msgstr "Tekst naast pictogrammen"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Text only"
-msgstr ""
+msgstr "Alleen-tekst"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Text windows:"
-msgstr ""
+msgstr "Tekstvensters:"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "Grootte van werkbalkpictogram: "
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Stijl van werkbalk: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
-msgstr ""
+msgstr "Gereedschaptips:"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "Gebruik aangepast kleurenschema"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
-msgstr ""
+msgstr "Widget"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Window Border"
-msgstr ""
+msgstr "Vensterrand"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "_Edit"
-msgstr ""
+msgstr "Be_werken"
 
 #: ../data/ui/lxappearance.ui.h:65
 msgid "_File"
-msgstr ""
+msgstr "_Bestand"
 
 #: ../data/ui/lxappearance.ui.h:66
 msgid "_Help"
-msgstr ""
+msgstr "_Hulp"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "button"
-msgstr ""
+msgstr "knop"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "play event sounds as feedback to user input"
-msgstr ""
+msgstr "speel gebeurtenisgeluiden af als terugkoppeling op gebruikerinvoer"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Kies een pictogramthema"
 
 #: ../src/utils.c:219
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Pictogramthema)"

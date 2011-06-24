@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-08-08 11:32+0300\n"
-"Last-Translator: Alexander Kazancev <kazancas@mandriva.ru>\n"
+"PO-Revision-Date: 2011-06-12 22:57+0200\n"
+"Last-Translator: Alexander <kazancas@gmail.com>\n"
 "Language-Team: Russian <info@edumandriva.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
@@ -44,16 +45,15 @@ msgstr "Alexander Kazancev"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Сглаживание</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Параметры графического интерфейса</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Параметры графического интерфейса</b>"
+msgstr "<b>Хинтование</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -71,11 +71,11 @@ msgstr "<b>Звуковые эффекты</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Субпиксельная геометрия</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -107,16 +107,15 @@ msgstr "Демонстрация"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Включить сглаживание"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Включить хинтование"
 
 #: ../data/ui/lxappearance.ui.h:18
-#, fuzzy
 msgid "Font"
-msgstr "_Шрифт:"
+msgstr "Шрифт"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -124,11 +123,11 @@ msgstr "Передний план"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Полное"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Стиль хинтования: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -148,7 +147,7 @@ msgstr "Большие иконки панели"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Среднее"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -156,7 +155,7 @@ msgstr "Курсор мыши"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -192,7 +191,7 @@ msgstr "Предпросмотр выбранной темы окон"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -236,7 +235,7 @@ msgstr "Размер курсоров"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Слабое"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -248,7 +247,7 @@ msgstr "Меньше"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Субпиксельная геометрия: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -267,14 +266,12 @@ msgid "Text windows:"
 msgstr "Текст окон:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Размер иконок панели:"
+msgstr "Размер значков панели инструментов: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Стиль панели инструментов:"
+msgstr "Стиль панели инструментов: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -282,15 +279,15 @@ msgstr "Подсказки:"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Use customized color scheme"
-msgstr "Использовать измененную цветовую схему"
+msgstr "Использовать изменённую цветовую схему"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -317,9 +314,8 @@ msgid "button"
 msgstr "кнопка"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
-msgstr "проигрывать звук события как ответ ввода пользователя"
+msgstr "проигрывать звук события как ответ на ввод пользователя"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"

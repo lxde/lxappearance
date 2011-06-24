@@ -8,17 +8,19 @@ msgstr ""
 "Project-Id-Version: 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2010-08-08 13:00+0100\n"
-"Last-Translator: Andrea Florio <andrea@opensuse.org>\n"
+"PO-Revision-Date: 2011-05-25 19:44+0200\n"
+"Last-Translator: Alessandro <alex@amiran.it>\n"
 "Language-Team: it <it@li.org>\n"
-"Language: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
-msgstr "Personalizza aspetto e stile"
+msgstr "Personalizza Aspetto e Stile"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
@@ -35,20 +37,20 @@ msgstr "Personalizza l'aspetto e lo stile del tuo desktop"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Andrea Florio <andrea@opensuse.org>"
+msgstr ""
+"Andrea Florio <andrea@opensuse.org>Alessandro Pellizzari <alex@amiran.it>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Antialias</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Opzioni GUI</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Opzioni GUI</b>"
+msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -66,11 +68,11 @@ msgstr "<b>Effetti Sonori</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Geometria sub-pixel</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -90,11 +92,11 @@ msgstr "Colore"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Lo schema del colore non è supportato dal tema attualmente selezionato"
+msgstr "Lo schema colore non è supportato dal tema attualmente selezionato"
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
-msgstr "Font predefinito"
+msgstr "Font predefinito:"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
@@ -102,15 +104,15 @@ msgstr "Demo"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Abilita antialias"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Abilita hinting"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -118,11 +120,11 @@ msgstr "Testo"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Pieno"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Stile hinting: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -142,7 +144,7 @@ msgstr "Icona della barra degli strumenti larga"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Medio"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -150,7 +152,7 @@ msgstr "Puntatore del mouse"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Nessuno"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -186,7 +188,7 @@ msgstr "Anteprima dello stile delle finestre selezionato"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -230,7 +232,7 @@ msgstr "Dimensioni dei cursori"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Slight"
-msgstr ""
+msgstr "Leggero"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Small toolbar icon"
@@ -242,7 +244,7 @@ msgstr "Più piccolo"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Geometria sub-pixel: "
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -261,14 +263,12 @@ msgid "Text windows:"
 msgstr "Finestre di testo:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Dimensioni Icona Toolbar:"
+msgstr "Dimensioni Icona Toolbar: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Stile Toolbar:"
+msgstr "Stile Toolbar: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -280,15 +280,15 @@ msgstr "Usa schema colore personalizzato"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
-msgstr "Finestra"
+msgstr "Widget"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Window Border"
@@ -311,7 +311,6 @@ msgid "button"
 msgstr "pulsante"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
 msgstr "Esegui suoni di avviso alle azioni dell'utente"
 
