@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-06-27 15:51+0200\n"
+"PO-Revision-Date: 2011-07-02 15:46+0200\n"
 "Last-Translator: Kristian <kristian9k@gmail.com>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -43,8 +43,9 @@ msgstr ""
 "Mere info: http://www.dansk-gruppen.dk"
 
 #: ../data/ui/lxappearance.ui.h:1
+#, fuzzy
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Antialising</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
@@ -70,12 +71,13 @@ msgid "<b>Sound Effect</b>"
 msgstr "<b>Lydeffekt</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
+#, fuzzy
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Sub-pixel geometri</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -107,7 +109,7 @@ msgstr "Demo"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Aktivér antialiasing"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
@@ -148,7 +150,7 @@ msgstr "Store værktøjsbjælkeikoner"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -156,7 +158,7 @@ msgstr "Musemarkør"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -192,7 +194,7 @@ msgstr "Forhåndsvisning af den valgte kontrolstil"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -248,7 +250,7 @@ msgstr "Mindre"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Sub-pixel geometri"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Text below icons"
@@ -272,9 +274,8 @@ msgid "Toolbar Icon Size: "
 msgstr "Størrelse på værktøjsbjælkeikoner:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Stil for værktøjsbjælke:"
+msgstr "Værktøjsbjælkens Stil:"
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -286,11 +287,11 @@ msgstr "Brug tilpasset farveskema"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
@@ -317,9 +318,8 @@ msgid "button"
 msgstr "knap"
 
 #: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
 msgid "play event sounds as feedback to user input"
-msgstr "Afspil påmindelseslyde som tilbagemelding på brugerinddata"
+msgstr "Afspil påmindelseslyde som tilbagemelding på brugerinput"
 
 #: ../src/utils.c:212
 msgid "Select an icon theme"
