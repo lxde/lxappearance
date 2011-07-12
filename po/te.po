@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-11 11:17+0200\n"
-"PO-Revision-Date: 2011-04-16 08:55+0200\n"
-"Last-Translator: Praveen <mail2ipn@gmail.com>\n"
+"PO-Revision-Date: 2011-07-12 19:20+0200\n"
+"Last-Translator: PraveenIlla <mail2ipn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
-msgstr "రూపాన్ని మలచుకుని అనుభవించండి"
+msgstr "రూపాన్ని మలచుకుని అనందించండి"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
@@ -37,7 +37,7 @@ msgstr "మీ డెస్క్‍టాప్ యొక్క రూపాన
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "అనువాదకుడి-పరపతులు"
+msgstr "Praveen Illa <mail2ipn@gmail.com>, 2011."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -81,7 +81,7 @@ msgstr "అతిపెద్ద"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
-msgstr ""
+msgstr "తనిఖీ బటన్"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "ఫాంటు"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -117,7 +117,7 @@ msgstr "ముందుభాగము"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "మొత్తం"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
@@ -141,7 +141,7 @@ msgstr "పెద్ద సాధనపట్టీ ప్రతీక"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "మధ్యస్థం"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -149,7 +149,7 @@ msgstr "మౌస్ కర్సర్"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "ఏదీకాదు"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -185,7 +185,7 @@ msgstr "ఎంచుకున్న విడ్జెట్ శైలి యొ
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Radio Button"
@@ -197,7 +197,7 @@ msgstr "తొలగించు"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Same as buttons"
-msgstr ""
+msgstr "బటన్ల వలె"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Same as dialogs"
@@ -260,14 +260,12 @@ msgid "Text windows:"
 msgstr "పాఠ్య విండోలు:"
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "సాధనపట్టీ ప్రతీక పరిమాణం:"
+msgstr "సాధనపట్టీ ప్రతీక పరిమాణం: "
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "సాధనపట్టీ శైలి:"
+msgstr "సాధనపట్టీ శైలి: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Tooltips:"
@@ -279,11 +277,11 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Widget"
