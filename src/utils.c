@@ -164,7 +164,7 @@ static gboolean install_icon_theme_package(const char* package_path)
             if(dir)
             {
                 char* name;
-                while(name == (char*)g_dir_read_name(dir))
+                while((name = (char*)g_dir_read_name(dir)) != NULL)
                 {
                     char* index_theme = g_build_filename(tmp_dir, name, "index.theme", NULL);
                     gboolean is_theme = g_file_test(index_theme, G_FILE_TEST_EXISTS);
@@ -192,6 +192,7 @@ static gboolean install_icon_theme_package(const char* package_path)
                         g_free(theme_target);
                         g_free(theme_tmp);
                     }
+                    g_free(name);
                 }
                 g_dir_close(dir);
 
