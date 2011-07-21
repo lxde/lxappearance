@@ -19,10 +19,9 @@ else
 
 $(man_MANS):
 	@echo ""
-	@echo "Error: you need to run configure with '--enable-man'"
-	@echo "       in order to regenerate man pages."
+	@echo "Warning: you need to run configure with '--enable-man'"
+	@echo "         in order to regenerate man pages."
 	@echo ""
-	@false
 endif
 
 
