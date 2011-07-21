@@ -32,9 +32,9 @@ IT_PROG_INTLTOOL([0.40.0])
 
 AC_ARG_ENABLE(man,
        [AC_HELP_STRING([--enable-man],
-               [regenerate roff man pages from Docbook @<:@default=no@:>@])],
+               [regenerate roff man pages from Docbook @<:@default=yes@:>@])],
        [enable_man="${enableval}"],
-       [enable_man=no]
+       [enable_man=yes]
 )
 
 AC_ARG_ENABLE(more_warnings,
