@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-11 11:32+0200\n"
+"PO-Revision-Date: 2011-07-22 09:41+0200\n"
+"Last-Translator: Ainur <ainur.shakirov.tt@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tt_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
+msgid "Customize Look and Feel"
+msgstr "Тышкы кыяфәтне көйләү"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Сезнең эш өстәле һәм кушымтаның тышкы кыяфәтен көйләгез"
+
+#: ../data/ui/about.ui.in.h:1
+msgid "Copyright (C) 2010 LXDE Project"
+msgstr "Copyright (C) 2010 LXDE Project"
+
+#: ../data/ui/about.ui.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Эш өстәленең тышкы кыяфәтен көйләгез"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.ui.in.h:4
+msgid "translator-credits"
+msgstr "Ainur Shakirov <ainur.shakirov.tt@gmail.com>"
+
+#: ../data/ui/lxappearance.ui.h:1
+msgid "<b>Antialising</b>"
+msgstr "<b>Шомарту</b>"
+
+#: ../data/ui/lxappearance.ui.h:2
+msgid "<b>GUI Options</b>"
+msgstr "<b>График интерфейс көйләүләре</b>"
+
+#: ../data/ui/lxappearance.ui.h:3
+msgid "<b>Hinting</b>"
+msgstr "<b>Хинтинг</b>"
+
+#: ../data/ui/lxappearance.ui.h:4
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Искәрмә:</b> Кайбер кушымталар курсор тышын хәзер үк үзгәртә алмаска "
+"мөмкиннәр. Бу очракта аларны яңадан җибәрергә кирәк."
+
+#: ../data/ui/lxappearance.ui.h:5
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Тавыш эффектлары</b>"
+
+#: ../data/ui/lxappearance.ui.h:6
+msgid "<b>Sub-pixel geometry</b>"
+msgstr "<b>Суб-пикселлы геометрия</b>"
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.ui.h:8
+msgid "Background"
+msgstr "Җирлек"
+
+#: ../data/ui/lxappearance.ui.h:9
+msgid "Bigger"
+msgstr "Зуррак"
+
+#: ../data/ui/lxappearance.ui.h:10
+msgid "Check Button"
+msgstr "Байракчык"
+
+#: ../data/ui/lxappearance.ui.h:11
+msgid "Color"
+msgstr "Төс"
+
+#: ../data/ui/lxappearance.ui.h:12
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Төс схемасы бу виджет тышы белән кулланып булмый."
+
+#: ../data/ui/lxappearance.ui.h:14
+msgid "Default font:"
+msgstr "Үрнәкле хәреф:"
+
+#: ../data/ui/lxappearance.ui.h:15
+msgid "Demo"
+msgstr "Күрсәтү"
+
+#: ../data/ui/lxappearance.ui.h:16
+msgid "Enable antialising"
+msgstr "Шомаруны эшләтү"
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "Enable hinting"
+msgstr "Хинтингны эшләтү"
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "Font"
+msgstr "Хәреф"
+
+#: ../data/ui/lxappearance.ui.h:19
+msgid "Foreground"
+msgstr "Алгы план"
+
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Full"
+msgstr "Тулы"
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "Hinting style: "
+msgstr "Хинтинг стиле: "
+
+#: ../data/ui/lxappearance.ui.h:22
+msgid "Icon Theme"
+msgstr "Билгечек тышы"
+
+#: ../data/ui/lxappearance.ui.h:23
+msgid "Icons only"
+msgstr "Билгечекләр генә"
+
+#: ../data/ui/lxappearance.ui.h:24
+msgid "Install"
+msgstr "Урнаштыру"
+
+#: ../data/ui/lxappearance.ui.h:25
+msgid "Large toolbar icon"
+msgstr "Панельнең зур билгечекләре"
+
+#: ../data/ui/lxappearance.ui.h:26
+msgid "Medium"
+msgstr "Уртак"
+
+#: ../data/ui/lxappearance.ui.h:27
+msgid "Mouse Cursor"
+msgstr "Тычканчык курсоры"
+
+#: ../data/ui/lxappearance.ui.h:28
+msgid "None"
+msgstr "Юк"
+
+#: ../data/ui/lxappearance.ui.h:29
+msgid "Normal windows:"
+msgstr "Гадәти тәрәзәләр:"
+
+#: ../data/ui/lxappearance.ui.h:30
+msgid "Other"
+msgstr "Башкалар"
+
+#: ../data/ui/lxappearance.ui.h:31
+msgid "Page1"
+msgstr "Бит 1"
+
+#: ../data/ui/lxappearance.ui.h:32
+msgid "Page2"
+msgstr "Бит 2"
+
+#: ../data/ui/lxappearance.ui.h:33
+msgid "Play event sounds"
+msgstr "Вакыйга тавышын уйнату"
+
+#: ../data/ui/lxappearance.ui.h:34
+msgid "Play event sounds as feedback to user input"
+msgstr "Кулланучының кертүэнә җавап булып вакыйга тавышын уйнату"
+
+#: ../data/ui/lxappearance.ui.h:35
+msgid "Preview of the selected cursor theme"
+msgstr "Сайланган курсор тышын алдан каравы"
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Preview of the selected icon theme"
+msgstr "Сайланган билгечек тышын алдан каравы"
+
+#: ../data/ui/lxappearance.ui.h:37
+msgid "Preview of the selected widget style"
+msgstr "Сайланган тәрәзә тышын алдан каравы"
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Radio Button"
+msgstr "Күчерткеч"
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Remove"
+msgstr "Бетерү"
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Same as buttons"
+msgstr "Төймә шикелле үк"
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Same as dialogs"
+msgstr "Диалоглар шикелле үк"
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Same as drag icons"
+msgstr "Күчермәле билгечекләр шикелле үк"
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Same as menu items"
+msgstr "Меню өлешләре шикелле үк"
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Selected items:"
+msgstr "Сайланган өлешләр:"
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Show images in menus"
+msgstr "Менюда рәсемнәрне күрсәтергә"
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Show images on buttons"
+msgstr "Төймәләрдә рәсемнәрне күрсәтергә"
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Size of cursors"
+msgstr "Курсорның зурлыгы"
+
+#: ../data/ui/lxappearance.ui.h:49
+msgid "Slight"
+msgstr "Зәгыйфь"
+
+#: ../data/ui/lxappearance.ui.h:50
+msgid "Small toolbar icon"
+msgstr "Панельнең кече билгечекләре"
+
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Smaller"
+msgstr "Кечерәк"
+
+#: ../data/ui/lxappearance.ui.h:52
+msgid "Sub-pixel geometry: "
+msgstr "Суб-пиксел геометриясе: "
+
+#: ../data/ui/lxappearance.ui.h:53
+msgid "Text below icons"
+msgstr "Текст билгечек астында"
+
+#: ../data/ui/lxappearance.ui.h:54
+msgid "Text beside icons"
+msgstr "Текст билгечек янында"
+
+#: ../data/ui/lxappearance.ui.h:55
+msgid "Text only"
+msgstr "Текст кына"
+
+#: ../data/ui/lxappearance.ui.h:56
+msgid "Text windows:"
+msgstr "Тәрәзәнең тексты:"
+
+#: ../data/ui/lxappearance.ui.h:57
+msgid "Toolbar Icon Size: "
+msgstr "Корал панеленең билгечек зурлыгы: "
+
+#: ../data/ui/lxappearance.ui.h:58
+msgid "Toolbar Style: "
+msgstr "Корал панеленең стиле: "
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Tooltips:"
+msgstr "Ярдәмчекләр:"
+
+#: ../data/ui/lxappearance.ui.h:60
+msgid "Use customized color scheme"
+msgstr "Үзгәртелгән төс схемасын куллану"
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.ui.h:62
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.ui.h:63
+msgid "Widget"
+msgstr "Виджет"
+
+#: ../data/ui/lxappearance.ui.h:64
+msgid "Window Border"
+msgstr "Тәрәзә чиге"
+
+#: ../data/ui/lxappearance.ui.h:65
+msgid "_Edit"
+msgstr "_Үзгәртү"
+
+#: ../data/ui/lxappearance.ui.h:66
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/ui/lxappearance.ui.h:67
+msgid "_Help"
+msgstr "_Белешмә"
+
+#: ../data/ui/lxappearance.ui.h:68
+msgid "button"
+msgstr "төймә"
+
+#: ../src/utils.c:212
+msgid "Select an icon theme"
+msgstr "Билгечек тышын сайлагыз"
+
+#: ../src/utils.c:219
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (Билгечек тышы)"
