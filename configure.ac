@@ -31,11 +31,12 @@ AC_HEADER_STDC
 IT_PROG_INTLTOOL([0.40.0])
 
 AC_ARG_ENABLE(man,
-       [AC_HELP_STRING([--enable-man],
-               [regenerate roff man pages from Docbook @<:@default=yes@:>@])],
-       [enable_man="${enableval}"],
-       [enable_man=yes]
-)
+AC_HELP_STRING([--enable-man],[regenerate roff man pages from Docbook @<:@default=yes@:>@]),
+[case "${enableval}" in
+  yes)  enable_man=yes ;;
+  no)   enable_man=no ;;
+  *) AC_MSG_ERROR([bad value "${enableval}" for --enable-man, use "yes" (default) or "no".]) ;;
+esac],[])
 
 AC_ARG_ENABLE(more_warnings,
        [AC_HELP_STRING([--enable-more-warnings],

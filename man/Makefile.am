@@ -9,7 +9,7 @@ EXTRA_DIST = \
 	$(man_XMANS)
 
 
-if ENABLE_REGENERATE_MAN
+if ENABLE_MAN
 
 lxappearance.1: lxappearance.xml
 	$(XSLTPROC) -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl $<        
