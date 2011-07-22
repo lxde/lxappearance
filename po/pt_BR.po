@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 12:53-0300\n"
+"POT-Creation-Date: 2011-07-22 17:15+0200\n"
 "PO-Revision-Date: 2011-06-11 14:05+0200\n"
 "Last-Translator: Sérgio <ikisham@gmail.com>\n"
 "Language-Team: Brazilian Porguese <ldp-br@bazar.conectiva.com.br>\n"
@@ -19,8 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../data/lxappearance.desktop.in.h:1
-#: ../data/ui/lxappearance.ui.h:13
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Personalizar visual"
 
@@ -29,8 +28,8 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "Personaliza o visual de sua área de trabalho e aplicativos"
 
 #: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Copyright (C) 2010 LXDE Project"
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -56,8 +55,14 @@ msgid "<b>Hinting</b>"
 msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
-msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
-msgstr "<b>Nota:</b> nem todos os aplicativos da área de trabalho suportam mudança do tema do cursor em tempo real. Então suas alterações aqui podem não ser aplicadas a todos os aplicativos até o próximo início de sessão."
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>Nota:</b> nem todos os aplicativos da área de trabalho suportam mudança "
+"do tema do cursor em tempo real. Então suas alterações aqui podem não ser "
+"aplicadas a todos os aplicativos até o próximo início de sessão."
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
@@ -89,7 +94,9 @@ msgstr "Cor"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "O esquema de cores não tem suporte pelo tema do widget selecionado atualmente."
+msgstr ""
+"O esquema de cores não tem suporte pelo tema do widget selecionado "
+"atualmente."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
@@ -311,10 +318,10 @@ msgstr "Aj_uda"
 msgid "button"
 msgstr "botão"
 
-#: ../src/utils.c:212
+#: ../src/utils.c:217
 msgid "Select an icon theme"
 msgstr "Selecione um tema de ícones"
 
-#: ../src/utils.c:219
+#: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (tema de ícones)"

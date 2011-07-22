@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 11:17+0200\n"
+"POT-Creation-Date: 2011-07-22 17:15+0200\n"
 "PO-Revision-Date: 2010-08-13 15:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: Gezer <gezer@lists.launchpad.net>\n"
@@ -29,8 +29,8 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "התאמת המראה והתחושה של שולחן העבודה והיישומים שלך"
 
 #: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2010 LXDE Project"
-msgstr "כל הזכויות שמורות (C) 2010 מיזם LXDE"
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "כל הזכויות שמורות (C) 2011 מיזם LXDE"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -177,152 +177,152 @@ msgid "Play event sounds"
 msgstr "השמעת צלילים לאירועים"
 
 #: ../data/ui/lxappearance.ui.h:34
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
+msgstr "נגינת צלילי אירועים כמשוב לקלט מהמשתמש"
+
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
 msgstr "הצגה מקדימה של ערכת הסמנים הנבחרת"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected icon theme"
 msgstr "תצוגה מקדימה של ערכת הסמלים הנבחרת"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
 msgstr "תצוגה מקדימה של סגנון הווידג׳ט הנבחר"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
 msgstr "לחצן בחירה"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
 msgstr "הסרה"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
 msgstr "כמו הלחצנים"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
 msgstr "כמו תיבות הדו־שיח"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
 msgstr "כמו לחצני הגרירה"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
 msgstr "כמו פריטי התפריט"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
 msgstr "הפריטים הנבחרים:"
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
 msgstr "הצגת תמונות בתפריטים"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
 msgstr "הצגת תמונות על הלחצנים"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
 msgstr "גודל הסמנים"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
 msgstr "סמל קטן בסרגל הכלים"
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
 msgstr "קטן יותר"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:52
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
 msgstr "טקסט מתחת לסמלים"
 
-#: ../data/ui/lxappearance.ui.h:53
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text beside icons"
 msgstr "טקסט לצד הסמלים"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
 msgstr "טקסט בלבד"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
 msgstr "חלונות טקסט:"
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.ui.h:57
 #, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "גודל סמלי סרגל הכלים:"
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.ui.h:58
 #, fuzzy
 msgid "Toolbar Style: "
 msgstr "סגנון סרגל הכלים:"
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
 msgstr "חלוניות מידע:"
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
 msgstr "שימוש בערכת צבעים מותאמת אישית"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
 msgstr "וידג׳ט"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
 msgstr "מסגרת החלון"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_Edit"
 msgstr "ע_ריכה"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_File"
 msgstr "_קובץ"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.ui.h:67
 msgid "_Help"
 msgstr "ע_זרה"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.ui.h:68
 msgid "button"
 msgstr "לחצן"
 
-#: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
-msgid "play event sounds as feedback to user input"
-msgstr "נגינת צלילי אירועים כמשוב לקלט מהמשתמש"
-
-#: ../src/utils.c:212
+#: ../src/utils.c:217
 msgid "Select an icon theme"
 msgstr "בחירת ערכת סמלים"
 
-#: ../src/utils.c:219
+#: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (ערכת סמלים)"

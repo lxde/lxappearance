@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 11:17+0200\n"
+"POT-Creation-Date: 2011-07-22 17:15+0200\n"
 "PO-Revision-Date: 2010-08-07 22:12+0200\n"
 "Last-Translator: Laszlo Dvornik <dvornik@gnome.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -25,8 +25,8 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "A munkaasztal és az alkalmazások megjelenésének testreszabása"
 
 #: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Copyright (C) 2010 LXDE Project"
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -173,152 +173,152 @@ msgid "Play event sounds"
 msgstr "Eseményhangok lejátszása"
 
 #: ../data/ui/lxappearance.ui.h:34
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
+msgstr "Eseményhangok lejátszása visszajelzésként a felhasználói bevitelhez"
+
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
 msgstr "A kijelölt kurzortéma előnézete"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected icon theme"
 msgstr "A kijelölt ikontéma előnézete"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
 msgstr "A kijelölt elemstílus előnézete"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
 msgstr "Választógomb"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
 msgstr "Azonos a gombokéval"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
 msgstr "Azonos a párbeszédablakokéval"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
 msgstr "Azonos a húzás ikonokkal"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
 msgstr "Azonos a menüelemekkel"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
 msgstr "Kijelölt elemek:"
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
 msgstr "Képek megjelenítése a menükben"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
 msgstr "Képek megjelenítése a gombokon"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
 msgstr "Kurzorok mérete"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
 msgstr "Kis eszköztár ikon"
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
 msgstr "Kisebb"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:52
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
 msgstr "Szöveg az ikonok alatt"
 
-#: ../data/ui/lxappearance.ui.h:53
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text beside icons"
 msgstr "Szöveg az ikonok mellett"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
 msgstr "Csak szöveg"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
 msgstr "Szöveges ablakok:"
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.ui.h:57
 #, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "Eszköztár ikon mérete: "
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.ui.h:58
 #, fuzzy
 msgid "Toolbar Style: "
 msgstr "Eszköztár stílusa: "
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
 msgstr "Eszköztippek:"
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
 msgstr "Egyedi színséma használata"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
 msgstr "Elem"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
 msgstr "Ablakkeret"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_Edit"
 msgstr "S_zerkesztés"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_File"
 msgstr "_Fájl"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.ui.h:67
 msgid "_Help"
 msgstr "_Súgó"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.ui.h:68
 msgid "button"
 msgstr "gomb"
 
-#: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
-msgid "play event sounds as feedback to user input"
-msgstr "Eseményhangok lejátszása visszajelzésként a felhasználói bevitelhez"
-
-#: ../src/utils.c:212
+#: ../src/utils.c:217
 msgid "Select an icon theme"
 msgstr "Válassz egy ikontémát"
 
-#: ../src/utils.c:219
+#: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (ikontéma)"

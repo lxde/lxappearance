@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 11:17+0200\n"
+"POT-Creation-Date: 2011-07-22 17:15+0200\n"
 "PO-Revision-Date: 2010-08-08 01:59+0800\n"
 "Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
 "Language-Team: zh_TW <zh@li.org>\n"
@@ -28,8 +28,8 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "自訂桌面和應用程式的外觀風格"
 
 #: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2010 LXDE Project"
-msgstr "版權所有 (C) 2010 LXDE 專案"
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "版權所有 (C) 2011 LXDE 專案"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -175,152 +175,152 @@ msgid "Play event sounds"
 msgstr "播放事件音效"
 
 #: ../data/ui/lxappearance.ui.h:34
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
+msgstr "使用者輸入時播放回饋音效"
+
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
 msgstr "預覽選取的滑鼠游標佈景主題"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected icon theme"
 msgstr "預覽選取的圖示佈景主題"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
 msgstr "預覽選取的視窗元件佈景主題"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
 msgstr "Radio 按鈕"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
 msgstr "移除"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
 msgstr "和按鈕相同"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
 msgstr "和對話框相同"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
 msgstr "和滑鼠拖放時相同"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
 msgstr "和選單項目相同"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
 msgstr "選取的項目："
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
 msgstr "在選單中顯示圖示"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
 msgstr "在按鈕上顯示圖示"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
 msgstr "游標大小"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
 msgstr "小型工具列圖示"
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
 msgstr "較小"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:52
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
 msgstr "文字在圖示下方"
 
-#: ../data/ui/lxappearance.ui.h:53
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text beside icons"
 msgstr "文字在圖示旁"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
 msgstr "只有文字"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
 msgstr "文字視窗："
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.ui.h:57
 #, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "工具列圖示大小："
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.ui.h:58
 #, fuzzy
 msgid "Toolbar Style: "
 msgstr "工具列風格："
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
 msgstr "工具提示："
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
 msgstr "使用自訂的色彩"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
 msgstr "圖形元件"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
 msgstr "視窗邊框"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_Edit"
 msgstr "編輯(_E)"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_File"
 msgstr "檔案(_F)"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.ui.h:67
 msgid "_Help"
 msgstr "說明(_H)"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.ui.h:68
 msgid "button"
 msgstr "按鈕"
 
-#: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
-msgid "play event sounds as feedback to user input"
-msgstr "使用者輸入時播放回饋音效"
-
-#: ../src/utils.c:212
+#: ../src/utils.c:217
 msgid "Select an icon theme"
 msgstr "選取一個圖示佈景主題"
 
-#: ../src/utils.c:219
+#: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 11:17+0200\n"
+"POT-Creation-Date: 2011-07-22 17:15+0200\n"
 "PO-Revision-Date: 2011-05-12 08:16+0200\n"
 "Last-Translator: Klemen <klemen.kosir@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
@@ -27,8 +28,8 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "Prilagodite videz in občutek namizja ter programov"
 
 #: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Avtorske pravice (C) 2010 Projekt LXDE"
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "Avtorske pravice (C) 2011 Projekt LXDE"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -174,149 +175,150 @@ msgid "Play event sounds"
 msgstr "Ob dogodku predvajaj zvok"
 
 #: ../data/ui/lxappearance.ui.h:34
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
+msgstr "Ob dogodku predvajaj zvok kot odziv uporabnikovem vnosu"
+
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
 msgstr "Predogled izbrane teme kazalke"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected icon theme"
 msgstr "Predogled izbrane teme ikon"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
 msgstr "Predogled izbranega sloga gradnikov"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
 msgstr "RGB"
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
 msgstr "Izbirni gumb"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
 msgstr "Odstrani"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
 msgstr "Enako kot gumbi"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
 msgstr "Enako kot pogovorna okna"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
 msgstr "Enako kot vlečne ikone"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
 msgstr "Enako kot predmeti menija"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
 msgstr "Izbrani predmeti:"
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
 msgstr "Pokaži slike v menijih"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
 msgstr "Pokaži slilke na gumbih"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
 msgstr "Velikost kazalk"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
 msgstr "Rahlo"
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
 msgstr "Majhne ikone"
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
 msgstr "Manjše"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
 msgstr "Podtočkovna geometrija: "
 
-#: ../data/ui/lxappearance.ui.h:52
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
 msgstr "Besedilo pod ikonami"
 
-#: ../data/ui/lxappearance.ui.h:53
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text beside icons"
 msgstr "Besedilo poleg ikon"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
 msgstr "Samo besedilo"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
 msgstr "Besedilna okna:"
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.ui.h:57
 msgid "Toolbar Icon Size: "
 msgstr "Velikost ikon orodne vrstice: "
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.ui.h:58
 msgid "Toolbar Style: "
 msgstr "Slog orodne vrstice: "
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
 msgstr "Orodni namigi:"
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
 msgstr "Uporabi prilagojeno barvno shemo"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
 msgstr "VBGR"
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
 msgstr "VRGB"
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
 msgstr "Gradnik"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
 msgstr "Obroba okna"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_Edit"
 msgstr "_Uredi"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_File"
 msgstr "_Datoteka"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.ui.h:67
 msgid "_Help"
 msgstr "_Pomoč"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.ui.h:68
 msgid "button"
 msgstr "Gumb"
 
-#: ../data/ui/lxappearance.ui.h:68
-msgid "play event sounds as feedback to user input"
-msgstr "Ob dogodku predvajaj zvok kot odziv uporabnikovem vnosu"
-
-#: ../src/utils.c:212
+#: ../src/utils.c:217
 msgid "Select an icon theme"
 msgstr "Izberite temo ikon"
 
-#: ../src/utils.c:219
+#: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Tema ikon)"

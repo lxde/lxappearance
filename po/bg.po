@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 11:17+0200\n"
+"POT-Creation-Date: 2011-07-22 17:15+0200\n"
 "PO-Revision-Date: 2011-06-20 19:37+0200\n"
 "Last-Translator: Радослав <Rec.ku@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,8 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "Персонализирайте Външният вид на вашия работен плот и приложения"
 
 #: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Copyright © 2010 LXDE Project"
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright © 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -174,150 +174,151 @@ msgid "Play event sounds"
 msgstr "Изпълнявай сигнализиращи звукове"
 
 #: ../data/ui/lxappearance.ui.h:34
-msgid "Preview of the selected cursor theme"
-msgstr "Преглед на маркираната тема за курсора"
-
-#: ../data/ui/lxappearance.ui.h:35
-msgid "Preview of the selected icon theme"
-msgstr "Преглед на маркираната тема за иконите"
-
-#: ../data/ui/lxappearance.ui.h:36
-msgid "Preview of the selected widget style"
-msgstr "Преглед на израният стил за джаджите"
-
-#: ../data/ui/lxappearance.ui.h:37
-msgid "RGB"
-msgstr "Основни цветове"
-
-#: ../data/ui/lxappearance.ui.h:38
-msgid "Radio Button"
-msgstr "Бутон за единичен избор"
-
-#: ../data/ui/lxappearance.ui.h:39
-msgid "Remove"
-msgstr "Премахни"
-
-#: ../data/ui/lxappearance.ui.h:40
-msgid "Same as buttons"
-msgstr "Като бутоните"
-
-#: ../data/ui/lxappearance.ui.h:41
-msgid "Same as dialogs"
-msgstr "Като диалозите"
-
-#: ../data/ui/lxappearance.ui.h:42
-msgid "Same as drag icons"
-msgstr "Като влачените икони"
-
-#: ../data/ui/lxappearance.ui.h:43
-msgid "Same as menu items"
-msgstr "Като елементите на менюто"
-
-#: ../data/ui/lxappearance.ui.h:44
-msgid "Selected items:"
-msgstr "Избрани елементи:"
-
-#: ../data/ui/lxappearance.ui.h:45
-msgid "Show images in menus"
-msgstr "Показвай образи в менютата"
-
-#: ../data/ui/lxappearance.ui.h:46
-msgid "Show images on buttons"
-msgstr "Показвай образи на бутоните"
-
-#: ../data/ui/lxappearance.ui.h:47
-msgid "Size of cursors"
-msgstr "Размер на курсорите"
-
-#: ../data/ui/lxappearance.ui.h:48
-msgid "Slight"
-msgstr "Тънък"
-
-#: ../data/ui/lxappearance.ui.h:49
-msgid "Small toolbar icon"
-msgstr "Малки икони в лентата с инструментите"
-
-#: ../data/ui/lxappearance.ui.h:50
-msgid "Smaller"
-msgstr "По-малки"
-
-#: ../data/ui/lxappearance.ui.h:51
-msgid "Sub-pixel geometry: "
-msgstr "Форма на подпикселите:"
-
-#: ../data/ui/lxappearance.ui.h:52
-msgid "Text below icons"
-msgstr "Текст под иконите"
-
-#: ../data/ui/lxappearance.ui.h:53
-msgid "Text beside icons"
-msgstr "Текст зад иконите"
-
-#: ../data/ui/lxappearance.ui.h:54
-msgid "Text only"
-msgstr "Само текст"
-
-#: ../data/ui/lxappearance.ui.h:55
-msgid "Text windows:"
-msgstr "Текстови прозорци:"
-
-#: ../data/ui/lxappearance.ui.h:56
-msgid "Toolbar Icon Size: "
-msgstr "Размер на иконите в панела с инструментите:"
-
-#: ../data/ui/lxappearance.ui.h:57
-msgid "Toolbar Style: "
-msgstr "Стил на панела с инструментите:"
-
-#: ../data/ui/lxappearance.ui.h:58
-msgid "Tooltips:"
-msgstr "Подсказки:"
-
-#: ../data/ui/lxappearance.ui.h:59
-msgid "Use customized color scheme"
-msgstr "Използвай персонализирана цветова схема:"
-
-#: ../data/ui/lxappearance.ui.h:60
-msgid "VBGR"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:61
-msgid "VRGB"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:62
-msgid "Widget"
-msgstr "Джаджа"
-
-#: ../data/ui/lxappearance.ui.h:63
-msgid "Window Border"
-msgstr "Рамка на прозорците"
-
-#: ../data/ui/lxappearance.ui.h:64
-msgid "_Edit"
-msgstr "_Редактиране"
-
-#: ../data/ui/lxappearance.ui.h:65
-msgid "_File"
-msgstr "_Файл"
-
-#: ../data/ui/lxappearance.ui.h:66
-msgid "_Help"
-msgstr "_Помощ"
-
-#: ../data/ui/lxappearance.ui.h:67
-msgid "button"
-msgstr "бутон"
-
-#: ../data/ui/lxappearance.ui.h:68
-msgid "play event sounds as feedback to user input"
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
 msgstr ""
 "Изпълнявай сигнализиращи звукове, като отражение на набраните комбинации"
 
-#: ../src/utils.c:212
+#: ../data/ui/lxappearance.ui.h:35
+msgid "Preview of the selected cursor theme"
+msgstr "Преглед на маркираната тема за курсора"
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Preview of the selected icon theme"
+msgstr "Преглед на маркираната тема за иконите"
+
+#: ../data/ui/lxappearance.ui.h:37
+msgid "Preview of the selected widget style"
+msgstr "Преглед на израният стил за джаджите"
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "RGB"
+msgstr "Основни цветове"
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Radio Button"
+msgstr "Бутон за единичен избор"
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Remove"
+msgstr "Премахни"
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Same as buttons"
+msgstr "Като бутоните"
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Same as dialogs"
+msgstr "Като диалозите"
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Same as drag icons"
+msgstr "Като влачените икони"
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Same as menu items"
+msgstr "Като елементите на менюто"
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Selected items:"
+msgstr "Избрани елементи:"
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Show images in menus"
+msgstr "Показвай образи в менютата"
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Show images on buttons"
+msgstr "Показвай образи на бутоните"
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Size of cursors"
+msgstr "Размер на курсорите"
+
+#: ../data/ui/lxappearance.ui.h:49
+msgid "Slight"
+msgstr "Тънък"
+
+#: ../data/ui/lxappearance.ui.h:50
+msgid "Small toolbar icon"
+msgstr "Малки икони в лентата с инструментите"
+
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Smaller"
+msgstr "По-малки"
+
+#: ../data/ui/lxappearance.ui.h:52
+msgid "Sub-pixel geometry: "
+msgstr "Форма на подпикселите:"
+
+#: ../data/ui/lxappearance.ui.h:53
+msgid "Text below icons"
+msgstr "Текст под иконите"
+
+#: ../data/ui/lxappearance.ui.h:54
+msgid "Text beside icons"
+msgstr "Текст зад иконите"
+
+#: ../data/ui/lxappearance.ui.h:55
+msgid "Text only"
+msgstr "Само текст"
+
+#: ../data/ui/lxappearance.ui.h:56
+msgid "Text windows:"
+msgstr "Текстови прозорци:"
+
+#: ../data/ui/lxappearance.ui.h:57
+msgid "Toolbar Icon Size: "
+msgstr "Размер на иконите в панела с инструментите:"
+
+#: ../data/ui/lxappearance.ui.h:58
+msgid "Toolbar Style: "
+msgstr "Стил на панела с инструментите:"
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Tooltips:"
+msgstr "Подсказки:"
+
+#: ../data/ui/lxappearance.ui.h:60
+msgid "Use customized color scheme"
+msgstr "Използвай персонализирана цветова схема:"
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "VBGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:62
+msgid "VRGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:63
+msgid "Widget"
+msgstr "Джаджа"
+
+#: ../data/ui/lxappearance.ui.h:64
+msgid "Window Border"
+msgstr "Рамка на прозорците"
+
+#: ../data/ui/lxappearance.ui.h:65
+msgid "_Edit"
+msgstr "_Редактиране"
+
+#: ../data/ui/lxappearance.ui.h:66
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/ui/lxappearance.ui.h:67
+msgid "_Help"
+msgstr "_Помощ"
+
+#: ../data/ui/lxappearance.ui.h:68
+msgid "button"
+msgstr "бутон"
+
+#: ../src/utils.c:217
 msgid "Select an icon theme"
 msgstr "Изберете тема за иконите"
 
-#: ../src/utils.c:219
+#: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Тема за икони)"

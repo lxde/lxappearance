@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-11 11:17+0200\n"
+"POT-Creation-Date: 2011-07-22 17:15+0200\n"
 "PO-Revision-Date: 2010-10-10 07:57+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -26,8 +26,8 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "ਆਪਣੇ ਡੈਸਕਟਾਪ ਤੇ ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਦਿੱਖ ਤੇ ਪਰਭਾਵ ਆਪਣੇ ਮੁਤਾਬਕ ਬਣਾਓ"
 
 #: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2010 LXDE Project"
-msgstr "Copyright (C) 2010 LXDE Project"
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -174,152 +174,152 @@ msgid "Play event sounds"
 msgstr "ਈਵੈਂਟ ਸਾਊਂਡ ਚਲਾਓ"
 
 #: ../data/ui/lxappearance.ui.h:34
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
+msgstr "ਯੂਜ਼ਰ ਇੰਪੁੱਟ ਦੇ ਜਵਾਬ ਵਿੱਚ ਈਵੈਂਟ ਸਾਊਂਡ ਚਲਾਓ"
+
+#: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
 msgstr "ਚੁਣੇ ਕਰਸਰ ਥੀਮ ਦੀ ਝਲਕ ਵੇਖੋ"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected icon theme"
 msgstr "ਚੁਣੇ ਆਈਕਾਨ ਥੀਮ ਦੀ ਝਲਕ ਵੇਖੋ"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
 msgstr "ਚੁਣੇ ਵਿਦਜੈੱਟ ਸਟਾਈਲ ਦੀ ਝਲਕ ਵੇਖੋ"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
 msgstr "ਰੇਡੀਓ ਬਟਨ"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
 msgstr "ਹਟਾਓ"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
 msgstr "ਬਟਨ ਵਜੋਂ"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
 msgstr "ਡਾਈਲਾਗ ਵਜੋਂ"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
 msgstr "ਡਰੈਗ ਆਈਕਾਨ ਵਜੋਂ"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
 msgstr "ਮੇਨੂ ਆਈਟਮ ਵਜੋਂ"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
 msgstr "ਚੁਣੀਆਂ ਆਈਟਮਾਂ:"
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
 msgstr "ਮੇਨੂ 'ਚ ਚਿੱਤਰ ਵੇਖੋ"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
 msgstr "ਬਟਨ ਉੱਤੇ ਚਿੱਤਰ ਵੇਖੋ"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
 msgstr "ਕਰਸਰ ਦਾ ਆਕਾਰ"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
 msgstr "ਛੋਟੇ ਟੂਲਬਾਰ ਆਈਕਾਨ"
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
 msgstr "ਹੋਰ ਛੋਟੇ"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:52
+#: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
 msgstr "ਆਈਕਾਨ ਹੇਠ ਟੈਕਸਟ"
 
-#: ../data/ui/lxappearance.ui.h:53
+#: ../data/ui/lxappearance.ui.h:54
 msgid "Text beside icons"
 msgstr "ਆਈਕਾਨ ਨਾਲ ਟੈਕਸਟ"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
 msgstr "ਕੇਵਲ ਟੈਕਸਟ"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
 msgstr "ਟੈਕਸਟ ਵਿੰਡੋਜ਼:"
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.ui.h:57
 #, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "ਟੂਲਬਾਰ ਆਈਕਾਨ ਆਕਾਰ:"
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.ui.h:58
 #, fuzzy
 msgid "Toolbar Style: "
 msgstr "ਟੂਲਬਾਰ ਸਟਾਇਲ:"
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
 msgstr "ਟੂਲ-ਟਿੱਪ:"
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
 msgstr "ਪਸੰਦੀਦਾ ਰੰਗ ਸਕੀਮ ਵਰਤੋਂ"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
 msgstr ""
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
 msgstr "ਵਿਦਜੈੱਟ"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
 msgstr "ਵਿੰਡੋ ਬਾਰਡਰ"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.ui.h:65
 msgid "_Edit"
 msgstr "ਸੋਧ(_E)"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.ui.h:66
 msgid "_File"
 msgstr "ਫਾਇਲ(_F)"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.ui.h:67
 msgid "_Help"
 msgstr "ਮੱਦਦ(_H)"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.ui.h:68
 msgid "button"
 msgstr "ਬਟਨ"
 
-#: ../data/ui/lxappearance.ui.h:68
-#, fuzzy
-msgid "play event sounds as feedback to user input"
-msgstr "ਯੂਜ਼ਰ ਇੰਪੁੱਟ ਦੇ ਜਵਾਬ ਵਿੱਚ ਈਵੈਂਟ ਸਾਊਂਡ ਚਲਾਓ"
-
-#: ../src/utils.c:212
+#: ../src/utils.c:217
 msgid "Select an icon theme"
 msgstr "ਇੱਕ ਆਈਕਾਨ ਥੀਮ ਚੁਣੋ"
 
-#: ../src/utils.c:219
+#: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (ਆਈਕਾਨ ਥੀਮ)"
