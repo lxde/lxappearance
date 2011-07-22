@@ -38,13 +38,13 @@
     <para>This manual page was written by paulliu <email>grandpaul@gmail.com</email> for
       the <productname>Debian</productname> system (but may be used by others).  Permission is
       granted to copy, distribute and/or modify this document under
-      the terms of the <acronym>GNU</acronym> General Public License, Version 2 any 
+      the terms of the <acronym>GNU</acronym> General Public License, Version 2 any
       later version published by the Free Software Foundation.
     </para>
     <para>	  On Debian systems, the complete text of the GNU General Public
 	  License can be found in /usr/share/common-licenses/GPL.
     </para>
-    <para>          The source code of this manual page should be in 
+    <para>          The source code of this manual page should be in
           <filename>.sgml</filename> format. It is better not to modify
           the <filename>.1</filename> file directly.
     </para>

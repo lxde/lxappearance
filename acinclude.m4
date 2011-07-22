@@ -52,4 +52,3 @@ AC_DEFUN([JH_CHECK_XML_CATALOG],
        [$4])
   fi
 ])
-

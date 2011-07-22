@@ -12,9 +12,9 @@ EXTRA_DIST = \
 if ENABLE_MAN
 
 lxappearance.1: lxappearance.xml
-	$(XSLTPROC) -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl $<        
+	$(XSLTPROC) -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl $<
 
-CLEANFILES = $(man_MANS) 
+CLEANFILES = $(man_MANS)
 else
 
 $(man_MANS):
@@ -23,5 +23,3 @@ $(man_MANS):
 	@echo "         in order to regenerate man pages."
 	@echo ""
 endif
-
-

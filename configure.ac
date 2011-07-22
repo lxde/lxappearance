@@ -131,7 +131,7 @@ if test x"$enable_man" = x"yes"; then
 		[DocBook XSL Stylesheets >= 1.70.1], [], enable_man=no)
 fi
 
-AM_CONDITIONAL(ENABLE_REGENERATE_MAN, test "x$enable_man" != "xno")
+AM_CONDITIONAL(ENABLE_MAN, test "x$enable_man" != "xno")
 
 AC_CONFIG_FILES([
     Makefile
