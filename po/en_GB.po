@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2011-05-12 22:34+0200\n"
+"PO-Revision-Date: 2011-07-22 23:39+0200\n"
 "Last-Translator: Steve <yorvik.ubunto@gmail.com>\n"
 "Language-Team: en_GB <LL@li.org>\n"
 "Language: en_GB\n"
@@ -60,7 +60,7 @@ msgid ""
 "applications till next login."
 msgstr ""
 "<b>Note:</b> Not all desktop applications support changing the cursor theme "
-"on-the-fly. So your changes, here, might not be fully applied to all "
+"on-the-fly. So your changes, here, may not be fully applied to all "
 "applications until next login."
 
 #: ../data/ui/lxappearance.ui.h:5
@@ -176,7 +176,6 @@ msgid "Play event sounds"
 msgstr "Play event sounds"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
 msgstr "Play event sounds as feedback to user input"
 
