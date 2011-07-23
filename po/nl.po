@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2011-06-13 11:34+0200\n"
-"Last-Translator: Pjotr\n"
+"PO-Revision-Date: 2011-07-22 19:39+0200\n"
+"Last-Translator: Pjotr <>\n"
 "Language-Team: Dutch\n"
-"Language: nl (Dutch)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
@@ -177,9 +178,8 @@ msgid "Play event sounds"
 msgstr "Speel gebeurtenisgeluiden af"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "speel gebeurtenisgeluiden af als terugkoppeling op gebruikerinvoer"
+msgstr "Speel gebeurtenisgeluiden af als terugkoppeling op gebruikerinvoer"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
