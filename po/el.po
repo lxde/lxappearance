@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2011-06-08 13:08+0200\n"
+"PO-Revision-Date: 2011-07-24 14:43+0200\n"
 "Last-Translator: George <forfolias@gmail.com>\n"
 "Language-Team: Greek\n"
 "Language: el\n"
@@ -175,9 +175,8 @@ msgid "Play event sounds"
 msgstr "Αναπαραγωγή ήχων σε γεγονότα"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "αναπαραγωγή ήχων σε ενέργειες του χρήστη"
+msgstr "Αναπαραγωγή ήχων σε ενέργειες του χρήστη"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
