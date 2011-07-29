@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-05-12 20:29+0200\n"
+"PO-Revision-Date: 2011-07-29 21:59+0200\n"
 "Last-Translator: Lutz <lthuns@opensuse.org>\n"
 "Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
 "Language: de\n"
@@ -43,7 +43,6 @@ msgstr ""
 "Lutz Thuns <lthuns@opensuse.org>"
 
 #: ../data/ui/lxappearance.ui.h:1
-#, fuzzy
 msgid "<b>Antialising</b>"
 msgstr "Kantenglättung"
 
@@ -52,9 +51,8 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Oberfläche</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Oberfläche</b>"
+msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -71,11 +69,11 @@ msgid "<b>Sound Effect</b>"
 msgstr "<b>Akustische Signale</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
+#, fuzzy
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "Sub-Pixel-Geometrie"
 
 #: ../data/ui/lxappearance.ui.h:7
-#, fuzzy
 msgid "BGR"
 msgstr "BGR"
 
@@ -109,17 +107,16 @@ msgstr "Demo"
 
 # oder "aktivieren"?
 #: ../data/ui/lxappearance.ui.h:16
-#, fuzzy
 msgid "Enable antialising"
 msgstr "Kantenglättung verwenden"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Sub-Pixel-Hinting verwenden"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Schrift"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -127,11 +124,11 @@ msgstr "Vordergrund"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Vollständig"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Hinting-Stil:"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -150,7 +147,6 @@ msgid "Large toolbar icon"
 msgstr "Große Symbole"
 
 #: ../data/ui/lxappearance.ui.h:26
-#, fuzzy
 msgid "Medium"
 msgstr "Mittel"
 
@@ -160,7 +156,7 @@ msgstr "Mauszeiger"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Keine"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -183,7 +179,6 @@ msgid "Play event sounds"
 msgstr "Akustische Signale wiedergeben"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
 msgstr "Akustische Signale als Rückmeldung für Benutzereingaben wiedergeben"
 
@@ -245,7 +240,6 @@ msgid "Size of cursors"
 msgstr "Größe des Mauszeigers"
 
 #: ../data/ui/lxappearance.ui.h:49
-#, fuzzy
 msgid "Slight"
 msgstr "Leicht"
 
@@ -259,7 +253,7 @@ msgstr "Kleiner"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Sub-Pixel-Geometrie:"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -297,11 +291,11 @@ msgstr "Angepasstes Farbschema benutzen"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr "VBGR"
+msgstr "senkrechtes BGR"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr "VRGB"
+msgstr "senkrechtes RGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
