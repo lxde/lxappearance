@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2010-08-26 20:57+0200\n"
-"Last-Translator: Анік <xabzan9tka@gmail.com>\n"
+"PO-Revision-Date: 2011-07-29 12:45+0200\n"
+"Last-Translator: Мікалай <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
@@ -29,7 +29,7 @@ msgstr "Змяніць знешні выгляд працоўнага стала
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Аўтарскае права (C) 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -38,20 +38,21 @@ msgstr "Змяніць знешні выгляд працоўнага стала
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Анік Кіна <son_of_the_photographer@tut.by>"
+msgstr ""
+"Анік Кіна <son_of_the_photographer@tut.by>\n"
+"Мікалай Удодаў <com-a@tut.by>, 2011"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Згладжванне</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Опцыі графічнай абалонкі</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Опцыі графічнай абалонкі</b>"
+msgstr "<b>Хінтынг</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -68,11 +69,11 @@ msgstr "<b>Гукавы эфект</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Суб-піксельная геаметрыя</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -96,228 +97,228 @@ msgstr "Колеравая схема не падтрымліваецца абр
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
-msgstr ""
+msgstr "Прадвызначаны шрыфт:"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
-msgstr ""
+msgstr "Дэма"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Уключыць згладжванне"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Уключыць згладжванне/хінтынг"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Шрыфт"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
-msgstr ""
+msgstr "Пярэднепланавы"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Поўны"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Стыль згладжвання: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
-msgstr ""
+msgstr "Тэма значкоў"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
-msgstr ""
+msgstr "Толькі значкі"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
-msgstr ""
+msgstr "Устанавіць"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
-msgstr ""
+msgstr "Вялікія значкі"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Сярэдні"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
-msgstr ""
+msgstr "Курсор мышы"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Няма"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
-msgstr ""
+msgstr "Звычайныя вокны:"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Other"
-msgstr ""
+msgstr "Іншыя"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Page1"
-msgstr ""
+msgstr "Стар1"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
-msgstr ""
+msgstr "Стар2"
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
-msgstr ""
+msgstr "Прайграваць гукі"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Play event sounds as feedback to user input"
-msgstr ""
+msgstr "Прайграваць гукі ў адказ на карыстальніцкі ўвод"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
-msgstr ""
+msgstr "Прагляд выбранай тэмы курсора"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Preview of the selected icon theme"
-msgstr ""
+msgstr "Прагляд выбранай тэмы значкоў"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "Прагляд выбранай тэмы віджэтаў"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
-msgstr ""
+msgstr "Пераключальнік выбару"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
-msgstr ""
+msgstr "Сцерці"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
-msgstr ""
+msgstr "Гэтак жа, як кнопкі"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Гэтак жа, як дыялогі"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Гэтак жа, як значкоў перацягвання"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
-msgstr ""
+msgstr "Як элементы меню"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
-msgstr ""
+msgstr "Выбраны элемент:"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
-msgstr ""
+msgstr "Паказваць значкі ў меню"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
-msgstr ""
+msgstr "Паказваць значкі на кнопках"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
-msgstr ""
+msgstr "Памер курсора"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "Злёгку"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
-msgstr ""
+msgstr "Малыя значкі"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
-msgstr ""
+msgstr "Меншы"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Суб-пікельная геаметрыя: "
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
-msgstr ""
+msgstr "Подпісы пад значкамі"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Text beside icons"
-msgstr ""
+msgstr "Подпісы побач са значкамі"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
-msgstr ""
+msgstr "Толькі подпісы"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
-msgstr ""
+msgstr "Тэкставае поле:"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "Памер значкоў: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Стыль значкоў: "
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
-msgstr ""
+msgstr "Падказкі:"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "Ужываць уласную схему колераў"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
-msgstr ""
+msgstr "Віджэт"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
-msgstr ""
+msgstr "Абрамленне акна"
 
 #: ../data/ui/lxappearance.ui.h:65
 msgid "_Edit"
-msgstr ""
+msgstr "_Рэдагаваць"
 
 #: ../data/ui/lxappearance.ui.h:66
 msgid "_File"
-msgstr ""
+msgstr "Ф_айл"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "_Help"
-msgstr ""
+msgstr "_Даведка"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "button"
-msgstr ""
+msgstr "кнопка"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Выберыце тэму значкоў"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (тэмы значкоў)"

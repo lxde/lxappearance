@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2011-07-12 19:20+0200\n"
+"PO-Revision-Date: 2011-07-28 12:56+0200\n"
 "Last-Translator: PraveenIlla <mail2ipn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -48,9 +48,8 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>GUI ఐచ్ఛికాలు</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>GUI ఐచ్ఛికాలు</b>"
+msgstr "<b>హింటింగ్</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""

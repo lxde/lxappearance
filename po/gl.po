@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2011-05-16 20:48+0200\n"
+"PO-Revision-Date: 2011-07-23 09:14+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -180,9 +180,8 @@ msgid "Play event sounds"
 msgstr "Reproducir sons en eventos"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "reproducir sons nos eventos para informar ao usuario"
+msgstr "Reproducir sons nas accións para informar ao usuario"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"

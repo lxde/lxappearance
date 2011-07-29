@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2010-10-16 15:48+0200\n"
-"Last-Translator: Cilyan <gaknar@gmail.com>\n"
+"PO-Revision-Date: 2011-07-23 03:26+0200\n"
+"Last-Translator: Joyce <meets1901@no-log.org>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -107,11 +107,11 @@ msgstr "Démonstration"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Activer l'anticrénelage"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Activer le hinting"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
@@ -155,7 +155,7 @@ msgstr "Curseur de la souris"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Aucun"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -178,9 +178,9 @@ msgid "Play event sounds"
 msgstr "Activer les notifications sonores"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "Notifications sonores en réponse aux entrées de l'utilisateur"
+msgstr ""
+"Envoyer des notifications sonores en réponse aux actions de l'utilisateur"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -239,8 +239,9 @@ msgid "Size of cursors"
 msgstr "Taille des curseurs"
 
 #: ../data/ui/lxappearance.ui.h:49
+#, fuzzy
 msgid "Slight"
-msgstr ""
+msgstr "Léger(ère)"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"

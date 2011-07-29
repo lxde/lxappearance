@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-22 17:15+0200\n"
-"PO-Revision-Date: 2011-07-13 02:00+0200\n"
-"Last-Translator: Piotr <psokol@jabster.pl>\n"
+"PO-Revision-Date: 2011-07-28 19:35+0200\n"
+"Last-Translator: Artur <mazdac@gmail.com>\n"
 "Language-Team: Polish <>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -49,9 +49,8 @@ msgid "<b>GUI Options</b>"
 msgstr "<b>Interfejs użytkownika</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Interfejs użytkownika</b>"
+msgstr "<b>Wygładzanie</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -69,7 +68,7 @@ msgstr "<b>Dźwięki</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Geometria pod-pikseli</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
@@ -104,17 +103,16 @@ msgid "Demo"
 msgstr "Prezentacja"
 
 #: ../data/ui/lxappearance.ui.h:16
-#, fuzzy
 msgid "Enable antialising"
-msgstr "Włączenie"
+msgstr "Włącz antyalising"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Włącz wygładzanie"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Czcionka"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -122,15 +120,15 @@ msgstr "Pierwszoplanowy"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Pełny"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Styl wygładzania:"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
-msgstr "Ikony"
+msgstr "Motyw ikon"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
@@ -142,11 +140,11 @@ msgstr "Zainstaluj"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
-msgstr "Duży"
+msgstr "Duże ikony paska narzędzi"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Średnie"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -158,7 +156,7 @@ msgstr "Brak"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
-msgstr "Okna:"
+msgstr "Normalne okna:"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Other"
@@ -166,7 +164,7 @@ msgstr "Inne"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Page1"
-msgstr "Karta1 "
+msgstr "Karta1"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
@@ -177,9 +175,8 @@ msgid "Play event sounds"
 msgstr "Odtwarzanie zdarzeń dźwiękowych"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "Odtwarzanie zdarzeń dźwiękowych podczas wprowadzania danych"
+msgstr "Odtwarzanie zdarzeń dźwiękowych jako reakcja na wprowadzania danych"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -239,11 +236,11 @@ msgstr "Rozmiar"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "Mały"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
-msgstr "Mały"
+msgstr "Małe ikony paska narzędzi"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
@@ -251,7 +248,7 @@ msgstr "Mniejszy"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Geometria pod-pikseli: "
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -270,14 +267,12 @@ msgid "Text windows:"
 msgstr "Pola wejściowe:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Rozmiar ikon pasków narzędziowych:"
+msgstr "Rozmiar ikon paska narzędziowego: "
 
 #: ../data/ui/lxappearance.ui.h:58
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Styl pasków narzędziowych:"
+msgstr "Styl paska narzędziowego: "
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
