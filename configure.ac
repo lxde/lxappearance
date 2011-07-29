@@ -4,7 +4,7 @@
 prog_name = lxappearance
 
 AC_PREREQ([2.63])
-AC_INIT([lxappearance], [0.5.0], [http://lxde.org/])
+AC_INIT([lxappearance], [0.5.1], [http://lxde.org/])
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign])
 # Support silent build rules. Disable by either passing --disable-silent-rules
 # to configure or passing V=1 to make
