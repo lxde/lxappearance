@@ -8,24 +8,24 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-07-29 12:45+0200\n"
+"PO-Revision-Date: 2011-08-07 16:58+0200\n"
 "Last-Translator: Мікалай <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
-msgstr "Налады знешняга выгляду"
+msgstr "Настаўленні выгляду"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Змяніць знешні выгляд працоўнага стала і праграмм"
+msgstr "Змяніць выгляд працоўнага асяроддзя і праграмм"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
@@ -33,14 +33,14 @@ msgstr "Аўтарскае права (C) 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Змяніць знешні выгляд працоўнага стала"
+msgstr "Змяніць выгляд працоўнай прасторы"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr ""
 "Анік Кіна <son_of_the_photographer@tut.by>\n"
-"Мікалай Удодаў <com-a@tut.by>, 2011"
+"Мікалай Удодаў <com-a@tut.by>, 2011."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
@@ -60,8 +60,8 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>Заўвага:<b/> Не ўсе настольныя праграмы падтрымліваюць змяненне курсора "
-"\"наляту\". Цалкам змены набудуць моц пасля наступнага ўваходу ў сістэму."
+"<b>Заўвага:<b/> Не ўсе праграмы падтрымліваюць змяненне курсора \"на ляту\". "
+"Цалкам змены набудуць моц пасля наступнага ўваходу ў сістэму."
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
@@ -93,7 +93,7 @@ msgstr "Колер"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Колеравая схема не падтрымліваецца абранай тэмай."
+msgstr "Колеравая схема не падтрымана выбранай тэмай віджэтаў."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
@@ -109,7 +109,7 @@ msgstr "Уключыць згладжванне"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr "Уключыць згладжванне/хінтынг"
+msgstr "Уключыць хінтынг"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
@@ -117,7 +117,7 @@ msgstr "Шрыфт"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
-msgstr "Пярэднепланавы"
+msgstr "Пярэдні план"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
@@ -125,7 +125,7 @@ msgstr "Поўны"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr "Стыль згладжвання: "
+msgstr "Стыль хінтынгу: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -173,7 +173,7 @@ msgstr "Стар2"
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
-msgstr "Прайграваць гукі"
+msgstr "Прайграваць гукі дзеянняў"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Play event sounds as feedback to user input"
@@ -269,11 +269,11 @@ msgstr "Тэкставае поле:"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Toolbar Icon Size: "
-msgstr "Памер значкоў: "
+msgstr "Памер значкоў панэлі інструментаў: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "Toolbar Style: "
-msgstr "Стыль значкоў: "
+msgstr "Стыль панэлі інструментаў: "
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
