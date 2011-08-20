@@ -1,26 +1,25 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Ainur Shakirov <ainur.shakirov.tt@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-07-26 11:27+0200\n"
-"Last-Translator: Ainur <ainur.shakirov.tt@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2011-08-18 01:30+0400\n"
+"Last-Translator: Ainur Shakirov <ainur.shakirov.tt@gmail.com>\n"
+"Language-Team: Tatar <>\n"
 "Language: tt_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
-msgstr "Тышкы кыяфәтне көйләү"
+msgstr "Тышкы кыяфәт"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
@@ -222,11 +221,11 @@ msgstr "Сайланган өлешләр:"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
-msgstr "Менюда рәсемнәрне күрсәтергә"
+msgstr "Менюда рәсемнәр күрсәтү"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
-msgstr "Төймәләрдә рәсемнәрне күрсәтергә"
+msgstr "Төймәләрдә рәсемнәр күрсәтү"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
@@ -319,3 +318,4 @@ msgstr "Билгечек тышын сайлагыз"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Билгечек тышы)"
+
