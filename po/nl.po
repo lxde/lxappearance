@@ -1,4 +1,4 @@
-# Dutch translation for the lxappearance package.
+# Dutch translation of the lxappearance package.
 # Copyright (C) the author of the lxappearance package.
 # This file is distributed under the same license as the
 # lxappearance package.
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-07-22 19:39+0200\n"
+"PO-Revision-Date: 2011-09-08 19:39+0200\n"
 "Last-Translator: Pjotr <>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -179,7 +179,7 @@ msgstr "Speel gebeurtenisgeluiden af"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Play event sounds as feedback to user input"
-msgstr "Speel gebeurtenisgeluiden af als terugkoppeling op gebruikerinvoer"
+msgstr "Speel gebeurtenisgeluiden af als terugkoppeling op gebruikersinvoer"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -323,4 +323,4 @@ msgstr "Kies een pictogramthema"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Pictogramthema)"
+msgstr "*.tar.gz, *.tar.bz2 (pictogramthema)"
