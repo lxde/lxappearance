@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: lxappearance master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2010-09-05 16:07+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2011-08-21 10:24+0200\n"
+"Last-Translator: andika <andika@gmail.com>\n"
 "Language-Team: Indonesian Translation Team <id@li.org>\n"
-"Language: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
@@ -39,16 +41,15 @@ msgstr "Andika Triwidada <andika@gmail.com>, 2010."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Antialias</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr "<b>Opsi GUI</b?"
+msgstr "<b>Opsi GUI</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Opsi GUI</b?"
+msgstr "<b>Hint</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -66,11 +67,11 @@ msgstr "<b>Efek Suara</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Geometri sub-piksel</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -102,15 +103,15 @@ msgstr "Demo"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Aktifkan antialias"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Aktifkan hint"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Fonta"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -118,11 +119,11 @@ msgstr "Latar depan"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Penuh"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Gaya hint"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -142,7 +143,7 @@ msgstr "Ikon bilah alat besar"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Sedang"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -150,7 +151,7 @@ msgstr "Kursor Tetikus"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Tak ada"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -173,9 +174,8 @@ msgid "Play event sounds"
 msgstr "Mainkan suara kejadian"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "mainkan suara kejadian sebagai umpan balik ke masukan pengguna"
+msgstr "Mainkan suara kejadian sebagai umpan balik ke masukan pengguna"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -191,7 +191,7 @@ msgstr "Pratilik gaya widget yang dipilih"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
@@ -235,7 +235,7 @@ msgstr "Ukuran kursor"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "Sedikit"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
@@ -247,7 +247,7 @@ msgstr "Lebih kecil"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Geometri sub-piksel"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -266,12 +266,10 @@ msgid "Text windows:"
 msgstr "Jendela teks:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "Ukuran Ikon Bilah Alat:"
 
 #: ../data/ui/lxappearance.ui.h:58
-#, fuzzy
 msgid "Toolbar Style: "
 msgstr "Gaya Bilah Alat:"
 
@@ -285,11 +283,11 @@ msgstr "Pakai skema warna ubahan"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
