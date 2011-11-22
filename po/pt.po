@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-07-23 15:36+0200\n"
+"PO-Revision-Date: 2011-11-22 14:48+0200\n"
 "Last-Translator: Sérgio <smarquespt@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -97,7 +97,7 @@ msgstr "O esquema de cores não é suportado pelo tema atual."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
-msgstr "Tipo de letra por omissão:"
+msgstr "Tipo de letra padrão:"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
