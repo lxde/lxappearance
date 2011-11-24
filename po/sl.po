@@ -1,35 +1,34 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Slovenian translation of lxappearance.
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the lxappearance package.
+# Klemen Košir <klemen.kosir@gmx.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-11-21 22:25+0200\n"
-"Last-Translator: Klemen <klemen.kosir@gmx.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2011-11-20 10:54+0100\n"
+"Last-Translator: Klemen Košir <klemen.kosir@gmx.com>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
-"n%100==4 ? 3 : 0);;\n"
-"X-Generator: Pootle 2.0.5\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Videz in občutek"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Prilagodite videz in občutek namizja ter programov"
+msgstr "Prilagodite videz in občutek namizja"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Avtorske pravice (C) 2011 Projekt LXDE"
+msgstr "Avtorske pravice © 2011 Projekt LXDE"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -38,7 +37,7 @@ msgstr "Prilagodite videz in občutek namizja"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Klemen Košir <https://launchpad.net/~klemen.kosir>"
+msgstr "Klemen Košir <klemen.kosir@gmx.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
@@ -46,21 +45,15 @@ msgstr "<b>Glajenje robov</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr "<b>Možnosti grafičnega vmesnika</b>"
+msgstr "<b>Grafični vmesnik</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "<b>Hinting</b>"
 msgstr "<b>Glajenje pisave</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
-"<b>Opomba:</b> Vsi programi ne podpirajo sprotnega spreminjanja teme miškine "
-"kazalke. Zato bodo nekatere spremembe uveljavljene šele ob naslednji prijavi "
-"v sistem."
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Opomba:</b> Vsi programi ne podpirajo sprotnega spreminjanja teme kazalke. Nekatere spremembe bodo uveljavljene šele ob naslednji prijavi."
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
@@ -80,11 +73,11 @@ msgstr "Ozadje"
 
 #: ../data/ui/lxappearance.ui.h:9
 msgid "Bigger"
-msgstr "Večje"
+msgstr "Večja"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
-msgstr "Kljukica"
+msgstr "Označno polje"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
@@ -92,7 +85,7 @@ msgstr "Barva"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Trenutno izbrana tema gradnikov ne podpira barvnih shem."
+msgstr "Trenutna tema gradnikov ne podpira barvnih shem."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
@@ -132,7 +125,7 @@ msgstr "Tema ikon"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
-msgstr "Samo ikone"
+msgstr "Ikone"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
@@ -148,7 +141,7 @@ msgstr "Srednje"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
-msgstr "Miškina kazalka"
+msgstr "Kazalka"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
@@ -164,15 +157,15 @@ msgstr "Drugo"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Page1"
-msgstr "Stran 1"
+msgstr "Zavihek 1"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Page2"
-msgstr "Stran 2"
+msgstr "Zavihek 2"
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Play event sounds"
-msgstr "Ob dogodku predvajaj zvok"
+msgstr "Predvajaj zvoke ob dogodkih"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Play event sounds as feedback to user input"
@@ -204,19 +197,19 @@ msgstr "Odstrani"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
-msgstr "Enako kot gumbi"
+msgstr "Enaka gumbom"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
-msgstr "Enako kot pogovorna okna"
+msgstr "Enaka pogovornim oknom"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
-msgstr "Enako kot vlečne ikone"
+msgstr "Enaka vlečnim ikonam"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
-msgstr "Enako kot predmeti menija"
+msgstr "Enaka predmetom menija"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
@@ -232,7 +225,7 @@ msgstr "Pokaži slilke na gumbih"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
-msgstr "Velikost kazalk"
+msgstr "Velikost kazalke"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
@@ -244,7 +237,7 @@ msgstr "Majhne ikone"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Smaller"
-msgstr "Manjše"
+msgstr "Manjša"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
@@ -260,7 +253,7 @@ msgstr "Besedilo poleg ikon"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
-msgstr "Samo besedilo"
+msgstr "Besedilo"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
@@ -292,11 +285,11 @@ msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
-msgstr "Gradnik"
+msgstr "Gradniki"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
-msgstr "Obroba okna"
+msgstr "Obroba oken"
 
 #: ../data/ui/lxappearance.ui.h:65
 msgid "_Edit"
@@ -308,7 +301,7 @@ msgstr "_Datoteka"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "_Help"
-msgstr "_Pomoč"
+msgstr "Pomo_č"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "button"
@@ -321,3 +314,4 @@ msgstr "Izberite temo ikon"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Tema ikon)"
+
