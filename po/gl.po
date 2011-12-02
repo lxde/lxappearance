@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-07-23 09:14+0200\n"
+"PO-Revision-Date: 2011-12-02 16:21+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Dereitos de autor (C) 2011 LXDE Project"
+msgstr "Dereitos de autoría (C) 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -40,7 +40,7 @@ msgstr "Personalizar a aparencia e comportamento do escritorio"
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr ""
-"Miguel Anxo Bouzada <mbouzada@gmail.com>, 2010\n"
+"Miguel Anxo Bouzada <mbouzada@gmail.com>, 2010, 2011\n"
 "Proxecto Trasno <proxecto@trasno.net>"
 
 #: ../data/ui/lxappearance.ui.h:1
@@ -49,7 +49,7 @@ msgstr "<b>Suavizado</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr "<b>Opcións da IGU</b>"
+msgstr "<b>Opcións da interface de usuario</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "<b>Hinting</b>"
@@ -96,8 +96,8 @@ msgstr "Cor"
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
-"O esquema de cor no é admitido polo tema seleccionado actualmente de "
-"trebellos."
+"O esquema de cor no é admitido polo tema de trebellos seleccionado "
+"actualmente."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
@@ -129,7 +129,7 @@ msgstr "Completo"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr "Estilo consello: "
+msgstr "Estilo do consello: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -229,11 +229,11 @@ msgstr "Elementos seleccionados:"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
-msgstr "Amosar imaxes nos menús"
+msgstr "Mostrar imaxes nos menús"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
-msgstr "Amosar imaxes no botóns"
+msgstr "Mostrar imaxes no botóns"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
@@ -257,7 +257,7 @@ msgstr "Xeometría do subpíxel: "
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
-msgstr "Texto debaixo das iconas"
+msgstr "Texto baixo as iconas"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Text beside icons"
@@ -281,11 +281,11 @@ msgstr "Estilo da barra de ferramentas: "
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
-msgstr "Consellos:"
+msgstr "Mensaxes emerxentes:"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
-msgstr "Empregar esquema de cor personalizado"
+msgstr "Empregar un esquema de cor personalizado"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
