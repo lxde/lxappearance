@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-12-02 16:21+0200\n"
+"PO-Revision-Date: 2011-12-24 13:51+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -229,11 +229,11 @@ msgstr "Elementos seleccionados:"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
-msgstr "Mostrar imaxes nos menús"
+msgstr "Amosar imaxes nos menús"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
-msgstr "Mostrar imaxes no botóns"
+msgstr "Amosar imaxes no botóns"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
