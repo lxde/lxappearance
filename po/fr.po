@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-07-23 03:26+0200\n"
-"Last-Translator: Joyce <meets1901@no-log.org>\n"
+"PO-Revision-Date: 2012-01-05 15:29+0200\n"
+"Last-Translator: Cilyan <gaknar@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -43,16 +43,15 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Anticrénelage</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>Options de l'interface graphique</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Options de l'interface graphique</b>"
+msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -70,11 +69,11 @@ msgstr "<b>Effets sonores</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Géométrie des sous-pixels</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -115,7 +114,7 @@ msgstr "Activer le hinting"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Police"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -123,11 +122,11 @@ msgstr "Premier plan"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Complet"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Mode de hinting : "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -147,7 +146,7 @@ msgstr "Grandes icônes"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Moyen"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -196,7 +195,7 @@ msgstr "Aperçu du thème d'interface séléctionné"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
@@ -239,9 +238,8 @@ msgid "Size of cursors"
 msgstr "Taille des curseurs"
 
 #: ../data/ui/lxappearance.ui.h:49
-#, fuzzy
 msgid "Slight"
-msgstr "Léger(ère)"
+msgstr "Léger"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
@@ -253,7 +251,7 @@ msgstr "Plus petit"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Géométrie des sous-pixels : "
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -272,14 +270,12 @@ msgid "Text windows:"
 msgstr "Fenêtres de texte :"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Taille des icônes de la barre d'outils :"
+msgstr "Taille des icônes de la barre d'outils : "
 
 #: ../data/ui/lxappearance.ui.h:58
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Style de la barre d'outils :"
+msgstr "Style de la barre d'outils : "
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
@@ -291,11 +287,11 @@ msgstr "Personnaliser le thème de couleurs"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
