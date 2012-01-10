@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-12-24 13:51+0200\n"
+"PO-Revision-Date: 2012-01-10 15:09+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -133,7 +133,7 @@ msgstr "Estilo do consello: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
-msgstr "Temas de iconas"
+msgstr "Tema de iconas"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
@@ -297,7 +297,7 @@ msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
-msgstr "Trebello"
+msgstr "Controis"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
