@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2012-01-10 15:16+0200\n"
+"PO-Revision-Date: 2012-01-11 19:29+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -96,7 +96,7 @@ msgstr "Cor"
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
-"O esquema de cor no é admitido polo tema de trebellos seleccionado "
+"O esquema de cor no é admitido polo tema de controis seleccionado "
 "actualmente."
 
 #: ../data/ui/lxappearance.ui.h:14
@@ -193,7 +193,7 @@ msgstr "Vista previa do tema de iconas seleccionado"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
-msgstr "Vista previa do tema de trebellos seleccionado"
+msgstr "Vista previa do tema de controis seleccionado"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
