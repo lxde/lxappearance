@@ -1,6 +1,7 @@
 NULL=
 
-SUBDIRS=src data man po
+SUBDIRS=data man po src
 
 EXTRA_DIST = \
+	$(desktop_DATA) \
 	$(NULL)
