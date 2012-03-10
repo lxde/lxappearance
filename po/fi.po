@@ -3,53 +3,54 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-03-10 20:11+0200\n"
+"Last-Translator: Juhani <juhaninumminen0@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
-msgstr "Muokkaa ulkonäköä sekä tuntumaa"
+msgstr "Muokkaa ulkonäköä ja tuntumaa"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Muokkaa ohjelmiesi ja työpöäytäsi ulkonäköa sekä tuntumaa"
+msgstr "Muokkaa ohjelmiesi sekä työpöytäsi ulkonäköä ja tuntumaa"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2011 LXDE-projekti"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Muokkaa tuöpöytäsi ulkonäköä sekä tuntumaa"
+msgstr "Muokkaa työpöytäsi ulkonäköä ja tuntumaa"
 
+# Muutkin tätä kääntäneet voisivat laittaa nimensä tähän.
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Kääntäjät"
+msgstr "Juhani Numminen <juhaninumminen0@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Antialiasointi</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
-msgstr "<b>GUI asetukset</b>"
+msgstr "<b>Käyttöliittymäasetukset</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>GUI asetukset</b>"
+msgstr "<b>Vihjeistys</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -58,7 +59,7 @@ msgid ""
 "applications till next login."
 msgstr ""
 "<b>Huomio:</b> Kaikki ohjelmasi eivät saata tukea ajonaikaista hiiriteeman "
-"vaihtamista. Joten kaikki muutoksesi eivät välttämättä tule voimaan enne "
+"vaihtamista. Kaikki muutoksesi eivät välttämättä tule voimaan ennen "
 "seuraavaa sisäänkirjautumista."
 
 #: ../data/ui/lxappearance.ui.h:5
@@ -67,11 +68,11 @@ msgstr "<b>Ääniefekti</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Alikuvapisteen geometria</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -83,11 +84,11 @@ msgstr "Suurempi"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
-msgstr "Valinta-nappula"
+msgstr "Valintapainike"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
-msgstr "Väri"
+msgstr "Värit"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
@@ -95,7 +96,7 @@ msgstr "Nykyinen ikkunaelementtiteema ei tue värikarttoja."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
-msgstr "Oletus fontti:"
+msgstr "Oletuskirjasin:"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
@@ -103,15 +104,15 @@ msgstr "Demo"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Ota käyttöön antialiasointi"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Ota käyttöön vihjeistys"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "Kirjasin"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -119,11 +120,11 @@ msgstr "Etuala"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "Täysi"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Vihjeistystyyli: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -139,11 +140,11 @@ msgstr "Asenna"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Large toolbar icon"
-msgstr "Isot työkälupalkin kuvakkeet"
+msgstr "Isot työkalupalkin kuvakkeet"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "Keskitaso"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -151,7 +152,7 @@ msgstr "Hiiren kuvake"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "Ei mitään"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -174,9 +175,8 @@ msgid "Play event sounds"
 msgstr "Toista tapahtumaäänet"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "Toita tapahtumaäänet vastakaikuna käyttäjän syötteeseen"
+msgstr "Toista tapahtumaäänet vastakaikuna käyttäjän syötteeseen"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -192,7 +192,7 @@ msgstr "Esikatsele valittua ikkunaelementtiteemaa"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
@@ -228,7 +228,7 @@ msgstr "Näytä kuvat valikoissa"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
-msgstr "Näytä kuvat nappuloissa"
+msgstr "Näytä kuvat painikkeissa"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
@@ -236,7 +236,7 @@ msgstr "Hiiren kuvakkeen koko"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "Vähän"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
@@ -248,7 +248,7 @@ msgstr "Pienempi"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Alikuvapisteen geometria: "
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -264,21 +264,19 @@ msgstr "Vain teksti"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
-msgstr "Teksti ikkunat:"
+msgstr "Teksti-ikkunat:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Työkalupalkin kuvakkeiden koko:"
+msgstr "Työkalupalkin kuvakkeiden koko: "
 
 #: ../data/ui/lxappearance.ui.h:58
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Työkalupalkin tyyli:"
+msgstr "Työkalupalkin tyyli: "
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
-msgstr "Infokkeet:"
+msgstr "Työkaluvihjeet:"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
@@ -286,11 +284,11 @@ msgstr "Käytä omaa värikarttaa"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
@@ -314,12 +312,12 @@ msgstr "_Apua"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "button"
-msgstr "nappula"
+msgstr "painike"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"
-msgstr "Valitse kuvake teema"
+msgstr "Valitse kuvaketeema"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Kuvake teema)"
+msgstr "*.tar.gz, *.tar.bz2 (kuvaketeema)"
