@@ -34,6 +34,8 @@
 #include <gdk/gdkx.h>
 #include <string.h>
 
+#include <dbus/dbus.h>
+
 #include "widget-theme.h"
 #include "color-scheme.h"
 #include "icon-theme.h"
@@ -46,6 +48,38 @@ LXAppearance app = {0};
 
 Atom lxsession_atom = 0;
 static const char* lxsession_name = NULL;
+
+/*  Dbus functions Copy from lxsession-logout
+    TODO Create a library fro this ?
+*/
+
+static gboolean check_lxde_dbus()
+{
+    DBusError error;
+    dbus_error_init(&error);
+    DBusConnection * connection = dbus_bus_get(DBUS_BUS_SESSION, &error);
+    if (connection == NULL)
+    {
+        g_warning(G_STRLOC ": Failed to connect to the session message bus: %s", error.message);
+        dbus_error_free(&error);
+        return FALSE;
+    }
+
+    DBusMessage * test = dbus_message_new_method_call	(
+        "org.lxde.SessionManager",
+        "/org/lxde/SessionManager",
+        "org.lxde.SessionManager",
+        "Logout");
+
+    if (dbus_message_has_interface(test, "org.lxde.SessionManager"))
+    {
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }
+}
 
 static void check_lxsession()
 {
@@ -60,6 +94,14 @@ static void check_lxsession()
         }
         XUngrabServer( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()) );
     }
+
+    /* Check Lxsession also with dbus */
+    if (check_lxde_dbus())
+    {
+        app.use_lxsession = TRUE;
+        lxsession_name = g_getenv("DESKTOP_SESSION");
+    }
+
 }
 
 static GOptionEntry option_entries[] =
@@ -219,19 +261,82 @@ static void lxappearance_save_gtkrc()
 
     g_file_set_contents(file_path, content->str, content->len, NULL);
 
-    /* Save also for GTK3 */
-    g_string_prepend(content, "[Settings] \n");
-    char* file_path_gtk3 = g_build_filename(g_get_home_dir(), "gtk-3.0", NULL);
-    char* file_path_settings = g_build_filename(g_get_home_dir(), "gtk-3.0", "settings.ini", NULL);
+    /* Save also in GTK3 folder
+       Content shold be different from the gtk2 one
+    */
+    GString* content_gtk3 = g_string_sized_new(512);
+    char* file_path_gtk3 = g_build_filename(g_get_user_config_dir(), "gtk-3.0", NULL);
+    char* file_path_settings = g_build_filename(g_get_user_config_dir(), "gtk-3.0", "settings.ini", NULL);
 
     if (!g_file_test(file_path_gtk3, G_FILE_TEST_IS_DIR))
     {
         g_mkdir_with_parents(file_path_gtk3, 0755);
     }
 
-    g_file_set_contents(file_path_settings, content->str, content->len, NULL);
+
+    g_string_append(content_gtk3, "[Settings] \n");
+
+    if(app.widget_theme)
+        g_string_append_printf(content_gtk3,
+            "gtk-theme-name=%s\n", app.widget_theme);
+    if(app.icon_theme)
+        g_string_append_printf(content_gtk3,
+            "gtk-icon-theme-name=%s\n", app.icon_theme);
+    if(app.default_font)
+        g_string_append_printf(content_gtk3,
+            "gtk-font-name=%s\n", app.default_font);
+    if(app.cursor_theme)
+        g_string_append_printf(content_gtk3,
+            "gtk-cursor-theme-name=%s\n", app.cursor_theme);
+    save_cursor_theme_name();
+
+    g_string_append_printf(content_gtk3,
+        "gtk-cursor-theme-size=%d\n"
+        "gtk-toolbar-style=%s\n"
+        "gtk-toolbar-icon-size=%s\n"
+        "gtk-button-images=%d\n"
+        "gtk-menu-images=%d\n"
+#if GTK_CHECK_VERSION(2, 14, 0)
+        "gtk-enable-event-sounds=%d\n"
+        "gtk-enable-input-feedback-sounds=%d\n"
+#endif
+        "gtk-xft-antialias=%d\n"
+        "gtk-xft-hinting=%d\n"
+
+        , app.cursor_theme_size,
+        tb_styles[app.toolbar_style],
+        tb_icon_sizes[app.toolbar_icon_size],
+        app.button_images ? 1 : 0,
+        app.menu_images ? 1 : 0,
+#if GTK_CHECK_VERSION(2, 14, 0)
+        app.enable_event_sound ? 1 : 0,
+        app.enable_input_feedback ? 1 : 0,
+#endif
+        app.enable_antialising ? 1 : 0,
+        app.enable_hinting ? 1 : 0
+        );
+
+    if(app.hinting_style)
+        g_string_append_printf(content_gtk3,
+            "gtk-xft-hintstyle=%s\n", app.hinting_style);
+
+    if(app.font_rgba)
+        g_string_append_printf(content_gtk3,
+            "gtk-xft-rgba=%s\n", app.font_rgba);
+
+    if(app.color_scheme)
+    {
+        char* escaped = g_strescape(app.color_scheme, NULL);
+        g_string_append_printf(content_gtk3,
+            "gtk-color-scheme=%s\n",
+            escaped);
+        g_free(escaped);
+    }
+
+    g_file_set_contents(file_path_settings, content_gtk3->str, content_gtk3->len, NULL);
 
     g_string_free(content, TRUE);
+    g_string_free(content_gtk3, TRUE);
     g_free(file_path);
 }
 
