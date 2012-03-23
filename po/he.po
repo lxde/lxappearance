@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2010-08-13 15:12+0200\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2011-11-13 15:26+0200\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: Gezer <gezer@lists.launchpad.net>\n"
-"Language: \n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Hebrew\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Country: ISRAEL\n"
@@ -39,20 +40,19 @@ msgstr "התאמת המראה והתחושה של שולחן העבודה שלך
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "ירון שהרבני <sh.yaron@gmail.com<"
+msgstr "ירון שהרבני <sh.yaron@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>החלקת קצוות</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>אפשרויות מנשק המשתמש</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>אפשרויות מנשק המשתמש</b>"
+msgstr "<b>רמיזה</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -70,11 +70,11 @@ msgstr "<b>פעלולי שמע</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>גאומטריית תת־פיקסלים</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -98,7 +98,7 @@ msgstr "ערכת הצבע אינה נתמכת על ידי ערכת הנושא ש
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
-msgstr "גופן ברירת המחדל:"
+msgstr "גופן בררת המחדל:"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
@@ -106,15 +106,15 @@ msgstr "הדגמה"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "הפעלת החלקת קצוות"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "הפעלת רמיזה"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "גופן"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -122,11 +122,11 @@ msgstr "קדמה"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "מלא"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "סגנון הרמיזה:"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -146,7 +146,7 @@ msgstr "סמל גדול בסרגל הכלים"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "בינוני"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -154,7 +154,7 @@ msgstr "סמן העכבר"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "ללא"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -177,9 +177,8 @@ msgid "Play event sounds"
 msgstr "השמעת צלילים לאירועים"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "נגינת צלילי אירועים כמשוב לקלט מהמשתמש"
+msgstr "יש לנגן צלילי אירועים כמשוב לקלט המשתמש"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -195,7 +194,7 @@ msgstr "תצוגה מקדימה של סגנון הווידג׳ט הנבחר"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
@@ -239,7 +238,7 @@ msgstr "גודל הסמנים"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "פצפון"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
@@ -251,7 +250,7 @@ msgstr "קטן יותר"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "גאומטריית תת־פיקסלים:"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -270,12 +269,10 @@ msgid "Text windows:"
 msgstr "חלונות טקסט:"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "גודל סמלי סרגל הכלים:"
 
 #: ../data/ui/lxappearance.ui.h:58
-#, fuzzy
 msgid "Toolbar Style: "
 msgstr "סגנון סרגל הכלים:"
 
@@ -289,11 +286,11 @@ msgstr "שימוש בערכת צבעים מותאמת אישית"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
