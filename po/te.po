@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-07-28 12:56+0200\n"
+"PO-Revision-Date: 2012-04-11 04:03+0200\n"
 "Last-Translator: PraveenIlla <mail2ipn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -41,7 +41,7 @@ msgstr "Praveen Illa <mail2ipn@gmail.com>, 2011."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>యాంటీఅలియాసింగ్</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
@@ -64,7 +64,7 @@ msgstr "<b>శబ్ధ ప్రభావం</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>ఉప-పిక్సెల్ జ్యామితి</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
@@ -88,7 +88,7 @@ msgstr "రంగు"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
+msgstr "రంగు ప్రణాళిక ప్రస్తుతం ఎంచుకున్న విడ్జెట్ థీముకు సహకరించుటలేదు."
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
@@ -100,11 +100,11 @@ msgstr "ఉపపాదన"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "యాంటీఅలియాసింగును చేతనపరుచు"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "హింటింగ్ చేతనపరుచు"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
@@ -120,7 +120,7 @@ msgstr "మొత్తం"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "హింటింగ్ శైలి: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -172,7 +172,7 @@ msgstr "కార్యక్రమాల ధ్వనులను ఆడిం�
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Play event sounds as feedback to user input"
-msgstr ""
+msgstr "వాడుకరి ఇన్‌పుట్‌కి ఫీడ్‌బ్యాక్ వలె కార్యక్రమ శబ్దాలను ఆడించు"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -204,15 +204,15 @@ msgstr "బటన్ల వలె"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
-msgstr ""
+msgstr "సంవాదాల వలె"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
-msgstr ""
+msgstr "లాగే ప్రతీకల వలె"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
-msgstr ""
+msgstr "మెనూ అంశాల వలె"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
@@ -232,7 +232,7 @@ msgstr "కర్సర్ యొక్క పరిమాణం"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "కొద్ది"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
@@ -244,7 +244,7 @@ msgstr "చిన్నది"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "ఉప-పిక్సెల్ జ్యామితి. "
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -276,7 +276,7 @@ msgstr "సాధనచిట్కాలు:"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
-msgstr ""
+msgstr "అనురూపిత వర్ణ ప్రణాళికను వాడు"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
