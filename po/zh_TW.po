@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2010-08-08 01:59+0800\n"
-"Last-Translator: 洪任諭 <pcman.tw@gmail.com>\n"
+"PO-Revision-Date: 2012-04-14 08:19+0200\n"
+"Last-Translator: Walter <wwycheuk@gmail.com>\n"
 "Language-Team: zh_TW <zh@li.org>\n"
-"Language: \n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -42,16 +44,15 @@ msgstr "洪任諭 (PCMan) <pcman.tw@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>反鋸齒</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>圖形介面選項</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>圖形介面選項</b>"
+msgstr "<b>修飾</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -92,7 +93,7 @@ msgstr "色彩"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "目前選取的佈景主題不支援變更色彩"
+msgstr "目前選取的圖形元件佈景主題不支援配色方案"
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Default font:"
@@ -104,15 +105,15 @@ msgstr "展示"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "啟用反鋸齒"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "啟用修飾"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
-msgstr ""
+msgstr "字型"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
@@ -120,11 +121,11 @@ msgstr "前景"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
-msgstr ""
+msgstr "完整"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "修飾風格："
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -152,7 +153,7 @@ msgstr "滑鼠游標"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "None"
-msgstr ""
+msgstr "無"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Normal windows:"
@@ -175,9 +176,8 @@ msgid "Play event sounds"
 msgstr "播放事件音效"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "使用者輸入時播放回饋音效"
+msgstr "使用者輸入時播放事件音效作為回饋"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -189,7 +189,7 @@ msgstr "預覽選取的圖示佈景主題"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Preview of the selected widget style"
-msgstr "預覽選取的視窗元件佈景主題"
+msgstr "預覽選取的圖形元件風格"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
-msgstr "Radio 按鈕"
+msgstr "單選按鈕"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
@@ -221,15 +221,15 @@ msgstr "和選單項目相同"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
-msgstr "選取的項目："
+msgstr "所選項目："
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Show images in menus"
-msgstr "在選單中顯示圖示"
+msgstr "在選單顯示圖示"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Show images on buttons"
-msgstr "在按鈕上顯示圖示"
+msgstr "在按鈕顯示圖示"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Size of cursors"
@@ -237,7 +237,7 @@ msgstr "游標大小"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "輕微"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
@@ -268,12 +268,10 @@ msgid "Text windows:"
 msgstr "文字視窗："
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
 msgid "Toolbar Icon Size: "
 msgstr "工具列圖示大小："
 
 #: ../data/ui/lxappearance.ui.h:58
-#, fuzzy
 msgid "Toolbar Style: "
 msgstr "工具列風格："
 
@@ -283,7 +281,7 @@ msgstr "工具提示："
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
-msgstr "使用自訂的色彩"
+msgstr "使用自訂配色方案"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
@@ -319,7 +317,7 @@ msgstr "按鈕"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"
-msgstr "選取一個圖示佈景主題"
+msgstr "選取圖示佈景主題"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
