@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2012-04-14 08:19+0200\n"
+"PO-Revision-Date: 2012-04-14 10:49+0200\n"
 "Last-Translator: Walter <wwycheuk@gmail.com>\n"
 "Language-Team: zh_TW <zh@li.org>\n"
 "Language: zh_TW\n"
@@ -69,11 +69,11 @@ msgstr "<b>音效</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>次像素配置</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -145,7 +145,7 @@ msgstr "大型工具列圖示"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr ""
+msgstr "中等"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
@@ -193,7 +193,7 @@ msgstr "預覽選取的圖形元件風格"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
@@ -249,7 +249,7 @@ msgstr "較小"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "次像素配置："
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -285,11 +285,11 @@ msgstr "使用自訂配色方案"
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
