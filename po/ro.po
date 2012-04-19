@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2012-04-18 15:28+0200\n"
+"PO-Revision-Date: 2012-04-19 13:43+0200\n"
 "Last-Translator: Mișu <dumol@l10n.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -144,7 +144,7 @@ msgstr "Iconițe mari în bara cu unelte"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "Medium"
-msgstr "Medie"
+msgstr "Mediu"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Mouse Cursor"
