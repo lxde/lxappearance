@@ -68,6 +68,10 @@ PKG_CHECK_MODULES(GTK, [$gtk_modules])
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)
 
+PKG_CHECK_MODULES(DBUS, [dbus-1 >= 0.95 dbus-glib-1 >= 0.70])
+AC_SUBST(DBUS_CFLAGS)
+AC_SUBST(DBUS_LIBS)
+
 gmodule_modules="gmodule-export-2.0"
 PKG_CHECK_MODULES(GMODULE, [$gmodule_modules])
 AC_SUBST(GMODULE_CFLAGS)

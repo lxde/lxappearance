@@ -37,6 +37,7 @@ lxappearance_CFLAGS = \
 	$(GTK_CFLAGS) \
 	$(XLIB_CFLAGS) \
 	$(GMODULE_CFLAGS) \
+	$(DBUS_CFLAGS) \
 	$(ADDITIONAL_FLAGS) \
 	-Werror-implicit-function-declaration \
 	$(NULL)
@@ -45,6 +46,7 @@ lxappearance_LDADD = \
 	$(GTK_LIBS) \
 	$(XLIB_LIBS) \
 	$(GMODULE_LIBS) \
+	$(DBUS_LIBS) \
 	$(INTLLIBS) \
 	$(NULL)
 
