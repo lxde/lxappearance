@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-06-20 19:37+0200\n"
+"PO-Revision-Date: 2011-12-31 23:37+0200\n"
 "Last-Translator: Радослав <Rec.ku@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -71,7 +71,7 @@ msgstr "<b>Форма на подпикселите</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
-msgstr ""
+msgstr "Основни цветове"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Background"
@@ -174,10 +174,8 @@ msgid "Play event sounds"
 msgstr "Изпълнявай сигнализиращи звукове"
 
 #: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr ""
-"Изпълнявай сигнализиращи звукове, като отражение на набраните комбинации"
+msgstr "Изпълнявай сигнализиращи звукове според набраните комбинации"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Preview of the selected cursor theme"
@@ -285,11 +283,11 @@ msgstr "Използвай персонализирана цветова схе�
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "VBGR"
-msgstr ""
+msgstr "Вертикално: синьо, зелено, червено"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "VRGB"
-msgstr ""
+msgstr "Вертикално: червено, зелено, синьо"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
