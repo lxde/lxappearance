@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+%:
+	dh ${@} --with autoreconf
+
+override_dh_auto_configure:
+	dh_auto_configure -- --enable-man
+
+override_dh_auto_test:
+	# disabled: test fails in po directory
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz -z9
+
+override_dh_install:
+	dh_install --fail-missing
+
+override_dh_strip:
+	dh_strip --dbg-package=lxappearance-dbg

@@ -1,0 +1,4 @@
+?package(lxappearance):needs="X11" section="Applications/System/Administration"\
+  title="LXAppearance" longtitle="LXDE GTK+ theme switcher"\
+  description="LXAppearance is a GUI application for the Lightweight X11 Desktop Environment (LXDE). It is a new feature-rich GTK+ theme switcher able to change GTK+ themes, icon themes, and fonts used by applications. GNOME/KDE/Xfce user may use build-in theme, this works for GTK+ based lightweight desktop Environment."\
+  command="/usr/bin/lxappearance"

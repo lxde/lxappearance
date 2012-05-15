@@ -1,0 +1,172 @@
+lxappearance (0.5.1-2) unstable; urgency=low
+
+  * Updating maintainer field.
+  * Adding myself to uploaders.
+  * Updating vcs fields.
+  * Removing whitespaces at EOL and EOF.
+  * Updating package to debhelper version 9.
+  * Updating package to standards version 3.9.3.
+  * Making build-depends unversioned where already fulfiled as of
+    squeeze.
+  * Updating homepage field.
+  * Rewriting copyright file machine-readable format version 1.0.
+  * Always installing appport hook, not just on ubuntu only.
+  * Decrufting rules file.
+  * Switching to xz compression for both the source and the binary
+    packages.
+  * Reworking package descriptions.
+  * Completing menu file.
+  * Correcting depends.
+  * Removing patches left-overs.
+
+ -- Daniel Baumann <daniel@debian.org>  Mon, 16 Apr 2012 21:39:22 +0000
+
+lxappearance (0.5.1-1) unstable; urgency=low
+
+  * Removing useless whitespaces at EOL and EOF.
+  * Use debhelper 8
+  * Sorting build-depends.
+  * Wapping build-depends.
+  * Sorting and rewapping depends.
+  * Updating Vcs-Browser and Vcs-Git tags.
+  * Removing debian/docs file which contain not useful thing.
+  * Compacting watch file.
+  * Compacting rules file.
+  * Removing unused debian/dirs file.
+  * Adding apport hook for Ubuntu and Ubuntu derivatives from
+    Julien Lavergne <gilir@ubuntu.com>.
+  * Updating build-depends.
+  * Converting debian/copyright into machine readable format.
+  * Merging upstream version 0.5.1:
+    - Updated copyright year
+    - Removing useless whitespaces at EOL and EOF.
+    - Correcting automake handling for –enable-man configure option
+      that has never worked in the first place.
+    - Rather than failing with an error when build is run
+      with –enable-man=no, now printing only a warning instead.
+    - Rather than unconditionally regenerating the manpage,
+      setting the –enable-man default to yes.
+    - Update FSF address
+    - fixed assignment and plugged memory leak
+    - fixed the types of the app struct members holding the
+      gtk-xft-hintstyle and gtk-xft-hintstyle properties
+    - Remove deprecated property in ui file
+    - Add an option to compile with gtk3
+    - Write gtkrc file in gtk3 directory
+    - Revert also commit on plugin
+    - Revert part of the commit for compiler warnings, to fix loading themes.
+    - Update po with migration to UI
+    - Fix not capitalized string
+    - Add new font configuration tab.
+    - Apply patch on GTK3 migration
+    - Use directly ui file instead of glade files
+    - Improve build system (new flags, silent rules)
+  * Remove useless autoreconf from rules file.
+  * Remove useless override_dh_auto_clean from rules file.
+  * Disabling dh_auto_test in rules file: check failed in po/.
+  * Installing lxappearance.menu. (Closes: #587791)
+  * Moving gtk2-engines from depends to recommends. (Closes: #592683)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 30 Jul 2011 22:08:42 +0800
+
+lxappearance (0.5.0-1) unstable; urgency=low
+
+  [ Julien Lavergne ]
+  * New upstream release.
+   - Fix crash with early call to gtkrc_file_get_color_scheme. LP: #642153
+  * debian/patches/lxappearance-0.4.0+git20100807.patch:
+    - Drop, merged upstream.
+  * debian/control:
+   - Add a new binary for files needed to build plugins.
+   - Add a debug package.
+   - Build-depends on lsb-release, needed to detect the distribution.
+   - Build-depends on intltool (>= 0.40.0), libx11-dev,
+     libmenu-cache1-dev (>= 0.3.2).
+   - Bump build-depends on libgtk2.0-dev (>= 2.12) and libglib2.0-dev (>= 2.18).
+   - Wrap depends and build-depends.
+  * debian/*.install:
+   - Split installed files.
+  * debian/apport/source_lxappearance.py:
+   - Add apport hook.
+  * debian/rules:
+   - Install apport hook only on Ubuntu.
+   - Add dh_strip call for the debug package.
+   - Use --fail-missing for dh_install.
+   - Disable autoreconf call for this stable release.
+  * debian/copyright:
+   - Update copyright year.
+
+  [ Andrew Lee (李健秋) ]
+  * Use Debian LXDE Packaging Team address.
+  * Bumped Standard-version to 3.9.2
+  * Added Vcs-Git and Vcs-Browser tags
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Added a patch that sync with upstream snapshot
+  * Build-depends on debhelper (>= 7.0.50~)
+  * Bumped to dh7
+  * Update rules file to dh7 format
+  * Fix description-synopsis-starts-with-article lintien warning
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 20 Jul 2011 00:30:09 +0800
+
+lxappearance (0.4.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #562564, #532847)
+    - Replace all Glade-generated code with GtkBuilder
+    - Use icon names defined in newer icon naming spec.
+    - UI adjustment
+    - Fix memory leaks and compiler warnings.
+    - Translation update
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2010 00:11:40 +0800
+
+lxappearance (0.3.0+svn20091218-1) unstable; urgency=low
+
+  * Sync with upstream for bug fix
+    - fix category in lxappearance.desktop
+    - Cursor theme modification is disabled by default since it is buggy
+    - Translation update
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 18 Dec 2009 15:35:01 +0800
+
+lxappearance (0.3+svn20091101-1) unstable; urgency=low
+
+  * New upstream release (Closes:#559463)
+    - Support the latest lxsession-Xsettings-daemon
+    - Cursor size support
+  * Drop dpatch. (patches merged into upstream)
+  * Update homepage url
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 05 Dec 2009 12:33:48 +0800
+
+lxappearance (0.2.1-2) unstable; urgency=low
+
+  * Applied 01_fix_infinite_loop.dpatch (Closes:#541666)
+  * debian/control:
+    - Build-depends on intltool, dpatch
+  * debian/rules:
+    - autoreconf -fiv
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 15 Aug 2009 21:38:26 +0800
+
+lxappearance (0.2.1-1) unstable; urgency=low
+
+  * New upstream release
+    - Use Docbook-XML instead of SGML for manpages
+    - Enable regeneration of man pages via "configure --enable-man"
+    - Compilation error fix
+    - Translation update (Cloese:#532847)
+  * Correct debian/watch
+  * debian/rules:
+    - Added --enable-man
+  * debian/control:
+    - Build-depends on docbook-xsl
+  * Bumped Stardard-version to 3.8.2
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 26 Jul 2009 21:32:32 +0200
+
+lxappearance (0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #482165)
+
+ -- Andrew Lee <andrew@linux.org.tw>  Sun, 25 May 2008 14:49:18 +0800
