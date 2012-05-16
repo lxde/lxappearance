@@ -42,16 +42,15 @@ msgstr "Julius Vitkauskas <zadintuvas@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Glotninimas</b>"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "<b>GUI Options</b>"
 msgstr "<b>GUI nusatymai</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>GUI nusatymai</b>"
+msgstr "<b>Taškinė korekcija</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid ""
@@ -69,7 +68,7 @@ msgstr "<b>Garso efektas</b>"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Popikselinis glotninimas</b>"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "BGR"
@@ -105,11 +104,11 @@ msgstr "Demonstracija"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
-msgstr ""
+msgstr "Įjungti glotninimą"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr ""
+msgstr "Įjungti taškinę korekciją"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
@@ -125,7 +124,7 @@ msgstr "Pilnas"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr ""
+msgstr "Taškinės korekcijos stilius:"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -205,19 +204,19 @@ msgstr "Pašalinti"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Same as buttons"
-msgstr ""
+msgstr "Taip kaip mygtukai"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Taip kaip dialogai"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Taip kaip vilkimo piktogramos"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Same as menu items"
-msgstr ""
+msgstr "Taip kaip meniu elementai"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Selected items:"
@@ -237,7 +236,7 @@ msgstr "Kursorių dydis"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid "Slight"
-msgstr ""
+msgstr "Lengvas"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Small toolbar icon"
@@ -249,7 +248,7 @@ msgstr "Mažesnis"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Popikselinis glotninimas:"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "Text below icons"
@@ -293,7 +292,7 @@ msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Widget"
-msgstr ""
+msgstr "Valdiklis"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
