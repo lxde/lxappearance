@@ -31,7 +31,7 @@ AC_HEADER_STDC
 IT_PROG_INTLTOOL([0.40.0])
 
 AC_ARG_ENABLE(man,
-AC_HELP_STRING([--enable-man],[regenerate roff man pages from Docbook @<:@default=yes@:>@]),
+AS_HELP_STRING([--enable-man],[regenerate roff man pages from Docbook @<:@default=yes@:>@]),
 [case "${enableval}" in
   yes)  enable_man=yes ;;
   no)   enable_man=no ;;
@@ -39,14 +39,14 @@ AC_HELP_STRING([--enable-man],[regenerate roff man pages from Docbook @<:@defaul
 esac],[])
 
 AC_ARG_ENABLE(more_warnings,
-       [AC_HELP_STRING([--enable-more-warnings],
+       [AS_HELP_STRING([--enable-more-warnings],
                [Add more warnings @<:@default=no@:>@])],
        [enable_more_warnings="${enableval}"],
        [enable_more_warnings=no]
 )
 
 AC_ARG_ENABLE(gtk3,
-AC_HELP_STRING([--enable-gtk3],[enable to use gtk-3.0 instead of gtk-2.0]),
+AS_HELP_STRING([--enable-gtk3],[enable to use gtk-3.0 instead of gtk-2.0]),
 [case "${enableval}" in
   yes)  enable_gtk3=yes ;;
   no)   enable_gtk3=no ;;
@@ -93,7 +93,7 @@ fi
 AC_SUBST(ADDITIONAL_FLAGS)
 
 AC_ARG_ENABLE(man,
-       [AC_HELP_STRING([--enable-man],
+       [AS_HELP_STRING([--enable-man],
                [regenerate roff man pages from Docbook @<:@default=no@:>@])],
        [enable_man="${enableval}"],
        [enable_man=no]
