@@ -68,9 +68,22 @@ PKG_CHECK_MODULES(GTK, [$gtk_modules])
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)
 
-PKG_CHECK_MODULES(DBUS, [dbus-1 >= 0.95 dbus-glib-1 >= 0.70])
+AC_ARG_ENABLE(dbus,
+       [AS_HELP_STRING([--enable-dbus],
+               [Use Dbus support (usefull for lxsession > 0.4.9) @<:@default=no@:>@])],
+       [enable_dbus="${enableval}"],
+       [enable_dbus=no]
+)
+
+
+if test x"$enable_dbus" = x"yes"; then
+       PKG_CHECK_MODULES(DBUS, [dbus-1 >= 0.95 dbus-glib-1 >= 0.70])
+       CFLAGS="$CFLAGS -DENABLE_DBUS"
+fi
 AC_SUBST(DBUS_CFLAGS)
 AC_SUBST(DBUS_LIBS)
+
+
 
 gmodule_modules="gmodule-export-2.0"
 PKG_CHECK_MODULES(GMODULE, [$gmodule_modules])
@@ -163,6 +176,7 @@ else
     echo lxappearance....................... : Version $VERSION
     echo
     echo Enable debug....................: "$enable_debug"
+    echo Enable Dbus support.............: "$enable_dbus"
     echo Prefix..........................: $prefix
     echo
     echo The binary will be installed in $prefix/bin

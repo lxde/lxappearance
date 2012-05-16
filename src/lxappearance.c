@@ -34,7 +34,9 @@
 #include <gdk/gdkx.h>
 #include <string.h>
 
+#if ENABLE_DBUS
 #include <dbus/dbus.h>
+#endif
 
 #include "widget-theme.h"
 #include "color-scheme.h"
@@ -55,6 +57,7 @@ static const char* lxsession_name = NULL;
 
 static gboolean check_lxde_dbus()
 {
+#if ENABLE_DBUS
     DBusError error;
     dbus_error_init(&error);
     DBusConnection * connection = dbus_bus_get(DBUS_BUS_SESSION, &error);
@@ -79,6 +82,9 @@ static gboolean check_lxde_dbus()
     {
         return FALSE;
     }
+#else
+    return FALSE;
+#endif
 }
 
 static void check_lxsession()

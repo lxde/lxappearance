@@ -4,7 +4,7 @@
 	dh ${@} --with autoreconf
 
 override_dh_auto_configure:
-	dh_auto_configure -- --enable-man
+	dh_auto_configure -- --enable-man --enable-dbus
 
 override_dh_auto_test:
 	# disabled: test fails in po directory
