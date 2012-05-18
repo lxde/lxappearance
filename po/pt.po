@@ -1,15 +1,15 @@
 # Portuguese translation for LXAPPEARANCE.
 # Copyright (C) 2010 The LXAPPEARANCE Copyright Holder.
 # This file is distributed under the same license as the LXAPPEARANCE package.
-# Sérgio Marques <smarquespt@gmail.com>, 2010.
+# Sérgio Marques <smarquespt@gmail.com>, 2010-2012.
 # Adaptado ao acordo ortográfico de 1990
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1\n"
+"Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 16:48+0200\n"
-"PO-Revision-Date: 2011-11-22 14:48+0200\n"
-"Last-Translator: Sérgio <smarquespt@gmail.com>\n"
+"PO-Revision-Date: 2012-05-18 10:48-0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,8 @@ msgstr ""
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: PORTUGAL\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.ui.h:13
 msgid "Customize Look and Feel"
 msgstr "Personalizar aparência e comportamento"
 
@@ -34,7 +35,7 @@ msgstr "Direitos de autor (C) 2011 Projeto LXDE"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Personaliza o aspecto do seu ambiente de trabalho"
+msgstr "Personaliza a aparência do seu ambiente de trabalho"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
@@ -51,17 +52,11 @@ msgstr "<b>Opções de interface</b>"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "<b>Hinting</b>"
-msgstr "<b>Ajudas</b>"
+msgstr "<b>Ajustes</b>"
 
 #: ../data/ui/lxappearance.ui.h:4
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
-"<b>Nota:</b> nem todas as aplicações suportam a alteração imediata dos "
-"cursores. Assim, algumas alterações efetuadas poderão não ser aplicadas até "
-"ao próximo início de sessão."
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Nota:</b> nem todas as aplicações suportam a alteração imediata dos cursores. Assim, algumas alterações efetuadas poderão não ser aplicadas até ao próximo início de sessão."
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "<b>Sound Effect</b>"
@@ -85,7 +80,7 @@ msgstr "Maior"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Check Button"
-msgstr "Botão de verificação"
+msgstr "Botão de seleção"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "Color"
@@ -101,7 +96,7 @@ msgstr "Tipo de letra padrão:"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "Demo"
-msgstr "Demo"
+msgstr "Demonstração"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "Enable antialising"
@@ -109,7 +104,7 @@ msgstr "Ativar suavização"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "Enable hinting"
-msgstr "Ativar ajudas"
+msgstr "Ativar ajustes"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "Font"
@@ -117,7 +112,7 @@ msgstr "Tipo de letra"
 
 #: ../data/ui/lxappearance.ui.h:19
 msgid "Foreground"
-msgstr "Primeiro plano"
+msgstr "Principal"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Full"
@@ -125,7 +120,7 @@ msgstr "Total"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "Hinting style: "
-msgstr "Estilo das ajudas: "
+msgstr "Estilo dos ajustes: "
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "Icon Theme"
@@ -133,7 +128,7 @@ msgstr "Tema de ícones"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "Icons only"
-msgstr "Apenas ícones"
+msgstr "Só ícones"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Install"
@@ -197,7 +192,7 @@ msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Radio Button"
-msgstr "Botão rádio"
+msgstr "Botão de opção"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Remove"
@@ -261,7 +256,7 @@ msgstr "Texto ao lado dos ícones"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Text only"
-msgstr "Apenas texto"
+msgstr "Só texto"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "Text windows:"
@@ -277,7 +272,7 @@ msgstr "Estilo da barra de ferramentas: "
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Tooltips:"
-msgstr "Dicas de ferramentas:"
+msgstr "Dicas:"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Use customized color scheme"
@@ -321,4 +316,5 @@ msgstr "Selecione um tema de ícones"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Tema de ícone)"
+msgstr "*.tar.gz, *.tar.bz2 (Tema de ícones)"
+
