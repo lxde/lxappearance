@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-20 16:27+0200\n"
+"PO-Revision-Date: 2012-02-24 23:52+0200\n"
+"Last-Translator: كريم <herr-linux@hotmail.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
+msgid "Customize Look and Feel"
+msgstr "تخصيص المظهر و الإحساس"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "تخصيصات مظهر وإحساس سطح مكتبك وتطبيقاته"
+
+#: ../data/ui/about.ui.in.h:1
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "حقوق النشر (C) 2011 مشروع LXDE"
+
+#: ../data/ui/about.ui.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "تخصيصات مظهر وإحساس سطح مكتبك"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.ui.in.h:4
+msgid "translator-credits"
+msgstr "Karim Oulad Chalha <herr.linux88@gmail.com>"
+
+#: ../data/ui/lxappearance.ui.h:1
+msgid "Icons only"
+msgstr "أيقونات فقط"
+
+#: ../data/ui/lxappearance.ui.h:2
+msgid "Text only"
+msgstr "النص فقط"
+
+#: ../data/ui/lxappearance.ui.h:3
+msgid "Text below icons"
+msgstr "النص تحت الأيقونات"
+
+#: ../data/ui/lxappearance.ui.h:4
+msgid "Text beside icons"
+msgstr "النص بجانب الأيقونات"
+
+#: ../data/ui/lxappearance.ui.h:5
+msgid "Same as menu items"
+msgstr "نفس عناصر القائمة"
+
+#: ../data/ui/lxappearance.ui.h:6
+msgid "Small toolbar icon"
+msgstr "أيقونات شريط الأدوات صغيرة"
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "Large toolbar icon"
+msgstr "أيقونات شريط الأدوات كبيرة"
+
+#: ../data/ui/lxappearance.ui.h:8
+msgid "Same as buttons"
+msgstr "نفس الأزرار"
+
+#: ../data/ui/lxappearance.ui.h:9
+msgid "Same as drag icons"
+msgstr "نفس أيقونات السحب"
+
+#: ../data/ui/lxappearance.ui.h:10
+msgid "Same as dialogs"
+msgstr "نفس الحوارات"
+
+#: ../data/ui/lxappearance.ui.h:11
+msgid "None"
+msgstr "بدون"
+
+#: ../data/ui/lxappearance.ui.h:12
+msgid "Slight"
+msgstr "قليل"
+
+#: ../data/ui/lxappearance.ui.h:13
+msgid "Medium"
+msgstr "متوسطة"
+
+#: ../data/ui/lxappearance.ui.h:14
+msgid "Full"
+msgstr "كامل"
+
+#: ../data/ui/lxappearance.ui.h:15
+msgid "RGB"
+msgstr "أحمر أخضر أزرق"
+
+#: ../data/ui/lxappearance.ui.h:16
+msgid "BGR"
+msgstr "أزرق أخضر أحمر"
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Preview of the selected widget style"
+msgstr "معاينة سمة نمط القطع المحدد"
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "_File"
+msgstr "_ملف"
+
+#: ../data/ui/lxappearance.ui.h:22
+msgid "_Edit"
+msgstr "_تحرير"
+
+#: ../data/ui/lxappearance.ui.h:23
+msgid "_Help"
+msgstr "_مساعدة"
+
+#: ../data/ui/lxappearance.ui.h:24
+msgid "Radio Button"
+msgstr "زر راديو"
+
+#: ../data/ui/lxappearance.ui.h:25
+msgid "Check Button"
+msgstr "زر تحول"
+
+#: ../data/ui/lxappearance.ui.h:26
+msgid "button"
+msgstr "زر"
+
+#: ../data/ui/lxappearance.ui.h:27
+msgid "Demo"
+msgstr "العينة"
+
+#: ../data/ui/lxappearance.ui.h:28
+msgid "Page1"
+msgstr "صفحة1"
+
+#: ../data/ui/lxappearance.ui.h:29
+msgid "Page2"
+msgstr "صفحة2"
+
+#: ../data/ui/lxappearance.ui.h:30
+msgid "Default font:"
+msgstr "الخط الإفتراضي:"
+
+#: ../data/ui/lxappearance.ui.h:31
+msgid "Widget"
+msgstr "قطعة"
+
+#: ../data/ui/lxappearance.ui.h:32
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "مخطط الألوان غير مدعوم من طرف السمة المحددة حاليا."
+
+#: ../data/ui/lxappearance.ui.h:33
+msgid "Use customized color scheme"
+msgstr "استخدام مخطط ألوان مخصص"
+
+#: ../data/ui/lxappearance.ui.h:34
+msgid "Normal windows:"
+msgstr "نوافذ عادية:"
+
+#: ../data/ui/lxappearance.ui.h:35
+msgid "Text windows:"
+msgstr "نص النوافذ:"
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Selected items:"
+msgstr "العناصر المحددة:"
+
+#: ../data/ui/lxappearance.ui.h:37
+msgid "Tooltips:"
+msgstr "التلميحات:"
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "Background"
+msgstr "الخلفية"
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Foreground"
+msgstr "المقدمة"
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Color"
+msgstr "اللون"
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Install"
+msgstr "تثبيت"
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Remove"
+msgstr "إزالة"
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Preview of the selected icon theme"
+msgstr "معاينة سمة الأيقونات المحددة"
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Icon Theme"
+msgstr "سِمة الأيقونات"
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Preview of the selected cursor theme"
+msgstr "معاينة سمة المؤشر المحددة"
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Size of cursors"
+msgstr "حجم المؤشر"
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Smaller"
+msgstr "أصغر"
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Bigger"
+msgstr "أكبر"
+
+#: ../data/ui/lxappearance.ui.h:49
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>ملحوظة</b> لا تدعم كل تطبيقات سطح المكتب سمة المؤشر عنذ التحليق. لذلك "
+"فإنه لن يتم تطبيق جميع إختيارات إلى بعد الولوج التالي."
+
+#: ../data/ui/lxappearance.ui.h:50
+msgid "Mouse Cursor"
+msgstr "مؤشر الفأرة"
+
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Window Border"
+msgstr "حدود النافذة"
+
+#: ../data/ui/lxappearance.ui.h:52
+msgid "Enable antialising"
+msgstr "تمكين مضاد التعرجات"
+
+#: ../data/ui/lxappearance.ui.h:53
+msgid "<b>Antialising</b>"
+msgstr "<b>مضاد التعرج</b>"
+
+#: ../data/ui/lxappearance.ui.h:54
+msgid "Enable hinting"
+msgstr "تمكين التلميحات"
+
+#: ../data/ui/lxappearance.ui.h:55
+msgid "Hinting style: "
+msgstr "أسلوب التلميح:"
+
+#: ../data/ui/lxappearance.ui.h:56
+msgid "<b>Hinting</b>"
+msgstr "<b>التلميحات</b>"
+
+#: ../data/ui/lxappearance.ui.h:57
+msgid "Sub-pixel geometry: "
+msgstr "Sub-pixel geometry: "
+
+#: ../data/ui/lxappearance.ui.h:58
+msgid "<b>Sub-pixel geometry</b>"
+msgstr "<b>Sub-pixel geometry</b>"
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Font"
+msgstr "الخط"
+
+#: ../data/ui/lxappearance.ui.h:60
+msgid "Toolbar Style: "
+msgstr "نمط شريط الأدوات:"
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "Toolbar Icon Size: "
+msgstr "حجم أيقونة شريط الأدوات:"
+
+#: ../data/ui/lxappearance.ui.h:62
+msgid "Show images on buttons"
+msgstr "إظهار الصور في الأزرار"
+
+#: ../data/ui/lxappearance.ui.h:63
+msgid "Show images in menus"
+msgstr "إظهار الصور في القوائم"
+
+#: ../data/ui/lxappearance.ui.h:64
+msgid "<b>GUI Options</b>"
+msgstr "<b>خيارات الواجهة</b>"
+
+#: ../data/ui/lxappearance.ui.h:65
+msgid "Play event sounds"
+msgstr "تشغيل أصوات الأحداث"
+
+#: ../data/ui/lxappearance.ui.h:66
+msgid "Play event sounds as feedback to user input"
+msgstr "تشغيل أصوات الأحداث كرد فعل على إدخال المستخدم"
+
+#: ../data/ui/lxappearance.ui.h:67
+msgid "<b>Sound Effect</b>"
+msgstr "<b>المؤثرات الصوتية</b>"
+
+#: ../data/ui/lxappearance.ui.h:68
+msgid "Other"
+msgstr "أخرى"
+
+#: ../src/utils.c:217
+msgid "Select an icon theme"
+msgstr "حدد سمة أيقونات"
+
+#: ../src/utils.c:224
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (سمة الأيقونات)"
