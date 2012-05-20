@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 16:48+0200\n"
+"POT-Creation-Date: 2012-05-20 16:27+0200\n"
 "PO-Revision-Date: 2010-11-01 23:51+0100\n"
 "Last-Translator: Radek Tříška <radek@fastlinux.eu>\n"
 "Language-Team: Czech <radek@fastlinux.eu>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
 msgstr "Upravit vzhled a chování"
 
@@ -41,19 +41,197 @@ msgid "translator-credits"
 msgstr "Radek Tříška (radek@fastlinux.eu)"
 
 #: ../data/ui/lxappearance.ui.h:1
-msgid "<b>Antialising</b>"
-msgstr ""
+msgid "Icons only"
+msgstr "Pouze ikony"
 
 #: ../data/ui/lxappearance.ui.h:2
-msgid "<b>GUI Options</b>"
-msgstr "<b>Volby GUI</b>"
+msgid "Text only"
+msgstr "Pouze text"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
-msgid "<b>Hinting</b>"
-msgstr "<b>Volby GUI</b>"
+msgid "Text below icons"
+msgstr "Text pod ikonami"
 
 #: ../data/ui/lxappearance.ui.h:4
+msgid "Text beside icons"
+msgstr "Text vedle ikon"
+
+#: ../data/ui/lxappearance.ui.h:5
+msgid "Same as menu items"
+msgstr "Stejné jako položky nabídek"
+
+#: ../data/ui/lxappearance.ui.h:6
+msgid "Small toolbar icon"
+msgstr "Malé ikony panelu nástrojů"
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "Large toolbar icon"
+msgstr "Velké ikony panelu nástrojů"
+
+#: ../data/ui/lxappearance.ui.h:8
+msgid "Same as buttons"
+msgstr "Stejné jako tlačítka"
+
+#: ../data/ui/lxappearance.ui.h:9
+#, fuzzy
+msgid "Same as drag icons"
+msgstr "Stejné jako přetahované ikony"
+
+#: ../data/ui/lxappearance.ui.h:10
+msgid "Same as dialogs"
+msgstr "Stejné jako dialogy"
+
+#: ../data/ui/lxappearance.ui.h:11
+msgid "None"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:12
+msgid "Slight"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:13
+msgid "Medium"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:14
+msgid "Full"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:15
+msgid "RGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:16
+msgid "BGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "VRGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "VBGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Preview of the selected widget style"
+msgstr "Náhled vybraného widget motivu"
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "_File"
+msgstr "_Soubor"
+
+#: ../data/ui/lxappearance.ui.h:22
+msgid "_Edit"
+msgstr "_Upravit"
+
+#: ../data/ui/lxappearance.ui.h:23
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../data/ui/lxappearance.ui.h:24
+msgid "Radio Button"
+msgstr "Přepínací tlačítko"
+
+#: ../data/ui/lxappearance.ui.h:25
+msgid "Check Button"
+msgstr "Zaškrtávací tlačítko"
+
+#: ../data/ui/lxappearance.ui.h:26
+msgid "button"
+msgstr "tlačítko"
+
+#: ../data/ui/lxappearance.ui.h:27
+msgid "Demo"
+msgstr "Demo"
+
+#: ../data/ui/lxappearance.ui.h:28
+msgid "Page1"
+msgstr "Karta1"
+
+#: ../data/ui/lxappearance.ui.h:29
+msgid "Page2"
+msgstr "Karta2"
+
+#: ../data/ui/lxappearance.ui.h:30
+msgid "Default font:"
+msgstr "Výchozí písmo:"
+
+#: ../data/ui/lxappearance.ui.h:31
+msgid "Widget"
+msgstr "Widget"
+
+#: ../data/ui/lxappearance.ui.h:32
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Barevné schéma není podporováno u aktuálně vybraného widget motivu."
+
+#: ../data/ui/lxappearance.ui.h:33
+msgid "Use customized color scheme"
+msgstr "Použít vlastní barevné schéma"
+
+#: ../data/ui/lxappearance.ui.h:34
+msgid "Normal windows:"
+msgstr "Normální okna:"
+
+#: ../data/ui/lxappearance.ui.h:35
+#, fuzzy
+msgid "Text windows:"
+msgstr "Textová okna:"
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Selected items:"
+msgstr "Vybrané položky:"
+
+#: ../data/ui/lxappearance.ui.h:37
+#, fuzzy
+msgid "Tooltips:"
+msgstr "Bublinková nápověda:"
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "Background"
+msgstr "Pozadí"
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Foreground"
+msgstr "Popředí"
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Color"
+msgstr "Barva"
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Install"
+msgstr "Instalovat"
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Remove"
+msgstr "Odstranit"
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Preview of the selected icon theme"
+msgstr "Náhled vybraného motivu ikon"
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Icon Theme"
+msgstr "Motiv ikon"
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Preview of the selected cursor theme"
+msgstr "Náhled vybraného motivu kurzoru"
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Size of cursors"
+msgstr "Velikost kurzoru"
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Smaller"
+msgstr "Menší"
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Bigger"
+msgstr "Větší"
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -62,263 +240,85 @@ msgstr ""
 "<b>Poznámka:</b> Některé aplikace nepodporují změnu tématu kurzoru za chodu. "
 "Pro správnou funkčnost všech aplikací je potřeba opětovný login. "
 
-#: ../data/ui/lxappearance.ui.h:5
-msgid "<b>Sound Effect</b>"
-msgstr "<b>Zvukový efekt</b>"
-
-#: ../data/ui/lxappearance.ui.h:6
-msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:7
-msgid "BGR"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:8
-msgid "Background"
-msgstr "Pozadí"
-
-#: ../data/ui/lxappearance.ui.h:9
-msgid "Bigger"
-msgstr "Větší"
-
-#: ../data/ui/lxappearance.ui.h:10
-msgid "Check Button"
-msgstr "Zaškrtávací tlačítko"
-
-#: ../data/ui/lxappearance.ui.h:11
-msgid "Color"
-msgstr "Barva"
-
-#: ../data/ui/lxappearance.ui.h:12
-msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Barevné schéma není podporováno u aktuálně vybraného widget motivu."
-
-#: ../data/ui/lxappearance.ui.h:14
-msgid "Default font:"
-msgstr "Výchozí písmo:"
-
-#: ../data/ui/lxappearance.ui.h:15
-msgid "Demo"
-msgstr "Demo"
-
-#: ../data/ui/lxappearance.ui.h:16
-msgid "Enable antialising"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:17
-msgid "Enable hinting"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:18
-msgid "Font"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:19
-msgid "Foreground"
-msgstr "Popředí"
-
-#: ../data/ui/lxappearance.ui.h:20
-msgid "Full"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:21
-msgid "Hinting style: "
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:22
-msgid "Icon Theme"
-msgstr "Motiv ikon"
-
-#: ../data/ui/lxappearance.ui.h:23
-msgid "Icons only"
-msgstr "Pouze ikony"
-
-#: ../data/ui/lxappearance.ui.h:24
-msgid "Install"
-msgstr "Instalovat"
-
-#: ../data/ui/lxappearance.ui.h:25
-msgid "Large toolbar icon"
-msgstr "Velké ikony panelu nástrojů"
-
-#: ../data/ui/lxappearance.ui.h:26
-msgid "Medium"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:27
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
 msgstr "Kurzor myši"
 
-#: ../data/ui/lxappearance.ui.h:28
-msgid "None"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:29
-msgid "Normal windows:"
-msgstr "Normální okna:"
-
-#: ../data/ui/lxappearance.ui.h:30
-msgid "Other"
-msgstr "Ostatní"
-
-#: ../data/ui/lxappearance.ui.h:31
-msgid "Page1"
-msgstr "Karta1"
-
-#: ../data/ui/lxappearance.ui.h:32
-msgid "Page2"
-msgstr "Karta2"
-
-#: ../data/ui/lxappearance.ui.h:33
-msgid "Play event sounds"
-msgstr "Přehrávání zvuků při událostech"
-
-#: ../data/ui/lxappearance.ui.h:34
-#, fuzzy
-msgid "Play event sounds as feedback to user input"
-msgstr "Přehrávání zvuků při událostech jako zpětnou vazbu uživatelova vstupu"
-
-#: ../data/ui/lxappearance.ui.h:35
-msgid "Preview of the selected cursor theme"
-msgstr "Náhled vybraného motivu kurzoru"
-
-#: ../data/ui/lxappearance.ui.h:36
-msgid "Preview of the selected icon theme"
-msgstr "Náhled vybraného motivu ikon"
-
-#: ../data/ui/lxappearance.ui.h:37
-msgid "Preview of the selected widget style"
-msgstr "Náhled vybraného widget motivu"
-
-#: ../data/ui/lxappearance.ui.h:38
-msgid "RGB"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:39
-msgid "Radio Button"
-msgstr "Přepínací tlačítko"
-
-#: ../data/ui/lxappearance.ui.h:40
-msgid "Remove"
-msgstr "Odstranit"
-
-#: ../data/ui/lxappearance.ui.h:41
-msgid "Same as buttons"
-msgstr "Stejné jako tlačítka"
-
-#: ../data/ui/lxappearance.ui.h:42
-msgid "Same as dialogs"
-msgstr "Stejné jako dialogy"
-
-#: ../data/ui/lxappearance.ui.h:43
-#, fuzzy
-msgid "Same as drag icons"
-msgstr "Stejné jako přetahované ikony"
-
-#: ../data/ui/lxappearance.ui.h:44
-msgid "Same as menu items"
-msgstr "Stejné jako položky nabídek"
-
-#: ../data/ui/lxappearance.ui.h:45
-msgid "Selected items:"
-msgstr "Vybrané položky:"
-
-#: ../data/ui/lxappearance.ui.h:46
-msgid "Show images in menus"
-msgstr "Zobrazovat obrázky v nabídkách"
-
-#: ../data/ui/lxappearance.ui.h:47
-msgid "Show images on buttons"
-msgstr "Zobrazovat obrázky na tlačítkách"
-
-#: ../data/ui/lxappearance.ui.h:48
-msgid "Size of cursors"
-msgstr "Velikost kurzoru"
-
-#: ../data/ui/lxappearance.ui.h:49
-msgid "Slight"
-msgstr ""
-
-#: ../data/ui/lxappearance.ui.h:50
-msgid "Small toolbar icon"
-msgstr "Malé ikony panelu nástrojů"
-
 #: ../data/ui/lxappearance.ui.h:51
-msgid "Smaller"
-msgstr "Menší"
+msgid "Window Border"
+msgstr "Okraj okna"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Sub-pixel geometry: "
+msgid "Enable antialising"
 msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "Text below icons"
-msgstr "Text pod ikonami"
+msgid "<b>Antialising</b>"
+msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:54
-msgid "Text beside icons"
-msgstr "Text vedle ikon"
+msgid "Enable hinting"
+msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:55
-msgid "Text only"
-msgstr "Pouze text"
+msgid "Hinting style: "
+msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:56
 #, fuzzy
-msgid "Text windows:"
-msgstr "Textová okna:"
+msgid "<b>Hinting</b>"
+msgstr "<b>Volby GUI</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
-#, fuzzy
-msgid "Toolbar Icon Size: "
-msgstr "Velikost ikon panelu nástrojů:"
+msgid "Sub-pixel geometry: "
+msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:58
+msgid "<b>Sub-pixel geometry</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Font"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:60
 #, fuzzy
 msgid "Toolbar Style: "
 msgstr "Styl panelu nástrojů:"
 
-#: ../data/ui/lxappearance.ui.h:59
-#, fuzzy
-msgid "Tooltips:"
-msgstr "Bublinková nápověda:"
-
-#: ../data/ui/lxappearance.ui.h:60
-msgid "Use customized color scheme"
-msgstr "Použít vlastní barevné schéma"
-
 #: ../data/ui/lxappearance.ui.h:61
-msgid "VBGR"
-msgstr ""
+#, fuzzy
+msgid "Toolbar Icon Size: "
+msgstr "Velikost ikon panelu nástrojů:"
 
 #: ../data/ui/lxappearance.ui.h:62
-msgid "VRGB"
-msgstr ""
+msgid "Show images on buttons"
+msgstr "Zobrazovat obrázky na tlačítkách"
 
 #: ../data/ui/lxappearance.ui.h:63
-msgid "Widget"
-msgstr "Widget"
+msgid "Show images in menus"
+msgstr "Zobrazovat obrázky v nabídkách"
 
 #: ../data/ui/lxappearance.ui.h:64
-msgid "Window Border"
-msgstr "Okraj okna"
+msgid "<b>GUI Options</b>"
+msgstr "<b>Volby GUI</b>"
 
 #: ../data/ui/lxappearance.ui.h:65
-msgid "_Edit"
-msgstr "_Upravit"
+msgid "Play event sounds"
+msgstr "Přehrávání zvuků při událostech"
 
 #: ../data/ui/lxappearance.ui.h:66
-msgid "_File"
-msgstr "_Soubor"
+#, fuzzy
+msgid "Play event sounds as feedback to user input"
+msgstr "Přehrávání zvuků při událostech jako zpětnou vazbu uživatelova vstupu"
 
 #: ../data/ui/lxappearance.ui.h:67
-msgid "_Help"
-msgstr "_Nápověda"
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Zvukový efekt</b>"
 
 #: ../data/ui/lxappearance.ui.h:68
-msgid "button"
-msgstr "tlačítko"
+msgid "Other"
+msgstr "Ostatní"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"

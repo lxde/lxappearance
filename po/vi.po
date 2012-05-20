@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 16:48+0200\n"
+"POT-Creation-Date: 2012-05-20 16:27+0200\n"
 "PO-Revision-Date: 2011-07-23 04:04+0200\n"
 "Last-Translator: Duy Hung <nguyentieuhau@gmail.com>\n"
 "Language-Team: vi <nguyentieuhau@gmail.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-Language: Vietnamese\n"
 "X-Poedit-Country: Viet Nam\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
 msgstr "Tùy chỉnh Giao diện"
 
@@ -42,18 +42,194 @@ msgid "translator-credits"
 msgstr "translator-credits"
 
 #: ../data/ui/lxappearance.ui.h:1
-msgid "<b>Antialising</b>"
-msgstr "<b>Chống răng cưa</b>"
+msgid "Icons only"
+msgstr "Chỉ biểu tượng"
 
 #: ../data/ui/lxappearance.ui.h:2
-msgid "<b>GUI Options</b>"
-msgstr "<b>Tùy chọn GUI</b>"
+msgid "Text only"
+msgstr "Chỉ có chữ"
 
 #: ../data/ui/lxappearance.ui.h:3
-msgid "<b>Hinting</b>"
-msgstr "<b>Tùy chọn GUI</b>"
+msgid "Text below icons"
+msgstr "Chữ dưới biểu tượng"
 
 #: ../data/ui/lxappearance.ui.h:4
+msgid "Text beside icons"
+msgstr "Chữ bên cạnh biểu tượng"
+
+#: ../data/ui/lxappearance.ui.h:5
+msgid "Same as menu items"
+msgstr "Giống như mục trình đơn"
+
+#: ../data/ui/lxappearance.ui.h:6
+msgid "Small toolbar icon"
+msgstr "Biểu tượng thanh công cụ nhỏ"
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "Large toolbar icon"
+msgstr "Biểu tượng thanh công cụ lớn"
+
+#: ../data/ui/lxappearance.ui.h:8
+msgid "Same as buttons"
+msgstr "Giống như nút nhấn"
+
+#: ../data/ui/lxappearance.ui.h:9
+msgid "Same as drag icons"
+msgstr "Giống như biểu tượng kéo thả"
+
+#: ../data/ui/lxappearance.ui.h:10
+msgid "Same as dialogs"
+msgstr "Giống như hộp thoại"
+
+#: ../data/ui/lxappearance.ui.h:11
+msgid "None"
+msgstr "Không"
+
+#: ../data/ui/lxappearance.ui.h:12
+msgid "Slight"
+msgstr "Mỏng"
+
+#: ../data/ui/lxappearance.ui.h:13
+msgid "Medium"
+msgstr "Vừa"
+
+#: ../data/ui/lxappearance.ui.h:14
+msgid "Full"
+msgstr "Đầy"
+
+#: ../data/ui/lxappearance.ui.h:15
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.ui.h:16
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Preview of the selected widget style"
+msgstr "Xem trước kiểu dáng widget được chọn"
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "_File"
+msgstr "_Tập tin"
+
+#: ../data/ui/lxappearance.ui.h:22
+msgid "_Edit"
+msgstr "_Chỉnh sửa"
+
+#: ../data/ui/lxappearance.ui.h:23
+msgid "_Help"
+msgstr "_Trợ giúp"
+
+#: ../data/ui/lxappearance.ui.h:24
+msgid "Radio Button"
+msgstr "Radio Button"
+
+#: ../data/ui/lxappearance.ui.h:25
+msgid "Check Button"
+msgstr "Check Button"
+
+#: ../data/ui/lxappearance.ui.h:26
+msgid "button"
+msgstr "nút"
+
+#: ../data/ui/lxappearance.ui.h:27
+msgid "Demo"
+msgstr "Mẫu"
+
+#: ../data/ui/lxappearance.ui.h:28
+msgid "Page1"
+msgstr "Trang 1"
+
+#: ../data/ui/lxappearance.ui.h:29
+msgid "Page2"
+msgstr "Trang 2"
+
+#: ../data/ui/lxappearance.ui.h:30
+msgid "Default font:"
+msgstr "Phông mặc định:"
+
+#: ../data/ui/lxappearance.ui.h:31
+msgid "Widget"
+msgstr "Widget"
+
+#: ../data/ui/lxappearance.ui.h:32
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "Sơ đồ màu không được hỗ trợ trong chủ đề widget đang được chọn."
+
+#: ../data/ui/lxappearance.ui.h:33
+msgid "Use customized color scheme"
+msgstr "Dùng sơ đồ màu sắc tùy chọn"
+
+#: ../data/ui/lxappearance.ui.h:34
+msgid "Normal windows:"
+msgstr "Những cửa sổ thường:"
+
+#: ../data/ui/lxappearance.ui.h:35
+msgid "Text windows:"
+msgstr "Cửa sổ văn bản:"
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Selected items:"
+msgstr "Mục được chọn:"
+
+#: ../data/ui/lxappearance.ui.h:37
+msgid "Tooltips:"
+msgstr "Mẹo:"
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "Background"
+msgstr "Nền sau"
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Foreground"
+msgstr "Nền trước"
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Color"
+msgstr "Màu sắc"
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Install"
+msgstr "Cài đặt"
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Remove"
+msgstr "Xóa"
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Preview of the selected icon theme"
+msgstr "Xem trước chủ đề biểu tượng được chọn"
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Icon Theme"
+msgstr "Đề tài Biểu tượng"
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Preview of the selected cursor theme"
+msgstr "Xem trước chủ đề con trỏ được chọn"
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Size of cursors"
+msgstr "Kích thước con trỏ"
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Smaller"
+msgstr "Nhỏ hơn"
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Bigger"
+msgstr "Lớn hơn"
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -63,257 +239,81 @@ msgstr ""
 "chuột ngay lập tức. Vì vậy những gì bạn vừa thay đổi có thể chỉ thật sự có "
 "hiệu lực trong lần đăng nhập tới."
 
-#: ../data/ui/lxappearance.ui.h:5
-msgid "<b>Sound Effect</b>"
-msgstr "<b>Hiệu ứng Âm thanh</b>"
-
-#: ../data/ui/lxappearance.ui.h:6
-msgid "<b>Sub-pixel geometry</b>"
-msgstr "<b>Hình học sub-pixel</b>"
-
-#: ../data/ui/lxappearance.ui.h:7
-msgid "BGR"
-msgstr "BGR"
-
-#: ../data/ui/lxappearance.ui.h:8
-msgid "Background"
-msgstr "Nền sau"
-
-#: ../data/ui/lxappearance.ui.h:9
-msgid "Bigger"
-msgstr "Lớn hơn"
-
-#: ../data/ui/lxappearance.ui.h:10
-msgid "Check Button"
-msgstr "Check Button"
-
-#: ../data/ui/lxappearance.ui.h:11
-msgid "Color"
-msgstr "Màu sắc"
-
-#: ../data/ui/lxappearance.ui.h:12
-msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Sơ đồ màu không được hỗ trợ trong chủ đề widget đang được chọn."
-
-#: ../data/ui/lxappearance.ui.h:14
-msgid "Default font:"
-msgstr "Phông mặc định:"
-
-#: ../data/ui/lxappearance.ui.h:15
-msgid "Demo"
-msgstr "Mẫu"
-
-#: ../data/ui/lxappearance.ui.h:16
-msgid "Enable antialising"
-msgstr "Bật chống răng cưa"
-
-#: ../data/ui/lxappearance.ui.h:17
-msgid "Enable hinting"
-msgstr "Bật gợi ý"
-
-#: ../data/ui/lxappearance.ui.h:18
-msgid "Font"
-msgstr "Font"
-
-#: ../data/ui/lxappearance.ui.h:19
-msgid "Foreground"
-msgstr "Nền trước"
-
-#: ../data/ui/lxappearance.ui.h:20
-msgid "Full"
-msgstr "Đầy"
-
-#: ../data/ui/lxappearance.ui.h:21
-msgid "Hinting style: "
-msgstr "Kiểu dáng gợi ý:"
-
-#: ../data/ui/lxappearance.ui.h:22
-msgid "Icon Theme"
-msgstr "Đề tài Biểu tượng"
-
-#: ../data/ui/lxappearance.ui.h:23
-msgid "Icons only"
-msgstr "Chỉ biểu tượng"
-
-#: ../data/ui/lxappearance.ui.h:24
-msgid "Install"
-msgstr "Cài đặt"
-
-#: ../data/ui/lxappearance.ui.h:25
-msgid "Large toolbar icon"
-msgstr "Biểu tượng thanh công cụ lớn"
-
-#: ../data/ui/lxappearance.ui.h:26
-msgid "Medium"
-msgstr "Vừa"
-
-#: ../data/ui/lxappearance.ui.h:27
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
 msgstr "Con trỏ Chuột"
 
-#: ../data/ui/lxappearance.ui.h:28
-msgid "None"
-msgstr "Không"
-
-#: ../data/ui/lxappearance.ui.h:29
-msgid "Normal windows:"
-msgstr "Những cửa sổ thường:"
-
-#: ../data/ui/lxappearance.ui.h:30
-msgid "Other"
-msgstr "Khác"
-
-#: ../data/ui/lxappearance.ui.h:31
-msgid "Page1"
-msgstr "Trang 1"
-
-#: ../data/ui/lxappearance.ui.h:32
-msgid "Page2"
-msgstr "Trang 2"
-
-#: ../data/ui/lxappearance.ui.h:33
-msgid "Play event sounds"
-msgstr "Phát âm thanh cho sự kiện"
-
-#: ../data/ui/lxappearance.ui.h:34
-msgid "Play event sounds as feedback to user input"
-msgstr "Phát âm thanh phản hồi khi người dùng nhập liệu"
-
-#: ../data/ui/lxappearance.ui.h:35
-msgid "Preview of the selected cursor theme"
-msgstr "Xem trước chủ đề con trỏ được chọn"
-
-#: ../data/ui/lxappearance.ui.h:36
-msgid "Preview of the selected icon theme"
-msgstr "Xem trước chủ đề biểu tượng được chọn"
-
-#: ../data/ui/lxappearance.ui.h:37
-msgid "Preview of the selected widget style"
-msgstr "Xem trước kiểu dáng widget được chọn"
-
-#: ../data/ui/lxappearance.ui.h:38
-msgid "RGB"
-msgstr "RGB"
-
-#: ../data/ui/lxappearance.ui.h:39
-msgid "Radio Button"
-msgstr "Radio Button"
-
-#: ../data/ui/lxappearance.ui.h:40
-msgid "Remove"
-msgstr "Xóa"
-
-#: ../data/ui/lxappearance.ui.h:41
-msgid "Same as buttons"
-msgstr "Giống như nút nhấn"
-
-#: ../data/ui/lxappearance.ui.h:42
-msgid "Same as dialogs"
-msgstr "Giống như hộp thoại"
-
-#: ../data/ui/lxappearance.ui.h:43
-msgid "Same as drag icons"
-msgstr "Giống như biểu tượng kéo thả"
-
-#: ../data/ui/lxappearance.ui.h:44
-msgid "Same as menu items"
-msgstr "Giống như mục trình đơn"
-
-#: ../data/ui/lxappearance.ui.h:45
-msgid "Selected items:"
-msgstr "Mục được chọn:"
-
-#: ../data/ui/lxappearance.ui.h:46
-msgid "Show images in menus"
-msgstr "Hiển thị hình ảnh trong trình đơn"
-
-#: ../data/ui/lxappearance.ui.h:47
-msgid "Show images on buttons"
-msgstr "Hiển thị hình ảnh trên nút nhấn"
-
-#: ../data/ui/lxappearance.ui.h:48
-msgid "Size of cursors"
-msgstr "Kích thước con trỏ"
-
-#: ../data/ui/lxappearance.ui.h:49
-msgid "Slight"
-msgstr "Mỏng"
-
-#: ../data/ui/lxappearance.ui.h:50
-msgid "Small toolbar icon"
-msgstr "Biểu tượng thanh công cụ nhỏ"
-
 #: ../data/ui/lxappearance.ui.h:51
-msgid "Smaller"
-msgstr "Nhỏ hơn"
-
-#: ../data/ui/lxappearance.ui.h:52
-msgid "Sub-pixel geometry: "
-msgstr "Hình học sub-pixel : "
-
-#: ../data/ui/lxappearance.ui.h:53
-msgid "Text below icons"
-msgstr "Chữ dưới biểu tượng"
-
-#: ../data/ui/lxappearance.ui.h:54
-msgid "Text beside icons"
-msgstr "Chữ bên cạnh biểu tượng"
-
-#: ../data/ui/lxappearance.ui.h:55
-msgid "Text only"
-msgstr "Chỉ có chữ"
-
-#: ../data/ui/lxappearance.ui.h:56
-msgid "Text windows:"
-msgstr "Cửa sổ văn bản:"
-
-#: ../data/ui/lxappearance.ui.h:57
-msgid "Toolbar Icon Size: "
-msgstr "Kích thước Biểu tượng Thanh công cụ:"
-
-#: ../data/ui/lxappearance.ui.h:58
-msgid "Toolbar Style: "
-msgstr "Kiểu dánh Thanh công cụ:"
-
-#: ../data/ui/lxappearance.ui.h:59
-msgid "Tooltips:"
-msgstr "Mẹo:"
-
-#: ../data/ui/lxappearance.ui.h:60
-msgid "Use customized color scheme"
-msgstr "Dùng sơ đồ màu sắc tùy chọn"
-
-#: ../data/ui/lxappearance.ui.h:61
-msgid "VBGR"
-msgstr "VBGR"
-
-#: ../data/ui/lxappearance.ui.h:62
-msgid "VRGB"
-msgstr "VRGB"
-
-#: ../data/ui/lxappearance.ui.h:63
-msgid "Widget"
-msgstr "Widget"
-
-#: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
 msgstr "Viền Cửa sổ"
 
+#: ../data/ui/lxappearance.ui.h:52
+msgid "Enable antialising"
+msgstr "Bật chống răng cưa"
+
+#: ../data/ui/lxappearance.ui.h:53
+msgid "<b>Antialising</b>"
+msgstr "<b>Chống răng cưa</b>"
+
+#: ../data/ui/lxappearance.ui.h:54
+msgid "Enable hinting"
+msgstr "Bật gợi ý"
+
+#: ../data/ui/lxappearance.ui.h:55
+msgid "Hinting style: "
+msgstr "Kiểu dáng gợi ý:"
+
+#: ../data/ui/lxappearance.ui.h:56
+msgid "<b>Hinting</b>"
+msgstr "<b>Tùy chọn GUI</b>"
+
+#: ../data/ui/lxappearance.ui.h:57
+msgid "Sub-pixel geometry: "
+msgstr "Hình học sub-pixel : "
+
+#: ../data/ui/lxappearance.ui.h:58
+msgid "<b>Sub-pixel geometry</b>"
+msgstr "<b>Hình học sub-pixel</b>"
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Font"
+msgstr "Font"
+
+#: ../data/ui/lxappearance.ui.h:60
+msgid "Toolbar Style: "
+msgstr "Kiểu dánh Thanh công cụ:"
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "Toolbar Icon Size: "
+msgstr "Kích thước Biểu tượng Thanh công cụ:"
+
+#: ../data/ui/lxappearance.ui.h:62
+msgid "Show images on buttons"
+msgstr "Hiển thị hình ảnh trên nút nhấn"
+
+#: ../data/ui/lxappearance.ui.h:63
+msgid "Show images in menus"
+msgstr "Hiển thị hình ảnh trong trình đơn"
+
+#: ../data/ui/lxappearance.ui.h:64
+msgid "<b>GUI Options</b>"
+msgstr "<b>Tùy chọn GUI</b>"
+
 #: ../data/ui/lxappearance.ui.h:65
-msgid "_Edit"
-msgstr "_Chỉnh sửa"
+msgid "Play event sounds"
+msgstr "Phát âm thanh cho sự kiện"
 
 #: ../data/ui/lxappearance.ui.h:66
-msgid "_File"
-msgstr "_Tập tin"
+msgid "Play event sounds as feedback to user input"
+msgstr "Phát âm thanh phản hồi khi người dùng nhập liệu"
 
 #: ../data/ui/lxappearance.ui.h:67
-msgid "_Help"
-msgstr "_Trợ giúp"
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Hiệu ứng Âm thanh</b>"
 
 #: ../data/ui/lxappearance.ui.h:68
-msgid "button"
-msgstr "nút"
+msgid "Other"
+msgstr "Khác"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"

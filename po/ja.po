@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 16:48+0200\n"
+"POT-Creation-Date: 2012-05-20 16:27+0200\n"
 "PO-Revision-Date: 2010-10-07 18:41+0900\n"
 "Last-Translator: Hironao Komatsu <hironao@users.sourceforge.net>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:13
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
 msgstr "ルックアンドフィールを設定します"
 
@@ -41,18 +41,195 @@ msgid "translator-credits"
 msgstr "Hironao Komatsu <hironao@users.sourceforge.net>"
 
 #: ../data/ui/lxappearance.ui.h:1
-msgid "<b>Antialising</b>"
-msgstr "<b>アンチエイリアシング</b>"
+msgid "Icons only"
+msgstr "アイコンのみ"
 
 #: ../data/ui/lxappearance.ui.h:2
-msgid "<b>GUI Options</b>"
-msgstr "<b>GUI のオプション</b>"
+msgid "Text only"
+msgstr "テキストのみ"
 
 #: ../data/ui/lxappearance.ui.h:3
-msgid "<b>Hinting</b>"
-msgstr "<b>ヒンティング</b>"
+msgid "Text below icons"
+msgstr "アイコンの下にテキスト"
 
 #: ../data/ui/lxappearance.ui.h:4
+msgid "Text beside icons"
+msgstr "アイコンの横にテキスト"
+
+#: ../data/ui/lxappearance.ui.h:5
+msgid "Same as menu items"
+msgstr "メニューアイテムと同じ"
+
+#: ../data/ui/lxappearance.ui.h:6
+msgid "Small toolbar icon"
+msgstr "小さなツールバーアイコン"
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "Large toolbar icon"
+msgstr "大きなツールバーアイコン"
+
+#: ../data/ui/lxappearance.ui.h:8
+msgid "Same as buttons"
+msgstr "ボタンと同じ"
+
+#: ../data/ui/lxappearance.ui.h:9
+msgid "Same as drag icons"
+msgstr "ドラッグアイコンと同じ"
+
+#: ../data/ui/lxappearance.ui.h:10
+msgid "Same as dialogs"
+msgstr "ダイアログと同じ"
+
+#: ../data/ui/lxappearance.ui.h:11
+msgid "None"
+msgstr "なし"
+
+#: ../data/ui/lxappearance.ui.h:12
+msgid "Slight"
+msgstr "微小"
+
+#: ../data/ui/lxappearance.ui.h:13
+msgid "Medium"
+msgstr "中間"
+
+#: ../data/ui/lxappearance.ui.h:14
+msgid "Full"
+msgstr "完全"
+
+#: ../data/ui/lxappearance.ui.h:15
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.ui.h:16
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Preview of the selected widget style"
+msgstr "選択中のウィジェットスタイルのプレビュー"
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../data/ui/lxappearance.ui.h:22
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../data/ui/lxappearance.ui.h:23
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../data/ui/lxappearance.ui.h:24
+msgid "Radio Button"
+msgstr "ラジオボタン"
+
+#: ../data/ui/lxappearance.ui.h:25
+msgid "Check Button"
+msgstr "チェックボタン"
+
+#: ../data/ui/lxappearance.ui.h:26
+msgid "button"
+msgstr "ボタン"
+
+#: ../data/ui/lxappearance.ui.h:27
+msgid "Demo"
+msgstr "デモ"
+
+#: ../data/ui/lxappearance.ui.h:28
+msgid "Page1"
+msgstr "ページ1"
+
+#: ../data/ui/lxappearance.ui.h:29
+msgid "Page2"
+msgstr "ページ2"
+
+#: ../data/ui/lxappearance.ui.h:30
+msgid "Default font:"
+msgstr "デフォルトのフォント:"
+
+#: ../data/ui/lxappearance.ui.h:31
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: ../data/ui/lxappearance.ui.h:32
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+"現在選択しているウィジェットテーマはカラースキームをサポートしていません。"
+
+#: ../data/ui/lxappearance.ui.h:33
+msgid "Use customized color scheme"
+msgstr "独自のカラースキームを使用する"
+
+#: ../data/ui/lxappearance.ui.h:34
+msgid "Normal windows:"
+msgstr "通常のウィンドウ:"
+
+#: ../data/ui/lxappearance.ui.h:35
+msgid "Text windows:"
+msgstr "テキストウィンドウ:"
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Selected items:"
+msgstr "選択中のアイテム:"
+
+#: ../data/ui/lxappearance.ui.h:37
+msgid "Tooltips:"
+msgstr "ツールチップ:"
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "Background"
+msgstr "背景色"
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Foreground"
+msgstr "前景色"
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Color"
+msgstr "色"
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Install"
+msgstr "インストール"
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Remove"
+msgstr "削除"
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Preview of the selected icon theme"
+msgstr "選択中のアイコンテーマのプレビュー"
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Icon Theme"
+msgstr "アイコンテーマ"
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Preview of the selected cursor theme"
+msgstr "選択中のカーソルテーマのプレビュー"
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Size of cursors"
+msgstr "カーソルの大きさ"
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Smaller"
+msgstr "小さく"
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Bigger"
+msgstr "大きく"
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -62,258 +239,81 @@ msgstr ""
 "更をサポートしているわけではありません。よって、ここでの変更の一部は次回のロ"
 "グインまで反映されないことがあります。"
 
-#: ../data/ui/lxappearance.ui.h:5
-msgid "<b>Sound Effect</b>"
-msgstr "<b>効果音</b>"
-
-#: ../data/ui/lxappearance.ui.h:6
-msgid "<b>Sub-pixel geometry</b>"
-msgstr "<b>サブピクセルの配列</b>"
-
-#: ../data/ui/lxappearance.ui.h:7
-msgid "BGR"
-msgstr "BGR"
-
-#: ../data/ui/lxappearance.ui.h:8
-msgid "Background"
-msgstr "背景色"
-
-#: ../data/ui/lxappearance.ui.h:9
-msgid "Bigger"
-msgstr "大きく"
-
-#: ../data/ui/lxappearance.ui.h:10
-msgid "Check Button"
-msgstr "チェックボタン"
-
-#: ../data/ui/lxappearance.ui.h:11
-msgid "Color"
-msgstr "色"
-
-#: ../data/ui/lxappearance.ui.h:12
-msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
-"現在選択しているウィジェットテーマはカラースキームをサポートしていません。"
-
-#: ../data/ui/lxappearance.ui.h:14
-msgid "Default font:"
-msgstr "デフォルトのフォント:"
-
-#: ../data/ui/lxappearance.ui.h:15
-msgid "Demo"
-msgstr "デモ"
-
-#: ../data/ui/lxappearance.ui.h:16
-msgid "Enable antialising"
-msgstr "アンチエイリアシングを有効にする"
-
-#: ../data/ui/lxappearance.ui.h:17
-msgid "Enable hinting"
-msgstr "ヒンティングを有効にする"
-
-#: ../data/ui/lxappearance.ui.h:18
-msgid "Font"
-msgstr "フォント"
-
-#: ../data/ui/lxappearance.ui.h:19
-msgid "Foreground"
-msgstr "前景色"
-
-#: ../data/ui/lxappearance.ui.h:20
-msgid "Full"
-msgstr "完全"
-
-#: ../data/ui/lxappearance.ui.h:21
-msgid "Hinting style: "
-msgstr "ヒンティングのスタイル: "
-
-#: ../data/ui/lxappearance.ui.h:22
-msgid "Icon Theme"
-msgstr "アイコンテーマ"
-
-#: ../data/ui/lxappearance.ui.h:23
-msgid "Icons only"
-msgstr "アイコンのみ"
-
-#: ../data/ui/lxappearance.ui.h:24
-msgid "Install"
-msgstr "インストール"
-
-#: ../data/ui/lxappearance.ui.h:25
-msgid "Large toolbar icon"
-msgstr "大きなツールバーアイコン"
-
-#: ../data/ui/lxappearance.ui.h:26
-msgid "Medium"
-msgstr "中間"
-
-#: ../data/ui/lxappearance.ui.h:27
+#: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
 msgstr "マウスカーソル"
 
-#: ../data/ui/lxappearance.ui.h:28
-msgid "None"
-msgstr "なし"
-
-#: ../data/ui/lxappearance.ui.h:29
-msgid "Normal windows:"
-msgstr "通常のウィンドウ:"
-
-#: ../data/ui/lxappearance.ui.h:30
-msgid "Other"
-msgstr "その他"
-
-#: ../data/ui/lxappearance.ui.h:31
-msgid "Page1"
-msgstr "ページ1"
-
-#: ../data/ui/lxappearance.ui.h:32
-msgid "Page2"
-msgstr "ページ2"
-
-#: ../data/ui/lxappearance.ui.h:33
-msgid "Play event sounds"
-msgstr "イベント音を鳴らす"
-
-#: ../data/ui/lxappearance.ui.h:34
-msgid "Play event sounds as feedback to user input"
-msgstr "ユーザ入力のフィードバックとしてイベント音を鳴らす"
-
-#: ../data/ui/lxappearance.ui.h:35
-msgid "Preview of the selected cursor theme"
-msgstr "選択中のカーソルテーマのプレビュー"
-
-#: ../data/ui/lxappearance.ui.h:36
-msgid "Preview of the selected icon theme"
-msgstr "選択中のアイコンテーマのプレビュー"
-
-#: ../data/ui/lxappearance.ui.h:37
-msgid "Preview of the selected widget style"
-msgstr "選択中のウィジェットスタイルのプレビュー"
-
-#: ../data/ui/lxappearance.ui.h:38
-msgid "RGB"
-msgstr "RGB"
-
-#: ../data/ui/lxappearance.ui.h:39
-msgid "Radio Button"
-msgstr "ラジオボタン"
-
-#: ../data/ui/lxappearance.ui.h:40
-msgid "Remove"
-msgstr "削除"
-
-#: ../data/ui/lxappearance.ui.h:41
-msgid "Same as buttons"
-msgstr "ボタンと同じ"
-
-#: ../data/ui/lxappearance.ui.h:42
-msgid "Same as dialogs"
-msgstr "ダイアログと同じ"
-
-#: ../data/ui/lxappearance.ui.h:43
-msgid "Same as drag icons"
-msgstr "ドラッグアイコンと同じ"
-
-#: ../data/ui/lxappearance.ui.h:44
-msgid "Same as menu items"
-msgstr "メニューアイテムと同じ"
-
-#: ../data/ui/lxappearance.ui.h:45
-msgid "Selected items:"
-msgstr "選択中のアイテム:"
-
-#: ../data/ui/lxappearance.ui.h:46
-msgid "Show images in menus"
-msgstr "メニューに画像を表示する"
-
-#: ../data/ui/lxappearance.ui.h:47
-msgid "Show images on buttons"
-msgstr "ボタンに画像を表示する"
-
-#: ../data/ui/lxappearance.ui.h:48
-msgid "Size of cursors"
-msgstr "カーソルの大きさ"
-
-#: ../data/ui/lxappearance.ui.h:49
-msgid "Slight"
-msgstr "微小"
-
-#: ../data/ui/lxappearance.ui.h:50
-msgid "Small toolbar icon"
-msgstr "小さなツールバーアイコン"
-
 #: ../data/ui/lxappearance.ui.h:51
-msgid "Smaller"
-msgstr "小さく"
-
-#: ../data/ui/lxappearance.ui.h:52
-msgid "Sub-pixel geometry: "
-msgstr "サブピクセルの配列: "
-
-#: ../data/ui/lxappearance.ui.h:53
-msgid "Text below icons"
-msgstr "アイコンの下にテキスト"
-
-#: ../data/ui/lxappearance.ui.h:54
-msgid "Text beside icons"
-msgstr "アイコンの横にテキスト"
-
-#: ../data/ui/lxappearance.ui.h:55
-msgid "Text only"
-msgstr "テキストのみ"
-
-#: ../data/ui/lxappearance.ui.h:56
-msgid "Text windows:"
-msgstr "テキストウィンドウ:"
-
-#: ../data/ui/lxappearance.ui.h:57
-msgid "Toolbar Icon Size: "
-msgstr "ツールバーのアイコンのサイズ: "
-
-#: ../data/ui/lxappearance.ui.h:58
-msgid "Toolbar Style: "
-msgstr "ツールバーのスタイル: "
-
-#: ../data/ui/lxappearance.ui.h:59
-msgid "Tooltips:"
-msgstr "ツールチップ:"
-
-#: ../data/ui/lxappearance.ui.h:60
-msgid "Use customized color scheme"
-msgstr "独自のカラースキームを使用する"
-
-#: ../data/ui/lxappearance.ui.h:61
-msgid "VBGR"
-msgstr "VBGR"
-
-#: ../data/ui/lxappearance.ui.h:62
-msgid "VRGB"
-msgstr "VRGB"
-
-#: ../data/ui/lxappearance.ui.h:63
-msgid "Widget"
-msgstr "ウィジェット"
-
-#: ../data/ui/lxappearance.ui.h:64
 msgid "Window Border"
 msgstr "ウィンドウ境界"
 
+#: ../data/ui/lxappearance.ui.h:52
+msgid "Enable antialising"
+msgstr "アンチエイリアシングを有効にする"
+
+#: ../data/ui/lxappearance.ui.h:53
+msgid "<b>Antialising</b>"
+msgstr "<b>アンチエイリアシング</b>"
+
+#: ../data/ui/lxappearance.ui.h:54
+msgid "Enable hinting"
+msgstr "ヒンティングを有効にする"
+
+#: ../data/ui/lxappearance.ui.h:55
+msgid "Hinting style: "
+msgstr "ヒンティングのスタイル: "
+
+#: ../data/ui/lxappearance.ui.h:56
+msgid "<b>Hinting</b>"
+msgstr "<b>ヒンティング</b>"
+
+#: ../data/ui/lxappearance.ui.h:57
+msgid "Sub-pixel geometry: "
+msgstr "サブピクセルの配列: "
+
+#: ../data/ui/lxappearance.ui.h:58
+msgid "<b>Sub-pixel geometry</b>"
+msgstr "<b>サブピクセルの配列</b>"
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Font"
+msgstr "フォント"
+
+#: ../data/ui/lxappearance.ui.h:60
+msgid "Toolbar Style: "
+msgstr "ツールバーのスタイル: "
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "Toolbar Icon Size: "
+msgstr "ツールバーのアイコンのサイズ: "
+
+#: ../data/ui/lxappearance.ui.h:62
+msgid "Show images on buttons"
+msgstr "ボタンに画像を表示する"
+
+#: ../data/ui/lxappearance.ui.h:63
+msgid "Show images in menus"
+msgstr "メニューに画像を表示する"
+
+#: ../data/ui/lxappearance.ui.h:64
+msgid "<b>GUI Options</b>"
+msgstr "<b>GUI のオプション</b>"
+
 #: ../data/ui/lxappearance.ui.h:65
-msgid "_Edit"
-msgstr "編集(_E)"
+msgid "Play event sounds"
+msgstr "イベント音を鳴らす"
 
 #: ../data/ui/lxappearance.ui.h:66
-msgid "_File"
-msgstr "ファイル(_F)"
+msgid "Play event sounds as feedback to user input"
+msgstr "ユーザ入力のフィードバックとしてイベント音を鳴らす"
 
 #: ../data/ui/lxappearance.ui.h:67
-msgid "_Help"
-msgstr "ヘルプ(_H)"
+msgid "<b>Sound Effect</b>"
+msgstr "<b>効果音</b>"
 
 #: ../data/ui/lxappearance.ui.h:68
-msgid "button"
-msgstr "ボタン"
+msgid "Other"
+msgstr "その他"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"
