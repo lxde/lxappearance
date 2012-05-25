@@ -58,7 +58,7 @@ AC_SUBST(XLIB_LIBS)
 
 if test "x$enable_gtk3" = "xyes" ; then
   CFLAGS="$CFLAGS -DENABLE_GTK3"
-  gtk_modules="gtk+-3.0 >= 3.0.0"
+  gtk_modules="gtk+-3.0 >= 3.0.0 gthread-2.0"
 else
   gtk_modules="gtk+-2.0 >= 2.12.0 gthread-2.0"
 fi
