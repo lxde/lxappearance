@@ -6,7 +6,7 @@ Uploaders:
  Andrew Lee (李健秋) <ajqlee@debian.org>, Daniel Baumann <daniel@debian.org>
 Build-Depends:
  debhelper (>= 9), autotools-dev, intltool, docbook-xml, docbook-xsl,
- libglib2.0-dev, libgtk2.0-dev, libmenu-cache1-dev, libx11-dev, xsltproc, dh-autoreconf
+ libglib2.0-dev, libgtk2.0-dev, libmenu-cache1-dev, libx11-dev, libdbus-glib-1-dev, xsltproc, dh-autoreconf
 Standards-Version: 3.9.3
 Homepage: http://www.lxde.org/
 Vcs-Browser: http://git.lxde.org/gitweb/?p=debian/lxappearance.git
