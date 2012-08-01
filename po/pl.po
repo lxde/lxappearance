@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Piotr Sokół <psokol@jabster.pl>, 2010, 2011.
+# Piotr Sokół <psokol@jabster.pl>, 2010, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-05-20 16:27+0200\n"
-"PO-Revision-Date: 2011-07-28 19:35+0200\n"
-"Last-Translator: Artur <mazdac@gmail.com>\n"
-"Language-Team: Polish <>\n"
+"PO-Revision-Date: 2012-08-01 17:24+0200\n"
+"Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
+"Language-Team: polski <>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20)) ? 1 : 2));\n"
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
@@ -38,7 +38,7 @@ msgstr "Dostosowuje wygląd środowiska graficznego"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Piotr Sokół <psokol@jabster.pl>, 2010, 2011"
+msgstr "Piotr Sokół <psokol@jabster.pl>, 2010, 2011, 2012."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
@@ -86,11 +86,11 @@ msgstr "Brak"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Slight"
-msgstr "Mały"
+msgstr "Lekki"
 
 #: ../data/ui/lxappearance.ui.h:13
 msgid "Medium"
-msgstr "Średnie"
+msgstr "Średni"
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Full"
@@ -210,7 +210,7 @@ msgstr "Podgląd wybranego stylu ikon"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
-msgstr "Motyw ikon"
+msgstr "Ikony"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Preview of the selected cursor theme"
@@ -248,7 +248,7 @@ msgstr "Obramowanie okien"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Enable antialising"
-msgstr "Włącz antyalising"
+msgstr "Włączenie"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "<b>Antialising</b>"
@@ -256,15 +256,15 @@ msgstr "<b>Antyaliasing</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
-msgstr "Włącz wygładzanie"
+msgstr "Włączenie"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr "Styl wygładzania:"
+msgstr "Styl:"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
-msgstr "<b>Wygładzanie</b>"
+msgstr "<b>Przyciąganie do siatki</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
