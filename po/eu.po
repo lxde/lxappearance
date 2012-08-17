@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-05-20 16:27+0200\n"
-"PO-Revision-Date: 2012-08-17 01:49+0200\n"
+"PO-Revision-Date: 2012-08-17 02:32+0200\n"
 "Last-Translator: Asier_Iturralde_Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -255,15 +255,15 @@ msgstr "<b>Antialising-a</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
-msgstr ""
+msgstr "Gaitu optimizazioa"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr ""
+msgstr "Optimizazio-estiloa: "
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
-msgstr ""
+msgstr "<b>Optimizazioa</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
