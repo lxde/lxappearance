@@ -2,33 +2,34 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the lxappearance package.
 # Andrea Florio <andrea@opensuse.org>, 2010.
-#
+# Alessandro <alex@amiran.it>, 2011.
+# Daniele Forsi <daniele@forsi.it>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-05-20 16:27+0200\n"
-"PO-Revision-Date: 2011-05-25 19:44+0200\n"
-"Last-Translator: Alessandro <alex@amiran.it>\n"
-"Language-Team: it <it@li.org>\n"
+"PO-Revision-Date: 2012-08-25 17:38+0200\n"
+"Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
+"Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
-msgstr "Personalizza Aspetto e Stile"
+msgstr "Personalizza aspetto e stile"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Personalizza l'aspetto e lo stile del tuo desktop e delle applicazioni"
+msgstr "Personalizza l'aspetto e lo stile del desktop e delle applicazioni"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright © 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -38,7 +39,9 @@ msgstr "Personalizza l'aspetto e lo stile del tuo desktop"
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr ""
-"Andrea Florio <andrea@opensuse.org>Alessandro Pellizzari <alex@amiran.it>"
+"Andrea Florio <andrea@opensuse.org>\n"
+"Alessandro Pellizzari <alex@amiran.it>\n"
+"Daniele Forsi <daniele@forsi.it>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
@@ -50,7 +53,7 @@ msgstr "Solo testo"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "Text below icons"
-msgstr "Testo sotto le icone"
+msgstr "Testo sotto alle icone"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid "Text beside icons"
@@ -62,19 +65,19 @@ msgstr "Come gli elementi di menu"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "Small toolbar icon"
-msgstr "Icona piccola della barra strumenti"
+msgstr "Icona piccola della barra degli strumenti"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "Large toolbar icon"
-msgstr "Icona della barra degli strumenti larga"
+msgstr "Icona grande della barra degli strumenti"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Same as buttons"
-msgstr "Come i bottoni"
+msgstr "Come i pulsanti"
 
 #: ../data/ui/lxappearance.ui.h:9
 msgid "Same as drag icons"
-msgstr "Come il trascinamento icone"
+msgstr "Come le icone del trascinamento"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Same as dialogs"
@@ -114,7 +117,7 @@ msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Preview of the selected widget style"
-msgstr "Anteprima dello stile delle finestre selezionato"
+msgstr "Anteprima dello stile selezionato per gli elementi"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
@@ -126,11 +129,11 @@ msgstr "_Modifica"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "_Help"
-msgstr "_Aiuto"
+msgstr "A_iuto"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Radio Button"
-msgstr "Pulsante Radio"
+msgstr "Pulsante radio"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Check Button"
@@ -158,19 +161,19 @@ msgstr "Font predefinito:"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Widget"
-msgstr "Widget"
+msgstr "Elementi"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Lo schema colore non è supportato dal tema attualmente selezionato"
+msgstr "Lo schema di colori non è supportato dal tema attualmente selezionato."
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
-msgstr "Usa schema colore personalizzato"
+msgstr "Usa schema di colori personalizzato"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Normal windows:"
-msgstr "Finestra normale:"
+msgstr "Finestre normali:"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Text windows:"
@@ -182,7 +185,7 @@ msgstr "Oggetti selezionati:"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Tooltips:"
-msgstr "Tooltips:"
+msgstr "Suggerimenti:"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Background"
@@ -192,9 +195,10 @@ msgstr "Sfondo"
 msgid "Foreground"
 msgstr "Testo"
 
+# in questa e nelle altre uso il plurale perché sono 8 colori
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Color"
-msgstr "Colore"
+msgstr "Colori"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Install"
@@ -206,15 +210,15 @@ msgstr "Rimuovi"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Preview of the selected icon theme"
-msgstr "Anteprima del tema di icone selezionato"
+msgstr "Anteprima del tema selezionato per le icone"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
-msgstr "Tema di icone"
+msgstr "Tema icone"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Preview of the selected cursor theme"
-msgstr "Anteprima del tema del puntatore selezionato"
+msgstr "Anteprima del tema selezionato per il puntatore"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Size of cursors"
@@ -235,12 +239,12 @@ msgid ""
 "applications till next login."
 msgstr ""
 "<b>Nota:</b> Non tutte le applicazioni desktop supportano il cambio del tema "
-"del cursore al volo. Quindi i tuoi cambiamenti potrebbero non essere "
-"completamente applicati fino al prossimo login."
+"del cursore al volo. Quindi i cambiamenti potrebbero non essere "
+"completamente applicati a tutte le applicazioni fino al prossimo accesso."
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
-msgstr "Puntatore del mouse"
+msgstr "Puntatore mouse"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Window Border"
@@ -280,15 +284,15 @@ msgstr "Font"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Toolbar Style: "
-msgstr "Stile Toolbar: "
+msgstr "Stile barra strumenti: "
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "Toolbar Icon Size: "
-msgstr "Dimensioni Icona Toolbar: "
+msgstr "Dimensioni icone barra strumenti: "
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Show images on buttons"
-msgstr "Mostra immagini nei bottoni"
+msgstr "Mostra immagini nei pulsanti"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Show images in menus"
@@ -300,16 +304,15 @@ msgstr "<b>Opzioni GUI</b>"
 
 #: ../data/ui/lxappearance.ui.h:65
 msgid "Play event sounds"
-msgstr "Esegui suoni di avviso"
+msgstr "Riproduci suoni eventi"
 
 #: ../data/ui/lxappearance.ui.h:66
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "Esegui suoni di avviso alle azioni dell'utente"
+msgstr "Riproduci suoni eventi per le azioni dell'utente"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Effetti Sonori</b>"
+msgstr "<b>Effetti sonori</b>"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "Other"
@@ -321,4 +324,4 @@ msgstr "Seleziona un tema di icone"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "(Tema di icone) *.tar.gz, *.tar.bz2"
+msgstr "*.tar.gz, *.tar.bz2 (tema di icone)"
