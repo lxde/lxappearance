@@ -1,5 +1,5 @@
 # Serbian translation for LXAppearance package
-# Copyright (C) 2010 The LXDE Project
+# Copyright (C) 2011 The LXDE Project
 # This file is distributed under the same license as the LXAppearance package.
 # Jay A. Fleming <tito.nehru.naser@gmail.com>, 2010.
 #
@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: LXAppearance package\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-05-20 16:27+0200\n"
-"PO-Revision-Date: 2010-08-17 13:56+0100\n"
-"Last-Translator: Jay Alexander Fleming <tito.nehru.naser@gmail.com>\n"
+"PO-Revision-Date: 2012-08-30 10:53+0100\n"
+"Last-Translator: Jay A.Fleming <tito.nehru.naser@gmail.com>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
+#: ../data/lxappearance.desktop.in.h:1
+#: ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
 msgstr "Подешавања изгледа"
 
@@ -28,7 +29,7 @@ msgstr "Прилагодите изглед радне површи и прог�
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "LXDE Project — 2011. Сва права задржана."
+msgstr "»LXDE« пројекат — 2011. Нека права су задржана."
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -41,80 +42,79 @@ msgstr "Serbian (sr) — Jay A. Fleming <tito.nehru.naser@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
-msgstr "Само иконе"
+msgstr "Прикажи само иконе"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "Text only"
-msgstr "Само текст"
+msgstr "Прикажи само текст"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "Text below icons"
-msgstr "Текст испод икона"
+msgstr "Прикажи текст испод икона"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid "Text beside icons"
-msgstr "Текст поред икона"
+msgstr "Прикажи текст поред икона"
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "Same as menu items"
-msgstr "Исто као ставке менија"
+msgstr "Као она у ставкама менија"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "Small toolbar icon"
-msgstr "Мале иконе у траци са алатима"
+msgstr "Мале"
 
 #: ../data/ui/lxappearance.ui.h:7
 msgid "Large toolbar icon"
-msgstr "Велике иконе у траци са алатима"
+msgstr "Велике"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Same as buttons"
-msgstr "Исто као дугмад"
+msgstr "Као она на дугмадима"
 
 #: ../data/ui/lxappearance.ui.h:9
-#, fuzzy
 msgid "Same as drag icons"
-msgstr "Исто као превучене иконе"
+msgstr "Као она при превлачењу икона"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Same as dialogs"
-msgstr "Исто као дијалози"
+msgstr "Као она у дијалозима"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "None"
-msgstr ""
+msgstr "Ниједно"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Slight"
-msgstr ""
+msgstr "Благо"
 
 #: ../data/ui/lxappearance.ui.h:13
 msgid "Medium"
-msgstr ""
+msgstr "Осредње"
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Full"
-msgstr ""
+msgstr "Потпуно"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "BGR"
-msgstr ""
+msgstr "BGR"
 
 #: ../data/ui/lxappearance.ui.h:17
 msgid "VRGB"
-msgstr ""
+msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:18
 msgid "VBGR"
-msgstr ""
+msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Preview of the selected widget style"
-msgstr "Преглед изгледа одабраног виџета"
+msgstr "Претпреглед одабране контроле"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
@@ -142,7 +142,7 @@ msgstr "дугме"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Demo"
-msgstr "Демо"
+msgstr "Проба"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "Page1"
@@ -154,7 +154,7 @@ msgstr "Страна2"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Default font:"
-msgstr "Подразумевани фонт:"
+msgstr "Подразумевани словни лик:"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Widget"
@@ -189,9 +189,8 @@ msgid "Background"
 msgstr "Позадина"
 
 #: ../data/ui/lxappearance.ui.h:39
-#, fuzzy
 msgid "Foreground"
-msgstr "Боја исцртавања"
+msgstr "Садржај"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Color"
@@ -199,7 +198,7 @@ msgstr "Боје"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Install"
-msgstr "Инсталирај"
+msgstr "Додај"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Remove"
@@ -207,7 +206,7 @@ msgstr "Уклони"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Preview of the selected icon theme"
-msgstr "Преглед одабране теме икона"
+msgstr "Претпреглед одабране теме икона"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
@@ -215,7 +214,7 @@ msgstr "Тема икона"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Preview of the selected cursor theme"
-msgstr "Преглед одабране теме показивача"
+msgstr "Претпреглед одабране теме показивача"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Size of cursors"
@@ -230,14 +229,8 @@ msgid "Bigger"
 msgstr "Веће"
 
 #: ../data/ui/lxappearance.ui.h:49
-msgid ""
-"<b>Note:</b> Not all of the desktop applications support changing cursor "
-"theme on-the-fly. So your changes here might not be fully applied to all "
-"applications till next login."
-msgstr ""
-"<b>Напомена:</b> Аутоматску промену изгледа показивача не подржавају сви "
-"програми. Ове промене у тим програмима биће видљиве након наредног "
-"пријављивања на систем."
+msgid "<b>Note:</b> Not all of the desktop applications support changing cursor theme on-the-fly. So your changes here might not be fully applied to all applications till next login."
+msgstr "<b>Напомена:</b> Аутоматску промену изгледа показивача не подржавају сви програми. Ове промене у тим програмима биће видљиве након наредног пријављивања на систем."
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
@@ -249,68 +242,63 @@ msgstr "Ивица прозора"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Enable antialising"
-msgstr ""
+msgstr "Омогући умекшавање"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "<b>Antialising</b>"
-msgstr ""
+msgstr "<b>Умекшавање ивица</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
-msgstr ""
+msgstr "Омогући дотеривање"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr ""
+msgstr "Облик дотеривања: "
 
 #: ../data/ui/lxappearance.ui.h:56
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Подешавања графичког корисничког интерфејса</b>"
+msgstr "<b>Дотеривање</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Облик умекшавања испод тачке:"
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Умекшавање испод тачке</b>"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Font"
-msgstr ""
+msgstr "Словни лик"
 
 #: ../data/ui/lxappearance.ui.h:60
-#, fuzzy
 msgid "Toolbar Style: "
-msgstr "Изглед траке са алатима: "
+msgstr "Изглед траке алатки: "
 
 #: ../data/ui/lxappearance.ui.h:61
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Величина икона у траци са алатима: "
+msgstr "Величина икона у траци алатки: "
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Show images on buttons"
-msgstr "Прикажи слике на дугмадима"
+msgstr "Прикажи иконе на дугмадима"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Show images in menus"
-msgstr "Прикажи слике у менијима"
+msgstr "Прикажи иконе у менијима"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "<b>GUI Options</b>"
 msgstr "<b>Подешавања графичког корисничког интерфејса</b>"
 
 #: ../data/ui/lxappearance.ui.h:65
-#, fuzzy
 msgid "Play event sounds"
 msgstr "Озвучи догађаје"
 
 #: ../data/ui/lxappearance.ui.h:66
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr "додели звук догађају као одговор на корисничку акцију"
+msgstr "Репродукуј звуке на одговарајуће корисничке радње"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "<b>Sound Effect</b>"
@@ -327,3 +315,4 @@ msgstr "Изаберите пакет са темом икона"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (тема икона)"
+
