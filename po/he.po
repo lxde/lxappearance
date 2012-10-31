@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 14:57+0200\n"
-"PO-Revision-Date: 2011-11-13 15:26+0200\n"
+"PO-Revision-Date: 2012-10-23 22:32+0200\n"
 "Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: Gezer <gezer@lists.launchpad.net>\n"
 "Language: he\n"
@@ -262,7 +262,7 @@ msgstr "הפעלת רמיזה"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr "סגנון הרמיזה:"
+msgstr "סגנון הרמיזה: "
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
@@ -270,7 +270,7 @@ msgstr "<b>רמיזה</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
-msgstr "גאומטריית תת־פיקסלים:"
+msgstr "גאומטריית תת־פיקסלים: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "<b>Sub-pixel geometry</b>"
@@ -282,11 +282,11 @@ msgstr "גופן"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Toolbar Style: "
-msgstr "סגנון סרגל הכלים:"
+msgstr "סגנון סרגל הכלים: "
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "Toolbar Icon Size: "
-msgstr "גודל סמלי סרגל הכלים:"
+msgstr "גודל סמלי סרגל הכלים: "
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Show images on buttons"
