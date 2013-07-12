@@ -1,34 +1,37 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-
-prog_name = lxappearance
-
-AC_PREREQ([2.63])
-AC_INIT([lxappearance], [0.5.2], [http://lxde.org/])
+AC_PREREQ([2.69])
+AC_INIT([lxappearance],[0.5.2],[http://lxde.org/])
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign])
+
+# intltool
+IT_PROG_INTLTOOL([0.40.0])
+
+#Initialize libtool
+LT_PREREQ([2.2.6])
+LT_INIT()
+
 # Support silent build rules. Disable by either passing --disable-silent-rules
 # to configure or passing V=1 to make
 AM_SILENT_RULES([yes])
 
-AM_MAINTAINER_MODE
-
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIR([m4])
 
-# Checks for programs.
+# C compiler
 AC_PROG_CC
-# AM_PROG_LIBTOOL
+AC_PROG_INSTALL
+AM_PROG_CC_C_O
+AC_PROG_CC_STDC
 
 # Checks for libraries.
 
 # Checks for header files.
-AC_HEADER_STDC
 
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
 
-# intltool
-IT_PROG_INTLTOOL([0.40.0])
 
 AC_ARG_ENABLE(man,
 AS_HELP_STRING([--enable-man],[regenerate roff man pages from Docbook @<:@default=yes@:>@]),
@@ -152,37 +155,28 @@ AM_CONDITIONAL(ENABLE_MAN, test "x$enable_man" != "xno")
 
 AC_CONFIG_FILES([
     Makefile
-    src/Makefile
     data/Makefile
     data/ui/Makefile
     data/ui/about.ui
     data/lxappearance.pc
     man/Makefile
     po/Makefile.in
+    src/Makefile
 ])
 
 AC_OUTPUT
 
-if test x"$sysconfdir" != x'/etc'; then
-    echo
-    echo
-    echo 'Error: sysconfdir is not /etc.'
-    echo 'Please consider passing --sysconfdir=/etc to configure.';
-    echo 'Otherwise default config files will be installed to wrong place.'
-    echo
-    echo
-else
-    echo
-    echo lxappearance....................... : Version $VERSION
-    echo
-    echo Enable debug....................: "$enable_debug"
-    echo Enable Dbus support.............: "$enable_dbus"
-    echo Prefix..........................: $prefix
-    echo
-    echo The binary will be installed in $prefix/bin
-    echo
-    echo http://lxde.org/
-    echo
-    echo "Ready to make lxappearance. Type 'make' to continue."
-    echo
-fi
+echo
+echo lxappearance....................... : Version $VERSION
+echo
+echo Enable debug....................: "$enable_debug"
+echo Enable Dbus support.............: "$enable_dbus"
+echo Prefix..........................: $prefix
+echo
+echo The binary will be installed in $prefix/bin
+echo
+echo http://lxde.org/
+echo
+echo "Ready to make lxappearance. Type 'make' to continue."
+echo
+

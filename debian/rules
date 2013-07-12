@@ -1,9 +1,10 @@
 #!/usr/bin/make -f
 
 %:
-	dh ${@} --with autoreconf
+	dh ${@}
 
 override_dh_auto_configure:
+	./autogen.sh
 	dh_auto_configure -- --enable-man --enable-dbus
 
 override_dh_auto_test:
