@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 14:57+0200\n"
-"PO-Revision-Date: 2011-07-23 09:35+0200\n"
-"Last-Translator: Hugo <sysadmin@cips.cu>\n"
+"PO-Revision-Date: 2013-07-12 02:54+0000\n"
+"Last-Translator: Adolfo <fitoschido@ubuntu.com>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1373597650.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -47,7 +48,7 @@ msgstr "Solo iconos"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "Text only"
-msgstr "Sólo texto"
+msgstr "Solo texto"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "Text below icons"
@@ -79,7 +80,7 @@ msgstr "Igual que en los iconos de arrastre"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Same as dialogs"
-msgstr "Igual que en las pantallas"
+msgstr "Igual que en los cuadros de diálogo"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "None"
@@ -131,11 +132,11 @@ msgstr "Ay_uda"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Radio Button"
-msgstr "Botón de selección"
+msgstr "Botón radial"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Check Button"
-msgstr "Botón de marcado"
+msgstr "Casilla de verificación"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "button"
@@ -155,11 +156,11 @@ msgstr "Página2"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Default font:"
-msgstr "Fuente por defecto:"
+msgstr "Tipo de letra predeterminado:"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Widget"
-msgstr "Controles"
+msgstr "Control"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
@@ -205,7 +206,7 @@ msgstr "Instalar"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Remove"
-msgstr "Quitar"
+msgstr "Eliminar"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Preview of the selected icon theme"
@@ -251,11 +252,11 @@ msgstr "Borde de la ventana"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Enable antialising"
-msgstr "Habilitar antialias"
+msgstr "Activar el suavizado de bordes"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "<b>Antialising</b>"
-msgstr "<b>Antialias</b>"
+msgstr "<b>Suavizado de bordes</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
@@ -271,23 +272,23 @@ msgstr "<b>Optimización</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
-msgstr "Geometría subpíxel:"
+msgstr "Geometría de subpíxeles: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "<b>Sub-pixel geometry</b>"
-msgstr "<b>Geometría subpíxel</b>"
+msgstr "<b>Geometría de subpíxeles</b>"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Font"
-msgstr "Fuente"
+msgstr "Tipo de letra"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Toolbar Style: "
-msgstr "Estilo de la barra de herramientas:"
+msgstr "Estilo de la barra de herramientas: "
 
 #: ../data/ui/lxappearance.ui.h:61
 msgid "Toolbar Icon Size: "
-msgstr "Tamaño del icono de la barra de herramientas:"
+msgstr "Tamaño de iconos de la barra de herramientas: "
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Show images on buttons"
@@ -307,7 +308,7 @@ msgstr "Reproducir sonidos en eventos"
 
 #: ../data/ui/lxappearance.ui.h:66
 msgid "Play event sounds as feedback to user input"
-msgstr "Reproducir sonidos de eventos como retroalimentación al usuario"
+msgstr "Reproducir sonidos de eventos como respuesta a la entrada del usuario"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "<b>Sound Effect</b>"
@@ -323,4 +324,4 @@ msgstr "Seleccionar un tema de iconos"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Tema de iconos)"
+msgstr "*.tar.gz, *.tar.bz2 (tema de iconos)"
