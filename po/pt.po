@@ -8,21 +8,20 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 14:57+0200\n"
-"PO-Revision-Date: 2012-05-18 10:48-0000\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"PO-Revision-Date: 2013-07-25 11:42+0000\n"
+"Last-Translator: Sérgio <smarquespt@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: PORTUGAL\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1374752572.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
-msgstr "Personalizar aparência e comportamento"
+msgstr "Personalizar aspeto e comportamento"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
@@ -87,7 +86,7 @@ msgstr "Nenhum"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Slight"
-msgstr "Ligeiro"
+msgstr "Ligeira"
 
 #: ../data/ui/lxappearance.ui.h:13
 msgid "Medium"
@@ -115,7 +114,7 @@ msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Preview of the selected widget style"
-msgstr "Antevisão do estilo do \"widget\" selecionado"
+msgstr "Visualização do estilo do \"widget\" selecionado"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
@@ -219,15 +218,15 @@ msgstr "Antevisão do tema de cursor selecionado"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Size of cursors"
-msgstr "Tamanho dos cursores"
+msgstr "Tamanho do cursor"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Smaller"
-msgstr "Menor"
+msgstr "Pequeno"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Bigger"
-msgstr "Maior"
+msgstr "Grande"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid ""
@@ -235,9 +234,9 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>Nota:</b> nem todas as aplicações suportam a alteração imediata dos "
-"cursores. Assim, algumas alterações efetuadas poderão não ser aplicadas até "
-"ao próximo início de sessão."
+"<b>Nota:</b> nem todas as aplicações suportam a alteração imediata do "
+"cursor. Algumas alterações efetuadas poderão não ser aplicadas até ao "
+"próximo início de sessão."
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
@@ -257,15 +256,15 @@ msgstr "<b>Suavização</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
-msgstr "Ativar ajustes"
+msgstr "Ativar \"hinting\""
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr "Estilo dos ajustes: "
+msgstr "Estilo de \"hinting\":"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
-msgstr "<b>Ajustes</b>"
+msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
