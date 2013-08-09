@@ -1,22 +1,24 @@
 # Slovenian translation of lxappearance.
-# Copyright (C) 2011 Free Software Foundation, Inc.
+# Copyright (C) 2011 - 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the lxappearance package.
-# Klemen Košir <klemen.kosir@gmx.com>, 2011.
+# Klemen Košir <klemen913@gmail.com>, 2011 - 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 14:57+0200\n"
-"PO-Revision-Date: 2011-11-20 10:54+0100\n"
-"Last-Translator: Klemen Košir <klemen.kosir@gmx.com>\n"
+"PO-Revision-Date: 2013-08-09 09:08+0000\n"
+"Last-Translator: Klemen <klemen913@gmail.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1376039331.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -37,7 +39,7 @@ msgstr "Prilagodite videz in občutek namizja"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Klemen Košir <klemen.kosir@gmx.com>"
+msgstr "Klemen Košir <klemen913@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
