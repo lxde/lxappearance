@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 14:57+0200\n"
-"PO-Revision-Date: 2012-01-05 15:29+0200\n"
-"Last-Translator: Cilyan <gaknar@gmail.com>\n"
+"PO-Revision-Date: 2013-08-12 19:24+0000\n"
+"Last-Translator: Julien <Julius22@laposte.net>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1376335472.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -196,7 +197,7 @@ msgstr "Premier plan"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Color"
-msgstr "Couleur"
+msgstr "Couleurs"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Install"
@@ -216,7 +217,7 @@ msgstr "Thème d'icônes"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Preview of the selected cursor theme"
-msgstr "Prévisualisation du thème de curseur sélectionné"
+msgstr "Prévisualisation du thème de curseurs sélectionné"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Size of cursors"
@@ -237,12 +238,12 @@ msgid ""
 "applications till next login."
 msgstr ""
 "<b>Note :</b> Toutes les applications ne supportent pas le changement de "
-"thème de curseur à la volée. Vos changements pourraient ne pas être "
+"thème de curseurs à la volée. Vos changements pourraient donc ne pas être "
 "entièrement appliqués avant la prochaine connexion."
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
-msgstr "Curseur de la souris"
+msgstr "Curseurs de la souris"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Window Border"
