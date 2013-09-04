@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 14:57+0200\n"
-"PO-Revision-Date: 2012-08-01 17:24+0200\n"
-"Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
+"PO-Revision-Date: 2013-09-04 10:58+0000\n"
+"Last-Translator: Piotr <strebski@o2.pl>\n"
 "Language-Team: polski <>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bits\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n"
-"%100<10 || n%100>=20)) ? 1 : 2));\n"
-"X-Generator: Pootle 2.0.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1378292318.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -25,11 +26,11 @@ msgstr "Preferencje wyglądu"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Dostosowuje wygląd środowiska graficznego"
+msgstr "Dostosowuje wygląd środowiska graficznego i aplikacji"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Prawa autorskie (C) 2011 Projekt LXDE"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -38,7 +39,9 @@ msgstr "Dostosowuje wygląd środowiska graficznego"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Piotr Sokół <psokol@jabster.pl>, 2010, 2011, 2012."
+msgstr ""
+"Piotr Sokół <psokol@jabster.pl>, 2010, 2011, 2012.Piotr Strębski "
+"<strebski@o2.pl>, 2013."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
@@ -46,15 +49,15 @@ msgstr "Tylko ikony"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "Text only"
-msgstr "Tylko etykiety"
+msgstr "Tylko tekst"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "Text below icons"
-msgstr "Etykiety poniżej ikon"
+msgstr "Tekst poniżej ikon"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid "Text beside icons"
-msgstr "Etykiety obok ikon"
+msgstr "Tekst obok ikon"
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "Same as menu items"
@@ -130,7 +133,7 @@ msgstr "Pomo_c"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Radio Button"
-msgstr "Przycisk pojedynczego wyboru"
+msgstr "Przycisk wyboru"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Check Button"
@@ -138,7 +141,7 @@ msgstr "Pole wyboru"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "button"
-msgstr "Przycisk"
+msgstr "przycisk"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Demo"
@@ -146,11 +149,11 @@ msgstr "Prezentacja"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "Page1"
-msgstr "Karta1"
+msgstr "Strona1"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Page2"
-msgstr "Karta2"
+msgstr "Strona2"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Default font:"
@@ -162,11 +165,11 @@ msgstr "Widżety"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Schematy kolorów nie są obsługiwane przez bieżący motyw."
+msgstr "Schematy kolorów nie są obsługiwane przez bieżący motyw widżetów."
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
-msgstr "Własne"
+msgstr "Użyj własnego motywu kolorów"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Normal windows:"
@@ -186,7 +189,7 @@ msgstr "Podpowiedzi:"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Background"
-msgstr "Drugoplanowy"
+msgstr "Tło"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Foreground"
@@ -210,7 +213,7 @@ msgstr "Podgląd wybranego stylu ikon"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
-msgstr "Ikony"
+msgstr "Motyw ikon"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Preview of the selected cursor theme"
@@ -218,7 +221,7 @@ msgstr "Podgląd wybranego stylu kursora"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Size of cursors"
-msgstr "Rozmiar"
+msgstr "Rozmiar kursorów"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Smaller"
@@ -240,7 +243,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
-msgstr "Kursory myszy"
+msgstr "Kursor myszy"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Window Border"
@@ -248,7 +251,7 @@ msgstr "Obramowanie okien"
 
 #: ../data/ui/lxappearance.ui.h:52
 msgid "Enable antialising"
-msgstr "Włączenie"
+msgstr "Włącz antyaliasing"
 
 #: ../data/ui/lxappearance.ui.h:53
 msgid "<b>Antialising</b>"
@@ -296,7 +299,7 @@ msgstr "Wyświetlanie ikon w menu"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "<b>GUI Options</b>"
-msgstr "<b>Interfejs użytkownika</b>"
+msgstr "<b>Opcje interfejsu użytkownika</b>"
 
 #: ../data/ui/lxappearance.ui.h:65
 msgid "Play event sounds"
@@ -304,11 +307,11 @@ msgstr "Odtwarzanie zdarzeń dźwiękowych"
 
 #: ../data/ui/lxappearance.ui.h:66
 msgid "Play event sounds as feedback to user input"
-msgstr "Odtwarzanie zdarzeń dźwiękowych jako reakcja na wprowadzania danych"
+msgstr "Odtwarzanie zdarzeń dźwiękowych jako reakcja na wprowadzanie danych"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Dźwięki</b>"
+msgstr "<b>Efekty dźwiękowe</b>"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "Other"
@@ -316,7 +319,7 @@ msgstr "Inne"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"
-msgstr "Wybór pliku"
+msgstr "Wybór motywu ikon"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
