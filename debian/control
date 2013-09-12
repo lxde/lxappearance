@@ -33,15 +33,6 @@ Description: LXDE GTK+ theme switcher
   * Choose toolbar style
   * See changes immediately in preview area
 
-Package: lxappearance-dev
-Architecture: any
-Depends: ${misc:Depends}, lxappearance (= ${binary:Version})
-Description: LXDE GTK+ theme switcher (development)
- LXAppearance is a GUI application for the Lightweight X11 Desktop Environment
- (LXDE).
- .
- This package contains the development files.
-
 Package: lxappearance-dbg
 Architecture: any
 Section: debug

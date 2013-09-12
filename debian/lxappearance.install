@@ -1,4 +1,1 @@
-usr/bin
-usr/share
-
-debian/local/source_lxappearance.py	/usr/share/apport/package-hooks
+debian/local/source_lxappearance.py     /usr/share/apport/package-hooks

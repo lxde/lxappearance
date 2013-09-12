@@ -4,17 +4,16 @@
 	dh ${@}
 
 override_dh_auto_configure:
-	./autogen.sh
 	dh_auto_configure -- --enable-man --enable-dbus
+
+override_dh_auto_install:
+	dh_auto_install -- DESTDIR=$(CURDIR)/debian/lxappearance
 
 override_dh_auto_test:
 	# disabled: test fails in po directory
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz -z9
-
-override_dh_install:
-	dh_install --fail-missing
 
 override_dh_strip:
 	dh_strip --dbg-package=lxappearance-dbg
