@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ([2.69])
 AC_INIT([lxappearance],[0.5.2],[http://lxde.org/])
-AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign])
+AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign subdir-objects])
 
 # intltool
 IT_PROG_INTLTOOL([0.40.0])
