@@ -68,13 +68,9 @@ static gboolean check_lxde_dbus()
         return FALSE;
     }
 
-    DBusMessage * test = dbus_message_new_method_call	(
-        "org.lxde.SessionManager",
-        "/org/lxde/SessionManager",
-        "org.lxde.SessionManager",
-        "Logout");
+    dbus_bool_t ret = dbus_bus_name_has_owner(connection,"org.lxde.SessionManager",NULL);
 
-    if (dbus_message_has_interface(test, "org.lxde.SessionManager"))
+    if (ret == TRUE)
     {
         return TRUE;
     }
