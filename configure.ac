@@ -1,6 +1,6 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-AC_PREREQ([2.69])
+AC_PREREQ([2.64])
 AC_INIT([lxappearance],[0.5.2],[http://lxde.org/])
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign subdir-objects])
 
