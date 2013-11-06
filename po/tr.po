@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-23 14:57+0200\n"
-"PO-Revision-Date: 2012-05-06 15:12+0200\n"
-"Last-Translator: Necdet <necdetyucel@gmail.com>\n"
+"PO-Revision-Date: 2013-11-06 21:32+0000\n"
+"Last-Translator: vgezer <volkangezer@gmail.com>\n"
 "Language-Team: tr <tr@li.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Country: TURKEY\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1383773535.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -25,7 +25,7 @@ msgstr "Görünümü Özelleştir"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Masaüstünüzün ve uygulamaların görünümünü özelleştirir."
+msgstr "Masaüstünüzün ve uygulamaların görünümünü özelleştirir"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
@@ -33,12 +33,12 @@ msgstr "Telif Hakkı (C) 2011 LXDE Projesi"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Masaüstünüzün Görünümünü Özelleştirin"
+msgstr "Masaüstünüzün görünümünü özelleştirin"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Mehmet Gülmen memetgulmen@gmail.com"
+msgstr "çevirmenler Mehmet Gülmen memetgulmen@gmail.com"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
@@ -118,7 +118,7 @@ msgstr "Seçilen widget temasının önizlemesi"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
-msgstr "D_osya"
+msgstr "_Dosya"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "_Edit"
@@ -159,7 +159,7 @@ msgstr "Varsayılan yazıtipi:"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Widget"
-msgstr "Widget"
+msgstr "Gereç"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
@@ -179,7 +179,7 @@ msgstr "Metin pencereleri:"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Selected items:"
-msgstr "Seçilen Öğeler"
+msgstr "Seçilen öğeler:"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Tooltips:"
@@ -223,11 +223,11 @@ msgstr "İmleç boyutu"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Smaller"
-msgstr "Daha Küçük"
+msgstr "Daha küçük"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Bigger"
-msgstr "Daha Büyük"
+msgstr "Daha büyük"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid ""
@@ -261,7 +261,7 @@ msgstr "İpucu gösterimini etkinleştir"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr "İpucu biçimi:"
+msgstr "İpucu biçimi: "
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
@@ -321,4 +321,4 @@ msgstr "Bir simge teması seç"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*tar.gz, *tar.bz2 (Simge Teması)"
+msgstr "*.tar.gz, *.tar.bz2 (Simge Teması)"
