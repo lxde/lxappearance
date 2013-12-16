@@ -122,7 +122,7 @@ static void save_cursor_theme_name()
     {
         char* index_theme = g_build_filename(dir_path, "index.theme", NULL);
         char* content = g_strdup_printf(
-            "# This file is written by LXAppearance. Do not edit."
+            "# This file is written by LXAppearance. Do not edit.\n"
             "[Icon Theme]\n"
             "Name=Default\n"
             "Comment=Default Cursor Theme\n"
