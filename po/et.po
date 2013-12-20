@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-13 23:53+0100\n"
-"PO-Revision-Date: 2013-12-20 09:51+0000\n"
+"PO-Revision-Date: 2013-12-20 09:58+0000\n"
 "Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1387533065.0\n"
+"X-POOTLE-MTIME: 1387533485.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -37,7 +37,9 @@ msgstr "Töölaua välimuse kohandamine"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Anari JalakasMattias Põldaru"
+msgstr ""
+"Anari Jalakas\n"
+"Mattias Põldaru"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
