@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-13 23:53+0100\n"
-"PO-Revision-Date: 2013-12-20 09:58+0000\n"
+"PO-Revision-Date: 2013-12-20 11:38+0000\n"
 "Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1387533485.0\n"
+"X-POOTLE-MTIME: 1387539509.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -83,7 +83,7 @@ msgstr "Sama, mis dialoogidel"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "None"
-msgstr "Mitte ükski"
+msgstr "Puudub"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Slight"
@@ -171,7 +171,7 @@ msgstr "Kohandatud värviskeemi kasutamine"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Normal windows:"
-msgstr "Normaalsed aknad:"
+msgstr "Tavaaknad:"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Text windows:"
@@ -179,7 +179,7 @@ msgstr "Tekstiaknad:"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Selected items:"
-msgstr "Valitud:"
+msgstr "Valik:"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Tooltips:"
@@ -199,11 +199,11 @@ msgstr "Värv"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Install"
-msgstr "Paigaldamine"
+msgstr "Paigalda"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Remove"
-msgstr "Eemaldamine"
+msgstr "Eemalda"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Preview of the selected icon theme"
@@ -236,8 +236,8 @@ msgid ""
 "applications till next login."
 msgstr ""
 "<b>Märkus:</b> Mitte kõik töölaua programmid ei toeta töö-käigus muutuvat "
-"kursoriteemat. Siin tehtud muudatused ei pruugi olla täielikult rakendunud "
-"enne järgmist sisselogimist."
+"kursoriteemat. Siin tehtud muudatused ei pruugi täielikult rakenduda enne "
+"järgmist sisselogimist."
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
@@ -305,11 +305,11 @@ msgstr "Sündmuse heli mängimine"
 
 #: ../data/ui/lxappearance.ui.h:66
 msgid "Play event sounds as feedback to user input"
-msgstr "Sündmuse heli mängimine kasutaja sisendi tagasideks"
+msgstr "Sündmuse heli mängimine kasutaja sisendi tagasisideks"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Heliefekt</b>"
+msgstr "<b>Heliefektid</b>"
 
 #: ../data/ui/lxappearance.ui.h:68
 msgid "Other"
