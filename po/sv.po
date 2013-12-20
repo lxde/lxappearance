@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2011-07-22 17:34+0200\n"
+"PO-Revision-Date: 2013-12-20 12:11+0000\n"
 "Last-Translator: Martin <brother@bsnet.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -16,7 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1387541468.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -250,12 +251,10 @@ msgid "Window Border"
 msgstr "Fönsterkant"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Aktivera kantutjämning"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Kantutjämning</b>"
 
