@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2013-09-04 12:26+0000\n"
 "Last-Translator: Piotr <strebski@o2.pl>\n"
 "Language-Team: polski <>\n"
@@ -250,11 +250,13 @@ msgid "Window Border"
 msgstr "Obramowanie okien"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Włącz antyaliasing"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Antyaliasing</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,11 +242,11 @@ msgid "Window Border"
 msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+msgid "Enable antialiasing"
 msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+msgid "<b>Antialiasing</b>"
 msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:54

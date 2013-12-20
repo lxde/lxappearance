@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2012-04-04 21:48+0900\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -244,11 +244,13 @@ msgid "Window Border"
 msgstr "창 테두리"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "안티앨리어싱 활성화"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>안티앨리어싱</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

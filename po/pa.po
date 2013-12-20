@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2010-10-10 07:57+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -245,12 +245,13 @@ msgid "Window Border"
 msgstr "ਵਿੰਡੋ ਬਾਰਡਰ"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+msgid "Enable antialiasing"
 msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
-msgstr ""
+#, fuzzy
+msgid "<b>Antialiasing</b>"
+msgstr "<b>GUI ਚੋਣਾਂ</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"

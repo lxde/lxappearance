@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2012-08-25 17:38+0200\n"
 "Last-Translator: Daniele Forsi <daniele@forsi.it>\n"
 "Language-Team: Italian\n"
@@ -251,11 +251,13 @@ msgid "Window Border"
 msgstr "Bordo finestra"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Abilita antialias"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Antialias</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

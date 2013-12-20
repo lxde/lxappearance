@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2011-08-08 14:23+0200\n"
 "Last-Translator: Max <mpui@tut.by>\n"
 "Language-Team: Russian <info@edumandriva.ru>\n"
@@ -250,11 +250,13 @@ msgid "Window Border"
 msgstr "Рамка окна"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Включить сглаживание"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Сглаживание</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

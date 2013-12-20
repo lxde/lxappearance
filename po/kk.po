@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2012-05-01 14:34+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -247,11 +247,13 @@ msgid "Window Border"
 msgstr "Терезе шегі"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Антиалиасингті іске қосу"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Антиалиасинг</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

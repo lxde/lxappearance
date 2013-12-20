@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2011-07-22 23:21+0200\n"
 "Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
@@ -248,11 +248,13 @@ msgid "Window Border"
 msgstr "Olukoloboze olwetoolola ddirisa"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Wabewo okugyamu aliyasi"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Okuseeteeza</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

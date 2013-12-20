@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2012-05-17 09:09+0200\n"
 "Last-Translator: Algimantas <margevicius.algimantas@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,11 +249,13 @@ msgid "Window Border"
 msgstr "Lango rėmelis"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Įjungti glotninimą"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Glotninimas</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2011-06-11 14:05+0200\n"
 "Last-Translator: Sérgio <ikisham@gmail.com>\n"
 "Language-Team: Brazilian Porguese <ldp-br@bazar.conectiva.com.br>\n"
@@ -251,11 +251,13 @@ msgid "Window Border"
 msgstr "Borda da janela"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Habilitar antialiasing"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Antialiasing</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

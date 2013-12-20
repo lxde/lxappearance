@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2010-11-05 16:52+0200\n"
 "Last-Translator: Ali <aysabzevar@gmail.com>\n"
 "Language-Team: Persian <trans-fa@lists.fedoraproject.org>\n"
@@ -249,12 +249,13 @@ msgid "Window Border"
 msgstr "محدوده ی پنجره"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+msgid "Enable antialiasing"
 msgstr ""
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
-msgstr ""
+#, fuzzy
+msgid "<b>Antialiasing</b>"
+msgstr "<b>گزینه های میانگر گرافیکی کاربری</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXAppearance package\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2013-09-06 01:35+0100\n"
 "Last-Translator: Jay A.Fleming <tito.nehru.naser@gmail.com>\n"
 "Language-Team: \n"
@@ -235,8 +235,8 @@ msgid ""
 "applications till next login."
 msgstr ""
 "<b>Napomena:</b> Automatsku promenu izgleda pokazivača ne podržavaju neki "
-"programi, pa će se ove promene u njima videti nakon narednog prijavljivanja na "
-"sistem."
+"programi, pa će se ove promene u njima videti nakon narednog prijavljivanja "
+"na sistem."
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
@@ -247,11 +247,13 @@ msgid "Window Border"
 msgstr "Ivica prozora"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Omogući umekšavanje"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Umekšavanje ivica</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

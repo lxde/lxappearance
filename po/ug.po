@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2011-11-29 08:44+0200\n"
 "Last-Translator: Gheyret <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -246,11 +246,13 @@ msgid "Window Border"
 msgstr "كۆزنەك گىرۋىكى"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "سىلىقلاشنى ئىناۋەتلىك قىلىش"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>سىلىقلاش</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2011-09-08 19:39+0200\n"
 "Last-Translator: Pjotr <>\n"
 "Language-Team: Dutch\n"
@@ -250,11 +250,13 @@ msgid "Window Border"
 msgstr "Vensterrand"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Anti-kartelvorming inschakelen"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Anti-kartelvorming</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

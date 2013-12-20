@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2012-08-14 13:23+0200\n"
 "Last-Translator: ALIUM <info@aloisnespor.info>\n"
 "Language-Team: Czech <radek@fastlinux.eu>\n"
@@ -245,11 +245,13 @@ msgid "Window Border"
 msgstr "Okraj okna"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Zapnout vyhlazování"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Vyhlazování</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

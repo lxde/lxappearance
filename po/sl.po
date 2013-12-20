@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2013-08-09 09:08+0000\n"
 "Last-Translator: Klemen <klemen913@gmail.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -247,11 +247,13 @@ msgid "Window Border"
 msgstr "Obroba oken"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "Omogoči glajenje robov"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>Glajenje robov</b>"
 
 #: ../data/ui/lxappearance.ui.h:54

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:53+0100\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
 "PO-Revision-Date: 2012-04-11 04:09+0200\n"
 "Last-Translator: PraveenIlla <mail2ipn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,11 +245,13 @@ msgid "Window Border"
 msgstr "విండో సరిహద్దు"
 
 #: ../data/ui/lxappearance.ui.h:52
-msgid "Enable antialising"
+#, fuzzy
+msgid "Enable antialiasing"
 msgstr "యాంటీఅలియాసింగును చేతనపరుచు"
 
 #: ../data/ui/lxappearance.ui.h:53
-msgid "<b>Antialising</b>"
+#, fuzzy
+msgid "<b>Antialiasing</b>"
 msgstr "<b>యాంటీఅలియాసింగ్</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
