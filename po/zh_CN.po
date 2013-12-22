@@ -2,13 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2012-10-14 12:20+0200\n"
+"PO-Revision-Date: 2013-12-22 07:33+0000\n"
 "Last-Translator: Wylmer <wantinghard@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -16,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1387697635.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -232,9 +232,7 @@ msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
-msgstr ""
-"<b>注：</b> 有些桌面应用程序不支持实时更改鼠标主题。因此您在这里所作的更改可"
-"能要到下次登录时才能完全应用。"
+msgstr "<b>注：</b> 有些桌面应用程序不支持实时更改鼠标主题。因此您在这里所作的更改可能要到下次登录时才能完全应用。"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
@@ -245,12 +243,10 @@ msgid "Window Border"
 msgstr "窗口边框"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "启用平滑"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>平滑</b>"
 
@@ -321,3 +317,9 @@ msgstr "选择一个图标主题"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (图标主题)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "启用平滑"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>平滑</b>"
