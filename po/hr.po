@@ -2,22 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2012-10-17 00:02+0200\n"
-"Last-Translator: zvacet <ikoli@yahoo.com>\n"
+"PO-Revision-Date: 2013-12-24 05:44+0000\n"
+"Last-Translator: Ivica <ikoli@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.0.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1387863892.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -70,7 +70,7 @@ msgstr "Velike ikone alatne trake"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Same as buttons"
-msgstr ""
+msgstr "Isto kao i gumbi"
 
 #: ../data/ui/lxappearance.ui.h:9
 msgid "Same as drag icons"
@@ -86,7 +86,7 @@ msgstr "NIjedan"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Slight"
-msgstr ""
+msgstr "Lagano"
 
 #: ../data/ui/lxappearance.ui.h:13
 msgid "Medium"
@@ -114,7 +114,7 @@ msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Preview of the selected widget style"
-msgstr ""
+msgstr "Pregled odabranog widget stila"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
@@ -130,15 +130,15 @@ msgstr "_Pomoć"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Radio Button"
-msgstr ""
+msgstr "Radio gumb"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Check Button"
-msgstr ""
+msgstr "Gumb za potvrdu"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "button"
-msgstr ""
+msgstr "gumb"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Demo"
@@ -158,7 +158,7 @@ msgstr "Zadani font:"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Widget"
-msgstr ""
+msgstr "Widget"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
@@ -285,7 +285,7 @@ msgstr "Veličina ikona alatne trake: "
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Show images on buttons"
-msgstr ""
+msgstr "Pokaži slike na gumbima"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Show images in menus"
