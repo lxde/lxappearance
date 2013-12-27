@@ -1,22 +1,22 @@
 # Portuguese translation for LXAPPEARANCE.
 # Copyright (C) 2010 The LXAPPEARANCE Copyright Holder.
 # This file is distributed under the same license as the LXAPPEARANCE package.
-# Sérgio Marques <smarquespt@gmail.com>, 2010-2012.
+# Sérgio Marques <smarquespt@gmail.com>, 2010-2013.
 # Adaptado ao acordo ortográfico de 1990
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2013-07-25 11:42+0000\n"
-"Last-Translator: Sérgio <smarquespt@gmail.com>\n"
+"PO-Revision-Date: 2013-12-27 15:38-0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Poedit 1.6.3\n"
 "X-POOTLE-MTIME: 1374752572.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
@@ -25,15 +25,15 @@ msgstr "Personalizar aspeto e comportamento"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Personaliza o aspeto do seu ambiente de trabalho e das aplicações"
+msgstr "Personaliza o aspeto da sua área de trabalho e das aplicações"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Direitos de autor (C) 2011 Projeto LXDE"
+msgstr "Direitos de autor (C) 2011-2013 Projeto LXDE"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Personaliza a aparência do seu ambiente de trabalho"
+msgstr "Personaliza o aspeto da sua área de trabalho"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
@@ -42,11 +42,11 @@ msgstr "Sérgio Marques <smarquespt@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
-msgstr "Só ícones"
+msgstr "Apenas ícones"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "Text only"
-msgstr "Só texto"
+msgstr "Apenas texto"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "Text below icons"
@@ -58,7 +58,7 @@ msgstr "Texto ao lado dos ícones"
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "Same as menu items"
-msgstr "O mesmo dos itens de menu"
+msgstr "Igual aos itens de menu"
 
 #: ../data/ui/lxappearance.ui.h:6
 msgid "Small toolbar icon"
@@ -70,19 +70,19 @@ msgstr "Ícones grandes"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Same as buttons"
-msgstr "O mesmo dos botões"
+msgstr "cos botões"
 
 #: ../data/ui/lxappearance.ui.h:9
 msgid "Same as drag icons"
-msgstr "O mesmo dos ícones arrastáveis"
+msgstr "Igual aos ícones arrastáveis"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Same as dialogs"
-msgstr "O mesmo dos diálogos"
+msgstr "Igual aos diálogos"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "None"
-msgstr "Nenhum"
+msgstr "Nenhuma"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Slight"
@@ -114,7 +114,7 @@ msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Preview of the selected widget style"
-msgstr "Visualização do estilo do \"widget\" selecionado"
+msgstr "Visualização de estilo do \"widget\" selecionado"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
@@ -126,7 +126,7 @@ msgstr "_Editar"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "_Help"
-msgstr "_Ajuda"
+msgstr "Aj_uda"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Radio Button"
@@ -142,7 +142,7 @@ msgstr "botão"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Demo"
-msgstr "Demonstração"
+msgstr "Exemplo"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "Page1"
@@ -186,7 +186,7 @@ msgstr "Dicas:"
 
 #: ../data/ui/lxappearance.ui.h:38
 msgid "Background"
-msgstr "Fundo"
+msgstr "Secundária"
 
 #: ../data/ui/lxappearance.ui.h:39
 msgid "Foreground"
@@ -247,12 +247,10 @@ msgid "Window Border"
 msgstr "Contornos da janela"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Ativar suavização"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Suavização</b>"
 
