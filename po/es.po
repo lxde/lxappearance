@@ -2,13 +2,12 @@
 # Copyright (C) 2010 The LXDE Project
 # This file is distributed under the same license as the lxappearance package.
 # Hugo Florentino <sysadmin@cips.cu>, 2010.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2013-07-12 02:54+0000\n"
+"PO-Revision-Date: 2013-12-29 19:47+0000\n"
 "Last-Translator: Adolfo <fitoschido@ubuntu.com>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -17,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1373597650.0\n"
+"X-POOTLE-MTIME: 1388346427.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -40,7 +39,9 @@ msgstr "Personaliza la apariencia y el comportamiento de su escritorio"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Hugo Florentino <sysadmin@cips.cu>"
+msgstr ""
+"Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013, 2014\n"
+"Hugo Florentino <sysadmin@cips.cu>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
@@ -144,7 +145,7 @@ msgstr "botón"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Demo"
-msgstr "Demo"
+msgstr "Demostración"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "Page1"
@@ -182,7 +183,7 @@ msgstr "Ventanas de texto:"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Selected items:"
-msgstr "Elementos seleccionados"
+msgstr "Elementos seleccionados:"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Tooltips:"
@@ -251,26 +252,24 @@ msgid "Window Border"
 msgstr "Borde de la ventana"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Activar el suavizado de bordes"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Suavizado de bordes</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
-msgstr "Habilitar optimización"
+msgstr "Activar la optimización"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr "Estilo de optimización:"
+msgstr "Estilo de optimización: "
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
-msgstr "<b>Optimización</b>"
+msgstr "<b>Optimización (<i>hinting</i>)</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
@@ -327,3 +326,9 @@ msgstr "Seleccionar un tema de iconos"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (tema de iconos)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "Activar el suavizado de bordes"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Suavizado de bordes</b>"
