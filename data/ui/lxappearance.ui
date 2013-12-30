@@ -1356,7 +1356,7 @@
                           <object class="GtkVBox" id="vbox12">
                             <property name="visible">True</property>
                             <child>
-                              <object class="GtkCheckButton" id="enable_antialiasing">
+                              <object class="GtkCheckButton" id="enable_antialising">
                                 <property name="label" translatable="yes">Enable antialiasing</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
