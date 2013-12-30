@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ([2.64])
-AC_INIT([lxappearance],[0.5.3],[http://lxde.org/])
+AC_INIT([lxappearance],[0.5.4],[http://lxde.org/])
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign subdir-objects no-dist-gzip dist-xz])
 
 # intltool
