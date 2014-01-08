@@ -2,13 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2014-01-08 13:05+0000\n"
+"PO-Revision-Date: 2014-01-08 19:45+0000\n"
 "Last-Translator: Sisco <sisco.garcia@ubuntu.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -17,8 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389186317.0\n"
+"X-POOTLE-MTIME: 1389210305.0\n"
 
+# No sé com interpretar això de «feel»
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 #, fuzzy
 msgid "Customize Look and Feel"
@@ -111,7 +111,7 @@ msgstr "Mitjana"
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Full"
-msgstr ""
+msgstr "Complet"
 
 #: ../data/ui/lxappearance.ui.h:15
 #, fuzzy
@@ -189,10 +189,9 @@ msgid "Widget"
 msgstr "Estri"
 
 #: ../data/ui/lxappearance.ui.h:32
-#, fuzzy
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
-"L'esquema de colros no és suportat de moment pel tema d'estris seleccionat"
+"L'esquema de colors no és suportat de moment pel tema d'estris seleccionat"
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
@@ -200,7 +199,7 @@ msgstr "Utilitza un esquema de color personalitzat"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Normal windows:"
-msgstr ""
+msgstr "Finestra normal"
 
 #: ../data/ui/lxappearance.ui.h:35
 #, fuzzy
@@ -247,23 +246,25 @@ msgstr "Vista prèvia del tipus d'icona seleccionat"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
-msgstr ""
+msgstr "Tema d'icones"
 
 #: ../data/ui/lxappearance.ui.h:45
+#, fuzzy
 msgid "Preview of the selected cursor theme"
-msgstr ""
+msgstr "Vista prèvia del tipus d'icona seleccionat"
 
 #: ../data/ui/lxappearance.ui.h:46
+#, fuzzy
 msgid "Size of cursors"
-msgstr ""
+msgstr "Mida dels cursors"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Smaller"
-msgstr ""
+msgstr "Més petit"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Bigger"
-msgstr ""
+msgstr "Més gran"
 
 #: ../data/ui/lxappearance.ui.h:49
 #, fuzzy
@@ -291,74 +292,87 @@ msgid "Enable antialiasing"
 msgstr "Habilita l'antialiàsing"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
-msgstr "</b>Antialiasing</b>"
+msgstr "</b>Antialiàsing</b>"
 
+# Entenc que «hint» significa donar a entendre o insinuar, per això ho he traduït com «suggeriments» però no acab de tenir gens clar :(
 #: ../data/ui/lxappearance.ui.h:54
+#, fuzzy
 msgid "Enable hinting"
-msgstr ""
+msgstr "Permet suggeriments"
 
 #: ../data/ui/lxappearance.ui.h:55
+#, fuzzy
 msgid "Hinting style: "
-msgstr ""
+msgstr "Estil de correcció de lletres: "
 
 #: ../data/ui/lxappearance.ui.h:56
+#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr ""
+msgstr "<b>Suggeriments</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
+#, fuzzy
 msgid "Sub-pixel geometry: "
-msgstr ""
+msgstr "Geometria dels sub-píxels:"
 
 #: ../data/ui/lxappearance.ui.h:58
+#, fuzzy
 msgid "<b>Sub-pixel geometry</b>"
-msgstr ""
+msgstr "<b>Geometria dels sub-píxels</b>"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Font"
-msgstr ""
+msgstr "Tipus de lletra"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Toolbar Style: "
-msgstr ""
+msgstr "Estil de la barra d'eines:"
 
 #: ../data/ui/lxappearance.ui.h:61
+#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr ""
+msgstr "Mida de les icones de la barra d'eines:"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Show images on buttons"
-msgstr ""
+msgstr "Mostra imatges en els botons"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Show images in menus"
-msgstr ""
+msgstr "Mostra imatges en els menús"
 
 #: ../data/ui/lxappearance.ui.h:64
+#, fuzzy
 msgid "<b>GUI Options</b>"
-msgstr ""
+msgstr "<b>Opcions de la interfície gràfica</b>"
 
 #: ../data/ui/lxappearance.ui.h:65
+#, fuzzy
 msgid "Play event sounds"
-msgstr ""
+msgstr "Emet sons d'esdeveniments"
 
+# pot ser una mica recargolat
 #: ../data/ui/lxappearance.ui.h:66
+#, fuzzy
 msgid "Play event sounds as feedback to user input"
-msgstr ""
+msgstr "Emet sons d'esdeveniments com a resposta a les accions de l'usuari"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "<b>Sound Effect</b>"
-msgstr ""
+msgstr "<b>Efecte de so</b>"
 
 #: ../data/ui/lxappearance.ui.h:68
+#, fuzzy
 msgid "Other"
-msgstr ""
+msgstr "Altres"
 
 #: ../src/utils.c:217
+#, fuzzy
 msgid "Select an icon theme"
-msgstr ""
+msgstr "Seleccioneu un tema per les icones"
 
 #: ../src/utils.c:224
+#, fuzzy
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr ""
+msgstr "*.tar.gz, *.tar.bz2 (Tema d'icones)"
