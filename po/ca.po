@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.10.0\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
+msgid "Customize Look and Feel"
+msgstr ""
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr ""
+
+#: ../data/ui/about.ui.in.h:1
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr ""
+
+#: ../data/ui/about.ui.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr ""
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.ui.in.h:4
+msgid "translator-credits"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:1
+msgid "Icons only"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:2
+msgid "Text only"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:3
+msgid "Text below icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:4
+msgid "Text beside icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:5
+msgid "Same as menu items"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:6
+msgid "Small toolbar icon"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:7
+msgid "Large toolbar icon"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:8
+msgid "Same as buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:9
+msgid "Same as drag icons"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:10
+msgid "Same as dialogs"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:11
+msgid "None"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:12
+msgid "Slight"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:13
+msgid "Medium"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:14
+msgid "Full"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:15
+msgid "RGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:16
+msgid "BGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "VRGB"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "VBGR"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Preview of the selected widget style"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "_File"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:22
+msgid "_Edit"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:23
+msgid "_Help"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:24
+msgid "Radio Button"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:25
+msgid "Check Button"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:26
+msgid "button"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:27
+msgid "Demo"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:28
+msgid "Page1"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:29
+msgid "Page2"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:30
+msgid "Default font:"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:31
+msgid "Widget"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:32
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:33
+msgid "Use customized color scheme"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:34
+msgid "Normal windows:"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:35
+msgid "Text windows:"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Selected items:"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:37
+msgid "Tooltips:"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "Background"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Foreground"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Color"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Install"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Remove"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Preview of the selected icon theme"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Icon Theme"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Preview of the selected cursor theme"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Size of cursors"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Smaller"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Bigger"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:49
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:50
+msgid "Mouse Cursor"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Window Border"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:52
+msgid "Enable antialiasing"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:53
+msgid "<b>Antialiasing</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:54
+msgid "Enable hinting"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:55
+msgid "Hinting style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:56
+msgid "<b>Hinting</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:57
+msgid "Sub-pixel geometry: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:58
+msgid "<b>Sub-pixel geometry</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Font"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:60
+msgid "Toolbar Style: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "Toolbar Icon Size: "
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:62
+msgid "Show images on buttons"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:63
+msgid "Show images in menus"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:64
+msgid "<b>GUI Options</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:65
+msgid "Play event sounds"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:66
+msgid "Play event sounds as feedback to user input"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:67
+msgid "<b>Sound Effect</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.ui.h:68
+msgid "Other"
+msgstr ""
+
+#: ../src/utils.c:217
+msgid "Select an icon theme"
+msgstr ""
+
+#: ../src/utils.c:224
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr ""
