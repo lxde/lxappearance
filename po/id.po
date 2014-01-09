@@ -6,16 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2011-08-21 10:24+0200\n"
-"Last-Translator: andika <andika@gmail.com>\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-01-08 08:47+0000\n"
+"Last-Translator: Andika <andika@gmail.com>\n"
 "Language-Team: Indonesian Translation Team <id@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1389170847.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -245,12 +246,10 @@ msgid "Window Border"
 msgstr "Bingkai Jendela"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Aktifkan antialias"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Antialias</b>"
 
@@ -321,3 +320,9 @@ msgstr "Pilih tema ikon"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Tema Ikon)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "Aktifkan antialias"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Antialias</b>"
