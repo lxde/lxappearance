@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2014-01-08 19:45+0000\n"
-"Last-Translator: Sisco <sisco.garcia@ubuntu.cat>\n"
+"PO-Revision-Date: 2014-01-09 10:08+0000\n"
+"Last-Translator: papapep <papapep@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -16,96 +16,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389210305.0\n"
+"X-POOTLE-MTIME: 1389262101.0\n"
 
 # No sé com interpretar això de «feel»
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
-#, fuzzy
 msgid "Customize Look and Feel"
-msgstr "Personalitzeu l'aparença i les sensacions"
+msgstr "Personalitzeu l'aspecte i el comportament"
 
 #: ../data/lxappearance.desktop.in.h:2
-#, fuzzy
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Personalitzeu l'aparença de l'escriptori i les aplicacions"
+msgstr ""
+"Personalitza l'aspecte i el comportament de l'escriptori i les aplicacions"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
 msgstr "Copyright (C) 2011 LXDE Project"
 
 #: ../data/ui/about.ui.in.h:2
-#, fuzzy
 msgid "Customizes look and feel of your desktop"
-msgstr "Personalitza l'aparença de l'escriptori"
+msgstr "Personalitza l'aspecte i el comportament de l'escriptori"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
-#, fuzzy
 msgid "translator-credits"
-msgstr "crèdits de traducció"
+msgstr "translator-credits"
 
 #: ../data/ui/lxappearance.ui.h:1
-#, fuzzy
 msgid "Icons only"
 msgstr "Només icones"
 
 #: ../data/ui/lxappearance.ui.h:2
-#, fuzzy
 msgid "Text only"
 msgstr "Només text"
 
 #: ../data/ui/lxappearance.ui.h:3
-#, fuzzy
 msgid "Text below icons"
 msgstr "Text sota les icones"
 
 #: ../data/ui/lxappearance.ui.h:4
-#, fuzzy
 msgid "Text beside icons"
 msgstr "Text al costat de les icones"
 
 #: ../data/ui/lxappearance.ui.h:5
-#, fuzzy
 msgid "Same as menu items"
-msgstr "El mateix que els ítems del menú"
+msgstr "El mateix que els elements del menú"
 
 #: ../data/ui/lxappearance.ui.h:6
-#, fuzzy
 msgid "Small toolbar icon"
 msgstr "Icona de barra d'eines petita"
 
 #: ../data/ui/lxappearance.ui.h:7
-#, fuzzy
 msgid "Large toolbar icon"
 msgstr "Icona de barra d'eines gran"
 
 #: ../data/ui/lxappearance.ui.h:8
-#, fuzzy
 msgid "Same as buttons"
 msgstr "Igual que els botons"
 
 #: ../data/ui/lxappearance.ui.h:9
-#, fuzzy
 msgid "Same as drag icons"
 msgstr "Igual que les icones d'arrossegament"
 
 #: ../data/ui/lxappearance.ui.h:10
-#, fuzzy
 msgid "Same as dialogs"
 msgstr "Igual que els diàlegs"
 
 #: ../data/ui/lxappearance.ui.h:11
-#, fuzzy
 msgid "None"
 msgstr "Cap"
 
 #: ../data/ui/lxappearance.ui.h:12
-#, fuzzy
 msgid "Slight"
 msgstr "Lleugera"
 
 #: ../data/ui/lxappearance.ui.h:13
-#, fuzzy
 msgid "Medium"
 msgstr "Mitjana"
 
@@ -114,7 +98,6 @@ msgid "Full"
 msgstr "Complet"
 
 #: ../data/ui/lxappearance.ui.h:15
-#, fuzzy
 msgid "RGB"
 msgstr "RGB"
 
@@ -202,26 +185,22 @@ msgid "Normal windows:"
 msgstr "Finestra normal"
 
 #: ../data/ui/lxappearance.ui.h:35
-#, fuzzy
 msgid "Text windows:"
-msgstr "Text de les finestres:"
+msgstr "Finestres de text:"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Selected items:"
 msgstr "Elements seleccionats:"
 
 #: ../data/ui/lxappearance.ui.h:37
-#, fuzzy
 msgid "Tooltips:"
-msgstr "Consells flotants:"
+msgstr "Consells:"
 
 #: ../data/ui/lxappearance.ui.h:38
-#, fuzzy
 msgid "Background"
 msgstr "Fons"
 
 #: ../data/ui/lxappearance.ui.h:39
-#, fuzzy
 msgid "Foreground"
 msgstr "Primer pla"
 
@@ -230,19 +209,16 @@ msgid "Color"
 msgstr "Color"
 
 #: ../data/ui/lxappearance.ui.h:41
-#, fuzzy
 msgid "Install"
-msgstr "Instaŀla"
+msgstr "Instal·la"
 
 #: ../data/ui/lxappearance.ui.h:42
-#, fuzzy
 msgid "Remove"
 msgstr "Suprimeix"
 
 #: ../data/ui/lxappearance.ui.h:43
-#, fuzzy
 msgid "Preview of the selected icon theme"
-msgstr "Vista prèvia del tipus d'icona seleccionat"
+msgstr "Vista prèvia del tema d'icones seleccionat"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
@@ -251,10 +227,9 @@ msgstr "Tema d'icones"
 #: ../data/ui/lxappearance.ui.h:45
 #, fuzzy
 msgid "Preview of the selected cursor theme"
-msgstr "Vista prèvia del tipus d'icona seleccionat"
+msgstr "Vista prèvia del tema de cursor seleccionat"
 
 #: ../data/ui/lxappearance.ui.h:46
-#, fuzzy
 msgid "Size of cursors"
 msgstr "Mida dels cursors"
 
