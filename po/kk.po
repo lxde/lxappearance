@@ -2,22 +2,21 @@
 # Copyright (C) 2012 The LXDE team
 # This file is distributed under the same license as the LXDE package.
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2012-05-01 14:34+0600\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-01-12 12:23+0000\n"
+"Last-Translator: sotrud_nik <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Language: Kazakh\n"
-"X-Poedit-Country: KAZAKHSTAN\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1389529403.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -247,12 +246,10 @@ msgid "Window Border"
 msgstr "Терезе шегі"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Антиалиасингті іске қосу"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Антиалиасинг</b>"
 
@@ -323,3 +320,9 @@ msgstr "Таңбашалар темасын таңдаңыз"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Таңбашалар темасы)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "Антиалиасингті іске қосу"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Антиалиасинг</b>"
