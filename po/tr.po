@@ -2,13 +2,12 @@
 # Copyright (C) 2010
 # This file is distributed under the same license as the lxappearance package.
 # Mehmet Gülmen <memetgulmen@gmail.com>, 2010.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2013-11-06 21:32+0000\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2013-12-26 16:46+0000\n"
 "Last-Translator: vgezer <volkangezer@gmail.com>\n"
 "Language-Team: tr <tr@li.org>\n"
 "Language: tr\n"
@@ -17,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1383773535.0\n"
+"X-POOTLE-MTIME: 1388076400.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -248,14 +247,12 @@ msgid "Window Border"
 msgstr "Pencere Kenarı"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Düzgünleştirmeyi etkinleştir"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
-msgstr "<b>Düzgünleştirmek</b>"
+msgstr "<b>Düzgünleştirme</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
@@ -324,3 +321,9 @@ msgstr "Bir simge teması seç"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Simge Teması)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "Düzgünleştirmeyi etkinleştir"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Düzgünleştirmek</b>"
