@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2013-12-26 16:46+0000\n"
+"PO-Revision-Date: 2014-01-15 23:11+0000\n"
 "Last-Translator: vgezer <volkangezer@gmail.com>\n"
 "Language-Team: tr <tr@li.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1388076400.0\n"
+"X-POOTLE-MTIME: 1389827465.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -113,7 +113,7 @@ msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Preview of the selected widget style"
-msgstr "Seçilen widget temasının önizlemesi"
+msgstr "Seçilen gereç temasının önizlemesi"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
@@ -154,7 +154,7 @@ msgstr "Sayfa2"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Default font:"
-msgstr "Varsayılan yazıtipi:"
+msgstr "Varsayılan yazı tipi:"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Widget"
@@ -162,7 +162,7 @@ msgstr "Gereç"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Renk teması şu an seçilmiş olan widget teması ile uyumlu değil."
+msgstr "Renk teması şu an seçilmiş olan gereç teması ile uyumlu değil."
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
@@ -268,7 +268,7 @@ msgstr "<b>İpucu</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
-msgstr "Alt-pixel geometrisi: "
+msgstr "Alt-piksel geometrisi: "
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "<b>Sub-pixel geometry</b>"
@@ -276,7 +276,7 @@ msgstr "<b>Alt-piksel geometrisi</b>"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Font"
-msgstr "Yazı tipi"
+msgstr "Yazı Tipi"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Toolbar Style: "
