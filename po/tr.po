@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389827465.0\n"
+"X-POOTLE-MTIME: 1389827501.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -210,7 +210,7 @@ msgstr "Seçilen simge temasını önizle"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
-msgstr "Simge teması"
+msgstr "Simge Teması"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Preview of the selected cursor theme"
