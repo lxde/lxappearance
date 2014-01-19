@@ -3,20 +3,21 @@
 # Copyright (C) 2008-2009 THE lxappearance'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the lxappearance package.
 # Hironao Komatsu <hironao@users.sourceforge.net>, 2009.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2010-10-07 18:41+0900\n"
-"Last-Translator: Hironao Komatsu <hironao@users.sourceforge.net>\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-01-19 01:28+0000\n"
+"Last-Translator: Hironao <hirkmt@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1390094915.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -24,8 +25,7 @@ msgstr "ルックアンドフィールを設定します"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr ""
-"あなたのデスクトップとアプリケーションのルックアンドフィールを設定します"
+msgstr "あなたのデスクトップとアプリケーションのルックアンドフィールを設定します"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
@@ -162,8 +162,7 @@ msgstr "ウィジェット"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
-"現在選択しているウィジェットテーマはカラースキームをサポートしていません。"
+msgstr "現在選択しているウィジェットテーマはカラースキームをサポートしていません。"
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
@@ -235,9 +234,8 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>注意:</b> デスクトップアプリケーションのすべてが実行中のカーソルテーマの変"
-"更をサポートしているわけではありません。よって、ここでの変更の一部は次回のロ"
-"グインまで反映されないことがあります。"
+"<b>注意:</b> デスクトップアプリケーションのすべてが実行中のカーソルテーマの変更をサポートしているわけではありません。よって、ここでの変更の一部"
+"は次回のログインまで反映されないことがあります。"
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
@@ -248,12 +246,10 @@ msgid "Window Border"
 msgstr "ウィンドウ境界"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "アンチエイリアシングを有効にする"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>アンチエイリアシング</b>"
 
@@ -324,3 +320,9 @@ msgstr "アイコンテーマの選択"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (アイコンテーマ)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "アンチエイリアシングを有効にする"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>アンチエイリアシング</b>"
