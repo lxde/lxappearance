@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the
 # lxappearance package.
 # Pjotr, 2011.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2011-09-08 19:39+0200\n"
-"Last-Translator: Pjotr <>\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-01-28 09:46+0000\n"
+"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1390902419.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -29,7 +29,7 @@ msgstr "Past uiterlijk en bediening aan van uw bureaublad en toepassingen"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Auteursrecht (C) 2011 LXDE-Project"
+msgstr "Auteursrecht (C) 2011 LXDE-project"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -39,7 +39,7 @@ msgstr "Past uiterlijk en bediening aan van uw werkomgeving"
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr ""
-"Pjotr\n"
+"Pjotr <pjotrvertaalt@gmail.com>\n"
 "Enkele anderen wier namen per ongeluk zijn verwijderd (Excuus!)."
 
 #: ../data/ui/lxappearance.ui.h:1
@@ -250,12 +250,10 @@ msgid "Window Border"
 msgstr "Vensterrand"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Anti-kartelvorming inschakelen"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Anti-kartelvorming</b>"
 
@@ -326,3 +324,9 @@ msgstr "Kies een pictogramthema"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (pictogramthema)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "Anti-kartelvorming inschakelen"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Anti-kartelvorming</b>"
