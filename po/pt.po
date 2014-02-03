@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2013-12-27 15:38-0000\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-02-03 23:09+0000\n"
+"Last-Translator: Sérgio <smarquespt@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.3\n"
-"X-POOTLE-MTIME: 1374752572.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1391468999.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -29,7 +29,7 @@ msgstr "Personaliza o aspeto da sua área de trabalho e das aplicações"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Direitos de autor (C) 2011-2013 Projeto LXDE"
+msgstr "Direitos de autor (C) 2011-2014 Projeto LXDE"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -70,7 +70,7 @@ msgstr "Ícones grandes"
 
 #: ../data/ui/lxappearance.ui.h:8
 msgid "Same as buttons"
-msgstr "cos botões"
+msgstr "Igual aos botões"
 
 #: ../data/ui/lxappearance.ui.h:9
 msgid "Same as drag icons"
