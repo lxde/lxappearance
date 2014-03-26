@@ -16,4 +16,5 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 EXTRA_DIST= \
 	$(desktop_DATA) \
+	$(desktop_in_files) \
 	$(NULL)
