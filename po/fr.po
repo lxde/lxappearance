@@ -2,14 +2,13 @@
 # Copyright (C) 2010 The LXDE Project
 # This file is distributed under the same license as the lxappearance package.
 # Julien Lavergne <gilir@ubuntu.com>, 2010.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2013-08-12 19:24+0000\n"
-"Last-Translator: Julien <Julius22@laposte.net>\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-04-02 08:01+0000\n"
+"Last-Translator: DDZ <drole2zebre57@yahoo.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1376335472.0\n"
+"X-POOTLE-MTIME: 1396425670.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -165,7 +164,8 @@ msgstr "Interface"
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
-"La sélection des couleurs n'est pas supportée par le thème sélectionné."
+"La sélection des couleurs n'est pas prise en charge par le thème "
+"sélectionné."
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
@@ -250,26 +250,24 @@ msgid "Window Border"
 msgstr "Bordures des fenêtres"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Activer l'anticrénelage"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Anticrénelage</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
-msgstr "Activer le hinting"
+msgstr "Activer l'amélioration"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr "Mode de hinting : "
+msgstr "Mode d'amélioration : "
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
-msgstr "<b>Hinting</b>"
+msgstr "<b>Amélioration</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
 msgid "Sub-pixel geometry: "
@@ -327,3 +325,9 @@ msgstr "Sélectionnez un thème d'icônes"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (thème d'icônes)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "Activer l'anticrénelage"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Anticrénelage</b>"
