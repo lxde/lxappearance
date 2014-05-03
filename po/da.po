@@ -2,20 +2,21 @@
 # Copyright (C) 2010 lxappearance & nedenstående oversættere.
 # This file is distributed under the same license as the lxappearance package.
 # Joe Hansen <joedalton2@yahoo.dk>, 2010.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2011-12-27 13:37+0200\n"
-"Last-Translator: mjjzf <mjjzf@syntaktisk.dk>\n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-05-03 21:11+0000\n"
+"Last-Translator: Peter <flywheel@illogical.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1399151514.0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -251,12 +252,12 @@ msgstr "Vinduegrænse"
 #: ../data/ui/lxappearance.ui.h:52
 #, fuzzy
 msgid "Enable antialiasing"
-msgstr "Aktivér antialiasing"
+msgstr "Aktivér udjævning"
 
 #: ../data/ui/lxappearance.ui.h:53
 #, fuzzy
 msgid "<b>Antialiasing</b>"
-msgstr "<b>Antialias</b>"
+msgstr "<b>Udjævning</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
@@ -326,3 +327,9 @@ msgstr "Vælg ikontema"
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (ikontema)"
+
+#~ msgid "Enable antialising"
+#~ msgstr "Aktivér antialiasing"
+
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Antialias</b>"
