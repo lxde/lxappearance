@@ -1,478 +1,333 @@
-# French translation of NetworkManager-vpnc.
-# Copyright (C) 2007-2011 Free Software Foundation, Inc.
-# This file is distributed under the same license as the NetworkManager package.
-#
-# Jonathan Ernst <jonathan@ernstfamily.ch>, 2007.
-# Claude Paroz <claude@2xlibre.net>, 2007-2011.
-# Robert-André Mauchin <zebob.m@pengzone.org>, 2007-2008.
-# Cédric Felizard <cedric@felizard.fr>, 2011.
-#
+# French translation for lxappearance package.
+# Copyright (C) 2010 The LXDE Project
+# This file is distributed under the same license as the lxappearance package.
+# Julien Lavergne <gilir@ubuntu.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: NetworkManager-vpnc\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=NetworkManager&keywords=I18N+L10N&component=VPN: vpnc\n"
-"POT-Creation-Date: 2012-12-26 05:02+0000\n"
-"PO-Revision-Date: 2014-05-30 14:17+0100\n"
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"PO-Revision-Date: 2014-04-02 08:01+0000\n"
 "Last-Translator: DDZ <drole2zebre57@yahoo.fr>\n"
-"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"Language-Team: French\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1396425670.0\n"
 
-#: ../auth-dialog/vpn-password-dialog.c:96
-msgid "_Secondary Password:"
-msgstr "Mot de passe _secondaire :"
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
+msgid "Customize Look and Feel"
+msgstr "Personnaliser l'apparence"
 
-#: ../auth-dialog/vpn-password-dialog.c:152
-msgid "_Password:"
-msgstr "Mot de _passe :"
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "Personnaliser l'apparence du bureau et des applications"
 
-#: ../auth-dialog/vpn-password-dialog.c:238
-msgid "Sh_ow passwords"
-msgstr "Afficher les _mots de passe"
+#: ../data/ui/about.ui.in.h:1
+msgid "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2011 LXDE Project"
 
-#: ../auth-dialog/main.c:185
-#, c-format
-msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#: ../data/ui/about.ui.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "Personnaliser l'apparence du bureau"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.ui.in.h:4
+msgid "translator-credits"
 msgstr ""
-"Vous devez vous authentifier pour accéder au réseau privé virtuel « %s »."
+"GoKhlaYeh <gokhlayeh@mailoo.org>\n"
+"Cilyan Olowen <gaknar@gmail.com>"
 
-#: ../auth-dialog/main.c:194 ../auth-dialog/main.c:214
-msgid "Authenticate VPN"
-msgstr "Authentifier le VPN"
+#: ../data/ui/lxappearance.ui.h:1
+msgid "Icons only"
+msgstr "Icônes seulement"
 
-#: ../auth-dialog/main.c:197
-msgid "Password:"
-msgstr "Mot de passe :"
+#: ../data/ui/lxappearance.ui.h:2
+msgid "Text only"
+msgstr "Texte seulement"
 
-#: ../auth-dialog/main.c:199
-msgid "Group Password:"
-msgstr "Mot de passe du groupe :"
+#: ../data/ui/lxappearance.ui.h:3
+msgid "Text below icons"
+msgstr "Texte en-dessous des icônes"
 
-#: ../auth-dialog/main.c:216
-msgid "_Group Password:"
-msgstr "Mot de passe du _groupe :"
+#: ../data/ui/lxappearance.ui.h:4
+msgid "Text beside icons"
+msgstr "Texte au-dessus des icônes"
 
-#: ../auth-dialog/nm-vpnc-auth-dialog.desktop.in.in.h:1
-msgid "Network"
-msgstr "Réseau"
+#: ../data/ui/lxappearance.ui.h:5
+msgid "Same as menu items"
+msgstr "Comme les entrées de menu"
 
-#: ../auth-dialog/nm-vpnc-auth-dialog.desktop.in.in.h:2
-msgid "Request VPN authentication"
-msgstr "Demander une authentification VPN"
+#: ../data/ui/lxappearance.ui.h:6
+msgid "Small toolbar icon"
+msgstr "Petites icônes"
 
-#: ../nm-vpnc.desktop.in.h:1
-msgid "VPN Connection Manager (vpnc)"
-msgstr "Gestionnaire de connexions VPN (vpnc)"
+#: ../data/ui/lxappearance.ui.h:7
+msgid "Large toolbar icon"
+msgstr "Grandes icônes"
 
-#: ../nm-vpnc.desktop.in.h:2
-msgid "Add, Remove, and Edit VPN Connections"
-msgstr "Ajoute, supprime et modifie des connexions VPN"
+#: ../data/ui/lxappearance.ui.h:8
+msgid "Same as buttons"
+msgstr "Comme les boutons"
 
-#: ../properties/nm-vpnc.c:54
-msgid "Cisco Compatible VPN (vpnc)"
-msgstr "VPN compatible Cisco (vpnc)"
+#: ../data/ui/lxappearance.ui.h:9
+msgid "Same as drag icons"
+msgstr "Comme les icônes de glisser-déposer"
 
-#: ../properties/nm-vpnc.c:55
-msgid ""
-"Compatible with various Cisco, Juniper, Netscreen, and Sonicwall IPsec-based "
-"VPN gateways."
-msgstr ""
-"Compatible avec de nombreuses passerelles VPN fondées sur IPsec de Cisco, "
-"Juniper, Netscreen et Sonicwall."
+#: ../data/ui/lxappearance.ui.h:10
+msgid "Same as dialogs"
+msgstr "Comme les boîtes de dialogue"
 
-#: ../properties/nm-vpnc.c:339
-msgid "Saved"
-msgstr "Enregistré"
-
-#: ../properties/nm-vpnc.c:346
-msgid "Always Ask"
-msgstr "Toujours demander"
-
-#: ../properties/nm-vpnc.c:353
-msgid "Not Required"
-msgstr "Pas nécessaire"
-
-#: ../properties/nm-vpnc.c:502
-msgid "Secure (default)"
-msgstr "Sécurisé (par défaut)"
-
-#: ../properties/nm-vpnc.c:505
-msgid "Weak (use with caution)"
-msgstr "Faible (à utiliser avec précaution)"
-
-#: ../properties/nm-vpnc.c:513
-msgid "None (completely insecure)"
-msgstr "Aucun (totalement non sécurisé)"
-
-#: ../properties/nm-vpnc.c:579
-msgid "Cisco (default)"
-msgstr "Cisco (par défaut)"
-
-#: ../properties/nm-vpnc.c:586
-msgid "Netscreen"
-msgstr "Netscreen"
-
-#: ../properties/nm-vpnc.c:617
-msgid "NAT-T when available (default)"
-msgstr "NAT-T si disponible (par défaut)"
-
-#: ../properties/nm-vpnc.c:624
-msgid "NAT-T always"
-msgstr "Toujours NAT-T"
-
-#: ../properties/nm-vpnc.c:631
-msgid "Cisco UDP"
-msgstr "UDP Cisco"
-
-#: ../properties/nm-vpnc.c:638
-msgid "Disabled"
-msgstr "Désactivé"
-
-#: ../properties/nm-vpnc.c:658 ../properties/nm-vpnc.c:744
-msgid "DH Group 1"
-msgstr "Groupe DH 1"
-
-#: ../properties/nm-vpnc.c:665
-msgid "DH Group 2 (default)"
-msgstr "Groupe DH 2 (par défaut)"
-
-#: ../properties/nm-vpnc.c:672 ../properties/nm-vpnc.c:758
-msgid "DH Group 5"
-msgstr "Groupe DH 5"
-
-#: ../properties/nm-vpnc.c:730
-msgid "Server (default)"
-msgstr "Serveur (par défaut)"
-
-#: ../properties/nm-vpnc.c:737
+#: ../data/ui/lxappearance.ui.h:11
 msgid "None"
 msgstr "Aucun"
 
-#: ../properties/nm-vpnc.c:751
-msgid "DH Group 2"
-msgstr "Groupe DH 2"
+#: ../data/ui/lxappearance.ui.h:12
+msgid "Slight"
+msgstr "Léger"
 
-#: ../properties/nm-vpnc.c:798
-msgid "Choose a Certificate Authority (CA) certificate..."
-msgstr "Sélectionner un certificat d'autorité de certification (CA)…"
+#: ../data/ui/lxappearance.ui.h:13
+msgid "Medium"
+msgstr "Moyen"
 
-#: ../properties/nm-vpnc.c:802
-msgid "PEM certificates (*.pem, *.crt, *.cer)"
-msgstr "Certificats PEM (*.pem, *.crt, *.cer)"
+#: ../data/ui/lxappearance.ui.h:14
+msgid "Full"
+msgstr "Complet"
 
-#: ../properties/nm-vpnc.c:1522
-msgid "TCP tunneling not supported"
-msgstr "Utilisation d'un tunnel TCP non pris en charge"
+#: ../data/ui/lxappearance.ui.h:15
+msgid "RGB"
+msgstr "RGB"
 
-#: ../properties/nm-vpnc.c:1524
-#, c-format
+#: ../data/ui/lxappearance.ui.h:16
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.ui.h:17
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.ui.h:18
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.ui.h:20
+msgid "Preview of the selected widget style"
+msgstr "Aperçu du thème d'interface séléctionné"
+
+#: ../data/ui/lxappearance.ui.h:21
+msgid "_File"
+msgstr "_Fichier"
+
+#: ../data/ui/lxappearance.ui.h:22
+msgid "_Edit"
+msgstr "_Édition"
+
+#: ../data/ui/lxappearance.ui.h:23
+msgid "_Help"
+msgstr "_Aide"
+
+#: ../data/ui/lxappearance.ui.h:24
+msgid "Radio Button"
+msgstr "Bouton radio"
+
+#: ../data/ui/lxappearance.ui.h:25
+msgid "Check Button"
+msgstr "Case à cocher"
+
+#: ../data/ui/lxappearance.ui.h:26
+msgid "button"
+msgstr "bouton"
+
+#: ../data/ui/lxappearance.ui.h:27
+msgid "Demo"
+msgstr "Démonstration"
+
+#: ../data/ui/lxappearance.ui.h:28
+msgid "Page1"
+msgstr "Page1"
+
+#: ../data/ui/lxappearance.ui.h:29
+msgid "Page2"
+msgstr "Page2"
+
+#: ../data/ui/lxappearance.ui.h:30
+msgid "Default font:"
+msgstr "Police par défaut :"
+
+#: ../data/ui/lxappearance.ui.h:31
+msgid "Widget"
+msgstr "Interface"
+
+#: ../data/ui/lxappearance.ui.h:32
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr ""
+"La sélection des couleurs n'est pas prise en charge par le thème "
+"sélectionné."
+
+#: ../data/ui/lxappearance.ui.h:33
+msgid "Use customized color scheme"
+msgstr "Personnaliser le thème de couleurs"
+
+#: ../data/ui/lxappearance.ui.h:34
+msgid "Normal windows:"
+msgstr "Fenêtres normales :"
+
+#: ../data/ui/lxappearance.ui.h:35
+msgid "Text windows:"
+msgstr "Fenêtres de texte :"
+
+#: ../data/ui/lxappearance.ui.h:36
+msgid "Selected items:"
+msgstr "Éléments sélectionnés :"
+
+#: ../data/ui/lxappearance.ui.h:37
+msgid "Tooltips:"
+msgstr "Bulles d'aide :"
+
+#: ../data/ui/lxappearance.ui.h:38
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: ../data/ui/lxappearance.ui.h:39
+msgid "Foreground"
+msgstr "Premier plan"
+
+#: ../data/ui/lxappearance.ui.h:40
+msgid "Color"
+msgstr "Couleurs"
+
+#: ../data/ui/lxappearance.ui.h:41
+msgid "Install"
+msgstr "Installer"
+
+#: ../data/ui/lxappearance.ui.h:42
+msgid "Remove"
+msgstr "Enlever"
+
+#: ../data/ui/lxappearance.ui.h:43
+msgid "Preview of the selected icon theme"
+msgstr "Prévisualisation du thème d'icônes sélectionné"
+
+#: ../data/ui/lxappearance.ui.h:44
+msgid "Icon Theme"
+msgstr "Thème d'icônes"
+
+#: ../data/ui/lxappearance.ui.h:45
+msgid "Preview of the selected cursor theme"
+msgstr "Prévisualisation du thème de curseurs sélectionné"
+
+#: ../data/ui/lxappearance.ui.h:46
+msgid "Size of cursors"
+msgstr "Taille des curseurs"
+
+#: ../data/ui/lxappearance.ui.h:47
+msgid "Smaller"
+msgstr "Plus petit"
+
+#: ../data/ui/lxappearance.ui.h:48
+msgid "Bigger"
+msgstr "Plus gros"
+
+#: ../data/ui/lxappearance.ui.h:49
 msgid ""
-"The VPN settings file '%s' specifies that VPN traffic should be tunneled "
-"through TCP which is currently not supported in the vpnc software.\n"
-"\n"
-"The connection can still be created, with TCP tunneling disabled, however it "
-"may not work as expected."
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
 msgstr ""
-"Le fichier de configuration VPN « %s » indique que l'acheminement VPN "
-"devrait transiter par un tunnel TCP, mais ceci n'est pas pris en charge "
-"actuellement par le logiciel vpnc.\n"
-"\n"
-"La connexion sera néanmoins créée sans tunnel TCP ; pour cette raison, la "
-"connexion pourrait ne pas fonctionner comme prévu."
+"<b>Note :</b> Toutes les applications ne supportent pas le changement de "
+"thème de curseurs à la volée. Vos changements pourraient donc ne pas être "
+"entièrement appliqués avant la prochaine connexion."
 
-#: ../properties/nm-vpnc-dialog.ui.h:1
-msgid "Advanced Options"
-msgstr "Options avancées"
+#: ../data/ui/lxappearance.ui.h:50
+msgid "Mouse Cursor"
+msgstr "Curseurs de la souris"
 
-#: ../properties/nm-vpnc-dialog.ui.h:2
-msgid "Identification"
-msgstr "Identification"
+#: ../data/ui/lxappearance.ui.h:51
+msgid "Window Border"
+msgstr "Bordures des fenêtres"
 
-#: ../properties/nm-vpnc-dialog.ui.h:3
-msgid "_Domain:"
-msgstr "_Domaine :"
+#: ../data/ui/lxappearance.ui.h:52
+msgid "Enable antialiasing"
+msgstr "Activer l'anticrénelage"
 
-#: ../properties/nm-vpnc-dialog.ui.h:4
-msgid ""
-"(NT-)Domain name for authentication\n"
-"config: Domain <domain>"
+#: ../data/ui/lxappearance.ui.h:53
+msgid "<b>Antialiasing</b>"
+msgstr "<b>Anticrénelage</b>"
+
+#: ../data/ui/lxappearance.ui.h:54
+msgid "Enable hinting"
+msgstr "Activer l'amélioration"
+
+#: ../data/ui/lxappearance.ui.h:55
+msgid "Hinting style: "
+msgstr "Mode d'amélioration : "
+
+#: ../data/ui/lxappearance.ui.h:56
+msgid "<b>Hinting</b>"
+msgstr "<b>Amélioration</b>"
+
+#: ../data/ui/lxappearance.ui.h:57
+msgid "Sub-pixel geometry: "
+msgstr "Géométrie des sous-pixels : "
+
+#: ../data/ui/lxappearance.ui.h:58
+msgid "<b>Sub-pixel geometry</b>"
+msgstr "<b>Géométrie des sous-pixels</b>"
+
+#: ../data/ui/lxappearance.ui.h:59
+msgid "Font"
+msgstr "Police"
+
+#: ../data/ui/lxappearance.ui.h:60
+msgid "Toolbar Style: "
+msgstr "Style de la barre d'outils : "
+
+#: ../data/ui/lxappearance.ui.h:61
+msgid "Toolbar Icon Size: "
+msgstr "Taille des icônes de la barre d'outils : "
+
+#: ../data/ui/lxappearance.ui.h:62
+msgid "Show images on buttons"
+msgstr "Montrer les images dans les boutons"
+
+#: ../data/ui/lxappearance.ui.h:63
+msgid "Show images in menus"
+msgstr "Montrer les images dans les menus"
+
+#: ../data/ui/lxappearance.ui.h:64
+msgid "<b>GUI Options</b>"
+msgstr "<b>Options de l'interface graphique</b>"
+
+#: ../data/ui/lxappearance.ui.h:65
+msgid "Play event sounds"
+msgstr "Activer les notifications sonores"
+
+#: ../data/ui/lxappearance.ui.h:66
+msgid "Play event sounds as feedback to user input"
 msgstr ""
-"(NT-)nom de domaine pour l'authentification\n"
-"configuration : Domain <domain>"
+"Envoyer des notifications sonores en réponse aux actions de l'utilisateur"
 
-#: ../properties/nm-vpnc-dialog.ui.h:6
-msgid "_Vendor:"
-msgstr "_Distributeur :"
+#: ../data/ui/lxappearance.ui.h:67
+msgid "<b>Sound Effect</b>"
+msgstr "<b>Effets sonores</b>"
 
-#: ../properties/nm-vpnc-dialog.ui.h:7
-msgid ""
-"Vendor of your IPsec gateway\n"
-"config: Vendor <cisco/netscreen>"
-msgstr ""
-"Le distributeur de votre passerelle IPsec\n"
-"configuration : Vendor <cisco/netscreen>"
+#: ../data/ui/lxappearance.ui.h:68
+msgid "Other"
+msgstr "Autres"
 
-#: ../properties/nm-vpnc-dialog.ui.h:9
-msgid "Ve_rsion:"
-msgstr "Ve_rsion :"
+#: ../src/utils.c:217
+msgid "Select an icon theme"
+msgstr "Sélectionnez un thème d'icônes"
 
-#: ../properties/nm-vpnc-dialog.ui.h:10
-msgid ""
-"Application version to report. \n"
-"config: Application version <ASCII string>"
-msgstr ""
-"Version de l'application à signaler. \n"
-"configuration : Version de l'application <ASCII string>"
+#: ../src/utils.c:224
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (thème d'icônes)"
 
-#: ../properties/nm-vpnc-dialog.ui.h:12
-msgid "Transport and Security"
-msgstr "Transport et sécurité"
+#~ msgid "Enable antialising"
+#~ msgstr "Activer l'anticrénelage"
 
-#: ../properties/nm-vpnc-dialog.ui.h:13
-msgid ""
-"Encryption method\n"
-"config: nothing for Secure, 'Enable Single DES' for Weak, 'Enable no "
-"encryption' for None"
-msgstr ""
-"Méthode de chiffrement\n"
-"configuration : nothing pour sécurisé, « Enable Single DES » pour faible, "
-"« Enable no encryption » pour aucun"
-
-#: ../properties/nm-vpnc-dialog.ui.h:15
-msgid "_Encryption method:"
-msgstr "Méthode de chiffrement :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:16
-msgid "_NAT traversal:"
-msgstr "Traversée du NAT :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:17
-msgid ""
-"NAT traversal method to use\n"
-"config: NAT Traversal Mode <natt/none/force-natt/cisco-udp>"
-msgstr ""
-"Méthode de parcours NAT à utiliser\n"
-"configuration : NAT Traversal Mode <natt/none/force-natt/cisco-udp>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:19
-msgid "_IKE DH Group:"
-msgstr "Groupe DH IKE :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:20
-msgid ""
-"Name of the IKE DH group\n"
-"config: IKE DH Group <dh1/dh2/dh5>"
-msgstr ""
-"Nom du groupe IKE DH\n"
-"configuration : IKE DH Group <dh1/dh2/dh5>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:22
-msgid "Perfect _Forward Secrecy:"
-msgstr "Confidentialité persistante :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:23
-msgid ""
-"Diffie-Hellman group to use for PFS\n"
-"config: Perfect Forward Secrecy <nopfs/dh1/dh2/dh5/server>"
-msgstr ""
-"Groupe Diffie-Hellman à utiliser pour PFS\n"
-"configuration : Perfect Forward Secrecy <nopfs/dh1/dh2/dh5/server>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:25
-msgid "_Local port:"
-msgstr "Port _local :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:26
-msgid ""
-"Local ISAKMP port to use (0 means random port; 500 is vpnc's default)\n"
-"config: Local Port <0-65535>"
-msgstr ""
-"Le port local ISAKMP à utiliser (0 signifie port aléatoire ; 500 est, par "
-"défaut, celui de vpnc)\n"
-"configuration : Port Local <0-65535>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:28
-msgid "Disable Dead _Peer Detection"
-msgstr "Désactiver la détection des pairs bloqués"
-
-#: ../properties/nm-vpnc-dialog.ui.h:29
-msgid ""
-"Disable sending DPD packets (sets timeout to 0)\n"
-"config: DPD idle timeout (our side) 0"
-msgstr ""
-"Désactive l'envoi des paquets DPD (fixe le délai à 0)\n"
-"configuration : DPD idle timeout (our side) 0"
-
-#: ../properties/nm-vpnc-dialog.ui.h:31
-msgid "General"
-msgstr "Général"
-
-#: ../properties/nm-vpnc-dialog.ui.h:32
-msgid "Sho_w passwords"
-msgstr "Afficher les mots de passe"
-
-#: ../properties/nm-vpnc-dialog.ui.h:33
-msgid ""
-"Group password\n"
-"config: IPSec secret <group_password>"
-msgstr ""
-"Mot de passe du groupe\n"
-"configuration : IPSec secret <group_password>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:35
-msgid "Gro_up password:"
-msgstr "Mot de passe du _groupe :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:36
-msgid "_Gateway:"
-msgstr "_Passerelle :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:37
-msgid "G_roup name:"
-msgstr "Nom du g_roupe :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:38
-msgid ""
-"IP/hostname of IPsec gateway\n"
-"config: IPSec gateway <gateway>"
-msgstr ""
-"Adresse IP/nom de machine de la passerelle IPSec\n"
-"Configuration : IPSec gateway <gateway>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:40
-msgid ""
-"Group name\n"
-"config: IPSec ID <group_name>"
-msgstr ""
-"Nom du groupe\n"
-"configuration : IPSec ID <group_name>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:42
-msgid "User _password:"
-msgstr "Mot de passe _utilisateur :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:43
-msgid ""
-"User password for the connection\n"
-"config: Xauth password <password>"
-msgstr ""
-"Mot de passe utilisateur pour la connexion\n"
-"configuration : Xauth password <password>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:45
-msgid ""
-"User name for the connection\n"
-"config: Xauth username <user_name>"
-msgstr ""
-"Nom d'utilisateur pour la connexion\n"
-"configuration : Xauth username <user_name>"
-
-#: ../properties/nm-vpnc-dialog.ui.h:47
-msgid "User na_me:"
-msgstr "No_m d'utilisateur :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:48
-msgid "Use _hybrid authentication"
-msgstr "Utiliser une authentification hybride"
-
-#: ../properties/nm-vpnc-dialog.ui.h:49
-msgid ""
-"Enable hybrid authentication, i.e. use certificate in addition to password.\n"
-"config: IKE Authmode hybrid"
-msgstr ""
-"Active l'authentification hybride, c.-à-d. utilise un certificat en plus du "
-"mot de passe\n"
-"configuration : IKE Authmode hybrid"
-
-#: ../properties/nm-vpnc-dialog.ui.h:51
-msgid "CA _File:"
-msgstr "_Fichier CA :"
-
-#: ../properties/nm-vpnc-dialog.ui.h:52
-msgid ""
-"CA certificate in PEM format\n"
-"config: CA-File"
-msgstr ""
-"Certificat CA au format PEM\n"
-"configuration : CA-File"
-
-#: ../properties/nm-vpnc-dialog.ui.h:54
-msgid "Advance_d..."
-msgstr "Avan_cé..."
-
-#: ../src/nm-vpnc-service.c:152
-#, c-format
-msgid "property '%s' invalid or not supported"
-msgstr "propriété « %s » non valide ou non prise en charge"
-
-#: ../src/nm-vpnc-service.c:171
-#, c-format
-msgid "property '%s' file path '%s' is not absolute or does not exist"
-msgstr ""
-"chemin de fichier « %2$s » de la propriété « %1$s » non absolu ou inexistant"
-
-#: ../src/nm-vpnc-service.c:184
-#, c-format
-msgid "invalid integer property '%s' or out of range [%d -> %d]"
-msgstr "propriété nombre entier « %s » non valide ou hors limites [%d -> %d]"
-
-#: ../src/nm-vpnc-service.c:194
-#, c-format
-msgid "invalid boolean property '%s' (not yes or no)"
-msgstr "propriété booléenne « %s » non valide (pas oui ou non)"
-
-#: ../src/nm-vpnc-service.c:201
-#, c-format
-msgid "unhandled property '%s' type %d"
-msgstr "type %2$d de la propriété « %1$s » non géré"
-
-#: ../src/nm-vpnc-service.c:218
-msgid "No VPN configuration options."
-msgstr "Aucune option de configuration du VPN."
-
-#: ../src/nm-vpnc-service.c:236
-msgid "No VPN secrets!"
-msgstr "Aucun secret VPN !"
-
-#: ../src/nm-vpnc-service.c:305
-msgid "Could not find vpnc binary."
-msgstr "Impossible de trouver le programme vpnc."
-
-#: ../src/nm-vpnc-service.c:397
-#, c-format
-msgid "Config option '%s' invalid or unknown."
-msgstr "L'option de configuration « %s » n'est pas valide ou est inconnue."
-
-#: ../src/nm-vpnc-service.c:430
-#, c-format
-msgid "Config option '%s' not an integer."
-msgstr "L'option de configuration « %s » n'est pas un nombre entier."
-
-#: ../src/nm-vpnc-service.c:607
-msgid ""
-"Could not process the request because the VPN connection settings were "
-"invalid."
-msgstr ""
-"Impossible de traiter la demande parce que les paramètres de connexion VPN "
-"ne sont pas valides."
-
-#: ../src/nm-vpnc-service.c:722
-msgid "Don't quit when VPN connection terminates"
-msgstr "Ne pas quitter quand la connexion VPN se termine"
-
-#: ../src/nm-vpnc-service.c:723
-msgid "Enable verbose debug logging (may expose passwords)"
-msgstr ""
-"Activer l'enregistrement de débogage verbeux (peut exposer les mots de passe)"
-
-#: ../src/nm-vpnc-service.c:744
-msgid ""
-"nm-vpnc-service provides integrated Cisco Legacy IPsec VPN capability to "
-"NetworkManager."
-msgstr ""
-"nm-vpnc-service permet à NetworkManager d'utiliser l'ancien VPN IPsec de "
-"Cisco."
+#~ msgid "<b>Antialising</b>"
+#~ msgstr "<b>Anticrénelage</b>"
