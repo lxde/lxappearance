@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2014-01-04 08:22+0000\n"
-"Last-Translator: Miguel Anxo <mbouzada@gmail.com>\n"
+"PO-Revision-Date: 2014-08-11 17:54+0000\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1388823779.0\n"
+"X-Generator: Pootle 2.6.0-rc1\n"
+"X-POOTLE-MTIME: 1407779661.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -25,7 +25,7 @@ msgstr "Personalizar a aparencia e o comportamento"
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
 msgstr ""
-"Personalizar a aparencia e comportamento do seu escritorio e aplicativos"
+"Personalizar a aparencia e comportamento do seu escritorio e aplicacións"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
@@ -39,7 +39,7 @@ msgstr "Personalizar a aparencia e comportamento do escritorio"
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr ""
-"Miguel Anxo Bouzada <mbouzada@gmail.com>, 2010, 2011\n"
+"Miguel Anxo Bouzada <mbouzada@gmail.com>, 2010, 2011,2012,2013.2014 \n"
 "Proxecto Trasno <proxecto@trasno.net>"
 
 #: ../data/ui/lxappearance.ui.h:1
@@ -238,7 +238,7 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b> Nota:</b> Non todos os aplicativos de escritorio permiten cambiar o tema "
+"<b> Nota:</b> Non todas as aplicacións de escritorio permiten cambiar o tema "
 "do punteiro ao voo. Polo que non se aplicaran todos os seus cambios ata o "
 "seguinte inicio de sesión."
 
