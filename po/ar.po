@@ -1,44 +1,46 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2012-02-24 23:52+0200\n"
-"Last-Translator: كريم <herr-linux@hotmail.fr>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-07-10 22:53+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
-msgstr "تخصيص المظهر و الإحساس"
+msgstr "خصّص المظهر والإحساس"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "تخصيصات مظهر وإحساس سطح مكتبك وتطبيقاته"
+msgstr "يخصّص مظهر وإحساس سطح المكتب وتطبيقاته"
 
 #: ../data/ui/about.ui.in.h:1
 msgid "Copyright (C) 2011 LXDE Project"
-msgstr "حقوق النشر (C) 2011 مشروع LXDE"
+msgstr "حقوق النشر (C)‏ 2011 مشروع لكسدي"
 
 #: ../data/ui/about.ui.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "تخصيصات مظهر وإحساس سطح مكتبك"
+msgstr "يخصّص مظهر وإحساس سطح المكتب"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
-msgstr "Karim Oulad Chalha <herr.linux88@gmail.com>"
+msgstr ""
+"فريق عربآيز للترجمة http://www.arabeyes.org:\n"
+"كريم أولاد الشلحة <herr.linux88@gmail.com>\n"
+"صفا الفليج <safa1996alfulaij@gmail.com>"
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
@@ -46,15 +48,15 @@ msgstr "أيقونات فقط"
 
 #: ../data/ui/lxappearance.ui.h:2
 msgid "Text only"
-msgstr "النص فقط"
+msgstr "نصّ فقط"
 
 #: ../data/ui/lxappearance.ui.h:3
 msgid "Text below icons"
-msgstr "النص تحت الأيقونات"
+msgstr "نصّ تحت الأيقونات"
 
 #: ../data/ui/lxappearance.ui.h:4
 msgid "Text beside icons"
-msgstr "النص بجانب الأيقونات"
+msgstr "نصّ بجانب الأيقونات"
 
 #: ../data/ui/lxappearance.ui.h:5
 msgid "Same as menu items"
@@ -78,11 +80,11 @@ msgstr "نفس أيقونات السحب"
 
 #: ../data/ui/lxappearance.ui.h:10
 msgid "Same as dialogs"
-msgstr "نفس الحوارات"
+msgstr "نفس الحواريات"
 
 #: ../data/ui/lxappearance.ui.h:11
 msgid "None"
-msgstr "بدون"
+msgstr "بلا"
 
 #: ../data/ui/lxappearance.ui.h:12
 msgid "Slight"
@@ -90,7 +92,7 @@ msgstr "قليل"
 
 #: ../data/ui/lxappearance.ui.h:13
 msgid "Medium"
-msgstr "متوسطة"
+msgstr "متوسّط"
 
 #: ../data/ui/lxappearance.ui.h:14
 msgid "Full"
@@ -98,23 +100,25 @@ msgstr "كامل"
 
 #: ../data/ui/lxappearance.ui.h:15
 msgid "RGB"
-msgstr "أحمر أخضر أزرق"
+msgstr "حﺥﺯ"
 
 #: ../data/ui/lxappearance.ui.h:16
 msgid "BGR"
-msgstr "أزرق أخضر أحمر"
+msgstr "ز‌خ‌ح"
 
 #: ../data/ui/lxappearance.ui.h:17
+#, fuzzy
 msgid "VRGB"
 msgstr "VRGB"
 
 #: ../data/ui/lxappearance.ui.h:18
+#, fuzzy
 msgid "VBGR"
 msgstr "VBGR"
 
 #: ../data/ui/lxappearance.ui.h:20
 msgid "Preview of the selected widget style"
-msgstr "معاينة سمة نمط القطع المحدد"
+msgstr "معاينة لنمط الودجات المحدّد"
 
 #: ../data/ui/lxappearance.ui.h:21
 msgid "_File"
@@ -122,11 +126,11 @@ msgstr "_ملف"
 
 #: ../data/ui/lxappearance.ui.h:22
 msgid "_Edit"
-msgstr "_تحرير"
+msgstr "ح_رّر"
 
 #: ../data/ui/lxappearance.ui.h:23
 msgid "_Help"
-msgstr "_مساعدة"
+msgstr "م_ساعدة"
 
 #: ../data/ui/lxappearance.ui.h:24
 msgid "Radio Button"
@@ -134,7 +138,7 @@ msgstr "زر راديو"
 
 #: ../data/ui/lxappearance.ui.h:25
 msgid "Check Button"
-msgstr "زر تحول"
+msgstr "زر تعليم"
 
 #: ../data/ui/lxappearance.ui.h:26
 msgid "button"
@@ -142,43 +146,43 @@ msgstr "زر"
 
 #: ../data/ui/lxappearance.ui.h:27
 msgid "Demo"
-msgstr "العينة"
+msgstr "العرض"
 
 #: ../data/ui/lxappearance.ui.h:28
 msgid "Page1"
-msgstr "صفحة1"
+msgstr "الصفحة 1"
 
 #: ../data/ui/lxappearance.ui.h:29
 msgid "Page2"
-msgstr "صفحة2"
+msgstr "الصفحة 2"
 
 #: ../data/ui/lxappearance.ui.h:30
 msgid "Default font:"
-msgstr "الخط الإفتراضي:"
+msgstr "الخط الافتراضي:"
 
 #: ../data/ui/lxappearance.ui.h:31
 msgid "Widget"
-msgstr "قطعة"
+msgstr "ودجة"
 
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "مخطط الألوان غير مدعوم من طرف السمة المحددة حاليا."
+msgstr "سمة الودجات المحدّدة حاليًا لا تدعم مخطّط الألوان."
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
-msgstr "استخدام مخطط ألوان مخصص"
+msgstr "استخدم مخطط ألوان مخصّص"
 
 #: ../data/ui/lxappearance.ui.h:34
 msgid "Normal windows:"
-msgstr "نوافذ عادية:"
+msgstr "النوافذ العادية:"
 
 #: ../data/ui/lxappearance.ui.h:35
 msgid "Text windows:"
-msgstr "نص النوافذ:"
+msgstr "نصّ النوافذ:"
 
 #: ../data/ui/lxappearance.ui.h:36
 msgid "Selected items:"
-msgstr "العناصر المحددة:"
+msgstr "العناصر المحدّدة:"
 
 #: ../data/ui/lxappearance.ui.h:37
 msgid "Tooltips:"
@@ -194,27 +198,27 @@ msgstr "المقدمة"
 
 #: ../data/ui/lxappearance.ui.h:40
 msgid "Color"
-msgstr "اللون"
+msgstr "لون"
 
 #: ../data/ui/lxappearance.ui.h:41
 msgid "Install"
-msgstr "تثبيت"
+msgstr "ثبّت"
 
 #: ../data/ui/lxappearance.ui.h:42
 msgid "Remove"
-msgstr "إزالة"
+msgstr "أزل"
 
 #: ../data/ui/lxappearance.ui.h:43
 msgid "Preview of the selected icon theme"
-msgstr "معاينة سمة الأيقونات المحددة"
+msgstr "معاينة لسمة الأيقونات المحدّدة"
 
 #: ../data/ui/lxappearance.ui.h:44
 msgid "Icon Theme"
-msgstr "سِمة الأيقونات"
+msgstr "سمة الأيقونات"
 
 #: ../data/ui/lxappearance.ui.h:45
 msgid "Preview of the selected cursor theme"
-msgstr "معاينة سمة المؤشر المحددة"
+msgstr "معاينة لسمة المؤشّر المحدّدة"
 
 #: ../data/ui/lxappearance.ui.h:46
 msgid "Size of cursors"
@@ -222,11 +226,11 @@ msgstr "حجم المؤشر"
 
 #: ../data/ui/lxappearance.ui.h:47
 msgid "Smaller"
-msgstr "أصغر"
+msgstr "صغير"
 
 #: ../data/ui/lxappearance.ui.h:48
 msgid "Bigger"
-msgstr "أكبر"
+msgstr "كبير"
 
 #: ../data/ui/lxappearance.ui.h:49
 msgid ""
@@ -234,50 +238,50 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>ملحوظة</b> لا تدعم كل تطبيقات سطح المكتب سمة المؤشر عنذ التحليق. لذلك "
-"فإنه لن يتم تطبيق جميع إختيارات إلى بعد الولوج التالي."
+"<b>ملاحظة</b> لا تدعم كل تطبيقات سطح المكتب تغيير سمة المؤشّر مباشرةً. لذا قد "
+"لا تُطبَّق تغييراتك هنا بشكل كامل على التطبيقات حتّى الولوج التالي."
 
 #: ../data/ui/lxappearance.ui.h:50
 msgid "Mouse Cursor"
-msgstr "مؤشر الفأرة"
+msgstr "مؤشّر الفأرة"
 
 #: ../data/ui/lxappearance.ui.h:51
 msgid "Window Border"
-msgstr "حدود النافذة"
+msgstr "حدود النوافذ"
 
 #: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
 msgid "Enable antialiasing"
-msgstr "تمكين مضاد التعرجات"
+msgstr "مكّن إزالة التسنّن"
 
 #: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
 msgid "<b>Antialiasing</b>"
-msgstr "<b>مضاد التعرج</b>"
+msgstr "<b>إزالة التسنّن</b>"
 
 #: ../data/ui/lxappearance.ui.h:54
 msgid "Enable hinting"
-msgstr "تمكين التلميحات"
+msgstr "مكّن التلميحات"
 
 #: ../data/ui/lxappearance.ui.h:55
 msgid "Hinting style: "
-msgstr "أسلوب التلميح:"
+msgstr "نمط التلميح:"
 
 #: ../data/ui/lxappearance.ui.h:56
 msgid "<b>Hinting</b>"
 msgstr "<b>التلميحات</b>"
 
 #: ../data/ui/lxappearance.ui.h:57
+#, fuzzy
 msgid "Sub-pixel geometry: "
 msgstr "Sub-pixel geometry: "
 
 #: ../data/ui/lxappearance.ui.h:58
+#, fuzzy
 msgid "<b>Sub-pixel geometry</b>"
 msgstr "<b>Sub-pixel geometry</b>"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Font"
-msgstr "الخط"
+msgstr "خط"
 
 #: ../data/ui/lxappearance.ui.h:60
 msgid "Toolbar Style: "
@@ -289,11 +293,11 @@ msgstr "حجم أيقونة شريط الأدوات:"
 
 #: ../data/ui/lxappearance.ui.h:62
 msgid "Show images on buttons"
-msgstr "إظهار الصور في الأزرار"
+msgstr "أظهر الصور في الأزرار"
 
 #: ../data/ui/lxappearance.ui.h:63
 msgid "Show images in menus"
-msgstr "إظهار الصور في القوائم"
+msgstr "أظهر الصور في القوائم"
 
 #: ../data/ui/lxappearance.ui.h:64
 msgid "<b>GUI Options</b>"
@@ -301,11 +305,11 @@ msgstr "<b>خيارات الواجهة</b>"
 
 #: ../data/ui/lxappearance.ui.h:65
 msgid "Play event sounds"
-msgstr "تشغيل أصوات الأحداث"
+msgstr "شغّل أصوات الأحداث"
 
 #: ../data/ui/lxappearance.ui.h:66
 msgid "Play event sounds as feedback to user input"
-msgstr "تشغيل أصوات الأحداث كرد فعل على إدخال المستخدم"
+msgstr "شغّل أصوات الأحداث كردّ فعل على إدخال المستخدم"
 
 #: ../data/ui/lxappearance.ui.h:67
 msgid "<b>Sound Effect</b>"
@@ -317,8 +321,10 @@ msgstr "أخرى"
 
 #: ../src/utils.c:217
 msgid "Select an icon theme"
-msgstr "حدد سمة أيقونات"
+msgstr "حدّد سمة أيقونات"
 
 #: ../src/utils.c:224
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (سمة الأيقونات)"
+msgstr "*.tar.gz، *.tar.bz2 (سمة أيقونات)"
+
+
