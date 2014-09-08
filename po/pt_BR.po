@@ -41,12 +41,12 @@ msgstr "Personaliza o visual de sua área de trabalho"
 #: ../data/ui/about.ui.in.h:4
 msgid "translator-credits"
 msgstr ""
-"<b>Adriano H. Hedler <suporte@templosite.com>, 2009 - 2014.</b>\n"
-"<b>Enrico Nicoletto <liverig@gmail.com>, 2013.</b>\n"
-"<b>Fábio Antunes <fabio.antunes@hotmail.com>, 2008.</b>\n"
-"<b>Henrique P. Machado <hpmachado@gnome.org>, 2008-2009.</b>\n"
-"<b>Og Maciel <ogmaciel@gnome.org>, 2009.</b>\n"
-"<b>Sérgio B. Cipolla <secipolla@gmail.com>, 2010-2011.</b>\n"
+"Adriano H. Hedler <suporte@templosite.com>, 2009 - 2014.\n"
+"Enrico Nicoletto <liverig@gmail.com>, 2013.\n"
+"Fábio Antunes <fabio.antunes@hotmail.com>, 2008.\n"
+"Henrique P. Machado <hpmachado@gnome.org>, 2008-2009.\n"
+"Og Maciel <ogmaciel@gnome.org>, 2009.\n"
+"Sérgio B. Cipolla <secipolla@gmail.com>, 2010-2011."
 
 #: ../data/ui/lxappearance.ui.h:1
 msgid "Icons only"
