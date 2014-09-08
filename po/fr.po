@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"POT-Creation-Date: 2013-12-30 11:30+0100\n"
 "PO-Revision-Date: 2014-04-02 08:01+0000\n"
 "Last-Translator: DDZ <drole2zebre57@yahoo.fr>\n"
 "Language-Team: French\n"
@@ -164,8 +164,7 @@ msgstr "Interface"
 #: ../data/ui/lxappearance.ui.h:32
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
-"La sélection des couleurs n'est pas prise en charge par le thème "
-"sélectionné."
+"La sélection des couleurs n'est pas prise en charge par le thème sélectionné."
 
 #: ../data/ui/lxappearance.ui.h:33
 msgid "Use customized color scheme"
