@@ -44,8 +44,11 @@ static void update_cursor_demo()
         cursor = gdk_cursor_new(types[i]);
         GdkPixbuf* pix = gdk_cursor_get_image(cursor);
         gdk_cursor_unref(cursor);
-        gtk_list_store_insert_with_values(store, &it, -1, 0, pix, -1);
-        g_object_unref(pix);
+        if (pix != NULL)
+        {
+            gtk_list_store_insert_with_values(store, &it, -1, 0, pix, -1);
+            g_object_unref(pix);
+        }
     }
     gtk_icon_view_set_model(GTK_ICON_VIEW(app.cursor_demo_view), GTK_TREE_MODEL(store));
     g_object_unref(store);
