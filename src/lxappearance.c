@@ -271,65 +271,60 @@ static void lxappearance_save_gtkrc()
     /* Save also in GTK3 folder
        Content shold be different from the gtk2 one
     */
-    GString* content_gtk3 = g_string_sized_new(512);
+    GKeyFile *content_gtk3 = g_key_file_new();
     char* file_path_gtk3 = g_build_filename(g_get_user_config_dir(), "gtk-3.0", NULL);
-    char* file_path_settings = g_build_filename(g_get_user_config_dir(), "gtk-3.0", "settings.ini", NULL);
+    char* file_path_settings = g_build_filename(file_path_gtk3, "settings.ini", NULL);
 
     if (!g_file_test(file_path_gtk3, G_FILE_TEST_IS_DIR))
     {
         g_mkdir_with_parents(file_path_gtk3, 0755);
     }
 
-
-    g_string_append(content_gtk3, "[Settings] \n");
+    g_key_file_load_from_file(content_gtk3, file_path_settings, /* ignoring errors */
+                              G_KEY_FILE_KEEP_COMMENTS | G_KEY_FILE_KEEP_TRANSLATIONS, NULL);
 
     if(app.widget_theme)
-        g_string_append_printf(content_gtk3,
-            "gtk-theme-name=%s\n", app.widget_theme);
+        g_key_file_set_string(content_gtk3, "Settings",
+                              "gtk-theme-name", app.widget_theme);
     if(app.icon_theme)
-        g_string_append_printf(content_gtk3,
-            "gtk-icon-theme-name=%s\n", app.icon_theme);
+        g_key_file_set_string(content_gtk3, "Settings",
+                              "gtk-icon-theme-name", app.icon_theme);
     if(app.default_font)
-        g_string_append_printf(content_gtk3,
-            "gtk-font-name=%s\n", app.default_font);
+        g_key_file_set_string(content_gtk3, "Settings",
+                              "gtk-font-name", app.default_font);
     if(app.cursor_theme)
-        g_string_append_printf(content_gtk3,
-            "gtk-cursor-theme-name=%s\n", app.cursor_theme);
+        g_key_file_set_string(content_gtk3, "Settings",
+                              "gtk-cursor-theme-name", app.cursor_theme);
     save_cursor_theme_name();
 
-    g_string_append_printf(content_gtk3,
-        "gtk-cursor-theme-size=%d\n"
-        "gtk-toolbar-style=%s\n"
-        "gtk-toolbar-icon-size=%s\n"
-        "gtk-button-images=%d\n"
-        "gtk-menu-images=%d\n"
+    g_key_file_set_integer(content_gtk3, "Settings",
+                           "gtk-cursor-theme-size", app.cursor_theme_size);
+    g_key_file_set_string(content_gtk3, "Settings",
+                          "gtk-toolbar-style", tb_styles[app.toolbar_style]);
+    g_key_file_set_string(content_gtk3, "Settings",
+                          "gtk-toolbar-icon-size", tb_icon_sizes[app.toolbar_icon_size]);
+    g_key_file_set_boolean(content_gtk3, "Settings",
+                           "gtk-button-images", app.button_images);
+    g_key_file_set_boolean(content_gtk3, "Settings",
+                           "gtk-menu-images", app.menu_images);
 #if GTK_CHECK_VERSION(2, 14, 0)
-        "gtk-enable-event-sounds=%d\n"
-        "gtk-enable-input-feedback-sounds=%d\n"
+    g_key_file_set_boolean(content_gtk3, "Settings",
+                           "gtk-enable-event-sounds", app.enable_event_sound);
+    g_key_file_set_boolean(content_gtk3, "Settings",
+                           "gtk-enable-input-feedback-sounds", app.enable_input_feedback);
 #endif
-        "gtk-xft-antialias=%d\n"
-        "gtk-xft-hinting=%d\n"
-
-        , app.cursor_theme_size,
-        tb_styles[app.toolbar_style],
-        tb_icon_sizes[app.toolbar_icon_size],
-        app.button_images ? 1 : 0,
-        app.menu_images ? 1 : 0,
-#if GTK_CHECK_VERSION(2, 14, 0)
-        app.enable_event_sound ? 1 : 0,
-        app.enable_input_feedback ? 1 : 0,
-#endif
-        app.enable_antialising ? 1 : 0,
-        app.enable_hinting ? 1 : 0
-        );
+    g_key_file_set_boolean(content_gtk3, "Settings",
+                           "gtk-xft-antialias", app.enable_antialising);
+    g_key_file_set_boolean(content_gtk3, "Settings",
+                           "gtk-xft-hinting", app.enable_hinting);
 
     if(app.hinting_style)
-        g_string_append_printf(content_gtk3,
-            "gtk-xft-hintstyle=%s\n", app.hinting_style);
+        g_key_file_set_string(content_gtk3, "Settings",
+                              "gtk-xft-hintstyle", app.hinting_style);
 
     if(app.font_rgba)
-        g_string_append_printf(content_gtk3,
-            "gtk-xft-rgba=%s\n", app.font_rgba);
+        g_key_file_set_string(content_gtk3, "Settings",
+                              "gtk-xft-rgba", app.font_rgba);
 
 #if 0
     /* unfortunately we cannot set colors without XSETTINGS daemon,
@@ -345,10 +340,22 @@ static void lxappearance_save_gtkrc()
     }
 #endif
 
-    g_file_set_contents(file_path_settings, content_gtk3->str, content_gtk3->len, NULL);
+#if GLIB_CHECK_VERSION(2, 40, 0)
+    g_key_file_save_to_file(content_gtk3, file_path_settings, NULL);
+#else
+    char *contents;
+    gsize s;
 
+    contents = g_key_file_to_data(content_gtk3, &s, NULL);
+    if (contents)
+        g_file_set_contents(file_path_settings, contents, s, NULL);
+    g_free(contents);
+#endif
+
+    g_free(file_path_gtk3);
+    g_free(file_path_settings);
     g_string_free(content, TRUE);
-    g_string_free(content_gtk3, TRUE);
+    g_key_file_free(content_gtk3);
     g_free(file_path);
 }
 
