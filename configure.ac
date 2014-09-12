@@ -7,10 +7,6 @@ AM_INIT_AUTOMAKE([1.11 -Wall -Werror foreign subdir-objects no-dist-gzip dist-xz
 # intltool
 IT_PROG_INTLTOOL([0.40.0])
 
-#Initialize libtool
-LT_PREREQ([2.2.6])
-LT_INIT()
-
 # Support silent build rules. Disable by either passing --disable-silent-rules
 # to configure or passing V=1 to make
 AM_SILENT_RULES([yes])
