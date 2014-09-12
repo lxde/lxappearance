@@ -248,6 +248,10 @@ static void lxappearance_save_gtkrc()
         g_string_append_printf(content,
             "gtk-xft-rgba=\"%s\"\n", app.font_rgba);
 
+#if 0
+    /* unfortunately we cannot set colors without XSETTINGS daemon,
+       themes will override any custom settings in .gtkrc-2.0 file */
+    /* FIXME: we should support other xsettings daemons too */
     if(app.color_scheme)
     {
         char* escaped = g_strescape(app.color_scheme, NULL);
@@ -256,6 +260,7 @@ static void lxappearance_save_gtkrc()
             escaped);
         g_free(escaped);
     }
+#endif
 
     g_string_append_printf(content,
         "include \"%s/.gtkrc-2.0.mine\"\n",
@@ -326,6 +331,10 @@ static void lxappearance_save_gtkrc()
         g_string_append_printf(content_gtk3,
             "gtk-xft-rgba=%s\n", app.font_rgba);
 
+#if 0
+    /* unfortunately we cannot set colors without XSETTINGS daemon,
+       themes will override any custom settings in .gtkrc-2.0 file */
+    /* FIXME: we should support other xsettings daemons too */
     if(app.color_scheme)
     {
         char* escaped = g_strescape(app.color_scheme, NULL);
@@ -334,6 +343,7 @@ static void lxappearance_save_gtkrc()
             escaped);
         g_free(escaped);
     }
+#endif
 
     g_file_set_contents(file_path_settings, content_gtk3->str, content_gtk3->len, NULL);
 
@@ -505,6 +515,10 @@ static void settings_init()
             }
         }
     }
+#if 0
+    /* unfortunately we cannot set colors without XSETTINGS daemon,
+       themes will override any custom settings in .gtkrc-2.0 file */
+    /* FIXME: we should support other xsettings daemons too */
     else
     {
         char* gtkrc_file = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
@@ -513,6 +527,7 @@ static void settings_init()
         if(g_hash_table_size(app.color_scheme_hash) > 0)
             app.color_scheme = color_scheme_hash_to_str(app.color_scheme_hash);
     }
+#endif
 }
 
 int main(int argc, char** argv)

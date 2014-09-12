@@ -1,1 +1,2 @@
 # List of source files which should be skipped during translation
+data/ui/about.ui

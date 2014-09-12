@@ -4,3 +4,4 @@ data/lxappearance.desktop.in
 [type: gettext/glade]data/ui/about.ui.in
 [type: gettext/glade]data/ui/lxappearance.ui
 src/utils.c
+src/color-scheme.c

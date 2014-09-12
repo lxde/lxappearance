@@ -20,6 +20,7 @@
 #include "lxappearance.h"
 #include "color-scheme.h"
 #include <string.h>
+#include <glib/gi18n.h>
 
 static GRegex* gtkrc_include_reg = NULL;
 static GRegex* gtkrc_color_scheme_reg = NULL;
@@ -271,7 +272,10 @@ void color_scheme_update()
     else
         app.color_scheme_supported = FALSE;
 
-    if(app.color_scheme_supported)
+    /* unfortunately we cannot set colors without XSETTINGS daemon,
+       themes will override any custom settings in .gtkrc-2.0 file */
+    /* FIXME: we should support other xsettings daemons too */
+    if(app.color_scheme_supported && app.use_lxsession)
     {
         gtk_widget_set_sensitive(app.custom_colors, TRUE);
         gtk_widget_set_sensitive(app.color_table, app.color_scheme != NULL);
@@ -290,7 +294,14 @@ void color_scheme_update()
     {
         gtk_widget_set_sensitive(app.color_table, FALSE);
         gtk_widget_set_sensitive(app.custom_colors, FALSE);
+        if (app.color_scheme_supported)
+            gtk_label_set_text(GTK_LABEL(app.no_custom_colors),
+                               _("Setting color scheme is not available without lxsession as session manager."));
+        else
+            gtk_label_set_text(GTK_LABEL(app.no_custom_colors),
+                               _("Color scheme is not supported by currently selected widget theme."));
         gtk_widget_show(app.no_custom_colors);
+        app.color_scheme_supported = FALSE;
     }
     /* set the color to buttons */
     update_color_buttons();
