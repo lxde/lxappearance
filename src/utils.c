@@ -163,8 +163,8 @@ static gboolean install_icon_theme_package(const char* package_path)
             dir = g_dir_open(tmp_dir, 0, NULL);
             if(dir)
             {
-                char* name;
-                while((name = (char*)g_dir_read_name(dir)) != NULL)
+                const char* name;
+                while((name = g_dir_read_name(dir)) != NULL)
                 {
                     char* index_theme = g_build_filename(tmp_dir, name, "index.theme", NULL);
                     gboolean is_theme = g_file_test(index_theme, G_FILE_TEST_EXISTS);
@@ -192,14 +192,13 @@ static gboolean install_icon_theme_package(const char* package_path)
                         g_free(theme_target);
                         g_free(theme_tmp);
                     }
-                    g_free(name);
                 }
                 g_dir_close(dir);
 
                 /* remove remaining files. FIXME: will this cause problems? */
-                name = g_strdup_printf("rm -rf '%s'", tmp_dir);
-                g_spawn_command_line_sync(name, NULL, NULL, NULL, NULL);
-                g_free(name);
+                cmd = g_strdup_printf("rm -rf '%s'", tmp_dir);
+                g_spawn_command_line_sync(cmd, NULL, NULL, NULL, NULL);
+                g_free(cmd);
             }
         }
     }
