@@ -19,7 +19,7 @@ esac
 
 
 if [ "x${ACLOCAL_DIR}" != "x" ]; then
-    ACLOCAL_ARG=-I ${ACLOCAL_DIR}
+    ACLOCAL_ARG="-I ${ACLOCAL_DIR}"
 fi
 
 set -x

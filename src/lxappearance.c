@@ -543,7 +543,9 @@ int main(int argc, char** argv)
     textdomain ( GETTEXT_PACKAGE );
 #endif
 
+#if !GLIB_CHECK_VERSION(2, 32, 0)
     g_thread_init(NULL);
+#endif
     /* initialize GTK+ and parse the command line arguments */
     if( G_UNLIKELY( ! gtk_init_with_args( &argc, &argv, "", option_entries, GETTEXT_PACKAGE, &err ) ) )
     {
