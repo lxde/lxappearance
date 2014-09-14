@@ -1,2 +1,4 @@
 # List of source files which should be skipped during translation
+data/ui/about.glade
 data/ui/about.ui
+data/ui/lxappearance.ui

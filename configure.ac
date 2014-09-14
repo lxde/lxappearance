@@ -162,7 +162,7 @@ AC_CONFIG_FILES([
     Makefile
     data/Makefile
     data/ui/Makefile
-    data/ui/about.ui
+    data/ui/about.glade
     data/lxappearance.pc
     man/Makefile
     po/Makefile.in
