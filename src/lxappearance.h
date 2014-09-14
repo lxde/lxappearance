@@ -87,8 +87,8 @@ struct _LXAppearance
     char* color_scheme;
     int toolbar_style;
     int toolbar_icon_size;
-    char* hinting_style;
-    char* font_rgba;
+    const char* hinting_style;
+    const char* font_rgba;
 
     gboolean button_images;
     gboolean menu_images;

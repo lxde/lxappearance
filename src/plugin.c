@@ -46,7 +46,7 @@ void plugins_init(GtkBuilder* builder)
     const char* name = NULL;
     if(!dir)
         return;
-    while(name = g_dir_read_name(dir))
+    while ((name = g_dir_read_name(dir)))
     {
         if(g_str_has_suffix(name, ".so"))
         {

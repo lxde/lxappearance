@@ -37,8 +37,8 @@ static void update_cursor_demo()
         GDK_LEFT_SIDE,
         GDK_TOP_LEFT_CORNER,
         GDK_SB_H_DOUBLE_ARROW};
-    int i, n;
-    for(i = 0; i < G_N_ELEMENTS(types); ++i)
+    int i;
+    for(i = 0; i < (int)G_N_ELEMENTS(types); ++i)
     {
         GtkTreeIter it;
         cursor = gdk_cursor_new(types[i]);
@@ -105,7 +105,7 @@ static void on_cursor_theme_size_changed(GtkRange* range, gpointer user_data)
 
 void cursor_theme_init(GtkBuilder* b)
 {
-    int max_cursor_w, max_cursor_h, max_size;
+    guint max_cursor_w, max_cursor_h, max_size;
     GtkTreeSelection* sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(app.cursor_theme_view));
     /* treeview and model are already set up in icon_theme_init() */
     g_signal_connect(sel, "changed", G_CALLBACK(on_cursor_theme_sel_changed), NULL);

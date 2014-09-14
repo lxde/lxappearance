@@ -30,7 +30,7 @@ static GSList* load_themes_in_dir(const char* theme_dir, GSList* themes)
     if(dir)
     {
         const char* name;
-        while(name = g_dir_read_name(dir))
+        while ((name = g_dir_read_name(dir)))
         {
             /* test if we already have this in list */
             if(!g_slist_find_custom(themes, name, (GCompareFunc)strcmp))

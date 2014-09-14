@@ -58,10 +58,10 @@ static void on_font_rgba_changed(GtkComboBox* combo, gpointer user_data)
     }
 }
 
-static int convert_list_to_pos(char* font, const char* list[])
+static int convert_list_to_pos(const char* font, const char* list[])
 {
 
-    int pos, i;
+    int pos = -1, i;
 
     for (i = 0; i <= 3; i = i + 1)
     {

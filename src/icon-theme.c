@@ -64,7 +64,7 @@ void load_icon_themes_from_dir(const char* base_dir, const char* theme_dir, GKey
     if(dir)
     {
         const char* name;
-        while(name = g_dir_read_name(dir))
+        while ((name = g_dir_read_name(dir)))
         {
             /* skip "default" */
             if(G_UNLIKELY(strcmp(name, "default") == 0))
@@ -157,7 +157,6 @@ static void on_install_theme_clicked(GtkButton* btn, gpointer user_data)
 
 static void on_remove_theme_clicked(GtkButton* btn, gpointer user_data)
 {
-    char* theme_name;
     GtkTreeSelection* sel;
     GtkTreeModel* model;
     GtkTreeIter it;
