@@ -118,7 +118,7 @@ static gboolean install_icon_theme_package(const char* package_path)
     GPid pid = -1;
     const char* user_icons_dir = icon_theme_dirs[0];
     char* tmp_dir = g_build_filename(user_icons_dir, "tmp.XXXXXX", NULL);
-    char* argv[]= {
+    const char* argv[]= {
         "tar",
         NULL,
         "-C",
@@ -141,11 +141,11 @@ static gboolean install_icon_theme_package(const char* package_path)
     else /* the file format is not supported */
         goto _out;
 
-    char* cmd = g_strjoinv(" ", argv);
+    char* cmd = g_strjoinv(" ", (char**)argv);
     g_debug("extract: %s", cmd);
     g_free(cmd);
 
-    if(g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH|G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL))
+    if(g_spawn_async(NULL, (char**)argv, NULL, G_SPAWN_SEARCH_PATH|G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL))
     {
         g_debug("pid = %d", pid);
         /* show progress UI for this pid */
@@ -249,14 +249,14 @@ g_debug("tmp_dir = %s", tmp_dir);
         char* tmp_dest = g_build_filename(tmp_dir, theme->name, NULL);
         if(g_rename(dir, tmp_dest) == 0)
         {
-            char* argv[] = {
+            const char* argv[] = {
                 "rm",
                 "-rf",
                 tmp_dir,
                 NULL
             };
             GPid pid;
-            if(g_spawn_async(NULL, argv, NULL, G_SPAWN_SEARCH_PATH|G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL))
+            if(g_spawn_async(NULL, (char**)argv, NULL, G_SPAWN_SEARCH_PATH|G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL))
             {
                 ret = show_progress_for_pid(GTK_WINDOW(app.dlg), "Remove icon theme", "Removing...", pid);
             }
