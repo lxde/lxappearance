@@ -23,5 +23,6 @@ intltool-update.in
 data/lxappearance.desktop
 data/lxappearance.pc
 src/lxappearance
-data/ui/about.ui
+data/ui/*.ui
+data/ui/about.glade
 po/Makefile.in.in
