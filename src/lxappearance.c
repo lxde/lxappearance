@@ -245,6 +245,13 @@ static void lxappearance_save_gtkrc()
     g_string_append(content,
         "# DO NOT EDIT! This file will be overwritten by LXAppearance.\n"
         "# Any customization should be done in ~/.gtkrc-2.0.mine instead.\n\n");
+
+    /* include ~/.gtkrc-2.0.mine first to be able to apply changes done
+       by LXAppearance if the same settings exist in that file */
+    g_string_append_printf(content,
+        "include \"%s/.gtkrc-2.0.mine\"\n",
+        g_get_home_dir());
+
     if(app.widget_theme)
         g_string_append_printf(content,
             "gtk-theme-name=\"%s\"\n", app.widget_theme);
@@ -306,10 +313,6 @@ static void lxappearance_save_gtkrc()
         g_free(escaped);
     }
 #endif
-
-    g_string_append_printf(content,
-        "include \"%s/.gtkrc-2.0.mine\"\n",
-        g_get_home_dir());
 
     g_file_set_contents(file_path, content->str, content->len, NULL);
 
