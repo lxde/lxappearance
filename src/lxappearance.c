@@ -27,6 +27,7 @@
 
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
+#include <glib/gstdio.h>
 
 #include <X11/X.h>
 #include <X11/Xatom.h>
@@ -111,26 +112,76 @@ static GOptionEntry option_entries[] =
     { NULL }
 };
 
+static gboolean verify_cursor_theme(GKeyFile *kf, const char *cursor_theme,
+                                    const char *test)
+{
+    char *fpath;
+    gboolean ret;
+
+    /* get the inherited theme name. */
+    fpath = g_build_filename(g_get_home_dir(), ".icons", cursor_theme,
+                             "index.theme", NULL);
+    ret = g_key_file_load_from_file(kf, fpath, 0, NULL);
+    g_free(fpath);
+
+    fpath = g_build_filename("icons", cursor_theme, "index.theme", NULL);
+    if (!ret)
+        ret = g_key_file_load_from_data_dirs(kf, fpath, NULL, 0, NULL);
+    g_free(fpath);
+
+    if (ret)
+    {
+        fpath = g_key_file_get_string(kf, "Icon Theme", "Inherits", NULL);
+        if (fpath == NULL) /* end of chain, success */
+            return TRUE;
+        if (strcmp(fpath, test) == 0) /* recursion */
+            ret = FALSE;
+        else if (!verify_cursor_theme(kf, fpath, test)) /* recursion */
+            ret = FALSE;
+        else /* check recursion against this one too */
+            ret = verify_cursor_theme(kf, fpath, cursor_theme);
+        g_free(fpath);
+    }
+    return ret;
+}
+
 static void save_cursor_theme_name()
 {
     char* dir_path;
-    if(!app.cursor_theme || !g_strcmp0(app.cursor_theme, "default"))
+    GKeyFile* kf;
+
+    if (app.cursor_theme == NULL || strcmp(app.cursor_theme, "default") == 0)
         return;
 
     dir_path = g_build_filename(g_get_home_dir(), ".icons/default", NULL);
-    if(0 == g_mkdir_with_parents(dir_path, 0700))
+    kf = g_key_file_new();
+    /* test if cursor theme isn't recursed and don't use it otherwise */
+    if (!verify_cursor_theme(kf, app.cursor_theme, "default"))
+    {
+        g_free(app.cursor_theme);
+        app.cursor_theme = NULL; /* FIXME: replace with "default"? */
+        /* FIXME: show an error message */
+    }
+    /* SF bug #614: ~/.icons/default may be symlink so remove symlink */
+    else if (g_file_test(dir_path, G_FILE_TEST_IS_SYMLINK) &&
+                         g_unlink(dir_path) != 0)
+    {
+        /* FIXME: show an error message */
+    }
+    else if (0 == g_mkdir_with_parents(dir_path, 0700))
     {
         char* index_theme = g_build_filename(dir_path, "index.theme", NULL);
         char* content = g_strdup_printf(
-            "# This file is written by LXAppearance. Do not edit.\n"
-            "[Icon Theme]\n"
-            "Name=Default\n"
-            "Comment=Default Cursor Theme\n"
-            "Inherits=%s\n", app.cursor_theme ? app.cursor_theme : "");
+                        "# This file is written by LXAppearance. Do not edit.\n"
+                        "[Icon Theme]\n"
+                        "Name=Default\n"
+                        "Comment=Default Cursor Theme\n"
+                        "Inherits=%s\n", app.cursor_theme);
         g_file_set_contents(index_theme, content, -1, NULL);
         g_free(content);
         g_free(index_theme);
     }
+    g_key_file_free(kf);
     g_free(dir_path);
 
     /*
