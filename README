@@ -1,2 +1,4 @@
 LXAppearance is part of LXDE project.
 It's a desktop-independent theme switcher for GTK+.
+
+Notes for compilation: it requires intltool 0.40 and GTK+ 2.12 or newer.
