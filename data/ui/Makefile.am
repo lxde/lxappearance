@@ -12,6 +12,8 @@ ui_DATA = $(ui_in_files:.glade=.ui)
 .glade.ui:
 	sed 's/<!--.*-->//' < $< | sed ':a;N;$$!ba;s/ *\n *</</g' > $@
 
+CLEANFILES = $(ui_DATA)
+
 EXTRA_DIST= \
 	$(ui_DATA) \
 	$(ui_in_files) \
