@@ -3,6 +3,7 @@ Type=Application
 _Name=Customize Look and Feel
 _GenericName=Customize Look and Feel
 _Comment=Customizes look and feel of your desktop and applications
+_Keywords=windows;preferences;settings;theme;style;appearance;
 Icon=preferences-desktop-theme
 Exec=lxappearance
 NotShowIn=GNOME;KDE;XFCE;

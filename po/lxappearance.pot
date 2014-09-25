@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-14 19:51+0300\n"
+"POT-Creation-Date: 2014-09-26 01:18+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,10 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
+msgstr ""
+
+#: ../data/lxappearance.desktop.in.h:3
+msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr ""
 
 #: ../data/ui/about.glade.in.h:1
