@@ -354,20 +354,20 @@ static void lxappearance_save_gtkrc()
                           "gtk-toolbar-style", tb_styles[app.toolbar_style]);
     g_key_file_set_string(content_gtk3, "Settings",
                           "gtk-toolbar-icon-size", tb_icon_sizes[app.toolbar_icon_size]);
-    g_key_file_set_boolean(content_gtk3, "Settings",
-                           "gtk-button-images", app.button_images);
-    g_key_file_set_boolean(content_gtk3, "Settings",
-                           "gtk-menu-images", app.menu_images);
+    g_key_file_set_integer(content_gtk3, "Settings",
+                           "gtk-button-images", app.button_images ? 1 : 0);
+    g_key_file_set_integer(content_gtk3, "Settings",
+                           "gtk-menu-images", app.menu_images ? 1 : 0);
 #if GTK_CHECK_VERSION(2, 14, 0)
-    g_key_file_set_boolean(content_gtk3, "Settings",
-                           "gtk-enable-event-sounds", app.enable_event_sound);
-    g_key_file_set_boolean(content_gtk3, "Settings",
-                           "gtk-enable-input-feedback-sounds", app.enable_input_feedback);
+    g_key_file_set_integer(content_gtk3, "Settings",
+                           "gtk-enable-event-sounds", app.enable_event_sound ? 1 : 0);
+    g_key_file_set_integer(content_gtk3, "Settings",
+                           "gtk-enable-input-feedback-sounds", app.enable_input_feedback ? 1 : 0);
 #endif
-    g_key_file_set_boolean(content_gtk3, "Settings",
-                           "gtk-xft-antialias", app.enable_antialising);
-    g_key_file_set_boolean(content_gtk3, "Settings",
-                           "gtk-xft-hinting", app.enable_hinting);
+    g_key_file_set_integer(content_gtk3, "Settings",
+                           "gtk-xft-antialias", app.enable_antialising ? 1 : 0);
+    g_key_file_set_integer(content_gtk3, "Settings",
+                           "gtk-xft-hinting", app.enable_hinting ? 1 : 0);
 
     if(app.hinting_style)
         g_key_file_set_string(content_gtk3, "Settings",
