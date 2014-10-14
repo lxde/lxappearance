@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:08+0100\n"
-"PO-Revision-Date: 2014-01-08 16:02+0000\n"
-"Last-Translator: Dar_Kuntu <ZAck13@gmx.at>\n"
+"PO-Revision-Date: 2014-10-14 14:26+0000\n"
+"Last-Translator: H.Humpel <H.Humpel@gmx.de>\n"
 "Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389196939.0\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1413296814.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
 msgid "Customize Look and Feel"
@@ -274,7 +274,7 @@ msgstr "Sub-Pixel-Geometrie:"
 
 #: ../data/ui/lxappearance.ui.h:58
 msgid "<b>Sub-pixel geometry</b>"
-msgstr "Subpixel-Geometrie"
+msgstr "<b>Subpixel-Geometrie</b>"
 
 #: ../data/ui/lxappearance.ui.h:59
 msgid "Font"
