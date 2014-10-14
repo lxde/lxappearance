@@ -34,6 +34,35 @@ static void on_tb_icon_size_changed(GtkComboBox* combo, gpointer user_data)
     lxappearance_changed();
 }
 
+static void on_enable_accessibility_toggled(GtkToggleButton* btn, gpointer user_data)
+{
+    char **modules_list, **ml, **new_modules_list;
+    gsize i;
+
+    if (app.modules)
+        modules_list = g_strsplit(app.modules, ":", -1);
+    else
+        modules_list = g_strsplit("", ":", -1);
+    new_modules_list = g_new0(char *, g_strv_length(modules_list) + 3);
+    for (i = 0, ml = modules_list; *ml != NULL; ml++)
+    {
+        if (strcmp(*ml, "gail") != 0 && strcmp(*ml, "atk-bridge") != 0)
+            new_modules_list[i++] = *ml;
+        else
+            g_free(*ml);
+    }
+    if (gtk_toggle_button_get_active(btn))
+    {
+        new_modules_list[i++] = g_strdup("gail");
+        new_modules_list[i++] = g_strdup("atk-bridge");
+    }
+    g_free(app.modules);
+    app.modules = g_strjoinv(":", new_modules_list);
+    g_free(modules_list);
+    g_strfreev(new_modules_list);
+    lxappearance_changed();
+}
+
 void other_init(GtkBuilder* b)
 {
     int idx;
@@ -68,5 +97,21 @@ void other_init(GtkBuilder* b)
     gtk_widget_show_all(GTK_WIDGET(gtk_builder_get_object(b, "sound_effect")));
 #endif
 
+    gtk_widget_show(GTK_WIDGET(gtk_builder_get_object(b, "accessibility_options")));
+    app.enable_accessibility_button = GTK_WIDGET(gtk_builder_get_object(b, "enable_accessibility"));
+    if (app.modules)
+    {
+        char **modules_list = g_strsplit(app.modules, ":", -1), **ml;
+
+        for (ml = modules_list; *ml != NULL; ml++)
+            if (strcmp(*ml, "gail") == 0)
+                break;
+        if (*ml != NULL)
+            gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(app.enable_accessibility_button),
+                                         TRUE);
+        g_strfreev(modules_list);
+    }
+    g_signal_connect(app.enable_accessibility_button, "toggled",
+                     G_CALLBACK(on_enable_accessibility_toggled), &app.modules);
 }
 

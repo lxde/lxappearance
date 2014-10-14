@@ -105,6 +105,9 @@ struct _LXAppearance
 
     gboolean changed;
     gboolean use_lxsession;
+
+    char *modules;
+    GtkWidget *enable_accessibility_button;
 };
 
 extern LXAppearance app;

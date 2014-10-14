@@ -300,6 +300,9 @@ static void lxappearance_save_gtkrc()
         g_string_append_printf(content,
             "gtk-xft-rgba=\"%s\"\n", app.font_rgba);
 
+    if(app.modules && app.modules[0])
+        g_string_append_printf(content, "gtk-modules=\"%s\"\n", app.modules);
+
 #if 0
     /* unfortunately we cannot set colors without XSETTINGS daemon,
        themes will override any custom settings in .gtkrc-2.0 file */
@@ -373,6 +376,11 @@ static void lxappearance_save_gtkrc()
     if(app.font_rgba)
         g_key_file_set_string(content_gtk3, "Settings",
                               "gtk-xft-rgba", app.font_rgba);
+
+    if(app.modules && app.modules[0])
+        g_key_file_set_string(content_gtk3, "Settings", "gtk-modules", app.modules);
+    else
+        g_key_file_remove_key(content_gtk3, "Settings", "gtk-modules", NULL);
 
 #if 0
     /* unfortunately we cannot set colors without XSETTINGS daemon,
@@ -522,6 +530,7 @@ static void settings_init()
                 "gtk-xft-hinting", &app.enable_hinting,
                 "gtk-xft-hintstyle", &app.hinting_style,
                 "gtk-xft-rgba", &app.font_rgba,
+                "gtk-modules", &app.modules,
                 NULL);
     /* try to figure out cursor theme used. */
     if(!app.cursor_theme || g_strcmp0(app.cursor_theme, "default") == 0)
