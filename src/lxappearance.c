@@ -484,8 +484,7 @@ static void on_dlg_response(GtkDialog* dlg, int res, gpointer user_data)
 
         if(app.use_lxsession)
             lxappearance_save_lxsession();
-        else
-            lxappearance_save_gtkrc();
+        lxappearance_save_gtkrc();
 
         reload_all_programs();
 
