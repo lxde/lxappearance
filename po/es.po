@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-10-19 20:16+0000\n"
+"PO-Revision-Date: 2014-10-26 23:01+0000\n"
 "Last-Translator: jcsl <trcs@gmx.com>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1413749774.000000\n"
+"X-POOTLE-MTIME: 1414364475.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -143,7 +143,7 @@ msgstr "Eliminar"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
-msgstr "Previsualizar el tema de iconos seleccionados"
+msgstr "Previsualizar el tema de iconos seleccionado"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Icon Theme"
@@ -151,7 +151,7 @@ msgstr "Tema de iconos"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Preview of the selected cursor theme"
-msgstr "Previsualizar el tema de cursores seleccionados"
+msgstr "Previsualizar el tema de cursores seleccionado"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Size of cursors"
