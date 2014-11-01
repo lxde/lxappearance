@@ -1,23 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 11:30+0100\n"
-"PO-Revision-Date: 2011-07-24 14:43+0200\n"
-"Last-Translator: George <forfolias@gmail.com>\n"
+"POT-Creation-Date: 2014-10-14 18:23+0300\n"
+"PO-Revision-Date: 2014-11-01 23:10+0000\n"
+"Last-Translator: armakolas <armakolas@gmail.com>\n"
 "Language-Team: Greek\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Language: Greek\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: GREECE\n"
+"X-POOTLE-MTIME: 1414883449.000000\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
 msgstr "Προσαρμογή εμφάνισης και αισθητικής"
 
@@ -27,208 +30,142 @@ msgstr ""
 "Προσαρμογή εμφάνισης και αισθητικής της επιφάνειας εργασίας και των "
 "εφαρμογών σας"
 
-#: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2011 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+#: ../data/lxappearance.desktop.in.h:3
+msgid "windows;preferences;settings;theme;style;appearance;"
+msgstr ""
 
-#: ../data/ui/about.ui.in.h:2
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2008-2014 LXDE Project"
+msgstr "Πνευματικά Δικαιώματα (C) 2008-2014 έργο LXDE"
+
+#: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "Προσαρμογή εμφάνισης και αισθητικής της επιφάνειας εργασίας "
 
 #. Please replace this line with your own names, one name per line.
-#: ../data/ui/about.ui.in.h:4
+#: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Βασιλάκος Γεώργιος <forfolias@linuxteam.cs.teilar.gr>"
+msgstr ""
+"Βασιλάκος Γεώργιος <forfolias@linuxteam.cs.teilar.gr>\n"
+"Αρμακόλας Νικόλαος <armakolas@gmail.com> 2014 "
 
-#: ../data/ui/lxappearance.ui.h:1
-msgid "Icons only"
-msgstr "Μόνο εικονίδια"
-
-#: ../data/ui/lxappearance.ui.h:2
-msgid "Text only"
-msgstr "Μόνο κείμενο"
-
-#: ../data/ui/lxappearance.ui.h:3
-msgid "Text below icons"
-msgstr "Κείμενο κάτω από τις εικόνες"
-
-#: ../data/ui/lxappearance.ui.h:4
-msgid "Text beside icons"
-msgstr "Κείμενο πάνω από τις εικόνες"
-
-#: ../data/ui/lxappearance.ui.h:5
-msgid "Same as menu items"
-msgstr "Ίδιο με αντικείμενα του μενού"
-
-#: ../data/ui/lxappearance.ui.h:6
-msgid "Small toolbar icon"
-msgstr "Μικρά εικονίδια στη γραμμή εργαλείων"
-
-#: ../data/ui/lxappearance.ui.h:7
-msgid "Large toolbar icon"
-msgstr "Μεγάλα εικονίδια στη γραμμή εργαλείων"
-
-#: ../data/ui/lxappearance.ui.h:8
-msgid "Same as buttons"
-msgstr "Ίδιο με κουμπιά"
-
-#: ../data/ui/lxappearance.ui.h:9
-msgid "Same as drag icons"
-msgstr "Ίδιο με συρόμενα εικονίδια"
-
-#: ../data/ui/lxappearance.ui.h:10
-msgid "Same as dialogs"
-msgstr "Ίδιο με διαλόγους"
-
-#: ../data/ui/lxappearance.ui.h:11
-msgid "None"
-msgstr "Κανένα"
-
-#: ../data/ui/lxappearance.ui.h:12
-msgid "Slight"
-msgstr "Ελαφρά"
-
-#: ../data/ui/lxappearance.ui.h:13
-msgid "Medium"
-msgstr "Μεσαίο"
-
-#: ../data/ui/lxappearance.ui.h:14
-msgid "Full"
-msgstr "Γεμάτο"
-
-#: ../data/ui/lxappearance.ui.h:15
-msgid "RGB"
-msgstr "RGB"
-
-#: ../data/ui/lxappearance.ui.h:16
-msgid "BGR"
-msgstr "BGR"
-
-#: ../data/ui/lxappearance.ui.h:17
-msgid "VRGB"
-msgstr "VRGB"
-
-#: ../data/ui/lxappearance.ui.h:18
-msgid "VBGR"
-msgstr "VBGR"
-
-#: ../data/ui/lxappearance.ui.h:20
+#: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
 msgstr "Προεπισκόπηση του επιλεγμένου στυλ γραφικών συστατικών"
 
-#: ../data/ui/lxappearance.ui.h:21
+#: ../data/ui/lxappearance.glade.h:3
 msgid "_File"
 msgstr "_Αρχείο"
 
-#: ../data/ui/lxappearance.ui.h:22
+#: ../data/ui/lxappearance.glade.h:4
 msgid "_Edit"
 msgstr "_Επεξεργασία"
 
-#: ../data/ui/lxappearance.ui.h:23
+#: ../data/ui/lxappearance.glade.h:5
 msgid "_Help"
 msgstr "_Βοήθεια"
 
-#: ../data/ui/lxappearance.ui.h:24
+#: ../data/ui/lxappearance.glade.h:6
 msgid "Radio Button"
 msgstr "Κουμπί επιλογής"
 
-#: ../data/ui/lxappearance.ui.h:25
+#: ../data/ui/lxappearance.glade.h:7
 msgid "Check Button"
 msgstr "Κουμπί επιλογής"
 
-#: ../data/ui/lxappearance.ui.h:26
+#: ../data/ui/lxappearance.glade.h:8
 msgid "button"
 msgstr "κουμπί"
 
-#: ../data/ui/lxappearance.ui.h:27
+#: ../data/ui/lxappearance.glade.h:9
 msgid "Demo"
 msgstr "Δοκιμή"
 
-#: ../data/ui/lxappearance.ui.h:28
+#: ../data/ui/lxappearance.glade.h:10
 msgid "Page1"
 msgstr "Σελίδα1"
 
-#: ../data/ui/lxappearance.ui.h:29
+#: ../data/ui/lxappearance.glade.h:11
 msgid "Page2"
 msgstr "Σελίδα2"
 
-#: ../data/ui/lxappearance.ui.h:30
+#: ../data/ui/lxappearance.glade.h:12
 msgid "Default font:"
 msgstr "Προεπιλεγμένη γραμματοσειρά:"
 
-#: ../data/ui/lxappearance.ui.h:31
+#: ../data/ui/lxappearance.glade.h:13
 msgid "Widget"
 msgstr "Widget"
 
-#: ../data/ui/lxappearance.ui.h:32
+#: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Ο συνδυασμός χρωμάτων δεν υποστηρίζεται από το επιλεγμένο θέμα widget."
 
-#: ../data/ui/lxappearance.ui.h:33
+#: ../data/ui/lxappearance.glade.h:15
 msgid "Use customized color scheme"
 msgstr "Χρήση προσαρμοσμένων χρωμάτων"
 
-#: ../data/ui/lxappearance.ui.h:34
+#: ../data/ui/lxappearance.glade.h:16
 msgid "Normal windows:"
 msgstr "Κανονικά παράθυρα:"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.glade.h:17
 msgid "Text windows:"
 msgstr "Κείμενο παραθύρων:"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.glade.h:18
 msgid "Selected items:"
 msgstr "Επιλεγμένα αντικείμενα:"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.glade.h:19
 msgid "Tooltips:"
 msgstr "Συμβουλές:"
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.glade.h:20
 msgid "Background"
 msgstr "Παρασκήνιο"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.glade.h:21
 msgid "Foreground"
 msgstr "Προσκήνιο"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.glade.h:22
 msgid "Color"
 msgstr "Χρώμα"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.glade.h:23
 msgid "Install"
 msgstr "Εγκατάσταση"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
 msgstr "Προεπισκόπηση του επιλεγμένου θέματος εικονιδίων"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Icon Theme"
 msgstr "Θέματα εικονιδίων"
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Preview of the selected cursor theme"
 msgstr "Προεπισκόπηση του επιλεγμένου θέματος δρομεα"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Size of cursors"
 msgstr "Μέγεθος δρομέα"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Smaller"
 msgstr "Μικρότερο"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Bigger"
 msgstr "Μεγαλύτερο"
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.glade.h:31
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -238,88 +175,184 @@ msgstr ""
 "του δρομέα. Έτσι, οι αλλαγές σας μπορεί να μην εφαρμοστούν πλήρως μέχρι την "
 "επόμενη σύνδεση."
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.glade.h:32
 msgid "Mouse Cursor"
 msgstr "Δρομέας"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Window Border"
 msgstr "Πλαίσιο παραθύρου"
 
-#: ../data/ui/lxappearance.ui.h:52
-#, fuzzy
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Enable antialiasing"
-msgstr "Ενεργοποίηση antialising"
+msgstr "Ενεργοποίηση εξομάλυνσης"
 
-#: ../data/ui/lxappearance.ui.h:53
-#, fuzzy
+#: ../data/ui/lxappearance.glade.h:35
 msgid "<b>Antialiasing</b>"
-msgstr "<b>Antialising</b>"
+msgstr "<b>Εξομάλυνση</b>"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.glade.h:36
 msgid "Enable hinting"
 msgstr "Ενεργοποίηση υποδείξεων"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
 msgstr "Στυλ υπόδειξης: "
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
 msgstr "<b>Υποδείξεις</b>"
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
 msgstr "Γεωμετρία υπό-pixel: "
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
 msgstr "<b>Γεωμετρία υπο-pixel</b>"
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.glade.h:41
 msgid "Font"
 msgstr "Γραμματοσειρά"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
 msgstr "Στυλ μπάρας εργαλείων: "
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
 msgstr "Μέγεθος εικονιδίων μπάρας εργαλείων: "
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
 msgstr "Εμφάνιση εικόνων στα κουμπιά"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Show images in menus"
 msgstr "Εμφάνιση εικόνων στα μενού"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.glade.h:46
 msgid "<b>GUI Options</b>"
 msgstr "<b>Επιλογές διεπαφής</b>"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Keyboard theme:"
+msgstr "Θέμα πληκτρολογίου:"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "<b>Keyboard Options</b>"
+msgstr "<b>Επιλογές Πληκτρολογίου</b>"
+
+#: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
 msgstr "Αναπαραγωγή ήχων σε γεγονότα"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds as feedback to user input"
 msgstr "Αναπαραγωγή ήχων σε ενέργειες του χρήστη"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.glade.h:51
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Ηχητικά εφέ</b>"
 
-#: ../data/ui/lxappearance.ui.h:68
+#: ../data/ui/lxappearance.glade.h:52
+msgid "Enable _accessibility in GTK+ applications"
+msgstr "Ενεργοποίηση προσβασιμότητας στις εφαρμογές GTK+"
+
+#: ../data/ui/lxappearance.glade.h:53
+msgid "<b>Accessibility</b>"
+msgstr "<b>Προσβασιμότητα</b>"
+
+#: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
 msgstr "Άλλο"
 
-#: ../src/utils.c:217
+#: ../data/ui/lxappearance.glade.h:55
+msgid "None"
+msgstr "Κανένα"
+
+#: ../data/ui/lxappearance.glade.h:56
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.glade.h:57
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.glade.h:58
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.glade.h:59
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.glade.h:60
+msgid "Slight"
+msgstr "Ελαφρά"
+
+#: ../data/ui/lxappearance.glade.h:61
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: ../data/ui/lxappearance.glade.h:62
+msgid "Full"
+msgstr "Γεμάτο"
+
+#: ../data/ui/lxappearance.glade.h:63
+msgid "Same as menu items"
+msgstr "Ίδιο με αντικείμενα του μενού"
+
+#: ../data/ui/lxappearance.glade.h:64
+msgid "Small toolbar icon"
+msgstr "Μικρά εικονίδια στη γραμμή εργαλείων"
+
+#: ../data/ui/lxappearance.glade.h:65
+msgid "Large toolbar icon"
+msgstr "Μεγάλα εικονίδια στη γραμμή εργαλείων"
+
+#: ../data/ui/lxappearance.glade.h:66
+msgid "Same as buttons"
+msgstr "Ίδιο με κουμπιά"
+
+#: ../data/ui/lxappearance.glade.h:67
+msgid "Same as drag icons"
+msgstr "Ίδιο με συρόμενα εικονίδια"
+
+#: ../data/ui/lxappearance.glade.h:68
+msgid "Same as dialogs"
+msgstr "Ίδιο με διαλόγους"
+
+#: ../data/ui/lxappearance.glade.h:69
+msgid "Icons only"
+msgstr "Μόνο εικονίδια"
+
+#: ../data/ui/lxappearance.glade.h:70
+msgid "Text only"
+msgstr "Μόνο κείμενο"
+
+#: ../data/ui/lxappearance.glade.h:71
+msgid "Text below icons"
+msgstr "Κείμενο κάτω από τις εικόνες"
+
+#: ../data/ui/lxappearance.glade.h:72
+msgid "Text beside icons"
+msgstr "Κείμενο πάνω από τις εικόνες"
+
+#: ../src/utils.c:216
 msgid "Select an icon theme"
 msgstr "Επιλέξτε ένα θέμα εικονιδίων"
 
-#: ../src/utils.c:224
+#: ../src/utils.c:223
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (θέμα εικονιδίων)"
+
+#: ../src/color-scheme.c:299
+msgid ""
+"Setting color scheme is not available without lxsession as session manager."
+msgstr ""
+"Ο ορισμός χρωματικού σχεδίου δεν είναι διαθέσιμος δίχως το lxsession ως "
+"διαχειριστή συνεδρίας."
+
+#~ msgid "Copyright (C) 2011 LXDE Project"
+#~ msgstr "Copyright (C) 2011 LXDE Project"
