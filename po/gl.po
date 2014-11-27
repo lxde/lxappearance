@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-11-27 09:52+0000\n"
+"PO-Revision-Date: 2014-11-27 10:20+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1417081931.000000\n"
+"X-POOTLE-MTIME: 1417083612.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -33,7 +33,7 @@ msgstr "xanelas;preferencias;axustes;tema;stilo;aparencia;"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Dereitos de autoría (C) 2008-2014 LXDE Project"
+msgstr "Dereitos de autoría (C) 2008-2014 o proxecto LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
-msgstr "Vista previa do tema de controis seleccionado"
+msgstr "Vista previa do estilo de trebello seleccionado"
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "_File"
@@ -68,7 +68,7 @@ msgstr "Botón de selección"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Check Button"
-msgstr "Caixa de selección"
+msgstr "Botón de verificación"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "button"
@@ -92,12 +92,12 @@ msgstr "Tipo de letra predeterminado:"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Widget"
-msgstr "Controis"
+msgstr "Trebello"
 
 #: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
-"O esquema de cor no é admitido polo tema de controis seleccionado "
+"O esquema de cor no é admitido polo tema de trebello seleccionado "
 "actualmente."
 
 #: ../data/ui/lxappearance.glade.h:15
@@ -196,7 +196,7 @@ msgstr "Activar as suxestións"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "Estilo do consello: "
+msgstr "Estilo da suxestión: "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
@@ -224,7 +224,7 @@ msgstr "Tamaño das iconas da barra de ferramentas: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
-msgstr "Amosar imaxes no botóns"
+msgstr "Amosar imaxes nos botóns"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Show images in menus"
@@ -256,7 +256,7 @@ msgstr "<b>Efecto sonoro</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr "Activar a  _accesibilidade nas aplicacións GTK+"
+msgstr "Activar a _accesibilidade nas aplicacións GTK+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
