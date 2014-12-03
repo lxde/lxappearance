@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-11-30 14:56+0000\n"
-"Last-Translator: Daniel Winzen <d@winzen4.de>\n"
+"PO-Revision-Date: 2014-12-03 11:01+0000\n"
+"Last-Translator: ubsy <ubsy@riseup.net>\n"
 "Language-Team: Deutsch <translation@mailinglist.lxde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1417359370.000000\n"
+"X-POOTLE-MTIME: 1417604493.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -194,7 +194,7 @@ msgstr "Sub-Pixel-Hinting verwenden"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "Hinting-Stil:"
+msgstr "Hinting-Stil: "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
@@ -202,7 +202,7 @@ msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
-msgstr "Sub-Pixel-Geometrie:"
+msgstr "Sub-Pixel-Geometrie: "
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
@@ -214,11 +214,11 @@ msgstr "Schrift"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
-msgstr "Stil der Werkzeugleiste:"
+msgstr "Stil der Werkzeugleiste: "
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
-msgstr "Symbolgröße der Werkzeugleiste:"
+msgstr "Symbolgröße der Werkzeugleiste: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
