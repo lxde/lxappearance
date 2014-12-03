@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-12-03 11:16+0000\n"
+"PO-Revision-Date: 2014-12-03 11:49+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -18,15 +18,15 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
-msgstr "Útlit og viðmót"
+msgstr "Sérsníða útlit og viðmót"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr ""
+msgstr "Sérsníður útlit og hegðun skjáborðs og forrita"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "gluggar;valkostir;stillingar;þema;stíll;útlit;"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2008-2014 LXDE Project"
@@ -34,7 +34,7 @@ msgstr "Höfundarréttur (C) 2008-2014 LXDE verkefnið"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr ""
+msgstr "Sérsníður útlit og hegðun skjáborðsins"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
@@ -290,7 +290,7 @@ msgstr "Fullt"
 
 #: ../data/ui/lxappearance.glade.h:63
 msgid "Same as menu items"
-msgstr ""
+msgstr "Sama og á valmyndafærslum"
 
 #: ../data/ui/lxappearance.glade.h:64
 msgid "Small toolbar icon"
@@ -302,15 +302,15 @@ msgstr "Stórar táknmyndir á verkfærastiku"
 
 #: ../data/ui/lxappearance.glade.h:66
 msgid "Same as buttons"
-msgstr ""
+msgstr "Sama og á hnöppum"
 
 #: ../data/ui/lxappearance.glade.h:67
 msgid "Same as drag icons"
-msgstr ""
+msgstr "Sama og á táknmyndum í drætti"
 
 #: ../data/ui/lxappearance.glade.h:68
 msgid "Same as dialogs"
-msgstr ""
+msgstr "Sama og á samskiptagluggum"
 
 #: ../data/ui/lxappearance.glade.h:69
 msgid "Icons only"
