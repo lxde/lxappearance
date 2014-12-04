@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"POT-Creation-Date: 2014-10-14 18:23+0300\n"
 "PO-Revision-Date: 2014-01-17 09:20+0000\n"
 "Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1389950414.0\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
 msgstr "Välimuse kohandamine"
 
@@ -26,210 +26,143 @@ msgstr "Välimuse kohandamine"
 msgid "Customizes look and feel of your desktop and applications"
 msgstr "Töölaua ja rakenduste välimuse kohandamine"
 
-#: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2011 LXDE Project"
+#: ../data/lxappearance.desktop.in.h:3
+msgid "windows;preferences;settings;theme;style;appearance;"
+msgstr ""
+
+#: ../data/ui/about.glade.in.h:1
+#, fuzzy
+msgid "Copyright (C) 2008-2014 LXDE Project"
 msgstr "Copyright (C) 2011 LXDE Project"
 
-#: ../data/ui/about.ui.in.h:2
+#: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "Töölaua välimuse kohandamine"
 
 #. Please replace this line with your own names, one name per line.
-#: ../data/ui/about.ui.in.h:4
+#: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
 msgstr ""
 "Anari Jalakas\n"
 "Mattias Põldaru"
 
-#: ../data/ui/lxappearance.ui.h:1
-msgid "Icons only"
-msgstr "Ainult ikoonid"
-
-#: ../data/ui/lxappearance.ui.h:2
-msgid "Text only"
-msgstr "Ainult tekst"
-
-#: ../data/ui/lxappearance.ui.h:3
-msgid "Text below icons"
-msgstr "Tekst ikoonide all"
-
-#: ../data/ui/lxappearance.ui.h:4
-msgid "Text beside icons"
-msgstr "Tekst ikoonide kõrval"
-
-#: ../data/ui/lxappearance.ui.h:5
-msgid "Same as menu items"
-msgstr "Sama, mis menüüelementidel"
-
-#: ../data/ui/lxappearance.ui.h:6
-msgid "Small toolbar icon"
-msgstr "Väike tööriistariba ikoon"
-
-#: ../data/ui/lxappearance.ui.h:7
-msgid "Large toolbar icon"
-msgstr "Suur tööriistariba ikoon"
-
-#: ../data/ui/lxappearance.ui.h:8
-msgid "Same as buttons"
-msgstr "Sama, mis nuppudel"
-
-#: ../data/ui/lxappearance.ui.h:9
-msgid "Same as drag icons"
-msgstr "Sama, mis lohistamisikoonidel"
-
-#: ../data/ui/lxappearance.ui.h:10
-msgid "Same as dialogs"
-msgstr "Sama, mis dialoogidel"
-
-#: ../data/ui/lxappearance.ui.h:11
-msgid "None"
-msgstr "Puudub"
-
-#: ../data/ui/lxappearance.ui.h:12
-msgid "Slight"
-msgstr "Vähene"
-
-#: ../data/ui/lxappearance.ui.h:13
-msgid "Medium"
-msgstr "Keskmine"
-
-#: ../data/ui/lxappearance.ui.h:14
-msgid "Full"
-msgstr "Täielik"
-
-#: ../data/ui/lxappearance.ui.h:15
-msgid "RGB"
-msgstr "RGB"
-
-#: ../data/ui/lxappearance.ui.h:16
-msgid "BGR"
-msgstr "BGR"
-
-#: ../data/ui/lxappearance.ui.h:17
-msgid "VRGB"
-msgstr "VRGB"
-
-#: ../data/ui/lxappearance.ui.h:18
-msgid "VBGR"
-msgstr "VBGR"
-
-#: ../data/ui/lxappearance.ui.h:20
+#: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
 msgstr "Valitud vidinateema eelvaade"
 
-#: ../data/ui/lxappearance.ui.h:21
+#: ../data/ui/lxappearance.glade.h:3
 msgid "_File"
 msgstr "_Fail"
 
-#: ../data/ui/lxappearance.ui.h:22
+#: ../data/ui/lxappearance.glade.h:4
 msgid "_Edit"
 msgstr "R_edigeerimine"
 
-#: ../data/ui/lxappearance.ui.h:23
+#: ../data/ui/lxappearance.glade.h:5
 msgid "_Help"
 msgstr "A_bi"
 
-#: ../data/ui/lxappearance.ui.h:24
+#: ../data/ui/lxappearance.glade.h:6
 msgid "Radio Button"
 msgstr "Raadionupp"
 
-#: ../data/ui/lxappearance.ui.h:25
+#: ../data/ui/lxappearance.glade.h:7
 msgid "Check Button"
 msgstr "Valikunupp"
 
-#: ../data/ui/lxappearance.ui.h:26
+#: ../data/ui/lxappearance.glade.h:8
 msgid "button"
 msgstr "nupp"
 
-#: ../data/ui/lxappearance.ui.h:27
+#: ../data/ui/lxappearance.glade.h:9
 msgid "Demo"
 msgstr "Näide"
 
-#: ../data/ui/lxappearance.ui.h:28
+#: ../data/ui/lxappearance.glade.h:10
 msgid "Page1"
 msgstr "Leht1"
 
-#: ../data/ui/lxappearance.ui.h:29
+#: ../data/ui/lxappearance.glade.h:11
 msgid "Page2"
 msgstr "Leht2"
 
-#: ../data/ui/lxappearance.ui.h:30
+#: ../data/ui/lxappearance.glade.h:12
 msgid "Default font:"
 msgstr "Vaikimisi font:"
 
-#: ../data/ui/lxappearance.ui.h:31
+#: ../data/ui/lxappearance.glade.h:13
 msgid "Widget"
 msgstr "Vidin"
 
-#: ../data/ui/lxappearance.ui.h:32
+#: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Valitud vidinateema ei toeta värviskeemi."
 
-#: ../data/ui/lxappearance.ui.h:33
+#: ../data/ui/lxappearance.glade.h:15
 msgid "Use customized color scheme"
 msgstr "Kohandatud värviskeemi kasutamine"
 
-#: ../data/ui/lxappearance.ui.h:34
+#: ../data/ui/lxappearance.glade.h:16
 msgid "Normal windows:"
 msgstr "Tavaaknad:"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.glade.h:17
 msgid "Text windows:"
 msgstr "Tekstiaknad:"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.glade.h:18
 msgid "Selected items:"
 msgstr "Valik:"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.glade.h:19
 msgid "Tooltips:"
 msgstr "Kohtspikrid:"
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.glade.h:20
 msgid "Background"
 msgstr "Taust"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.glade.h:21
 msgid "Foreground"
 msgstr "Tekst"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.glade.h:22
 msgid "Color"
 msgstr "Värv"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.glade.h:23
 msgid "Install"
 msgstr "Paigalda"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Remove"
 msgstr "Eemalda"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
 msgstr "Valitud ikooniteema eelvaade"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Icon Theme"
 msgstr "Ikooniteema"
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Preview of the selected cursor theme"
 msgstr "Valitud kursoriteema eelvaade"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Size of cursors"
 msgstr "Kursorite suurus"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Smaller"
 msgstr "Väiksem"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Bigger"
 msgstr "Suurem"
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.glade.h:31
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -239,86 +172,180 @@ msgstr ""
 "kursoriteemat. Siin tehtud muudatused ei pruugi täielikult rakenduda enne "
 "järgmist sisselogimist."
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.glade.h:32
 msgid "Mouse Cursor"
 msgstr "Hiirekursor"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Window Border"
 msgstr "Akna ääris"
 
-#: ../data/ui/lxappearance.ui.h:52
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Enable antialiasing"
 msgstr "Sakisilumise lubamine"
 
-#: ../data/ui/lxappearance.ui.h:53
+#: ../data/ui/lxappearance.glade.h:35
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Sakisilumine</b>"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.glade.h:36
 msgid "Enable hinting"
 msgstr "Vihjamise lubamine"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
 msgstr "Vihjamise stiil: "
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
 msgstr "<b>Vihjamine</b>"
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
 msgstr "Alampiksli kujutamine: "
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
 msgstr "<b>Alampiksli geomeetria</b>"
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.glade.h:41
 msgid "Font"
 msgstr "Font"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
 msgstr "Tööriistariba stiil: "
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
 msgstr "Tööriistariba ikooni suurus: "
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
 msgstr "Piltide näitamine nuppudel"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Show images in menus"
 msgstr "Piltide näitamine menüüs"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.glade.h:46
 msgid "<b>GUI Options</b>"
 msgstr "<b>Kasutajaliidese valikud</b>"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Keyboard theme:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:48
+#, fuzzy
+msgid "<b>Keyboard Options</b>"
+msgstr "<b>Kasutajaliidese valikud</b>"
+
+#: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
 msgstr "Sündmuse heli mängimine"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds as feedback to user input"
 msgstr "Sündmuse heli mängimine kasutaja sisendi tagasisideks"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.glade.h:51
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Heliefektid</b>"
 
-#: ../data/ui/lxappearance.ui.h:68
+#: ../data/ui/lxappearance.glade.h:52
+msgid "Enable _accessibility in GTK+ applications"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:53
+msgid "<b>Accessibility</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
 msgstr "Muu"
 
-#: ../src/utils.c:217
+#: ../data/ui/lxappearance.glade.h:55
+msgid "None"
+msgstr "Puudub"
+
+#: ../data/ui/lxappearance.glade.h:56
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.glade.h:57
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.glade.h:58
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.glade.h:59
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.glade.h:60
+msgid "Slight"
+msgstr "Vähene"
+
+#: ../data/ui/lxappearance.glade.h:61
+msgid "Medium"
+msgstr "Keskmine"
+
+#: ../data/ui/lxappearance.glade.h:62
+msgid "Full"
+msgstr "Täielik"
+
+#: ../data/ui/lxappearance.glade.h:63
+msgid "Same as menu items"
+msgstr "Sama, mis menüüelementidel"
+
+#: ../data/ui/lxappearance.glade.h:64
+msgid "Small toolbar icon"
+msgstr "Väike tööriistariba ikoon"
+
+#: ../data/ui/lxappearance.glade.h:65
+msgid "Large toolbar icon"
+msgstr "Suur tööriistariba ikoon"
+
+#: ../data/ui/lxappearance.glade.h:66
+msgid "Same as buttons"
+msgstr "Sama, mis nuppudel"
+
+#: ../data/ui/lxappearance.glade.h:67
+msgid "Same as drag icons"
+msgstr "Sama, mis lohistamisikoonidel"
+
+#: ../data/ui/lxappearance.glade.h:68
+msgid "Same as dialogs"
+msgstr "Sama, mis dialoogidel"
+
+#: ../data/ui/lxappearance.glade.h:69
+msgid "Icons only"
+msgstr "Ainult ikoonid"
+
+#: ../data/ui/lxappearance.glade.h:70
+msgid "Text only"
+msgstr "Ainult tekst"
+
+#: ../data/ui/lxappearance.glade.h:71
+msgid "Text below icons"
+msgstr "Tekst ikoonide all"
+
+#: ../data/ui/lxappearance.glade.h:72
+msgid "Text beside icons"
+msgstr "Tekst ikoonide kõrval"
+
+#: ../src/utils.c:216
 msgid "Select an icon theme"
 msgstr "Ikooniteema valimine"
 
-#: ../src/utils.c:224
+#: ../src/utils.c:223
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (ikooniteema)"
+
+#: ../src/color-scheme.c:299
+msgid ""
+"Setting color scheme is not available without lxsession as session manager."
+msgstr ""

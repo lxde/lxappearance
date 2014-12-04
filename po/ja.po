@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-20 13:08+0100\n"
+"POT-Creation-Date: 2014-10-14 18:23+0300\n"
 "PO-Revision-Date: 2014-01-19 01:28+0000\n"
 "Last-Translator: Hironao <hirkmt@gmail.com>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -19,307 +19,337 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1390094915.0\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.ui.h:19
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
 msgstr "ルックアンドフィールを設定します"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "あなたのデスクトップとアプリケーションのルックアンドフィールを設定します"
+msgstr ""
+"あなたのデスクトップとアプリケーションのルックアンドフィールを設定します"
 
-#: ../data/ui/about.ui.in.h:1
-msgid "Copyright (C) 2011 LXDE Project"
+#: ../data/lxappearance.desktop.in.h:3
+msgid "windows;preferences;settings;theme;style;appearance;"
+msgstr ""
+
+#: ../data/ui/about.glade.in.h:1
+#, fuzzy
+msgid "Copyright (C) 2008-2014 LXDE Project"
 msgstr "Copyright (C) 2011 LXDE Project"
 
-#: ../data/ui/about.ui.in.h:2
+#: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "デスクトップのルックアンドフィールを設定します"
 
 #. Please replace this line with your own names, one name per line.
-#: ../data/ui/about.ui.in.h:4
+#: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
 msgstr "Hironao Komatsu <hironao@users.sourceforge.net>"
 
-#: ../data/ui/lxappearance.ui.h:1
-msgid "Icons only"
-msgstr "アイコンのみ"
-
-#: ../data/ui/lxappearance.ui.h:2
-msgid "Text only"
-msgstr "テキストのみ"
-
-#: ../data/ui/lxappearance.ui.h:3
-msgid "Text below icons"
-msgstr "アイコンの下にテキスト"
-
-#: ../data/ui/lxappearance.ui.h:4
-msgid "Text beside icons"
-msgstr "アイコンの横にテキスト"
-
-#: ../data/ui/lxappearance.ui.h:5
-msgid "Same as menu items"
-msgstr "メニューアイテムと同じ"
-
-#: ../data/ui/lxappearance.ui.h:6
-msgid "Small toolbar icon"
-msgstr "小さなツールバーアイコン"
-
-#: ../data/ui/lxappearance.ui.h:7
-msgid "Large toolbar icon"
-msgstr "大きなツールバーアイコン"
-
-#: ../data/ui/lxappearance.ui.h:8
-msgid "Same as buttons"
-msgstr "ボタンと同じ"
-
-#: ../data/ui/lxappearance.ui.h:9
-msgid "Same as drag icons"
-msgstr "ドラッグアイコンと同じ"
-
-#: ../data/ui/lxappearance.ui.h:10
-msgid "Same as dialogs"
-msgstr "ダイアログと同じ"
-
-#: ../data/ui/lxappearance.ui.h:11
-msgid "None"
-msgstr "なし"
-
-#: ../data/ui/lxappearance.ui.h:12
-msgid "Slight"
-msgstr "微小"
-
-#: ../data/ui/lxappearance.ui.h:13
-msgid "Medium"
-msgstr "中間"
-
-#: ../data/ui/lxappearance.ui.h:14
-msgid "Full"
-msgstr "完全"
-
-#: ../data/ui/lxappearance.ui.h:15
-msgid "RGB"
-msgstr "RGB"
-
-#: ../data/ui/lxappearance.ui.h:16
-msgid "BGR"
-msgstr "BGR"
-
-#: ../data/ui/lxappearance.ui.h:17
-msgid "VRGB"
-msgstr "VRGB"
-
-#: ../data/ui/lxappearance.ui.h:18
-msgid "VBGR"
-msgstr "VBGR"
-
-#: ../data/ui/lxappearance.ui.h:20
+#: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
 msgstr "選択中のウィジェットスタイルのプレビュー"
 
-#: ../data/ui/lxappearance.ui.h:21
+#: ../data/ui/lxappearance.glade.h:3
 msgid "_File"
 msgstr "ファイル(_F)"
 
-#: ../data/ui/lxappearance.ui.h:22
+#: ../data/ui/lxappearance.glade.h:4
 msgid "_Edit"
 msgstr "編集(_E)"
 
-#: ../data/ui/lxappearance.ui.h:23
+#: ../data/ui/lxappearance.glade.h:5
 msgid "_Help"
 msgstr "ヘルプ(_H)"
 
-#: ../data/ui/lxappearance.ui.h:24
+#: ../data/ui/lxappearance.glade.h:6
 msgid "Radio Button"
 msgstr "ラジオボタン"
 
-#: ../data/ui/lxappearance.ui.h:25
+#: ../data/ui/lxappearance.glade.h:7
 msgid "Check Button"
 msgstr "チェックボタン"
 
-#: ../data/ui/lxappearance.ui.h:26
+#: ../data/ui/lxappearance.glade.h:8
 msgid "button"
 msgstr "ボタン"
 
-#: ../data/ui/lxappearance.ui.h:27
+#: ../data/ui/lxappearance.glade.h:9
 msgid "Demo"
 msgstr "デモ"
 
-#: ../data/ui/lxappearance.ui.h:28
+#: ../data/ui/lxappearance.glade.h:10
 msgid "Page1"
 msgstr "ページ1"
 
-#: ../data/ui/lxappearance.ui.h:29
+#: ../data/ui/lxappearance.glade.h:11
 msgid "Page2"
 msgstr "ページ2"
 
-#: ../data/ui/lxappearance.ui.h:30
+#: ../data/ui/lxappearance.glade.h:12
 msgid "Default font:"
 msgstr "デフォルトのフォント:"
 
-#: ../data/ui/lxappearance.ui.h:31
+#: ../data/ui/lxappearance.glade.h:13
 msgid "Widget"
 msgstr "ウィジェット"
 
-#: ../data/ui/lxappearance.ui.h:32
+#: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "現在選択しているウィジェットテーマはカラースキームをサポートしていません。"
+msgstr ""
+"現在選択しているウィジェットテーマはカラースキームをサポートしていません。"
 
-#: ../data/ui/lxappearance.ui.h:33
+#: ../data/ui/lxappearance.glade.h:15
 msgid "Use customized color scheme"
 msgstr "独自のカラースキームを使用する"
 
-#: ../data/ui/lxappearance.ui.h:34
+#: ../data/ui/lxappearance.glade.h:16
 msgid "Normal windows:"
 msgstr "通常のウィンドウ:"
 
-#: ../data/ui/lxappearance.ui.h:35
+#: ../data/ui/lxappearance.glade.h:17
 msgid "Text windows:"
 msgstr "テキストウィンドウ:"
 
-#: ../data/ui/lxappearance.ui.h:36
+#: ../data/ui/lxappearance.glade.h:18
 msgid "Selected items:"
 msgstr "選択中のアイテム:"
 
-#: ../data/ui/lxappearance.ui.h:37
+#: ../data/ui/lxappearance.glade.h:19
 msgid "Tooltips:"
 msgstr "ツールチップ:"
 
-#: ../data/ui/lxappearance.ui.h:38
+#: ../data/ui/lxappearance.glade.h:20
 msgid "Background"
 msgstr "背景色"
 
-#: ../data/ui/lxappearance.ui.h:39
+#: ../data/ui/lxappearance.glade.h:21
 msgid "Foreground"
 msgstr "前景色"
 
-#: ../data/ui/lxappearance.ui.h:40
+#: ../data/ui/lxappearance.glade.h:22
 msgid "Color"
 msgstr "色"
 
-#: ../data/ui/lxappearance.ui.h:41
+#: ../data/ui/lxappearance.glade.h:23
 msgid "Install"
 msgstr "インストール"
 
-#: ../data/ui/lxappearance.ui.h:42
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Remove"
 msgstr "削除"
 
-#: ../data/ui/lxappearance.ui.h:43
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
 msgstr "選択中のアイコンテーマのプレビュー"
 
-#: ../data/ui/lxappearance.ui.h:44
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Icon Theme"
 msgstr "アイコンテーマ"
 
-#: ../data/ui/lxappearance.ui.h:45
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Preview of the selected cursor theme"
 msgstr "選択中のカーソルテーマのプレビュー"
 
-#: ../data/ui/lxappearance.ui.h:46
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Size of cursors"
 msgstr "カーソルの大きさ"
 
-#: ../data/ui/lxappearance.ui.h:47
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Smaller"
 msgstr "小さく"
 
-#: ../data/ui/lxappearance.ui.h:48
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Bigger"
 msgstr "大きく"
 
-#: ../data/ui/lxappearance.ui.h:49
+#: ../data/ui/lxappearance.glade.h:31
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>注意:</b> デスクトップアプリケーションのすべてが実行中のカーソルテーマの変更をサポートしているわけではありません。よって、ここでの変更の一部"
-"は次回のログインまで反映されないことがあります。"
+"<b>注意:</b> デスクトップアプリケーションのすべてが実行中のカーソルテーマの変"
+"更をサポートしているわけではありません。よって、ここでの変更の一部は次回のロ"
+"グインまで反映されないことがあります。"
 
-#: ../data/ui/lxappearance.ui.h:50
+#: ../data/ui/lxappearance.glade.h:32
 msgid "Mouse Cursor"
 msgstr "マウスカーソル"
 
-#: ../data/ui/lxappearance.ui.h:51
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Window Border"
 msgstr "ウィンドウ境界"
 
-#: ../data/ui/lxappearance.ui.h:52
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Enable antialiasing"
 msgstr "アンチエイリアシングを有効にする"
 
-#: ../data/ui/lxappearance.ui.h:53
+#: ../data/ui/lxappearance.glade.h:35
 msgid "<b>Antialiasing</b>"
 msgstr "<b>アンチエイリアシング</b>"
 
-#: ../data/ui/lxappearance.ui.h:54
+#: ../data/ui/lxappearance.glade.h:36
 msgid "Enable hinting"
 msgstr "ヒンティングを有効にする"
 
-#: ../data/ui/lxappearance.ui.h:55
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
 msgstr "ヒンティングのスタイル: "
 
-#: ../data/ui/lxappearance.ui.h:56
+#: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
 msgstr "<b>ヒンティング</b>"
 
-#: ../data/ui/lxappearance.ui.h:57
+#: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
 msgstr "サブピクセルの配列: "
 
-#: ../data/ui/lxappearance.ui.h:58
+#: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
 msgstr "<b>サブピクセルの配列</b>"
 
-#: ../data/ui/lxappearance.ui.h:59
+#: ../data/ui/lxappearance.glade.h:41
 msgid "Font"
 msgstr "フォント"
 
-#: ../data/ui/lxappearance.ui.h:60
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
 msgstr "ツールバーのスタイル: "
 
-#: ../data/ui/lxappearance.ui.h:61
+#: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
 msgstr "ツールバーのアイコンのサイズ: "
 
-#: ../data/ui/lxappearance.ui.h:62
+#: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
 msgstr "ボタンに画像を表示する"
 
-#: ../data/ui/lxappearance.ui.h:63
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Show images in menus"
 msgstr "メニューに画像を表示する"
 
-#: ../data/ui/lxappearance.ui.h:64
+#: ../data/ui/lxappearance.glade.h:46
 msgid "<b>GUI Options</b>"
 msgstr "<b>GUI のオプション</b>"
 
-#: ../data/ui/lxappearance.ui.h:65
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Keyboard theme:"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:48
+#, fuzzy
+msgid "<b>Keyboard Options</b>"
+msgstr "<b>GUI のオプション</b>"
+
+#: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
 msgstr "イベント音を鳴らす"
 
-#: ../data/ui/lxappearance.ui.h:66
+#: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds as feedback to user input"
 msgstr "ユーザ入力のフィードバックとしてイベント音を鳴らす"
 
-#: ../data/ui/lxappearance.ui.h:67
+#: ../data/ui/lxappearance.glade.h:51
 msgid "<b>Sound Effect</b>"
 msgstr "<b>効果音</b>"
 
-#: ../data/ui/lxappearance.ui.h:68
+#: ../data/ui/lxappearance.glade.h:52
+msgid "Enable _accessibility in GTK+ applications"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:53
+msgid "<b>Accessibility</b>"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
 msgstr "その他"
 
-#: ../src/utils.c:217
+#: ../data/ui/lxappearance.glade.h:55
+msgid "None"
+msgstr "なし"
+
+#: ../data/ui/lxappearance.glade.h:56
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.glade.h:57
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.glade.h:58
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.glade.h:59
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.glade.h:60
+msgid "Slight"
+msgstr "微小"
+
+#: ../data/ui/lxappearance.glade.h:61
+msgid "Medium"
+msgstr "中間"
+
+#: ../data/ui/lxappearance.glade.h:62
+msgid "Full"
+msgstr "完全"
+
+#: ../data/ui/lxappearance.glade.h:63
+msgid "Same as menu items"
+msgstr "メニューアイテムと同じ"
+
+#: ../data/ui/lxappearance.glade.h:64
+msgid "Small toolbar icon"
+msgstr "小さなツールバーアイコン"
+
+#: ../data/ui/lxappearance.glade.h:65
+msgid "Large toolbar icon"
+msgstr "大きなツールバーアイコン"
+
+#: ../data/ui/lxappearance.glade.h:66
+msgid "Same as buttons"
+msgstr "ボタンと同じ"
+
+#: ../data/ui/lxappearance.glade.h:67
+msgid "Same as drag icons"
+msgstr "ドラッグアイコンと同じ"
+
+#: ../data/ui/lxappearance.glade.h:68
+msgid "Same as dialogs"
+msgstr "ダイアログと同じ"
+
+#: ../data/ui/lxappearance.glade.h:69
+msgid "Icons only"
+msgstr "アイコンのみ"
+
+#: ../data/ui/lxappearance.glade.h:70
+msgid "Text only"
+msgstr "テキストのみ"
+
+#: ../data/ui/lxappearance.glade.h:71
+msgid "Text below icons"
+msgstr "アイコンの下にテキスト"
+
+#: ../data/ui/lxappearance.glade.h:72
+msgid "Text beside icons"
+msgstr "アイコンの横にテキスト"
+
+#: ../src/utils.c:216
 msgid "Select an icon theme"
 msgstr "アイコンテーマの選択"
 
-#: ../src/utils.c:224
+#: ../src/utils.c:223
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (アイコンテーマ)"
+
+#: ../src/color-scheme.c:299
+msgid ""
+"Setting color scheme is not available without lxsession as session manager."
+msgstr ""
 
 #~ msgid "Enable antialising"
 #~ msgstr "アンチエイリアシングを有効にする"
