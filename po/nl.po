@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-08-26 15:49+0000\n"
+"PO-Revision-Date: 2014-12-11 12:33+0000\n"
 "Last-Translator: Pjotr  <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.6.0-rc1\n"
-"X-POOTLE-MTIME: 1409068162.000000\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1418301205.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -29,12 +29,11 @@ msgstr "Past uiterlijk en bediening aan van uw bureaublad en toepassingen"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "vensters;voorkeuren;instellingen;thema;stijl;uiterlijk;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Auteursrecht (C) 2011 LXDE-project"
+msgstr "Auteursrecht (C) 2008-2014 LXDE-project"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -236,12 +235,11 @@ msgstr "<b>Opties voor de gebruikersomgeving</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Toetsenbordthema:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Opties voor de gebruikersomgeving</b>"
+msgstr "<b>Opties voor toetsenbord</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -257,11 +255,11 @@ msgstr "<b>Geluideffect</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Toegankelijkheid in GTK+ toepassingen"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Toegankelijkheid</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -351,6 +349,8 @@ msgstr "*.tar.gz, *.tar.bz2 (pictogramthema)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"Instellen van kleurschema is niet beschikbaar zonder lxsession als "
+"sessiebeheerder."
 
 #~ msgid "Enable antialising"
 #~ msgstr "Anti-kartelvorming inschakelen"
