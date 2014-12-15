@@ -88,6 +88,7 @@ gmodule_modules="gmodule-export-2.0"
 PKG_CHECK_MODULES(GMODULE, [$gmodule_modules])
 AC_SUBST(GMODULE_CFLAGS)
 AC_SUBST(GMODULE_LIBS)
+AC_SUBST(gtk_modules)
 
 # gio_modules="gthread-2.0 gio-unix-2.0 glib-2.0 >= 2.18.0"
 # PKG_CHECK_MODULES(GIO, [$gio_modules])
