@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-01-19 01:28+0000\n"
-"Last-Translator: Hironao <hirkmt@gmail.com>\n"
+"PO-Revision-Date: 2014-12-21 01:21+0000\n"
+"Last-Translator: rago1975 <take1975@kumamoto.email.ne.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1390094915.0\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1419124893.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -33,9 +33,8 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr ""
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2008-2014 LXDE Project"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -235,12 +234,11 @@ msgstr "<b>GUI のオプション</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "キーボードのテーマ:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>GUI のオプション</b>"
+msgstr "<b>キーボードのオプション</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -260,7 +258,7 @@ msgstr ""
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>アクセシビリティ</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
