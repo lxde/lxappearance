@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-09-15 22:10+0000\n"
+"PO-Revision-Date: 2015-01-17 19:24+0000\n"
 "Last-Translator:   <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
 "Language: lg\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.6.0-rc1\n"
-"X-POOTLE-MTIME: 1410819036.000000\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1421522677.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -28,7 +28,7 @@ msgstr "W'otegekera endabika n'enneyisa y'awakolerwa ne puloguramu"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "madirisa;nteekateeka;butegeke;lulyo;ndabika;"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2008-2014 LXDE Project"
@@ -234,12 +234,11 @@ msgstr "<b>Eby'endabika y'olubaawo lw'ebiyamba</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Lulyo lw'amapeesa agawandisibwa:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Eby'endabika y'olubaawo lw'ebiyamba</b>"
+msgstr "<b>Eby'endabika y'amapeesa agawandisbwa</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -255,11 +254,11 @@ msgstr "<b>Maloboozi</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Yungulula eby_anguya okukozesa puloguramu ez'eyambisa GTK+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Ebyanguya enkozesa</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
