@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-12-21 01:21+0000\n"
+"PO-Revision-Date: 2015-02-14 22:36+0000\n"
 "Last-Translator: rago1975 <take1975@kumamoto.email.ne.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
 "Language: ja\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1419124893.000000\n"
+"X-POOTLE-MTIME: 1423953410.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "windows;preferences;settings;theme;style;appearance;"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2008-2014 LXDE Project"
@@ -254,7 +254,7 @@ msgstr "<b>効果音</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "GTK+ アプリケーションにおいて、アクセシビリティを可能にする（_A）"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
@@ -347,7 +347,7 @@ msgstr "*.tar.gz, *.tar.bz2 (アイコンテーマ)"
 #: ../src/color-scheme.c:299
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
-msgstr ""
+msgstr "セッションマネージャーとしてのlxsessionを使用しない場合、配色の設定を行わない。"
 
 #~ msgid "Enable antialising"
 #~ msgstr "アンチエイリアシングを有効にする"
