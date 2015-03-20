@@ -7,17 +7,17 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-01-31 07:09+0000\n"
-"Last-Translator: wwycheuk <wwycheuk@gmail.com>\n"
+"PO-Revision-Date: 2015-03-20 07:12+0000\n"
+"Last-Translator: <wwycheuk@gmail.com>\n"
 "Language-Team: zh_TW <zh@li.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1391152141.0\n"
+"X-POOTLE-MTIME: 1426835542.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -28,13 +28,13 @@ msgid "Customizes look and feel of your desktop and applications"
 msgstr "自訂桌面和應用程式的外觀風格"
 
 #: ../data/lxappearance.desktop.in.h:3
+#, fuzzy
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "windows;preferences;settings;theme;style;appearance;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "版權所有 (C) 2011 LXDE 專案"
+msgstr "版權所有 (C) 2008-2014 LXDE 專案"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -232,12 +232,11 @@ msgstr "<b>圖形介面選項</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "佈景鍵盤主題："
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>圖形介面選項</b>"
+msgstr "<b>鍵盤選項</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -253,11 +252,11 @@ msgstr "<b>音效</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "於 GTK+ 應用程式啟用無障礙功能(_A)"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>無障礙功能</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -346,7 +345,7 @@ msgstr "*.tar.gz, *.tar.bz2 (圖示佈景主題)"
 #: ../src/color-scheme.c:299
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
-msgstr ""
+msgstr "要以 lxsession 作為工作階段管理員才能設定配色方案。"
 
 #~ msgid "Enable antialising"
 #~ msgstr "啟用反鋸齒"
