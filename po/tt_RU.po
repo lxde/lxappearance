@@ -16,6 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 1.2\n"
+"X-Pootle-Path: /tt_RU/lxappearance/po/tt_RU.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"

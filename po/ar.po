@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-11-27 16:42+0000\n"
-"Last-Translator: <safa1996alfulaij@gmail.com>\n"
+"PO-Revision-Date: 2015-04-10 15:46+0000\n"
+"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1417106528.000000\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1428680782.000000\n"
+"X-Pootle-Path: /ar/lxappearance/po/ar.po\n"
+"X-Pootle-Revision: 582\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -29,12 +31,11 @@ msgstr "يخصّص مظهر وإحساس سطح المكتب وتطبيقاته"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "نوافذ;تفضيلات;إعدادات;سمة;نمط;مظهر;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "حقوق النّشر ©‏ 2011 مشروع لكسدي"
+msgstr "حقوق النّشر © 2008-2014 لمشروع لكسدي"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -170,8 +171,8 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>ملاحظة:</b> لا تدعم كلّ تطبيقات سطح المكتب تغيير سمة المؤشّر مباشرةً. لذا قد "
-"لا تُطبَّق تغييراتك هنا بشكل كامل على التّطبيقات حتّى الولوج التالي."
+"<b>ملاحظة:</b> لا تدعم كلّ تطبيقات سطح المكتب تغيير سمة المؤشّر مباشرةً. لذا "
+"قد لا تطبّق تغييراتك هنا تطبيقًا كاملًا على التّطبيقات حتّى الولوج التّالي."
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Mouse Cursor"
@@ -235,12 +236,11 @@ msgstr "<b>خيارات الواجهة</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "سمة لوحة المفاتيح:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>خيارات الواجهة</b>"
+msgstr "<b>خيارات لوحة المفاتيح:</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -256,11 +256,11 @@ msgstr "<b>المؤثّرات الصّوتيّة</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "مكّن الإ_تاحة في تطبيقات جتك+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>الإتاحة</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -346,9 +346,9 @@ msgstr "حدّد سمة أيقونات"
 
 #: ../src/utils.c:223
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz، *.tar.bz2 (سمة أيقونات)"
+msgstr "‎*.tar.gz،‏ ‎*.tar.bz2 (سمة أيقونات)"
 
 #: ../src/color-scheme.c:299
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
-msgstr ""
+msgstr "تعيين مخطّط الألوان غير متوفّر إن لم تكن جلسة‌لكسدي مدير الجلسات."

@@ -17,6 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
 "X-POOTLE-MTIME: 1421700259.000000\n"
+"X-Pootle-Path: /et/lxappearance/po/et.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"

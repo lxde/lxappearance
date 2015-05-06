@@ -8,16 +8,19 @@ msgstr ""
 "Project-Id-Version: LXAppearance package\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2013-09-06 01:35+0100\n"
-"Last-Translator: Jay A.Fleming <tito.nehru.naser@gmail.com>\n"
+"PO-Revision-Date: 2015-05-01 11:33+0000\n"
+"Last-Translator: Jay A. Fleming <tito.nehru.naser@gmail.com>\n"
 "Language-Team: \n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.0.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1430479999.000000\n"
+"X-Pootle-Path: /sr/lxappearance/po/sr.po\n"
+"X-Pootle-Revision: 732\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -29,12 +32,11 @@ msgstr "Прилагодите изглед радне површи и прог�
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "windows;preferences;settings;theme;style;appearance;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "ЛИкс-ДЕ пројекат — 2011. Нека права су задржана."
+msgstr "Ауторска права — 2008-2014. ЛИкс-ДЕ пројекат"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -43,7 +45,7 @@ msgstr "Прилагодите изглед радне површи"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Serbian (sr) — Jay A. Fleming <tito.nehru.naser@gmail.com>"
+msgstr "Српски: Jay A. Fleming"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -67,7 +69,7 @@ msgstr "Радио дугме"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Check Button"
-msgstr "Дугме за потврду"
+msgstr "Дугме за означавање"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "button"
@@ -87,7 +89,7 @@ msgstr "Страна2"
 
 #: ../data/ui/lxappearance.glade.h:12
 msgid "Default font:"
-msgstr "Подразумевани словни лик:"
+msgstr "Уобичајен словолик:"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Widget"
@@ -95,11 +97,11 @@ msgstr "Контрола"
 
 #: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr "Одабрана тема контрола не подржава шему боја."
+msgstr "Одабрана тема контрола не подржава мустре боја."
 
 #: ../data/ui/lxappearance.glade.h:15
 msgid "Use customized color scheme"
-msgstr "Користи прилагођену шему боја"
+msgstr "Користи прилагођену мустру боја"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Normal windows:"
@@ -115,7 +117,7 @@ msgstr "Одабране ставке:"
 
 #: ../data/ui/lxappearance.glade.h:19
 msgid "Tooltips:"
-msgstr "Облачићи са саветима:"
+msgstr "Предлози:"
 
 #: ../data/ui/lxappearance.glade.h:20
 msgid "Background"
@@ -139,7 +141,7 @@ msgstr "Уклони"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
-msgstr "Претпреглед одабране теме икона"
+msgstr "Преглед одабране теме икона"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Icon Theme"
@@ -147,7 +149,7 @@ msgstr "Тема икона"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Preview of the selected cursor theme"
-msgstr "Претпреглед одабране теме показивача"
+msgstr "Преглед одабране теме показивача"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Size of cursors"
@@ -180,12 +182,10 @@ msgid "Window Border"
 msgstr "Ивица прозора"
 
 #: ../data/ui/lxappearance.glade.h:34
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Омогући умекшавање"
 
 #: ../data/ui/lxappearance.glade.h:35
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Умекшавање ивица</b>"
 
@@ -203,7 +203,7 @@ msgstr "<b>Дотеривање</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
-msgstr "Облик умекшавања испод тачке:"
+msgstr "Облик умекшавања испод тачке: "
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
@@ -211,15 +211,15 @@ msgstr "<b>Умекшавање испод тачке</b>"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Font"
-msgstr "Словни лик"
+msgstr "Словолик"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
-msgstr "Изглед траке алатки: "
+msgstr "Изглед алатнице: "
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
-msgstr "Величина икона у траци алатки: "
+msgstr "Величина икона алатнице: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
@@ -231,16 +231,15 @@ msgstr "Прикажи иконе у менијима"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "<b>GUI Options</b>"
-msgstr "<b>Подешавања графичког корисничког интерфејса</b>"
+msgstr "<b>Подешавања графичког сучеља</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Тема тастатуре:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Подешавања графичког корисничког интерфејса</b>"
+msgstr "<b>Подешавања тастатуре</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -256,11 +255,11 @@ msgstr "<b>Звучни догађаји</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Омогући »_Приступачност« у ГТК+ програмима"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Приступачност</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -300,7 +299,7 @@ msgstr "Потпуно"
 
 #: ../data/ui/lxappearance.glade.h:63
 msgid "Same as menu items"
-msgstr "Као она у ставкама менија"
+msgstr "Као оне у ставкама изборника"
 
 #: ../data/ui/lxappearance.glade.h:64
 msgid "Small toolbar icon"
@@ -312,15 +311,15 @@ msgstr "Велике"
 
 #: ../data/ui/lxappearance.glade.h:66
 msgid "Same as buttons"
-msgstr "Као она на дугмадима"
+msgstr "Као оне на дугмадима"
 
 #: ../data/ui/lxappearance.glade.h:67
 msgid "Same as drag icons"
-msgstr "Као она при превлачењу икона"
+msgstr "Као оне при превлачењу икона"
 
 #: ../data/ui/lxappearance.glade.h:68
 msgid "Same as dialogs"
-msgstr "Као она у дијалозима"
+msgstr "Као оне у дијалозима"
 
 #: ../data/ui/lxappearance.glade.h:69
 msgid "Icons only"
@@ -340,7 +339,7 @@ msgstr "Прикажи текст поред икона"
 
 #: ../src/utils.c:216
 msgid "Select an icon theme"
-msgstr "Изаберите пакет са темом икона"
+msgstr "Одаберите пакет са темом икона"
 
 #: ../src/utils.c:223
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
@@ -350,3 +349,4 @@ msgstr "*.tar.gz, *.tar.bz2 (тема икона)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"Без ЛИкс-сесија, управника сесија, биће недоступно постављање мустре боја."

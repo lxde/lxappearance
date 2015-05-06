@@ -19,6 +19,8 @@ msgstr ""
 "X-Generator: Pootle 2.6.0-rc1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-POOTLE-MTIME: 1408206205.000000\n"
+"X-Pootle-Path: /he/lxappearance/po/he.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"

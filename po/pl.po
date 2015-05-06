@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-02-03 06:42+0000\n"
-"Last-Translator: Piotr <strebski@o2.pl>\n"
+"PO-Revision-Date: 2015-03-23 08:43+0000\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: polski <>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1391409760.0\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1427100198.000000\n"
+"X-Pootle-Path: /pl/lxappearance/po/pl.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -29,12 +31,11 @@ msgstr "Dostosowuje wygląd środowiska graficznego i aplikacji"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "okna;preferencje;ustawienia;motyw;styl;wygląd;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Prawa autorskie (C) 2011 Projekt LXDE"
+msgstr "Prawa autorskie (C) 2008-2014 Projekt LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -195,7 +196,7 @@ msgstr "Włączenie"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "Styl:"
+msgstr "Styl wygładzania: "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
@@ -235,12 +236,11 @@ msgstr "<b>Opcje interfejsu użytkownika</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Motyw klawiatury:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Opcje interfejsu użytkownika</b>"
+msgstr "<b>Opcje klawiatury</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -256,11 +256,11 @@ msgstr "<b>Efekty dźwiękowe</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Włącz _ułatwienia dostępu w programach GTK+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Ułatwienia dostępu</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -350,6 +350,8 @@ msgstr "*.tar.gz, *.tar.bz2 (zestawy ikon)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"Ustawienie schematu kolorów jest niemożliwe bez uruchomionego lxsession jako "
+"menedżera sesji."
 
 #~ msgid "Enable antialising"
 #~ msgstr "Włącz antyaliasing"

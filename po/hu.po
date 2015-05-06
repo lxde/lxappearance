@@ -8,13 +8,18 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2011-09-03 15:13+0200\n"
-"Last-Translator: Laszlo Dvornik <rezuri@zoho.com>\n"
+"PO-Revision-Date: 2015-05-04 18:51+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1430765488.000000\n"
+"X-Pootle-Path: /hu/lxappearance/po/hu.po\n"
+"X-Pootle-Revision: 1572\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -26,12 +31,11 @@ msgstr "A munkaasztal és az alkalmazások megjelenésének testreszabása"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "ablakok;tulajdonságok;beállítások;témák;stílus;megjelenés;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2008-2014 LXDE Projekt"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -40,7 +44,9 @@ msgstr "A munkaasztal megjelenésének testreszabása"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Dvornik László <rezuri@zoho.com>"
+msgstr ""
+"Dvornik László <rezuri@zoho.com>\n"
+"Úr Balázs <urbalazs@gmail.com>"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -177,12 +183,10 @@ msgid "Window Border"
 msgstr "Ablakkeret"
 
 #: ../data/ui/lxappearance.glade.h:34
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Elsimítás engedélyezése"
 
 #: ../data/ui/lxappearance.glade.h:35
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Élsimítás</b>"
 
@@ -232,12 +236,11 @@ msgstr "<b>GUI beállításai</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Billentyűzettéma:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>GUI beállításai</b>"
+msgstr "<b>Billentyűzet beállítások</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -253,11 +256,11 @@ msgstr "<b>Hangeffektusok</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "_Akadálymentesítés engedélyezése a GTK+ alkalmazásokban"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Akadálymentesítés</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -347,3 +350,5 @@ msgstr "*.tar.gz, *.tar.bz2 (ikontéma)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"A színséma beállítása nem érhető el az lxsession mint munkamenet-kezelő "
+"nélkül."

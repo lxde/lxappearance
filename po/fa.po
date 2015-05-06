@@ -19,6 +19,8 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Persian\n"
 "X-Poedit-Country: Iran\n"
+"X-Pootle-Path: /fa/lxappearance/po/fa.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"

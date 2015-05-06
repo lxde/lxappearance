@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-10-26 22:22+0000\n"
+"PO-Revision-Date: 2015-03-26 13:31+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -16,8 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1414362132.000000\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1427376697.000000\n"
+"X-Pootle-Path: /pt/lxappearance/po/pt.po\n"
+"X-Pootle-Revision: 84\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -86,7 +88,7 @@ msgstr "Página2"
 
 #: ../data/ui/lxappearance.glade.h:12
 msgid "Default font:"
-msgstr "Tipo de letra padrão:"
+msgstr "Tipo de letra pré-definida:"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Widget"
@@ -192,7 +194,7 @@ msgstr "Ativar \"hinting\""
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "Estilo de \"hinting\":"
+msgstr "Estilo de \"hinting\": "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
