@@ -70,7 +70,12 @@ static void load_themes()
     GtkTreeIter sel_it = {0};
     GtkTreeSelection* tree_sel;
 
-    /* load user dir */
+    /* load from userdata theme dir first */
+    dir = g_build_filename(g_get_user_data_dir(), "themes", NULL);
+    themes = load_themes_in_dir(dir, themes);
+    g_free(dir);
+
+    /* load from ~/.themes dir as old style */
     dir = g_build_filename(g_get_home_dir(), ".themes", NULL);
     themes = load_themes_in_dir(dir, themes);
     g_free(dir);

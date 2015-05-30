@@ -255,10 +255,20 @@ void color_scheme_update()
     if(app.widget_theme)
     {
         gboolean file_found;
-        char* gtkrc = g_build_filename(g_get_home_dir(), ".themes", app.widget_theme, "gtk-2.0/gtkrc", NULL);
-        /* if the theme is found in user-custom theme dir */
+        char *gtkrc;
+
+        /* search in userdata theme dir first */
+        gtkrc = g_build_filename(g_get_user_data_dir(), "themes", app.widget_theme, "gtk-2.0/gtkrc", NULL);
         file_found = gtkrc_file_get_color_scheme(gtkrc, app.default_color_scheme_hash);
         g_free(gtkrc);
+        if (!file_found)
+        {
+            /* search in the home dir as old-style fallback */
+            gtkrc = g_build_filename(g_get_home_dir(), ".themes", app.widget_theme, "gtk-2.0/gtkrc", NULL);
+            /* if the theme is found in user-custom theme dir */
+            file_found = gtkrc_file_get_color_scheme(gtkrc, app.default_color_scheme_hash);
+            g_free(gtkrc);
+        }
 
         if(!file_found)
         {
