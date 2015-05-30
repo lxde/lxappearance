@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-12-04 16:12+0000\n"
-"Last-Translator: system user <>\n"
+"PO-Revision-Date: 2015-05-19 22:30+0000\n"
+"Last-Translator: Felipe Braga <fbobraga@gmail.com>\n"
 "Language-Team: Brazilian Porguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -18,9 +18,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.7.0-alpha1\n"
-"X-POOTLE-MTIME: 1417709568.000000\n"
+"X-POOTLE-MTIME: 1432074625.000000\n"
 "X-Pootle-Path: /pt_BR/lxappearance/po/pt_BR.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Pootle-Revision: 2043\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -32,18 +32,17 @@ msgstr "Personaliza o visual de sua área de trabalho e aplicativos"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "janelas;preferências;configurações;tema;estilo;aparência;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2008-2014 Projeto LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
 msgstr "Personaliza o visual de sua área de trabalho"
 
-# Estou tentando descobrir qual o problema destas tags. Na verdade está correto a ordem e o sistema.
+# Precisa explicitamente do "\n"? Esse pode ser o problema
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
@@ -205,7 +204,7 @@ msgstr "Habilitar hinting"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "Estilo do hinting:"
+msgstr "Estilo do hinting: "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
@@ -213,7 +212,7 @@ msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
-msgstr "Geometria de subpixel:"
+msgstr "Geometria de subpixel: "
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
@@ -245,12 +244,11 @@ msgstr "<b>Opções gráficas</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Tema de teclado:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Opções gráficas</b>"
+msgstr "<b>Opções de teclado</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -266,11 +264,11 @@ msgstr "<b>Efeitos de som</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Habilitar opções de _acessibilidade nas aplicações GTK+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Acessibilidade</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -360,3 +358,5 @@ msgstr "*.tar.gz, *.tar.bz2 (tema de ícones)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"Definir o tema de cores não é disponível sem  o \"lxsession\" como "
+"gerenciador de sessões."
