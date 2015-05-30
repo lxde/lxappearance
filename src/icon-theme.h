@@ -26,7 +26,7 @@
 
 G_BEGIN_DECLS
 
-extern char** icon_theme_dirs;
+//extern char** icon_theme_dirs;
 
 typedef struct
 {

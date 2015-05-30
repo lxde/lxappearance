@@ -25,7 +25,7 @@
 #include <unistd.h>
 #include "utils.h"
 
-char** icon_theme_dirs = NULL;
+static char** icon_theme_dirs = NULL;
 
 gint icon_theme_cmp_name(IconTheme* t, const char* name)
 {

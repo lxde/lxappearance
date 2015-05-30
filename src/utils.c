@@ -116,7 +116,8 @@ static void insert_theme_to_models(IconTheme* theme)
 static gboolean install_icon_theme_package(const char* package_path)
 {
     GPid pid = -1;
-    const char* user_icons_dir = icon_theme_dirs[0];
+    /* Use new XDG path $XDG_DATA_HOME/icons to install icons theme */
+    char* user_icons_dir = g_build_filename(g_get_user_data_dir(), "icons", NULL);
     char* tmp_dir = g_build_filename(user_icons_dir, "tmp.XXXXXX", NULL);
     const char* argv[]= {
         "tar",
@@ -129,10 +130,15 @@ static gboolean install_icon_theme_package(const char* package_path)
     };
 
     if(g_mkdir_with_parents(user_icons_dir, 0700) == -1)
-        return FALSE;
+        goto _failed;
 
     if(!mkdtemp(tmp_dir))
+    {
+_failed:
+        g_free(user_icons_dir);
+        g_free(tmp_dir);
         return FALSE;
+    }
 
     if(g_str_has_suffix(package_path, ".tar.gz"))
         argv[1] = "--gzip";
@@ -159,7 +165,7 @@ static gboolean install_icon_theme_package(const char* package_path)
             load_icon_themes_from_dir(user_icons_dir, tmp_dir, kf);
             g_key_file_free(kf);
 
-            /* now really move this themes to ~/.icons dir and also update the GUI */
+            /* now really move this themes to $XDG_DATA_HOME/icons dir and also update the GUI */
             dir = g_dir_open(tmp_dir, 0, NULL);
             if(dir)
             {
@@ -175,7 +181,7 @@ static gboolean install_icon_theme_package(const char* package_path)
                         char* theme_target = g_build_filename(user_icons_dir, name, NULL);
                         if(g_rename(theme_tmp, theme_target) == 0)
                         {
-                            /* the theme is already installed to ~/.icons */
+                            /* the theme is now installed to $XDG_DATA_HOME/icons */
                             GSList* l= g_slist_find_custom(app.icon_themes, name, (GCompareFunc)icon_theme_cmp_name);
                             if(l)
                             {
@@ -204,6 +210,7 @@ static gboolean install_icon_theme_package(const char* package_path)
     }
 
 _out:
+    g_free(user_icons_dir);
     g_free(tmp_dir);
     return (pid != -1);
 }

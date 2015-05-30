@@ -124,10 +124,12 @@ static gboolean verify_cursor_theme(GKeyFile *kf, const char *cursor_theme,
     ret = g_key_file_load_from_file(kf, fpath, 0, NULL);
     g_free(fpath);
 
-    fpath = g_build_filename("icons", cursor_theme, "index.theme", NULL);
     if (!ret)
+    {
+        fpath = g_build_filename("icons", cursor_theme, "index.theme", NULL);
         ret = g_key_file_load_from_data_dirs(kf, fpath, NULL, 0, NULL);
-    g_free(fpath);
+        g_free(fpath);
+    }
 
     if (ret)
     {
