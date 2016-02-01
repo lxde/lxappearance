@@ -134,12 +134,17 @@ static void on_font_set(GtkFontButton* btn, gpointer user_data)
 void widget_theme_init(GtkBuilder* b)
 {
     GtkWidget* demo;
+    GtkWidget* demo_vbox;
     GdkColor black = {0, 0, 0, 0};
 
     demo = GTK_WIDGET(gtk_builder_get_object(b, "demo"));
+    demo_vbox = GTK_WIDGET(gtk_builder_get_object(b, "demo_vbox"));
     app.widget_theme_view = GTK_WIDGET(gtk_builder_get_object(b, "widget_theme_view"));
 
     gtk_widget_modify_bg(demo, GTK_STATE_NORMAL, &black);
+#if GTK_CHECK_VERSION(3, 0, 0)
+    gtk_style_context_add_class (gtk_widget_get_style_context (demo_vbox), GTK_STYLE_CLASS_BACKGROUND);
+#endif
 
     app.widget_theme_store = gtk_list_store_new(1, G_TYPE_STRING);
 
