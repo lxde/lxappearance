@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-08-29 14:56+0000\n"
+"PO-Revision-Date: 2015-07-20 13:54+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -16,10 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.6.0-rc1\n"
-"X-POOTLE-MTIME: 1409324209.000000\n"
-"X-Pootle-Path: /ko/lxappearance/po/ko.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1437400477.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -32,11 +30,11 @@ msgstr "데스크톱과 프로그램의 겉보기를 조정합니다"
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr ""
+"windows;창;preferences;기본 설정;settings;설정;theme;테마;style;스타일;appearance;모양새;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2008-2014 LXDE Project"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -195,7 +193,7 @@ msgstr "힌팅 활성화"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "힌팅 방식:"
+msgstr "힌팅 방식: "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
@@ -203,7 +201,7 @@ msgstr "<b>힌팅</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
-msgstr "서브픽셀 배치:"
+msgstr "서브픽셀 배치: "
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
@@ -215,11 +213,11 @@ msgstr "글꼴"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
-msgstr "도구 막대 스타일:"
+msgstr "도구 막대 스타일: "
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
-msgstr "도구막대 아이콘 크기:"
+msgstr "도구막대 아이콘 크기: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
@@ -235,12 +233,11 @@ msgstr "<b>GUI 옵션</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "키보드 테마:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>GUI 옵션</b>"
+msgstr "<b>키보드 옵션</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -256,11 +253,11 @@ msgstr "<b>소리 효과</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "GTK+ 프로그램 접근성 활성화(_A)"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>접근성</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -349,4 +346,4 @@ msgstr "*.tar.gz, *.tar.bz2 (아이콘 테마)"
 #: ../src/color-scheme.c:299
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
-msgstr ""
+msgstr "lxsession이 아닌 다른 세션 관리자에서는 색상표를 사용할 수 없습니다."

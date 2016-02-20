@@ -1,7 +1,0 @@
-# List of source files containing translatable strings.
-
-data/lxappearance.desktop.in
-[type: gettext/glade]data/ui/about.glade.in
-data/ui/lxappearance.glade
-src/utils.c
-src/color-scheme.c

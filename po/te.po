@@ -8,17 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2012-04-11 04:09+0200\n"
-"Last-Translator: PraveenIlla <mail2ipn@gmail.com>\n"
+"PO-Revision-Date: 2015-06-19 14:44+0000\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Pootle-Path: /te/lxappearance/po/te.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1434725074.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -30,12 +29,11 @@ msgstr "మీ డెస్క్‍టాప్ మరియు అనువర
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "కిటికీలు;ప్రాధాన్యతలు;అమరికలు;అలంకారం;శైలి;కనిపించేవిధం;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "నకలుహక్కు (C) 2011 LXDE ప్రోజెక్టు"
+msgstr "నకలుహక్కు (C) 2008-2014 LXDE పరియోజన"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -44,7 +42,7 @@ msgstr "మీ డెస్క్‍టాప్ యొక్క రూపాన
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Praveen Illa <mail2ipn@gmail.com>, 2011."
+msgstr "Praveen Illa <mail2ipn@gmail.com>, 2011-15."
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -180,12 +178,10 @@ msgid "Window Border"
 msgstr "విండో సరిహద్దు"
 
 #: ../data/ui/lxappearance.glade.h:34
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "యాంటీఅలియాసింగును చేతనపరుచు"
 
 #: ../data/ui/lxappearance.glade.h:35
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>యాంటీఅలియాసింగ్</b>"
 
@@ -235,12 +231,11 @@ msgstr "<b>GUI ఐచ్ఛికాలు</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "కీబోర్డు అలంకారం:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>GUI ఐచ్ఛికాలు</b>"
+msgstr "<b>కీబోర్డు ఐచ్ఛికాలు</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -256,11 +251,11 @@ msgstr "<b>శబ్ధ ప్రభావం</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "జిటికె+ అనువర్తనాలలో ప్రాప్యతను చేతనించు (_a)"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>ప్రాపనీయత</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -350,3 +345,5 @@ msgstr "*.tar.gz, *.tar.bz2 (ప్రతీక థీము)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"ఎల్ఎక్స్‌సెషన్ అనేది చర్యాకాల నిర్వాహకంగా లేకపోతే రంగుల స్కీముగా అమర్చడం "
+"వీలుకాదు."

@@ -7,18 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-01-09 10:08+0000\n"
-"Last-Translator: papapep <papapep@gmx.com>\n"
+"PO-Revision-Date: 2015-06-05 08:45+0000\n"
+"Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389262101.0\n"
-"X-Pootle-Path: /ca/lxappearance/po/ca.po\n"
-"X-Pootle-Revision: 0\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1433493900.000000\n"
 
 # No sé com interpretar això de «feel»
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
@@ -200,7 +198,7 @@ msgstr "Habilita l'antialiàsing"
 
 #: ../data/ui/lxappearance.glade.h:35
 msgid "<b>Antialiasing</b>"
-msgstr "</b>Antialiàsing</b>"
+msgstr "<b>Antialiàsing</b>"
 
 # Entenc que «hint» significa donar a entendre o insinuar, per això ho he traduït com «suggeriments» però no acab de tenir gens clar :(
 #: ../data/ui/lxappearance.glade.h:36
@@ -219,9 +217,8 @@ msgid "<b>Hinting</b>"
 msgstr "<b>Suggeriments</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
-#, fuzzy
 msgid "Sub-pixel geometry: "
-msgstr "Geometria dels sub-píxels:"
+msgstr "Geometria dels sub-píxels: "
 
 #: ../data/ui/lxappearance.glade.h:40
 #, fuzzy
@@ -234,12 +231,11 @@ msgstr "Tipus de lletra"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
-msgstr "Estil de la barra d'eines:"
+msgstr "Estil de la barra d'eines: "
 
 #: ../data/ui/lxappearance.glade.h:43
-#, fuzzy
 msgid "Toolbar Icon Size: "
-msgstr "Mida de les icones de la barra d'eines:"
+msgstr "Mida de les icones de la barra d'eines: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"

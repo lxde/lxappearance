@@ -16,10 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Generator: Pootle 2.6.0-rc2\n"
+"X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1414347528.000000\n"
-"X-Pootle-Path: /sl/lxappearance/po/sl.po\n"
-"X-Pootle-Revision: 0\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
