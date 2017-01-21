@@ -242,8 +242,19 @@ static void lxappearance_save_gtkrc()
         "GTK_ICON_SIZE_DIALOG"
     };
 
-    char* file_path = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
+    char **gtkrc_files = gtk_rc_get_default_files();
+    char *file_path = NULL;
     GString* content = g_string_sized_new(512);
+
+    /* check for availability of path via GTK2_RC_FILES */
+    while (gtkrc_files && gtkrc_files[0])
+        if (g_str_has_prefix(gtkrc_files[0], g_get_home_dir()))
+            break;
+        else
+            gtkrc_files++;
+    /* if none found then use hardcoded one */
+    if (gtkrc_files == NULL || gtkrc_files[0] == NULL)
+        file_path = g_build_filename(g_get_home_dir(), ".gtkrc-2.0", NULL);
     g_string_append(content,
         "# DO NOT EDIT! This file will be overwritten by LXAppearance.\n"
         "# Any customization should be done in ~/.gtkrc-2.0.mine instead.\n\n");
@@ -319,7 +330,10 @@ static void lxappearance_save_gtkrc()
     }
 #endif
 
-    g_file_set_contents(file_path, content->str, content->len, NULL);
+    if (file_path)
+        g_file_set_contents(file_path, content->str, content->len, NULL);
+    else
+        g_file_set_contents(gtkrc_files[0], content->str, content->len, NULL);
 
     /* Save also in GTK3 folder
        Content shold be different from the gtk2 one
