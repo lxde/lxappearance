@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-12-04 16:09+0000\n"
-"Last-Translator: system user <>\n"
+"PO-Revision-Date: 2017-05-22 19:38+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1417709354.000000\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1495481930.144848\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -29,11 +29,12 @@ msgstr "Tilpas skrivebordets udseende og programmer"
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr ""
+"windows;preferences;settings;theme;style;appearance;vinduer;præferencer;indst"
+"illinger;tema;stil;udseende;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Ophavsret 2011 LXDE-projektet"
+msgstr "Ophavsret (C) 2008-2014 LXDE-projektet"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -43,7 +44,7 @@ msgstr "Tilpas skrivebordets udseende"
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
 msgstr ""
-"Joe Hansen, 2010.\n"
+"Joe Hansen, 2010\n"
 "\n"
 "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Mere info: http://www.dansk-gruppen.dk"
@@ -183,12 +184,10 @@ msgid "Window Border"
 msgstr "Vinduegrænse"
 
 #: ../data/ui/lxappearance.glade.h:34
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Aktivér udjævning"
 
 #: ../data/ui/lxappearance.glade.h:35
-#, fuzzy
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Udjævning</b>"
 
@@ -239,12 +238,11 @@ msgstr "<b>Indstillinger for grafisk brugergrænseflade</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Tastaturtema:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Indstillinger for grafisk brugergrænseflade</b>"
+msgstr "<b>Indstillinger for tastatur</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -260,11 +258,11 @@ msgstr "<b>Lydeffekt</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Aktivér _tilgængelighed i GTK+-programmer"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Tilgængelighed</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -354,6 +352,8 @@ msgstr "*.tar.gz, *.tar.bz2 (ikontema)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"Indstilling af farveskema er ikke tilgængelig uden lxsession som "
+"sessionshåndtering."
 
 #~ msgid "Enable antialising"
 #~ msgstr "Aktivér antialiasing"

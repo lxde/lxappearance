@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2014-08-16 16:23+0000\n"
+"PO-Revision-Date: 2017-05-22 21:26+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Gezer <gezer@lists.launchpad.net>\n"
 "Language: he\n"
@@ -16,9 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1408206205.000000\n"
+"X-POOTLE-MTIME: 1495488413.361127\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -31,11 +31,12 @@ msgstr "התאמת המראה והתחושה של שולחן העבודה והי
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr ""
+"חלונות;העדפות;הגדרות;תצורה;עיצוב;ערכת עיצוב;נושא;ערכת "
+"נושא;סגנון;סטייל;תצוגה;חזות;מראה;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "כל הזכויות שמורות (C) 2011 מיזם LXDE"
+msgstr "כל הזכויות שמורות (C) 2008‏-2014 מיזם LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -234,12 +235,11 @@ msgstr "<b>אפשרויות מנשק המשתמש</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "ערכת עיצוב מקלדת:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>אפשרויות מנשק המשתמש</b>"
+msgstr "<b>אפשרויות המקלדת</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -255,11 +255,11 @@ msgstr "<b>פעלולי שמע</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "הפעלת _נגישות ביישומי GTK+‎"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>נגישות</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -348,4 +348,4 @@ msgstr "*.tar.gz, *.tar.bz2 (ערכת סמלים)"
 #: ../src/color-scheme.c:299
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
-msgstr ""
+msgstr "לא ניתן להגדיר ערכת צבעים ללא שימוש ב־lxsession כמנהל הפעלה."
