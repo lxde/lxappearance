@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2017-05-23 02:02+0000\n"
+"PO-Revision-Date: 2017-05-23 16:26+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1495504942.577612\n"
+"X-POOTLE-MTIME: 1495556771.985466\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -29,11 +29,12 @@ msgstr "Жұмыс үстелі мен қолданбаларыңыздың сы
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr ""
+"windows;preferences;settings;theme;style;appearance;терезелер;қалаулар;баптау"
+"лар;тема;стиль;сыртқы түрі;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE жобасы"
+msgstr "Құқықтары қорғалған (C) 2008-2014 LXDE жобасы"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -232,12 +233,11 @@ msgstr "<b>Интерфейс</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Перенетақта темасы:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Интерфейс</b>"
+msgstr "<b>Пернетақта опциялары</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
