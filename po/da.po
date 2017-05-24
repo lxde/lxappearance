@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2017-05-22 22:56+0000\n"
+"PO-Revision-Date: 2017-05-23 17:42+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1495493818.847585\n"
+"X-POOTLE-MTIME: 1495561355.919833\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -197,7 +197,7 @@ msgstr "Aktivér hinting"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "Hintingtype:"
+msgstr "Hintingtype: "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
@@ -205,7 +205,7 @@ msgstr "<b>Hinting</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
-msgstr "Sub-pixel geometri"
+msgstr "Sub-pixel geometri: "
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
@@ -218,7 +218,7 @@ msgstr "Skrifttype"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
-msgstr "Værktøjsbjælkens Stil:"
+msgstr "Værktøjsbjælkens stil: "
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
