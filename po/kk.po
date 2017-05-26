@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2017-05-23 16:26+0000\n"
+"PO-Revision-Date: 2017-05-24 16:25+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1495556771.985466\n"
+"X-POOTLE-MTIME: 1495643151.204502\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -253,11 +253,11 @@ msgstr "<b>Дыбыстар</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "GTK+ қолданбаларында қ_олжетерлілікті іске қосу"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Қолжетерлілік</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -347,6 +347,8 @@ msgstr "*.tar.gz, *.tar.bz2 (Таңбашалар темасы)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"Түстер схемасын орнату тек сессия басқарушысы lxsession болған кезде ғана "
+"мүмкін."
 
 #~ msgid "Enable antialising"
 #~ msgstr "Антиалиасингті іске қосу"
