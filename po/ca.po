@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2015-06-05 08:45+0000\n"
+"PO-Revision-Date: 2017-06-09 09:10+0000\n"
 "Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1433493900.000000\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1496999438.853650\n"
 
 # No sé com interpretar això de «feel»
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
@@ -30,12 +30,11 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "finestres;preferències;paràmetres;temes;estil;aparença;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright (C) 2011 LXDE Project"
+msgstr "Copyright (C) 2008-2014 LXDE Project"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -47,22 +46,18 @@ msgid "translator-credits"
 msgstr "translator-credits"
 
 #: ../data/ui/lxappearance.glade.h:2
-#, fuzzy
 msgid "Preview of the selected widget style"
-msgstr "Vista prèvia de l'estil d'estris seleccionat"
+msgstr "Vista prèvia de l'estil de giny seleccionat"
 
 #: ../data/ui/lxappearance.glade.h:3
-#, fuzzy
 msgid "_File"
 msgstr "_Fitxer"
 
 #: ../data/ui/lxappearance.glade.h:4
-#, fuzzy
 msgid "_Edit"
 msgstr "_Edita"
 
 #: ../data/ui/lxappearance.glade.h:5
-#, fuzzy
 msgid "_Help"
 msgstr "_Ajuda"
 
@@ -71,12 +66,10 @@ msgid "Radio Button"
 msgstr "Botó de ràdio"
 
 #: ../data/ui/lxappearance.glade.h:7
-#, fuzzy
 msgid "Check Button"
 msgstr "Botó de comprovació"
 
 #: ../data/ui/lxappearance.glade.h:8
-#, fuzzy
 msgid "button"
 msgstr "botó"
 
@@ -97,14 +90,12 @@ msgid "Default font:"
 msgstr "Tipus de lletra predeterminat:"
 
 #: ../data/ui/lxappearance.glade.h:13
-#, fuzzy
 msgid "Widget"
-msgstr "Estri"
+msgstr "Giny"
 
 #: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
-"L'esquema de colors no és suportat de moment pel tema d'estris seleccionat"
+msgstr "L'esquema de colors no s'admet per al tema de giny seleccionat."
 
 #: ../data/ui/lxappearance.glade.h:15
 msgid "Use customized color scheme"
@@ -144,7 +135,7 @@ msgstr "Instal·la"
 
 #: ../data/ui/lxappearance.glade.h:24
 msgid "Remove"
-msgstr "Suprimeix"
+msgstr "Elimina"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
@@ -155,7 +146,6 @@ msgid "Icon Theme"
 msgstr "Tema d'icones"
 
 #: ../data/ui/lxappearance.glade.h:27
-#, fuzzy
 msgid "Preview of the selected cursor theme"
 msgstr "Vista prèvia del tema de cursor seleccionat"
 
@@ -172,27 +162,25 @@ msgid "Bigger"
 msgstr "Més gran"
 
 #: ../data/ui/lxappearance.glade.h:31
-#, fuzzy
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>Nota:</b>No totes les aplicacions de l'escriptori suporten el canvi de "
-"tema del cursor al vol. De manera que els vostres canvis potser que no "
-"s'apliquin del tot a totes les aplicacions fins la propera sessió."
+"<b>Nota:</b>no totes les aplicacions de l'escriptori admeten canviar el tema "
+"del cursor sobre la marxa. Per tant, pot ser que els vostres canvis no "
+"s'apliquin del tot a totes les aplicacions fins que no torneu a entrar a la "
+"sessió."
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Mouse Cursor"
 msgstr "Cursor del ratolí"
 
 #: ../data/ui/lxappearance.glade.h:33
-#, fuzzy
 msgid "Window Border"
 msgstr "Vora de la finestra"
 
 #: ../data/ui/lxappearance.glade.h:34
-#, fuzzy
 msgid "Enable antialiasing"
 msgstr "Habilita l'antialiàsing"
 
@@ -200,30 +188,25 @@ msgstr "Habilita l'antialiàsing"
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Antialiàsing</b>"
 
-# Entenc que «hint» significa donar a entendre o insinuar, per això ho he traduït com «suggeriments» però no acab de tenir gens clar :(
 #: ../data/ui/lxappearance.glade.h:36
-#, fuzzy
 msgid "Enable hinting"
-msgstr "Permet suggeriments"
+msgstr "Permet l'optimització"
 
 #: ../data/ui/lxappearance.glade.h:37
-#, fuzzy
 msgid "Hinting style: "
-msgstr "Estil de correcció de lletres: "
+msgstr "Estil d'optimització lletres: "
 
 #: ../data/ui/lxappearance.glade.h:38
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "<b>Suggeriments</b>"
+msgstr "<b>Optimització</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
 msgstr "Geometria dels sub-píxels: "
 
 #: ../data/ui/lxappearance.glade.h:40
-#, fuzzy
 msgid "<b>Sub-pixel geometry</b>"
-msgstr "<b>Geometria dels sub-píxels</b>"
+msgstr "<b>Geometria de subpíxels</b>"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Font"
@@ -246,27 +229,23 @@ msgid "Show images in menus"
 msgstr "Mostra imatges en els menús"
 
 #: ../data/ui/lxappearance.glade.h:46
-#, fuzzy
 msgid "<b>GUI Options</b>"
 msgstr "<b>Opcions de la interfície gràfica</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Tema del teclat:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Opcions de la interfície gràfica</b>"
+msgstr "<b>Opcions del teclat</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
-#, fuzzy
 msgid "Play event sounds"
 msgstr "Emet sons d'esdeveniments"
 
 # pot ser una mica recargolat
 #: ../data/ui/lxappearance.glade.h:50
-#, fuzzy
 msgid "Play event sounds as feedback to user input"
 msgstr "Emet sons d'esdeveniments com a resposta a les accions de l'usuari"
 
@@ -276,14 +255,13 @@ msgstr "<b>Efecte de so</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Habilita l'_accessibilitat a les aplicacions GTK+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Accessibilitat</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
-#, fuzzy
 msgid "Other"
 msgstr "Altres"
 
@@ -296,17 +274,14 @@ msgid "RGB"
 msgstr "RGB"
 
 #: ../data/ui/lxappearance.glade.h:57
-#, fuzzy
 msgid "BGR"
 msgstr "BGR"
 
 #: ../data/ui/lxappearance.glade.h:58
-#, fuzzy
 msgid "VRGB"
 msgstr "VRGB"
 
 #: ../data/ui/lxappearance.glade.h:59
-#, fuzzy
 msgid "VBGR"
 msgstr "VBGR"
 
@@ -363,12 +338,10 @@ msgid "Text beside icons"
 msgstr "Text al costat de les icones"
 
 #: ../src/utils.c:216
-#, fuzzy
 msgid "Select an icon theme"
-msgstr "Seleccioneu un tema per les icones"
+msgstr "Seleccioneu un tema per a les icones"
 
 #: ../src/utils.c:223
-#, fuzzy
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Tema d'icones)"
 
@@ -376,3 +349,5 @@ msgstr "*.tar.gz, *.tar.bz2 (Tema d'icones)"
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
+"Establir l'esquema de color no està disponible sense lxsession com a gestor "
+"de sessions."
