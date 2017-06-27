@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2015-08-17 01:28+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"PO-Revision-Date: 2017-06-26 09:28+0000\n"
+"Last-Translator: Martin Bagge <brother@bsnet.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1439774915.242510\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1498469289.938328\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -29,12 +29,11 @@ msgstr "Hanterar utseende och beteende för skrivbordsmiljö och program"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
-msgstr ""
+msgstr "windows;preferences;settings;theme;style;appearance;"
 
 #: ../data/ui/about.glade.in.h:1
-#, fuzzy
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright © 2011 LXDE Project"
+msgstr "Copyright © 2008-2014 LXDE Projektet och dess medhjälpare"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
@@ -240,12 +239,11 @@ msgstr "<b>GUI-alternativ</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr ""
+msgstr "Tangentbordsupplägg:"
 
 #: ../data/ui/lxappearance.glade.h:48
-#, fuzzy
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>GUI-alternativ</b>"
+msgstr "<b>Tangentbords-alternativ</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
@@ -261,11 +259,11 @@ msgstr "<b>Ljudeffekt</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr ""
+msgstr "Aktivera _tillgänglighet i GTK+-applikationer"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
-msgstr ""
+msgstr "<b>Tillgänglighet</b>"
 
 #: ../data/ui/lxappearance.glade.h:54
 msgid "Other"
@@ -354,4 +352,4 @@ msgstr "*.tar.gz, *.tar.bz2 (Ikontema)"
 #: ../src/color-scheme.c:299
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
-msgstr ""
+msgstr "Kan inte sätta färgschema utan att lxsession är sessionshanterare."
