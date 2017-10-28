@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2015-04-02 10:42+0000\n"
+"PO-Revision-Date: 2017-10-02 07:06+0000\n"
 "Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1427971323.000000\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1506927986.686887\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -42,7 +42,7 @@ msgstr "Prilagođava izgled i dojam vaše radne površine"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "Ivica Kolić <ikoli@yahoo.com>"
+msgstr "Ivica Kolić ikoli@yahoo.com"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -166,6 +166,9 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
+"<b>Bilješka:</b> Ne podržavaju sve aplikacije radne površine promjenu teme "
+"kursora u letu. Vaše promjene možda neće biti u potpunosti primijenjene "
+"prilikom slijedeće prijave."
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Mouse Cursor"
@@ -241,7 +244,7 @@ msgstr "Sviraj zvuk događaja"
 
 #: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds as feedback to user input"
-msgstr ""
+msgstr "Sviraj zvuk događaja kao povratnu informaciju orisnikova unosa"
 
 #: ../data/ui/lxappearance.glade.h:51
 msgid "<b>Sound Effect</b>"
