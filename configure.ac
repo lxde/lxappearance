@@ -76,7 +76,7 @@ AC_ARG_ENABLE(dbus,
 
 
 if test x"$enable_dbus" = x"yes"; then
-       PKG_CHECK_MODULES(DBUS, [dbus-1 >= 0.95 dbus-glib-1 >= 0.70])
+       PKG_CHECK_MODULES(DBUS, [dbus-1 >= 0.95])
        CFLAGS="$CFLAGS -DENABLE_DBUS"
 fi
 AC_SUBST(DBUS_CFLAGS)
