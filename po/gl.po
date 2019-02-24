@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2017-05-24 05:47+0000\n"
+"PO-Revision-Date: 2019-02-22 09:48+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1495604846.227632\n"
+"X-POOTLE-MTIME: 1550828935.794806\n"
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
@@ -25,7 +25,7 @@ msgstr "Personalizar a aparencia e o comportamento"
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
 msgstr ""
-"Personalizar a aparencia e comportamento do seu escritorio e aplicacións"
+"Personalizar a aparencia e comportamento do seu escritorio e aplicativos"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
@@ -44,7 +44,7 @@ msgstr "Personalizar a aparencia e comportamento do escritorio"
 msgid "translator-credits"
 msgstr ""
 "Miguel Anxo Bouzada <mbouzada@gmail.com>, 2010, 2011,2012,2013,2014, 2015, "
-"2016, 2017.\n"
+"2016, 2017,2018,2019.\n"
 "Proxecto Trasno <proxecto@trasno.net>"
 
 #: ../data/ui/lxappearance.glade.h:2
@@ -171,7 +171,7 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>Nota:</b> Non todas as aplicacións de escritorio permiten cambiar o tema "
+"<b>Nota:</b> Non todos os aplicativos de escritorio permiten cambiar o tema "
 "do punteiro ao voo. Polo que non se aplicarán todos os seus cambios ata o "
 "seguinte inicio de sesión."
 
@@ -257,7 +257,7 @@ msgstr "<b>Efecto sonoro</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr "Activar a _accesibilidade nas aplicacións GTK+"
+msgstr "Activar a _accesibilidade nos aplicativos GTK+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
