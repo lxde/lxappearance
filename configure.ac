@@ -69,7 +69,7 @@ AC_SUBST(GTK_LIBS)
 
 AC_ARG_ENABLE(dbus,
        [AS_HELP_STRING([--enable-dbus],
-               [Use Dbus support (usefull for lxsession > 0.4.9) @<:@default=no@:>@])],
+               [Use Dbus-glib support (deprecated now) @<:@default=no@:>@])],
        [enable_dbus="${enableval}"],
        [enable_dbus=no]
 )
@@ -176,7 +176,7 @@ echo
 echo lxappearance....................... : Version $VERSION
 echo
 echo Enable debug....................: "$enable_debug"
-echo Enable Dbus support.............: "$enable_dbus"
+echo Enable Dbus-glib support........: "$enable_dbus"
 echo Prefix..........................: $prefix
 echo
 echo The binary will be installed in $prefix/bin

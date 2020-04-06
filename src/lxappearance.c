@@ -58,7 +58,38 @@ static const char* lxsession_name = NULL;
 
 static gboolean check_lxde_dbus()
 {
-#if ENABLE_DBUS
+#if GLIB_CHECK_VERSION(2, 26, 0)
+    GError *error = NULL;
+    GDBusConnection * connection = g_bus_get_sync(G_BUS_TYPE_SESSION, NULL, &error);
+
+    if (connection == NULL)
+    {
+        g_warning(G_STRLOC ": Failed to connect to the session message bus: %s",
+                  error->message);
+        g_error_free(error);
+        return FALSE;
+    }
+
+    GVariant *reply = g_dbus_connection_call_sync(connection, "org.freedesktop.DBus",
+                                                  "/org/freedesktop/DBus",
+                                                  "org.freedesktop.DBus",
+                                                  "GetNameOwner",
+                                                  g_variant_new ("(s)",
+                                                                 "org.lxde.SessionManager"),
+                                                  NULL,
+                                                  G_DBUS_CALL_FLAGS_NO_AUTO_START,
+                                                  -1, NULL, NULL);
+
+    if (reply != NULL)
+    {
+        g_variant_unref(reply);
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }
+#elif ENABLE_DBUS
     DBusError error;
     dbus_error_init(&error);
     DBusConnection * connection = dbus_bus_get(DBUS_BUS_SESSION, &error);
