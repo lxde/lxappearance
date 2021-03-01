@@ -117,16 +117,20 @@ static gboolean check_lxde_dbus()
 
 static void check_lxsession()
 {
-    lxsession_atom = XInternAtom( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), "_LXSESSION", True );
-    if( lxsession_atom != None )
+    GdkDisplay *display = gdk_display_get_default();
+    if (GDK_IS_X11_DISPLAY(display))
     {
-        XGrabServer( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()) );
-        if( XGetSelectionOwner( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), lxsession_atom ) )
+        lxsession_atom = XInternAtom( GDK_DISPLAY_XDISPLAY(display), "_LXSESSION", True );
+        if( lxsession_atom != None )
         {
-            app.use_lxsession = TRUE;
-            lxsession_name = g_getenv("DESKTOP_SESSION");
+            XGrabServer( GDK_DISPLAY_XDISPLAY(display) );
+            if( XGetSelectionOwner( GDK_DISPLAY_XDISPLAY(display), lxsession_atom ) )
+            {
+                app.use_lxsession = TRUE;
+                lxsession_name = g_getenv("DESKTOP_SESSION");
+            }
+            XUngrabServer( GDK_DISPLAY_XDISPLAY(display) );
         }
-        XUngrabServer( GDK_DISPLAY_XDISPLAY(gdk_display_get_default()) );
     }
 
     /* Check Lxsession also with dbus */
