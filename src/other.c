@@ -30,7 +30,7 @@ static void on_tb_style_changed(GtkComboBox* combo, gpointer user_data)
 
 static void on_tb_icon_size_changed(GtkComboBox* combo, gpointer user_data)
 {
-    app.toolbar_icon_size = gtk_combo_box_get_active(combo) + GTK_ICON_SIZE_MENU;
+    app.toolbar_icon_size = gtk_combo_box_get_active(combo) + GTK_ICON_SIZE_SMALL_TOOLBAR;
     lxappearance_changed();
 }
 
@@ -72,7 +72,7 @@ void other_init(GtkBuilder* b)
     g_signal_connect(app.tb_style_combo, "changed", G_CALLBACK(on_tb_style_changed), NULL);
 
     app.tb_icon_size_combo = GTK_WIDGET(gtk_builder_get_object(b, "tb_icon_size"));
-    idx = app.toolbar_icon_size - GTK_ICON_SIZE_MENU;
+    idx = app.toolbar_icon_size - GTK_ICON_SIZE_SMALL_TOOLBAR;
     gtk_combo_box_set_active(GTK_COMBO_BOX(app.tb_icon_size_combo), idx);
     g_signal_connect(app.tb_icon_size_combo, "changed", G_CALLBACK(on_tb_icon_size_changed), NULL);
 
