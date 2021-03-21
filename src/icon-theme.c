@@ -171,7 +171,6 @@ static void on_remove_theme_clicked(GtkButton* btn, gpointer user_data)
     if(gtk_tree_selection_get_selected(sel, &model, &it))
     {
         IconTheme* theme;
-        gboolean both = theme->has_icon && theme->has_cursor;
 
         if(gtk_tree_model_iter_n_children(model, NULL) < 2)
         {
@@ -183,6 +182,7 @@ static void on_remove_theme_clicked(GtkButton* btn, gpointer user_data)
         gtk_tree_model_get(model, &it, 1, &theme, -1);
         if(remove_icon_theme(GTK_WINDOW(gtk_widget_get_toplevel(GTK_WIDGET(btn))), theme))
         {
+            gboolean both = theme->has_icon && theme->has_cursor;
             gtk_list_store_remove(GTK_LIST_STORE(model), &it);
 
             /* select the first theme */
