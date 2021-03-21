@@ -46,7 +46,7 @@ static void icon_theme_free(IconTheme* theme)
     g_slice_free(IconTheme, theme);
 }
 
-void load_icon_themes_from_dir(const char* base_dir, const char* theme_dir, GKeyFile* kf)
+void load_icon_themes_from_dir(const char* base_dir, const char* theme_dir)
 {
     /* NOTE:
      * 1. theoratically, base_dir is identical to theme_dir
@@ -75,6 +75,7 @@ void load_icon_themes_from_dir(const char* base_dir, const char* theme_dir, GKey
                 IconTheme* theme = g_slice_new0(IconTheme);
                 char* index_theme;
                 char* cursor_subdir;
+                GKeyFile* kf = g_key_file_new();
 
                 theme->name = g_strdup(name);
                 index_theme = g_build_filename(theme_dir, name, "index.theme", NULL);
@@ -97,6 +98,7 @@ void load_icon_themes_from_dir(const char* base_dir, const char* theme_dir, GKey
                 else
                     theme->disp_name = theme->name;
                 g_free(index_theme);
+                g_key_file_free(kf);
 
                 cursor_subdir = g_build_filename(theme_dir, name, "cursors", NULL);
                 /* it contains a cursor theme */
@@ -119,13 +121,11 @@ static void load_icon_themes()
 {
     int n, i;
     gtk_icon_theme_get_search_path(gtk_icon_theme_get_default(), &icon_theme_dirs, &n);
-    GKeyFile* kf = g_key_file_new();
     for(i = 0; i < n; ++i)
     {
-        load_icon_themes_from_dir(icon_theme_dirs[i], icon_theme_dirs[i], kf);
+        load_icon_themes_from_dir(icon_theme_dirs[i], icon_theme_dirs[i]);
         /* g_debug("icon_theme_dirs[%d] = %s", i, icon_theme_dirs[i]); */
     }
-    g_key_file_free(kf);
 }
 
 

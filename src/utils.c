@@ -159,11 +159,9 @@ _failed:
         {
             /* move files in tmp_dir to user_icons_dir */
             GDir* dir;
-            GKeyFile* kf = g_key_file_new();
 
             /* convert the themes in the dir to IconTheme structs and add them to app.icon_themes list */
-            load_icon_themes_from_dir(user_icons_dir, tmp_dir, kf);
-            g_key_file_free(kf);
+            load_icon_themes_from_dir(user_icons_dir, tmp_dir);
 
             /* now really move this themes to $XDG_DATA_HOME/icons dir and also update the GUI */
             dir = g_dir_open(tmp_dir, 0, NULL);
