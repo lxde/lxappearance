@@ -1,17 +1,28 @@
 # Brazilian Portuguese translation for LXAPPEARANCE.
 # Copyright (C) 2010 The creators of LXAPPEARANCE.
 # This file is distributed under the same license as the LXAPPEARANCE package.
-# Henrique P. Machado <hpmachado@gnome.org>, 2010.
-# Sérgio Cipolla <secipolla@gmail.com>, 2010-2011.
 #
+# Brazilian Portuguese language translators - pt_BR:
+# Tradutores do idioma Português do Brasil - pt_BR:
+# Adriano H. Hedler <suporte@templosite.com>, 2009-2014.
+# Enrico Nicoletto <liverig@gmail.com>, 2013.
+# Fábio Antunes <fabio.antunes@hotmail.com>, 2008.
+# Henrique P. Machado <hpmachado@gnome.org>, 2008-2009.
+# Og Maciel <ogmaciel@gnome.org>, 2009.
+# Henrique P. Machado <hpmachado@gnome.org>, 2010.
+# Sérgio B. Cipolla <secipolla@gmail.com>, 2010-2011.
+# Felipe Braga <fbobraga@gmail.com>, 2015.
+# marcelocripe <marcelocripe@gmail.com>, 2022.
+#
+
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-14 18:23+0300\n"
-"PO-Revision-Date: 2015-05-19 22:30+0000\n"
-"Last-Translator: Felipe Braga <fbobraga@gmail.com>\n"
-"Language-Team: Brazilian Porguese <ldp-br@bazar.conectiva.com.br>\n"
+"PO-Revision-Date: 2022-05-10 13:40+0000\n"
+"Last-Translator: marcelocripe <marcelocripe@gmail.com>\n"
+"Language-Team: Brazilian Porguese \n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +33,11 @@ msgstr ""
 
 #: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
 msgid "Customize Look and Feel"
-msgstr "Personalizar visual"
+msgstr "Personalizar a Aparência e o Comportamento"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
-msgstr "Personaliza o visual de sua área de trabalho e aplicativos"
+msgstr "Configurações da aparência e do comportamento da área de trabalho e dos programas aplicativos com o LXAppearance"
 
 #: ../data/lxappearance.desktop.in.h:3
 msgid "windows;preferences;settings;theme;style;appearance;"
@@ -34,27 +45,30 @@ msgstr "janelas;preferências;configurações;tema;estilo;aparência;"
 
 #: ../data/ui/about.glade.in.h:1
 msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Copyright (C) 2008-2014 Projeto LXDE"
+msgstr "Direitos de Autor (C) do Projeto LXDE 2008-2014"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
-msgstr "Personaliza o visual de sua área de trabalho"
+msgstr "Alternador de temas da aparência e do comportamento da área de trabalho"
 
-# Precisa explicitamente do "\n"? Esse pode ser o problema
 #. Please replace this line with your own names, one name per line.
+#. Por favor, traduza a linha "translator-credits" por seu próprio nome, adicione um nome por linha, inclua \n para forçar a quebra de linha.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
 msgstr ""
-"Adriano H. Hedler <suporte@templosite.com>, 2009 - 2014.\n"
+"Adriano H. Hedler <suporte@templosite.com>, 2009-2014.\n"
 "Enrico Nicoletto <liverig@gmail.com>, 2013.\n"
 "Fábio Antunes <fabio.antunes@hotmail.com>, 2008.\n"
 "Henrique P. Machado <hpmachado@gnome.org>, 2008-2009.\n"
 "Og Maciel <ogmaciel@gnome.org>, 2009.\n"
-"Sérgio B. Cipolla <secipolla@gmail.com>, 2010-2011."
+"Henrique P. Machado <hpmachado@gnome.org>, 2010.\n"
+"Sérgio B. Cipolla <secipolla@gmail.com>, 2010-2011.\n"
+"Felipe Braga <fbobraga@gmail.com>, 2015\n"
+"marcelocripe <marcelocripe@gmail.com>, 2022."
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
-msgstr "Visualização do estilo do widget selecionado"
+msgstr "Visualização do estilo do tema da janela selecionada"
 
 #: ../data/ui/lxappearance.glade.h:3
 msgid "_File"
@@ -70,11 +84,11 @@ msgstr "Aj_uda"
 
 #: ../data/ui/lxappearance.glade.h:6
 msgid "Radio Button"
-msgstr "Botão de rádio"
+msgstr "Botão de Rádio"
 
 #: ../data/ui/lxappearance.glade.h:7
 msgid "Check Button"
-msgstr "Botão de verificação"
+msgstr "Botão de Verificação"
 
 #: ../data/ui/lxappearance.glade.h:8
 msgid "button"
@@ -82,7 +96,7 @@ msgstr "botão"
 
 #: ../data/ui/lxappearance.glade.h:9
 msgid "Demo"
-msgstr "Demo"
+msgstr "Demonstração"
 
 #: ../data/ui/lxappearance.glade.h:10
 msgid "Page1"
@@ -98,17 +112,16 @@ msgstr "Fonte padrão:"
 
 #: ../data/ui/lxappearance.glade.h:13
 msgid "Widget"
-msgstr "Widget"
+msgstr "Tema da Janela"
 
 #: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
 msgid "Color scheme is not supported by currently selected widget theme."
-msgstr ""
-"O esquema de cores não tem suporte pelo tema do widget selecionado "
-"atualmente."
+msgstr "O esquema de cores selecionado neste momento não possui suporte "
+"para o estilo do tema da janela."
 
 #: ../data/ui/lxappearance.glade.h:15
 msgid "Use customized color scheme"
-msgstr "Usar esquema de cor personalizado"
+msgstr "Utilizar o esquema de cores personalizadas"
 
 #: ../data/ui/lxappearance.glade.h:16
 msgid "Normal windows:"
@@ -136,7 +149,7 @@ msgstr "Primeiro plano"
 
 #: ../data/ui/lxappearance.glade.h:22
 msgid "Color"
-msgstr "Cor"
+msgstr "Cores do Tema"
 
 #: ../data/ui/lxappearance.glade.h:23
 msgid "Install"
@@ -148,15 +161,15 @@ msgstr "Remover"
 
 #: ../data/ui/lxappearance.glade.h:25
 msgid "Preview of the selected icon theme"
-msgstr "Visualização do tema de ícones selecionado"
+msgstr "Visualização do tema do ícone selecionado"
 
 #: ../data/ui/lxappearance.glade.h:26
 msgid "Icon Theme"
-msgstr "Tema de ícones"
+msgstr "Tema do Ícone"
 
 #: ../data/ui/lxappearance.glade.h:27
 msgid "Preview of the selected cursor theme"
-msgstr "Visualização do tema de cursor selecionado"
+msgstr "Visualização do tema do cursor selecionado"
 
 #: ../data/ui/lxappearance.glade.h:28
 msgid "Size of cursors"
@@ -164,11 +177,11 @@ msgstr "Tamanho dos cursores"
 
 #: ../data/ui/lxappearance.glade.h:29
 msgid "Smaller"
-msgstr "Menor"
+msgstr "Pequeno"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Bigger"
-msgstr "Enorme"
+msgstr "Grande"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid ""
@@ -176,37 +189,38 @@ msgid ""
 "theme on-the-fly. So your changes here might not be fully applied to all "
 "applications till next login."
 msgstr ""
-"<b>Nota:</b> nem todos os aplicativos da área de trabalho suportam mudança "
-"do tema do cursor em tempo real. Então suas alterações aqui podem não ser "
-"aplicadas a todos os aplicativos até o próximo início de sessão."
+"<b>Nota:</b> Nem todos os aplicativos da área de trabalho suportam a "
+"alteração do tema do cursor em tempo real. Portanto, as alterações "
+"realizadas aqui podem não ser aplicadas a todos os aplicativos até o "
+"próximo início da sessão."
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid "Mouse Cursor"
-msgstr "Cursor do mouse"
+msgstr "Tema do Cursor"
 
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Window Border"
-msgstr "Borda da janela"
+msgstr "Borda da Janela"
 
 #: ../data/ui/lxappearance.glade.h:34
 msgid "Enable antialiasing"
-msgstr "Habilitar antialiasing"
+msgstr "Ativar o antisserrilhamento"
 
 #: ../data/ui/lxappearance.glade.h:35
 msgid "<b>Antialiasing</b>"
-msgstr "<b>Antialiasing</b>"
+msgstr "<b>Antisserrilhamento</b>"
 
 #: ../data/ui/lxappearance.glade.h:36
 msgid "Enable hinting"
-msgstr "Habilitar hinting"
+msgstr "Ativar as dicas"
 
 #: ../data/ui/lxappearance.glade.h:37
 msgid "Hinting style: "
-msgstr "Estilo do hinting: "
+msgstr "Estilo de dicas: "
 
 #: ../data/ui/lxappearance.glade.h:38
 msgid "<b>Hinting</b>"
-msgstr "<b>Hinting</b>"
+msgstr "<b>Dicas</b>"
 
 #: ../data/ui/lxappearance.glade.h:39
 msgid "Sub-pixel geometry: "
@@ -214,7 +228,7 @@ msgstr "Geometria de subpixel: "
 
 #: ../data/ui/lxappearance.glade.h:40
 msgid "<b>Sub-pixel geometry</b>"
-msgstr "<b>Geometria de subpixel</b>"
+msgstr "<b>Geometria de Subpixels</b>"
 
 #: ../data/ui/lxappearance.glade.h:41
 msgid "Font"
@@ -222,47 +236,47 @@ msgstr "Fonte"
 
 #: ../data/ui/lxappearance.glade.h:42
 msgid "Toolbar Style: "
-msgstr "Estilo da barra de ferramentas: "
+msgstr "Estilo da Barra de Ferramentas: "
 
 #: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Icon Size: "
-msgstr "Tamanho dos ícones na barra de ferramentas: "
+msgstr "Tamanho dos Ícones na Barra de Ferramentas: "
 
 #: ../data/ui/lxappearance.glade.h:44
 msgid "Show images on buttons"
-msgstr "Mostrar imagens em botões"
+msgstr "Exibir as imagens nos botões"
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Show images in menus"
-msgstr "Mostrar imagens em menus"
+msgstr "Exibir as imagens nos menus"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "<b>GUI Options</b>"
-msgstr "<b>Opções gráficas</b>"
+msgstr "<b>Opções da Interface Gráfica</b>"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "Keyboard theme:"
-msgstr "Tema de teclado:"
+msgstr "Tema do teclado:"
 
 #: ../data/ui/lxappearance.glade.h:48
 msgid "<b>Keyboard Options</b>"
-msgstr "<b>Opções de teclado</b>"
+msgstr "<b>Opções do Teclado</b>"
 
 #: ../data/ui/lxappearance.glade.h:49
 msgid "Play event sounds"
-msgstr "Reproduzir sons de eventos"
+msgstr "Reproduzir os sons de eventos"
 
 #: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds as feedback to user input"
-msgstr "Reproduzir sons de eventos como resposta a entradas do usuário"
+msgstr "Reproduzir os sons de eventos como resposta para as entradas do usuário"
 
 #: ../data/ui/lxappearance.glade.h:51
 msgid "<b>Sound Effect</b>"
-msgstr "<b>Efeitos de som</b>"
+msgstr "<b>Efeitos de Som</b>"
 
 #: ../data/ui/lxappearance.glade.h:52
 msgid "Enable _accessibility in GTK+ applications"
-msgstr "Habilitar opções de _acessibilidade nas aplicações GTK+"
+msgstr "Ativar as opções de _acessibilidade nos aplicativos GTK+"
 
 #: ../data/ui/lxappearance.glade.h:53
 msgid "<b>Accessibility</b>"
@@ -294,7 +308,7 @@ msgstr "VBGR"
 
 #: ../data/ui/lxappearance.glade.h:60
 msgid "Slight"
-msgstr "Leve"
+msgstr "Pequeno"
 
 #: ../data/ui/lxappearance.glade.h:61
 msgid "Medium"
@@ -302,19 +316,19 @@ msgstr "Médio"
 
 #: ../data/ui/lxappearance.glade.h:62
 msgid "Full"
-msgstr "Completo"
+msgstr "Grande"
 
 #: ../data/ui/lxappearance.glade.h:63
 msgid "Same as menu items"
-msgstr "O mesmo que nos itens de menu"
+msgstr "O mesmo que nos itens do menu"
 
 #: ../data/ui/lxappearance.glade.h:64
 msgid "Small toolbar icon"
-msgstr "Ícones pequenos"
+msgstr "Ícones pequenos na barra de ferramentas"
 
 #: ../data/ui/lxappearance.glade.h:65
 msgid "Large toolbar icon"
-msgstr "Ícones grandes"
+msgstr "Ícones grandes na barra de ferramentas"
 
 #: ../data/ui/lxappearance.glade.h:66
 msgid "Same as buttons"
@@ -322,11 +336,11 @@ msgstr "O mesmo que nos botões"
 
 #: ../data/ui/lxappearance.glade.h:67
 msgid "Same as drag icons"
-msgstr "O mesmo que em ícones arrastáveis"
+msgstr "O mesmo que nos ícones arrastáveis"
 
 #: ../data/ui/lxappearance.glade.h:68
 msgid "Same as dialogs"
-msgstr "O mesmo que nos diálogos"
+msgstr "O mesmo que nas caixas de diálogos"
 
 #: ../data/ui/lxappearance.glade.h:69
 msgid "Icons only"
@@ -338,23 +352,23 @@ msgstr "Somente texto"
 
 #: ../data/ui/lxappearance.glade.h:71
 msgid "Text below icons"
-msgstr "Texto abaixo de ícones"
+msgstr "Texto abaixo dos ícones"
 
 #: ../data/ui/lxappearance.glade.h:72
 msgid "Text beside icons"
-msgstr "Texto ao lado de ícones"
+msgstr "Texto ao lado dos ícones"
 
 #: ../src/utils.c:216
 msgid "Select an icon theme"
-msgstr "Selecione um tema de ícones"
+msgstr "Selecione o tema para os ícones"
 
 #: ../src/utils.c:223
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (tema de ícones)"
+msgstr "*.tar.gz, *.tar.bz2 (Temas dos Ícones)"
 
 #: ../src/color-scheme.c:299
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""
-"Definir o tema de cores não é disponível sem  o \"lxsession\" como "
-"gerenciador de sessões."
+"É necessário que o gerenciador de sessão \"LXSession\" esteja instalado "
+"no sistema operacional \npara ativar as configurações das cores do tema."
