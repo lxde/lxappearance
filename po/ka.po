@@ -1,0 +1,350 @@
+# Georgian translation for lxappearance.
+# Copyright (C) 2023 lxappearance' authors
+# This file is distributed under the same license as the lxappearance package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxappearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-14 18:23+0300\n"
+"PO-Revision-Date: 2023-07-30 14:10+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-POOTLE-MTIME: 1439774915.523923\n"
+
+#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
+msgid "Customize Look and Feel"
+msgstr "გარეგნობის მორგება"
+
+#: ../data/lxappearance.desktop.in.h:2
+msgid "Customizes look and feel of your desktop and applications"
+msgstr "თქვენი სამუშაო მაგიდისა და აპლიკაციების მორგება"
+
+#: ../data/lxappearance.desktop.in.h:3
+msgid "windows;preferences;settings;theme;style;appearance;"
+msgstr "ფანჯრები;მორგება;თემა;სტილი;გარეგნობა;"
+
+#: ../data/ui/about.glade.in.h:1
+msgid "Copyright (C) 2008-2014 LXDE Project"
+msgstr "(C) 2008-2014 LXDE Project, ყველა უფლება დაცულია"
+
+#: ../data/ui/about.glade.in.h:2
+msgid "Customizes look and feel of your desktop"
+msgstr "თქვენი სამუშაო მაგიდისა გარეგნობის მორგება"
+
+#. Please replace this line with your own names, one name per line.
+#: ../data/ui/about.glade.in.h:4
+msgid "translator-credits"
+msgstr "ვიღაც, ვინც თარგმნა"
+
+#: ../data/ui/lxappearance.glade.h:2
+msgid "Preview of the selected widget style"
+msgstr "მონიშნული ვიჯეტების სტილის მინიატურა"
+
+#: ../data/ui/lxappearance.glade.h:3
+msgid "_File"
+msgstr "_ფაილი"
+
+#: ../data/ui/lxappearance.glade.h:4
+msgid "_Edit"
+msgstr "_ჩასწორება"
+
+#: ../data/ui/lxappearance.glade.h:5
+msgid "_Help"
+msgstr "_დახმარება"
+
+#: ../data/ui/lxappearance.glade.h:6
+msgid "Radio Button"
+msgstr "რადიო ღილაკი"
+
+#: ../data/ui/lxappearance.glade.h:7
+msgid "Check Button"
+msgstr "თოლია"
+
+#: ../data/ui/lxappearance.glade.h:8
+msgid "button"
+msgstr "ღილაკი"
+
+#: ../data/ui/lxappearance.glade.h:9
+msgid "Demo"
+msgstr "დემო"
+
+#: ../data/ui/lxappearance.glade.h:10
+msgid "Page1"
+msgstr "გვერდი1"
+
+#: ../data/ui/lxappearance.glade.h:11
+msgid "Page2"
+msgstr "გვერდი2"
+
+#: ../data/ui/lxappearance.glade.h:12
+msgid "Default font:"
+msgstr "ნაგულისხმები ფონტი:"
+
+#: ../data/ui/lxappearance.glade.h:13
+msgid "Widget"
+msgstr "ვიჯეტი"
+
+#: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
+msgid "Color scheme is not supported by currently selected widget theme."
+msgstr "ფერების სქემა მიმდინარე ვიჯეტების თემის მიერ მხარდაჭერილი არაა."
+
+#: ../data/ui/lxappearance.glade.h:15
+msgid "Use customized color scheme"
+msgstr "მომხმარებლის ფერების სქემის გამოყენება"
+
+#: ../data/ui/lxappearance.glade.h:16
+msgid "Normal windows:"
+msgstr "ნორმალური ფანჯრები:"
+
+#: ../data/ui/lxappearance.glade.h:17
+msgid "Text windows:"
+msgstr "ტექსტური ფანჯრები:"
+
+#: ../data/ui/lxappearance.glade.h:18
+msgid "Selected items:"
+msgstr "მონიშნული ელემენტები:"
+
+#: ../data/ui/lxappearance.glade.h:19
+msgid "Tooltips:"
+msgstr "მინიშნებები:"
+
+#: ../data/ui/lxappearance.glade.h:20
+msgid "Background"
+msgstr "ფონი"
+
+#: ../data/ui/lxappearance.glade.h:21
+msgid "Foreground"
+msgstr "წინა პლანი"
+
+#: ../data/ui/lxappearance.glade.h:22
+msgid "Color"
+msgstr "ფერი"
+
+#: ../data/ui/lxappearance.glade.h:23
+msgid "Install"
+msgstr "დაყენება"
+
+#: ../data/ui/lxappearance.glade.h:24
+msgid "Remove"
+msgstr "წაშლა"
+
+#: ../data/ui/lxappearance.glade.h:25
+msgid "Preview of the selected icon theme"
+msgstr "მონიშნული ხატულების თემის მინიატურა"
+
+#: ../data/ui/lxappearance.glade.h:26
+msgid "Icon Theme"
+msgstr "ხატულების თემა"
+
+#: ../data/ui/lxappearance.glade.h:27
+msgid "Preview of the selected cursor theme"
+msgstr "მონიშნული კურსორების თემის მინიატურა"
+
+#: ../data/ui/lxappearance.glade.h:28
+msgid "Size of cursors"
+msgstr "კურსორების ზომა"
+
+#: ../data/ui/lxappearance.glade.h:29
+msgid "Smaller"
+msgstr "უფრო პატარა"
+
+#: ../data/ui/lxappearance.glade.h:30
+msgid "Bigger"
+msgstr "უფრო დიდი"
+
+#: ../data/ui/lxappearance.glade.h:31
+msgid ""
+"<b>Note:</b> Not all of the desktop applications support changing cursor "
+"theme on-the-fly. So your changes here might not be fully applied to all "
+"applications till next login."
+msgstr ""
+"<b>შენიშნვა:</b> კურსორების თემის შეცვლის მხარდაჭერა მაშინ, როცა ის "
+"გაშვებულია, ყველა აპლიკაციას არ გააჩნია. ასე რომ თქვენი ცვლილებები "
+"შეიძლება სისტემა თავიდან შემოსვლამდე ვერ დაინახოთ."
+
+#: ../data/ui/lxappearance.glade.h:32
+msgid "Mouse Cursor"
+msgstr "თაგუნას კურსორი"
+
+#: ../data/ui/lxappearance.glade.h:33
+msgid "Window Border"
+msgstr "ფანჯარის ჩარჩო"
+
+#: ../data/ui/lxappearance.glade.h:34
+msgid "Enable antialiasing"
+msgstr "მომრგვალების ჩართვა"
+
+#: ../data/ui/lxappearance.glade.h:35
+msgid "<b>Antialiasing</b>"
+msgstr "<b>მომრგვალება</b>"
+
+#: ../data/ui/lxappearance.glade.h:36
+msgid "Enable hinting"
+msgstr "ჰინტირების ჩართვა"
+
+#: ../data/ui/lxappearance.glade.h:37
+msgid "Hinting style: "
+msgstr "ჰინტირების სტილი: "
+
+#: ../data/ui/lxappearance.glade.h:38
+msgid "<b>Hinting</b>"
+msgstr "<b>ჰინტირება</b>"
+
+#: ../data/ui/lxappearance.glade.h:39
+msgid "Sub-pixel geometry: "
+msgstr "ქვეპიქსელის გეომეტრია: "
+
+#: ../data/ui/lxappearance.glade.h:40
+msgid "<b>Sub-pixel geometry</b>"
+msgstr "<b>ქვეპიქსელის გეომეტრია</b>"
+
+#: ../data/ui/lxappearance.glade.h:41
+msgid "Font"
+msgstr "ფონტი"
+
+#: ../data/ui/lxappearance.glade.h:42
+msgid "Toolbar Style: "
+msgstr "ხელსაწყოების ზოლის სტილი: "
+
+#: ../data/ui/lxappearance.glade.h:43
+msgid "Toolbar Icon Size: "
+msgstr "ხელსაწყოების ზოლის ხატულის ზომა: "
+
+#: ../data/ui/lxappearance.glade.h:44
+msgid "Show images on buttons"
+msgstr "ღილაკებზე გამოსახულებების ჩვენება"
+
+#: ../data/ui/lxappearance.glade.h:45
+msgid "Show images in menus"
+msgstr "მენიუებში გამოსახულებების ჩვენება"
+
+#: ../data/ui/lxappearance.glade.h:46
+msgid "<b>GUI Options</b>"
+msgstr "<b>გრაფიკული ინტერფეისის მორგება</b>"
+
+#: ../data/ui/lxappearance.glade.h:47
+msgid "Keyboard theme:"
+msgstr "კლავიატურის თემა:"
+
+#: ../data/ui/lxappearance.glade.h:48
+msgid "<b>Keyboard Options</b>"
+msgstr "<b>კლავიატურის მორგება</b>"
+
+#: ../data/ui/lxappearance.glade.h:49
+msgid "Play event sounds"
+msgstr "მოვლენის ხმების დაკვრა"
+
+#: ../data/ui/lxappearance.glade.h:50
+msgid "Play event sounds as feedback to user input"
+msgstr "ხმის დაკვრა მომხმარებლის შეყვანის საპასუხოდ"
+
+#: ../data/ui/lxappearance.glade.h:51
+msgid "<b>Sound Effect</b>"
+msgstr "<b>ხმოვანი ეფექტი</b>"
+
+#: ../data/ui/lxappearance.glade.h:52
+msgid "Enable _accessibility in GTK+ applications"
+msgstr "_წვდომადობის ჩართვა GTK+ აპლიკაციებში"
+
+#: ../data/ui/lxappearance.glade.h:53
+msgid "<b>Accessibility</b>"
+msgstr "<b>წვდომადობა</b>"
+
+#: ../data/ui/lxappearance.glade.h:54
+msgid "Other"
+msgstr "სხვა"
+
+#: ../data/ui/lxappearance.glade.h:55
+msgid "None"
+msgstr "არაფერი"
+
+#: ../data/ui/lxappearance.glade.h:56
+msgid "RGB"
+msgstr "RGB"
+
+#: ../data/ui/lxappearance.glade.h:57
+msgid "BGR"
+msgstr "BGR"
+
+#: ../data/ui/lxappearance.glade.h:58
+msgid "VRGB"
+msgstr "VRGB"
+
+#: ../data/ui/lxappearance.glade.h:59
+msgid "VBGR"
+msgstr "VBGR"
+
+#: ../data/ui/lxappearance.glade.h:60
+msgid "Slight"
+msgstr "ოდნავ"
+
+#: ../data/ui/lxappearance.glade.h:61
+msgid "Medium"
+msgstr "საშუალო"
+
+#: ../data/ui/lxappearance.glade.h:62
+msgid "Full"
+msgstr "სრული"
+
+#: ../data/ui/lxappearance.glade.h:63
+msgid "Same as menu items"
+msgstr "იგივე, როგორც მენიუს პუნქტებ"
+
+#: ../data/ui/lxappearance.glade.h:64
+msgid "Small toolbar icon"
+msgstr "პატარა ხელსაწყოების ზოლის ხატულები"
+
+#: ../data/ui/lxappearance.glade.h:65
+msgid "Large toolbar icon"
+msgstr "დიდი ხელსაწყოების ზოლის ხატულები"
+
+#: ../data/ui/lxappearance.glade.h:66
+msgid "Same as buttons"
+msgstr "იგივე, როგორიც ღილაკები"
+
+#: ../data/ui/lxappearance.glade.h:67
+msgid "Same as drag icons"
+msgstr "იგივე, რაც გადათრევადი ღილაკები"
+
+#: ../data/ui/lxappearance.glade.h:68
+msgid "Same as dialogs"
+msgstr "იგივე, რაც ფანჯრები"
+
+#: ../data/ui/lxappearance.glade.h:69
+msgid "Icons only"
+msgstr "მხოლოდ ხატულები"
+
+#: ../data/ui/lxappearance.glade.h:70
+msgid "Text only"
+msgstr "მხოლოდ ტექსტი"
+
+#: ../data/ui/lxappearance.glade.h:71
+msgid "Text below icons"
+msgstr "ტექსტი ხატულის ქვემოთ"
+
+#: ../data/ui/lxappearance.glade.h:72
+msgid "Text beside icons"
+msgstr "ტექსტი ხატულის გვერდზე"
+
+#: ../src/utils.c:216
+msgid "Select an icon theme"
+msgstr "აირჩიეთ ხატულის თემა"
+
+#: ../src/utils.c:223
+msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2 (ხატულების თემა)"
+
+#: ../src/color-scheme.c:299
+msgid ""
+"Setting color scheme is not available without lxsession as session manager."
+msgstr ""
+"ფერების თემის დაყენება მაშინ, როცა სესიების მმართველი lxsession არაა, "
+"ხელმისაწვდომი არაა."
