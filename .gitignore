@@ -10,7 +10,6 @@ m4/
 missing
 po/.intltool-merge-cache
 config.*
-man/*.1
 po/LINGUAS
 po/POTFILES
 po/*.gmo
