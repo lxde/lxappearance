@@ -118,7 +118,9 @@ static gboolean check_lxde_dbus()
 static void check_lxsession()
 {
     GdkDisplay *display = gdk_display_get_default();
+#if GTK_CHECK_VERSION(3, 0, 0)
     if (GDK_IS_X11_DISPLAY(display))
+#endif
     {
         lxsession_atom = XInternAtom( GDK_DISPLAY_XDISPLAY(display), "_LXSESSION", True );
         if( lxsession_atom != None )
