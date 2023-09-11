@@ -12,7 +12,7 @@
   <object class="GtkDialog" id="dlg">
     <property name="can_focus">False</property>
     <property name="border_width">5</property>
-    <property name="title" translatable="yes">Customize Look and Feel</property>
+    <property name="title" translatable="yes" context="Title">Customize Look and Feel</property>
     <property name="default_width">540</property>
     <property name="icon_name">preferences-desktop-theme</property>
     <property name="type_hint">normal</property>
@@ -2025,7 +2025,7 @@
     </columns>
     <data>
       <row>
-        <col id="0" translatable="yes">None</col>
+        <col id="0" translatable="yes" context="Sub-pixel geometry">None</col>
       </row>
       <row>
         <col id="0" translatable="yes">RGB</col>
@@ -2048,7 +2048,7 @@
     </columns>
     <data>
       <row>
-        <col id="0" translatable="yes">None</col>
+        <col id="0" translatable="yes" context="Hinting style">None</col>
       </row>
       <row>
         <col id="0" translatable="yes">Slight</col>
