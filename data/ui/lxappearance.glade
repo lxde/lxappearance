@@ -639,7 +639,7 @@
                                                 <property name="rules_hint">True</property>
                                                 <child>
                                                   <object class="GtkTreeViewColumn" id="treeviewcolumn1">
-                                                    <property name="title">column</property>
+                                                    <property name="title" translatable="yes">column</property>
                                                     <child>
                                                       <object class="GtkCellRendererPixbuf" id="cellrendererpixbuf1"/>
                                                       <attributes>
@@ -650,7 +650,7 @@
                                                 </child>
                                                 <child>
                                                   <object class="GtkTreeViewColumn" id="treeviewcolumn2">
-                                                    <property name="title">column</property>
+                                                    <property name="title" translatable="yes">column</property>
                                                     <child>
                                                       <object class="GtkCellRendererText" id="cellrenderertext6"/>
                                                       <attributes>
