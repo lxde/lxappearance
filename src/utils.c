@@ -19,9 +19,12 @@
  *      MA 02110-1301, USA.
  */
 
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
 #include "utils.h"
 #include "lxappearance.h"
-#include <glib/gi18n.h>
+#include <glib/gi18n-lib.h>
 #include <sys/types.h>
 #include <signal.h>
 #include <sys/wait.h>
