@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-14 18:23+0300\n"
+"POT-Creation-Date: 2023-09-13 09:31+0200\n"
 "PO-Revision-Date: 2018-05-25 11:05+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Pootle 2.8\n"
 "X-POOTLE-MTIME: 1527246349.286634\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
+#: ../data/lxappearance.desktop.in.h:1
 msgid "Customize Look and Feel"
 msgstr "Uiterlijk en bediening aanpassen"
 
@@ -45,6 +45,13 @@ msgid "translator-credits"
 msgstr ""
 "Sander De Voogdt\n"
 "Pjotr (pjotrvertaalt@gmail.com)"
+
+#: ../data/ui/lxappearance.glade.h:1
+#, fuzzy
+#| msgid "Customize Look and Feel"
+msgctxt "Title"
+msgid "Customize Look and Feel"
+msgstr "Uiterlijk en bediening aanpassen"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -83,87 +90,91 @@ msgid "Page1"
 msgstr "Pagina 1"
 
 #: ../data/ui/lxappearance.glade.h:11
+msgid "column"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:12
 msgid "Page2"
 msgstr "Pagina 2"
 
-#: ../data/ui/lxappearance.glade.h:12
+#: ../data/ui/lxappearance.glade.h:13
 msgid "Default font:"
 msgstr "Standaardlettertype:"
 
-#: ../data/ui/lxappearance.glade.h:13
+#: ../data/ui/lxappearance.glade.h:14
 msgid "Widget"
 msgstr "Widget"
 
-#: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
+#: ../data/ui/lxappearance.glade.h:15 ../src/color-scheme.c:312
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr ""
 "Kleurenschema wordt niet ondersteund door het thans gekozen widget-thema."
 
-#: ../data/ui/lxappearance.glade.h:15
+#: ../data/ui/lxappearance.glade.h:16
 msgid "Use customized color scheme"
 msgstr "Gebruik aangepast kleurenschema"
 
-#: ../data/ui/lxappearance.glade.h:16
+#: ../data/ui/lxappearance.glade.h:17
 msgid "Normal windows:"
 msgstr "Normale vensters:"
 
-#: ../data/ui/lxappearance.glade.h:17
+#: ../data/ui/lxappearance.glade.h:18
 msgid "Text windows:"
 msgstr "Tekstvensters:"
 
-#: ../data/ui/lxappearance.glade.h:18
+#: ../data/ui/lxappearance.glade.h:19
 msgid "Selected items:"
 msgstr "Geselecteerde elementen:"
 
-#: ../data/ui/lxappearance.glade.h:19
+#: ../data/ui/lxappearance.glade.h:20
 msgid "Tooltips:"
 msgstr "Gereedschaptips:"
 
-#: ../data/ui/lxappearance.glade.h:20
+#: ../data/ui/lxappearance.glade.h:21
 msgid "Background"
 msgstr "Achtergrond"
 
-#: ../data/ui/lxappearance.glade.h:21
+#: ../data/ui/lxappearance.glade.h:22
 msgid "Foreground"
 msgstr "Voorgrond"
 
-#: ../data/ui/lxappearance.glade.h:22
+#: ../data/ui/lxappearance.glade.h:23
 msgid "Color"
 msgstr "Kleur"
 
-#: ../data/ui/lxappearance.glade.h:23
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Install"
 msgstr "Installeer"
 
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Preview of the selected icon theme"
 msgstr "Vooruitblik van het gekozen pictogramthema"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Icon Theme"
 msgstr "Pictogramthema"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Preview of the selected cursor theme"
 msgstr "Vooruitblik van het gekozen aanwijzerthema"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Size of cursors"
 msgstr "Grootte van aanwijzers"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Smaller"
 msgstr "Kleiner"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.glade.h:31
 msgid "Bigger"
 msgstr "Groter"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.glade.h:32
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -173,179 +184,189 @@ msgstr ""
 "muispijlthema zonder herstart. Dus uw veranderingen hier zouden pas volledig "
 "van kracht kunnen zijn na uw volgende aanmelding."
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Mouse Cursor"
 msgstr "Muispijl"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Window Border"
 msgstr "Vensterrand"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.glade.h:35
 msgid "Enable antialiasing"
 msgstr "Anti-kartelvorming inschakelen"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.glade.h:36
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Anti-kartelvorming</b>"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Enable hinting"
 msgstr "Vormsuggesties inschakelen"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.glade.h:38
 msgid "Hinting style: "
 msgstr "Stijl van vormsuggesties: "
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.glade.h:39
 msgid "<b>Hinting</b>"
 msgstr "<b>Vormsuggesties</b>"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.glade.h:40
 msgid "Sub-pixel geometry: "
 msgstr "Subpixelgeometrie: "
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.glade.h:41
 msgid "<b>Sub-pixel geometry</b>"
 msgstr "<b>Subpixelgeometrie</b>"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Font"
 msgstr "Lettertype"
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
 msgstr "Stijl van werkbalk: "
 
-#: ../data/ui/lxappearance.glade.h:43
+#: ../data/ui/lxappearance.glade.h:44
 msgid "Toolbar Icon Size: "
 msgstr "Grootte van werkbalkpictogram: "
 
-#: ../data/ui/lxappearance.glade.h:44
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Show images on buttons"
 msgstr "Toon afbeeldingen op knoppen"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.glade.h:46
 msgid "Show images in menus"
 msgstr "Toon afbeeldingen in menu's"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.glade.h:47
 msgid "<b>GUI Options</b>"
 msgstr "<b>Opties voor de gebruikersomgeving</b>"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.glade.h:48
 msgid "Keyboard theme:"
 msgstr "Toetsenbordthema:"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.glade.h:49
 msgid "<b>Keyboard Options</b>"
 msgstr "<b>Opties voor toetsenbord</b>"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds"
 msgstr "Speel gebeurtenisgeluiden af"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.glade.h:51
 msgid "Play event sounds as feedback to user input"
 msgstr "Speel gebeurtenisgeluiden af als terugkoppeling op gebruikersinvoer"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.glade.h:52
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Geluideffect</b>"
 
-#: ../data/ui/lxappearance.glade.h:52
+#: ../data/ui/lxappearance.glade.h:53
 msgid "Enable _accessibility in GTK+ applications"
 msgstr "Toegankelijkheid in GTK+ toepassingen"
 
-#: ../data/ui/lxappearance.glade.h:53
+#: ../data/ui/lxappearance.glade.h:54
 msgid "<b>Accessibility</b>"
 msgstr "<b>Toegankelijkheid</b>"
 
-#: ../data/ui/lxappearance.glade.h:54
+#: ../data/ui/lxappearance.glade.h:55
 msgid "Other"
 msgstr "Ander"
 
-#: ../data/ui/lxappearance.glade.h:55
+#: ../data/ui/lxappearance.glade.h:56
+#, fuzzy
+#| msgid "None"
+msgctxt "Sub-pixel geometry"
 msgid "None"
 msgstr "Geen"
 
-#: ../data/ui/lxappearance.glade.h:56
+#: ../data/ui/lxappearance.glade.h:57
 msgid "RGB"
 msgstr "RGB"
 
-#: ../data/ui/lxappearance.glade.h:57
+#: ../data/ui/lxappearance.glade.h:58
 msgid "BGR"
 msgstr "BGR"
 
-#: ../data/ui/lxappearance.glade.h:58
+#: ../data/ui/lxappearance.glade.h:59
 msgid "VRGB"
 msgstr "VRGB"
 
-#: ../data/ui/lxappearance.glade.h:59
+#: ../data/ui/lxappearance.glade.h:60
 msgid "VBGR"
 msgstr "VBGR"
 
-#: ../data/ui/lxappearance.glade.h:60
+#: ../data/ui/lxappearance.glade.h:61
+#, fuzzy
+#| msgid "None"
+msgctxt "Hinting style"
+msgid "None"
+msgstr "Geen"
+
+#: ../data/ui/lxappearance.glade.h:62
 msgid "Slight"
 msgstr "Gering"
 
-#: ../data/ui/lxappearance.glade.h:61
+#: ../data/ui/lxappearance.glade.h:63
 msgid "Medium"
 msgstr "Gemiddeld"
 
-#: ../data/ui/lxappearance.glade.h:62
+#: ../data/ui/lxappearance.glade.h:64
 msgid "Full"
 msgstr "Volledig"
 
-#: ../data/ui/lxappearance.glade.h:63
+#: ../data/ui/lxappearance.glade.h:65
 msgid "Same as menu items"
 msgstr "Zelfde als menu-onderdelen"
 
-#: ../data/ui/lxappearance.glade.h:64
+#: ../data/ui/lxappearance.glade.h:66
 msgid "Small toolbar icon"
 msgstr "Klein werkbalkpictogram"
 
-#: ../data/ui/lxappearance.glade.h:65
+#: ../data/ui/lxappearance.glade.h:67
 msgid "Large toolbar icon"
 msgstr "Groot werkbalkpictogram"
 
-#: ../data/ui/lxappearance.glade.h:66
+#: ../data/ui/lxappearance.glade.h:68
 msgid "Same as buttons"
 msgstr "Zelfde als knoppen"
 
-#: ../data/ui/lxappearance.glade.h:67
+#: ../data/ui/lxappearance.glade.h:69
 msgid "Same as drag icons"
 msgstr "Zelfde als sleep-pictogrammen"
 
-#: ../data/ui/lxappearance.glade.h:68
+#: ../data/ui/lxappearance.glade.h:70
 msgid "Same as dialogs"
 msgstr "Zelfde als dialogen"
 
-#: ../data/ui/lxappearance.glade.h:69
+#: ../data/ui/lxappearance.glade.h:71
 msgid "Icons only"
 msgstr "Alleen pictogrammen"
 
-#: ../data/ui/lxappearance.glade.h:70
+#: ../data/ui/lxappearance.glade.h:72
 msgid "Text only"
 msgstr "Alleen-tekst"
 
-#: ../data/ui/lxappearance.glade.h:71
+#: ../data/ui/lxappearance.glade.h:73
 msgid "Text below icons"
 msgstr "Tekst onder pictogrammen"
 
-#: ../data/ui/lxappearance.glade.h:72
+#: ../data/ui/lxappearance.glade.h:74
 msgid "Text beside icons"
 msgstr "Tekst naast pictogrammen"
 
-#: ../src/utils.c:216
+#: ../src/utils.c:226
 msgid "Select an icon theme"
 msgstr "Kies een pictogramthema"
 
-#: ../src/utils.c:223
+#: ../src/utils.c:233
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (pictogramthema)"
 
-#: ../src/color-scheme.c:299
+#: ../src/color-scheme.c:309
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""

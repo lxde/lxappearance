@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-14 18:23+0300\n"
+"POT-Creation-Date: 2023-09-13 09:31+0200\n"
 "PO-Revision-Date: 2014-12-08 09:25+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1418030706.000000\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
+#: ../data/lxappearance.desktop.in.h:1
 msgid "Customize Look and Feel"
 msgstr "Sérsníða útlit og viðmót"
 
@@ -41,6 +41,13 @@ msgstr "Sérsníður útlit og hegðun skjáborðsins"
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
 msgstr "Sveinn í Felli, sv1@fellsnet.is"
+
+#: ../data/ui/lxappearance.glade.h:1
+#, fuzzy
+#| msgid "Customize Look and Feel"
+msgctxt "Title"
+msgid "Customize Look and Feel"
+msgstr "Sérsníða útlit og viðmót"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -79,86 +86,90 @@ msgid "Page1"
 msgstr "Síða1"
 
 #: ../data/ui/lxappearance.glade.h:11
+msgid "column"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:12
 msgid "Page2"
 msgstr "Síða2"
 
-#: ../data/ui/lxappearance.glade.h:12
+#: ../data/ui/lxappearance.glade.h:13
 msgid "Default font:"
 msgstr "Sjálfgefið letur:"
 
-#: ../data/ui/lxappearance.glade.h:13
+#: ../data/ui/lxappearance.glade.h:14
 msgid "Widget"
 msgstr "Viðmótshluti (widget)"
 
-#: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
+#: ../data/ui/lxappearance.glade.h:15 ../src/color-scheme.c:312
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Litastef eru ekki studd í valda viðmótshlutaþemanu."
 
-#: ../data/ui/lxappearance.glade.h:15
+#: ../data/ui/lxappearance.glade.h:16
 msgid "Use customized color scheme"
 msgstr "Nota sérsniðið litastef"
 
-#: ../data/ui/lxappearance.glade.h:16
+#: ../data/ui/lxappearance.glade.h:17
 msgid "Normal windows:"
 msgstr "Venjulegir gluggar:"
 
-#: ../data/ui/lxappearance.glade.h:17
+#: ../data/ui/lxappearance.glade.h:18
 msgid "Text windows:"
 msgstr "Textagluggar:"
 
-#: ../data/ui/lxappearance.glade.h:18
+#: ../data/ui/lxappearance.glade.h:19
 msgid "Selected items:"
 msgstr "Valin atriði:"
 
-#: ../data/ui/lxappearance.glade.h:19
+#: ../data/ui/lxappearance.glade.h:20
 msgid "Tooltips:"
 msgstr "Vísbendingar áhalda:"
 
-#: ../data/ui/lxappearance.glade.h:20
+#: ../data/ui/lxappearance.glade.h:21
 msgid "Background"
 msgstr "Bakgrunnur"
 
-#: ../data/ui/lxappearance.glade.h:21
+#: ../data/ui/lxappearance.glade.h:22
 msgid "Foreground"
 msgstr "Forgrunnur"
 
-#: ../data/ui/lxappearance.glade.h:22
+#: ../data/ui/lxappearance.glade.h:23
 msgid "Color"
 msgstr "Litur"
 
-#: ../data/ui/lxappearance.glade.h:23
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Install"
 msgstr "Setja upp"
 
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Remove"
 msgstr "Fjarlægja"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Preview of the selected icon theme"
 msgstr "Forskoðun á völdu táknmyndaþema"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Icon Theme"
 msgstr "Táknmyndaþema"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Preview of the selected cursor theme"
 msgstr "Forskoðun á völdu bendilþema"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Size of cursors"
 msgstr "Stærð bendla"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Smaller"
 msgstr "Minni"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.glade.h:31
 msgid "Bigger"
 msgstr "Stærri"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.glade.h:32
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -168,179 +179,189 @@ msgstr ""
 "sisvona. Því gætu þessar breytingar ekki orðið að fullu virkar fyrr en eftir "
 "næstu innskráningu."
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Mouse Cursor"
 msgstr "Músarbendill"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Window Border"
 msgstr "Gluggajaðar"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.glade.h:35
 msgid "Enable antialiasing"
 msgstr "Virkja afstöllun"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.glade.h:36
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Afstöllun</b>"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Enable hinting"
 msgstr "Virkja hnikun"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.glade.h:38
 msgid "Hinting style: "
 msgstr "Aðferð við hnikun: "
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.glade.h:39
 msgid "<b>Hinting</b>"
 msgstr "<b>Hnikun</b>"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.glade.h:40
 msgid "Sub-pixel geometry: "
 msgstr "Lögun atriða minni en mynddíll:"
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.glade.h:41
 msgid "<b>Sub-pixel geometry</b>"
 msgstr "<b>Lögun undir-mynddíl</b>"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Font"
 msgstr "Letur"
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
 msgstr "Stíll verkfærastiku: "
 
-#: ../data/ui/lxappearance.glade.h:43
+#: ../data/ui/lxappearance.glade.h:44
 msgid "Toolbar Icon Size: "
 msgstr "Stærð smátáknmynda á verkfærastiku: "
 
-#: ../data/ui/lxappearance.glade.h:44
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Show images on buttons"
 msgstr "Birta myndir á hnöppum"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.glade.h:46
 msgid "Show images in menus"
 msgstr "Birta myndir í valmyndum"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.glade.h:47
 msgid "<b>GUI Options</b>"
 msgstr "<b>Valkostir í myndrænu viðmóti</b>"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.glade.h:48
 msgid "Keyboard theme:"
 msgstr "Lyklaborðsþema:"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.glade.h:49
 msgid "<b>Keyboard Options</b>"
 msgstr "<b>Valkostir lyklaborðsuppsetningar</b>"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds"
 msgstr "Spila hljóð við atburði"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.glade.h:51
 msgid "Play event sounds as feedback to user input"
 msgstr "Spila hljóð við atburði sem svörun við inntaki frá notanda"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.glade.h:52
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Hljóðbrella</b>"
 
-#: ../data/ui/lxappearance.glade.h:52
+#: ../data/ui/lxappearance.glade.h:53
 msgid "Enable _accessibility in GTK+ applications"
 msgstr "Virkja aukið aðgengi í GTK+ forritum"
 
-#: ../data/ui/lxappearance.glade.h:53
+#: ../data/ui/lxappearance.glade.h:54
 msgid "<b>Accessibility</b>"
 msgstr "<b>Aðgengi</b>"
 
-#: ../data/ui/lxappearance.glade.h:54
+#: ../data/ui/lxappearance.glade.h:55
 msgid "Other"
 msgstr "Annað"
 
-#: ../data/ui/lxappearance.glade.h:55
+#: ../data/ui/lxappearance.glade.h:56
+#, fuzzy
+#| msgid "None"
+msgctxt "Sub-pixel geometry"
 msgid "None"
 msgstr "Ekkert"
 
-#: ../data/ui/lxappearance.glade.h:56
+#: ../data/ui/lxappearance.glade.h:57
 msgid "RGB"
 msgstr "RGB"
 
-#: ../data/ui/lxappearance.glade.h:57
+#: ../data/ui/lxappearance.glade.h:58
 msgid "BGR"
 msgstr "BGR"
 
-#: ../data/ui/lxappearance.glade.h:58
+#: ../data/ui/lxappearance.glade.h:59
 msgid "VRGB"
 msgstr "VRGB"
 
-#: ../data/ui/lxappearance.glade.h:59
+#: ../data/ui/lxappearance.glade.h:60
 msgid "VBGR"
 msgstr "VBGR"
 
-#: ../data/ui/lxappearance.glade.h:60
+#: ../data/ui/lxappearance.glade.h:61
+#, fuzzy
+#| msgid "None"
+msgctxt "Hinting style"
+msgid "None"
+msgstr "Ekkert"
+
+#: ../data/ui/lxappearance.glade.h:62
 msgid "Slight"
 msgstr "Lítið"
 
-#: ../data/ui/lxappearance.glade.h:61
+#: ../data/ui/lxappearance.glade.h:63
 msgid "Medium"
 msgstr "Miðlungs"
 
-#: ../data/ui/lxappearance.glade.h:62
+#: ../data/ui/lxappearance.glade.h:64
 msgid "Full"
 msgstr "Fullt"
 
-#: ../data/ui/lxappearance.glade.h:63
+#: ../data/ui/lxappearance.glade.h:65
 msgid "Same as menu items"
 msgstr "Sama og á valmyndafærslum"
 
-#: ../data/ui/lxappearance.glade.h:64
+#: ../data/ui/lxappearance.glade.h:66
 msgid "Small toolbar icon"
 msgstr "Smáar táknmyndir á verkfærastiku"
 
-#: ../data/ui/lxappearance.glade.h:65
+#: ../data/ui/lxappearance.glade.h:67
 msgid "Large toolbar icon"
 msgstr "Stórar táknmyndir á verkfærastiku"
 
-#: ../data/ui/lxappearance.glade.h:66
+#: ../data/ui/lxappearance.glade.h:68
 msgid "Same as buttons"
 msgstr "Sama og á hnöppum"
 
-#: ../data/ui/lxappearance.glade.h:67
+#: ../data/ui/lxappearance.glade.h:69
 msgid "Same as drag icons"
 msgstr "Sama og á táknmyndum í drætti"
 
-#: ../data/ui/lxappearance.glade.h:68
+#: ../data/ui/lxappearance.glade.h:70
 msgid "Same as dialogs"
 msgstr "Sama og á samskiptagluggum"
 
-#: ../data/ui/lxappearance.glade.h:69
+#: ../data/ui/lxappearance.glade.h:71
 msgid "Icons only"
 msgstr "Aðeins táknmyndir"
 
-#: ../data/ui/lxappearance.glade.h:70
+#: ../data/ui/lxappearance.glade.h:72
 msgid "Text only"
 msgstr "Aðeins texti"
 
-#: ../data/ui/lxappearance.glade.h:71
+#: ../data/ui/lxappearance.glade.h:73
 msgid "Text below icons"
 msgstr "Texti fyrir neðan táknmyndir"
 
-#: ../data/ui/lxappearance.glade.h:72
+#: ../data/ui/lxappearance.glade.h:74
 msgid "Text beside icons"
 msgstr "Texti við hliðina á táknmyndum"
 
-#: ../src/utils.c:216
+#: ../src/utils.c:226
 msgid "Select an icon theme"
 msgstr "Veldu táknmyndaþema"
 
-#: ../src/utils.c:223
+#: ../src/utils.c:233
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (táknmyndaþema)"
 
-#: ../src/color-scheme.c:299
+#: ../src/color-scheme.c:309
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr ""

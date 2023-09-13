@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-14 18:23+0300\n"
+"POT-Creation-Date: 2023-09-13 09:31+0200\n"
 "PO-Revision-Date: 2015-05-01 20:48+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1430513309.000000\n"
 
-#: ../data/lxappearance.desktop.in.h:1 ../data/ui/lxappearance.glade.h:1
+#: ../data/lxappearance.desktop.in.h:1
 msgid "Customize Look and Feel"
 msgstr "Pertsonalizatu itxura eta izaera"
 
@@ -43,6 +43,13 @@ msgstr "Zure mahaigainaren itxura eta izaera pertsonalizatzen ditu"
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
 msgstr "Asier Iturralde Sarasola <asier.iturralde@gmail.com>"
+
+#: ../data/ui/lxappearance.glade.h:1
+#, fuzzy
+#| msgid "Customize Look and Feel"
+msgctxt "Title"
+msgid "Customize Look and Feel"
+msgstr "Pertsonalizatu itxura eta izaera"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -81,86 +88,90 @@ msgid "Page1"
 msgstr "Orrialdea1"
 
 #: ../data/ui/lxappearance.glade.h:11
+msgid "column"
+msgstr ""
+
+#: ../data/ui/lxappearance.glade.h:12
 msgid "Page2"
 msgstr "Orrialdea2"
 
-#: ../data/ui/lxappearance.glade.h:12
+#: ../data/ui/lxappearance.glade.h:13
 msgid "Default font:"
 msgstr "Letra-tipo lehenetsia:"
 
-#: ../data/ui/lxappearance.glade.h:13
+#: ../data/ui/lxappearance.glade.h:14
 msgid "Widget"
 msgstr "Trepeta"
 
-#: ../data/ui/lxappearance.glade.h:14 ../src/color-scheme.c:302
+#: ../data/ui/lxappearance.glade.h:15 ../src/color-scheme.c:312
 msgid "Color scheme is not supported by currently selected widget theme."
 msgstr "Unean hautatutako trepetaren gaiak ez du onartzen kolore-eskemarik"
 
-#: ../data/ui/lxappearance.glade.h:15
+#: ../data/ui/lxappearance.glade.h:16
 msgid "Use customized color scheme"
 msgstr "Erabili kolore-eskema pertsonalizatua"
 
-#: ../data/ui/lxappearance.glade.h:16
+#: ../data/ui/lxappearance.glade.h:17
 msgid "Normal windows:"
 msgstr "Leiho normalak:"
 
-#: ../data/ui/lxappearance.glade.h:17
+#: ../data/ui/lxappearance.glade.h:18
 msgid "Text windows:"
 msgstr "Testu leihoak:"
 
-#: ../data/ui/lxappearance.glade.h:18
+#: ../data/ui/lxappearance.glade.h:19
 msgid "Selected items:"
 msgstr "Hautatutako elementuak:"
 
-#: ../data/ui/lxappearance.glade.h:19
+#: ../data/ui/lxappearance.glade.h:20
 msgid "Tooltips:"
 msgstr "Argibideak:"
 
-#: ../data/ui/lxappearance.glade.h:20
+#: ../data/ui/lxappearance.glade.h:21
 msgid "Background"
 msgstr "Atzeko planoa"
 
-#: ../data/ui/lxappearance.glade.h:21
+#: ../data/ui/lxappearance.glade.h:22
 msgid "Foreground"
 msgstr "Aurreko planoa"
 
-#: ../data/ui/lxappearance.glade.h:22
+#: ../data/ui/lxappearance.glade.h:23
 msgid "Color"
 msgstr "Kolorea"
 
-#: ../data/ui/lxappearance.glade.h:23
+#: ../data/ui/lxappearance.glade.h:24
 msgid "Install"
 msgstr "Instalatu"
 
-#: ../data/ui/lxappearance.glade.h:24
+#: ../data/ui/lxappearance.glade.h:25
 msgid "Remove"
 msgstr "Kendu"
 
-#: ../data/ui/lxappearance.glade.h:25
+#: ../data/ui/lxappearance.glade.h:26
 msgid "Preview of the selected icon theme"
 msgstr "Hautatutako ikonoen gaiaren aurrebista"
 
-#: ../data/ui/lxappearance.glade.h:26
+#: ../data/ui/lxappearance.glade.h:27
 msgid "Icon Theme"
 msgstr "Ikonoen gaia"
 
-#: ../data/ui/lxappearance.glade.h:27
+#: ../data/ui/lxappearance.glade.h:28
 msgid "Preview of the selected cursor theme"
 msgstr "Hautatutako kurtsorearen gaiaren aurrebista"
 
-#: ../data/ui/lxappearance.glade.h:28
+#: ../data/ui/lxappearance.glade.h:29
 msgid "Size of cursors"
 msgstr "Kurtsoreen tamaina"
 
-#: ../data/ui/lxappearance.glade.h:29
+#: ../data/ui/lxappearance.glade.h:30
 msgid "Smaller"
 msgstr "Txikiagoa"
 
-#: ../data/ui/lxappearance.glade.h:30
+#: ../data/ui/lxappearance.glade.h:31
 msgid "Bigger"
 msgstr "Handiagoa"
 
-#: ../data/ui/lxappearance.glade.h:31
+#: ../data/ui/lxappearance.glade.h:32
 msgid ""
 "<b>Note:</b> Not all of the desktop applications support changing cursor "
 "theme on-the-fly. So your changes here might not be fully applied to all "
@@ -170,180 +181,190 @@ msgstr ""
 "kurtsorearen gaia aldatzea. Hori dela eta, beharbada, egindako aldaketek ez "
 "dute aplikazio guztietan eraginik izango hurrengo saio hasiera arte."
 
-#: ../data/ui/lxappearance.glade.h:32
+#: ../data/ui/lxappearance.glade.h:33
 msgid "Mouse Cursor"
 msgstr "Sagu kurtsorea"
 
-#: ../data/ui/lxappearance.glade.h:33
+#: ../data/ui/lxappearance.glade.h:34
 msgid "Window Border"
 msgstr "Leiho-ertza"
 
-#: ../data/ui/lxappearance.glade.h:34
+#: ../data/ui/lxappearance.glade.h:35
 msgid "Enable antialiasing"
 msgstr "Gaitu antialiasing-a"
 
-#: ../data/ui/lxappearance.glade.h:35
+#: ../data/ui/lxappearance.glade.h:36
 msgid "<b>Antialiasing</b>"
 msgstr "<b>Antialising-a</b>"
 
-#: ../data/ui/lxappearance.glade.h:36
+#: ../data/ui/lxappearance.glade.h:37
 msgid "Enable hinting"
 msgstr "Gaitu optimizazioa"
 
-#: ../data/ui/lxappearance.glade.h:37
+#: ../data/ui/lxappearance.glade.h:38
 msgid "Hinting style: "
 msgstr "Optimizazio-estiloa: "
 
-#: ../data/ui/lxappearance.glade.h:38
+#: ../data/ui/lxappearance.glade.h:39
 msgid "<b>Hinting</b>"
 msgstr "<b>Optimizazioa</b>"
 
-#: ../data/ui/lxappearance.glade.h:39
+#: ../data/ui/lxappearance.glade.h:40
 msgid "Sub-pixel geometry: "
 msgstr "Azpi-pixelen geometria: "
 
-#: ../data/ui/lxappearance.glade.h:40
+#: ../data/ui/lxappearance.glade.h:41
 msgid "<b>Sub-pixel geometry</b>"
 msgstr "<b>Azpi-pixelen geometria</b>"
 
-#: ../data/ui/lxappearance.glade.h:41
+#: ../data/ui/lxappearance.glade.h:42
 msgid "Font"
 msgstr "Letra-tipoa"
 
-#: ../data/ui/lxappearance.glade.h:42
+#: ../data/ui/lxappearance.glade.h:43
 msgid "Toolbar Style: "
 msgstr "Tresna-barra estiloa: "
 
-#: ../data/ui/lxappearance.glade.h:43
+#: ../data/ui/lxappearance.glade.h:44
 msgid "Toolbar Icon Size: "
 msgstr "Tresna-barra ikonoaren tamaina: "
 
-#: ../data/ui/lxappearance.glade.h:44
+#: ../data/ui/lxappearance.glade.h:45
 msgid "Show images on buttons"
 msgstr "Erakutsi irudiak botoietan"
 
-#: ../data/ui/lxappearance.glade.h:45
+#: ../data/ui/lxappearance.glade.h:46
 msgid "Show images in menus"
 msgstr "Erakutsi irudiak menuetan"
 
-#: ../data/ui/lxappearance.glade.h:46
+#: ../data/ui/lxappearance.glade.h:47
 msgid "<b>GUI Options</b>"
 msgstr "<b>GUI aukerak</b>"
 
-#: ../data/ui/lxappearance.glade.h:47
+#: ../data/ui/lxappearance.glade.h:48
 msgid "Keyboard theme:"
 msgstr "Teklatuaren gaia:"
 
-#: ../data/ui/lxappearance.glade.h:48
+#: ../data/ui/lxappearance.glade.h:49
 msgid "<b>Keyboard Options</b>"
 msgstr "<b>Teklatuaren aukerak</b>"
 
-#: ../data/ui/lxappearance.glade.h:49
+#: ../data/ui/lxappearance.glade.h:50
 msgid "Play event sounds"
 msgstr "Erreproduzitu gertaeren soinuak"
 
-#: ../data/ui/lxappearance.glade.h:50
+#: ../data/ui/lxappearance.glade.h:51
 msgid "Play event sounds as feedback to user input"
 msgstr ""
 "Erreproduzitu gertaera-soinuak erabiltzailearen sarreren erantzun bezala"
 
-#: ../data/ui/lxappearance.glade.h:51
+#: ../data/ui/lxappearance.glade.h:52
 msgid "<b>Sound Effect</b>"
 msgstr "<b>Soinu-efektuak</b>"
 
-#: ../data/ui/lxappearance.glade.h:52
+#: ../data/ui/lxappearance.glade.h:53
 msgid "Enable _accessibility in GTK+ applications"
 msgstr "Gaitu _erabilerraztasuna GTK+ aplikazioetan"
 
-#: ../data/ui/lxappearance.glade.h:53
+#: ../data/ui/lxappearance.glade.h:54
 msgid "<b>Accessibility</b>"
 msgstr "<b>Erabilerraztasuna</b>"
 
-#: ../data/ui/lxappearance.glade.h:54
+#: ../data/ui/lxappearance.glade.h:55
 msgid "Other"
 msgstr "Besteak"
 
-#: ../data/ui/lxappearance.glade.h:55
+#: ../data/ui/lxappearance.glade.h:56
+#, fuzzy
+#| msgid "None"
+msgctxt "Sub-pixel geometry"
 msgid "None"
 msgstr "Bat ere ez"
 
-#: ../data/ui/lxappearance.glade.h:56
+#: ../data/ui/lxappearance.glade.h:57
 msgid "RGB"
 msgstr "RGB"
 
-#: ../data/ui/lxappearance.glade.h:57
+#: ../data/ui/lxappearance.glade.h:58
 msgid "BGR"
 msgstr "BGR"
 
-#: ../data/ui/lxappearance.glade.h:58
+#: ../data/ui/lxappearance.glade.h:59
 msgid "VRGB"
 msgstr "VRGB"
 
-#: ../data/ui/lxappearance.glade.h:59
+#: ../data/ui/lxappearance.glade.h:60
 msgid "VBGR"
 msgstr "VBGR"
 
-#: ../data/ui/lxappearance.glade.h:60
+#: ../data/ui/lxappearance.glade.h:61
+#, fuzzy
+#| msgid "None"
+msgctxt "Hinting style"
+msgid "None"
+msgstr "Bat ere ez"
+
+#: ../data/ui/lxappearance.glade.h:62
 msgid "Slight"
 msgstr "Txikia"
 
-#: ../data/ui/lxappearance.glade.h:61
+#: ../data/ui/lxappearance.glade.h:63
 msgid "Medium"
 msgstr "Ertaina"
 
-#: ../data/ui/lxappearance.glade.h:62
+#: ../data/ui/lxappearance.glade.h:64
 msgid "Full"
 msgstr "Osoa"
 
-#: ../data/ui/lxappearance.glade.h:63
+#: ../data/ui/lxappearance.glade.h:65
 msgid "Same as menu items"
 msgstr "Menu elementuen berdina"
 
-#: ../data/ui/lxappearance.glade.h:64
+#: ../data/ui/lxappearance.glade.h:66
 msgid "Small toolbar icon"
 msgstr "Tresna-barrako ikono txikia"
 
-#: ../data/ui/lxappearance.glade.h:65
+#: ../data/ui/lxappearance.glade.h:67
 msgid "Large toolbar icon"
 msgstr "Tresna-barrako ikono handia"
 
-#: ../data/ui/lxappearance.glade.h:66
+#: ../data/ui/lxappearance.glade.h:68
 msgid "Same as buttons"
 msgstr "Botoien berdina"
 
-#: ../data/ui/lxappearance.glade.h:67
+#: ../data/ui/lxappearance.glade.h:69
 msgid "Same as drag icons"
 msgstr "Arrastatze-ikonoen berdina"
 
-#: ../data/ui/lxappearance.glade.h:68
+#: ../data/ui/lxappearance.glade.h:70
 msgid "Same as dialogs"
 msgstr "Elkarrizketa-koadroen berdina"
 
-#: ../data/ui/lxappearance.glade.h:69
+#: ../data/ui/lxappearance.glade.h:71
 msgid "Icons only"
 msgstr "Ikonoak soilik"
 
-#: ../data/ui/lxappearance.glade.h:70
+#: ../data/ui/lxappearance.glade.h:72
 msgid "Text only"
 msgstr "Testua soilik"
 
-#: ../data/ui/lxappearance.glade.h:71
+#: ../data/ui/lxappearance.glade.h:73
 msgid "Text below icons"
 msgstr "Testua ikonoen azpian"
 
-#: ../data/ui/lxappearance.glade.h:72
+#: ../data/ui/lxappearance.glade.h:74
 msgid "Text beside icons"
 msgstr "Testua ikonoen ondoan"
 
-#: ../src/utils.c:216
+#: ../src/utils.c:226
 msgid "Select an icon theme"
 msgstr "Hautatu ikonoen gai bat"
 
-#: ../src/utils.c:223
+#: ../src/utils.c:233
 msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
 msgstr "*.tar.gz, *.tar.bz2 (Ikonoen gaia)"
 
-#: ../src/color-scheme.c:299
+#: ../src/color-scheme.c:309
 msgid ""
 "Setting color scheme is not available without lxsession as session manager."
 msgstr "Ezin da kolore-eskema ezarri lxsession ez bada saio-kudeatzailea."
