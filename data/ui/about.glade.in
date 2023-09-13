@@ -7,10 +7,10 @@
     <property name="program_name">LXAppearance</property>
     <property name="version">@VERSION@</property>
     <property name="logo_icon_name">preferences-desktop-theme</property>
-    <property name="copyright" translatable="yes">Copyright (C) 2008-2014 LXDE Project</property>
+    <property name="copyright" translatable="yes">Copyright (C) 2008-2023 LXDE Project</property>
     <property name="comments" translatable="yes">Customizes look and feel of your desktop</property>
     <property name="website">http://lxde.org/</property>
-    <property name="license">Copyright (C) 2008-2014 LXDE Team
+    <property name="license">Copyright (C) 2008-2023 LXDE Team
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

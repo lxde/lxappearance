@@ -33,8 +33,8 @@ msgstr ""
 "illinger;tema;stil;udseende;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Ophavsret (C) 2008-2014 LXDE-projektet"
+msgid "Copyright (C) 2008-2023 LXDE Project"
+msgstr "Ophavsret (C) 2008-2023 LXDE-projektet"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

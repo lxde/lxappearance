@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../data/ui/about.glade.in.h:1
 #, fuzzy
-msgid "Copyright (C) 2008-2014 LXDE Project"
+msgid "Copyright (C) 2008-2023 LXDE Project"
 msgstr "LIks-DE projekat — 2011. Neka prava su zadržana."
 
 #: ../data/ui/about.glade.in.h:2

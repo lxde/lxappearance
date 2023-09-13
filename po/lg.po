@@ -31,9 +31,9 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr "madirisa;nteekateeka;butegeke;lulyo;ndabika;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2014 LXDE Project"
+msgid "Copyright (C) 2008-2023 LXDE Project"
 msgstr ""
-"Obuyinza bw'ebikugizo eby'obwa nannyini (C) 2008-2014 bwa bawandisi ba LXDE"
+"Obuyinza bw'ebikugizo eby'obwa nannyini (C) 2008-2023 bwa bawandisi ba LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

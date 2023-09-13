@@ -31,8 +31,8 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr "pencereler;tercihler;ayarlar;tema;biçem;görünüm;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Telif Hakkı (C) 2008-2014 LXDE Projesi"
+msgid "Copyright (C) 2008-2023 LXDE Project"
+msgstr "Telif Hakkı (C) 2008-2023 LXDE Projesi"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

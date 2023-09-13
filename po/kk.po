@@ -33,8 +33,8 @@ msgstr ""
 "лар;тема;стиль;сыртқы түрі;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "Құқықтары қорғалған (C) 2008-2014 LXDE жобасы"
+msgid "Copyright (C) 2008-2023 LXDE Project"
+msgstr "Құқықтары қорғалған (C) 2008-2023 LXDE жобасы"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

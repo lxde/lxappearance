@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../data/ui/about.glade.in.h:1
 #, fuzzy
-msgid "Copyright (C) 2008-2014 LXDE Project"
+msgid "Copyright (C) 2008-2023 LXDE Project"
 msgstr "Copyright © 2012 LXDE Project"
 
 #: ../data/ui/about.glade.in.h:2

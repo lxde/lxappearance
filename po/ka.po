@@ -32,8 +32,8 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr "ფანჯრები;მორგება;თემა;სტილი;გარეგნობა;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2014 LXDE Project"
-msgstr "(C) 2008-2014 LXDE Project, ყველა უფლება დაცულია"
+msgid "Copyright (C) 2008-2023 LXDE Project"
+msgstr "(C) 2008-2023 LXDE Project, ყველა უფლება დაცულია"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
