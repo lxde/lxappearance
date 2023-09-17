@@ -8,3 +8,4 @@ Name: lxappearance
 Description: Tool used to customize look and feel of gtk+ applications.
 Requires: @gtk_modules@
 Version: @VERSION@
+Cflags: -I${includedir}
