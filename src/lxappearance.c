@@ -32,6 +32,7 @@
 #include <X11/X.h>
 #include <X11/Xatom.h>
 #include <X11/Xlib.h>
+#include <cairo/cairo-xlib.h>
 #include <gdk/gdkx.h>
 #include <string.h>
 
