@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-13 09:31+0200\n"
-"PO-Revision-Date: 2024-06-12 13:40+0000\n"
+"PO-Revision-Date: 2024-07-22 13:40+0000\n"
 "Last-Translator: marcelocripe <marcelocripe@gmail.com>\n"
 "Language-Team: Brazilian Porguese \n"
 "Language: pt_BR\n"
@@ -64,7 +64,7 @@ msgstr "Tradutores voluntários do idioma português do Brasil - ‘pt_BR’:\n\
 "Henrique P. Machado <hpmachado@gnome.org>, 2008-2010.\n"
 "marcelocripe <marcelocripe@gmail.com>, 2022-2024.\n"
 "Og Maciel <ogmaciel@gnome.org>, 2009.\n"
-"Sérgio B. Cipolla <secipolla@gmail.com>, 2010-2011.\n"
+"Sérgio B. Cipolla <secipolla@gmail.com>, 2010-2011."
 
 #: ../data/ui/lxappearance.glade.h:1
 #, fuzzy
@@ -203,8 +203,8 @@ msgstr ""
 "<b>Observação:</b> Nem todos os programas que são executados na área de "
 "trabalho são compatíveis com as alterações do tema do cursor em tempo real. "
 "Portanto, as alterações realizadas aqui podem não ser aplicadas em todos os "
-"programas até próxima vez que a sessão for iniciada."
-
+"programas e só serão aplicadas quando a sessão for reiniciada."
+               
 #: ../data/ui/lxappearance.glade.h:33
 msgid "Mouse Cursor"
 msgstr "Tema do Cursor"
