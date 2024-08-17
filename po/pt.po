@@ -2,14 +2,14 @@
 # Copyright (C) 2010 The LXAPPEARANCE Copyright Holder.
 # This file is distributed under the same license as the LXAPPEARANCE package.
 # Sérgio Marques <smarquespt@gmail.com>, 2010-2013.
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023, 2024.
 # Adaptado ao acordo ortográfico de 1990
 msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-13 09:31+0200\n"
-"PO-Revision-Date: 2023-08-01 15:28+0100\n"
+"PO-Revision-Date: 2024-08-17 14:25+0100\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-POOTLE-MTIME: 1427376697.000000\n"
 
 #: ../data/lxappearance.desktop.in.h:1
@@ -48,8 +48,6 @@ msgstr ""
 "Hugo Carvalho <hugokarvalho@hotmail.com>"
 
 #: ../data/ui/lxappearance.glade.h:1
-#, fuzzy
-#| msgid "Customize Look and Feel"
 msgctxt "Title"
 msgid "Customize Look and Feel"
 msgstr "Personalizar aspeto e comportamento"
@@ -92,7 +90,7 @@ msgstr "Página1"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "column"
-msgstr ""
+msgstr "coluna"
 
 #: ../data/ui/lxappearance.glade.h:12
 msgid "Page2"
@@ -277,8 +275,6 @@ msgid "Other"
 msgstr "Outros"
 
 #: ../data/ui/lxappearance.glade.h:56
-#, fuzzy
-#| msgid "None"
 msgctxt "Sub-pixel geometry"
 msgid "None"
 msgstr "Nenhuma"
@@ -300,8 +296,6 @@ msgid "VBGR"
 msgstr "VBGR"
 
 #: ../data/ui/lxappearance.glade.h:61
-#, fuzzy
-#| msgid "None"
 msgctxt "Hinting style"
 msgid "None"
 msgstr "Nenhuma"
