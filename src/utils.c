@@ -147,6 +147,8 @@ _failed:
         argv[1] = "--gzip";
     else if(g_str_has_suffix(package_path, ".tar.bz2"))
         argv[1] = "--bzip2";
+    else if(g_str_has_suffix(package_path, ".tar.xz"))
+        argv[1] = "--xz";
     else /* the file format is not supported */
         goto _out;
 
@@ -230,7 +232,8 @@ gboolean install_icon_theme(GtkWindow* parent)
     gtk_window_set_transient_for(GTK_WINDOW(fc), GTK_WINDOW(app.dlg));
     gtk_file_filter_add_pattern( filter, "*.tar.gz" );
     gtk_file_filter_add_pattern( filter, "*.tar.bz2" );
-    gtk_file_filter_set_name( filter, _("*.tar.gz, *.tar.bz2 (Icon Theme)") );
+    gtk_file_filter_add_pattern( filter, "*.tar.xz" );
+    gtk_file_filter_set_name( filter, _("*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)") );
 
     gtk_file_chooser_add_filter( GTK_FILE_CHOOSER(fc), filter );
     gtk_file_chooser_set_filter( GTK_FILE_CHOOSER(fc), filter );
