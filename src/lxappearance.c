@@ -36,7 +36,9 @@
 #include <string.h>
 
 #if ENABLE_DBUS
+#if !GLIB_CHECK_VERSION(2, 26, 0)
 #include <dbus/dbus.h>
+#endif
 #endif
 
 #include "widget-theme.h"
@@ -58,6 +60,7 @@ static const char* lxsession_name = NULL;
 
 static gboolean check_lxde_dbus()
 {
+#if ENABLE_DBUS
 #if GLIB_CHECK_VERSION(2, 26, 0)
     GError *error = NULL;
     GDBusConnection * connection = g_bus_get_sync(G_BUS_TYPE_SESSION, NULL, &error);
@@ -89,7 +92,7 @@ static gboolean check_lxde_dbus()
     {
         return FALSE;
     }
-#elif ENABLE_DBUS
+#else
     DBusError error;
     dbus_error_init(&error);
     DBusConnection * connection = dbus_bus_get(DBUS_BUS_SESSION, &error);
@@ -110,6 +113,7 @@ static gboolean check_lxde_dbus()
     {
         return FALSE;
     }
+#endif
 #else
     return FALSE;
 #endif

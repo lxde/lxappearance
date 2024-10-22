@@ -69,14 +69,15 @@ AC_SUBST(GTK_LIBS)
 
 AC_ARG_ENABLE(dbus,
        [AS_HELP_STRING([--enable-dbus],
-               [Use Dbus-glib support (deprecated now) @<:@default=no@:>@])],
+               [Use D-Bus support @<:@default=auto@:>@])],
        [enable_dbus="${enableval}"],
-       [enable_dbus=no]
+       [enable_dbus=yes]
 )
 
 
 if test x"$enable_dbus" = x"yes"; then
-       PKG_CHECK_MODULES(DBUS, [dbus-1 >= 0.95])
+       PKG_CHECK_EXISTS([glib-2.0 >= 2.26.0],,
+              [PKG_CHECK_MODULES(DBUS, [dbus-1 >= 0.95])])
        CFLAGS="$CFLAGS -DENABLE_DBUS"
 fi
 AC_SUBST(DBUS_CFLAGS)
@@ -178,7 +179,7 @@ echo
 echo lxappearance....................... : Version $VERSION
 echo
 echo Enable debug....................: "$enable_debug"
-echo Enable Dbus-glib support........: "$enable_dbus"
+echo Enable D-Bus support............: "$enable_dbus"
 echo Prefix..........................: $prefix
 echo
 echo The binary will be installed in $prefix/bin
