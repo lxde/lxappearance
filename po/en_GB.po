@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:31+0200\n"
+"POT-Creation-Date: 2024-10-22 14:54+0200\n"
 "PO-Revision-Date: 2015-08-17 01:28+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: en_GB <LL@li.org>\n"
@@ -359,13 +359,13 @@ msgstr "Text below icons"
 msgid "Text beside icons"
 msgstr "Text beside icons"
 
-#: ../src/utils.c:226
+#: ../src/utils.c:228
 msgid "Select an icon theme"
 msgstr "Select an icon theme"
 
-#: ../src/utils.c:233
-msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Icon Theme)"
+#: ../src/utils.c:236
+msgid "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
 
 #: ../src/color-scheme.c:309
 msgid ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:31+0200\n"
+"POT-Creation-Date: 2024-10-22 14:54+0200\n"
 "PO-Revision-Date: 2014-11-17 16:38+0000\n"
 "Last-Translator: Giorgos Siafis <geosiafis@yahoo.gr>\n"
 "Language-Team: Greek\n"
@@ -360,13 +360,13 @@ msgstr "Κείμενο κάτω από τις εικόνες"
 msgid "Text beside icons"
 msgstr "Κείμενο πάνω από τις εικόνες"
 
-#: ../src/utils.c:226
+#: ../src/utils.c:228
 msgid "Select an icon theme"
 msgstr "Επιλέξτε ένα θέμα εικονιδίων"
 
-#: ../src/utils.c:233
-msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (θέμα εικονιδίων)"
+#: ../src/utils.c:236
+msgid "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (θέμα εικονιδίων)"
 
 #: ../src/color-scheme.c:309
 msgid ""

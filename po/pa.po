@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:31+0200\n"
+"POT-Creation-Date: 2024-10-22 14:54+0200\n"
 "PO-Revision-Date: 2015-08-17 01:28+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -357,13 +357,13 @@ msgstr "ਆਈਕਾਨ ਹੇਠ ਟੈਕਸਟ"
 msgid "Text beside icons"
 msgstr "ਆਈਕਾਨ ਨਾਲ ਟੈਕਸਟ"
 
-#: ../src/utils.c:226
+#: ../src/utils.c:228
 msgid "Select an icon theme"
 msgstr "ਇੱਕ ਆਈਕਾਨ ਥੀਮ ਚੁਣੋ"
 
-#: ../src/utils.c:233
-msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (ਆਈਕਾਨ ਥੀਮ)"
+#: ../src/utils.c:236
+msgid "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (ਆਈਕਾਨ ਥੀਮ)"
 
 #: ../src/color-scheme.c:309
 msgid ""

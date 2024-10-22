@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxappearance 0.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:31+0200\n"
+"POT-Creation-Date: 2024-10-22 14:54+0200\n"
 "PO-Revision-Date: 2017-05-25 07:04+0000\n"
 "Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: polski <>\n"
@@ -357,13 +357,13 @@ msgstr "Tekst poniżej ikon"
 msgid "Text beside icons"
 msgstr "Tekst obok ikon"
 
-#: ../src/utils.c:226
+#: ../src/utils.c:228
 msgid "Select an icon theme"
 msgstr "Wybór motywu ikon"
 
-#: ../src/utils.c:233
-msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (zestawy ikon)"
+#: ../src/utils.c:236
+msgid "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (zestawy ikon)"
 
 #: ../src/color-scheme.c:309
 msgid ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:31+0200\n"
+"POT-Creation-Date: 2024-10-22 14:54+0200\n"
 "PO-Revision-Date: 2017-10-02 07:06+0000\n"
 "Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -355,13 +355,13 @@ msgstr "Tekst ispod ikona"
 msgid "Text beside icons"
 msgstr "Tekst uz ikone"
 
-#: ../src/utils.c:226
+#: ../src/utils.c:228
 msgid "Select an icon theme"
 msgstr "Odaberi temu ikone"
 
-#: ../src/utils.c:233
-msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Tema ikone)"
+#: ../src/utils.c:236
+msgid "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (Tema ikone)"
 
 #: ../src/color-scheme.c:309
 msgid ""

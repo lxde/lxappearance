@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LXAppearance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 09:31+0200\n"
+"POT-Creation-Date: 2024-10-22 14:54+0200\n"
 "PO-Revision-Date: 2015-03-26 21:14+0000\n"
 "Last-Translator: Pavel Fric <pavelfric@seznam.cz>\n"
 "Language-Team: Czech <radek@fastlinux.eu>\n"
@@ -354,13 +354,13 @@ msgstr "Text pod ikonami"
 msgid "Text beside icons"
 msgstr "Text vedle ikon"
 
-#: ../src/utils.c:226
+#: ../src/utils.c:228
 msgid "Select an icon theme"
 msgstr "Vyberte motiv ikon"
 
-#: ../src/utils.c:233
-msgid "*.tar.gz, *.tar.bz2 (Icon Theme)"
-msgstr "*.tar.gz, *.tar.bz2 (Motiv ikon)"
+#: ../src/utils.c:236
+msgid "*.tar.gz, *.tar.bz2, *.tar.xz (Icon Theme)"
+msgstr "*.tar.gz, *.tar.bz2, *.tar.xz (Motiv ikon)"
 
 #: ../src/color-scheme.c:309
 msgid ""
