@@ -36,7 +36,11 @@ static GSList* load_themes_in_dir(const char* theme_dir, GSList* themes)
             if(!g_slist_find_custom(themes, name, (GCompareFunc)strcmp))
             {
                 /* test if this is a gtk theme */
+#if GTK_CHECK_VERSION(3, 0, 0)
+                char* gtkrc = g_build_filename(theme_dir, name, "gtk-3.0/gtk.css", NULL);
+#else
                 char* gtkrc = g_build_filename(theme_dir, name, "gtk-2.0/gtkrc", NULL);
+#endif
                 if(g_file_test(gtkrc, G_FILE_TEST_EXISTS))
                     themes = g_slist_prepend(themes, g_strdup(name));
                 g_free(gtkrc);
