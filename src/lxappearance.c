@@ -283,6 +283,8 @@ static void lxappearance_save_gtkrc()
         "GTK_ICON_SIZE_DIALOG"
     };
 
+#if !GTK_CHECK_VERSION(3, 0, 0)
+
     char **gtkrc_files = gtk_rc_get_default_files();
     char *file_path = NULL;
     GString* content = g_string_sized_new(512);
@@ -376,9 +378,11 @@ static void lxappearance_save_gtkrc()
     else
         g_file_set_contents(gtkrc_files[0], content->str, content->len, NULL);
 
-    /* Save also in GTK3 folder
-       Content shold be different from the gtk2 one
-    */
+    g_string_free(content, TRUE);
+    g_free(file_path);
+
+#else
+
     GKeyFile *content_gtk3 = g_key_file_new();
     char* file_path_gtk3 = g_build_filename(g_get_user_config_dir(), "gtk-3.0", NULL);
     char* file_path_settings = g_build_filename(file_path_gtk3, "settings.ini", NULL);
@@ -415,12 +419,10 @@ static void lxappearance_save_gtkrc()
                            "gtk-button-images", app.button_images ? 1 : 0);
     g_key_file_set_integer(content_gtk3, "Settings",
                            "gtk-menu-images", app.menu_images ? 1 : 0);
-#if GTK_CHECK_VERSION(2, 14, 0)
     g_key_file_set_integer(content_gtk3, "Settings",
                            "gtk-enable-event-sounds", app.enable_event_sound ? 1 : 0);
     g_key_file_set_integer(content_gtk3, "Settings",
                            "gtk-enable-input-feedback-sounds", app.enable_input_feedback ? 1 : 0);
-#endif
     g_key_file_set_integer(content_gtk3, "Settings",
                            "gtk-xft-antialias", app.enable_antialising ? 1 : 0);
     g_key_file_set_integer(content_gtk3, "Settings",
@@ -467,9 +469,9 @@ static void lxappearance_save_gtkrc()
 
     g_free(file_path_gtk3);
     g_free(file_path_settings);
-    g_string_free(content, TRUE);
     g_key_file_free(content_gtk3);
-    g_free(file_path);
+
+#endif
 }
 
 static void lxappearance_save_lxsession()
