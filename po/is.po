@@ -30,8 +30,8 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr "gluggar;valkostir;stillingar;þema;stíll;útlit;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2023 LXDE Project"
-msgstr "Höfundarréttur (C) 2008-2023 LXDE verkefnið"
+msgid "Copyright (C) 2008-2025 LXDE Project"
+msgstr "Höfundarréttur (C) 2008-2025 LXDE verkefnið"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

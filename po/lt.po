@@ -32,8 +32,8 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr "langai;nuostatos;nustatymai;tema;stilius;išvaizda;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2023 LXDE Project"
-msgstr "Autorių teisės (C) 2008-2023 LXDE projektas"
+msgid "Copyright (C) 2008-2025 LXDE Project"
+msgstr "Autorių teisės (C) 2008-2025 LXDE projektas"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

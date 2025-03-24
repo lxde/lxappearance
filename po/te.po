@@ -32,8 +32,8 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr "కిటికీలు;ప్రాధాన్యతలు;అమరికలు;అలంకారం;శైలి;కనిపించేవిధం;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2023 LXDE Project"
-msgstr "నకలుహక్కు (C) 2008-2023 LXDE పరియోజన"
+msgid "Copyright (C) 2008-2025 LXDE Project"
+msgstr "నకలుహక్కు (C) 2008-2025 LXDE పరియోజన"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

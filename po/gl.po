@@ -32,8 +32,8 @@ msgid "windows;preferences;settings;theme;style;appearance;"
 msgstr "xanelas;preferencias;axustes;tema;stilo;aparencia;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2023 LXDE Project"
-msgstr "Dereitos de autoría (C) 2008-2023 o proxecto LXDE"
+msgid "Copyright (C) 2008-2025 LXDE Project"
+msgstr "Dereitos de autoría (C) 2008-2025 o proxecto LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"

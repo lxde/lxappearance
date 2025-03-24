@@ -35,8 +35,8 @@ msgstr ""
 "חזות;מראה;"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2008-2023 LXDE Project"
-msgstr "כל הזכויות שמורות (C) 2008‏-2023 מיזם LXDE"
+msgid "Copyright (C) 2008-2025 LXDE Project"
+msgstr "כל הזכויות שמורות (C) 2008‏-2025 מיזם LXDE"
 
 #: ../data/ui/about.glade.in.h:2
 msgid "Customizes look and feel of your desktop"
