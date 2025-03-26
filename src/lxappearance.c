@@ -474,6 +474,97 @@ static void lxappearance_save_gtkrc()
     g_free(file_path);
 }
 
+#if GLIB_CHECK_VERSION(2, 40, 0)
+static void lxappearance_save_gsettings()
+{
+    GSettingsSchemaSource *source = g_settings_schema_source_get_default();
+    if (!source)
+        return;
+
+    GSettingsSchema *schema = g_settings_schema_source_lookup(source, "org.gnome.desktop.interface", TRUE);
+    if (!schema)
+        return;
+
+    GSettings *settings = g_settings_new("org.gnome.desktop.interface");
+
+    if (app.widget_theme && g_settings_schema_has_key(schema, "gtk-theme"))
+        g_settings_set_string(settings, "gtk-theme", app.widget_theme);
+
+    if (app.icon_theme && g_settings_schema_has_key(schema, "icon-theme"))
+        g_settings_set_string(settings, "icon-theme", app.icon_theme);
+
+    if (app.default_font && g_settings_schema_has_key(schema, "font-name"))
+        g_settings_set_string(settings, "font-name", app.default_font);
+
+    if (app.cursor_theme && g_settings_schema_has_key(schema, "cursor-theme"))
+        g_settings_set_string(settings, "cursor-theme", app.cursor_theme);
+
+    if (g_settings_schema_has_key(schema, "cursor-size"))
+        g_settings_set_int(settings, "cursor-size", app.cursor_theme_size);
+
+    if (app.font_rgba && g_settings_schema_has_key(schema, "font-antialiasing") && g_settings_schema_has_key(schema, "font-rgba-order"))
+    {
+        if (!app.enable_antialising)
+            g_settings_set_string(settings, "font-antialiasing", "none");
+        else if (strcmp(app.font_rgba, "none") == 0)
+            g_settings_set_string(settings, "font-antialiasing", "grayscale");
+        else
+        {
+            g_settings_set_string(settings, "font-antialiasing", "rgba");
+            if (strcmp(app.font_rgba, "rgb") == 0)
+                g_settings_set_string(settings, "font-rgba-order", "rgb");
+            else if (strcmp(app.font_rgba, "bgr") == 0)
+                g_settings_set_string(settings, "font-rgba-order", "bgr");
+            else if (strcmp(app.font_rgba, "vrgb") == 0)
+                g_settings_set_string(settings, "font-rgba-order", "vrgb");
+            else if (strcmp(app.font_rgba, "vbgr") == 0)
+                g_settings_set_string(settings, "font-rgba-order", "vbgr");
+        }
+    }
+
+    if (app.hinting_style && g_settings_schema_has_key(schema, "font-hinting"))
+    {
+        if (!app.enable_hinting || strcmp(app.hinting_style, "hintnone") == 0)
+            g_settings_set_string(settings, "font-hinting", "none");
+        else if (strcmp(app.hinting_style, "hintslight") == 0)
+            g_settings_set_string(settings, "font-hinting", "slight");
+        else if (strcmp(app.hinting_style, "hintmedium") == 0)
+            g_settings_set_string(settings, "font-hinting", "medium");
+        else if (strcmp(app.hinting_style, "hintfull") == 0)
+            g_settings_set_string(settings, "font-hinting", "full");
+    }
+
+    if (g_settings_schema_has_key(schema, "menus-have-icons"))
+        g_settings_set_boolean(settings, "menus-have-icons", app.menu_images);
+
+    if (g_settings_schema_has_key(schema, "buttons-have-icons"))
+        g_settings_set_boolean(settings, "buttons-have-icons", app.button_images);
+
+    if (g_settings_schema_has_key(schema, "toolbar-style"))
+    {
+        if (app.toolbar_style == 0)
+            g_settings_set_string(settings, "toolbar-style", "icons");
+        else if (app.toolbar_style == 1)
+            g_settings_set_string(settings, "toolbar-style", "text");
+        else if (app.toolbar_style == 2)
+            g_settings_set_string(settings, "toolbar-style", "both");
+        else if (app.toolbar_style == 3)
+            g_settings_set_string(settings, "toolbar-style", "both-horiz");
+    }
+
+    if (g_settings_schema_has_key(schema, "toolbar-icons-size"))
+    {
+        if (app.toolbar_icon_size == 2)
+            g_settings_set_string(settings, "toolbar-icons-size", "small");
+        else if (app.toolbar_icon_size == 3)
+            g_settings_set_string(settings, "toolbar-icons-size", "large");
+    }
+
+    g_settings_schema_unref(schema);
+    g_object_unref(settings);
+}
+#endif
+
 static void lxappearance_save_lxsession()
 {
     char* rel_path = g_strconcat("lxsession/", lxsession_name, "/desktop.conf", NULL);
@@ -544,6 +635,9 @@ static void on_dlg_response(GtkDialog* dlg, int res, gpointer user_data)
         if(app.use_lxsession)
             lxappearance_save_lxsession();
         lxappearance_save_gtkrc();
+#if GLIB_CHECK_VERSION(2, 40, 0)
+        lxappearance_save_gsettings();
+#endif
 
         reload_all_programs();
 
