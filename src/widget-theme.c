@@ -74,6 +74,13 @@ static void load_themes()
     GtkTreeIter sel_it = {0};
     GtkTreeSelection* tree_sel;
 
+#if GTK_CHECK_VERSION(3, 0, 0)
+    /* add built-in themes */
+    themes = g_slist_append(themes, g_strdup("Adwaita"));
+    themes = g_slist_append(themes, g_strdup("HighContrast"));
+    themes = g_slist_append(themes, g_strdup("HighContrastInverse"));
+#endif
+
     /* load from userdata theme dir first */
     dir = g_build_filename(g_get_user_data_dir(), "themes", NULL);
     themes = load_themes_in_dir(dir, themes);
