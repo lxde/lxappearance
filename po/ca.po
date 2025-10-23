@@ -4,24 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-22 14:54+0200\n"
-"PO-Revision-Date: 2018-09-28 11:31+0000\n"
+"PO-Revision-Date: 2025-10-23 10:29+0200\n"
 "Last-Translator: Davidmp <rbndavid@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Poedit 3.6\n"
 "X-POOTLE-MTIME: 1538134268.274075\n"
 
 # No sé com interpretar això de «feel»
 #: ../data/lxappearance.desktop.in.h:1
 msgid "Customize Look and Feel"
-msgstr "Personalitzeu l'aspecte i el comportament"
+msgstr "Personalitzeu-ne l'aspecte i el comportament"
 
 #: ../data/lxappearance.desktop.in.h:2
 msgid "Customizes look and feel of your desktop and applications"
@@ -43,15 +43,13 @@ msgstr "Personalitza l'aspecte i el comportament de l'escriptori"
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:4
 msgid "translator-credits"
-msgstr "translator-credits"
+msgstr "Davidmp"
 
 # No sé com interpretar això de «feel»
 #: ../data/ui/lxappearance.glade.h:1
-#, fuzzy
-#| msgid "Customize Look and Feel"
 msgctxt "Title"
 msgid "Customize Look and Feel"
-msgstr "Personalitzeu l'aspecte i el comportament"
+msgstr "Personalitzeu-ne l'aspecte i el comportament"
 
 #: ../data/ui/lxappearance.glade.h:2
 msgid "Preview of the selected widget style"
@@ -91,7 +89,7 @@ msgstr "Pàgina1"
 
 #: ../data/ui/lxappearance.glade.h:11
 msgid "column"
-msgstr ""
+msgstr "columna"
 
 #: ../data/ui/lxappearance.glade.h:12
 msgid "Page2"
@@ -115,7 +113,7 @@ msgstr "Usa un esquema de color personalitzat"
 
 #: ../data/ui/lxappearance.glade.h:17
 msgid "Normal windows:"
-msgstr "Finestra normal"
+msgstr "Finestres normals:"
 
 #: ../data/ui/lxappearance.glade.h:18
 msgid "Text windows:"
@@ -167,11 +165,11 @@ msgstr "Mida dels cursors"
 
 #: ../data/ui/lxappearance.glade.h:30
 msgid "Smaller"
-msgstr "Més petit"
+msgstr "Més petita"
 
 #: ../data/ui/lxappearance.glade.h:31
 msgid "Bigger"
-msgstr "Més gran"
+msgstr "Més grossa"
 
 #: ../data/ui/lxappearance.glade.h:32
 msgid ""
@@ -234,11 +232,11 @@ msgstr "Mida de les icones de la barra d'eines: "
 
 #: ../data/ui/lxappearance.glade.h:45
 msgid "Show images on buttons"
-msgstr "Mostra imatges en els botons"
+msgstr "Mostra imatges als botons"
 
 #: ../data/ui/lxappearance.glade.h:46
 msgid "Show images in menus"
-msgstr "Mostra imatges en els menús"
+msgstr "Mostra imatges als menús"
 
 #: ../data/ui/lxappearance.glade.h:47
 msgid "<b>GUI Options</b>"
@@ -278,8 +276,6 @@ msgid "Other"
 msgstr "Altres"
 
 #: ../data/ui/lxappearance.glade.h:56
-#, fuzzy
-#| msgid "None"
 msgctxt "Sub-pixel geometry"
 msgid "None"
 msgstr "Cap"
@@ -301,8 +297,6 @@ msgid "VBGR"
 msgstr "VBGR"
 
 #: ../data/ui/lxappearance.glade.h:61
-#, fuzzy
-#| msgid "None"
 msgctxt "Hinting style"
 msgid "None"
 msgstr "Cap"
@@ -317,7 +311,7 @@ msgstr "Mitjana"
 
 #: ../data/ui/lxappearance.glade.h:64
 msgid "Full"
-msgstr "Complet"
+msgstr "Completa"
 
 #: ../data/ui/lxappearance.glade.h:65
 msgid "Same as menu items"
@@ -329,7 +323,7 @@ msgstr "Icona de barra d'eines petita"
 
 #: ../data/ui/lxappearance.glade.h:67
 msgid "Large toolbar icon"
-msgstr "Icona de barra d'eines gran"
+msgstr "Icona de barra d'eines grossa"
 
 #: ../data/ui/lxappearance.glade.h:68
 msgid "Same as buttons"
