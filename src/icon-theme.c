@@ -83,13 +83,12 @@ void load_icon_themes_from_dir(const char* base_dir, const char* theme_dir, GKey
 
                 if(g_key_file_load_from_file(kf, index_theme, 0, NULL))
                 {
+                    theme->disp_name = g_key_file_get_locale_string(kf, "Icon Theme", "Name", NULL, NULL);
+                    theme->comment = g_key_file_get_locale_string(kf, "Icon Theme", "Comment", NULL, NULL);
+
                     /* skip hidden ones */
                     if(!g_key_file_get_boolean(kf, "Icon Theme", "Hidden", NULL))
                     {
-                        theme->disp_name = g_key_file_get_locale_string(kf, "Icon Theme", "Name", NULL, NULL);
-                        /* test if this is a icon theme or it's a cursor theme */
-                        theme->comment = g_key_file_get_locale_string(kf, "Icon Theme", "Comment", NULL, NULL);
-
                         /* icon theme must have this key, so it has icons if it has this key */
                         theme->has_icon = g_key_file_has_key(kf, "Icon Theme", "Directories", NULL);
                     }
