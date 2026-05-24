@@ -556,6 +556,7 @@ static void on_dlg_response(GtkDialog* dlg, int res, gpointer user_data)
             if(gtk_builder_add_from_file(b, PACKAGE_UI_DIR "/about.ui", NULL))
             {
                 GtkWidget* dlg = GTK_WIDGET(gtk_builder_get_object(b, "dlg"));
+                gtk_window_set_transient_for(GTK_WINDOW(dlg), GTK_WINDOW(app.dlg));
                 gtk_dialog_run(GTK_DIALOG(dlg));
                 gtk_widget_destroy(dlg);
             }
