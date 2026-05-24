@@ -2126,22 +2126,10 @@
     </columns>
     <data>
       <row>
-        <col id="0" translatable="yes">Same as menu items</col>
-      </row>
-      <row>
         <col id="0" translatable="yes">Small toolbar icon</col>
       </row>
       <row>
         <col id="0" translatable="yes">Large toolbar icon</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as buttons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as drag icons</col>
-      </row>
-      <row>
-        <col id="0" translatable="yes">Same as dialogs</col>
       </row>
     </data>
   </object>
